@@ -1,0 +1,55 @@
+name: Generate Daily Scranton News
+
+on:
+  schedule:
+    # Run daily at 6 AM EST (11 AM UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+    
+    - name: Generate daily news
+      env:
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      run: |
+        python src/daily_news.py
+    
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+    
+    - name: Upload to GitHub Pages
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: ./static
+    
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
+      
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/daily/ static/
+        git diff --staged --quiet || git commit -m "Daily news update $(date '+%Y-%m-%d')"
+        git push
