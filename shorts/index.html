@@ -268,6 +268,42 @@
             opacity: 1;
         }
 
+        .entity-info {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 8px;
+            padding: 1rem;
+            border: 1px solid rgba(255,255,255,0.2);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            pointer-events: none;
+            z-index: 15;
+        }
+
+        .entity-info.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .entity-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 0.25rem;
+        }
+
+        .entity-type {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
         .graph-svg {
             max-width: 90%;
             max-height: 100%;
@@ -481,6 +517,10 @@
                                 <div id="graph-${index}" class="graph-placeholder">
                                     <p>Loading knowledge graph...</p>
                                 </div>
+                                <div class="entity-info" id="entity-info-${index}">
+                                    <div class="entity-name" id="entity-name-${index}"></div>
+                                    <div class="entity-type" id="entity-type-${index}"></div>
+                                </div>
                             </div>
                         </div>
                         <div class="progress-bar" style="width: ${((index + 1) / shorts.length) * 100}%"></div>
@@ -577,15 +617,12 @@
                     
                     return {
                         id: index,
-                        label: entity.name.length > 12 ? entity.name.substring(0, 10) + '...' : entity.name,
+                        label: '', // Rams: No labels - let interaction reveal information
                         group: entity.type,
-                        title: `<strong>${entity.type}</strong><br/>${entity.name}<br/>Click to highlight connections`, // Rich tooltip
+                        title: `<strong>${entity.type}</strong><br/>${entity.name}<br/>Click to highlight connections`,
                         font: { 
                             color: 'white', 
-                            size: 16,
-                            face: 'Arial',
-                            strokeWidth: 3,
-                            strokeColor: 'black'
+                            size: 0, // No font needed for empty labels
                         },
                         borderWidth: 3,
                         borderWidthSelected: 5,
@@ -593,7 +630,7 @@
                         shadow: {
                             enabled: true,
                             color: 'rgba(0,0,0,0.5)',
-                            size: 10,
+                            size: 8,
                             x: 2,
                             y: 2
                         },
@@ -647,28 +684,15 @@
                 nodes: {
                     shape: 'dot',
                     size: 30,
-                    font: {
-                        size: 16,
-                        color: 'white',
-                        face: 'Arial',
-                        strokeWidth: 3,
-                        strokeColor: 'black'
-                    },
                     borderWidth: 3,
                     shadow: {
                         enabled: true,
                         color: 'rgba(0,0,0,0.5)',
-                        size: 10
+                        size: 8
                     },
-                    scaling: {
-                        min: 20,
-                        max: 50,
-                        label: {
-                            enabled: true,
-                            min: 14,
-                            max: 20,
-                            maxVisible: 20,
-                            drawThreshold: 8
+                    chosen: {
+                        node: function(values, id, selected, hovering) {
+                            values.size = 40; // Slightly larger when selected
                         }
                     }
                 },
@@ -779,8 +803,20 @@
                 
                 if (params.nodes.length > 0) {
                     const nodeId = params.nodes[0];
+                    const entity = graphData.entities[nodeId];
                     const connectedNodes = network.getConnectedNodes(nodeId);
                     const connectedEdges = network.getConnectedEdges(nodeId);
+                    
+                    // Show entity information (Rams: reveal on interaction)
+                    const entityInfo = document.getElementById(`entity-info-${currentShort}`);
+                    const entityName = document.getElementById(`entity-name-${currentShort}`);
+                    const entityType = document.getElementById(`entity-type-${currentShort}`);
+                    
+                    if (entityInfo && entityName && entityType && entity) {
+                        entityName.textContent = entity.name;
+                        entityType.textContent = entity.type;
+                        entityInfo.classList.add('visible');
+                    }
                     
                     // Highlight connected nodes and edges
                     const updateArray = [];
@@ -789,13 +825,13 @@
                             updateArray.push({
                                 id: node.id,
                                 opacity: 1,
-                                size: node.size * 1.2
+                                size: 40
                             });
                         } else {
                             updateArray.push({
                                 id: node.id,
                                 opacity: 0.3,
-                                size: node.size * 0.8
+                                size: 25
                             });
                         }
                     });
@@ -821,6 +857,12 @@
                     });
                     
                     edges.update(edgeUpdateArray);
+                } else {
+                    // Hide entity info on background click
+                    const entityInfo = document.getElementById(`entity-info-${currentShort}`);
+                    if (entityInfo) {
+                        entityInfo.classList.remove('visible');
+                    }
                 }
             });
 
