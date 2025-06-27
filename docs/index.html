@@ -446,6 +446,15 @@
             }
         }
 
+        // Generate avatar URL using DiceBear API for consistent person images
+        function generateAvatarUrl(name) {
+            // Clean name for URL
+            const cleanName = name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+            
+            // Use DiceBear avatars with initials style - professional and consistent
+            return `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(cleanName)}&backgroundColor=2563eb,7c3aed,dc2626,059669,ea580c&fontFamily=Arial&fontSize=40`;
+        }
+
         async function loadNews() {
             try {
                 // Load optimized shorts data
@@ -615,18 +624,15 @@
                         };
                     }
                     
-                    return {
+                    // Special handling for PERSON entities - use profile images
+                    let nodeConfig = {
                         id: index,
                         label: '', // Rams: No labels - let interaction reveal information
                         group: entity.type,
                         title: `<strong>${entity.type}</strong><br/>${entity.name}<br/>Click to highlight connections`,
-                        font: { 
-                            color: 'white', 
-                            size: 0, // No font needed for empty labels
-                        },
                         borderWidth: 3,
                         borderWidthSelected: 5,
-                        size: 30,
+                        size: 35,
                         shadow: {
                             enabled: true,
                             color: 'rgba(0,0,0,0.5)',
@@ -636,6 +642,16 @@
                         },
                         ...position
                     };
+
+                    if (entity.type === 'PERSON') {
+                        // Use profile image for people
+                        nodeConfig.shape = 'circularImage';
+                        nodeConfig.image = generateAvatarUrl(entity.name);
+                        nodeConfig.size = 40; // Slightly larger for profile pics
+                        nodeConfig.borderWidth = 4;
+                    }
+
+                    return nodeConfig;
                 })
             );
 
@@ -821,17 +837,21 @@
                     // Highlight connected nodes and edges
                     const updateArray = [];
                     nodes.forEach(function(node) {
+                        const entity = graphData.entities[node.id];
+                        const isPerson = entity && entity.type === 'PERSON';
+                        const baseSize = isPerson ? 40 : 35;
+                        
                         if (connectedNodes.indexOf(node.id) !== -1 || node.id === nodeId) {
                             updateArray.push({
                                 id: node.id,
                                 opacity: 1,
-                                size: 40
+                                size: baseSize * 1.2
                             });
                         } else {
                             updateArray.push({
                                 id: node.id,
                                 opacity: 0.3,
-                                size: 25
+                                size: baseSize * 0.8
                             });
                         }
                     });
@@ -870,11 +890,15 @@
             network.on("click", function(params) {
                 if (params.nodes.length === 0) {
                     // Reset all nodes and edges to original state
-                    const resetNodes = nodes.map(node => ({
-                        id: node.id,
-                        opacity: 1,
-                        size: 30
-                    }));
+                    const resetNodes = nodes.map(node => {
+                        const entity = graphData.entities[node.id];
+                        const isPerson = entity && entity.type === 'PERSON';
+                        return {
+                            id: node.id,
+                            opacity: 1,
+                            size: isPerson ? 40 : 35
+                        };
+                    });
                     
                     const resetEdges = edges.map(edge => ({
                         id: edge.id,
