@@ -1,0 +1,56 @@
+# Testing dependencies for Scrantenna project
+
+# Core testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0          # Coverage reporting
+pytest-xdist>=2.5.0        # Parallel test execution
+pytest-mock>=3.10.0        # Enhanced mocking capabilities
+pytest-timeout>=2.1.0      # Test timeout handling
+pytest-env>=0.8.1          # Environment variable management
+
+# BDD Testing
+behave>=1.2.6               # Gherkin/BDD framework
+pytest-bdd>=6.1.1           # BDD integration with pytest
+
+# Web testing
+playwright>=1.28.0          # Modern web testing
+pytest-playwright>=0.3.0   # Playwright pytest integration
+requests-mock>=1.9.3       # HTTP request mocking
+
+# Performance testing
+pytest-benchmark>=4.0.0    # Performance benchmarking
+memory-profiler>=0.60.0    # Memory usage profiling
+
+# Data validation
+jsonschema>=4.17.0         # JSON schema validation
+faker>=15.0.0              # Test data generation
+
+# Mocking and fixtures
+responses>=0.22.0          # HTTP response mocking
+factory-boy>=3.2.1         # Test data factories
+freezegun>=1.2.2           # Date/time mocking
+
+# Code quality
+flake8>=5.0.0              # Code linting
+black>=22.0.0              # Code formatting
+isort>=5.11.0              # Import sorting
+mypy>=0.991                # Type checking
+
+# Testing utilities
+tox>=3.25.0                # Testing across environments
+coverage[toml]>=6.5.0      # Coverage measurement
+hypothesis>=6.60.0         # Property-based testing
+
+# Specific to project dependencies
+beautifulsoup4>=4.11.0     # HTML parsing for web tests
+lxml>=4.9.0                # XML processing for tests
+Pillow>=9.3.0              # Image processing tests
+
+# Optional LLM testing (if available)
+ollama>=0.1.0              # Local LLM testing
+transformers>=4.25.0       # HuggingFace model testing
+
+# Development helpers
+ipdb>=0.13.9               # Interactive debugging
+pytest-sugar>=0.9.6       # Better test output
+pytest-clarity>=1.0.1     # Clearer assertion errors

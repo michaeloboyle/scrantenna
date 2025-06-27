@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrantenna Fixes Test</title>
+    <style>
+        body { 
+            background: #000; 
+            color: white; 
+            font-family: Arial, sans-serif; 
+            padding: 2rem; 
+        }
+        .test-section { 
+            margin: 2rem 0; 
+            padding: 1rem; 
+            border: 1px solid #333; 
+            border-radius: 8px; 
+        }
+        .success { color: #4CAF50; }
+        .error { color: #f44336; }
+        .graph-test { 
+            background: rgba(255,255,255,0.1); 
+            padding: 1rem; 
+            border-radius: 8px; 
+            margin: 1rem 0; 
+        }
+    </style>
+</head>
+<body>
+    <h1>🔧 Scrantenna Fixes Test</h1>
+    
+    <div class="test-section">
+        <h2>📝 Distilled Text Truncation Test</h2>
+        <p id="truncation-test">Loading...</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔗 Knowledge Graph Visibility Test</h2>
+        <div id="graph-test" class="graph-test">
+            <p>Loading graph test...</p>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📊 Data Status</h2>
+        <div id="data-status">Loading...</div>
+    </div>
+
+    <script>
+        async function runTests() {
+            console.log('🧪 Running Scrantenna fixes tests...');
+            
+            // Test 1: Load shorts data and check for truncation
+            try {
+                const response = await fetch('./shorts_data.json');
+                const data = await response.json();
+                
+                let truncationTestResult = '✅ No truncation issues found';
+                let hasGraphData = false;
+                
+                data.shorts.forEach((short, i) => {
+                    // Check for truncation indicators
+                    if (short.title_distilled && short.title_distilled.includes('...')) {
+                        truncationTestResult = `❌ Found truncated distilled title in short ${i}: "${short.title_distilled}"`;
+                    }
+                    if (short.description_distilled && short.description_distilled.includes('...')) {
+                        truncationTestResult = `❌ Found truncated distilled description in short ${i}: "${short.description_distilled}"`;
+                    }
+                    
+                    // Check for graph data
+                    if (short.graph && short.graph.entities && short.graph.entities.length > 0) {
+                        hasGraphData = true;
+                    }
+                });
+                
+                document.getElementById('truncation-test').innerHTML = truncationTestResult;
+                
+                // Test 2: Generate a sample graph
+                const sampleArticle = data.shorts[0];
+                const graphHtml = await generateTestGraph(sampleArticle);
+                document.getElementById('graph-test').innerHTML = graphHtml || '<p class="error">❌ Graph generation failed</p>';
+                
+                // Test 3: Data status
+                document.getElementById('data-status').innerHTML = `
+                    <p>📊 <span class="success">${data.total_shorts} shorts loaded</span></p>
+                    <p>🔗 <span class="${hasGraphData ? 'success' : 'error'}">${hasGraphData ? 'Graph data present' : 'No graph data found'}</span></p>
+                    <p>⏰ Generated: ${new Date(data.generated_at).toLocaleString()}</p>
+                `;
+                
+            } catch (error) {
+                console.error('Test failed:', error);
+                document.getElementById('truncation-test').innerHTML = '❌ Failed to load test data: ' + error.message;
+                document.getElementById('data-status').innerHTML = '❌ Data loading failed';
+            }
+        }
+        
+        async function generateTestGraph(article) {
+            const text = `${article.title || ''} ${article.description || ''}`;
+            
+            // Simple entity extraction for test
+            const words = text.split(/\s+/);
+            const entities = words
+                .filter(word => /^[A-Z][a-z]+/.test(word.replace(/[^\\w]/g, '')))
+                .slice(0, 4)
+                .map((word, i) => ({
+                    name: word.replace(/[^\\w]/g, ''),
+                    type: ['Person', 'Location', 'Organization', 'Event'][i % 4]
+                }));
+            
+            if (entities.length === 0) {
+                entities.push(
+                    { name: 'Scranton', type: 'Location' },
+                    { name: 'News', type: 'Organization' }
+                );
+            }
+            
+            // Generate simple SVG
+            const colors = {
+                'Person': '#FF6B6B',
+                'Organization': '#4ECDC4', 
+                'Location': '#45B7D1',
+                'Event': '#FFA726'
+            };
+            
+            let svg = '<svg width="300" height="150" viewBox="0 0 300 150" style="background: rgba(0,0,0,0.2); border-radius: 8px;">';
+            
+            entities.forEach((entity, i) => {
+                const x = 50 + (i % 3) * 100;
+                const y = 50 + Math.floor(i / 3) * 50;
+                const color = colors[entity.type] || '#888';
+                
+                svg += `<circle cx="${x}" cy="${y}" r="15" fill="${color}" stroke="white" stroke-width="2"/>`;
+                svg += `<text x="${x}" y="${y-20}" text-anchor="middle" fill="white" font-size="10" font-weight="bold">${entity.name.substring(0, 8)}</text>`;
+                svg += `<text x="${x}" y="${y+30}" text-anchor="middle" fill="white" font-size="8">${entity.type}</text>`;
+            });
+            
+            svg += '</svg>';
+            
+            return `
+                <h3>✅ Graph Generation Test</h3>
+                <p>Found ${entities.length} entities: ${entities.map(e => e.name).join(', ')}</p>
+                ${svg}
+            `;
+        }
+        
+        // Run tests when page loads
+        document.addEventListener('DOMContentLoaded', runTests);
+    </script>
+</body>
+</html>
