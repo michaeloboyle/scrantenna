@@ -247,6 +247,27 @@
             border-radius: 0 0 12px 12px;
         }
 
+        .engagement-indicator {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 215, 0, 0.9);
+            color: black;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            z-index: 20;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .engagement-indicator.visible {
+            opacity: 1;
+        }
+
         .graph-svg {
             max-width: 90%;
             max-height: 100%;
@@ -371,6 +392,23 @@
         let currentShort = 0;
         let shorts = [];
         let currentMode = 'read'; // 'read', 'brief', or 'explore'
+        let graphEngaged = false; // Track if user is interacting with graph
+        let autoAdvanceTimer = null; // Store timer reference
+
+        // Function to mark graph as engaged and show indicator
+        function markGraphEngaged() {
+            graphEngaged = true;
+            const indicator = document.getElementById(`engagement-${currentShort}`);
+            if (indicator) {
+                indicator.classList.add('visible');
+                // Hide indicator after 3 seconds
+                setTimeout(() => {
+                    if (indicator) {
+                        indicator.classList.remove('visible');
+                    }
+                }, 3000);
+            }
+        }
 
         async function loadNews() {
             try {
@@ -435,6 +473,9 @@
                                     <span>${article.source || article.source?.name || 'Unknown'}</span>
                                     <span>${new Date(article.publishedAt).toLocaleDateString()}</span>
                                 </div>
+                            </div>
+                            <div class="engagement-indicator" id="engagement-${index}">
+                                🔍 Exploring - Auto-advance paused
                             </div>
                             <div class="graph-content">
                                 <div id="graph-${index}" class="graph-placeholder">
@@ -733,6 +774,9 @@
 
             // Add interaction handlers
             network.on("click", function(params) {
+                // Mark graph as engaged on any click
+                markGraphEngaged();
+                
                 if (params.nodes.length > 0) {
                     const nodeId = params.nodes[0];
                     const connectedNodes = network.getConnectedNodes(nodeId);
@@ -799,6 +843,23 @@
                     nodes.update(resetNodes);
                     edges.update(resetEdges);
                 }
+            });
+            
+            // Track additional engagement events
+            network.on("zoom", function(params) {
+                markGraphEngaged();
+            });
+            
+            network.on("dragStart", function(params) {
+                markGraphEngaged();
+            });
+            
+            network.on("dragging", function(params) {
+                markGraphEngaged();
+            });
+            
+            network.on("hoverNode", function(params) {
+                markGraphEngaged();
             });
 
             // Fit network to container
@@ -1003,12 +1064,23 @@
 
             currentShort = index;
             
-            // Auto-advance after 10 seconds
-            setTimeout(() => {
-                if (currentShort === index) { // Only advance if still on same short
+            // Clear any existing timer
+            if (autoAdvanceTimer) {
+                clearTimeout(autoAdvanceTimer);
+                autoAdvanceTimer = null;
+            }
+            
+            // Reset graph engagement when switching shorts
+            graphEngaged = false;
+            
+            // Set auto-advance timer (10 seconds for text modes, 15 seconds for explore)
+            const delay = currentMode === 'explore' ? 15000 : 10000;
+            autoAdvanceTimer = setTimeout(() => {
+                // Only advance if still on same short AND graph is not engaged
+                if (currentShort === index && !graphEngaged) {
                     nextShort();
                 }
-            }, 10000);
+            }, delay);
         }
 
         function nextShort() {
