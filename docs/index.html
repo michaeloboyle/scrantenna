@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scrantenna Shorts</title>
+    <script src="https://unpkg.com/vis-network@latest/standalone/umd/vis-network.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -179,14 +180,13 @@
 
         .graph-container {
             width: 100%;
-            height: 60%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            height: 400px;
             margin: 2rem 0;
-            background: rgba(255,255,255,0.1);
+            background: rgba(0,0,0,0.3);
             border-radius: 12px;
-            padding: 1rem;
+            border: 1px solid rgba(255,255,255,0.2);
+            position: relative;
+            overflow: hidden;
         }
 
         .graph-svg {
@@ -373,7 +373,7 @@
         }
 
         async function loadGraphForArticle(index, article) {
-            // Load and display knowledge graph for specific article
+            // Load and display knowledge graph using Vis.js
             const graphContainer = document.getElementById(`graph-${index}`);
             
             if (!graphContainer) {
@@ -385,23 +385,139 @@
                 console.log(`Loading graph for article ${index}:`, article.title);
                 
                 // Use embedded graph data if available
-                if (article.graph && article.graph.svg) {
-                    console.log('Using embedded SVG graph');
-                    graphContainer.innerHTML = article.graph.svg;
+                if (article.graph && article.graph.entities) {
+                    console.log('Using embedded graph data with Vis.js');
+                    createVisJsGraph(graphContainer, article.graph);
                 } else {
-                    console.log('Generating inline graph');
-                    // Fallback to generating inline graph
-                    const graphData = await generateInlineGraph(article);
-                    if (graphData && graphData.trim().length > 0) {
-                        graphContainer.innerHTML = graphData;
-                    } else {
-                        graphContainer.innerHTML = '<p style="color: white;">No entities found for graph</p>';
-                    }
+                    console.log('Generating fallback graph');
+                    // Fallback to generating basic graph
+                    const entities = extractSimpleEntities(`${article.title || ''} ${article.description || article.content || ''}`);
+                    const relationships = extractSimpleRelationships(`${article.title || ''} ${article.description || article.content || ''}`, entities);
+                    
+                    createVisJsGraph(graphContainer, {
+                        entities: entities,
+                        relationships: relationships
+                    });
                 }
             } catch (error) {
                 console.error('Graph loading failed:', error);
                 graphContainer.innerHTML = `<p style="color: white;">Graph loading failed: ${error.message}</p>`;
             }
+        }
+
+        function createVisJsGraph(container, graphData) {
+            // Clear container
+            container.innerHTML = '';
+            
+            if (!graphData || !graphData.entities || graphData.entities.length === 0) {
+                container.innerHTML = '<p style="color: white; text-align: center; padding: 20px;">No entities found</p>';
+                return;
+            }
+
+            // Create nodes from entities
+            const nodes = new vis.DataSet(
+                graphData.entities.map((entity, index) => ({
+                    id: index,
+                    label: entity.name,
+                    group: entity.type,
+                    title: `${entity.type}: ${entity.name}`, // Tooltip
+                    font: { color: 'white', size: 14 },
+                    borderWidth: 2,
+                    borderWidthSelected: 3
+                }))
+            );
+
+            // Create edges from relationships  
+            const edges = new vis.DataSet(
+                (graphData.relationships || []).map(rel => {
+                    const fromIndex = graphData.entities.findIndex(e => e.name === rel.from);
+                    const toIndex = graphData.entities.findIndex(e => e.name === rel.to);
+                    
+                    if (fromIndex !== -1 && toIndex !== -1) {
+                        return {
+                            from: fromIndex,
+                            to: toIndex,
+                            label: rel.type,
+                            arrows: 'to',
+                            font: { color: 'white', size: 10 },
+                            color: { color: 'rgba(255,255,255,0.8)' }
+                        };
+                    }
+                    return null;
+                }).filter(edge => edge !== null)
+            );
+
+            // Network options
+            const options = {
+                nodes: {
+                    shape: 'dot',
+                    size: 25,
+                    font: {
+                        size: 12,
+                        color: 'white'
+                    },
+                    borderWidth: 2,
+                    shadow: true
+                },
+                edges: {
+                    width: 2,
+                    color: { inherit: true },
+                    smooth: {
+                        type: 'continuous'
+                    },
+                    arrows: {
+                        to: { enabled: true, scaleFactor: 1 }
+                    },
+                    font: {
+                        color: 'white',
+                        size: 10,
+                        strokeWidth: 2,
+                        strokeColor: 'black'
+                    }
+                },
+                groups: {
+                    PERSON: { color: { background: '#FF6B6B', border: '#FF4444' } },
+                    ORGANIZATION: { color: { background: '#4ECDC4', border: '#2EAD9A' } },
+                    LOCATION: { color: { background: '#45B7D1', border: '#2E95B1' } },
+                    WORK: { color: { background: '#9C27B0', border: '#7C1B90' } },
+                    EVENT: { color: { background: '#AB47BC', border: '#8B279C' } },
+                    OTHER: { color: { background: '#78909C', border: '#58707C' } }
+                },
+                physics: {
+                    enabled: true,
+                    stabilization: { iterations: 150 },
+                    barnesHut: {
+                        gravitationalConstant: -2000,
+                        centralGravity: 0.3,
+                        springLength: 95,
+                        springConstant: 0.04,
+                        damping: 0.09
+                    }
+                },
+                interaction: {
+                    hover: true,
+                    selectConnectedEdges: false
+                },
+                layout: {
+                    improvedLayout: true
+                }
+            };
+
+            // Create network
+            const data = { nodes: nodes, edges: edges };
+            const network = new vis.Network(container, data, options);
+
+            // Fit network to container after stabilization
+            network.once('stabilizationIterationsDone', function () {
+                network.fit({
+                    animation: {
+                        duration: 500,
+                        easingFunction: 'easeInOutQuad'
+                    }
+                });
+            });
+
+            return network;
         }
 
         async function generateInlineGraph(article) {
