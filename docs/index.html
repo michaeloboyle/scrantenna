@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrantenna Shorts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #000;
+            color: white;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .shorts-container {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .short {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            opacity: 0;
+            transform: translateY(100%);
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .short.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .short.prev {
+            transform: translateY(-100%);
+        }
+
+        .short.next {
+            transform: translateY(100%);
+        }
+
+        .headline {
+            font-size: clamp(2rem, 8vw, 4rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            animation: slideInUp 1s ease-out;
+        }
+
+        .headline.svo {
+            font-size: clamp(1.5rem, 6vw, 3rem);
+            color: #FFD700;
+            font-weight: 700;
+        }
+
+        .content {
+            font-size: clamp(1rem, 4vw, 1.5rem);
+            line-height: 1.4;
+            max-width: 80%;
+            margin-bottom: 2rem;
+            animation: slideInUp 1s ease-out 0.3s both;
+        }
+
+        .metadata {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            right: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            animation: fadeIn 1s ease-out 0.6s both;
+        }
+
+        .source {
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .navigation {
+            position: fixed;
+            right: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            z-index: 100;
+        }
+
+        .nav-btn {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.1);
+        }
+
+        .progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 4px;
+            background: #FFD700;
+            transition: width 0.3s ease;
+        }
+
+        .format-toggle {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            font-size: 0.9rem;
+            z-index: 100;
+        }
+
+        .format-toggle:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .view-toggle {
+            position: fixed;
+            top: 5rem;
+            right: 2rem;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            font-size: 0.9rem;
+            z-index: 100;
+        }
+
+        .view-toggle:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .graph-container {
+            width: 100%;
+            height: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0;
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 1rem;
+        }
+
+        .graph-svg {
+            max-width: 90%;
+            max-height: 100%;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+        }
+
+        .graph-placeholder {
+            color: white;
+            text-align: center;
+            font-size: 1.2rem;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Background patterns */
+        .short:nth-child(1) { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .short:nth-child(2) { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .short:nth-child(3) { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .short:nth-child(4) { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .short:nth-child(5) { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .short {
+                padding: 1rem;
+            }
+            
+            .navigation {
+                right: 1rem;
+            }
+            
+            .format-toggle {
+                top: 1rem;
+                right: 1rem;
+            }
+            
+            .view-toggle {
+                top: 4rem;
+                right: 1rem;
+            }
+            
+            .metadata {
+                bottom: 1rem;
+                left: 1rem;
+                right: 1rem;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="shorts-container" id="shortsContainer">
+        <!-- Shorts will be dynamically loaded here -->
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" onclick="previousShort()">↑</button>
+        <button class="nav-btn" onclick="nextShort()">↓</button>
+    </div>
+
+    <button class="format-toggle" onclick="toggleFormat()" id="formatToggle">
+        Original
+    </button>
+    
+    <button class="view-toggle" onclick="toggleView()" id="viewToggle">
+        Text
+    </button>
+
+    <script>
+        let currentShort = 0;
+        let shorts = [];
+        let showSVO = false;
+        let showGraph = false;
+
+        async function loadNews() {
+            try {
+                // Load optimized shorts data
+                const response = await fetch('shorts_data.json');
+                const data = await response.json();
+                
+                shorts = data.shorts;
+                createShorts();
+                showShort(0);
+                
+                console.log(`Loaded ${shorts.length} shorts (${data.total_duration}s total)`);
+            } catch (error) {
+                console.error('Error loading shorts:', error);
+                // Fallback to original news data
+                try {
+                    const response = await fetch('../data/daily/scranton_news_2025-06-25.json');
+                    const data = await response.json();
+                    
+                    shorts = data.articles.slice(0, 10);
+                    createShorts();
+                    showShort(0);
+                } catch (fallbackError) {
+                    console.error('Fallback also failed:', fallbackError);
+                    loadDemoData();
+                }
+            }
+        }
+
+        function loadDemoData() {
+            shorts = [
+                {
+                    title: "Sample News Story",
+                    title_svo: "Reporter reports story.",
+                    description: "This is a sample news description for demonstration purposes.",
+                    description_svo: "Article mentions demonstration purposes.",
+                    source: "Demo Source",
+                    publishedAt: new Date().toISOString(),
+                    background_gradient: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+                }
+            ];
+            createShorts();
+            showShort(0);
+        }
+
+        function createShorts() {
+            const container = document.getElementById('shortsContainer');
+            container.innerHTML = '';
+
+            shorts.forEach((article, index) => {
+                const shortDiv = document.createElement('div');
+                shortDiv.className = 'short';
+                if (article.background_gradient) {
+                    shortDiv.style.background = article.background_gradient;
+                }
+                if (showGraph) {
+                    shortDiv.innerHTML = `
+                        <div class="headline">Knowledge Graph</div>
+                        <div class="graph-container">
+                            <div id="graph-${index}" class="graph-placeholder">
+                                <p>Loading knowledge graph...</p>
+                            </div>
+                        </div>
+                        <div class="metadata">
+                            <div class="source">${article.source || article.source?.name || 'Unknown Source'}</div>
+                            <div class="time">${new Date(article.publishedAt).toLocaleDateString()}</div>
+                        </div>
+                        <div class="progress-bar" style="width: ${((index + 1) / shorts.length) * 100}%"></div>
+                    `;
+                    
+                    // Load graph for this article immediately
+                    setTimeout(() => loadGraphForArticle(index, article), 100);
+                } else {
+                    shortDiv.innerHTML = `
+                        <div class="headline ${showSVO ? 'svo' : ''}" data-original="${article.title || 'No title'}" data-svo="${article.title_distilled || 'No distilled title'}">
+                            ${showSVO ? (article.title_distilled || 'No distilled title') : (article.title || 'No title')}
+                        </div>
+                        <div class="content" data-original="${article.content || article.description || 'No content'}" data-svo="${article.content_distilled || article.description_distilled || 'No distilled content'}">
+                            ${showSVO ? (article.content_distilled || article.description_distilled || 'No distilled content') : (article.content || article.description || 'No content')}
+                        </div>
+                        <div class="metadata">
+                            <div class="source">${article.source || article.source?.name || 'Unknown Source'}</div>
+                            <div class="time">${new Date(article.publishedAt).toLocaleDateString()}</div>
+                        </div>
+                        <div class="progress-bar" style="width: ${((index + 1) / shorts.length) * 100}%"></div>
+                    `;
+                }
+                container.appendChild(shortDiv);
+            });
+        }
+
+        async function loadGraphForArticle(index, article) {
+            // Load and display knowledge graph for specific article
+            const graphContainer = document.getElementById(`graph-${index}`);
+            
+            if (!graphContainer) {
+                console.error(`Graph container graph-${index} not found`);
+                return;
+            }
+            
+            try {
+                console.log(`Loading graph for article ${index}:`, article.title);
+                
+                // Use embedded graph data if available
+                if (article.graph && article.graph.svg) {
+                    console.log('Using embedded SVG graph');
+                    graphContainer.innerHTML = article.graph.svg;
+                } else {
+                    console.log('Generating inline graph');
+                    // Fallback to generating inline graph
+                    const graphData = await generateInlineGraph(article);
+                    if (graphData && graphData.trim().length > 0) {
+                        graphContainer.innerHTML = graphData;
+                    } else {
+                        graphContainer.innerHTML = '<p style="color: white;">No entities found for graph</p>';
+                    }
+                }
+            } catch (error) {
+                console.error('Graph loading failed:', error);
+                graphContainer.innerHTML = `<p style="color: white;">Graph loading failed: ${error.message}</p>`;
+            }
+        }
+
+        async function generateInlineGraph(article) {
+            // Generate a simple SVG graph for the article
+            const text = `${article.title || ''} ${article.description || article.content || ''}`;
+            console.log('Generating graph for text:', text.substring(0, 100) + '...');
+            
+            // Simple entity extraction (basic implementation)
+            const entities = extractSimpleEntities(text);
+            const relationships = extractSimpleRelationships(text, entities);
+            
+            console.log('Extracted entities:', entities);
+            console.log('Extracted relationships:', relationships);
+            
+            if (entities.length === 0) {
+                return '<p style="color: white;">No entities found</p>';
+            }
+            
+            // Generate simple SVG
+            return generateSimpleSVG(entities, relationships);
+        }
+
+        function extractSimpleEntities(text) {
+            // Extract entities using simple pattern matching
+            const entities = [];
+            
+            if (!text || text.trim().length === 0) {
+                return entities;
+            }
+            
+            // Extract proper nouns (capitalized words)
+            const words = text.split(/\s+/);
+            const properNouns = words.filter(word => {
+                // Remove punctuation and check if starts with capital
+                const cleanWord = word.replace(/[^\w]/g, '');
+                return cleanWord.length > 2 && /^[A-Z][a-z]+/.test(cleanWord);
+            });
+            
+            // Categorize entities
+            const locations = ['Scranton', 'Pennsylvania', 'County', 'City', 'Hall', 'Theater', 'Lake', 'Street', 'Avenue', 'Road'];
+            const organizations = ['Police', 'Department', 'Office', 'Service', 'Company', 'Association', 'School', 'University', 'Hospital'];
+            
+            properNouns.forEach(word => {
+                const cleanWord = word.replace(/[^\w]/g, '');
+                let type = 'Person';
+                
+                if (locations.some(loc => cleanWord.includes(loc) || loc.includes(cleanWord))) {
+                    type = 'Location';
+                } else if (organizations.some(org => cleanWord.includes(org) || org.includes(cleanWord))) {
+                    type = 'Organization';
+                }
+                
+                if (!entities.find(e => e.name === cleanWord) && cleanWord.length > 2) {
+                    entities.push({ name: cleanWord, type: type });
+                }
+            });
+            
+            // Add some default entities if none found
+            if (entities.length === 0) {
+                entities.push(
+                    { name: 'Scranton', type: 'Location' },
+                    { name: 'News', type: 'Organization' },
+                    { name: 'Community', type: 'Organization' }
+                );
+            }
+            
+            return entities.slice(0, 6); // Limit to 6 entities for readability
+        }
+
+        function extractSimpleRelationships(text, entities) {
+            // Extract simple relationships between entities
+            const relationships = [];
+            const lowerText = text.toLowerCase();
+            
+            // Simple relationship patterns
+            const patterns = [
+                { pattern: /(\w+)\s+(?:joined|joins)\s+(\w+)/, type: 'JOINED' },
+                { pattern: /(\w+)\s+(?:at|in)\s+(\w+)/, type: 'LOCATED_AT' },
+                { pattern: /(\w+)\s+(?:announced|said)/, type: 'ANNOUNCED' }
+            ];
+            
+            patterns.forEach(({ pattern, type }) => {
+                const matches = lowerText.match(pattern);
+                if (matches && matches.length > 2) {
+                    const subject = entities.find(e => e.name.toLowerCase() === matches[1]);
+                    const object = entities.find(e => e.name.toLowerCase() === matches[2]);
+                    
+                    if (subject && object) {
+                        relationships.push({ from: subject.name, to: object.name, type: type });
+                    }
+                }
+            });
+            
+            return relationships;
+        }
+
+        function generateSimpleSVG(entities, relationships) {
+            // Generate a simple SVG representation of the graph
+            const colors = {
+                'Person': '#FF6B6B',
+                'Organization': '#4ECDC4', 
+                'Location': '#45B7D1'
+            };
+            
+            let svg = '<svg width="300" height="200" viewBox="0 0 300 200" class="graph-svg">';
+            
+            // Draw entities as circles
+            entities.forEach((entity, i) => {
+                const x = 50 + (i % 3) * 100;
+                const y = 50 + Math.floor(i / 3) * 60;
+                const color = colors[entity.type] || '#888';
+                
+                svg += `<circle cx="${x}" cy="${y}" r="20" fill="${color}" stroke="white" stroke-width="2"/>`;
+                svg += `<text x="${x}" y="${y-25}" text-anchor="middle" fill="white" font-size="10" font-weight="bold">${entity.name}</text>`;
+                svg += `<text x="${x}" y="${y+35}" text-anchor="middle" fill="white" font-size="8">${entity.type}</text>`;
+            });
+            
+            // Draw relationships as lines
+            relationships.forEach(rel => {
+                const fromEntity = entities.find(e => e.name === rel.from);
+                const toEntity = entities.find(e => e.name === rel.to);
+                
+                if (fromEntity && toEntity) {
+                    const fromIndex = entities.indexOf(fromEntity);
+                    const toIndex = entities.indexOf(toEntity);
+                    
+                    const x1 = 50 + (fromIndex % 3) * 100;
+                    const y1 = 50 + Math.floor(fromIndex / 3) * 60;
+                    const x2 = 50 + (toIndex % 3) * 100;
+                    const y2 = 50 + Math.floor(toIndex / 3) * 60;
+                    
+                    svg += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="white" stroke-width="1" opacity="0.7"/>`;
+                    
+                    // Add relationship label
+                    const midX = (x1 + x2) / 2;
+                    const midY = (y1 + y2) / 2;
+                    svg += `<text x="${midX}" y="${midY}" text-anchor="middle" fill="white" font-size="8">${rel.type}</text>`;
+                }
+            });
+            
+            svg += '</svg>';
+            return svg;
+        }
+
+        function toggleView() {
+            // Toggle between text and graph view
+            showGraph = !showGraph;
+            const viewBtn = document.getElementById('viewToggle');
+            viewBtn.textContent = showGraph ? 'Graph' : 'Text';
+            
+            // Recreate shorts with new view
+            createShorts();
+            showShort(currentShort);
+        }
+
+        function showShort(index) {
+            const shortElements = document.querySelectorAll('.short');
+            
+            shortElements.forEach((short, i) => {
+                short.classList.remove('active', 'prev', 'next');
+                
+                if (i === index) {
+                    short.classList.add('active');
+                } else if (i < index) {
+                    short.classList.add('prev');
+                } else {
+                    short.classList.add('next');
+                }
+            });
+
+            currentShort = index;
+            
+            // Auto-advance after 10 seconds
+            setTimeout(() => {
+                if (currentShort === index) { // Only advance if still on same short
+                    nextShort();
+                }
+            }, 10000);
+        }
+
+        function nextShort() {
+            const nextIndex = (currentShort + 1) % shorts.length;
+            showShort(nextIndex);
+        }
+
+        function previousShort() {
+            const prevIndex = currentShort === 0 ? shorts.length - 1 : currentShort - 1;
+            showShort(prevIndex);
+        }
+
+        function toggleFormat() {
+            showSVO = !showSVO;
+            const toggleBtn = document.getElementById('formatToggle');
+            toggleBtn.textContent = showSVO ? 'Distilled' : 'Original';
+            
+            // Update all visible text
+            document.querySelectorAll('.headline').forEach(headline => {
+                headline.textContent = showSVO ? headline.dataset.svo : headline.dataset.original;
+                headline.classList.toggle('svo', showSVO);
+            });
+            
+            document.querySelectorAll('.content').forEach(content => {
+                content.textContent = showSVO ? content.dataset.svo : content.dataset.original;
+            });
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowUp':
+                    e.preventDefault();
+                    previousShort();
+                    break;
+                case 'ArrowDown':
+                case ' ':
+                    e.preventDefault();
+                    nextShort();
+                    break;
+                case 't':
+                case 'f':
+                    toggleFormat();
+                    break;
+                case 'g':
+                    toggleView();
+                    break;
+            }
+        });
+
+        // Touch/swipe support
+        let startY = 0;
+        let startX = 0;
+
+        document.addEventListener('touchstart', (e) => {
+            startY = e.touches[0].clientY;
+            startX = e.touches[0].clientX;
+        });
+
+        document.addEventListener('touchend', (e) => {
+            const endY = e.changedTouches[0].clientY;
+            const endX = e.changedTouches[0].clientX;
+            const diffY = startY - endY;
+            const diffX = startX - endX;
+            
+            // Vertical swipe (primary navigation)
+            if (Math.abs(diffY) > Math.abs(diffX) && Math.abs(diffY) > 50) {
+                if (diffY > 0) {
+                    nextShort(); // Swipe up = next
+                } else {
+                    previousShort(); // Swipe down = previous
+                }
+            }
+            // Horizontal swipe for format toggle
+            else if (Math.abs(diffX) > 100) {
+                toggleFormat();
+            }
+        });
+
+        // Initialize with error handling
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Scrantenna Shorts starting...');
+            loadNews().catch(error => {
+                console.error('Failed to load news:', error);
+                document.getElementById('shortsContainer').innerHTML = 
+                    '<div class="short active" style="background: #333; display: flex; align-items: center; justify-content: center;"><h2>Loading failed. Check console for details.</h2></div>';
+            });
+        });
+    </script>
+</body>
+</html>

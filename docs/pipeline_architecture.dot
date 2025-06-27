@@ -1,0 +1,137 @@
+digraph ScrantennaArchitecture {
+    rankdir=TB;
+    splines=ortho;
+    bgcolor="#1a1a1a";
+    fontname="Arial";
+    fontcolor="white";
+    
+    // Node styling
+    node [fontname="Arial", fontsize=10, style=filled];
+    edge [fontname="Arial", fontsize=8, color="white", fontcolor="white"];
+    
+    // Sources
+    subgraph cluster_sources {
+        label="DATA SOURCES";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        newsapi [label="NewsAPI\n(Scranton Stories)", shape=box, fillcolor="#4CAF50"];
+        openai [label="OpenAI GPT\n(Text Distillation)", shape=box, fillcolor="#FF9800"];
+        free_llm [label="Free LLMs\n(Ollama/HuggingFace)", shape=box, fillcolor="#9C27B0"];
+        spacy [label="SpaCy NLP\n(Entity Extraction)", shape=box, fillcolor="#2196F3"];
+    }
+    
+    // Aggregation Pipeline
+    subgraph cluster_aggregation {
+        label="AGGREGATION PIPELINE";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        ingest [label="News Ingestion\n(ingest_news.ipynb)", shape=ellipse, fillcolor="#667eea"];
+        distill [label="Intelligent\nDistillation", shape=ellipse, fillcolor="#f093fb"];
+        sentiment [label="Sentiment\nAnalysis", shape=ellipse, fillcolor="#4facfe"];
+        entities [label="Entity\nExtraction", shape=ellipse, fillcolor="#43e97b"];
+        knowledge [label="Knowledge Graph\nConstruction", shape=ellipse, fillcolor="#fa709a"];
+        shorts [label="Shorts\nGeneration", shape=ellipse, fillcolor="#a8edea"];
+    }
+    
+    // Processing Outputs
+    subgraph cluster_outputs {
+        label="CONTENT FORMATS";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        raw_news [label="Raw Articles\n(JSON)", shape=cylinder, fillcolor="#ffecd2"];
+        distilled_text [label="Distilled Text\n(SVO Format)", shape=cylinder, fillcolor="#ff8a80"];
+        sentiment_data [label="Sentiment Scores\n(VADER)", shape=cylinder, fillcolor="#82b1ff"];
+        graph_viz [label="Knowledge Graphs\n(SVG/DOT)", shape=cylinder, fillcolor="#84fab0"];
+        shorts_data [label="TikTok-Style Shorts\n(JSON+SVG)", shape=cylinder, fillcolor="#b388ff"];
+    }
+    
+    // Publishing Channels
+    subgraph cluster_publishing {
+        label="PUBLISHING CHANNELS";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        web_viewer [label="Web Shorts Viewer\n(index.html)", shape=hexagon, fillcolor="#FF6B6B"];
+        github_pages [label="GitHub Pages\n(Static Hosting)", shape=hexagon, fillcolor="#4ECDC4"];
+        social_export [label="Social Media\n(TikTok/Instagram)", shape=hexagon, fillcolor="#45B7D1"];
+        api_endpoint [label="JSON API\n(Data Access)", shape=hexagon, fillcolor="#96CEB4"];
+    }
+    
+    // Audiences
+    subgraph cluster_audiences {
+        label="TARGET AUDIENCES";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        local_residents [label="Scranton\nResidents", shape=diamond, fillcolor="#FFEAA7"];
+        news_consumers [label="Mobile News\nConsumers", shape=diamond, fillcolor="#DDA0DD"];
+        data_analysts [label="Civic Data\nAnalysts", shape=diamond, fillcolor="#98D8C8"];
+        developers [label="API\nConsumers", shape=diamond, fillcolor="#F7DC6F"];
+    }
+    
+    // Monetization Streams
+    subgraph cluster_monetization {
+        label="MONETIZATION STRATEGIES";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        social_revenue [label="Social Media\nRevenue Sharing", shape=octagon, fillcolor="#FFB6C1"];
+        api_subscriptions [label="API Access\nSubscriptions", shape=octagon, fillcolor="#F0E68C"];
+        civic_contracts [label="Municipal\nContracts", shape=octagon, fillcolor="#DEB887"];
+        analytics_licensing [label="Analytics\nLicensing", shape=octagon, fillcolor="#F5DEB3"];
+    }
+    
+    // Data Flow Connections
+    newsapi -> ingest [xlabel="fetch"];
+    openai -> distill [xlabel="process"];
+    free_llm -> entities [xlabel="extract (free)"];
+    spacy -> entities [xlabel="extract"];
+    
+    ingest -> distill [xlabel="articles"];
+    distill -> sentiment [xlabel="text"];
+    sentiment -> entities [xlabel="content"];
+    entities -> knowledge [xlabel="entities"];
+    knowledge -> shorts [xlabel="graphs"];
+    
+    ingest -> raw_news;
+    distill -> distilled_text;
+    sentiment -> sentiment_data;
+    knowledge -> graph_viz;
+    shorts -> shorts_data;
+    
+    // Publishing Flow
+    shorts_data -> web_viewer [xlabel="load"];
+    web_viewer -> github_pages [xlabel="host"];
+    shorts_data -> social_export [xlabel="export"];
+    raw_news -> api_endpoint [xlabel="serve"];
+    distilled_text -> api_endpoint;
+    sentiment_data -> api_endpoint;
+    graph_viz -> api_endpoint;
+    
+    // Audience Targeting
+    web_viewer -> local_residents [xlabel="engage"];
+    social_export -> news_consumers [xlabel="reach"];
+    api_endpoint -> data_analysts [xlabel="provide"];
+    api_endpoint -> developers [xlabel="integrate"];
+    
+    // Monetization Flow
+    social_export -> social_revenue [xlabel="generate"];
+    api_endpoint -> api_subscriptions [xlabel="sell"];
+    sentiment_data -> civic_contracts [xlabel="inform"];
+    graph_viz -> analytics_licensing [xlabel="license"];
+    
+    // Cross-connections for revenue flow
+    social_revenue -> web_viewer [xlabel="fund", style=dashed, color="#FFD700"];
+    api_subscriptions -> ingest [xlabel="sustain", style=dashed, color="#FFD700"];
+    civic_contracts -> knowledge [xlabel="enhance", style=dashed, color="#FFD700"];
+    analytics_licensing -> entities [xlabel="improve", style=dashed, color="#FFD700"];
+}

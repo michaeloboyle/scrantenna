@@ -1,0 +1,122 @@
+digraph AudiencePipeline {
+    rankdir=LR;
+    bgcolor="#1a1a1a";
+    fontname="Arial";
+    fontcolor="white";
+    
+    // Node styling
+    node [fontname="Arial", fontsize=12, style=filled];
+    edge [fontname="Arial", fontsize=10, color="white", fontcolor="white"];
+    
+    // Content Sources
+    subgraph cluster_sources {
+        label="CONTENT SOURCES";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        scranton_news [label="Scranton\nNews Articles", shape=box, fillcolor="#4CAF50"];
+    }
+    
+    // Processing Pipeline
+    subgraph cluster_processing {
+        label="CONTENT PROCESSING";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        distillation [label="AI Distillation\n(SVO Format)", shape=ellipse, fillcolor="#FF9800"];
+        sentiment [label="Sentiment\nAnalysis", shape=ellipse, fillcolor="#2196F3"];
+        knowledge_graphs [label="Knowledge\nGraph Gen", shape=ellipse, fillcolor="#9C27B0"];
+    }
+    
+    // Content Formats
+    subgraph cluster_formats {
+        label="CONTENT FORMATS";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        raw_format [label="Original\nArticles", shape=cylinder, fillcolor="#E0E0E0"];
+        distilled_format [label="Distilled\nText", shape=cylinder, fillcolor="#FFD54F"];
+        graph_format [label="Interactive\nGraphs", shape=cylinder, fillcolor="#81C784"];
+        shorts_format [label="TikTok-Style\nShorts", shape=cylinder, fillcolor="#F06292"];
+    }
+    
+    // Distribution Channels
+    subgraph cluster_distribution {
+        label="DISTRIBUTION CHANNELS";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        web_platform [label="Web Viewer\n(GitHub Pages)", shape=hexagon, fillcolor="#42A5F5"];
+        social_platforms [label="Social Media\n(TikTok/Instagram)", shape=hexagon, fillcolor="#FF7043"];
+        api_access [label="JSON API\n(Developers)", shape=hexagon, fillcolor="#66BB6A"];
+    }
+    
+    // Target Audiences
+    subgraph cluster_audiences {
+        label="TARGET AUDIENCES";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        local_citizens [label="Scranton\nResidents", shape=diamond, fillcolor="#FFCC02"];
+        mobile_users [label="Mobile News\nConsumers", shape=diamond, fillcolor="#FF6B6B"];
+        civic_analysts [label="Data Analysts\n& Researchers", shape=diamond, fillcolor="#4ECDC4"];
+        developers [label="API Consumers\n& Integrators", shape=diamond, fillcolor="#95E1D3"];
+    }
+    
+    // Monetization
+    subgraph cluster_monetization {
+        label="REVENUE STREAMS";
+        style=filled;
+        fillcolor="#2d2d2d";
+        fontcolor="white";
+        
+        social_revenue [label="Social Media\nRevenue Share", shape=octagon, fillcolor="#FFB74D"];
+        api_subscriptions [label="API Access\nFees", shape=octagon, fillcolor="#A1C181"];
+        civic_contracts [label="Municipal\nContracts", shape=octagon, fillcolor="#C7CEEA"];
+        analytics_sales [label="Data Analytics\nLicensing", shape=octagon, fillcolor="#FFEAA7"];
+    }
+    
+    // Data Flow
+    scranton_news -> distillation [label="process"];
+    scranton_news -> sentiment [label="analyze"];
+    scranton_news -> knowledge_graphs [label="extract"];
+    
+    distillation -> raw_format;
+    distillation -> distilled_format;
+    sentiment -> distilled_format;
+    knowledge_graphs -> graph_format;
+    
+    raw_format -> shorts_format [label="combine"];
+    distilled_format -> shorts_format;
+    graph_format -> shorts_format;
+    
+    // Distribution
+    shorts_format -> web_platform;
+    shorts_format -> social_platforms;
+    raw_format -> api_access;
+    distilled_format -> api_access;
+    graph_format -> api_access;
+    
+    // Audience Targeting
+    web_platform -> local_citizens [label="engage\nlocally"];
+    social_platforms -> mobile_users [label="reach\nglobally"];
+    api_access -> civic_analysts [label="provide\ndata"];
+    api_access -> developers [label="enable\nintegration"];
+    
+    // Monetization Flow
+    social_platforms -> social_revenue [label="generate"];
+    api_access -> api_subscriptions [label="subscription"];
+    civic_analysts -> civic_contracts [label="consulting"];
+    graph_format -> analytics_sales [label="license"];
+    
+    // Revenue Feedback (dashed lines)
+    social_revenue -> web_platform [style=dashed, color="#FFD700", label="fund"];
+    api_subscriptions -> scranton_news [style=dashed, color="#FFD700", label="sustain"];
+    civic_contracts -> knowledge_graphs [style=dashed, color="#FFD700", label="enhance"];
+    analytics_sales -> sentiment [style=dashed, color="#FFD700", label="improve"];
+}
