@@ -1,0 +1,98 @@
+name: Enhanced Daily News with LLM Extraction
+
+on:
+  schedule:
+    # Run daily at 6 AM EST (11 AM UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-enhanced-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install Ollama
+      run: |
+        echo "🦙 Installing Ollama..."
+        curl -fsSL https://ollama.com/install.sh | sh
+        
+        # Start Ollama service
+        ollama serve &
+        sleep 10
+        
+        # Pull lightweight Llama model
+        echo "📥 Downloading Llama 3.2 3B model..."
+        ollama pull llama3.2:3b
+        
+        # Verify installation
+        ollama list
+    
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
+        # Add additional dependencies for LLM extraction
+        pip install requests beautifulsoup4 pandas
+    
+    - name: Generate news with LLM extraction
+      env:
+        NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      run: |
+        echo "📰 Fetching daily news..."
+        python src/daily_news.py
+        
+        echo "🧠 Running enhanced entity extraction..."
+        cd shorts
+        python generate_shorts.py --force
+        
+        echo "📊 Generated $(jq '.total_shorts' shorts_data.json) shorts with LLM extraction"
+    
+    - name: Copy to docs for GitHub Pages
+      run: |
+        cp shorts/index.html docs/
+        cp shorts/shorts_data.json docs/
+        
+        echo "📋 Deployment Summary:"
+        echo "- Shorts generated: $(jq '.total_shorts' docs/shorts_data.json)"
+        echo "- Method used: $(jq -r '.shorts[0].graph.method' docs/shorts_data.json)"
+        echo "- Generated at: $(jq -r '.generated_at' docs/shorts_data.json)"
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        
+        git add data/daily/ docs/ static/ shorts/shorts_data.json
+        
+        if ! git diff --staged --quiet; then
+          git commit -m "Daily news update with LLM extraction $(date '+%Y-%m-%d')
+          
+          📊 Generated $(jq '.total_shorts' docs/shorts_data.json) shorts
+          🧠 Method: $(jq -r '.shorts[0].graph.method' docs/shorts_data.json)
+          
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          
+          git push
+          echo "✅ Changes committed and pushed"
+        else
+          echo "ℹ️ No changes to commit"
+        fi
+        
+    - name: Deployment status
+      run: |
+        echo "🚀 Site will be available at: http://oboyle.co/scrantenna/"
+        echo "⏱️ GitHub Pages deployment typically takes 5-10 minutes"
