@@ -194,13 +194,57 @@
 
         .graph-container {
             width: 100%;
-            height: calc(100vh - 200px);
-            margin: 2rem 0;
+            height: calc(100vh - 120px);
+            margin: 0;
             background: rgba(0,0,0,0.3);
             border-radius: 12px;
             border: 1px solid rgba(255,255,255,0.2);
             position: relative;
             overflow: hidden;
+        }
+
+        .graph-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 12px 12px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1.5rem;
+            z-index: 10;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .graph-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            margin: 0;
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .graph-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.8);
+        }
+
+        .graph-content {
+            position: absolute;
+            top: 60px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 0 0 12px 12px;
         }
 
         .graph-svg {
@@ -276,6 +320,24 @@
                 right: 1rem;
                 flex-direction: column;
                 gap: 0.5rem;
+            }
+
+            .graph-header {
+                height: 50px;
+                padding: 0 1rem;
+            }
+
+            .graph-title {
+                font-size: 0.9rem;
+            }
+
+            .graph-meta {
+                font-size: 0.7rem;
+                gap: 0.5rem;
+            }
+
+            .graph-content {
+                top: 50px;
             }
         }
     </style>
@@ -366,15 +428,19 @@
                 }
                 if (currentMode === 'explore') {
                     shortDiv.innerHTML = `
-                        <div class="headline">${article.title || 'Knowledge Graph'}</div>
                         <div class="graph-container">
-                            <div id="graph-${index}" class="graph-placeholder">
-                                <p>Loading knowledge graph...</p>
+                            <div class="graph-header">
+                                <div class="graph-title">${article.title || 'Knowledge Graph'}</div>
+                                <div class="graph-meta">
+                                    <span>${article.source || article.source?.name || 'Unknown'}</span>
+                                    <span>${new Date(article.publishedAt).toLocaleDateString()}</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="metadata">
-                            <div class="source">${article.source || article.source?.name || 'Unknown Source'}</div>
-                            <div class="time">${new Date(article.publishedAt).toLocaleDateString()}</div>
+                            <div class="graph-content">
+                                <div id="graph-${index}" class="graph-placeholder">
+                                    <p>Loading knowledge graph...</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="progress-bar" style="width: ${((index + 1) / shorts.length) * 100}%"></div>
                     `;
@@ -411,6 +477,10 @@
                 console.error(`Graph container graph-${index} not found`);
                 return;
             }
+            
+            // Make container fill the graph-content area
+            graphContainer.style.width = '100%';
+            graphContainer.style.height = '100%';
             
             try {
                 console.log(`Loading graph for article ${index}:`, article.title);
