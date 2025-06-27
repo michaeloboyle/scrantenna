@@ -145,27 +145,12 @@
             top: 2rem;
             right: 2rem;
             display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            z-index: 100;
-        }
-
-        .mode-group {
-            display: flex;
             background: rgba(0,0,0,0.4);
             backdrop-filter: blur(10px);
             border-radius: 8px;
             padding: 4px;
             border: 1px solid rgba(255,255,255,0.1);
-        }
-
-        .format-group {
-            display: flex;
-            background: rgba(0,0,0,0.4);
-            backdrop-filter: blur(10px);
-            border-radius: 6px;
-            padding: 2px;
-            border: 1px solid rgba(255,255,255,0.1);
+            z-index: 100;
         }
 
         .mode-btn {
@@ -182,7 +167,7 @@
             flex-direction: column;
             align-items: center;
             gap: 0.25rem;
-            min-width: 60px;
+            min-width: 65px;
         }
 
         .mode-btn.active {
@@ -207,33 +192,9 @@
             letter-spacing: 0.5px;
         }
 
-        .format-btn {
-            background: transparent;
-            border: none;
-            color: rgba(255,255,255,0.7);
-            padding: 0.5rem 0.75rem;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.8rem;
-            font-weight: 500;
-            transition: all 0.2s ease;
-            min-width: 45px;
-        }
-
-        .format-btn.active {
-            background: rgba(255,255,255,0.2);
-            color: white;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-        }
-
-        .format-btn:hover:not(.active) {
-            background: rgba(255,255,255,0.1);
-            color: rgba(255,255,255,0.9);
-        }
-
         .graph-container {
             width: 100%;
-            height: 400px;
+            height: calc(100vh - 200px);
             margin: 2rem 0;
             background: rgba(0,0,0,0.3);
             border-radius: 12px;
@@ -294,12 +255,11 @@
             .mode-controls {
                 top: 1rem;
                 right: 1rem;
-                gap: 0.75rem;
             }
             
             .mode-btn {
                 padding: 0.5rem 0.75rem;
-                min-width: 50px;
+                min-width: 55px;
             }
             
             .mode-icon {
@@ -308,12 +268,6 @@
             
             .mode-label {
                 font-size: 0.7rem;
-            }
-            
-            .format-btn {
-                padding: 0.4rem 0.6rem;
-                min-width: 38px;
-                font-size: 0.75rem;
             }
             
             .metadata {
@@ -337,27 +291,24 @@
     </div>
 
     <div class="mode-controls">
-        <div class="mode-group">
-            <button class="mode-btn active" onclick="setView('text')" id="textBtn">
-                <span class="mode-icon">📄</span>
-                <span class="mode-label">Read</span>
-            </button>
-            <button class="mode-btn" onclick="setView('graph')" id="graphBtn">
-                <span class="mode-icon">🕸️</span>
-                <span class="mode-label">Explore</span>
-            </button>
-        </div>
-        <div class="format-group">
-            <button class="format-btn active" onclick="setFormat('full')" id="fullBtn">Full</button>
-            <button class="format-btn" onclick="setFormat('brief')" id="briefBtn">Brief</button>
-        </div>
+        <button class="mode-btn active" onclick="setMode('read')" id="readBtn">
+            <span class="mode-icon">📖</span>
+            <span class="mode-label">Read</span>
+        </button>
+        <button class="mode-btn" onclick="setMode('brief')" id="briefBtn">
+            <span class="mode-icon">📝</span>
+            <span class="mode-label">Brief</span>
+        </button>
+        <button class="mode-btn" onclick="setMode('explore')" id="exploreBtn">
+            <span class="mode-icon">🕸️</span>
+            <span class="mode-label">Explore</span>
+        </button>
     </div>
 
     <script>
         let currentShort = 0;
         let shorts = [];
-        let currentFormat = 'full'; // 'full' or 'brief'
-        let currentView = 'text'; // 'text' or 'graph'
+        let currentMode = 'read'; // 'read', 'brief', or 'explore'
 
         async function loadNews() {
             try {
@@ -413,9 +364,9 @@
                 if (article.background_gradient) {
                     shortDiv.style.background = article.background_gradient;
                 }
-                if (currentView === 'graph') {
+                if (currentMode === 'explore') {
                     shortDiv.innerHTML = `
-                        <div class="headline">Knowledge Graph</div>
+                        <div class="headline">${article.title || 'Knowledge Graph'}</div>
                         <div class="graph-container">
                             <div id="graph-${index}" class="graph-placeholder">
                                 <p>Loading knowledge graph...</p>
@@ -431,13 +382,15 @@
                     // Load graph for this article immediately
                     setTimeout(() => loadGraphForArticle(index, article), 100);
                 } else {
-                    const isBrief = currentFormat === 'brief';
+                    const isRead = currentMode === 'read';
+                    const isBrief = currentMode === 'brief';
+                    
                     shortDiv.innerHTML = `
                         <div class="headline ${isBrief ? 'svo' : ''}" data-full="${article.title || 'No title'}" data-brief="${article.title_distilled || 'No distilled title'}">
-                            ${isBrief ? (article.title_distilled || 'No distilled title') : (article.title || 'No title')}
+                            ${isRead ? (article.title || 'No title') : (article.title_distilled || article.title || 'No distilled title')}
                         </div>
                         <div class="content" data-full="${article.content || article.description || 'No content'}" data-brief="${article.content_distilled || article.description_distilled || 'No distilled content'}">
-                            ${isBrief ? (article.content_distilled || article.description_distilled || 'No distilled content') : (article.content || article.description || 'No content')}
+                            ${isRead ? (article.content || article.description || 'No content') : (article.content_distilled || article.description_distilled || article.content || article.description || 'No distilled content')}
                         </div>
                         <div class="metadata">
                             <div class="source">${article.source || article.source?.name || 'Unknown Source'}</div>
@@ -933,47 +886,34 @@
             return svg;
         }
 
-        function setView(view) {
-            currentView = view;
+        function setMode(mode) {
+            currentMode = mode;
             
-            // Update button states
-            document.getElementById('textBtn').classList.toggle('active', view === 'text');
-            document.getElementById('graphBtn').classList.toggle('active', view === 'graph');
+            // Update button states - pure Rams: one active state, clear purpose
+            document.getElementById('readBtn').classList.toggle('active', mode === 'read');
+            document.getElementById('briefBtn').classList.toggle('active', mode === 'brief');
+            document.getElementById('exploreBtn').classList.toggle('active', mode === 'explore');
             
-            // Recreate shorts with new view
+            // Recreate shorts with new mode
             createShorts();
             showShort(currentShort);
         }
 
+        // Legacy functions for backward compatibility
+        function setView(view) {
+            setMode(view === 'graph' ? 'explore' : 'read');
+        }
+
         function setFormat(format) {
-            currentFormat = format;
-            
-            // Update button states
-            document.getElementById('fullBtn').classList.toggle('active', format === 'full');
-            document.getElementById('briefBtn').classList.toggle('active', format === 'brief');
-            
-            if (currentView === 'text') {
-                // Update all visible text
-                const isBrief = format === 'brief';
-                document.querySelectorAll('.headline').forEach(headline => {
-                    headline.textContent = isBrief ? headline.dataset.brief : headline.dataset.full;
-                    headline.classList.toggle('svo', isBrief);
-                });
-                
-                document.querySelectorAll('.content').forEach(content => {
-                    content.textContent = isBrief ? content.dataset.brief : content.dataset.full;
-                });
-            }
+            setMode(format === 'brief' ? 'brief' : 'read');
         }
 
-        // Legacy function for backward compatibility
         function toggleView() {
-            setView(currentView === 'text' ? 'graph' : 'text');
+            setMode(currentMode === 'explore' ? 'read' : 'explore');
         }
 
-        // Legacy function for backward compatibility  
         function toggleFormat() {
-            setFormat(currentFormat === 'full' ? 'brief' : 'full');
+            setMode(currentMode === 'read' ? 'brief' : 'read');
         }
 
         function showShort(index) {
@@ -1040,10 +980,12 @@
                     nextShort();
                     break;
                 case 'f':
-                    setFormat(currentFormat === 'full' ? 'brief' : 'full');
+                case 'b':
+                    setMode(currentMode === 'brief' ? 'read' : 'brief');
                     break;
                 case 'g':
-                    setView(currentView === 'text' ? 'graph' : 'text');
+                case 'e':
+                    setMode(currentMode === 'explore' ? 'read' : 'explore');
                     break;
             }
         });
@@ -1071,9 +1013,9 @@
                     previousShort(); // Swipe down = previous
                 }
             }
-            // Horizontal swipe for format toggle
+            // Horizontal swipe for mode toggle
             else if (Math.abs(diffX) > 100) {
-                setFormat(currentFormat === 'full' ? 'brief' : 'full');
+                setMode(currentMode === 'brief' ? 'read' : 'brief');
             }
         });
 
