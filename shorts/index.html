@@ -414,17 +414,32 @@
                 return;
             }
 
-            // Create nodes from entities
+            // Create nodes from entities with circular positioning
+            const nodeCount = graphData.entities.length;
+            const radius = Math.min(150, 50 + nodeCount * 15); // Adaptive radius
+            const centerX = 0;
+            const centerY = 0;
+            
             const nodes = new vis.DataSet(
-                graphData.entities.map((entity, index) => ({
-                    id: index,
-                    label: entity.name,
-                    group: entity.type,
-                    title: `${entity.type}: ${entity.name}`, // Tooltip
-                    font: { color: 'white', size: 14 },
-                    borderWidth: 2,
-                    borderWidthSelected: 3
-                }))
+                graphData.entities.map((entity, index) => {
+                    // Calculate circular position (circo layout)
+                    const angle = (2 * Math.PI * index) / nodeCount;
+                    const x = centerX + radius * Math.cos(angle);
+                    const y = centerY + radius * Math.sin(angle);
+                    
+                    return {
+                        id: index,
+                        label: entity.name,
+                        group: entity.type,
+                        title: `${entity.type}: ${entity.name}`, // Tooltip
+                        font: { color: 'white', size: 14 },
+                        borderWidth: 2,
+                        borderWidthSelected: 3,
+                        x: x,
+                        y: y,
+                        fixed: { x: true, y: true } // Lock position for circular layout
+                    };
+                })
             );
 
             // Create edges from relationships  
@@ -484,22 +499,15 @@
                     OTHER: { color: { background: '#78909C', border: '#58707C' } }
                 },
                 physics: {
-                    enabled: true,
-                    stabilization: { iterations: 150 },
-                    barnesHut: {
-                        gravitationalConstant: -2000,
-                        centralGravity: 0.3,
-                        springLength: 95,
-                        springConstant: 0.04,
-                        damping: 0.09
-                    }
+                    enabled: false  // Disable physics for manual circular layout
                 },
                 interaction: {
                     hover: true,
-                    selectConnectedEdges: false
+                    selectConnectedEdges: false,
+                    dragNodes: false  // Prevent dragging to maintain circular layout
                 },
                 layout: {
-                    improvedLayout: true
+                    randomSeed: 42  // Consistent layout
                 }
             };
 
@@ -507,15 +515,15 @@
             const data = { nodes: nodes, edges: edges };
             const network = new vis.Network(container, data, options);
 
-            // Fit network to container after stabilization
-            network.once('stabilizationIterationsDone', function () {
+            // Fit network to container immediately since positions are fixed
+            setTimeout(() => {
                 network.fit({
                     animation: {
                         duration: 500,
                         easingFunction: 'easeInOutQuad'
                     }
                 });
-            });
+            }, 100);
 
             return network;
         }
