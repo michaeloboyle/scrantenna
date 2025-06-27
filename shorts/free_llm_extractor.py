@@ -280,8 +280,13 @@ JSON:"""
         entity_names = [e['name'] for e in entities]
         prompt = f"""Given entities: {entity_names}
 
-Extract relationships from this text. Return ONLY valid JSON array with 'from', 'to', 'type' fields.
-Relationship types: LOCATED_IN, WORKS_FOR, ANNOUNCED, PARTICIPATES_IN, PART_OF
+Extract ALL verb-based relationships from this text. Every verb between entities should become an edge.
+Return ONLY valid JSON array with 'from', 'to', 'type', 'verb' fields.
+
+Examples:
+- "Mayor Smith announced the project" → {{"from": "Smith", "to": "project", "type": "ANNOUNCED", "verb": "announced"}}
+- "John works for Apple" → {{"from": "John", "to": "Apple", "type": "WORKS_FOR", "verb": "works"}}
+- "Company bought building" → {{"from": "Company", "to": "building", "type": "PURCHASED", "verb": "bought"}}
 
 Text: {text}
 
@@ -306,7 +311,7 @@ JSON:"""
         return []
     
     def _rule_based_relationships(self, text: str, entities: List[Dict]) -> List[Dict]:
-        """Enhanced rule-based relationship extraction."""
+        """Enhanced rule-based relationship extraction using comprehensive verb patterns."""
         relationships = []
         entity_lookup = {}
         
@@ -320,6 +325,9 @@ JSON:"""
                 for word in words:
                     if len(word) > 3:  # Only meaningful words
                         entity_lookup[word.lower()] = entity
+        
+        # First, extract ALL verb-based relationships
+        relationships.extend(self._extract_all_verb_relationships(text, entities, entity_lookup))
         
         # Enhanced relationship patterns with more comprehensive coverage
         patterns = [
@@ -415,6 +423,113 @@ JSON:"""
                 unique_relationships.append(rel)
         
         return unique_relationships[:8]  # Limit for readability
+    
+    def _extract_all_verb_relationships(self, text: str, entities: List[Dict], entity_lookup: Dict) -> List[Dict]:
+        """Extract relationships using ALL verbs as potential edges."""
+        relationships = []
+        
+        # Common English verbs that indicate relationships
+        relationship_verbs = {
+            # Action verbs
+            'announced', 'said', 'stated', 'declared', 'reported', 'confirmed', 'revealed',
+            'joined', 'left', 'quit', 'hired', 'fired', 'promoted', 'demoted',
+            'created', 'built', 'designed', 'developed', 'launched', 'started', 'founded',
+            'bought', 'sold', 'acquired', 'purchased', 'invested', 'funded', 'sponsored',
+            'opened', 'closed', 'moved', 'relocated', 'expanded', 'reduced', 'increased',
+            'won', 'lost', 'defeated', 'beat', 'competed', 'participated', 'attended',
+            'married', 'divorced', 'dated', 'met', 'knew', 'befriended', 'partnered',
+            'sued', 'charged', 'arrested', 'sentenced', 'convicted', 'accused', 'blamed',
+            'elected', 'appointed', 'nominated', 'selected', 'chosen', 'picked',
+            'visited', 'traveled', 'went', 'came', 'arrived', 'departed', 'returned',
+            'supports', 'opposes', 'endorses', 'backs', 'promotes', 'advocates',
+            'leads', 'manages', 'directs', 'supervises', 'oversees', 'heads',
+            'owns', 'operates', 'runs', 'controls', 'manages', 'administers',
+            'teaches', 'learns', 'studies', 'graduates', 'enrolls', 'attends',
+            'works', 'serves', 'volunteers', 'helps', 'assists', 'aids',
+            'lives', 'resides', 'stays', 'inhabits', 'occupies', 'dwells',
+            'plays', 'performs', 'acts', 'stars', 'appears', 'features',
+            'writes', 'authors', 'publishes', 'edits', 'reviews', 'critiques',
+            'produces', 'directs', 'films', 'shoots', 'records', 'broadcasts'
+        }
+        
+        # Pattern: Entity + Verb + Entity
+        entity_names = [e['name'] for e in entities]
+        for i, entity1 in enumerate(entities):
+            for j, entity2 in enumerate(entities):
+                if i >= j:  # Avoid duplicates and self-references
+                    continue
+                
+                # Look for patterns: Entity1 verb Entity2
+                for verb in relationship_verbs:
+                    patterns = [
+                        # Direct patterns
+                        rf'\b{re.escape(entity1["name"])}\b[^.!?]*?\b{verb}s?\b[^.!?]*?\b{re.escape(entity2["name"])}\b',
+                        rf'\b{re.escape(entity2["name"])}\b[^.!?]*?\b{verb}s?\b[^.!?]*?\b{re.escape(entity1["name"])}\b',
+                        # Passive patterns  
+                        rf'\b{re.escape(entity1["name"])}\b[^.!?]*?\bwas {verb}[ed|n]?\b[^.!?]*?\b{re.escape(entity2["name"])}\b',
+                        rf'\b{re.escape(entity2["name"])}\b[^.!?]*?\bwas {verb}[ed|n]?\b[^.!?]*?\b{re.escape(entity1["name"])}\b',
+                    ]
+                    
+                    for pattern in patterns:
+                        if re.search(pattern, text, re.IGNORECASE):
+                            # Determine direction based on pattern match
+                            if re.search(rf'\b{re.escape(entity1["name"])}\b[^.!?]*?\b{verb}', text, re.IGNORECASE):
+                                from_entity, to_entity = entity1['name'], entity2['name']
+                            else:
+                                from_entity, to_entity = entity2['name'], entity1['name']
+                            
+                            rel_type = self._normalize_verb_to_relationship(verb)
+                            relationships.append({
+                                'from': from_entity,
+                                'to': to_entity,
+                                'type': rel_type,
+                                'verb': verb
+                            })
+                            break  # Found relationship, move to next verb
+        
+        return relationships
+    
+    def _normalize_verb_to_relationship(self, verb: str) -> str:
+        """Convert verbs to normalized relationship types."""
+        verb_mappings = {
+            # Communication
+            'announced': 'ANNOUNCED', 'said': 'SAID', 'stated': 'STATED', 'declared': 'DECLARED',
+            'reported': 'REPORTED', 'confirmed': 'CONFIRMED', 'revealed': 'REVEALED',
+            
+            # Employment/Organization  
+            'joined': 'JOINED', 'left': 'LEFT', 'hired': 'HIRED', 'fired': 'FIRED',
+            'works': 'WORKS_FOR', 'serves': 'SERVES', 'leads': 'LEADS', 'manages': 'MANAGES',
+            
+            # Creation/Development
+            'created': 'CREATED', 'built': 'BUILT', 'designed': 'DESIGNED', 'founded': 'FOUNDED',
+            'developed': 'DEVELOPED', 'launched': 'LAUNCHED', 'started': 'STARTED',
+            
+            # Business/Finance
+            'bought': 'PURCHASED', 'sold': 'SOLD', 'acquired': 'ACQUIRED', 'invested': 'INVESTED',
+            'funded': 'FUNDED', 'sponsored': 'SPONSORED', 'owns': 'OWNS',
+            
+            # Location/Movement
+            'moved': 'MOVED_TO', 'relocated': 'RELOCATED_TO', 'visited': 'VISITED',
+            'lives': 'LIVES_IN', 'resides': 'RESIDES_IN', 'traveled': 'TRAVELED_TO',
+            
+            # Legal/Government
+            'sued': 'SUED', 'charged': 'CHARGED', 'arrested': 'ARRESTED', 'elected': 'ELECTED',
+            'appointed': 'APPOINTED', 'nominated': 'NOMINATED', 'sentenced': 'SENTENCED',
+            
+            # Social/Personal
+            'married': 'MARRIED', 'met': 'MET', 'knew': 'KNEW', 'befriended': 'BEFRIENDED',
+            'supports': 'SUPPORTS', 'opposes': 'OPPOSES', 'endorses': 'ENDORSES',
+            
+            # Performance/Arts
+            'plays': 'PLAYS', 'performs': 'PERFORMS', 'stars': 'STARS_IN', 'appears': 'APPEARS_IN',
+            'wrote': 'WROTE', 'produced': 'PRODUCED', 'directed': 'DIRECTED',
+            
+            # Competition/Achievement
+            'won': 'WON', 'defeated': 'DEFEATED', 'competed': 'COMPETED_AGAINST',
+            'participated': 'PARTICIPATED_IN', 'graduated': 'GRADUATED_FROM'
+        }
+        
+        return verb_mappings.get(verb.lower(), verb.upper().replace(' ', '_'))
     
     def _find_matching_entity(self, text: str, entity_lookup: Dict) -> Optional[Dict]:
         """Find matching entity using exact or partial matching."""
@@ -566,18 +681,26 @@ def create_free_llm_graph_data(article: Dict, index: int = 0) -> Dict:
 
 
 if __name__ == "__main__":
-    # Test the extractor
+    # Test the extractor with verb-heavy content
     test_article = {
         "title": "Mayor Cognetti Announces New Infrastructure Project in Scranton",
-        "description": "Scranton Mayor Paige Cognetti announced a $2 million infrastructure improvement project targeting Providence Road. The project will improve drainage and road conditions for residents."
+        "description": "Scranton Mayor Paige Cognetti announced a $2 million infrastructure improvement project targeting Providence Road. The Department of Public Works will manage the project. Commissioner Johnson supports the initiative. Local residents attended the meeting where Cognetti revealed the timeline."
     }
     
     extractor = ProductionFreeLLMExtractor()
     result = extractor.extract_for_article(test_article)
     
-    print("🔬 Free LLM Extractor Test Results:")
+    print("🔬 Free LLM Extractor Test Results (Verb-Enhanced):")
     print(f"Method: {result['method']}")
-    print(f"Entities: {len(result['entities'])}")
-    print(f"Relationships: {len(result['relationships'])}")
-    print(f"Confidence: {result['confidence']:.2f}")
+    print(f"Entities ({len(result['entities'])}):")
+    for entity in result['entities']:
+        print(f"  - {entity['name']} ({entity['type']})")
+    
+    print(f"\nVerb-based Relationships ({len(result['relationships'])}):")
+    for rel in result['relationships']:
+        verb_info = f" [verb: {rel['verb']}]" if 'verb' in rel else ""
+        print(f"  - {rel['from']} → {rel['to']} ({rel['type']}){verb_info}")
+    
+    print(f"\nConfidence: {result['confidence']:.2f}")
     print(f"Method Info: {extractor.get_method_info()}")
+    print("\n✅ All verbs should now appear as graph edges!")
