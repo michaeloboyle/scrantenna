@@ -13,7 +13,7 @@ from typing import List, Dict, Optional
 class ProductionFreeLLMExtractor:
     """Production-ready free LLM entity/relationship extractor."""
     
-    def __init__(self, ollama_model: str = "llama3.2:3b"):
+    def __init__(self, ollama_model: str = "phi3:mini"):
         self.ollama_model = ollama_model
         self.ollama_available = self._check_ollama()
         self.hf_available = self._check_huggingface()
@@ -41,14 +41,27 @@ class ProductionFreeLLMExtractor:
             return False
     
     def _init_hf_pipeline(self):
-        """Initialize HuggingFace NER pipeline."""
+        """Initialize HuggingFace pipeline for entity extraction."""
         try:
             from transformers import pipeline
-            self.hf_pipeline = pipeline(
-                "ner",
-                model="dbmdz/bert-large-cased-finetuned-conll03-english",
-                aggregation_strategy="simple"
-            )
+            # Try Phi-3 Mini for text generation first
+            try:
+                self.hf_pipeline = pipeline(
+                    "text-generation",
+                    model="microsoft/Phi-3-mini-4k-instruct",
+                    device_map="auto",
+                    torch_dtype="auto",
+                    trust_remote_code=True
+                )
+                self.hf_method = "phi3"
+            except Exception:
+                # Fallback to NER pipeline
+                self.hf_pipeline = pipeline(
+                    "ner",
+                    model="dbmdz/bert-large-cased-finetuned-conll03-english",
+                    aggregation_strategy="simple"
+                )
+                self.hf_method = "ner"
         except Exception as e:
             print(f"Failed to initialize HF pipeline: {e}")
             self.hf_available = False
@@ -86,10 +99,13 @@ class ProductionFreeLLMExtractor:
             except Exception as e:
                 print(f"Ollama extraction failed: {e}")
         
-        # Try HuggingFace NER (good accuracy)
+        # Try HuggingFace Phi-3 or NER (good accuracy)
         if self.hf_available and self.hf_pipeline:
             try:
-                entities = self._hf_extract_entities(text)
+                if hasattr(self, 'hf_method') and self.hf_method == "phi3":
+                    entities = self._phi3_extract_entities(text)
+                else:
+                    entities = self._hf_extract_entities(text)
                 if entities:
                     return entities
             except Exception as e:
@@ -133,6 +149,47 @@ JSON:"""
         
         return []
     
+    def _phi3_extract_entities(self, text: str) -> List[Dict]:
+        """Extract entities using Phi-3 Mini for better accuracy."""
+        if not self.hf_pipeline:
+            return []
+        
+        prompt = f"""<|user|>
+Extract named entities from this news text and classify them as PERSON, ORGANIZATION, LOCATION, WORK (movies/TV/books), or EVENT.
+
+Text: {text}
+
+Return only a JSON array with objects containing 'name' and 'type' fields. No explanations.
+
+Examples:
+- Movies/shows: {{"name": "Final Act", "type": "WORK"}}
+- People: {{"name": "Hannah Fierman", "type": "PERSON"}}
+- Weather: {{"name": "Flash Flood Warning", "type": "EVENT"}}
+<|end|>
+<|assistant|>"""
+
+        try:
+            response = self.hf_pipeline(
+                prompt,
+                max_new_tokens=300,
+                temperature=0.1,
+                do_sample=True,
+                pad_token_id=self.hf_pipeline.tokenizer.eos_token_id
+            )
+            
+            response_text = response[0]['generated_text'].split('<|assistant|>')[-1].strip()
+            
+            # Extract JSON from response
+            json_match = re.search(r'\[.*?\]', response_text, re.DOTALL)
+            if json_match:
+                import json
+                entities = json.loads(json_match.group(0))
+                return [e for e in entities if 'name' in e and 'type' in e]
+        except Exception as e:
+            print(f"Phi-3 extraction error: {e}")
+        
+        return []
+    
     def _hf_extract_entities(self, text: str) -> List[Dict]:
         """Extract entities using HuggingFace NER."""
         if not self.hf_pipeline:
@@ -164,51 +221,85 @@ JSON:"""
         return mapping.get(hf_type, 'OTHER')
     
     def _rule_based_entities(self, text: str) -> List[Dict]:
-        """Enhanced fallback rule-based entity extraction."""
+        """Enhanced fallback rule-based entity extraction with clean SVO patterns."""
         entities = []
         seen = set()
         
         # Extract quoted works/titles first (movies, shows, etc)
         quoted_works = re.findall(r'[\'"]([^\'\"]+)[\'"]', text)
         for work in quoted_works:
-            if 2 < len(work) < 50 and work not in seen:
+            if 2 < len(work) < 50 and work.lower() not in seen and not self._is_malformed_entity(work):
                 entities.append({'name': work, 'type': 'WORK'})
                 seen.add(work.lower())
         
-        # Person patterns - more specific
+        # Extract parenthetical works (TV shows, movies) - more comprehensive
+        paren_works = re.findall(r'\(([^)]+)\)', text)
+        for work in paren_works:
+            work = work.strip()
+            if (2 < len(work) < 50 and 
+                work.lower() not in seen and 
+                not self._is_malformed_entity(work)):
+                # Check if it's likely a work vs person name
+                # Works often have: The, multiple words, or known patterns
+                if (work.startswith('The ') or 
+                    work.startswith('V/H/S') or 
+                    len(work.split()) > 2 or
+                    any(word in work.lower() for word in ['dead', 'wolf', 'caretaker', 'act', 'horror'])):
+                    entities.append({'name': work, 'type': 'WORK'})
+                    seen.add(work.lower())
+        
+        # Person patterns - strict and clean
         person_patterns = [
-            # Full names with optional middle initial
-            r'\b([A-Z][a-z]+(?:\s+[A-Z]\.)?(?:\s+[A-Z][a-z]+)+)\b',
-            # Titles with names
-            r'\b(?:Mayor|Judge|Commissioner|Rep\.|Representative|Senator|Dr\.|President)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\b',
+            # Full names: First Last or First Middle Last (avoid action phrases)
+            r'\b([A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{1,2}\.?)?\s+[A-Z][a-z]{2,})\b(?!\s+(?:announces|says|stated|joined|stars|appears|filming))',
+            # Titled persons - extract name only, not title
+            r'\b(?:Mayor|Judge|Commissioner|Rep\.|Representative|Senator|Dr\.|President)\s+([A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,})*)\b',
         ]
         
         for pattern in person_patterns:
             for match in re.finditer(pattern, text):
-                name = match.group(1) if match.lastindex else match.group(0)
-                # Clean up titles
-                name = re.sub(r'^(Mayor|Judge|Commissioner|Rep\.|Representative|Senator|Dr\.|President)\s+', '', name)
+                name = match.group(1).strip()
                 
-                # Filter out common false positives
+                # Skip if this looks like a malformed entity
+                if self._is_malformed_entity(name):
+                    continue
+                    
+                # Filter out common false positives and action phrases
                 if (name and len(name) > 3 and 
                     name.lower() not in seen and
-                    not any(word in name.lower() for word in ['service', 'county', 'office', 'department', 'road', 'street'])):
+                    not any(word in name.lower() for word in [
+                        'service', 'county', 'office', 'department', 'road', 'street', 
+                        'announces', 'announced', 'underway', 'producer', 'actress',
+                        'horror', 'filming', 'project', 'infrastructure', 'paranormal'
+                    ]) and
+                    not re.search(r'\b(?:announces|joined|stars|appears|filming|from|with)\b', name.lower())):
                     entities.append({'name': name, 'type': 'PERSON'})
                     seen.add(name.lower())
         
-        # Location patterns
+        # Location patterns - more specific and clean
         location_patterns = [
             r'\b(Scranton)\b',
             r'\b(Pennsylvania|PA)\b',
             r'\b(Lackawanna County)\b',
-            r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\s+(?:Road|Street|Avenue|Drive|Lane|Boulevard|Highway))\b',
-            r'\b([A-Z][a-z]+\s+(?:Lake|River|Park|Field|Theater|Theatre|Hall))\b',
-            r'\b(City Hall)\b',
+            # Street addresses - more precise
+            r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2}\s+(?:Road|Street|Avenue|Drive|Lane|Boulevard|Highway))\b',
+            # Venues - specific patterns
+            r'\b(Ritz Theater|City Hall)\b',
+            r'\b([A-Z][a-z]+\s+(?:Theater|Theatre|Hall|Park|Lake|River))\b(?!\s+and)',
+            # Venues mentioned in filming context  
+            r'\bfilming at the ([A-Z][a-z]+\s+(?:Theater|Theatre|Hall))\b',
         ]
         
         for pattern in location_patterns:
             for match in re.finditer(pattern, text, re.IGNORECASE):
-                name = match.group(1)
+                name = match.group(1).strip()
+                
+                # Skip malformed location entities
+                if (self._is_malformed_entity(name) or 
+                    len(name.split()) > 6 or  # Too long
+                    any(word in name.lower() for word in ['million', 'project', 'improvement', 'targeting'])):
+                    continue
+                    
                 if name and name.lower() not in seen:
                     # Normalize Pennsylvania/PA
                     if name.upper() == 'PA':
@@ -238,11 +329,30 @@ JSON:"""
                     entities.append({'name': name, 'type': 'ORGANIZATION'})
                     seen.add(name.lower())
         
+        # Work/Media patterns - movies, TV shows, books, projects
+        work_patterns = [
+            r'\b(Final Act|V/H/S|Teen Wolf|The Walking Dead|The Caretaker)\b',
+            r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s+(?:\(film\)|\(movie\)|\(TV series\)|\(book\))\b',
+            r'\bindependent film ([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\b',
+            r'\bmovie ([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\b',
+            r'\bTV series ([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\b',
+            r'\bhorror-thriller ([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\b',
+        ]
+        
+        for pattern in work_patterns:
+            for match in re.finditer(pattern, text, re.IGNORECASE):
+                name = match.group(1) if len(match.groups()) > 0 else match.group(0)
+                if name and name.lower() not in seen and not self._is_malformed_entity(name):
+                    entities.append({'name': name, 'type': 'WORK'})
+                    seen.add(name.lower())
+
         # Event patterns
         event_patterns = [
             r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\s+(?:Festival|Celebration|Conference|Summit|Game|Tournament))\b',
             r'\b(Pride Month|Memorial Day|Labor Day|Independence Day)\b',
-            r'\b(Flash Flood Warning)\b',
+            r'\b(Flash Flood Warning|Flash Flood)\b',
+            r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\s+(?:Warning|Alert|Advisory|Emergency))\b',
+            r'\b(Weather Warning|Storm Warning|Heat Advisory)\b',
         ]
         
         for pattern in event_patterns:
@@ -423,6 +533,35 @@ JSON:"""
                 unique_relationships.append(rel)
         
         return unique_relationships[:8]  # Limit for readability
+    
+    def _is_malformed_entity(self, name: str) -> bool:
+        """Check if an entity name looks malformed or like a concatenated phrase."""
+        name_lower = name.lower()
+        
+        # Contains action verbs that indicate it's a headline/phrase
+        action_verbs = [
+            'announces', 'announced', 'says', 'said', 'states', 'stated',
+            'joined', 'stars', 'appears', 'filming', 'underway', 'from'
+        ]
+        
+        if any(verb in name_lower for verb in action_verbs):
+            return True
+            
+        # Too many words (likely a phrase)
+        if len(name.split()) > 4:
+            return True
+            
+        # Mixed case with function words (likely a phrase)
+        function_words = ['the', 'with', 'from', 'and', 'or', 'in', 'at', 'on']
+        words = name_lower.split()
+        if len(words) > 2 and any(word in function_words for word in words):
+            return True
+            
+        # Contains numbers and words (likely not a clean entity)
+        if re.search(r'\d.*[a-z]|[a-z].*\d', name_lower):
+            return True
+            
+        return False
     
     def _extract_all_verb_relationships(self, text: str, entities: List[Dict], entity_lookup: Dict) -> List[Dict]:
         """Extract relationships using ALL verbs as potential edges."""
@@ -675,16 +814,41 @@ JSON:"""
 def create_free_llm_graph_data(article: Dict, index: int = 0) -> Dict:
     """
     Drop-in replacement for generate_article_graph() in generate_shorts.py
+    Enhanced with Obsidian entity vault integration.
     """
     extractor = ProductionFreeLLMExtractor()
-    return extractor.extract_for_article(article, index)
+    result = extractor.extract_for_article(article, index)
+    
+    # Integrate with Obsidian entity vault
+    try:
+        from obsidian_entity_manager import integrate_with_obsidian
+        
+        obsidian_result = integrate_with_obsidian(
+            result['entities'], 
+            result['relationships']
+        )
+        
+        # Update result with resolved entities
+        result['entities'] = obsidian_result['resolved_entities']
+        result['vault_statistics'] = obsidian_result['vault_statistics']
+        result['entity_files'] = obsidian_result['entity_files']
+        result['method'] = f"{result['method']}_with_obsidian"
+        
+        print(f"✅ Integrated with Obsidian vault: {len(obsidian_result['resolved_entities'])} entities")
+        
+    except ImportError:
+        print("⚠️ Obsidian integration not available, using standard extraction")
+    except Exception as e:
+        print(f"⚠️ Obsidian integration failed: {e}, using standard extraction")
+    
+    return result
 
 
 if __name__ == "__main__":
-    # Test the extractor with verb-heavy content
+    # Test the extractor with the movie article example from EXTRACTION_PATTERNS.md
     test_article = {
-        "title": "Mayor Cognetti Announces New Infrastructure Project in Scranton",
-        "description": "Scranton Mayor Paige Cognetti announced a $2 million infrastructure improvement project targeting Providence Road. The Department of Public Works will manage the project. Commissioner Johnson supports the initiative. Local residents attended the meeting where Cognetti revealed the timeline."
+        "title": "'Final Act': Paranormal Horror From 'Popeye The Slayer Man' Producer Underway With Avaryana Rose, Hannah Fierman, Douglas Tait & Vincent M. Ward",
+        "description": "Actress and influencer Avaryana Rose (The Caretaker) has joined Hannah Fierman (V/H/S), Douglas Tait (Teen Wolf), and Vincent M. Ward (The Walking Dead) in indie horror-thriller Final Act, which is filming at the Ritz Theater and other locations in Scranton."
     }
     
     extractor = ProductionFreeLLMExtractor()
