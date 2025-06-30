@@ -11,6 +11,55 @@ export class GraphManager {
         return `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(cleanName)}&backgroundColor=2563eb,7c3aed,dc2626,059669,ea580c&fontFamily=Arial&fontSize=40`;
     }
 
+    // Get display label with emoji for better readability
+    getEntityDisplay(entity) {
+        const name = entity.name;
+        let emoji = '';
+        let displayName = name;
+
+        // Add emojis based on entity type
+        switch (entity.type) {
+            case 'PERSON':
+                emoji = '👤';
+                // For people, show first name + last initial if long
+                if (name.length > 12) {
+                    const parts = name.split(' ');
+                    if (parts.length > 1) {
+                        displayName = `${parts[0]} ${parts[parts.length - 1].charAt(0)}.`;
+                    }
+                }
+                break;
+            case 'ORGANIZATION':
+                emoji = '🏢';
+                // Abbreviate long organization names
+                if (name.length > 15) {
+                    displayName = name.substring(0, 12) + '...';
+                }
+                break;
+            case 'LOCATION':
+                emoji = '📍';
+                break;
+            case 'WORK':
+                emoji = '🎬';
+                // Abbreviate long work titles
+                if (name.length > 15) {
+                    displayName = name.substring(0, 12) + '...';
+                }
+                break;
+            case 'EVENT':
+                emoji = '📅';
+                break;
+            default:
+                emoji = '🔹';
+        }
+
+        return {
+            emoji,
+            label: `${emoji} ${displayName}`,
+            fullName: name
+        };
+    }
+
     async loadGraphForArticle(index, article) {
         const graphContainer = document.getElementById(`graph-${index}`);
         
@@ -69,11 +118,14 @@ export class GraphManager {
                     };
                 }
                 
+                // Get emoji and label for entity type
+                const entityDisplay = this.getEntityDisplay(entity);
+                
                 let nodeConfig = {
                     id: index,
-                    label: '',
+                    label: entityDisplay.label,
                     group: entity.type,
-                    title: `${entity.type}: ${entity.name} - Click to highlight connections`,
+                    title: `${entity.type}: ${entityDisplay.fullName} - Click to highlight connections`,
                     borderWidth: 3,
                     borderWidthSelected: 5,
                     size: 35,
@@ -90,8 +142,10 @@ export class GraphManager {
                 if (entity.type === 'PERSON') {
                     nodeConfig.shape = 'circularImage';
                     nodeConfig.image = this.generateAvatarUrl(entity.name);
-                    nodeConfig.size = 40;
+                    nodeConfig.label = entityDisplay.fullName;
+                    nodeConfig.size = 45;
                     nodeConfig.borderWidth = 4;
+                    nodeConfig.font = { size: 11, color: 'white', strokeWidth: 2, strokeColor: 'black' };
                 }
 
                 return nodeConfig;
@@ -157,7 +211,7 @@ export class GraphManager {
                 },
                 font: {
                     color: 'white',
-                    size: 12,
+                    size: 14,
                     face: 'Arial',
                     strokeWidth: 2,
                     strokeColor: 'black'

@@ -145,6 +145,9 @@ class ScrAntennaApp {
         // Update content based on current mode
         this.updateShortDisplay(index);
 
+        // Update timeline
+        this.updateTimeline(index);
+
         // Load graph if in explore mode
         if (this.modeManager.currentMode === 'explore') {
             this.loadGraphForShort(index);
@@ -236,6 +239,49 @@ class ScrAntennaApp {
             });
         } catch (error) {
             return '';
+        }
+    }
+
+    updateTimeline(currentIndex) {
+        const timelineProgress = document.getElementById('timeline-progress');
+        const timelineDate = document.getElementById('timeline-date');
+        
+        if (!timelineProgress || !timelineDate || !this.shorts.length) return;
+
+        // Calculate progress through the timeline
+        const progress = ((currentIndex + 1) / this.shorts.length) * 100;
+        timelineProgress.style.width = `${progress}%`;
+
+        // Get temporal context - Apple Photos style
+        const currentShort = this.shorts[currentIndex];
+        if (currentShort && currentShort.publishedAt) {
+            const currentDate = new Date(currentShort.publishedAt);
+            
+            // Get date range of all articles
+            const allDates = this.shorts
+                .map(s => s.publishedAt ? new Date(s.publishedAt) : null)
+                .filter(d => d !== null)
+                .sort((a, b) => a - b);
+            
+            if (allDates.length > 0) {
+                const oldestDate = allDates[0];
+                const newestDate = allDates[allDates.length - 1];
+                const daysDiff = Math.ceil((newestDate - oldestDate) / (1000 * 60 * 60 * 24));
+                
+                if (daysDiff > 30) {
+                    // Show month/year for longer timeframes
+                    timelineDate.textContent = currentDate.toLocaleDateString('en-US', { 
+                        month: 'short', 
+                        year: 'numeric' 
+                    }).toUpperCase();
+                } else {
+                    // Show day/month for shorter timeframes  
+                    timelineDate.textContent = currentDate.toLocaleDateString('en-US', { 
+                        month: 'short', 
+                        day: 'numeric' 
+                    }).toUpperCase();
+                }
+            }
         }
     }
 

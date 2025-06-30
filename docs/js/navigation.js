@@ -11,6 +11,7 @@ export class Navigation {
         // Touch events for mobile swipe
         let touchStartY = 0;
         let touchStartTime = 0;
+        let lastTouchNavigationTime = 0;
 
         document.addEventListener('touchstart', (e) => {
             touchStartY = e.touches[0].clientY;
@@ -23,7 +24,11 @@ export class Navigation {
             const deltaY = touchStartY - touchEndY;
             const deltaTime = touchEndTime - touchStartTime;
             
+            // Throttle touch navigation to prevent multiple swipes
+            if (touchEndTime - lastTouchNavigationTime < 500) return;
+            
             if (deltaTime < 300 && Math.abs(deltaY) > 50) {
+                lastTouchNavigationTime = touchEndTime;
                 if (deltaY > 0) {
                     this.next();
                 } else {
