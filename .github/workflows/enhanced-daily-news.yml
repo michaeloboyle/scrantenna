@@ -21,9 +21,27 @@ jobs:
       uses: actions/checkout@v4
     
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Cache pip dependencies
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-enhanced-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-enhanced-
+          ${{ runner.os }}-pip-
+    
+    - name: Cache Ollama models
+      uses: actions/cache@v4
+      with:
+        path: ~/.ollama
+        key: ${{ runner.os }}-ollama-phi3-mini
+        restore-keys: |
+          ${{ runner.os }}-ollama-
     
     - name: Install Ollama
       run: |
@@ -32,20 +50,20 @@ jobs:
         
         # Start Ollama service
         ollama serve &
-        sleep 10
+        sleep 5
         
-        # Pull lightweight Llama model
-        echo "📥 Downloading Llama 3.2 3B model..."
-        ollama pull llama3.2:3b
+        # Pull lightweight Phi-3 model (smaller than Llama 3.2)
+        echo "📥 Downloading Phi-3 Mini model (2.2GB)..."
+        ollama pull phi3:mini
         
         # Verify installation
         ollama list
     
     - name: Install Python dependencies
       run: |
-        pip install -r requirements.txt
-        # Add additional dependencies for LLM extraction
-        pip install requests beautifulsoup4 pandas
+        pip install --upgrade pip
+        pip install -r requirements.txt --cache-dir ~/.cache/pip
+        # Core dependencies should already be in requirements.txt
     
     - name: Generate news with LLM extraction
       env:
