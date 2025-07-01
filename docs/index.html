@@ -13,6 +13,7 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="css/shorts.css">
+    <link rel="stylesheet" href="css/historical-layouts.css">
 </head>
 <body>
     <!-- Main Container -->
@@ -48,6 +49,17 @@
             <span class="mode-icon">🕸️</span>
             <span class="mode-label">Explore</span>
         </button>
+    </div>
+
+    <!-- Era Selector -->
+    <div class="era-selector">
+        <h3>Era</h3>
+        <button class="era-btn active" onclick="setEra('modern')" id="modernBtn">2025</button>
+        <button class="era-btn" onclick="setEra('1980s')" id="era1980sBtn">1980s</button>
+        <button class="era-btn" onclick="setEra('1960s')" id="era1960sBtn">1960s</button>
+        <button class="era-btn" onclick="setEra('1940s')" id="era1940sBtn">1940s</button>
+        <button class="era-btn" onclick="setEra('1920s')" id="era1920sBtn">1920s</button>
+        <button class="era-btn" onclick="setEra('1900s')" id="era1900sBtn">1900s</button>
     </div>
 
     <!-- Loading Screen -->

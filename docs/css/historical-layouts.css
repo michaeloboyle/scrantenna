@@ -1,0 +1,266 @@
+/* Historical Newspaper Layout Variations for Scrantenna */
+
+/* 1900s Victorian Broadsheet Style */
+.layout-1900s .short {
+    background: #f9f7f4; /* Aged paper */
+    color: #2a2a2a;
+    font-family: 'Times New Roman', serif;
+    padding: 2rem;
+    column-count: 4;
+    column-gap: 1.5rem;
+    column-rule: 1px solid #888;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.layout-1900s .headline {
+    column-span: all;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    border-top: 3px double #000;
+    border-bottom: 1px solid #000;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    background: none;
+}
+
+.layout-1900s .content {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-indent: 1.5em;
+}
+
+.layout-1900s .metadata {
+    column-span: all;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+    border-top: 1px solid #888;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* 1920s Art Deco Style */
+.layout-1920s .short {
+    background: linear-gradient(135deg, #f4f1e8 0%, #e8e2d0 100%);
+    color: #1a1a1a;
+    font-family: 'Playfair Display', serif;
+}
+
+.layout-1920s .headline {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    background: linear-gradient(45deg, #d4af37, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 2rem;
+}
+
+.layout-1920s .content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    column-count: 3;
+    column-gap: 2rem;
+    text-align: justify;
+}
+
+/* 1940s Wartime Utilitarian */
+.layout-1940s .short {
+    background: #f0f0f0;
+    color: #000;
+    font-family: 'Courier New', monospace;
+    padding: 1.5rem;
+}
+
+.layout-1940s .headline {
+    font-family: 'Impact', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #8B0000;
+    border-left: 5px solid #8B0000;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    background: none;
+}
+
+.layout-1940s .content {
+    font-size: 1rem;
+    line-height: 1.5;
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+/* 1960s Modern Clean */
+.layout-1960s .short {
+    background: #fff;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.layout-1960s .headline {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    color: #000;
+    margin-bottom: 2rem;
+    background: none;
+}
+
+.layout-1960s .content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 60ch;
+    margin: 0 auto;
+}
+
+/* 1980s Digital Early Adopter */
+.layout-1980s .short {
+    background: #000;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    padding: 2rem;
+    border: 2px solid #00ff00;
+}
+
+.layout-1980s .headline {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #00ff00;
+    background: none;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+.layout-1980s .content {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-shadow: 0 0 2px #00ff00;
+}
+
+/* Layout Switcher Control */
+.era-selector {
+    position: fixed;
+    top: 100px;
+    right: 2rem;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 1rem;
+    z-index: 200;
+}
+
+.era-selector h3 {
+    color: white;
+    font-size: 0.9rem;
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+}
+
+.era-btn {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.era-btn:hover {
+    background: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.6);
+}
+
+.era-btn.active {
+    background: #FFD700;
+    color: #000;
+    border-color: #FFD700;
+}
+
+/* Mobile adaptations */
+@media (max-width: 768px) {
+    .layout-1900s .short {
+        column-count: 2;
+        padding: 1rem;
+    }
+    
+    .layout-1920s .headline {
+        font-size: 2rem;
+    }
+    
+    .layout-1960s .headline {
+        font-size: 2.5rem;
+    }
+    
+    .era-selector {
+        top: 80px;
+        right: 1rem;
+        padding: 0.5rem;
+    }
+    
+    .era-btn {
+        font-size: 0.7rem;
+        padding: 0.4rem;
+    }
+}
+
+/* Print-style elements for 1900s */
+.layout-1900s::before {
+    content: "THE SCRANTENNA HERALD";
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #000;
+    background: #f9f7f4;
+    padding: 0.5rem 2rem;
+    border: 2px solid #000;
+    z-index: 150;
+}
+
+.layout-1900s .timeline-container {
+    display: none; /* Hide modern timeline in historical view */
+}
+
+/* Typography refinements */
+.layout-1900s p:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    line-height: 0.8;
+    margin: 0.1em 0.1em 0 0;
+}
+
+.layout-1920s .content::first-line {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.layout-1940s .metadata::before {
+    content: "⚡ URGENT DISPATCH ⚡";
+    font-weight: bold;
+    color: #8B0000;
+}

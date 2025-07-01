@@ -227,6 +227,32 @@ class ScrAntennaApp {
         this.modeManager.setMode(mode);
     }
 
+    setEra(era) {
+        // Remove all era classes
+        const body = document.body;
+        body.classList.remove('layout-1900s', 'layout-1920s', 'layout-1940s', 'layout-1960s', 'layout-1980s');
+        
+        // Add selected era class (modern has no class)
+        if (era !== 'modern') {
+            body.classList.add(`layout-${era}`);
+        }
+        
+        // Update era button states
+        document.querySelectorAll('.era-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        
+        const selectedBtn = document.getElementById(era === 'modern' ? 'modernBtn' : `era${era}Btn`);
+        if (selectedBtn) {
+            selectedBtn.classList.add('active');
+        }
+        
+        // Store preference
+        localStorage.setItem('scrantenna-era', era);
+        
+        console.log(`Switched to ${era} layout`);
+    }
+
     formatDate(dateString) {
         if (!dateString) return '';
         
@@ -313,6 +339,16 @@ class ScrAntennaApp {
 document.addEventListener('DOMContentLoaded', () => {
     const app = new ScrAntennaApp();
     app.initialize();
+    
+    // Make functions globally accessible for onclick handlers
+    window.setMode = (mode) => app.setMode(mode);
+    window.setEra = (era) => app.setEra(era);
+    window.nextShort = () => app.nextShort();
+    window.previousShort = () => app.previousShort();
+    
+    // Restore saved era preference
+    const savedEra = localStorage.getItem('scrantenna-era') || 'modern';
+    app.setEra(savedEra);
 });
 
 // Export for potential external use
