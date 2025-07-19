@@ -1,12 +1,116 @@
 {
-  "generated_at": "2025-07-18T11:04:49.471414",
-  "source_file": "../data/daily/scranton_news_2025-07-18.json",
+  "generated_at": "2025-07-19T11:04:55.631792",
+  "source_file": "../data/daily/scranton_news_2025-07-19.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Trump's voters want to see the Epstein files - but have faith in their president",
+      "title_distilled": "Trump's voters want to see the Epstein files - but have faith in their president.",
+      "description": "Trump supporters have a new priority on their minds - the release of the so-called Jeffrey Epstein files.",
+      "description_distilled": "",
+      "content": "Trump supporters have a new priority on their minds - the release of the so-called Jeffrey Epstein files.",
+      "content_distilled": "Trump supporters have a new priority on their minds - the release of the so-called Jeffrey Epstein files.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Jeffrey Epstein",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jeffrey-epstein.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jeffrey </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Jeffrey Epstein": "../entities/people/jeffrey-epstein.md"
+        }
+      },
+      "source": "BBC News",
+      "publishedAt": "2025-07-17T14:04:36Z",
+      "url": "https://www.bbc.com/news/articles/cy4y9k7vmwlo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "urlToImage": "https://media.zenfs.com/en/bbc_us_articles_995/64f68d93b7ec1b82597074ef63dcf9ba",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
+      "title": "Patience thins among MAGA loyalists for Trump to meet demands on Epstein",
+      "title_distilled": "Patience thins among MAGA loyalists for Trump to meet demands on Epstein.",
+      "description": "West Pittston, just outside of the industrial centre of Scranton, Pennsylvania, has a classic smalltown-American look. There are clapboard houses, a main drag with businesses bearing charming vintage patina and lampposts bearing flags of the town's military v\u2026",
+      "description_distilled": "",
+      "content": "West Pittston, just outside of the industrial centre of Scranton, Pennsylvania, has a classic smalltown-American look. There are clapboard houses, a main drag with businesses bearing charming vintage patina and lampposts bearing flags of the town's military v\u2026",
+      "content_distilled": "West Pittston, just outside of the industrial centre of Scranton, Pennsylvania, has a classic smalltown-American look.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Epstein West",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/epstein-west.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Epstein </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Epstein West": "../entities/people/epstein-west.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Freerepublic.com",
+      "publishedAt": "2025-07-17T12:38:16Z",
+      "url": "https://freerepublic.com/focus/f-news/4329145/posts",
+      "urlToImage": null,
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
+    },
+    {
+      "id": "short_2",
       "title": "Patience thins among MAGA loyalists for Trump to release any Epstein files",
       "title_distilled": "Patience thins among MAGA loyalists for Trump to release any Epstein files.",
       "description": "Trump supporters have a new priority on their minds - the release of the so-called Jeffrey Epstein files.",
@@ -43,11 +147,11 @@
       "url": "https://www.bbc.com/news/articles/cy4y9k7vmwlo",
       "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/e5de/live/410e9fa0-62b7-11f0-ae9f-e1fa2f7b3e20.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_1",
+      "id": "short_3",
       "title": "Bar none these Scranton sweethearts are the hottest females from \u2018The Office\u2019",
       "title_distilled": "Bar none these Scranton sweethearts are the hottest females from \u2018The Office\u2019.",
       "description": "See the full gallery on thechive.com",
@@ -98,11 +202,11 @@
       "url": "https://thechive.com/entertainment/tv/bar-none-these-scranton-sweethearts-are-the-hottest-females-from-the-office/?utm_postid=5024793&utm_editor=5024793_zach",
       "urlToImage": "https://thechive.com/wp-content/uploads/2025/06/lead_11a396.jpg?attachment_cache_bust=5026170&quality=85&strip=info",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_2",
+      "id": "short_4",
       "title": "\u2018Final Act\u2019: Paranormal Horror From \u2018Popeye The Slayer Man\u2019 Producer Underway With Avaryana Rose, Hannah Fierman, Douglas Tait & Vincent M. Ward",
       "title_distilled": "\u2018Final Act\u2019: Paranormal Horror From \u2018Popeye The Slayer Man\u2019 Producer Underway With Avaryana Rose, Hannah Fierman, Douglas Tait & Vincent M.",
       "description": "Actress and influencer Avaryana Rose (The Caretaker) has joined Hannah Fierman (V/H/S), Douglas Tait (Teen Wolf), and Vincent M. Ward (The Walking Dead) in indie horror-thriller Final Act, which is filming at the Ritz Theater and other locations in Scranton, \u2026",
@@ -260,11 +364,11 @@
       "url": "http://deadline.com/2025/06/avaryana-rose-hannah-fierman-horror-movie-final-act-1236441042/",
       "urlToImage": "https://deadline.com/wp-content/uploads/2025/06/Final-Act.jpg?w=1024",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_3",
+      "id": "short_5",
       "title": "91st DREAM GAME: Players added to fill openings on rosters",
       "title_distilled": "91st DREAM GAME: Players added to fill openings on rosters.",
       "description": "BLAKELY \u2013 Gavin Richards jumped at the chance to play in the 91st Scranton Lions Club Dream Game. A physical lineman for Mid Valley, the 6-foot-5, 315-pounder stood out as the largest player at Monday\u2019s media day at John Henzes/Veterans Memorial Stadium. He i\u2026",
@@ -365,11 +469,11 @@
       "url": "https://www.thetimes-tribune.com/2025/07/16/91st-dream-game-players-added-to-fill-openings-on-both-county-and-city-rosters/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-VALLEYVIEW-1109-06.jpg?w=1024&h=683",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_4",
+      "id": "short_6",
       "title": "A LOOK BACK: Remembering the Dream Game from the 1990s and early 2000s",
       "title_distilled": "LOOK BACK: Remembering the Dream Game from the 1990s and early 2000s.",
       "description": "SCRANTON LIONS CLUB DREAM GAME (1990 to 2009) Scranton Lions Club Dream Game 1990 For the third straight season, the Dream Game produced an exciting matchup between two talented all-star teams. Riverside\u2019s Ellio Domenick, a quarterback, connected on an 18-yar\u2026",
@@ -462,11 +566,11 @@
       "url": "https://www.thetimes-tribune.com/2025/07/13/a-look-back-remembering-the-dream-game-from-the-1990s-and-early-2000s/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-dreamgamehistory-01_ee7d85.jpg?w=512&h=464",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_5",
+      "id": "short_7",
       "title": "Local filmmaker brings NEPA to the big screen",
       "title_distilled": "Local filmmaker brings NEPA to the big screen.",
       "description": "Local filmmaker Bob Savakinus is bringing movie-making to Lackawanna County, with an emphasis on showcasing local landmarks and drawing attention to the area...",
@@ -511,11 +615,11 @@
       "url": "https://www.thetimes-tribune.com/2025/06/28/local-filmmaker-brings-nepa-to-the-big-screen/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_8",
       "title": "NWS issues Flash Flood Warning",
       "title_distilled": "NWS issues Flash Flood Warning.",
       "description": "(WBRE/WYOU)\u2014 The National Weather Service (NWS) has issued a Flash Flood Warning for three counties. The NWS has issued a Flash Flood Warning for northern...",
@@ -616,11 +720,11 @@
       "url": "https://www.2822news.com/news/nws-issues-flash-flood-warning/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/10f3ba1fdf2004d1d416d2eb372a45a2",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_7",
+      "id": "short_9",
       "title": "Lackawanna County mails property valuations, posts reassessment database",
       "title_distilled": "Lackawanna County mails property valuations, posts reassessment database.",
       "description": "Lackawanna County mailed Friday assessed valuations for all 102,685 properties countywide, giving owners more than a month to file formal appeals if they...",
@@ -657,11 +761,11 @@
       "url": "https://www.thetimes-tribune.com/2025/06/20/lackawanna-county-mails-property-valuations-posts-reassessment-database/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_8",
+      "id": "short_10",
       "title": "Fidelity D & D Bancorp, Inc. Third Quarter 2025 Dividend",
       "title_distilled": "Fidelity D & D Bancorp, Inc.",
       "description": "DUNMORE, Pa., July 16, 2025 (GLOBE NEWSWIRE) -- The Board of Directors of Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC), parent company of The Fidelity Deposit and Discount Bank, announce their declaration of the Company\u2019s third quarter dividend of $0.40 per sh\u2026",
@@ -736,11 +840,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/07/16/3116675/0/en/Fidelity-D-D-Bancorp-Inc-Third-Quarter-2025-Dividend.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/7ff21eea-ee6d-46fb-9f2f-dd5e1bf9f1e3",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_9",
+      "id": "short_11",
       "title": "Video of Shelter Dog Pacing Goes Viral As Staff Say: 'Nothing Comforts Her'",
       "title_distilled": "Video of Shelter Dog Pacing Goes Viral As Staff Say: 'Nothing Comforts Her'.",
       "description": "\"Many dogs arrive at our shelter without the socialization or confidence-building they needed in their early life,\" a rescue director told Newsweek.",
@@ -809,11 +913,11 @@
       "url": "https://www.newsweek.com/shelter-dog-pacing-viral-staff-say-nothing-comforts-her-2099019",
       "urlToImage": "https://d.newsweek.com/en/full/2683284/iris-dog.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_12",
       "title": "WATCH LIVE: Vance delivers remarks in Pennsylvania to pitch Trump tax and spending law",
       "title_distilled": "WATCH LIVE: Vance delivers remarks in Pennsylvania to pitch Trump tax and spending law.",
       "description": "Vance's stop Wednesday in West Pittston is in a working-class district that could see a ferocious congressional campaign next year.",
@@ -858,11 +962,11 @@
       "url": "https://www.pbs.org/newshour/politics/watch-live-vance-delivers-remarks-in-pennsylvania-to-pitch-trump-tax-and-spending-law",
       "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2025/06/2025-05-28T172829Z_1030568517_RC24REA97V51_RTRMADP_3_USA-VANCE-BITCOIN-1024x672.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_13",
       "title": "Ad Campaign Targets Vulnerable Republican Who Broke Promise Not to Cut Medicaid",
       "title_distilled": "Ad Campaign Targets Vulnerable Republican Who Broke Promise Not to Cut Medicaid.",
       "description": "A new ad campaign is targeting a vulnerable first-term Republican congressman in a Northeastern Pennsylvania swing district after he broke his promise not to vote for Medicaid cuts.Rep. Rob Bresnahan Jr. (R-Pa.) joined the rest of his party last week to vote \u2026",
@@ -968,262 +1072,94 @@
       "url": "https://www.commondreams.org/news/ad-campaign-targets-vulnerable-republican-who-broke-promise-not-to-cut-medicaid",
       "urlToImage": "https://www.commondreams.org/media-library/image.jpg?id=61180455&width=1200&height=600&coordinates=0%2C85%2C0%2C86",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
-      "title": "COLLEGE BASEBALL: Opportunity for local players knocks on wood",
-      "title_distilled": "COLLEGE BASEBALL: Opportunity for local players knocks on wood.",
-      "description": "SCRANTON \u2014 Paul McGloin gets numerous phone calls every May from local college players looking for a place to play during the summer. &#8220;They ask, &#8216;Do you know of anybody who needs somebody?\u2019,&#8221; McGloin said. &#8220;Something fell through or they were going to go away and decided to change their mind. Or it\u2019s too expensive and they want to stay close to home.&#8221; Unfortunately, not many options existed. McGloin sought to change that. He fondly remembers his playing days in the Collegiate Summer Baseball League and the Scranton Association, as well as coaching with the Scranton Red Sox in the [&#8230;]",
+      "id": "short_14",
+      "title": "MLB: Mets\u2019 Kranick expected to undergo season-ending surgery",
+      "title_distilled": "MLB: Mets\u2019 Kranick expected to undergo season-ending surgery.",
+      "description": "NEW YORK \u2014 Mets reliever and Scranton native Max Kranick is expected to have season-ending surgery on his right elbow, the latest blow to New York&#8217;s injury-depleted bullpen. Kranick was placed on the 15-day injured list June 19 with an elbow strain. He had Tommy John surgery in June 2022 and is facing a second major operation on his pitching arm in 37 months. \u201cHe\u2019s going to have a Tommy John,\u201d manager Carlos Mendoza said Friday before his team\u2019s 8-4 loss to the Cincinnati Reds. \u201cI don\u2019t think we have a date yet, but he\u2019s going to have the surgery.\u201d New York&#8217;s [&#8230;]",
       "description_distilled": "",
-      "content": "SCRANTON \u2014 Paul McGloin gets numerous phone calls every May from local college players looking for a place to play during the summer. &#8220;They ask, &#8216;Do you know of anybody who needs somebody?\u2019,&#8221; McGloin said. &#8220;Something fell through or they were going to go away and decided to change their mind. Or it\u2019s too expensive and they want to stay close to home.&#8221; Unfortunately, not many options existed. McGloin sought to change that. He fondly remembers his playing days in the Collegiate Summer Baseball League and the Scranton Association, as well as coaching with the Scranton Red Sox in the [&#8230;]",
-      "content_distilled": "SCRANTON \u2014 Paul McGloin gets numerous phone calls every May from local college players looking for a place to play during the summer.",
+      "content": "NEW YORK \u2014 Mets reliever and Scranton native Max Kranick is expected to have season-ending surgery on his right elbow, the latest blow to New York&#8217;s injury-depleted bullpen. Kranick was placed on the 15-day injured list June 19 with an elbow strain. He had Tommy John surgery in June 2022 and is facing a second major operation on his pitching arm in 37 months. \u201cHe\u2019s going to have a Tommy John,\u201d manager Carlos Mendoza said Friday before his team\u2019s 8-4 loss to the Cincinnati Reds. \u201cI don\u2019t think we have a date yet, but he\u2019s going to have the surgery.\u201d New York&#8217;s [&#8230;]",
+      "content_distilled": "NEW YORK \u2014 Mets reliever and Scranton native Max Kranick is expected to have season-ending surgery on his right elbow, the latest blow to New York&#8217;s injury-depleted bullpen.",
       "graph": {
         "entities": [
           {
-            "name": "Collegiate Summer",
+            "name": "Max Kranick",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/collegiate-summer.md",
+            "file_path": "../entities/people/max-kranick.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Baseball League",
+            "name": "New York",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/baseball-league.md",
+            "file_path": "../entities/people/new-york.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Association",
+            "name": "Tommy John",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-association.md",
+            "file_path": "../entities/people/tommy-john.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Red Sox",
+            "name": "Carlos Mendoza",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-red-sox.md",
+            "file_path": "../entities/people/carlos-mendoza.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "SCRANTON",
+            "name": "Cincinnati Reds",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cincinnati-reds.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Collegia</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Baseball</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Collegiate Summer": "../entities/people/collegiate-summer.md",
-          "Baseball League": "../entities/people/baseball-league.md",
-          "Scranton Association": "../entities/people/scranton-association.md",
-          "Scranton Red Sox": "../entities/people/scranton-red-sox.md",
-          "SCRANTON": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-07-18T08:36:53",
-      "url": "https://www.thetimes-tribune.com/2025/07/18/college-baseball-opportunity-for-local-players-knocks-on-wood/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-EastCoastCollegiate-071725-09.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Lepre-Con Pub Crawl donates to Archbald Police Department",
-      "title_distilled": "Lepre-Con Pub Crawl donates to Archbald Police Department.",
-      "description": "Archbald&#8217;s streets welcomed over 180 leprechauns, lads and lassies as they trolled the streets in search of participating taverns in the 2nd Annual Lepre-Con Pub Crawl in March. This gathering, clad in Irish shamrock greens from Tag&#8217;d Gift Store, sought to raise funds to purchase two automated external defibrillators for the Archbald Police Department. Moontower Bar and Grill, Bud\u2019s Bar and Grill, Ambrose Revels Legion, Kenny\u2019s Pub, East Side Hose Company and Barrett\u2019s Pub were among the participating taverns, with the Black Diamond Bagpipers captivating the audience at the final stop. The pot of gold was discovered there with $3,738. [&#8230;]",
-      "description_distilled": "",
-      "content": "Archbald&#8217;s streets welcomed over 180 leprechauns, lads and lassies as they trolled the streets in search of participating taverns in the 2nd Annual Lepre-Con Pub Crawl in March. This gathering, clad in Irish shamrock greens from Tag&#8217;d Gift Store, sought to raise funds to purchase two automated external defibrillators for the Archbald Police Department. Moontower Bar and Grill, Bud\u2019s Bar and Grill, Ambrose Revels Legion, Kenny\u2019s Pub, East Side Hose Company and Barrett\u2019s Pub were among the participating taverns, with the Black Diamond Bagpipers captivating the audience at the final stop. The pot of gold was discovered there with $3,738. [&#8230;]",
-      "content_distilled": "Archbald&#8217;s streets welcomed over 180 leprechauns, lads and lassies as they trolled the streets in search of participating taverns in the 2nd Annual Lepre-Con Pub Crawl in March.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Con Pub Crawl",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/con-pub-crawl.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Archbald Police",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/archbald-police.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Annual Lepre",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/annual-lepre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Gift Store",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/gift-store.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Moontower Bar",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/moontower-bar.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ambrose Revels",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ambrose-revels.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "East Side",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/east-side.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Hose Company",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/hose-company.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Black Diamond",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/black-diamond.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Archbald Police Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/archbald-police-department.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Con Pub </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual L</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gift Sto</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moontowe</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ambrose </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Con Pub Crawl": "../entities/people/con-pub-crawl.md",
-          "Archbald Police": "../entities/people/archbald-police.md",
-          "Annual Lepre": "../entities/people/annual-lepre.md",
-          "Gift Store": "../entities/people/gift-store.md",
-          "Moontower Bar": "../entities/people/moontower-bar.md",
-          "Ambrose Revels": "../entities/people/ambrose-revels.md",
-          "East Side": "../entities/people/east-side.md",
-          "Hose Company": "../entities/people/hose-company.md",
-          "Black Diamond": "../entities/people/black-diamond.md",
-          "Archbald Police Department": "../entities/organizations/archbald-police-department.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-07-18T04:00:54",
-      "url": "https://www.thetimes-tribune.com/2025/07/18/lepre-con-pub-crawl-donates-to-archbald-police-department/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-A2PIC1-0718.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "91st DREAM GAME: Old Forge\u2019s Rosado inspired to show he belongs among all-stars",
-      "title_distilled": "91st DREAM GAME: Old Forge\u2019s Rosado inspired to show he belongs among all-stars.",
-      "description": "OLD FORGE \u2013 Richard Rosado got choked up. Head coach Michael Schuback called his name and presented him with the Louis \u201cGuie\u201d Cusumano at the Old Forge football postseason banquet. The award honors the memory of the longtime and devoted supporter of the program who was a co-founder of the Quarterback Club. Rosado, a two-way lineman, couldn\u2019t have been more appreciative for being recognized for his dedication and character. \u201cIt filled my heart with joy,\u201d Rosado said. \u201cIt just meant a lot to me coming from coach Schuback. He has been guiding me my whole career. I think it showed me [&#8230;]",
-      "description_distilled": "",
-      "content": "OLD FORGE \u2013 Richard Rosado got choked up. Head coach Michael Schuback called his name and presented him with the Louis \u201cGuie\u201d Cusumano at the Old Forge football postseason banquet. The award honors the memory of the longtime and devoted supporter of the program who was a co-founder of the Quarterback Club. Rosado, a two-way lineman, couldn\u2019t have been more appreciative for being recognized for his dedication and character. \u201cIt filled my heart with joy,\u201d Rosado said. \u201cIt just meant a lot to me coming from coach Schuback. He has been guiding me my whole career. I think it showed me [&#8230;]",
-      "content_distilled": "OLD FORGE \u2013 Richard Rosado got choked up.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Old Forge",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Richard Rosado",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/richard-rosado.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Michael Schuback",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/michael-schuback.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Quarterback Club",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/quarterback-club.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "DREAM GAME",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/dream-game.md",
-            "resolution_method": "new_entity"
-          }
-        ],
         "relationships": [
           {
-            "from": "Old Forge",
-            "to": "Richard Rosado",
-            "type": "STARS_IN",
-            "verb": "stars"
+            "from": "New York",
+            "to": "Max Kranick",
+            "type": "MET",
+            "verb": "met"
           },
           {
-            "from": "Old Forge",
-            "to": "DREAM GAME",
-            "type": "STARS_IN",
-            "verb": "stars"
+            "from": "New York",
+            "to": "Scranton",
+            "type": "MET",
+            "verb": "met"
           },
           {
-            "from": "DREAM GAME",
-            "to": "Richard Rosado",
-            "type": "STARS_IN",
-            "verb": "stars"
+            "from": "Tommy John",
+            "to": "Cincinnati Reds",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "Carlos Mendoza",
+            "to": "Cincinnati Reds",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "Carlos Mendoza",
+            "to": "Scranton",
+            "type": "RELATES_TO"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Richard </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Michael </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Quarterb</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">DREAM GA</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARS_IN</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARS_IN</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARS_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Max Kran</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New York</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tommy Jo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carlos M</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cincinna</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1234,17 +1170,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Old Forge": "../entities/people/old-forge.md",
-          "Richard Rosado": "../entities/people/richard-rosado.md",
-          "Michael Schuback": "../entities/people/michael-schuback.md",
-          "Quarterback Club": "../entities/people/quarterback-club.md",
-          "DREAM GAME": "../entities/events/dream-game.md"
+          "Max Kranick": "../entities/people/max-kranick.md",
+          "New York": "../entities/people/new-york.md",
+          "Tommy John": "../entities/people/tommy-john.md",
+          "Carlos Mendoza": "../entities/people/carlos-mendoza.md",
+          "Cincinnati Reds": "../entities/people/cincinnati-reds.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-07-18T04:00:52",
-      "url": "https://www.thetimes-tribune.com/2025/07/18/91st-dream-game-old-forges-rosado-inspired-to-show-he-belongs-among-all-stars/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-dreamgamephotos-01.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-07-19T05:36:47",
+      "url": "https://www.thetimes-tribune.com/2025/07/19/mlb-mets-kranick-expected-to-undergo-season-ending-surgery/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/06/STT-L-KRANICK-0327-03.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
