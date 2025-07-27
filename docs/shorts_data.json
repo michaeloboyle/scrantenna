@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-07-26T11:04:15.356538",
-  "source_file": "../data/daily/scranton_news_2025-07-26.json",
+  "generated_at": "2025-07-27T11:04:32.995882",
+  "source_file": "../data/daily/scranton_news_2025-07-27.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -794,86 +794,44 @@
     },
     {
       "id": "short_12",
-      "title": "Ad Campaign Targets Vulnerable Republican Who Broke Promise Not to Cut Medicaid",
-      "title_distilled": "Ad Campaign Targets Vulnerable Republican Who Broke Promise Not to Cut Medicaid.",
-      "description": "A new ad campaign is targeting a vulnerable first-term Republican congressman in a Northeastern Pennsylvania swing district after he broke his promise not to vote for Medicaid cuts.Rep. Rob Bresnahan Jr. (R-Pa.) joined the rest of his party last week to vote \u2026",
+      "title": "Checking out cars for mental health awareness in Scranton",
+      "title_distilled": "Checking out cars for mental health awareness in Scranton.",
+      "description": "The 9th Cody's Car Show in Scranton, held on Saturday, teamed up with the LRJ Foundation to promote mental health awareness.",
       "description_distilled": "",
-      "content": "A new ad campaign is targeting a vulnerable first-term Republican congressman in a Northeastern Pennsylvania swing district after he broke his promise not to vote for Medicaid cuts.Rep. Rob Bresnahan Jr. (R-Pa.) joined the rest of his party last week to vote \u2026",
-      "content_distilled": "new ad campaign is targeting a vulnerable first-term Republican congressman in a Northeastern Pennsylvania swing district after he broke his promise not to vote for Medicaid cuts.",
+      "content": "The 9th Cody's Car Show in Scranton, held on Saturday, teamed up with the LRJ Foundation to promote mental health awareness.",
+      "content_distilled": "9th Cody's Car Show in Scranton, held on Saturday, teamed up with the LRJ Foundation to promote mental health awareness.",
       "graph": {
         "entities": [
           {
-            "name": "Campaign Targets",
+            "name": "Scranton The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/campaign-targets.md",
+            "file_path": "../entities/people/scranton-the.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Vulnerable Republican",
+            "name": "Car Show",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/vulnerable-republican.md",
+            "file_path": "../entities/people/car-show.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Who Broke",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/who-broke.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Promise Not",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/promise-not.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Cut Medicaid",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/cut-medicaid.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Rob Bresnahan",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/rob-bresnahan.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Who Broke",
-            "to": "Cut Medicaid",
-            "type": "OCCURS_DURING"
+            "from": "Car Show",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Campaign</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vulnerab</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Who Brok</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Promise </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cut Medi</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Car Show</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -884,32 +842,27 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Campaign Targets": "../entities/people/campaign-targets.md",
-          "Vulnerable Republican": "../entities/people/vulnerable-republican.md",
-          "Who Broke": "../entities/people/who-broke.md",
-          "Promise Not": "../entities/people/promise-not.md",
-          "Cut Medicaid": "../entities/people/cut-medicaid.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Rob Bresnahan": "../entities/people/rob-bresnahan.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Scranton The": "../entities/people/scranton-the.md",
+          "Car Show": "../entities/people/car-show.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Common Dreams",
-      "publishedAt": "2025-07-08T20:10:20Z",
-      "url": "https://www.commondreams.org/news/ad-campaign-targets-vulnerable-republican-who-broke-promise-not-to-cut-medicaid",
-      "urlToImage": "https://www.commondreams.org/media-library/image.jpg?id=61180455&width=1200&height=600&coordinates=0%2C85%2C0%2C86",
+      "source": "Wnep",
+      "publishedAt": "2025-07-27T03:15:31",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/checking-out-cars-for-mental-health-awareness-in-scranton-lackawanna-county/523-fd21f0b3-32f8-48fa-ac3a-319008ea2c64",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Delays expected on Route 11 in Lackawanna County due to planned roadwork",
-      "title_distilled": "Delays expected on Route 11 in Lackawanna County due to planned roadwork.",
-      "description": "If you're one of the 10,000 drivers who pass through Route 11 each day, you'll need to give yourself more time to get from point A to point B.",
+      "title": "Motorcycle crash leaves one dead in Mayfield",
+      "title_distilled": "Motorcycle crash leaves one dead in Mayfield.",
+      "description": "The Lackawanna County Coroner says one person was killed after a motorcycle crash in Mayfield early Saturday.",
       "description_distilled": "",
-      "content": "If you're one of the 10,000 drivers who pass through Route 11 each day, you'll need to give yourself more time to get from point A to point B.",
-      "content_distilled": "If you're one of the 10,000 drivers who pass through Route 11 each day, you'll need to give yourself more time to get from point A to point B.",
+      "content": "The Lackawanna County Coroner says one person was killed after a motorcycle crash in Mayfield early Saturday.",
+      "content_distilled": "Lackawanna County Coroner says one person was killed after a motorcycle crash in Mayfield early Saturday.",
       "graph": {
         "entities": [
           {
@@ -936,8 +889,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-07-25T21:54:26",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/delays-expected-on-route-11-in-lackawanna-county-due-to-planned-roadwork-scranton-clarks-summit/523-df0d88f3-7cfb-40cd-8e13-480f02cbf88d",
+      "publishedAt": "2025-07-27T02:48:35",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/motorcycle-crash-leaves-one-dead-scott-township-lackawanna-county-coroner/523-dd4022ef-154e-43f3-9770-063c48019ab0",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -945,14 +898,21 @@
     },
     {
       "id": "short_14",
-      "title": "Local supermarket in Scranton reopened after electrical fire",
-      "title_distilled": "Local supermarket in Scranton reopened after electrical fire.",
-      "description": "Crews were called to Schiff's in Scranton just before 7 p.m. on July 13 for an electrical fire.",
+      "title": "Fire leaves several displaced in Scranton",
+      "title_distilled": "Fire leaves several displaced in Scranton.",
+      "description": "Fire crews were called to a porch fire in Scranton on Saturday evening that left several people displaced.",
       "description_distilled": "",
-      "content": "Crews were called to Schiff's in Scranton just before 7 p.m. on July 13 for an electrical fire.",
-      "content_distilled": "Crews were called to Schiff's in Scranton just before 7 p.",
+      "content": "Fire crews were called to a porch fire in Scranton on Saturday evening that left several people displaced.",
+      "content_distilled": "Fire crews were called to a porch fire in Scranton on Saturday evening that left several people displaced.",
       "graph": {
         "entities": [
+          {
+            "name": "Scranton Fire",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-fire.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -961,8 +921,14 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Scranton Fire",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -973,12 +939,13 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Scranton Fire": "../entities/people/scranton-fire.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-07-25T19:01:04",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/local-supermarket-scranton-closed-monday-electrical-fire-north-main-avenue-lackawanna-county-schiffs/523-304c113c-46b4-4f77-9ffe-1f1e675e93c5",
+      "publishedAt": "2025-07-27T01:40:22",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-leaves-several-displaced-in-scranton-lackawanna-county-north-washington-new-street/523-899a235f-0790-43f6-80b5-a148f61de45c",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
