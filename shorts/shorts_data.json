@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-07-28T11:05:07.399714",
-  "source_file": "../data/daily/scranton_news_2025-07-28.json",
+  "generated_at": "2025-07-29T11:04:25.058876",
+  "source_file": "../data/daily/scranton_news_2025-07-29.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -739,31 +739,123 @@
     },
     {
       "id": "short_11",
-      "title": "Heavy police presence in Scranton",
-      "title_distilled": "Heavy police presence in Scranton.",
-      "description": "Officials say one person was injured and two were taken into custody after a heavy police presence in Scranton on Sunday evening.",
+      "title": "Author discusses Beatles, religion at University of Scranton",
+      "title_distilled": "Author discusses Beatles, religion at University of Scranton.",
+      "description": "Author Jeffery D. Long, Ph.D., the Carl W. Zeigler professor of religion, philosophy and Asian studies at Elizabethtown College, presented \u201cPeace, Love and God-consciousness: George Harrison, The Beatles and Hinduism\u201d at a lecture at the University of Scranton in March. The lecture was sponsored by the university\u2019s Slattery Center, Jesuit Center, Department of Theology/Religious Studies, Asian Studies Concentration, and Peace and Justice Studies Concentration. From left: Christian Krokus, Ph.D., professor of theology and religious studies at Scranton; Patrick Beldio, Ph.D., visiting assistant professor of theology and religious studies at Scranton; Long and his wife, Mahua Bhattachara, Ph.D., professor of Japanese [&#8230;]",
       "description_distilled": "",
-      "content": "Officials say one person was injured and two were taken into custody after a heavy police presence in Scranton on Sunday evening.",
-      "content_distilled": "Officials say one person was injured and two were taken into custody after a heavy police presence in Scranton on Sunday evening.",
+      "content": "Author Jeffery D. Long, Ph.D., the Carl W. Zeigler professor of religion, philosophy and Asian studies at Elizabethtown College, presented \u201cPeace, Love and God-consciousness: George Harrison, The Beatles and Hinduism\u201d at a lecture at the University of Scranton in March. The lecture was sponsored by the university\u2019s Slattery Center, Jesuit Center, Department of Theology/Religious Studies, Asian Studies Concentration, and Peace and Justice Studies Concentration. From left: Christian Krokus, Ph.D., professor of theology and religious studies at Scranton; Patrick Beldio, Ph.D., visiting assistant professor of theology and religious studies at Scranton; Long and his wife, Mahua Bhattachara, Ph.D., professor of Japanese [&#8230;]",
+      "content_distilled": "Author Jeffery D.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Officials",
+            "name": "Scranton Author",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-officials.md",
+            "file_path": "../entities/people/scranton-author.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Elizabethtown College",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/elizabethtown-college.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "George Harrison",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/george-harrison.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Beatles",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-beatles.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Slattery Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/slattery-center.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jesuit Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jesuit-center.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Religious Studies",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/religious-studies.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Asian Studies",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/asian-studies.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Justice Studies",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/justice-studies.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Christian Krokus",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/christian-krokus.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Slattery Center",
+            "to": "Asian Studies",
+            "type": "STUDIES",
+            "verb": "studies"
+          },
+          {
+            "from": "Slattery Center",
+            "to": "Justice Studies",
+            "type": "STUDIES",
+            "verb": "studies"
+          },
+          {
+            "from": "Jesuit Center",
+            "to": "Asian Studies",
+            "type": "STUDIES",
+            "verb": "studies"
+          },
+          {
+            "from": "Jesuit Center",
+            "to": "Justice Studies",
+            "type": "STUDIES",
+            "verb": "studies"
+          },
+          {
+            "from": "Religious Studies",
+            "to": "Justice Studies",
+            "type": "STUDIES",
+            "verb": "studies"
+          },
+          {
+            "from": "Religious Studies",
+            "to": "Scranton Author",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elizabet</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">George H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Beat</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Slattery</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jesuit C</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -774,68 +866,94 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Officials": "../entities/people/scranton-officials.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Scranton Author": "../entities/people/scranton-author.md",
+          "Elizabethtown College": "../entities/people/elizabethtown-college.md",
+          "George Harrison": "../entities/people/george-harrison.md",
+          "The Beatles": "../entities/people/the-beatles.md",
+          "Slattery Center": "../entities/people/slattery-center.md",
+          "Jesuit Center": "../entities/people/jesuit-center.md",
+          "Religious Studies": "../entities/people/religious-studies.md",
+          "Asian Studies": "../entities/people/asian-studies.md",
+          "Justice Studies": "../entities/people/justice-studies.md",
+          "Christian Krokus": "../entities/people/christian-krokus.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-07-28T01:46:57",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/heavy-police-presence-in-scranton-lackawanna-county-east-locust-street/523-d50b0997-2fb8-4eee-bfdd-05c87d3ef2cd",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-07-29T04:45:54",
+      "url": "https://www.thetimes-tribune.com/2025/07/29/author-discusses-beatles-religion-at-university-of-scranton/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-A2PIC2-0729.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Crash closes street in Scranton for hours",
-      "title_distilled": "Crash closes street in Scranton for hours.",
-      "description": "A rollover crash in Scranton closed Mulberry Street for a few hours on Sunday evening.",
+      "title": "Moosic High School to hold final All Class Reunion",
+      "title_distilled": "Moosic High School to hold final All Class Reunion.",
+      "description": "The Moosic High School Committee for the annual All Class Reunion has decided the reunion has run its course and this year will be the finale. This year&#8217;s reunion will be held earlier than usual on Saturday, Aug. 16, at St. George&#8217;s Center, 730 S. Keyser Ave., Taylor, from noon-4 p.m. Letters have been sent to class members who attended the high school. The reunion is open to members and their guests. The price of the reunion is $40/person. Reservations are necessary and close Friday. If you have not received a letter or have questions, contact Barbara Zikoski Sincavage at [&#8230;]",
       "description_distilled": "",
-      "content": "A rollover crash in Scranton closed Mulberry Street for a few hours on Sunday evening.",
-      "content_distilled": "rollover crash in Scranton closed Mulberry Street for a few hours on Sunday evening.",
+      "content": "The Moosic High School Committee for the annual All Class Reunion has decided the reunion has run its course and this year will be the finale. This year&#8217;s reunion will be held earlier than usual on Saturday, Aug. 16, at St. George&#8217;s Center, 730 S. Keyser Ave., Taylor, from noon-4 p.m. Letters have been sent to class members who attended the high school. The reunion is open to members and their guests. The price of the reunion is $40/person. Reservations are necessary and close Friday. If you have not received a letter or have questions, contact Barbara Zikoski Sincavage at [&#8230;]",
+      "content_distilled": "Moosic High School Committee for the annual All Class Reunion has decided the reunion has run its course and this year will be the finale.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Moosic High",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/moosic-high.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Crash closes street",
-            "type": "LOCATION",
+            "name": "All Class",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/crash-closes-street.md",
+            "file_path": "../entities/people/all-class.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton closed Mulberry Street",
-            "type": "LOCATION",
+            "name": "High School",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton-closed-mulberry-street.md",
+            "file_path": "../entities/people/high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Keyser Ave",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/keyser-ave.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barbara Zikoski",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barbara-zikoski.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Moosic High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/moosic-high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "All Class Reunion The Moosic High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/all-class-reunion-the-moosic-high-school.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Crash closes street",
-            "to": "Scranton closed Mulberry Street",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Crash closes street",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "Scranton closed Mulberry Street",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Moosic High",
+            "to": "All Class",
+            "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crash cl</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moosic H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">All Clas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keyser A</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barbara </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moosic H</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -846,34 +964,59 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md",
-          "Crash closes street": "../entities/locations/crash-closes-street.md",
-          "Scranton closed Mulberry Street": "../entities/locations/scranton-closed-mulberry-street.md"
+          "Moosic High": "../entities/people/moosic-high.md",
+          "All Class": "../entities/people/all-class.md",
+          "High School": "../entities/people/high-school.md",
+          "Keyser Ave": "../entities/people/keyser-ave.md",
+          "Barbara Zikoski": "../entities/people/barbara-zikoski.md",
+          "Moosic High School": "../entities/organizations/moosic-high-school.md",
+          "All Class Reunion The Moosic High School": "../entities/organizations/all-class-reunion-the-moosic-high-school.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-07-28T01:38:39",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/crash-closes-street-in-scranton-for-hours-mulberry-street-adams-avenue-lackawanna-county/523-4e8d17b1-81bc-49f8-90f9-8fc1592d0a41",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-07-29T04:28:50",
+      "url": "https://www.thetimes-tribune.com/2025/07/29/moosic-high-school-to-hold-final-all-class-reunion/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-A2PIC1-0729.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Hose company's wine festival in Lackawanna County cancelled due to low interest and participation",
-      "title_distilled": "Hose company's wine festival in Lackawanna County cancelled due to low interest and participation.",
-      "description": "Jessup Hose Company #2 announced its wine festival is cancelled this year due to low interest and participation.",
+      "title": "Police seek missing Moosic man",
+      "title_distilled": "Police seek missing Moosic man.",
+      "description": "Moosic police are looking for a young borough man and are seeking the public&#8217;s assistance in locating him. Nicholas Terrery, 23, was last seen in the vicinity of Kipling Drive around 10:45 a.m. Saturday, police said. He was wearing a white golf hat, blue shirt and dark-colored shorts. Police said his last known location was Litzy&#8217;s Lounge in Avoca at approximately 9:55 p.m. Saturday. Anyone with information about Terrery&#8217;s current location is asked to contact the Moosic Borough Police Department through the Lackawanna County Communications Center at 570-342-9111.",
       "description_distilled": "",
-      "content": "Jessup Hose Company #2 announced its wine festival is cancelled this year due to low interest and participation.",
-      "content_distilled": "Jessup Hose Company #2 announced its wine festival is cancelled this year due to low interest and participation.",
+      "content": "Moosic police are looking for a young borough man and are seeking the public&#8217;s assistance in locating him. Nicholas Terrery, 23, was last seen in the vicinity of Kipling Drive around 10:45 a.m. Saturday, police said. He was wearing a white golf hat, blue shirt and dark-colored shorts. Police said his last known location was Litzy&#8217;s Lounge in Avoca at approximately 9:55 p.m. Saturday. Anyone with information about Terrery&#8217;s current location is asked to contact the Moosic Borough Police Department through the Lackawanna County Communications Center at 570-342-9111.",
+      "content_distilled": "Moosic police are looking for a young borough man and are seeking the public&#8217;s assistance in locating him.",
       "graph": {
         "entities": [
           {
-            "name": "Jessup Hose",
+            "name": "Nicholas Terrery",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jessup-hose.md",
+            "file_path": "../entities/people/nicholas-terrery.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Kipling Drive",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/kipling-drive.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Moosic Borough",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/moosic-borough.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Communications Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/communications-center.md",
             "resolution_method": "new_entity"
           },
           {
@@ -884,48 +1027,28 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jessup Hose Company",
+            "name": "vicinity of Kipling Drive",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/vicinity-of-kipling-drive.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Moosic Borough Police Department",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/jessup-hose-company.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "wine festival",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/wine-festival.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "announced its wine festival",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/announced-its-wine-festival.md",
+            "file_path": "../entities/organizations/moosic-borough-police-department.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Jessup Hose",
-            "to": "wine festival",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "wine festival",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Jessup Hose Company",
-            "to": "wine festival",
-            "type": "ANNOUNCED",
-            "verb": "announced"
+            "from": "vicinity of Kipling Drive",
+            "to": "Kipling Drive",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">wine fes</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">announce</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nicholas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kipling </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moosic B</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communic</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">vicinity</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -936,66 +1059,85 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Jessup Hose": "../entities/people/jessup-hose.md",
+          "Nicholas Terrery": "../entities/people/nicholas-terrery.md",
+          "Kipling Drive": "../entities/people/kipling-drive.md",
+          "Moosic Borough": "../entities/people/moosic-borough.md",
+          "Communications Center": "../entities/people/communications-center.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Jessup Hose Company": "../entities/organizations/jessup-hose-company.md",
-          "wine festival": "../entities/events/wine-festival.md",
-          "announced its wine festival": "../entities/events/announced-its-wine-festival.md"
+          "vicinity of Kipling Drive": "../entities/locations/vicinity-of-kipling-drive.md",
+          "Moosic Borough Police Department": "../entities/organizations/moosic-borough-police-department.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-07-28T00:13:19",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/hose-companys-wine-festival-cancelled-due-to-low-interest-and-participation-lackawanna-county-jessup/523-33b307a3-36fd-4692-8a24-4940b01e3ad9",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-07-28T23:33:14",
+      "url": "https://www.thetimes-tribune.com/2025/07/28/police-seek-missing-moosic-man/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-Terrery-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "Chicken wing lovers\u2019 paradise hits Swoyersville",
-      "title_distilled": "Chicken wing lovers\u2019 paradise hits Swoyersville.",
-      "description": "The third annual Swoyersville Chicken Wing Fling dished out thousands of wings of all flavors for the wing lovers in NEPA on Sunday.",
+      "title": "Scranton Jazz Festival Returns This Weekend",
+      "title_distilled": "Scranton Jazz Festival Returns This Weekend.",
+      "description": "The Scranton Jazz Festival celebrates its 20th anniversary with events across 23 venues this weekend.",
       "description_distilled": "",
-      "content": "The third annual Swoyersville Chicken Wing Fling dished out thousands of wings of all flavors for the wing lovers in NEPA on Sunday.",
-      "content_distilled": "third annual Swoyersville Chicken Wing Fling dished out thousands of wings of all flavors for the wing lovers in NEPA on Sunday.",
+      "content": "The Scranton Jazz Festival celebrates its 20th anniversary with events across 23 venues this weekend.",
+      "content_distilled": "Scranton Jazz Festival celebrates its 20th anniversary with events across 23 venues this weekend.",
       "graph": {
         "entities": [
           {
-            "name": "Swoyersville The",
+            "name": "Scranton Jazz",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/swoyersville-the.md",
+            "file_path": "../entities/people/scranton-jazz.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Swoyersville Chicken",
+            "name": "Festival Returns",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/swoyersville-chicken.md",
+            "file_path": "../entities/people/festival-returns.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Wing Fling",
+            "name": "This Weekend",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/wing-fling.md",
+            "file_path": "../entities/people/this-weekend.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jazz Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jazz-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Jazz Festival Returns This Weekend The Scranton Jazz Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/scranton-jazz-festival-returns-this-weekend-the-scranton-jazz-festival.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Swoyersville The",
-            "to": "Wing Fling",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Swoyersville The",
-            "to": "Wing Fling",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Swoyersv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Swoyersv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wing Fli</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festival</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">This Wee</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jazz Fes</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1006,14 +1148,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Swoyersville The": "../entities/people/swoyersville-the.md",
-          "Swoyersville Chicken": "../entities/people/swoyersville-chicken.md",
-          "Wing Fling": "../entities/people/wing-fling.md"
+          "Scranton Jazz": "../entities/people/scranton-jazz.md",
+          "Festival Returns": "../entities/people/festival-returns.md",
+          "This Weekend": "../entities/people/this-weekend.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Jazz Festival": "../entities/people/jazz-festival.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Scranton Jazz Festival Returns This Weekend The Scranton Jazz Festival": "../entities/events/scranton-jazz-festival-returns-this-weekend-the-scranton-jazz-festival.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-07-27T22:17:47",
-      "url": "https://www.wnep.com/article/news/local/luzerne-county/chicken-wing-lovers-paradise-hits-swoyersville-luzerne-county-nepa-fling/523-9a4b426c-cf2c-4840-a053-73ad0df8dfc8",
+      "publishedAt": "2025-07-29T10:44:42",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-jazz-festival-returns-this-weekend-lackawanna-county/523-9e36af1b-daa2-4f8b-b65e-8c6f67acd764",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
