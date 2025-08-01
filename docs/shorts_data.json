@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-07-31T11:04:14.169386",
-  "source_file": "../data/daily/scranton_news_2025-07-31.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2025-08-01T11:04:53.627735",
+  "source_file": "../data/daily/scranton_news_2025-08-01.json",
+  "total_shorts": 14,
+  "total_duration": 112,
   "has_svo": false,
   "shorts": [
     {
@@ -690,14 +690,28 @@
     },
     {
       "id": "short_10",
-      "title": "Flames tear through home near Clarks Summit",
-      "title_distilled": "Flames tear through home near Clarks Summit.",
-      "description": "Flames broke out shortly before 7 p.m. along Layton Road in South Abington Township.",
+      "title": "VFW convention held in Gettysburg",
+      "title_distilled": "VFW convention held in Gettysburg.",
+      "description": "The Department of Pennsylvania, Veterans of Foreign Wars, conducted a department convention in Gettysburg. Those who attended included, from left: Robert Eiler, past department commander; Michael G. McLane, VFW Post 7069, Clarks Summit, department inspector; Carol Whitmore, incoming national VFW commander-in-chief, and Russell Canevari, VFW Post 5544, Jessup, past department commander.",
       "description_distilled": "",
-      "content": "Flames broke out shortly before 7 p.m. along Layton Road in South Abington Township.",
-      "content_distilled": "Flames broke out shortly before 7 p.",
+      "content": "The Department of Pennsylvania, Veterans of Foreign Wars, conducted a department convention in Gettysburg. Those who attended included, from left: Robert Eiler, past department commander; Michael G. McLane, VFW Post 7069, Clarks Summit, department inspector; Carol Whitmore, incoming national VFW commander-in-chief, and Russell Canevari, VFW Post 5544, Jessup, past department commander.",
+      "content_distilled": "Department of Pennsylvania, Veterans of Foreign Wars, conducted a department convention in Gettysburg.",
       "graph": {
         "entities": [
+          {
+            "name": "Foreign Wars",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/foreign-wars.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Robert Eiler",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/robert-eiler.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Clarks Summit",
             "type": "PERSON",
@@ -706,29 +720,42 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "South Abington",
+            "name": "Carol Whitmore",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/south-abington.md",
+            "file_path": "../entities/people/carol-whitmore.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "along Layton Road",
+            "name": "Russell Canevari",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/russell-canevari.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/along-layton-road.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Flames tear through home near Clarks Summit",
-            "type": "EVENT",
+            "name": "Gettysburg The Department",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/events/flames-tear-through-home-near-clarks-summit.md",
+            "file_path": "../entities/organizations/gettysburg-the-department.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along La</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Flames t</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "relationships": [
+          {
+            "from": "Gettysburg The Department",
+            "to": "Pennsylvania",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Foreign </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Robert E</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carol Wh</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Russell </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -739,40 +766,134 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Foreign Wars": "../entities/people/foreign-wars.md",
+          "Robert Eiler": "../entities/people/robert-eiler.md",
           "Clarks Summit": "../entities/people/clarks-summit.md",
-          "South Abington": "../entities/people/south-abington.md",
-          "along Layton Road": "../entities/locations/along-layton-road.md",
-          "Flames tear through home near Clarks Summit": "../entities/events/flames-tear-through-home-near-clarks-summit.md"
+          "Carol Whitmore": "../entities/people/carol-whitmore.md",
+          "Russell Canevari": "../entities/people/russell-canevari.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Gettysburg The Department": "../entities/organizations/gettysburg-the-department.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-07-31T00:58:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-tears-through-home-near-clarks-summit-south-abington-township-lackawanna-county/523-16583d99-8ded-42b1-a473-bd68ad72d706",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-01T04:00:44",
+      "url": "https://www.thetimes-tribune.com/2025/08/01/vfw-convention-held-in-gettysburg/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-A2PIC1-0801_d58ac9.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "Man gets life sentence for Scranton gas station killing",
-      "title_distilled": "Man gets life sentence for Scranton gas station killing.",
-      "description": "A man will spend the rest of his life behind bars after killing a young father in a gas station in Scranton.",
+      "title": "Toyota of Scranton supports Scranton Jazz Festival",
+      "title_distilled": "Toyota of Scranton supports Scranton Jazz Festival.",
+      "description": "Toyota of Scranton is supporting the 20th annual Scranton Jazz Festival, to be held at various venues in downtown Scranton this weekend. From left: Patrick Rogers, chief financial officer, Toyota of Scranton; Marko Marcinko, founder/director, Scranton Jazz Festival; and Larry Pugliese, Scranton Jazz Festival.",
       "description_distilled": "",
-      "content": "A man will spend the rest of his life behind bars after killing a young father in a gas station in Scranton.",
-      "content_distilled": "man will spend the rest of his life behind bars after killing a young father in a gas station in Scranton.",
+      "content": "Toyota of Scranton is supporting the 20th annual Scranton Jazz Festival, to be held at various venues in downtown Scranton this weekend. From left: Patrick Rogers, chief financial officer, Toyota of Scranton; Marko Marcinko, founder/director, Scranton Jazz Festival; and Larry Pugliese, Scranton Jazz Festival.",
+      "content_distilled": "Toyota of Scranton is supporting the 20th annual Scranton Jazz Festival, to be held at various venues in downtown Scranton this weekend.",
       "graph": {
         "entities": [
+          {
+            "name": "Scranton Jazz",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-jazz.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Festival Toyota",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/festival-toyota.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Patrick Rogers",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/patrick-rogers.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Marko Marcinko",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/marko-marcinko.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Larry Pugliese",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/larry-pugliese.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Toyota of Scranton supports Scranton Jazz Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/toyota-of-scranton-supports-scranton-jazz-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "annual Scranton Jazz Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/annual-scranton-jazz-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Jazz Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/scranton-jazz-festival.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Scranton",
+            "to": "Scranton Jazz",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Scranton",
+            "to": "Festival Toyota",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Scranton",
+            "to": "annual Scranton Jazz Festival",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Scranton",
+            "to": "Scranton Jazz Festival",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Scranton Jazz",
+            "to": "Scranton Jazz Festival",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Toyota of Scranton supports Scranton Jazz Festival",
+            "to": "Scranton Jazz Festival",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festival</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Patrick </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marko Ma</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Larry Pu</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -783,69 +904,52 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Scranton Jazz": "../entities/people/scranton-jazz.md",
+          "Festival Toyota": "../entities/people/festival-toyota.md",
+          "Patrick Rogers": "../entities/people/patrick-rogers.md",
+          "Marko Marcinko": "../entities/people/marko-marcinko.md",
+          "Larry Pugliese": "../entities/people/larry-pugliese.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Toyota of Scranton supports Scranton Jazz Festival": "../entities/events/toyota-of-scranton-supports-scranton-jazz-festival.md",
+          "annual Scranton Jazz Festival": "../entities/events/annual-scranton-jazz-festival.md",
+          "Scranton Jazz Festival": "../entities/events/scranton-jazz-festival.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-07-30T21:08:17",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/man-gets-life-sentence-for-scranton-gas-station-killing-shelton-miles-jose-tatis-lackawanna-county-court/523-98971865-bede-4bb5-8464-3e7b88eaf4cf",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-01T04:00:31",
+      "url": "https://www.thetimes-tribune.com/2025/08/01/toyota-of-scranton-supports-scranton-jazz-festival/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-A2PIC1-0801.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Police search for suspect after stabbing in Scranton",
-      "title_distilled": "Police search for suspect after stabbing in Scranton.",
-      "description": "Police are searching for a man accused of stabbing a woman on East Locust Street on Sunday.",
+      "title": "Paranormal happenings at the Schuylkill County Prison | Creepy Side of NEPA",
+      "title_distilled": "Paranormal happenings at the Schuylkill County Prison | Creepy Side of NEPA.",
+      "description": "On this episode, we discuss some of the history and paranormal happenings surrounding the Schuylkill County Prison in Pottsville, PA.",
       "description_distilled": "",
-      "content": "Police are searching for a man accused of stabbing a woman on East Locust Street on Sunday.",
-      "content_distilled": "Police are searching for a man accused of stabbing a woman on East Locust Street on Sunday.",
+      "content": "On this episode, we discuss some of the history and paranormal happenings surrounding the Schuylkill County Prison in Pottsville, PA.",
+      "content_distilled": "On this episode, we discuss some of the history and paranormal happenings surrounding the Schuylkill County Prison in Pottsville, PA.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Police",
+            "name": "Creepy Side",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
+            "file_path": "../entities/people/creepy-side.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "East Locust",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/east-locust.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Scranton Police",
-            "to": "East Locust",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Scranton",
-            "to": "East Locust",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Scranton Police",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">East Loc</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Creepy S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -856,14 +960,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
-          "East Locust": "../entities/people/east-locust.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Creepy Side": "../entities/people/creepy-side.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-07-30T18:49:56",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-search-for-suspect-after-stabbing-in-scranton-east-locust-street-lackawanna-county/523-4a3489cd-4c94-4328-a8bf-e7395628c7e5",
+      "publishedAt": "2025-07-31T17:12:11",
+      "url": "https://www.wnep.com/article/syndication/podcasts/creepy-side-of-nepa/podcast-paranormal-happenings-schuylkill-county-prison-creepy-side-of-nepa/523-43ae5f50-1c24-4830-9129-8aebd8c4eb2a",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -871,38 +974,72 @@
     },
     {
       "id": "short_13",
-      "title": "Wilkes-Barre event celebrates accessibility in the great outdoors",
-      "title_distilled": "Wilkes-Barre event celebrates accessibility in the great outdoors.",
-      "description": "Wild Wellness NEPA hosts its first Accessible Outdoor Day at Kirby Park this Saturday from 11 am to 3 pm, offering free activities for all abilities.",
+      "title": "DUI checkpoints set this weekend in PA",
+      "title_distilled": "DUI checkpoints set this weekend in PA.",
+      "description": "(WBRE/WYOU) \u2014 State police announced DUI checkpoints will be placed across various roadways in Lackawanna County this weekend. According to Pennsylvania State Police, sobriety checkpoints and rovin...",
       "description_distilled": "",
-      "content": "Wild Wellness NEPA hosts its first Accessible Outdoor Day at Kirby Park this Saturday from 11 am to 3 pm, offering free activities for all abilities.",
-      "content_distilled": "Wild Wellness NEPA hosts its first Accessible Outdoor Day at Kirby Park this Saturday from 11 am to 3 pm, offering free activities for all abilities.",
+      "content": "(WBRE/WYOU) \u2014 State police announced DUI checkpoints will be placed across various roadways in Lackawanna County this weekend. According to Pennsylvania State Police, sobriety checkpoints and rovin...",
+      "content_distilled": " \u2014 State police announced DUI checkpoints will be placed across various roadways in Lackawanna County this weekend.",
       "graph": {
         "entities": [
           {
-            "name": "Wild Wellness",
-            "type": "PERSON",
+            "name": "zero-tolerance enforcement policy.",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/wild-wellness.md",
+            "file_path": "../entities/works/movies/zero-tolerance-enforcement-policy.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Accessible Outdoor",
+            "name": "Pennsylvania State",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/accessible-outdoor.md",
+            "file_path": "../entities/people/pennsylvania-state.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Kirby Park",
-            "type": "PERSON",
+            "name": "Pennsylvania",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/kirby-park.md",
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wild Wel</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Accessib</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kirby Pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "WBRE",
+            "to": "Lackawanna County",
+            "type": "ANNOUNCED",
+            "verb": "announced"
+          },
+          {
+            "from": "WYOU",
+            "to": "Lackawanna County",
+            "type": "ANNOUNCED",
+            "verb": "announced"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">zero-tol</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -913,66 +1050,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Wild Wellness": "../entities/people/wild-wellness.md",
-          "Accessible Outdoor": "../entities/people/accessible-outdoor.md",
-          "Kirby Park": "../entities/people/kirby-park.md"
+          "zero-tolerance enforcement policy.": "../entities/works/movies/zero-tolerance-enforcement-policy.md",
+          "Pennsylvania State": "../entities/people/pennsylvania-state.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-07-30T15:26:10",
-      "url": "https://www.wnep.com/article/news/local/luzerne-county/inclusive-fun-awaits-at-kirby-parks-first-accessible-outdoor-day-wilkes-barre-luzerne-county/523-69af864d-b27f-42a1-b8cc-1b4ef9a00f5e",
+      "source": "Wbre",
+      "publishedAt": "2025-07-31T18:16:19",
+      "url": "https://www.2822news.com/news/dui-checkpoints-set-this-weekend-in-pa/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Man faces arson charges in connection with porch fire in Scranton",
-      "title_distilled": "Man faces arson charges in connection with porch fire in Scranton.",
-      "description": "Robert Jumper faces charges of felony arson and recklessly endangering another person.",
-      "description_distilled": "",
-      "content": "Robert Jumper faces charges of felony arson and recklessly endangering another person.",
-      "content_distilled": "Robert Jumper faces charges of felony arson and recklessly endangering another person.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Robert",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-robert.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Robert": "../entities/people/scranton-robert.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-07-30T14:44:58",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/man-faces-arson-charges-in-connection-with-porch-fire-in-scranton-north-washington-avenue-new-street/523-c58cae03-01f5-49c0-a493-696f06b18160",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
