@@ -1,12 +1,101 @@
 {
-  "generated_at": "2025-08-03T11:04:10.882329",
-  "source_file": "../data/daily/scranton_news_2025-08-03.json",
+  "generated_at": "2025-08-04T11:05:12.752881",
+  "source_file": "../data/daily/scranton_news_2025-08-04.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Bob Dylan, Willie Nelson, Wilco, Lucinda Williams Storm Jones Beach at Outlaw Festival",
+      "title_distilled": "Bob Dylan, Willie Nelson, Wilco, Lucinda Williams Storm Jones Beach at Outlaw Festival.",
+      "description": "Wilco honored Jerry Garcia on his birthday, Lucinda Williams covered the Beatles, Bob Dylan dug deep into his back catalog, and Willie Nelson closed out the night in stunning fashion",
+      "description_distilled": "",
+      "content": "Wilco honored Jerry Garcia on his birthday, Lucinda Williams covered the Beatles, Bob Dylan dug deep into his back catalog, and Willie Nelson closed out the night in stunning fashion",
+      "content_distilled": "Wilco honored Jerry Garcia on his birthday, Lucinda Williams covered the Beatles, Bob Dylan dug deep into his back catalog, and Willie Nelson closed out the night in stunning fashion.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Bob Dylan",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bob-dylan.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Willie Nelson",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/willie-nelson.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lucinda Williams",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lucinda-williams.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Storm Jones",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/storm-jones.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Outlaw Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/outlaw-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jerry Garcia",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jerry-garcia.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lucinda Williams Storm Jones Beach at Outlaw Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/lucinda-williams-storm-jones-beach-at-outlaw-festival.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bob Dyla</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Willie N</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lucinda </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Storm Jo</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Outlaw F</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jerry Ga</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Bob Dylan": "../entities/people/bob-dylan.md",
+          "Willie Nelson": "../entities/people/willie-nelson.md",
+          "Lucinda Williams": "../entities/people/lucinda-williams.md",
+          "Storm Jones": "../entities/people/storm-jones.md",
+          "Outlaw Festival": "../entities/people/outlaw-festival.md",
+          "Jerry Garcia": "../entities/people/jerry-garcia.md",
+          "Lucinda Williams Storm Jones Beach at Outlaw Festival": "../entities/events/lucinda-williams-storm-jones-beach-at-outlaw-festival.md"
+        }
+      },
+      "source": "Rolling Stone",
+      "publishedAt": "2025-08-02T18:57:32Z",
+      "url": "http://www.rollingstone.com/music/music-live-reviews/bob-dylan-willie-nelson-wilco-outlaw-festival-1235399179/",
+      "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/08/willie-nelson-outlaw-country.jpg?w=1600&h=900&crop=1",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Trump's voters want to see the Epstein files - but have faith in their president",
       "title_distilled": "Trump's voters want to see the Epstein files - but have faith in their president.",
       "description": "Trump supporters have a new priority on their minds - the release of the so-called Jeffrey Epstein files.",
@@ -43,11 +132,11 @@
       "url": "https://www.bbc.com/news/articles/cy4y9k7vmwlo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
       "urlToImage": "https://media.zenfs.com/en/bbc_us_articles_995/64f68d93b7ec1b82597074ef63dcf9ba",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Patience thins among MAGA loyalists for Trump to meet demands on Epstein",
       "title_distilled": "Patience thins among MAGA loyalists for Trump to meet demands on Epstein.",
       "description": "West Pittston, just outside of the industrial centre of Scranton, Pennsylvania, has a classic smalltown-American look. There are clapboard houses, a main drag with businesses bearing charming vintage patina and lampposts bearing flags of the town's military v\u2026",
@@ -106,11 +195,11 @@
       "url": "https://freerepublic.com/focus/f-news/4329145/posts",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Patience thins among MAGA loyalists for Trump to release any Epstein files",
       "title_distilled": "Patience thins among MAGA loyalists for Trump to release any Epstein files.",
       "description": "Trump supporters have a new priority on their minds - the release of the so-called Jeffrey Epstein files.",
@@ -147,11 +236,11 @@
       "url": "https://www.bbc.com/news/articles/cy4y9k7vmwlo",
       "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/e5de/live/410e9fa0-62b7-11f0-ae9f-e1fa2f7b3e20.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "91st DREAM GAME: Players added to fill openings on rosters",
       "title_distilled": "91st DREAM GAME: Players added to fill openings on rosters.",
       "description": "BLAKELY \u2013 Gavin Richards jumped at the chance to play in the 91st Scranton Lions Club Dream Game. A physical lineman for Mid Valley, the 6-foot-5, 315-pounder stood out as the largest player at Monday\u2019s media day at John Henzes/Veterans Memorial Stadium. He i\u2026",
@@ -252,11 +341,11 @@
       "url": "https://www.thetimes-tribune.com/2025/07/16/91st-dream-game-players-added-to-fill-openings-on-both-county-and-city-rosters/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-VALLEYVIEW-1109-06.jpg?w=1024&h=683",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "A LOOK BACK: Remembering the Dream Game from the 1990s and early 2000s",
       "title_distilled": "LOOK BACK: Remembering the Dream Game from the 1990s and early 2000s.",
       "description": "SCRANTON LIONS CLUB DREAM GAME (1990 to 2009) Scranton Lions Club Dream Game 1990 For the third straight season, the Dream Game produced an exciting matchup between two talented all-star teams. Riverside\u2019s Ellio Domenick, a quarterback, connected on an 18-yar\u2026",
@@ -349,11 +438,11 @@
       "url": "https://www.thetimes-tribune.com/2025/07/13/a-look-back-remembering-the-dream-game-from-the-1990s-and-early-2000s/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-dreamgamehistory-01_ee7d85.jpg?w=512&h=464",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "Fidelity D & D Bancorp, Inc. Reports Second Quarter 2025 Financial Results",
       "title_distilled": "Fidelity D & D Bancorp, Inc.",
       "description": "DUNMORE, Pa., July 23, 2025 (GLOBE NEWSWIRE) -- Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC) and its banking subsidiary, The Fidelity Deposit and Discount Bank, announced its unaudited, consolidated financial results for the three and six-month periods ended J\u2026",
@@ -435,11 +524,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/07/23/3120096/0/en/Fidelity-D-D-Bancorp-Inc-Reports-Second-Quarter-2025-Financial-Results.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/7ff21eea-ee6d-46fb-9f2f-dd5e1bf9f1e3",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "Fidelity D & D Bancorp, Inc. Third Quarter 2025 Dividend",
       "title_distilled": "Fidelity D & D Bancorp, Inc.",
       "description": "DUNMORE, Pa., July 16, 2025 (GLOBE NEWSWIRE) -- The Board of Directors of Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC), parent company of The Fidelity Deposit and Discount Bank, announce their declaration of the Company\u2019s third quarter dividend of $0.40 per sh\u2026",
@@ -514,11 +603,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/07/16/3116675/0/en/Fidelity-D-D-Bancorp-Inc-Third-Quarter-2025-Dividend.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/7ff21eea-ee6d-46fb-9f2f-dd5e1bf9f1e3",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Video of Shelter Dog Pacing Goes Viral As Staff Say: 'Nothing Comforts Her'",
       "title_distilled": "Video of Shelter Dog Pacing Goes Viral As Staff Say: 'Nothing Comforts Her'.",
       "description": "\"Many dogs arrive at our shelter without the socialization or confidence-building they needed in their early life,\" a rescue director told Newsweek.",
@@ -587,11 +676,11 @@
       "url": "https://www.newsweek.com/shelter-dog-pacing-viral-staff-say-nothing-comforts-her-2099019",
       "urlToImage": "https://d.newsweek.com/en/full/2683284/iris-dog.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Knock it off!",
       "title_distilled": "Knock it off!.",
       "description": "Cassey Ho was getting her roots dyed when she started receiving hundreds of ecstatic messages. In a video clip promoting her song \u201cFortnight,\u201d Taylor Swift was shown wearing the Pirouette Skort, a flouncy, tutu-style skirt with built-in shorts underneath, tha\u2026",
@@ -636,11 +725,11 @@
       "url": "https://www.theverge.com/cs/features/709635/knock-it-off",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/VERGE_FINAL1-1.gif?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "WATCH LIVE: Vance delivers remarks in Pennsylvania to pitch Trump tax and spending law",
       "title_distilled": "WATCH LIVE: Vance delivers remarks in Pennsylvania to pitch Trump tax and spending law.",
       "description": "Vance's stop Wednesday in West Pittston is in a working-class district that could see a ferocious congressional campaign next year.",
@@ -685,203 +774,85 @@
       "url": "https://www.pbs.org/newshour/politics/watch-live-vance-delivers-remarks-in-pennsylvania-to-pitch-trump-tax-and-spending-law",
       "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2025/06/2025-05-28T172829Z_1030568517_RC24REA97V51_RTRMADP_3_USA-VANCE-BITCOIN-1024x672.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "People on the Move, Aug. 3, 2025",
-      "title_distilled": "People on the Move, Aug.",
-      "description": "Army Heritage Center Foundation Scranton native retired Army Maj. Gen. John L. Gronski has joined the Carlisle-based foundation\u2019s board of directors. Gronski is a veteran of the Iraq War, serving from 1978 to 2019. His decorations include two awards of the Army Distinguished Service Medal, two awards of the Legion of Merit, and the Bronze Star Medal. Gronski will join a local board devoted to telling the stories of soldiers spanning 250 years of Army history, and supporting the mission of the U.S. Army Heritage and Education Center in Carlisle. He attended the University of Scranton and completed a Master [&#8230;]",
-      "description_distilled": "",
-      "content": "Army Heritage Center Foundation Scranton native retired Army Maj. Gen. John L. Gronski has joined the Carlisle-based foundation\u2019s board of directors. Gronski is a veteran of the Iraq War, serving from 1978 to 2019. His decorations include two awards of the Army Distinguished Service Medal, two awards of the Legion of Merit, and the Bronze Star Medal. Gronski will join a local board devoted to telling the stories of soldiers spanning 250 years of Army history, and supporting the mission of the U.S. Army Heritage and Education Center in Carlisle. He attended the University of Scranton and completed a Master [&#8230;]",
-      "content_distilled": "Army Heritage Center Foundation Scranton native retired Army Maj.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Army Heritage",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/army-heritage.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Center Foundation",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/center-foundation.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Army Maj. Gen",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/army-maj-gen.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Iraq War",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/iraq-war.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Army Distinguished",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/army-distinguished.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bronze Star",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bronze-star.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Education Center",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/education-center.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Army Distinguished Service",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/army-distinguished-service.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Army Distinguished Service",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Army Her</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Center F</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Army Maj</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Iraq War</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Army Dis</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bronze S</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Army Heritage": "../entities/people/army-heritage.md",
-          "Center Foundation": "../entities/people/center-foundation.md",
-          "Army Maj. Gen": "../entities/people/army-maj-gen.md",
-          "Iraq War": "../entities/people/iraq-war.md",
-          "Army Distinguished": "../entities/people/army-distinguished.md",
-          "Bronze Star": "../entities/people/bronze-star.md",
-          "Education Center": "../entities/people/education-center.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Army Distinguished Service": "../entities/organizations/army-distinguished-service.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-08-03T04:00:56",
-      "url": "https://www.thetimes-tribune.com/2025/08/03/people-on-the-move-aug-3-2025/",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "John and Karen Voigt",
-      "title_distilled": "John and Karen Voigt.",
-      "description": "Mr. and Mrs. John Voigt, Clarks Summit, recently celebrated their 50th wedding anniversary on Saturday. They were married Aug. 2, 1975, in St. James Episcopal Church, Aston, by the Rev. Anthony Mattes. They were attended by Ann Voigt Murray, Joann Milcarik Cheesman; Nancy Grasser Russell, matron of honor; Robert Kosinuk, James Sellers and Harry Duey, best man. The couple has three children, Kristen (Matthew) Kostick, Shavertown; Kelly (Matthew) Horn, State College; and Russell Voigt, Wallingford, Pa. They also have four grandchildren, Luke Kostick, Drew Kostick, Grace Kostick and Colin Horn.",
+      "title": "New Milford Area Rotary collaborates with bank",
+      "title_distilled": "New Milford Area Rotary collaborates with bank.",
+      "description": "The New Milford Area Rotary recently celebrated a successful application for a grant from the Peoples Security Bank and Trust (PSB+T) Foundation on behalf of Northeast Pennsylvania Community Health Care. In March, the $1,000 grant was presented to NEPA Community Health Care at its facility in Montrose. The grant will be combined with a Rotary District 7410 District Designated Fund (DDF) grant of $2,500 and a New Milford Area Rotary Club grant of $1,000. The $4,500 total is to purchase refrigerator/freezer vaccine storage units that include emergency power backup features. Units will be installed at all four of the NEPA [&#8230;]",
       "description_distilled": "",
-      "content": "Mr. and Mrs. John Voigt, Clarks Summit, recently celebrated their 50th wedding anniversary on Saturday. They were married Aug. 2, 1975, in St. James Episcopal Church, Aston, by the Rev. Anthony Mattes. They were attended by Ann Voigt Murray, Joann Milcarik Cheesman; Nancy Grasser Russell, matron of honor; Robert Kosinuk, James Sellers and Harry Duey, best man. The couple has three children, Kristen (Matthew) Kostick, Shavertown; Kelly (Matthew) Horn, State College; and Russell Voigt, Wallingford, Pa. They also have four grandchildren, Luke Kostick, Drew Kostick, Grace Kostick and Colin Horn.",
-      "content_distilled": "Mr.",
+      "content": "The New Milford Area Rotary recently celebrated a successful application for a grant from the Peoples Security Bank and Trust (PSB+T) Foundation on behalf of Northeast Pennsylvania Community Health Care. In March, the $1,000 grant was presented to NEPA Community Health Care at its facility in Montrose. The grant will be combined with a Rotary District 7410 District Designated Fund (DDF) grant of $2,500 and a New Milford Area Rotary Club grant of $1,000. The $4,500 total is to purchase refrigerator/freezer vaccine storage units that include emergency power backup features. Units will be installed at all four of the NEPA [&#8230;]",
+      "content_distilled": "New Milford Area Rotary recently celebrated a successful application for a grant from the Peoples Security Bank and Trust  Foundation on behalf of Northeast Pennsylvania Community Health Care.",
       "graph": {
         "entities": [
           {
-            "name": "Karen Voigt",
+            "name": "New Milford",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/karen-voigt.md",
+            "file_path": "../entities/people/new-milford.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "John Voigt",
+            "name": "Area Rotary",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/john-voigt.md",
+            "file_path": "../entities/people/area-rotary.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Clarks Summit",
+            "name": "Peoples Security",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/peoples-security.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "James Episcopal",
+            "name": "Northeast Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/james-episcopal.md",
+            "file_path": "../entities/people/northeast-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Anthony Mattes",
+            "name": "Community Health",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/anthony-mattes.md",
+            "file_path": "../entities/people/community-health.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Ann Voigt",
+            "name": "Rotary District",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/ann-voigt.md",
+            "file_path": "../entities/people/rotary-district.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Joann Milcarik",
+            "name": "District Designated",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/joann-milcarik.md",
+            "file_path": "../entities/people/district-designated.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Nancy Grasser",
-            "type": "PERSON",
+            "name": "Pennsylvania",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/nancy-grasser.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Robert Kosinuk",
-            "type": "PERSON",
+            "name": "freezer vaccine storage units that include emergency",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/people/robert-kosinuk.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "James Sellers",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/james-sellers.md",
+            "file_path": "../entities/events/freezer-vaccine-storage-units-that-include-emergency.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Karen Vo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Voi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">James Ep</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Anthony </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ann Voig</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Milf</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Area Rot</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Peoples </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rotary D</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -892,62 +863,155 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Karen Voigt": "../entities/people/karen-voigt.md",
-          "John Voigt": "../entities/people/john-voigt.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "James Episcopal": "../entities/people/james-episcopal.md",
-          "Anthony Mattes": "../entities/people/anthony-mattes.md",
-          "Ann Voigt": "../entities/people/ann-voigt.md",
-          "Joann Milcarik": "../entities/people/joann-milcarik.md",
-          "Nancy Grasser": "../entities/people/nancy-grasser.md",
-          "Robert Kosinuk": "../entities/people/robert-kosinuk.md",
-          "James Sellers": "../entities/people/james-sellers.md"
+          "New Milford": "../entities/people/new-milford.md",
+          "Area Rotary": "../entities/people/area-rotary.md",
+          "Peoples Security": "../entities/people/peoples-security.md",
+          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
+          "Community Health": "../entities/people/community-health.md",
+          "Rotary District": "../entities/people/rotary-district.md",
+          "District Designated": "../entities/people/district-designated.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "freezer vaccine storage units that include emergency": "../entities/events/freezer-vaccine-storage-units-that-include-emergency.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-08-03T04:00:37",
-      "url": "https://www.thetimes-tribune.com/2025/08/03/john-and-karen-voigt/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-ANNVOIGT-0803-01.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-08-04T04:00:54",
+      "url": "https://www.thetimes-tribune.com/2025/08/04/new-milford-area-rotary-collaborates-with-bank/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC2-0804-rotated-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Electric City Love Con celebrates romance writing",
-      "title_distilled": "Electric City Love Con celebrates romance writing.",
-      "description": "The Electric City Love Con united nearly 200 romance writing authors and fans in Scranton on Saturday.",
+      "title": "Preserving the past while looking forward in Archbald",
+      "title_distilled": "Preserving the past while looking forward in Archbald.",
+      "description": "Along with the planned restoration of three Gravity Slope Colliery buildings near the Lackawanna River Heritage Trail&#8217;s Laurel Street Trailhead, the wheels are in motion to bring an adaptive bike shed to the same spot in Archbald. Borough Manager Dan Markey noted crews from Stafursky Paving Co. Inc. began working around the former oil storage building around May, and Valley in Motion received a grant to make the trail more accessible for more people. &#8220;We&#8217;re planning on grading the parking lot and then grading out a spot where they can place the shed,&#8221; Markey said. The $74,000 Department of Conservation [&#8230;]",
       "description_distilled": "",
-      "content": "The Electric City Love Con united nearly 200 romance writing authors and fans in Scranton on Saturday.",
-      "content_distilled": "Electric City Love Con united nearly 200 romance writing authors and fans in Scranton on Saturday.",
+      "content": "Along with the planned restoration of three Gravity Slope Colliery buildings near the Lackawanna River Heritage Trail&#8217;s Laurel Street Trailhead, the wheels are in motion to bring an adaptive bike shed to the same spot in Archbald. Borough Manager Dan Markey noted crews from Stafursky Paving Co. Inc. began working around the former oil storage building around May, and Valley in Motion received a grant to make the trail more accessible for more people. &#8220;We&#8217;re planning on grading the parking lot and then grading out a spot where they can place the shed,&#8221; Markey said. The $74,000 Department of Conservation [&#8230;]",
+      "content_distilled": "Along with the planned restoration of three Gravity Slope Colliery buildings near the Lackawanna River Heritage Trail&#8217;s Laurel Street Trailhead, the wheels are in motion to bring an adaptive bike shed to the same spot in Archbald.",
       "graph": {
         "entities": [
           {
-            "name": "Electric City",
+            "name": "Archbald Along",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
+            "file_path": "../entities/people/archbald-along.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Love Con",
+            "name": "Gravity Slope",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/love-con.md",
+            "file_path": "../entities/people/gravity-slope.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Electric",
+            "name": "Lackawanna River",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-electric.md",
+            "file_path": "../entities/people/lackawanna-river.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "City Love",
+            "name": "Heritage Trail",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/city-love.md",
+            "file_path": "../entities/people/heritage-trail.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Borough Manager",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/borough-manager.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Dan Markey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dan-markey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Stafursky Paving",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/stafursky-paving.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Laurel Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/laurel-street.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Archbald Along",
+            "to": "Gravity Slope",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Borough Manager",
+            "to": "Stafursky Paving",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gravity </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heritage</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Borough </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dan Mark</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Archbald Along": "../entities/people/archbald-along.md",
+          "Gravity Slope": "../entities/people/gravity-slope.md",
+          "Lackawanna River": "../entities/people/lackawanna-river.md",
+          "Heritage Trail": "../entities/people/heritage-trail.md",
+          "Borough Manager": "../entities/people/borough-manager.md",
+          "Dan Markey": "../entities/people/dan-markey.md",
+          "Stafursky Paving": "../entities/people/stafursky-paving.md",
+          "Laurel Street": "../entities/locations/laurel-street.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-04T04:00:17",
+      "url": "https://www.thetimes-tribune.com/2025/08/04/preserving-the-past-while-looking-forward-in-archbald-2/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-UPDATE-WBOX-0804-01.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "NeighborWorks announces record number of Beautiful Blocks grants",
+      "title_distilled": "NeighborWorks announces record number of Beautiful Blocks grants.",
+      "description": "The nonprofit NeighborWorks Northeastern Pennsylvania recently announced a record number of grants this year through the &#8220;Beautiful Blocks&#8221; home improvement program, with grant funding supporting projects at 157 properties in Scranton, 73 in Carbondale and 58 in Pittston. Administered by NeighborWorks with support from various partners, Beautiful Blocks provides matching grants of up to $1,000 per property to groups of five or more residents in participating communities to help fund exterior improvements to their homes. Property owners undertaking significant front sidewalk projects were eligible for up to $2,000 in funding this year. The 2025 cycle marks the program&#8217;s second year [&#8230;]",
+      "description_distilled": "",
+      "content": "The nonprofit NeighborWorks Northeastern Pennsylvania recently announced a record number of grants this year through the &#8220;Beautiful Blocks&#8221; home improvement program, with grant funding supporting projects at 157 properties in Scranton, 73 in Carbondale and 58 in Pittston. Administered by NeighborWorks with support from various partners, Beautiful Blocks provides matching grants of up to $1,000 per property to groups of five or more residents in participating communities to help fund exterior improvements to their homes. Property owners undertaking significant front sidewalk projects were eligible for up to $2,000 in funding this year. The 2025 cycle marks the program&#8217;s second year [&#8230;]",
+      "content_distilled": "nonprofit NeighborWorks Northeastern Pennsylvania recently announced a record number of grants this year through the &#8220;Beautiful Blocks&#8221; home improvement program, with grant funding supporting projects at 157 properties in Scranton, 73 in Carbondale and 58 in Pittston.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Beautiful Blocks",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/beautiful-blocks.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -956,35 +1020,58 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Electric City",
-            "to": "Scranton",
-            "type": "AUTHORS",
-            "verb": "authors"
+            "from": "Beautiful Blocks",
+            "to": "Northeastern Pennsylvania",
+            "type": "ANNOUNCED",
+            "verb": "announced"
           },
           {
-            "from": "Love Con",
+            "from": "Beautiful Blocks",
             "to": "Scranton",
-            "type": "AUTHORS",
-            "verb": "authors"
+            "type": "ANNOUNCED",
+            "verb": "announced"
           },
           {
-            "from": "The Electric",
-            "to": "Scranton",
-            "type": "AUTHORS",
-            "verb": "authors"
+            "from": "Beautiful Blocks",
+            "to": "Pennsylvania",
+            "type": "ANNOUNCED",
+            "verb": "announced"
           },
           {
-            "from": "City Love",
+            "from": "Northeastern Pennsylvania",
             "to": "Scranton",
-            "type": "AUTHORS",
-            "verb": "authors"
+            "type": "ANNOUNCED",
+            "verb": "announced"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "ANNOUNCED",
+            "verb": "announced"
+          },
+          {
+            "from": "Beautiful Blocks",
+            "to": "Scranton",
+            "type": "RELATES_TO"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Love Con</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Elec</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">City Lov</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">AUTHORS</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">AUTHORS</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">AUTHORS</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">AUTHORS</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Beautifu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -995,134 +1082,112 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Electric City": "../entities/people/electric-city.md",
-          "Love Con": "../entities/people/love-con.md",
-          "The Electric": "../entities/people/the-electric.md",
-          "City Love": "../entities/people/city-love.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Beautiful Blocks": "../entities/people/beautiful-blocks.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-08-03T02:16:14",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/electric-city-love-con-celebrates-romance-writing-scranton-radisson-novels-books-lackawanna-county/523-ae0e6b35-3002-4508-9874-f71e465206d7",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Sounds, sights, and flavors of the Latino Community fill Nay Aug Park",
-      "title_distilled": "Sounds, sights, and flavors of the Latino Community fill Nay Aug Park.",
-      "description": "In its 3rd year, the NEPA Latino Fiesta is ensuring every Latino in the community knows they belong.",
-      "description_distilled": "",
-      "content": "In its 3rd year, the NEPA Latino Fiesta is ensuring every Latino in the community knows they belong.",
-      "content_distilled": "In its 3rd year, the NEPA Latino Fiesta is ensuring every Latino in the community knows they belong.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Latino Community",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/latino-community.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Nay Aug Park",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nay-aug-park.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Latino Fiesta",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/latino-fiesta.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Aug Park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/aug-park.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Latino C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Latino F</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Aug Park</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Latino Community": "../entities/people/latino-community.md",
-          "Nay Aug Park": "../entities/people/nay-aug-park.md",
-          "Latino Fiesta": "../entities/people/latino-fiesta.md",
-          "Aug Park": "../entities/locations/aug-park.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-08-02T23:02:33",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/sounds-sights-flavors-latino-community-fill-nay-aug-park-scranton-lackawanna-county/523-7e7f30dc-43e3-4eae-9730-6ec3e0f0acc4",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-04T04:00:11",
+      "url": "https://www.thetimes-tribune.com/2025/08/04/neighborworks-announces-record-number-of-beautiful-blocks-grants/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/CVC-L-BEAUTIFULBLOCKSPORCH-0210.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "Raising money for neglected, abused kids at NEPA's Day Downtown",
-      "title_distilled": "Raising money for neglected, abused kids at NEPA's Day Downtown.",
-      "description": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 A local event wrapped up on Saturday to raise money for abused and neglected children. NEPA's Summer In The City celebrated its Second Annual Day Downtown in Wilkes-Barre. The fundraising festival started Saturday morning and continued until 8:00 p.m. It featured something for everyone. Food trucks, small businesses, and carnival [...]",
+      "title": "United Neighborhood Centers awarded grant from SAF",
+      "title_distilled": "United Neighborhood Centers awarded grant from SAF.",
+      "description": "United Neighborhood Centers of Northeastern Pennsylvania received a $12,000 Fall 2024 Community Needs grant from the Scranton Area Community Foundation to support the agency\u2019s Emergency Services, which assists over 12,000 clients and their families each year with immediate help for basic needs, including food, rent, utility assistance, clothing, gasoline, prescription vouchers and housing support. UNC helps families stabilize their finances and work toward long-term self-sufficiency through its Angel&#8217;s Attic Food and Clothing pantry and case management services. UNC\u2019s Emergency Assistance Program has been a vital resource for vulnerable populations in the community for decades, providing essential support to individuals and [&#8230;]",
       "description_distilled": "",
-      "content": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 A local event wrapped up on Saturday to raise money for abused and neglected children. NEPA's Summer In The City celebrated its Second Annual Day Downtown in Wilkes-Barre. The fundraising festival started Saturday morning and continued until 8:00 p.m. It featured something for everyone. Food trucks, small businesses, and carnival [...]",
-      "content_distilled": "WILKES-BARRE, LUZERNE COUNTY  \u2014 A local event wrapped up on Saturday to raise money for abused and neglected children.",
+      "content": "United Neighborhood Centers of Northeastern Pennsylvania received a $12,000 Fall 2024 Community Needs grant from the Scranton Area Community Foundation to support the agency\u2019s Emergency Services, which assists over 12,000 clients and their families each year with immediate help for basic needs, including food, rent, utility assistance, clothing, gasoline, prescription vouchers and housing support. UNC helps families stabilize their finances and work toward long-term self-sufficiency through its Angel&#8217;s Attic Food and Clothing pantry and case management services. UNC\u2019s Emergency Assistance Program has been a vital resource for vulnerable populations in the community for decades, providing essential support to individuals and [&#8230;]",
+      "content_distilled": "United Neighborhood Centers of Northeastern Pennsylvania received a $12,000 Fall 2024 Community Needs grant from the Scranton Area Community Foundation to support the agency\u2019s Emergency Services, which assists over 12,000 clients and their families each year with immediate help for basic needs, including food, rent, utility assistance, clothing, gasoline, prescription vouchers and housing support.",
       "graph": {
         "entities": [
           {
-            "name": "Day Downtown",
+            "name": "United Neighborhood",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/day-downtown.md",
+            "file_path": "../entities/people/united-neighborhood.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Second Annual",
+            "name": "Northeastern Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/second-annual.md",
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
+            "name": "Community Needs",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
+            "file_path": "../entities/people/community-needs.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
+            "name": "Scranton Area",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/scranton-area.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The fundraising festival",
-            "type": "EVENT",
+            "name": "Community Foundation",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/events/the-fundraising-festival.md",
+            "file_path": "../entities/people/community-foundation.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Attic Food",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/attic-food.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Emergency Assistance",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/emergency-assistance.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Down</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Second A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The fund</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "relationships": [
+          {
+            "from": "United Neighborhood",
+            "to": "Northeastern Pennsylvania",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Community Needs",
+            "to": "Community Foundation",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">United N</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Attic Fo</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1133,17 +1198,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Day Downtown": "../entities/people/day-downtown.md",
-          "Second Annual": "../entities/people/second-annual.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "The fundraising festival": "../entities/events/the-fundraising-festival.md"
+          "United Neighborhood": "../entities/people/united-neighborhood.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Community Needs": "../entities/people/community-needs.md",
+          "Scranton Area": "../entities/people/scranton-area.md",
+          "Community Foundation": "../entities/people/community-foundation.md",
+          "Attic Food": "../entities/people/attic-food.md",
+          "Emergency Assistance": "../entities/people/emergency-assistance.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-08-03T03:16:20",
-      "url": "https://www.2822news.com/news/raising-money-for-neglected-abused-kids-at-nepas-day-downtown/",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-04T04:00:06",
+      "url": "https://www.thetimes-tribune.com/2025/08/04/united-neighborhood-centers-awarded-grant-from-saf/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC1-0804.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
