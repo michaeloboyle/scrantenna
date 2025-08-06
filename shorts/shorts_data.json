@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-08-05T11:05:00.935119",
-  "source_file": "../data/daily/scranton_news_2025-08-05.json",
+  "generated_at": "2025-08-06T11:05:31.080875",
+  "source_file": "../data/daily/scranton_news_2025-08-06.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -730,19 +730,61 @@
     },
     {
       "id": "short_10",
-      "title": "WATCH LIVE: Vance delivers remarks in Pennsylvania to pitch Trump tax and spending law",
-      "title_distilled": "WATCH LIVE: Vance delivers remarks in Pennsylvania to pitch Trump tax and spending law.",
-      "description": "Vance's stop Wednesday in West Pittston is in a working-class district that could see a ferocious congressional campaign next year.",
+      "title": "Former Olympian, record holder Ryun to visit NEPA Camp",
+      "title_distilled": "Former Olympian, record holder Ryun to visit NEPA Camp.",
+      "description": "Legendary Olympian Jim Ryun returns to Northeast Pennsylvania to offer words of inspiration at Rock Mountain Camp in Gibson, Susquehanna County. Ryun, a former Olympic silver medal winner and the first high school athlete to run a mile in under 4 minutes, is a guest speaker at the Running Ahrens Cross Country Camp on Wednesday at 6:30 p.m. The event, which includes a meet-and-greet, is free and open to the community. Last summer, Ryun also spoke at the camp. A three-time Olympian, he qualified for the 1964 games at 17 years old, and in 1968, Ryun won the silver medal [&#8230;]",
       "description_distilled": "",
-      "content": "Vance's stop Wednesday in West Pittston is in a working-class district that could see a ferocious congressional campaign next year.",
-      "content_distilled": "Vance's stop Wednesday in West Pittston is in a working-class district that could see a ferocious congressional campaign next year.",
+      "content": "Legendary Olympian Jim Ryun returns to Northeast Pennsylvania to offer words of inspiration at Rock Mountain Camp in Gibson, Susquehanna County. Ryun, a former Olympic silver medal winner and the first high school athlete to run a mile in under 4 minutes, is a guest speaker at the Running Ahrens Cross Country Camp on Wednesday at 6:30 p.m. The event, which includes a meet-and-greet, is free and open to the community. Last summer, Ryun also spoke at the camp. A three-time Olympian, he qualified for the 1964 games at 17 years old, and in 1968, Ryun won the silver medal [&#8230;]",
+      "content_distilled": "Legendary Olympian Jim Ryun returns to Northeast Pennsylvania to offer words of inspiration at Rock Mountain Camp in Gibson, Susquehanna County.",
       "graph": {
         "entities": [
           {
-            "name": "West Pittston",
+            "name": "Former Olympian",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/west-pittston.md",
+            "file_path": "../entities/people/former-olympian.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Camp Legendary",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/camp-legendary.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Olympian Jim Ryun",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/olympian-jim-ryun.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeast Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeast-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Rock Mountain",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rock-mountain.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Running Ahrens",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/running-ahrens.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Cross Country",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cross-country.md",
             "resolution_method": "new_entity"
           },
           {
@@ -753,8 +795,14 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Pit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Olympian Jim Ryun",
+            "to": "Camp Legendary",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Former O</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Camp Leg</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olympian</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rock Mou</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Running </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -765,107 +813,113 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "West Pittston": "../entities/people/west-pittston.md",
+          "Former Olympian": "../entities/people/former-olympian.md",
+          "Camp Legendary": "../entities/people/camp-legendary.md",
+          "Olympian Jim Ryun": "../entities/people/olympian-jim-ryun.md",
+          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
+          "Rock Mountain": "../entities/people/rock-mountain.md",
+          "Running Ahrens": "../entities/people/running-ahrens.md",
+          "Cross Country": "../entities/people/cross-country.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "PBS",
-      "publishedAt": "2025-07-16T15:44:42Z",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-vance-delivers-remarks-in-pennsylvania-to-pitch-trump-tax-and-spending-law",
-      "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2025/06/2025-05-28T172829Z_1030568517_RC24REA97V51_RTRMADP_3_USA-VANCE-BITCOIN-1024x672.jpg",
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-06T04:00:56",
+      "url": "https://www.thetimes-tribune.com/2025/08/06/former-olympian-record-holder-ryun-to-visit-nepa-camp/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-RYUN-02.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "Clipboard, August 5, 2025",
-      "title_distilled": "Clipboard, August 5, 2025.",
-      "description": "Clifford Twp. Food sale/flea market: St. John the Baptist Russian Orthodox church food sale and flea market, Aug. 23, 8 a.m.-1 p.m., 378 Lyon St. (off Route 247 past Dundaff Corners). Halushki, pierogi, wimpies and bake sale items. East Scranton Casino bus trip: Casino bus trip to Resort World Catskills, Sept. 3, leaves Scranton at 9 a.m. and departs casino at 4:30 p.m., $49/person includes $40 rebate ($25 slots, $15 food) and tip for bus driver. Photo ID required at casino. Call Tom at 570-909-4266 for seats. Elmhurst Women&#8217;s luncheon: Women of Elmhurst Country Club Let&#8217;s Play Luncheon, Aug. 22, [&#8230;]",
+      "title": "Best bets: 5 things to do this weekend",
+      "title_distilled": "Best bets: 5 things to do this weekend.",
+      "description": "Lebanese-American Food Festival Go to St. Joseph Melkite Greek-Catholic Church on St. Frances Cabrini Avenue in Scranton for stuffed grape leaves, kibbie, kabobs, baklava, potato pancakes and other dishes. The Lebanese-American Food Festival is from 4-9 p.m. on Friday and Saturday and from 1-7 p.m. on Sunday. Takeout is available. Eagles tribute in Hazleton The free concert with \u200bWinslow \u2014 An Evening of the Eagles and opening act Six Shots is Friday at City View Park, 700 S. Poplar St. The grounds open at 5 p.m, with food trucks and other vendors. The bands begin at 6. hazletonparks.com/rockinthemountain Ozzy Osbourne [&#8230;]",
       "description_distilled": "",
-      "content": "Clifford Twp. Food sale/flea market: St. John the Baptist Russian Orthodox church food sale and flea market, Aug. 23, 8 a.m.-1 p.m., 378 Lyon St. (off Route 247 past Dundaff Corners). Halushki, pierogi, wimpies and bake sale items. East Scranton Casino bus trip: Casino bus trip to Resort World Catskills, Sept. 3, leaves Scranton at 9 a.m. and departs casino at 4:30 p.m., $49/person includes $40 rebate ($25 slots, $15 food) and tip for bus driver. Photo ID required at casino. Call Tom at 570-909-4266 for seats. Elmhurst Women&#8217;s luncheon: Women of Elmhurst Country Club Let&#8217;s Play Luncheon, Aug. 22, [&#8230;]",
-      "content_distilled": "Clifford Twp.",
+      "content": "Lebanese-American Food Festival Go to St. Joseph Melkite Greek-Catholic Church on St. Frances Cabrini Avenue in Scranton for stuffed grape leaves, kibbie, kabobs, baklava, potato pancakes and other dishes. The Lebanese-American Food Festival is from 4-9 p.m. on Friday and Saturday and from 1-7 p.m. on Sunday. Takeout is available. Eagles tribute in Hazleton The free concert with \u200bWinslow \u2014 An Evening of the Eagles and opening act Six Shots is Friday at City View Park, 700 S. Poplar St. The grounds open at 5 p.m, with food trucks and other vendors. The bands begin at 6. hazletonparks.com/rockinthemountain Ozzy Osbourne [&#8230;]",
+      "content_distilled": "Lebanese-American Food Festival Go to St.",
       "graph": {
         "entities": [
           {
-            "name": "Clifford Twp. Food",
+            "name": "American Food",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clifford-twp-food.md",
+            "file_path": "../entities/people/american-food.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Baptist Russian",
+            "name": "Joseph Melkite",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/baptist-russian.md",
+            "file_path": "../entities/people/joseph-melkite.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Dundaff Corners",
+            "name": "Catholic Church",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dundaff-corners.md",
+            "file_path": "../entities/people/catholic-church.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "East Scranton",
+            "name": "Frances Cabrini",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/east-scranton.md",
+            "file_path": "../entities/people/frances-cabrini.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Resort World",
+            "name": "The Lebanese",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/resort-world.md",
+            "file_path": "../entities/people/the-lebanese.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Call Tom",
+            "name": "Hazleton The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/call-tom.md",
+            "file_path": "../entities/people/hazleton-the.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Elmhurst Women",
+            "name": "Six Shots",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/elmhurst-women.md",
+            "file_path": "../entities/people/six-shots.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Elmhurst Country",
+            "name": "City View",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/elmhurst-country.md",
+            "file_path": "../entities/people/city-view.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Club Let",
+            "name": "Ozzy Osbourne",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/club-let.md",
+            "file_path": "../entities/people/ozzy-osbourne.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Play Luncheon",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/play-luncheon.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Elmhurst Women",
-            "to": "Elmhurst Country",
-            "type": "MEMBER_OF"
+            "from": "Frances Cabrini",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clifford</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Baptist </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dundaff </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">East Scr</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Resort W</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Call Tom</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">American</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joseph M</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Catholic</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Frances </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Leba</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hazleton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -876,34 +930,34 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Clifford Twp. Food": "../entities/people/clifford-twp-food.md",
-          "Baptist Russian": "../entities/people/baptist-russian.md",
-          "Dundaff Corners": "../entities/people/dundaff-corners.md",
-          "East Scranton": "../entities/people/east-scranton.md",
-          "Resort World": "../entities/people/resort-world.md",
-          "Call Tom": "../entities/people/call-tom.md",
-          "Elmhurst Women": "../entities/people/elmhurst-women.md",
-          "Elmhurst Country": "../entities/people/elmhurst-country.md",
-          "Club Let": "../entities/people/club-let.md",
-          "Play Luncheon": "../entities/people/play-luncheon.md"
+          "American Food": "../entities/people/american-food.md",
+          "Joseph Melkite": "../entities/people/joseph-melkite.md",
+          "Catholic Church": "../entities/people/catholic-church.md",
+          "Frances Cabrini": "../entities/people/frances-cabrini.md",
+          "The Lebanese": "../entities/people/the-lebanese.md",
+          "Hazleton The": "../entities/people/hazleton-the.md",
+          "Six Shots": "../entities/people/six-shots.md",
+          "City View": "../entities/people/city-view.md",
+          "Ozzy Osbourne": "../entities/people/ozzy-osbourne.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-08-05T04:00:44",
-      "url": "https://www.thetimes-tribune.com/2025/08/05/clipboard-august-5-2025/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2024/11/STT-L-CLIPBOARD-01.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-08-06T04:00:46",
+      "url": "https://www.thetimes-tribune.com/2025/08/06/best-bets-5-things-to-do-this-weekend-4/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-BESTBETS-0806-2-01-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Lackawanna County Court Notes, August 5, 2025",
-      "title_distilled": "Lackawanna County Court Notes, August 5, 2025.",
-      "description": "MARRIAGE LICENSES Alexandra Joan Froese and Michael Patrick Ryan, both of Daleville. Jose Manuel Perez Tavarez, Blakeslee, and Adalgisa Tavarez De Jesus, Old Forge. William Jesus Rosado Medina and Jhaneth Guadalupe Ovando Carvajal, both of Moosic. PROPERTY TRANSACTIONS Raymond and Jennifer Spinosi, Dunmore, to Brian M. and Megan M. Judge, Dunmore; a property at 600 E. Swinick Drive, Dunmore, for $378,000. Eddy Acevedo Jr., Dunmore, to Joseph Talutto III and Alexis Fumanti, Dunmore, as joint tenants with rights of survivorship; a property at 1307 Grandview St., Dunmore, for $256,470. Meghan Gapp and Sean Phillips, Moscow, to Nancy Ellen and Ralph [&#8230;]",
+      "title": "Lackawanna County Court Notes, August 6, 2025",
+      "title_distilled": "Lackawanna County Court Notes, August 6, 2025.",
+      "description": "MARRIAGE LICENSES Jason Michael Burke and Jill Klassner Ballman, both of Factoryville. Jose Angel Martinez Orellana and Maria Sara Diaz Ventura, both of Scranton. Evelyn Johaida De Castro Hernandez and Eddy Bienvenido Cabrera Diaz, both of Scranton. Nicholas Paul Gillick and Mariah Strickland, both of Archbald. Brianna Kristine Strackbein and Conner Matthew Depauw, both of Olyphant. Bryanna Marie Colosimo and Joshua Giovanni Aviles, both of Scranton. PROPERTY TRANSACTIONS K&#38;R Real Estate Group LLC to 1702-07 Cedar LLC; a property at 820 Adams Ave., Scranton, for $260,000. Joseph and Maria Cholko to Samuel John Desimone; a property at 548 Winter St., [&#8230;]",
       "description_distilled": "",
-      "content": "MARRIAGE LICENSES Alexandra Joan Froese and Michael Patrick Ryan, both of Daleville. Jose Manuel Perez Tavarez, Blakeslee, and Adalgisa Tavarez De Jesus, Old Forge. William Jesus Rosado Medina and Jhaneth Guadalupe Ovando Carvajal, both of Moosic. PROPERTY TRANSACTIONS Raymond and Jennifer Spinosi, Dunmore, to Brian M. and Megan M. Judge, Dunmore; a property at 600 E. Swinick Drive, Dunmore, for $378,000. Eddy Acevedo Jr., Dunmore, to Joseph Talutto III and Alexis Fumanti, Dunmore, as joint tenants with rights of survivorship; a property at 1307 Grandview St., Dunmore, for $256,470. Meghan Gapp and Sean Phillips, Moscow, to Nancy Ellen and Ralph [&#8230;]",
-      "content_distilled": "MARRIAGE LICENSES Alexandra Joan Froese and Michael Patrick Ryan, both of Daleville.",
+      "content": "MARRIAGE LICENSES Jason Michael Burke and Jill Klassner Ballman, both of Factoryville. Jose Angel Martinez Orellana and Maria Sara Diaz Ventura, both of Scranton. Evelyn Johaida De Castro Hernandez and Eddy Bienvenido Cabrera Diaz, both of Scranton. Nicholas Paul Gillick and Mariah Strickland, both of Archbald. Brianna Kristine Strackbein and Conner Matthew Depauw, both of Olyphant. Bryanna Marie Colosimo and Joshua Giovanni Aviles, both of Scranton. PROPERTY TRANSACTIONS K&#38;R Real Estate Group LLC to 1702-07 Cedar LLC; a property at 820 Adams Ave., Scranton, for $260,000. Joseph and Maria Cholko to Samuel John Desimone; a property at 548 Winter St., [&#8230;]",
+      "content_distilled": "MARRIAGE LICENSES Jason Michael Burke and Jill Klassner Ballman, both of Factoryville.",
       "graph": {
         "entities": [
           {
@@ -914,71 +968,71 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Alexandra Joan",
+            "name": "Jason Michael",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/alexandra-joan.md",
+            "file_path": "../entities/people/jason-michael.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Michael Patrick",
+            "name": "Jill Klassner",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/michael-patrick.md",
+            "file_path": "../entities/people/jill-klassner.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jose Manuel",
+            "name": "Jose Angel",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jose-manuel.md",
+            "file_path": "../entities/people/jose-angel.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Perez Tavarez",
+            "name": "Martinez Orellana",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/perez-tavarez.md",
+            "file_path": "../entities/people/martinez-orellana.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Adalgisa Tavarez",
+            "name": "Maria Sara",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/adalgisa-tavarez.md",
+            "file_path": "../entities/people/maria-sara.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Old Forge",
+            "name": "Diaz Ventura",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
+            "file_path": "../entities/people/diaz-ventura.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "William Jesus",
+            "name": "Evelyn Johaida",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/william-jesus.md",
+            "file_path": "../entities/people/evelyn-johaida.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Rosado Medina",
+            "name": "Castro Hernandez",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/rosado-medina.md",
+            "file_path": "../entities/people/castro-hernandez.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jhaneth Guadalupe",
+            "name": "Eddy Bienvenido",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jhaneth-guadalupe.md",
+            "file_path": "../entities/people/eddy-bienvenido.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Alexandr</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Michael </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jose Man</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Perez Ta</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Adalgisa</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jason Mi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jill Kla</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jose Ang</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Martinez</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Maria Sa</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -990,20 +1044,20 @@
         },
         "entity_files": {
           "Court Notes": "../entities/people/court-notes.md",
-          "Alexandra Joan": "../entities/people/alexandra-joan.md",
-          "Michael Patrick": "../entities/people/michael-patrick.md",
-          "Jose Manuel": "../entities/people/jose-manuel.md",
-          "Perez Tavarez": "../entities/people/perez-tavarez.md",
-          "Adalgisa Tavarez": "../entities/people/adalgisa-tavarez.md",
-          "Old Forge": "../entities/people/old-forge.md",
-          "William Jesus": "../entities/people/william-jesus.md",
-          "Rosado Medina": "../entities/people/rosado-medina.md",
-          "Jhaneth Guadalupe": "../entities/people/jhaneth-guadalupe.md"
+          "Jason Michael": "../entities/people/jason-michael.md",
+          "Jill Klassner": "../entities/people/jill-klassner.md",
+          "Jose Angel": "../entities/people/jose-angel.md",
+          "Martinez Orellana": "../entities/people/martinez-orellana.md",
+          "Maria Sara": "../entities/people/maria-sara.md",
+          "Diaz Ventura": "../entities/people/diaz-ventura.md",
+          "Evelyn Johaida": "../entities/people/evelyn-johaida.md",
+          "Castro Hernandez": "../entities/people/castro-hernandez.md",
+          "Eddy Bienvenido": "../entities/people/eddy-bienvenido.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-08-05T04:00:26",
-      "url": "https://www.thetimes-tribune.com/2025/08/05/lackawanna-county-court-notes-august-5-2025/",
+      "publishedAt": "2025-08-06T04:00:44",
+      "url": "https://www.thetimes-tribune.com/2025/08/06/lackawanna-county-court-notes-august-6-2025/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2024/10/STT-L-COURT-01-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1011,81 +1065,40 @@
     },
     {
       "id": "short_13",
-      "title": "Old Forge alums celebrate 50th anniversary of PIAA Bowl victory",
-      "title_distilled": "Old Forge alums celebrate 50th anniversary of PIAA Bowl victory.",
-      "description": "Old Forge alums celebrate 50th anniversary of PIAA Bowl victory.",
+      "title": "Bonus prizes from community for Capt. Minicozzi Memorial Race",
+      "title_distilled": "Bonus prizes from community for Capt.",
+      "description": "Bonus prizes will be awarded in addition to trophies and medals during the 13th annual Capt. James R. Minicozzi Memorial Race, through the UNICO Scranton Chapter. The race takes place Aug. 30 at 10 a.m. in downtown Scranton during La Festa Italiana. Preregister for $25 or donate at runsignup.com/Minicozzi until Aug. 25. The first 100 participants are guaranteed a race T-shirt. Bonus prizes are awarded to the overall male and female walker, overall male and female runner and overall military finisher. Bonus prizes are also awarded to the top three male and female runners and the top runner in each [&#8230;]",
       "description_distilled": "",
-      "content": "Old Forge alums celebrate 50th anniversary of PIAA Bowl victory.",
-      "content_distilled": "Old Forge alums celebrate 50th anniversary of PIAA Bowl victory.",
+      "content": "Bonus prizes will be awarded in addition to trophies and medals during the 13th annual Capt. James R. Minicozzi Memorial Race, through the UNICO Scranton Chapter. The race takes place Aug. 30 at 10 a.m. in downtown Scranton during La Festa Italiana. Preregister for $25 or donate at runsignup.com/Minicozzi until Aug. 25. The first 100 participants are guaranteed a race T-shirt. Bonus prizes are awarded to the overall male and female walker, overall male and female runner and overall military finisher. Bonus prizes are also awarded to the top three male and female runners and the top runner in each [&#8230;]",
+      "content_distilled": "Bonus prizes will be awarded in addition to trophies and medals during the 13th annual Capt.",
       "graph": {
         "entities": [
           {
-            "name": "Old Forge",
+            "name": "Minicozzi Memorial",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Old Forge": "../entities/people/old-forge.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-08-05T04:00:17",
-      "url": "https://www.thetimes-tribune.com/2025/08/05/old-forge-alums-celebrate-50th-anniversary-of-piaa-bowl-victory/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-PIAABOWL-01.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Scranton event promotes mental health awareness with fun activities",
-      "title_distilled": "Scranton event promotes mental health awareness with fun activities.",
-      "description": "The Scranton Counseling Center will host its first Summer Splash for Mental Health event on August 14th.",
-      "description_distilled": "",
-      "content": "The Scranton Counseling Center will host its first Summer Splash for Mental Health event on August 14th.",
-      "content_distilled": "Scranton Counseling Center will host its first Summer Splash for Mental Health event on August 14th.",
-      "graph": {
-        "entities": [
-          {
-            "name": "The Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
+            "file_path": "../entities/people/minicozzi-memorial.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Counseling Center",
+            "name": "Race Bonus",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/counseling-center.md",
+            "file_path": "../entities/people/race-bonus.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Summer Splash",
+            "name": "Scranton Chapter",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/summer-splash.md",
+            "file_path": "../entities/people/scranton-chapter.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mental Health",
+            "name": "Festa Italiana",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mental-health.md",
+            "file_path": "../entities/people/festa-italiana.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1099,35 +1112,11 @@
         "relationships": [
           {
             "from": "Scranton",
-            "to": "The Scranton",
-            "type": "PROMOTES",
-            "verb": "promotes"
-          },
-          {
-            "from": "Scranton",
-            "to": "Counseling Center",
-            "type": "PROMOTES",
-            "verb": "promotes"
-          },
-          {
-            "from": "Scranton",
-            "to": "Summer Splash",
-            "type": "PROMOTES",
-            "verb": "promotes"
-          },
-          {
-            "from": "Scranton",
-            "to": "Mental Health",
-            "type": "PROMOTES",
-            "verb": "promotes"
-          },
-          {
-            "from": "The Scranton",
-            "to": "Mental Health",
+            "to": "Festa Italiana",
             "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Counseli</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Summer S</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mental H</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTES</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTES</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTES</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTES</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Minicozz</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Race Bon</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festa It</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1138,16 +1127,57 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Scranton": "../entities/people/the-scranton.md",
-          "Counseling Center": "../entities/people/counseling-center.md",
-          "Summer Splash": "../entities/people/summer-splash.md",
-          "Mental Health": "../entities/people/mental-health.md",
+          "Minicozzi Memorial": "../entities/people/minicozzi-memorial.md",
+          "Race Bonus": "../entities/people/race-bonus.md",
+          "Scranton Chapter": "../entities/people/scranton-chapter.md",
+          "Festa Italiana": "../entities/people/festa-italiana.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-06T04:00:35",
+      "url": "https://www.thetimes-tribune.com/2025/08/06/bonus-prizes-from-community-for-capt-minicozzi-memorial-race/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC2-0807.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Lackawanna County officials hear reassessment appeals",
+      "title_distilled": "Lackawanna County officials hear reassessment appeals.",
+      "description": "The reassessment process continues in Lackawanna County with thousands of property owners attending meetings at the appeals office.",
+      "description_distilled": "",
+      "content": "The reassessment process continues in Lackawanna County with thousands of property owners attending meetings at the appeals office.",
+      "content_distilled": "reassessment process continues in Lackawanna County with thousands of property owners attending meetings at the appeals office.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
       "source": "Wnep",
-      "publishedAt": "2025-08-04T11:11:09",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-prepares-for-summer-splash-for-mental-health-event-on-august-14-lackawanna-county/523-dc696df8-ed49-4cf1-825c-2afab4e992b9",
+      "publishedAt": "2025-08-05T20:27:26",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-officials-hear-reassessment-appeals-residents-property-values-taxes-scranton/523-34357f06-d75d-4a1a-b243-8207094d82f9",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
