@@ -1,12 +1,150 @@
 {
-  "generated_at": "2025-08-19T11:05:05.050603",
-  "source_file": "../data/daily/scranton_news_2025-08-19.json",
+  "generated_at": "2025-08-20T11:04:06.602406",
+  "source_file": "../data/daily/scranton_news_2025-08-20.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Artist Janet Pierce: \u2018We arrived into Northern Ireland at the height of the Troubles, was forced to confront some of life\u2019s darkest realities\u2019",
+      "title_distilled": "Artist Janet Pierce: \u2018We arrived into Northern Ireland at the height of the Troubles, was forced to confront some of life\u2019s darkest realities\u2019.",
+      "description": "In 1973, Janet Pierce had her first solo exhibition in the Everhart Museum in \u00adScranton, Pennsylvania. Her most recent solo show is now on view at the Ballinglen Arts Foundation, Co Mayo, and Pierce has exhibited throughout Ireland, the UK, the US, Portugal a\u2026",
+      "description_distilled": "",
+      "content": "In 1973, Janet Pierce had her first solo exhibition in the Everhart Museum in \u00adScranton, Pennsylvania. Her most recent solo show is now on view at the Ballinglen Arts Foundation, Co Mayo, and Pierce has exhibited throughout Ireland, the UK, the US, Portugal a\u2026",
+      "content_distilled": "In 1973, Janet Pierce had her first solo exhibition in the Everhart Museum in \u00adScranton, Pennsylvania.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Artist Janet",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/artist-janet.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northern Ireland",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northern-ireland.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Janet Pierce",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/janet-pierce.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Everhart Museum",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/everhart-museum.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Ballinglen Arts",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ballinglen-arts.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Artist Janet",
+            "to": "Northern Ireland",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          },
+          {
+            "from": "Artist Janet",
+            "to": "Janet Pierce",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          },
+          {
+            "from": "Artist Janet",
+            "to": "Everhart Museum",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          },
+          {
+            "from": "Artist Janet",
+            "to": "Scranton",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          },
+          {
+            "from": "Artist Janet",
+            "to": "Pennsylvania",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          },
+          {
+            "from": "Janet Pierce",
+            "to": "Northern Ireland",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          },
+          {
+            "from": "Janet Pierce",
+            "to": "Everhart Museum",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          },
+          {
+            "from": "Janet Pierce",
+            "to": "Scranton",
+            "type": "ARRIVED",
+            "verb": "arrived"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Artist J</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northern</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Janet Pi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ballingl</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRIVED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRIVED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRIVED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRIVED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRIVED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRIVED</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRIVED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Artist Janet": "../entities/people/artist-janet.md",
+          "Northern Ireland": "../entities/people/northern-ireland.md",
+          "Janet Pierce": "../entities/people/janet-pierce.md",
+          "Everhart Museum": "../entities/people/everhart-museum.md",
+          "Ballinglen Arts": "../entities/people/ballinglen-arts.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Independent.ie",
+      "publishedAt": "2025-08-19T04:30:00Z",
+      "url": "https://www.independent.ie/entertainment/theatre-arts/artist-janet-pierce-we-arrived-into-northern-ireland-at-the-height-of-the-troubles-was-forced-to-confront-some-of-lifes-darkest-realities/a123170127.html",
+      "urlToImage": "https://focus.independent.ie/thumbor/zwFgI1HjfmAhIolKhzIB2TZq0lo=/629x460/smart/prod-mh-ireland/3a38d678-1a1d-47e8-bc21-b3697a95d744/f1a3b14c-e752-46fb-8566-5a7168349059/SF%20Janet.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Bob Dylan, Willie Nelson, Wilco, Lucinda Williams Storm Jones Beach at Outlaw Festival",
       "title_distilled": "Bob Dylan, Willie Nelson, Wilco, Lucinda Williams Storm Jones Beach at Outlaw Festival.",
       "description": "Wilco honored Jerry Garcia on his birthday, Lucinda Williams covered the Beatles, Bob Dylan dug deep into his back catalog, and Willie Nelson closed out the night in stunning fashion",
@@ -91,11 +229,11 @@
       "url": "http://www.rollingstone.com/music/music-live-reviews/bob-dylan-willie-nelson-wilco-outlaw-festival-1235399179/",
       "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/08/willie-nelson-outlaw-country.jpg?w=1600&h=900&crop=1",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Fidelity D & D Bancorp, Inc. Reports Second Quarter 2025 Financial Results",
       "title_distilled": "Fidelity D & D Bancorp, Inc.",
       "description": "DUNMORE, Pa., July 23, 2025 (GLOBE NEWSWIRE) -- Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC) and its banking subsidiary, The Fidelity Deposit and Discount Bank, announced its unaudited, consolidated financial results for the three and six-month periods ended J\u2026",
@@ -177,11 +315,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/07/23/3120096/0/en/Fidelity-D-D-Bancorp-Inc-Reports-Second-Quarter-2025-Financial-Results.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/7ff21eea-ee6d-46fb-9f2f-dd5e1bf9f1e3",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Former Olympian, record holder Ryun to visit NEPA Camp",
       "title_distilled": "Former Olympian, record holder Ryun to visit NEPA Camp.",
       "description": "Legendary Olympian Jim Ryun returns to Northeast Pennsylvania to offer words of inspiration at Rock Mountain Camp in Gibson, Susquehanna County. Ryun, a former Olympic silver medal winner and the first high school athlete to run a mile in under 4 minutes, is \u2026",
@@ -264,11 +402,11 @@
       "url": "https://www.thetimes-tribune.com/2025/08/05/former-olympian-record-holder-ryun-to-visit-nepa-camp/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-RYUN-02.jpg?w=1024&h=597",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC",
       "title_distilled": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC.",
       "description": "Football is challenging. It is physically and mentally exhausting. It is intense and competitive. It is a clash of wills and a battle of endurance. After 10 days of touring Northeastern Pennsylvania and visiting preseason camps, I had several key takeaways, b\u2026",
@@ -313,11 +451,11 @@
       "url": "https://www.thetimes-tribune.com/2025/08/16/hs-football-observations-from-a-10-day-tour-around-the-camps-of-the-lfc/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation",
       "title_distilled": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation.",
       "description": "SCRANTON, Pa., Aug. 15, 2025 (GLOBE NEWSWIRE) -- How does insulation lower your energy bill? According to HelloNation , the answer is rooted in how heat moves and how insulation slows that process....",
@@ -436,11 +574,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/08/15/3134129/0/en/Insulation-Expert-Mike-Mancuso-Explains-How-to-Lower-Your-Energy-Bill-Through-Proper-Installation-in-HelloNation.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "DEVELOPING: Two Pennsylvania State Troopers Shot",
       "title_distilled": "DEVELOPING: Two Pennsylvania State Troopers Shot.",
       "description": "Two Pennsylvania state troopers were shot on Thursday morning in northeastern Pennsylvania. The troopers were taken to a local hospital. Their conditions are not known. \u201cPennsylvania state police are investigating the incident that saw two state troopers shot\u2026",
@@ -501,11 +639,11 @@
       "url": "https://freerepublic.com/focus/f-news/4333275/posts",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "DEVELOPING: Two Pennsylvania State Troopers Shot",
       "title_distilled": "DEVELOPING: Two Pennsylvania State Troopers Shot.",
       "description": "Two Pennsylvania state troopers were shot on Thursday morning in northeastern Pennsylvania. The post DEVELOPING: Two Pennsylvania State Troopers Shot appeared first on The Gateway Pundit.",
@@ -574,11 +712,11 @@
       "url": "https://www.thegatewaypundit.com/2025/08/developing-two-pennsylvania-state-troopers-shot/",
       "urlToImage": "https://www.thegatewaypundit.com/wp-content/uploads/2025/04/car-police-cars-caravan-sirens-f84bb2fef6ac3ef21e49e6a50ceb0e3d-scaled.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "2 troopers shot while responding to call in Pennsylvania",
       "title_distilled": "2 troopers shot while responding to call in Pennsylvania.",
       "description": "Two state troopers were shot while responding to a call in northeastern Pennsylvania on Thursday, according to the Pennsylvania State Police.",
@@ -631,11 +769,11 @@
       "url": "https://abcnews.go.com/US/2-troopers-shot-responding-call-pennsylvania-police/story?id=124454966",
       "urlToImage": "https://s.abcnews.com/images/General/Breaking-News-banner-abc-ps-181024_hpMain_16x9_992.jpg?w=1600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Pennsylvania State Troopers shot responding to call",
       "title_distilled": "Pennsylvania State Troopers shot responding to call.",
       "description": "Two Pennsylvania State Troopers were shot in northeastern Pennsylvania Thursday afternoon while responding to a call.",
@@ -704,11 +842,11 @@
       "url": "https://www.wtae.com/article/pennsylvania-state-troopers-shot-responding/65627567",
       "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/b2f936da-0c24-4a38-86a1-741e08e7d9b1-1920x1080-6894e92a5c7f8.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Man dead, troopers in stable condition after shooting in northeastern Pa.",
       "title_distilled": "Man dead, troopers in stable condition after shooting in northeastern Pa.",
       "description": "(WBRE/WYOU) \u2014 Pennsylvania State Police Colonel Christopher L. Paris and Governor Josh Shapiro held a news conference at Geisinger Community Medical Center...",
@@ -809,92 +947,70 @@
       "url": "https://www.2822news.com/news/breaking-news/heavy-police-activity-in-susquehanna-county/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/ebcca3be80160f09480418626d1a2350",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
-      "title": "Victor Alfieri Society gives out scholarships",
-      "title_distilled": "Victor Alfieri Society gives out scholarships.",
-      "description": "The Victor Alfieri Society scholarship committee recently presented two West Scranton High School students each with $1,000 scholarships. From left: Gino Arcurie, Victor Alfieri Society vice president and committee chairman; Sam Tomaino, committee vice chairman; Ava Wallace, scholarship recipient; Gianna Fratzola, scholarship recipient; and Joe Spinelli, Victor Alfieri Society trustee and committee member.",
+      "id": "short_11",
+      "title": "Race director promotes Minicozzi Memorial Race on WNEP-TV",
+      "title_distilled": "Race director promotes Minicozzi Memorial Race on WNEP-TV.",
+      "description": "Nikki Krize, right, reporter for WNEP-TV, interviews Leslie Minicozzi Galacci, UNICO Scranton race director and sister of the late Capt. James R. Minicozzi, while promoting the 13th annual Capt. James R. Minicozzi Memorial Race. The race, through the UNICO Scranton Chapter, will take place Aug. 30 at 10 a.m. in downtown Scranton during La Festa Italiana.",
       "description_distilled": "",
-      "content": "The Victor Alfieri Society scholarship committee recently presented two West Scranton High School students each with $1,000 scholarships. From left: Gino Arcurie, Victor Alfieri Society vice president and committee chairman; Sam Tomaino, committee vice chairman; Ava Wallace, scholarship recipient; Gianna Fratzola, scholarship recipient; and Joe Spinelli, Victor Alfieri Society trustee and committee member.",
-      "content_distilled": "Victor Alfieri Society scholarship committee recently presented two West Scranton High School students each with $1,000 scholarships.",
+      "content": "Nikki Krize, right, reporter for WNEP-TV, interviews Leslie Minicozzi Galacci, UNICO Scranton race director and sister of the late Capt. James R. Minicozzi, while promoting the 13th annual Capt. James R. Minicozzi Memorial Race. The race, through the UNICO Scranton Chapter, will take place Aug. 30 at 10 a.m. in downtown Scranton during La Festa Italiana.",
+      "content_distilled": "Nikki Krize, right, reporter for WNEP-TV, interviews Leslie Minicozzi Galacci, UNICO Scranton race director and sister of the late Capt.",
       "graph": {
         "entities": [
           {
-            "name": "Victor Alfieri",
+            "name": "Minicozzi Memorial",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/victor-alfieri.md",
+            "file_path": "../entities/people/minicozzi-memorial.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Victor",
+            "name": "Nikki Krize",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-victor.md",
+            "file_path": "../entities/people/nikki-krize.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Alfieri Society",
+            "name": "Leslie Minicozzi",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/alfieri-society.md",
+            "file_path": "../entities/people/leslie-minicozzi.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "West Scranton",
+            "name": "Scranton Chapter",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/west-scranton.md",
+            "file_path": "../entities/people/scranton-chapter.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "High School",
+            "name": "Festa Italiana",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/high-school.md",
+            "file_path": "../entities/people/festa-italiana.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Gino Arcurie",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/gino-arcurie.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sam Tomaino",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sam-tomaino.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ava Wallace",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ava-wallace.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Gianna Fratzola",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/gianna-fratzola.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Joe Spinelli",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/joe-spinelli.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Victor A</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Vict</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Alfieri </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gino Arc</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Scranton",
+            "to": "Festa Italiana",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Minicozz</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nikki Kr</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Leslie M</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festa It</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -905,34 +1021,79 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Victor Alfieri": "../entities/people/victor-alfieri.md",
-          "The Victor": "../entities/people/the-victor.md",
-          "Alfieri Society": "../entities/people/alfieri-society.md",
-          "West Scranton": "../entities/people/west-scranton.md",
-          "High School": "../entities/people/high-school.md",
-          "Gino Arcurie": "../entities/people/gino-arcurie.md",
-          "Sam Tomaino": "../entities/people/sam-tomaino.md",
-          "Ava Wallace": "../entities/people/ava-wallace.md",
-          "Gianna Fratzola": "../entities/people/gianna-fratzola.md",
-          "Joe Spinelli": "../entities/people/joe-spinelli.md"
+          "Minicozzi Memorial": "../entities/people/minicozzi-memorial.md",
+          "Nikki Krize": "../entities/people/nikki-krize.md",
+          "Leslie Minicozzi": "../entities/people/leslie-minicozzi.md",
+          "Scranton Chapter": "../entities/people/scranton-chapter.md",
+          "Festa Italiana": "../entities/people/festa-italiana.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-08-19T04:00:33",
-      "url": "https://www.thetimes-tribune.com/2025/08/19/victor-alfieri-society-gives-out-scholarships/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC1-0819.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-08-20T04:00:37",
+      "url": "https://www.thetimes-tribune.com/2025/08/20/race-director-promotes-minicozzi-memorial-race-on-wnep-tv/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC2-0820.jpg?w=1400px&strip=all",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
-      "title": "ATHLETE OF THE WEEK: Ben Boyanoski, Scranton Prep golf",
-      "title_distilled": "ATHLETE OF THE WEEK: Ben Boyanoski, Scranton Prep golf.",
-      "description": "For the second consecutive year, Boyanoski won the individual title at the Bob Simons Classic. The Scranton Prep senior shot 2-under par over his final six holes to overcome a four-shot deficit and rally for the victory with an even-par 72 at Elkview Country Club. He also helped the Cavaliers take the team title and start 4-0 in Lackawanna League play. Boyanoski&#8217;s selection begins the 76th year of the Athlete of the Week program. Family: Father, Jeff; mother, Mandi; brother, Nate; sister, Anna. Coach: Christi Dorece. Talk about your comeback over the final six holes: I knew my game was [&#8230;]",
+      "id": "short_12",
+      "title": "Your guide to dinner and a show in Scranton and Wilkes-Barre",
+      "title_distilled": "Your guide to dinner and a show in Scranton and Wilkes-Barre.",
+      "description": "Looking to grab dinner before or a drink after an upcoming performance? Our guide can help you make plans.",
       "description_distilled": "",
-      "content": "For the second consecutive year, Boyanoski won the individual title at the Bob Simons Classic. The Scranton Prep senior shot 2-under par over his final six holes to overcome a four-shot deficit and rally for the victory with an even-par 72 at Elkview Country Club. He also helped the Cavaliers take the team title and start 4-0 in Lackawanna League play. Boyanoski&#8217;s selection begins the 76th year of the Athlete of the Week program. Family: Father, Jeff; mother, Mandi; brother, Nate; sister, Anna. Coach: Christi Dorece. Talk about your comeback over the final six holes: I knew my game was [&#8230;]",
-      "content_distilled": "For the second consecutive year, Boyanoski won the individual title at the Bob Simons Classic.",
+      "content": "Looking to grab dinner before or a drink after an upcoming performance? Our guide can help you make plans.",
+      "content_distilled": "Looking to grab dinner before or a drink after an upcoming performance? Our guide can help you make plans.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Barre Looking",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-looking.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Lo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Barre Looking": "../entities/people/barre-looking.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-20T04:00:26",
+      "url": "https://www.thetimes-tribune.com/2025/08/20/dinner-and-a-show-guide/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-DININGGUIDE-0820-01.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "FILM ROOM PODCAST: Ben Boyanoski joins Season 2 Episode 2",
+      "title_distilled": "FILM ROOM PODCAST: Ben Boyanoski joins Season 2 Episode 2.",
+      "description": "Welcome to Season 2 Episode 2 of the Film Room Podcast! The Times-Tribune Athlete of the Week Scranton Prep golfer Ben Boyanoski joins hosts Joe Baress and Joby Fawcett to discuss repeating as Bob Simons Classic champion, how he got started in golf, how he stays focused mentally on the course, a funny story of how he became a Cincinnati Bengals fan and much more. We also touch on other strong golf performances, including Lyla Jones\u2019 repeat title at the Ann Marie Simons Classic, and the opening of the girls tennis season and preview Week 1 of the high school [&#8230;]",
+      "description_distilled": "",
+      "content": "Welcome to Season 2 Episode 2 of the Film Room Podcast! The Times-Tribune Athlete of the Week Scranton Prep golfer Ben Boyanoski joins hosts Joe Baress and Joby Fawcett to discuss repeating as Bob Simons Classic champion, how he got started in golf, how he stays focused mentally on the course, a funny story of how he became a Cincinnati Bengals fan and much more. We also touch on other strong golf performances, including Lyla Jones\u2019 repeat title at the Ann Marie Simons Classic, and the opening of the girls tennis season and preview Week 1 of the high school [&#8230;]",
+      "content_distilled": "Welcome to Season 2 Episode 2 of the Film Room Podcast! The Times-Tribune Athlete of the Week Scranton Prep golfer Ben Boyanoski joins hosts Joe Baress and Joby Fawcett to discuss repeating as Bob Simons Classic champion, how he got started in golf, how he stays focused mentally on the course, a funny story of how he became a Cincinnati Bengals fan and much more.",
       "graph": {
         "entities": [
           {
@@ -943,10 +1104,45 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Prep",
+            "name": "Film Room",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/people/film-room.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Times",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-times.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tribune Athlete",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/tribune-athlete.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Week Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/week-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joe Baress",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joe-baress.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joby Fawcett",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joby-fawcett.md",
             "resolution_method": "new_entity"
           },
           {
@@ -957,69 +1153,71 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Scranton",
+            "name": "Cincinnati Bengals",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
+            "file_path": "../entities/people/cincinnati-bengals.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Elkview Country",
+            "name": "Lyla Jones",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/elkview-country.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna League",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-league.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Christi Dorece",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/christi-dorece.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "knew my game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/knew-my-game.md",
+            "file_path": "../entities/people/lyla-jones.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
             "from": "Ben Boyanoski",
-            "to": "Bob Simons",
-            "type": "WON",
-            "verb": "won"
+            "to": "Cincinnati Bengals",
+            "type": "STAYS",
+            "verb": "stays"
           },
           {
-            "from": "Scranton Prep",
-            "to": "Bob Simons",
-            "type": "WON",
-            "verb": "won"
+            "from": "Ben Boyanoski",
+            "to": "Cincinnati Bengals",
+            "type": "STARTED",
+            "verb": "started"
           },
           {
-            "from": "Scranton",
-            "to": "Bob Simons",
-            "type": "WON",
-            "verb": "won"
+            "from": "The Times",
+            "to": "Cincinnati Bengals",
+            "type": "STAYS",
+            "verb": "stays"
+          },
+          {
+            "from": "The Times",
+            "to": "Cincinnati Bengals",
+            "type": "STARTED",
+            "verb": "started"
+          },
+          {
+            "from": "Tribune Athlete",
+            "to": "Cincinnati Bengals",
+            "type": "STAYS",
+            "verb": "stays"
+          },
+          {
+            "from": "Tribune Athlete",
+            "to": "Cincinnati Bengals",
+            "type": "STARTED",
+            "verb": "started"
+          },
+          {
+            "from": "Week Scranton",
+            "to": "Cincinnati Bengals",
+            "type": "STAYS",
+            "verb": "stays"
+          },
+          {
+            "from": "Week Scranton",
+            "to": "Cincinnati Bengals",
+            "type": "STARTED",
+            "verb": "started"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ben Boya</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bob Simo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elkview </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WON</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ben Boya</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Film Roo</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Time</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tribune </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Week Scr</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Bare</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1031,160 +1229,115 @@
         },
         "entity_files": {
           "Ben Boyanoski": "../entities/people/ben-boyanoski.md",
-          "Scranton Prep": "../entities/people/scranton-prep.md",
+          "Film Room": "../entities/people/film-room.md",
+          "The Times": "../entities/people/the-times.md",
+          "Tribune Athlete": "../entities/people/tribune-athlete.md",
+          "Week Scranton": "../entities/people/week-scranton.md",
+          "Joe Baress": "../entities/people/joe-baress.md",
+          "Joby Fawcett": "../entities/people/joby-fawcett.md",
           "Bob Simons": "../entities/people/bob-simons.md",
-          "The Scranton": "../entities/people/the-scranton.md",
-          "Elkview Country": "../entities/people/elkview-country.md",
-          "Lackawanna League": "../entities/people/lackawanna-league.md",
-          "Christi Dorece": "../entities/people/christi-dorece.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "knew my game": "../entities/events/knew-my-game.md"
+          "Cincinnati Bengals": "../entities/people/cincinnati-bengals.md",
+          "Lyla Jones": "../entities/people/lyla-jones.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-08-19T04:00:33",
-      "url": "https://www.thetimes-tribune.com/2025/08/18/athlete-of-the-week-ben-boyanoski-scranton-prep-golf/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2024/12/STT-L-BOYANOSKI-1121.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Scranton families sift through rubble after devastating fire destroys several homes and a business",
-      "title_distilled": "Scranton families sift through rubble after devastating fire destroys several homes and a business.",
-      "description": "Four firefighters were injured, and roughly 20 people were displaced after the blaze on Sunday.",
-      "description_distilled": "",
-      "content": "Four firefighters were injured, and roughly 20 people were displaced after the blaze on Sunday.",
-      "content_distilled": "Four firefighters were injured, and roughly 20 people were displaced after the blaze on Sunday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-08-18T21:30:06",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-families-sift-through-rubble-after-devastating-fire-destroys-several-homes-and-a-business-pittston-avenue-orchard-street/523-2b0b2abf-0fc7-4043-a6c5-d12225e8de1c",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Parents and students gear up for school with community support at McNichols Plaza",
-      "title_distilled": "Parents and students gear up for school with community support at McNichols Plaza.",
-      "description": "School is almost back in session in Scranton, and the district's elementary schools are making sure students and parents are prepared.",
-      "description_distilled": "",
-      "content": "School is almost back in session in Scranton, and the district's elementary schools are making sure students and parents are prepared.",
-      "content_distilled": "School is almost back in session in Scranton, and the district's elementary schools are making sure students and parents are prepared.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Plaza School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/plaza-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Plaza School",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Plaza Sc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Plaza School": "../entities/people/plaza-school.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-08-18T20:20:34",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/parents-and-students-gear-up-for-school-with-community-support-at-mcnichols-plaza-scranton-lackawanna-county/523-a8298f91-acd0-4394-b27c-08a3820fb18b",
-      "urlToImage": "",
+      "publishedAt": "2025-08-20T01:16:14",
+      "url": "https://www.thetimes-tribune.com/2025/08/19/film-room-podcast-ben-boyanoski-joins-season-2-episode-2/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-SIMONS-0812-05.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "One taken to hospital after tractor-trailer crash in Scranton",
-      "title_distilled": "One taken to hospital after tractor-trailer crash in Scranton.",
-      "description": "A tractor-trailer collided with a car along South Keyser Avenue around 11 a.m. Monday.",
+      "title": "HS ROUNDUP: West Scranton sweeps city rival Scranton in tennis",
+      "title_distilled": "HS ROUNDUP: West Scranton sweeps city rival Scranton in tennis.",
+      "description": "Returning Lackawanna League all-star Katie Fahey earned a win at No. 1 singles to lead West Scranton to a 5-0 win over Scranton on Tuesday in a girls tennis match. Julia Farkaly won a three-set marathon over Fran Huffman, 6-2, 4-6, 10-3, at No. 2 singles, and Chiara Pugliese had a win at No. 3 singles for the Lady Invaders. Nora Frounfelker and Nina Emiliani teamed up for a win at No. 1 doubles, and Giovanna Fiorillo and Giulianna Gonzalez won at No. 2 doubles. Singles: Fahey over Edwards, 6-2, 6-0. Farkaly over Huffman, 6-2, 4-6, 10-3. Pugliese over Bergman, [&#8230;]",
       "description_distilled": "",
-      "content": "A tractor-trailer collided with a car along South Keyser Avenue around 11 a.m. Monday.",
-      "content_distilled": "tractor-trailer collided with a car along South Keyser Avenue around 11 a.",
+      "content": "Returning Lackawanna League all-star Katie Fahey earned a win at No. 1 singles to lead West Scranton to a 5-0 win over Scranton on Tuesday in a girls tennis match. Julia Farkaly won a three-set marathon over Fran Huffman, 6-2, 4-6, 10-3, at No. 2 singles, and Chiara Pugliese had a win at No. 3 singles for the Lady Invaders. Nora Frounfelker and Nina Emiliani teamed up for a win at No. 1 doubles, and Giovanna Fiorillo and Giulianna Gonzalez won at No. 2 doubles. Singles: Fahey over Edwards, 6-2, 6-0. Farkaly over Huffman, 6-2, 4-6, 10-3. Pugliese over Bergman, [&#8230;]",
+      "content_distilled": "Returning Lackawanna League all-star Katie Fahey earned a win at No.",
       "graph": {
         "entities": [
           {
-            "name": "South Keyser",
+            "name": "West Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/south-keyser.md",
+            "file_path": "../entities/people/west-scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Returning Lackawanna",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/returning-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "along South Keyser Avenue",
-            "type": "LOCATION",
+            "name": "Katie Fahey",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/along-south-keyser-avenue.md",
+            "file_path": "../entities/people/katie-fahey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Julia Farkaly",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/julia-farkaly.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fran Huffman",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fran-huffman.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Chiara Pugliese",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/chiara-pugliese.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lady Invaders",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lady-invaders.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nora Frounfelker",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nora-frounfelker.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nina Emiliani",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nina-emiliani.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Giovanna Fiorillo",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/giovanna-fiorillo.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "along South Keyser Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Julia Farkaly",
+            "to": "Fran Huffman",
+            "type": "WON",
+            "verb": "won"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ke</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along So</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Returnin</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Katie Fa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Julia Fa</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fran Huf</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chiara P</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1195,15 +1348,22 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "South Keyser": "../entities/people/south-keyser.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "along South Keyser Avenue": "../entities/locations/along-south-keyser-avenue.md"
+          "West Scranton": "../entities/people/west-scranton.md",
+          "Returning Lackawanna": "../entities/people/returning-lackawanna.md",
+          "Katie Fahey": "../entities/people/katie-fahey.md",
+          "Julia Farkaly": "../entities/people/julia-farkaly.md",
+          "Fran Huffman": "../entities/people/fran-huffman.md",
+          "Chiara Pugliese": "../entities/people/chiara-pugliese.md",
+          "Lady Invaders": "../entities/people/lady-invaders.md",
+          "Nora Frounfelker": "../entities/people/nora-frounfelker.md",
+          "Nina Emiliani": "../entities/people/nina-emiliani.md",
+          "Giovanna Fiorillo": "../entities/people/giovanna-fiorillo.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-08-18T15:27:30",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/crash-closes-part-of-south-keyser-avenue-in-scranton-lackawanna-county/523-6e409dc9-9945-462d-afb8-00e96541b6c5",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-20T00:15:34",
+      "url": "https://www.thetimes-tribune.com/2025/08/19/girls-tennis-west-scranton-sweeps-city-rival-scranton-in-season-opener/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-SCRANTONTENNIS-081925-03-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
