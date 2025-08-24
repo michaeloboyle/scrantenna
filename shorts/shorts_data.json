@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-08-23T11:04:44.815131",
-  "source_file": "../data/daily/scranton_news_2025-08-23.json",
+  "generated_at": "2025-08-24T11:03:56.986858",
+  "source_file": "../data/daily/scranton_news_2025-08-24.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -234,92 +234,6 @@
     },
     {
       "id": "short_2",
-      "title": "Fidelity D & D Bancorp, Inc. Reports Second Quarter 2025 Financial Results",
-      "title_distilled": "Fidelity D & D Bancorp, Inc.",
-      "description": "DUNMORE, Pa., July 23, 2025 (GLOBE NEWSWIRE) -- Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC) and its banking subsidiary, The Fidelity Deposit and Discount Bank, announced its unaudited, consolidated financial results for the three and six-month periods ended J\u2026",
-      "description_distilled": "",
-      "content": "DUNMORE, Pa., July 23, 2025 (GLOBE NEWSWIRE) -- Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC) and its banking subsidiary, The Fidelity Deposit and Discount Bank, announced its unaudited, consolidated financial results for the three and six-month periods ended J\u2026",
-      "content_distilled": "DUNMORE, Pa.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Reports Second",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/reports-second.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Financial Results",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/financial-results.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Fidelity",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-fidelity.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Discount Bank",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/discount-bank.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "The Fidelity",
-            "to": "Financial Results",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Discount Bank",
-            "to": "Financial Results",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Reports </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Financia</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Fide</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Discount</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Reports Second": "../entities/people/reports-second.md",
-          "Financial Results": "../entities/people/financial-results.md",
-          "The Fidelity": "../entities/people/the-fidelity.md",
-          "Discount Bank": "../entities/people/discount-bank.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "GlobeNewswire",
-      "publishedAt": "2025-07-23T11:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2025/07/23/3120096/0/en/Fidelity-D-D-Bancorp-Inc-Reports-Second-Quarter-2025-Financial-Results.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/7ff21eea-ee6d-46fb-9f2f-dd5e1bf9f1e3",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
-    },
-    {
-      "id": "short_3",
       "title": "Former Olympian, record holder Ryun to visit NEPA Camp",
       "title_distilled": "Former Olympian, record holder Ryun to visit NEPA Camp.",
       "description": "Legendary Olympian Jim Ryun returns to Northeast Pennsylvania to offer words of inspiration at Rock Mountain Camp in Gibson, Susquehanna County. Ryun, a former Olympic silver medal winner and the first high school athlete to run a mile in under 4 minutes, is \u2026",
@@ -402,11 +316,11 @@
       "url": "https://www.thetimes-tribune.com/2025/08/05/former-olympian-record-holder-ryun-to-visit-nepa-camp/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-RYUN-02.jpg?w=1024&h=597",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_4",
+      "id": "short_3",
       "title": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC",
       "title_distilled": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC.",
       "description": "Football is challenging. It is physically and mentally exhausting. It is intense and competitive. It is a clash of wills and a battle of endurance. After 10 days of touring Northeastern Pennsylvania and visiting preseason camps, I had several key takeaways, b\u2026",
@@ -451,11 +365,11 @@
       "url": "https://www.thetimes-tribune.com/2025/08/16/hs-football-observations-from-a-10-day-tour-around-the-camps-of-the-lfc/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_5",
+      "id": "short_4",
       "title": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation",
       "title_distilled": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation.",
       "description": "SCRANTON, Pa., Aug. 15, 2025 (GLOBE NEWSWIRE) -- How does insulation lower your energy bill? According to HelloNation , the answer is rooted in how heat moves and how insulation slows that process....",
@@ -574,11 +488,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/08/15/3134129/0/en/Insulation-Expert-Mike-Mancuso-Explains-How-to-Lower-Your-Energy-Bill-Through-Proper-Installation-in-HelloNation.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_6",
+      "id": "short_5",
       "title": "DEVELOPING: Two Pennsylvania State Troopers Shot",
       "title_distilled": "DEVELOPING: Two Pennsylvania State Troopers Shot.",
       "description": "Two Pennsylvania state troopers were shot on Thursday morning in northeastern Pennsylvania. The troopers were taken to a local hospital. Their conditions are not known. \u201cPennsylvania state police are investigating the incident that saw two state troopers shot\u2026",
@@ -639,11 +553,11 @@
       "url": "https://freerepublic.com/focus/f-news/4333275/posts",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_7",
+      "id": "short_6",
       "title": "DEVELOPING: Two Pennsylvania State Troopers Shot",
       "title_distilled": "DEVELOPING: Two Pennsylvania State Troopers Shot.",
       "description": "Two Pennsylvania state troopers were shot on Thursday morning in northeastern Pennsylvania. The post DEVELOPING: Two Pennsylvania State Troopers Shot appeared first on The Gateway Pundit.",
@@ -712,11 +626,11 @@
       "url": "https://www.thegatewaypundit.com/2025/08/developing-two-pennsylvania-state-troopers-shot/",
       "urlToImage": "https://www.thegatewaypundit.com/wp-content/uploads/2025/04/car-police-cars-caravan-sirens-f84bb2fef6ac3ef21e49e6a50ceb0e3d-scaled.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_8",
+      "id": "short_7",
       "title": "2 troopers shot while responding to call in Pennsylvania",
       "title_distilled": "2 troopers shot while responding to call in Pennsylvania.",
       "description": "Two state troopers were shot while responding to a call in northeastern Pennsylvania on Thursday, according to the Pennsylvania State Police.",
@@ -769,11 +683,11 @@
       "url": "https://abcnews.go.com/US/2-troopers-shot-responding-call-pennsylvania-police/story?id=124454966",
       "urlToImage": "https://s.abcnews.com/images/General/Breaking-News-banner-abc-ps-181024_hpMain_16x9_992.jpg?w=1600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_9",
+      "id": "short_8",
       "title": "Pennsylvania State Troopers shot responding to call",
       "title_distilled": "Pennsylvania State Troopers shot responding to call.",
       "description": "Two Pennsylvania State Troopers were shot in northeastern Pennsylvania Thursday afternoon while responding to a call.",
@@ -842,11 +756,11 @@
       "url": "https://www.wtae.com/article/pennsylvania-state-troopers-shot-responding/65627567",
       "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/b2f936da-0c24-4a38-86a1-741e08e7d9b1-1920x1080-6894e92a5c7f8.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_10",
+      "id": "short_9",
       "title": "Man dead, troopers in stable condition after shooting in northeastern Pa.",
       "title_distilled": "Man dead, troopers in stable condition after shooting in northeastern Pa.",
       "description": "(WBRE/WYOU) \u2014 Pennsylvania State Police Colonel Christopher L. Paris and Governor Josh Shapiro held a news conference at Geisinger Community Medical Center...",
@@ -947,80 +861,80 @@
       "url": "https://www.2822news.com/news/breaking-news/heavy-police-activity-in-susquehanna-county/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/ebcca3be80160f09480418626d1a2350",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_11",
-      "title": "24th commemoration of 9/11 set",
-      "title_distilled": "24th commemoration of 9/11 set.",
-      "description": "The 9/11 Memorial Committee of Lackawanna County will hold the 24th commemoration of the terrorist attacks on America of Sept. 11, 2001, with a ceremony Thursday, Sept. 11, at 8 a.m. at the memorial site in McDade Park. The Firefighters Bell Ceremony will be a featured moment in this solemn remembrance of the people who died that day, which included two Lackawanna County natives: Laura Lee DeFazio Morabito, a Clarks Summit native, and Jerry Moran, a Scranton native. First responder Dan Shaufler succumbed to the toxic residue of Ground Zero. From left: Bob Rutkowski, PA Ambulance emergency medical technician; Victoria [&#8230;]",
+      "id": "short_10",
+      "title": "REMEMBER WHEN",
+      "title_distilled": "REMEMBER WHEN.",
+      "description": "30 years ago Joe Bieber and Mike Yeck each homered during an eight-run fifth to lead Moosic to a 12-9 victory over Tri-County to capture the District 17 City-County Little League Tournament title. Bieber&#8217;s homer was a grand slam, while Yeck&#8217;s was a two-run shot. &#8230; Dave Stankavage kicked a 25-yard field goal with 10:50 to play to lift the Scranton/Wilkes-Barre Eagles to a 13-12 victory over arch-rival Newburgh in Empire Football League action at Scranton Memorial Stadium. Scott Perry also kicked a 37-yard field goal just before halftime to help the Eagles win their fifth straight. &#8230; Andy Olexovitch [&#8230;]",
       "description_distilled": "",
-      "content": "The 9/11 Memorial Committee of Lackawanna County will hold the 24th commemoration of the terrorist attacks on America of Sept. 11, 2001, with a ceremony Thursday, Sept. 11, at 8 a.m. at the memorial site in McDade Park. The Firefighters Bell Ceremony will be a featured moment in this solemn remembrance of the people who died that day, which included two Lackawanna County natives: Laura Lee DeFazio Morabito, a Clarks Summit native, and Jerry Moran, a Scranton native. First responder Dan Shaufler succumbed to the toxic residue of Ground Zero. From left: Bob Rutkowski, PA Ambulance emergency medical technician; Victoria [&#8230;]",
-      "content_distilled": "9/11 Memorial Committee of Lackawanna County will hold the 24th commemoration of the terrorist attacks on America of Sept.",
+      "content": "30 years ago Joe Bieber and Mike Yeck each homered during an eight-run fifth to lead Moosic to a 12-9 victory over Tri-County to capture the District 17 City-County Little League Tournament title. Bieber&#8217;s homer was a grand slam, while Yeck&#8217;s was a two-run shot. &#8230; Dave Stankavage kicked a 25-yard field goal with 10:50 to play to lift the Scranton/Wilkes-Barre Eagles to a 13-12 victory over arch-rival Newburgh in Empire Football League action at Scranton Memorial Stadium. Scott Perry also kicked a 37-yard field goal just before halftime to help the Eagles win their fifth straight. &#8230; Andy Olexovitch [&#8230;]",
+      "content_distilled": "30 years ago Joe Bieber and Mike Yeck each homered during an eight-run fifth to lead Moosic to a 12-9 victory over Tri-County to capture the District 17 City-County Little League Tournament title.",
       "graph": {
         "entities": [
           {
-            "name": "Memorial Committee",
+            "name": "Joe Bieber",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/memorial-committee.md",
+            "file_path": "../entities/people/joe-bieber.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Firefighters",
+            "name": "Mike Yeck",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-firefighters.md",
+            "file_path": "../entities/people/mike-yeck.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Bell Ceremony",
+            "name": "League Tournament",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bell-ceremony.md",
+            "file_path": "../entities/people/league-tournament.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Laura Lee",
+            "name": "Dave Stankavage",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/laura-lee.md",
+            "file_path": "../entities/people/dave-stankavage.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Clarks Summit",
+            "name": "Barre Eagles",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/barre-eagles.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jerry Moran",
+            "name": "Empire Football",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jerry-moran.md",
+            "file_path": "../entities/people/empire-football.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Dan Shaufler",
+            "name": "Scranton Memorial",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dan-shaufler.md",
+            "file_path": "../entities/people/scranton-memorial.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Ground Zero",
+            "name": "Scott Perry",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/ground-zero.md",
+            "file_path": "../entities/people/scott-perry.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Bob Rutkowski",
+            "name": "Andy Olexovitch",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bob-rutkowski.md",
+            "file_path": "../entities/people/andy-olexovitch.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1033,12 +947,12 @@
         ],
         "relationships": [
           {
-            "from": "Dan Shaufler",
-            "to": "Ground Zero",
-            "type": "MEMBER_OF"
+            "from": "League Tournament",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Memorial</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Fire</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bell Cer</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Laura Le</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jerry Mo</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Bieb</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mike Yec</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">League T</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dave Sta</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Ea</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Empire F</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1049,90 +963,103 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Memorial Committee": "../entities/people/memorial-committee.md",
-          "The Firefighters": "../entities/people/the-firefighters.md",
-          "Bell Ceremony": "../entities/people/bell-ceremony.md",
-          "Laura Lee": "../entities/people/laura-lee.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Jerry Moran": "../entities/people/jerry-moran.md",
-          "Dan Shaufler": "../entities/people/dan-shaufler.md",
-          "Ground Zero": "../entities/people/ground-zero.md",
-          "Bob Rutkowski": "../entities/people/bob-rutkowski.md",
+          "Joe Bieber": "../entities/people/joe-bieber.md",
+          "Mike Yeck": "../entities/people/mike-yeck.md",
+          "League Tournament": "../entities/people/league-tournament.md",
+          "Dave Stankavage": "../entities/people/dave-stankavage.md",
+          "Barre Eagles": "../entities/people/barre-eagles.md",
+          "Empire Football": "../entities/people/empire-football.md",
+          "Scranton Memorial": "../entities/people/scranton-memorial.md",
+          "Scott Perry": "../entities/people/scott-perry.md",
+          "Andy Olexovitch": "../entities/people/andy-olexovitch.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-08-23T04:00:52",
-      "url": "https://www.thetimes-tribune.com/2025/08/23/24th-commemoration-of-9-11-set/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC1-0823.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-08-24T04:00:47",
+      "url": "https://www.thetimes-tribune.com/2025/08/24/remember-when-40/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-SURA-01.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Glitter and guts: High school featured performers take the field",
+      "title_distilled": "Glitter and guts: High school featured performers take the field.",
+      "description": "Meet the featured performers of Lackawanna County high schools as they prepare to take the field and support their teams.",
+      "description_distilled": "",
+      "content": "Meet the featured performers of Lackawanna County high schools as they prepare to take the field and support their teams.",
+      "content_distilled": "Meet the featured performers of Lackawanna County high schools as they prepare to take the field and support their teams.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-08-24T04:00:47",
+      "url": "https://www.thetimes-tribune.com/2025/08/24/glitter-and-guts-high-school-featured-performers-take-the-field/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-FEATURE-0817-05-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "13th annual Capt. Minicozzi Memorial Race during La Festa Italiana",
-      "title_distilled": "13th annual Capt.",
-      "description": "The 13th annual Capt. James R. Minicozzi Memorial Race, through the UNICO Scranton Chapter, will take place Saturday, Aug. 30, at 10 a.m. in downtown Scranton during La Festa Italiana. You can preregister ($25) at runsignup.com/Minicozzi until Monday. All preregistered participants will receive a voucher for a free yoga class at Yoga West. Registration on race day ($35) is at Linden Street and North Washington Avenue from 8-9:30 a.m. Proceeds benefit the children at the Boys &#38; Girls Clubs of NEPA for their annual Christmas party and college scholarships at Minicozzi\u2019s alma mater, West Scranton High School. From left: Chris [&#8230;]",
+      "title": "Mr. and Mrs. Jonathan Mecca",
+      "title_distilled": "Mr.",
+      "description": "McDade Park in Scranton was the setting Aug. 14 for the wedding of Taylor Ann Sheare, Greenfield Twp., and Jonathan Angelo Mecca, Olyphant.",
       "description_distilled": "",
-      "content": "The 13th annual Capt. James R. Minicozzi Memorial Race, through the UNICO Scranton Chapter, will take place Saturday, Aug. 30, at 10 a.m. in downtown Scranton during La Festa Italiana. You can preregister ($25) at runsignup.com/Minicozzi until Monday. All preregistered participants will receive a voucher for a free yoga class at Yoga West. Registration on race day ($35) is at Linden Street and North Washington Avenue from 8-9:30 a.m. Proceeds benefit the children at the Boys &#38; Girls Clubs of NEPA for their annual Christmas party and college scholarships at Minicozzi\u2019s alma mater, West Scranton High School. From left: Chris [&#8230;]",
-      "content_distilled": "13th annual Capt.",
+      "content": "McDade Park in Scranton was the setting Aug. 14 for the wedding of Taylor Ann Sheare, Greenfield Twp., and Jonathan Angelo Mecca, Olyphant.",
+      "content_distilled": "McDade Park in Scranton was the setting Aug.",
       "graph": {
         "entities": [
           {
-            "name": "Minicozzi Memorial",
+            "name": "Jonathan Mecca",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/minicozzi-memorial.md",
+            "file_path": "../entities/people/jonathan-mecca.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Festa Italiana",
+            "name": "Taylor Ann Sheare",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/festa-italiana.md",
+            "file_path": "../entities/people/taylor-ann-sheare.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Chapter",
+            "name": "Greenfield Twp",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-chapter.md",
+            "file_path": "../entities/people/greenfield-twp.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Yoga West",
+            "name": "Jonathan Angelo",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/yoga-west.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Washington",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-washington.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Girls Clubs",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/girls-clubs.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "West Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/west-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "High School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/high-school.md",
+            "file_path": "../entities/people/jonathan-angelo.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1143,41 +1070,26 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "West Scranton High School",
-            "type": "ORGANIZATION",
+            "name": "McDade Park",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/west-scranton-high-school.md",
+            "file_path": "../entities/locations/mcdade-park.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Girls Clubs",
-            "to": "Minicozzi Memorial",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Minicozzi Memorial",
-            "to": "Festa Italiana",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "West Scranton High School",
-            "to": "Festa Italiana",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "Girls Clubs",
-            "to": "Minicozzi Memorial",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "West Scranton High School",
+            "from": "Jonathan Mecca",
             "to": "Scranton",
-            "type": "OPERATES_IN"
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "McDade Park",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Minicozz</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festa It</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Yoga Wes</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Girls Cl</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jonathan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Taylor A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greenfie</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jonathan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">McDade P</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1188,130 +1100,37 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Minicozzi Memorial": "../entities/people/minicozzi-memorial.md",
-          "Festa Italiana": "../entities/people/festa-italiana.md",
-          "Scranton Chapter": "../entities/people/scranton-chapter.md",
-          "Yoga West": "../entities/people/yoga-west.md",
-          "North Washington": "../entities/people/north-washington.md",
-          "Girls Clubs": "../entities/people/girls-clubs.md",
-          "West Scranton": "../entities/people/west-scranton.md",
-          "High School": "../entities/people/high-school.md",
+          "Jonathan Mecca": "../entities/people/jonathan-mecca.md",
+          "Taylor Ann Sheare": "../entities/people/taylor-ann-sheare.md",
+          "Greenfield Twp": "../entities/people/greenfield-twp.md",
+          "Jonathan Angelo": "../entities/people/jonathan-angelo.md",
           "Scranton": "../entities/locations/scranton.md",
-          "West Scranton High School": "../entities/organizations/west-scranton-high-school.md"
+          "McDade Park": "../entities/locations/mcdade-park.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-08-23T04:00:51",
-      "url": "https://www.thetimes-tribune.com/2025/08/23/pa-live-and-the-capt-minicozzi-memorial-race/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC2-0823.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-08-24T04:00:43",
+      "url": "https://www.thetimes-tribune.com/2025/08/24/mr-and-mrs-jonathan-mecca/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-WEDMECCA-0824-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "HS FOOTBALL ROUNDUP: Naniewicz, Spataro spark Lakeland past Carbondale Area",
-      "title_distilled": "HS FOOTBALL ROUNDUP: Naniewicz, Spataro spark Lakeland past Carbondale Area.",
-      "description": "David Naniewicz threw for 137 yards and two touchdowns, and ran for 55 to lead Lakeland to a 52-14 win over Carbondale Area in a nonleague high school football game on Friday night at the Andrew J. Cerra Sports Complex. Sophomore Rocco Spataro ran for a touchdown and returned a kickoff 80 yards for a touchdown for the Chiefs. Lakeland jumped out to a 33-7 lead in the first half. Jackson Pochas scored on a 22-yard run and Spataro scored on a 4-yard burst to give the Chiefs a 14-0 advantage after the first quarter. Gavin Roberts had a 5-yard [&#8230;]",
+      "title": "Promoting police and community partnership with night out event in Lackawanna County",
+      "title_distilled": "Promoting police and community partnership with night out event in Lackawanna County.",
+      "description": "The community came together at a park in Olyphant for National Night Out, which connects first responders with residents in the area.",
       "description_distilled": "",
-      "content": "David Naniewicz threw for 137 yards and two touchdowns, and ran for 55 to lead Lakeland to a 52-14 win over Carbondale Area in a nonleague high school football game on Friday night at the Andrew J. Cerra Sports Complex. Sophomore Rocco Spataro ran for a touchdown and returned a kickoff 80 yards for a touchdown for the Chiefs. Lakeland jumped out to a 33-7 lead in the first half. Jackson Pochas scored on a 22-yard run and Spataro scored on a 4-yard burst to give the Chiefs a 14-0 advantage after the first quarter. Gavin Roberts had a 5-yard [&#8230;]",
-      "content_distilled": "David Naniewicz threw for 137 yards and two touchdowns, and ran for 55 to lead Lakeland to a 52-14 win over Carbondale Area in a nonleague high school football game on Friday night at the Andrew J.",
+      "content": "The community came together at a park in Olyphant for National Night Out, which connects first responders with residents in the area.",
+      "content_distilled": "community came together at a park in Olyphant for National Night Out, which connects first responders with residents in the area.",
       "graph": {
         "entities": [
           {
-            "name": "Carbondale Area",
+            "name": "National Night",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-area.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "David Naniewicz",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/david-naniewicz.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Cerra Sports",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/cerra-sports.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sophomore Rocco",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sophomore-rocco.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jackson Pochas",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jackson-pochas.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Gavin Roberts",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/gavin-roberts.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "nonleague high school football game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/nonleague-high-school-football-game.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">David Na</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cerra Sp</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sophomor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jackson </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gavin Ro</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Carbondale Area": "../entities/people/carbondale-area.md",
-          "David Naniewicz": "../entities/people/david-naniewicz.md",
-          "Cerra Sports": "../entities/people/cerra-sports.md",
-          "Sophomore Rocco": "../entities/people/sophomore-rocco.md",
-          "Jackson Pochas": "../entities/people/jackson-pochas.md",
-          "Gavin Roberts": "../entities/people/gavin-roberts.md",
-          "nonleague high school football game": "../entities/events/nonleague-high-school-football-game.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-08-23T03:57:17",
-      "url": "https://www.thetimes-tribune.com/2025/08/22/hs-football-naniewicz-spataro-spark-lakeland-to-win-over-carbondale-area/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-HSFBROUNDUP-BOLDL-0825-02.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Old Forge mailman retires after 44 years, leaving his stamp on the community",
-      "title_distilled": "Old Forge mailman retires after 44 years, leaving his stamp on the community.",
-      "description": "After more than four decades of delivering mail, one mailman in Lackawanna County is hanging up his bag and leaving his stamp on the community.",
-      "description_distilled": "",
-      "content": "After more than four decades of delivering mail, one mailman in Lackawanna County is hanging up his bag and leaving his stamp on the community.",
-      "content_distilled": "After more than four decades of delivering mail, one mailman in Lackawanna County is hanging up his bag and leaving his stamp on the community.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Old Forge",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
+            "file_path": "../entities/people/national-night.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1322,8 +1141,15 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Lackawanna County",
+            "to": "National Night",
+            "type": "CAME",
+            "verb": "came"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1334,13 +1160,76 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Old Forge": "../entities/people/old-forge.md",
+          "National Night": "../entities/people/national-night.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-08-22T20:41:39",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/old-forge-mailman-retires-after-44-years-leaving-his-stamp-on-the-community-frank-piccotti-lackawanna-county/523-ed48d86c-8b63-45fb-ab54-508381f96be3",
+      "publishedAt": "2025-08-24T05:09:07",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/promoting-police-and-community-partnership-with-night-out-event-in-lackawanna-county-olyphant/523-04be2a64-58fd-42a4-90a7-ed5684639346",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Wild Women NEPA festival brings hundreds of women together every year",
+      "title_distilled": "Wild Women NEPA festival brings hundreds of women together every year.",
+      "description": "Yoga, meditation, sound baths, and henna art were all a part of the festival's third year in Tunkhannock.",
+      "description_distilled": "",
+      "content": "Yoga, meditation, sound baths, and henna art were all a part of the festival's third year in Tunkhannock.",
+      "content_distilled": "Yoga, meditation, sound baths, and henna art were all a part of the festival's third year in Tunkhannock.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Wild Women",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wild-women.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Wild Women NEPA festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/wild-women-nepa-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "part of the festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/part-of-the-festival.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Wild Women",
+            "to": "Wild Women NEPA festival",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wild Wom</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wild Wom</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">part of </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Wild Women": "../entities/people/wild-women.md",
+          "Wild Women NEPA festival": "../entities/events/wild-women-nepa-festival.md",
+          "part of the festival": "../entities/events/part-of-the-festival.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-08-24T03:59:54",
+      "url": "https://www.wnep.com/article/news/local/wyoming-county/wild-women-nepa-festival-brings-hundreds-of-women-together-every-year-wyoming-county-tunkhannock/523-6a1a1c71-c857-44ee-af1f-fe5ef500f084",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
