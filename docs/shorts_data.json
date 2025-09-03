@@ -1,12 +1,104 @@
 {
-  "generated_at": "2025-09-02T11:04:10.103327",
-  "source_file": "../data/daily/scranton_news_2025-09-02.json",
+  "generated_at": "2025-09-03T11:04:55.920933",
+  "source_file": "../data/daily/scranton_news_2025-09-03.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Pennsylvania Democrats attract some buzz in the party's bid to take back the US House",
+      "title_distilled": "Pennsylvania Democrats attract some buzz in the party's bid to take back the US House.",
+      "description": "Scranton, Pennsylvania, Mayor Paige Cognetti is announcing a bid for Congress",
+      "description_distilled": "",
+      "content": "Scranton, Pennsylvania, Mayor Paige Cognetti is announcing a bid for Congress",
+      "content_distilled": "Scranton, Pennsylvania, Mayor Paige Cognetti is announcing a bid for Congress.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Pennsylvania Democrats",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-democrats.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "House Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/house-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mayor Paige",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mayor-paige.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Mayor Paige",
+            "to": "Paige Cognetti",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">House Sc</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mayor Pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Pennsylvania Democrats": "../entities/people/pennsylvania-democrats.md",
+          "House Scranton": "../entities/people/house-scranton.md",
+          "Mayor Paige": "../entities/people/mayor-paige.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "ABC News",
+      "publishedAt": "2025-09-02T10:30:25Z",
+      "url": "https://abcnews.go.com/Politics/wireStory/pennsylvania-democrats-attract-buzz-partys-bid-back-us-125172907",
+      "urlToImage": "https://i.abcnewsfe.com/a/c5511fa6-e0d6-415c-aba3-14ddecd47dba/wirestory_1e4ec001ee97b229f87e6c3d8635705d_16x9.jpg?w=1600",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Artist Janet Pierce: \u2018We arrived into Northern Ireland at the height of the Troubles, was forced to confront some of life\u2019s darkest realities\u2019",
       "title_distilled": "Artist Janet Pierce: \u2018We arrived into Northern Ireland at the height of the Troubles, was forced to confront some of life\u2019s darkest realities\u2019.",
       "description": "In 1973, Janet Pierce had her first solo exhibition in the Everhart Museum in \u00adScranton, Pennsylvania. Her most recent solo show is now on view at the Ballinglen Arts Foundation, Co Mayo, and Pierce has exhibited throughout Ireland, the UK, the US, Portugal a\u2026",
@@ -140,11 +232,11 @@
       "url": "https://www.independent.ie/entertainment/theatre-arts/artist-janet-pierce-we-arrived-into-northern-ireland-at-the-height-of-the-troubles-was-forced-to-confront-some-of-lifes-darkest-realities/a123170127.html",
       "urlToImage": "https://focus.independent.ie/thumbor/zwFgI1HjfmAhIolKhzIB2TZq0lo=/629x460/smart/prod-mh-ireland/3a38d678-1a1d-47e8-bc21-b3697a95d744/f1a3b14c-e752-46fb-8566-5a7168349059/SF%20Janet.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Bob Dylan, Willie Nelson, Wilco, Lucinda Williams Storm Jones Beach at Outlaw Festival",
       "title_distilled": "Bob Dylan, Willie Nelson, Wilco, Lucinda Williams Storm Jones Beach at Outlaw Festival.",
       "description": "Wilco honored Jerry Garcia on his birthday, Lucinda Williams covered the Beatles, Bob Dylan dug deep into his back catalog, and Willie Nelson closed out the night in stunning fashion",
@@ -229,11 +321,11 @@
       "url": "http://www.rollingstone.com/music/music-live-reviews/bob-dylan-willie-nelson-wilco-outlaw-festival-1235399179/",
       "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/08/willie-nelson-outlaw-country.jpg?w=1600&h=900&crop=1",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Former Olympian, record holder Ryun to visit NEPA Camp",
       "title_distilled": "Former Olympian, record holder Ryun to visit NEPA Camp.",
       "description": "Legendary Olympian Jim Ryun returns to Northeast Pennsylvania to offer words of inspiration at Rock Mountain Camp in Gibson, Susquehanna County. Ryun, a former Olympic silver medal winner and the first high school athlete to run a mile in under 4 minutes, is \u2026",
@@ -316,11 +408,11 @@
       "url": "https://www.thetimes-tribune.com/2025/08/05/former-olympian-record-holder-ryun-to-visit-nepa-camp/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-RYUN-02.jpg?w=1024&h=597",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Scranton/Wilkes-Barre RailRiders to host Syracuse in showdown series",
       "title_distilled": "Scranton/Wilkes-Barre RailRiders to host Syracuse in showdown series.",
       "description": "Yankees, Mets Triple-A affiliates to battle for first place.",
@@ -365,11 +457,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects-statistics-game-recaps/161757/yankees-scranton-wilkes-barre-railriders-syracuse-mets-series-first-place",
       "urlToImage": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2025/08/gettyimages-2201515672.jpg?quality=90&strip=all&crop=0%2C10.736518996201%2C100%2C78.526962007598&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC",
       "title_distilled": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC.",
       "description": "Football is challenging. It is physically and mentally exhausting. It is intense and competitive. It is a clash of wills and a battle of endurance. After 10 days of touring Northeastern Pennsylvania and visiting preseason camps, I had several key takeaways, b\u2026",
@@ -414,11 +506,11 @@
       "url": "https://www.thetimes-tribune.com/2025/08/16/hs-football-observations-from-a-10-day-tour-around-the-camps-of-the-lfc/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation",
       "title_distilled": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation.",
       "description": "SCRANTON, Pa., Aug. 15, 2025 (GLOBE NEWSWIRE) -- How does insulation lower your energy bill? According to HelloNation , the answer is rooted in how heat moves and how insulation slows that process....",
@@ -537,11 +629,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/08/15/3134129/0/en/Insulation-Expert-Mike-Mancuso-Explains-How-to-Lower-Your-Energy-Bill-Through-Proper-Installation-in-HelloNation.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "DEVELOPING: Two Pennsylvania State Troopers Shot",
       "title_distilled": "DEVELOPING: Two Pennsylvania State Troopers Shot.",
       "description": "Two Pennsylvania state troopers were shot on Thursday morning in northeastern Pennsylvania. The troopers were taken to a local hospital. Their conditions are not known. \u201cPennsylvania state police are investigating the incident that saw two state troopers shot\u2026",
@@ -602,11 +694,11 @@
       "url": "https://freerepublic.com/focus/f-news/4333275/posts",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "DEVELOPING: Two Pennsylvania State Troopers Shot",
       "title_distilled": "DEVELOPING: Two Pennsylvania State Troopers Shot.",
       "description": "Two Pennsylvania state troopers were shot on Thursday morning in northeastern Pennsylvania. The post DEVELOPING: Two Pennsylvania State Troopers Shot appeared first on The Gateway Pundit.",
@@ -675,17 +767,306 @@
       "url": "https://www.thegatewaypundit.com/2025/08/developing-two-pennsylvania-state-troopers-shot/",
       "urlToImage": "https://www.thegatewaypundit.com/wp-content/uploads/2025/04/car-police-cars-caravan-sirens-f84bb2fef6ac3ef21e49e6a50ceb0e3d-scaled.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
-      "title": "Scranton Mayor Cognetti announces campaign for Congress",
-      "title_distilled": "Scranton Mayor Cognetti announces campaign for Congress.",
-      "description": "Scranton's mayor since January 2020, Paige Gebhardt Cognetti will enter the Democratic primary for the 8th Congressional District and aim to challenge Republican U.S. Rep. Rob Bresnahan in 2026.",
+      "id": "short_9",
+      "title": "RailRiders rally late to beat WooSox",
+      "title_distilled": "RailRiders rally late to beat WooSox.",
+      "description": "The Scranton/Wilkes-Barre RailRiders rallied from a five-run deficit to beat Worcester, 8-7, on Tuesday at Polar Park. The RailRiders sent 12 batters to the plate in the seventh, scoring seven runs on seven hits. Trailing, 5-1, Jeimer Candelario singled in Brennen Davis to cut the Worcester lead to three runs. A groundout by Shewmake brought home a second run. MLB rehabber Austin Slater walked to load the bases with two outs and Vivas doubled to tie the game at 5. Spencer Jones followed with a two-run double for a 7-5 lead, and Davis singled in Jones to build an 8-5 advantage. [&#8230;]",
       "description_distilled": "",
-      "content": "Scranton's mayor since January 2020, Paige Gebhardt Cognetti will enter the Democratic primary for the 8th Congressional District and aim to challenge Republican U.S. Rep. Rob Bresnahan in 2026.",
-      "content_distilled": "Scranton's mayor since January 2020, Paige Gebhardt Cognetti will enter the Democratic primary for the 8th Congressional District and aim to challenge Republican U.",
+      "content": "The Scranton/Wilkes-Barre RailRiders rallied from a five-run deficit to beat Worcester, 8-7, on Tuesday at Polar Park. The RailRiders sent 12 batters to the plate in the seventh, scoring seven runs on seven hits. Trailing, 5-1, Jeimer Candelario singled in Brennen Davis to cut the Worcester lead to three runs. A groundout by Shewmake brought home a second run. MLB rehabber Austin Slater walked to load the bases with two outs and Vivas doubled to tie the game at 5. Spencer Jones followed with a two-run double for a 7-5 lead, and Davis singled in Jones to build an 8-5 advantage. [&#8230;]",
+      "content_distilled": "Scranton/Wilkes-Barre RailRiders rallied from a five-run deficit to beat Worcester, 8-7, on Tuesday at Polar Park.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Polar Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/polar-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jeimer Candelario",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jeimer-candelario.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Brennen Davis",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/brennen-davis.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Austin Slater",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/austin-slater.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Spencer Jones",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/spencer-jones.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "MLB rehabber Austin Slater walked to load the bases with two outs and Vivas doubled to tie the game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/mlb-rehabber-austin-slater-walked-to-load-the-bases-with-two-outs-and-vivas-doubled-to-tie-the-game.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Scranton",
+            "to": "Polar Park",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "Scranton",
+            "to": "Polar Park",
+            "type": "BEAT",
+            "verb": "beat"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Polar Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jeimer C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brennen </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Austin S</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Spencer </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Polar Park": "../entities/people/polar-park.md",
+          "Jeimer Candelario": "../entities/people/jeimer-candelario.md",
+          "Brennen Davis": "../entities/people/brennen-davis.md",
+          "Austin Slater": "../entities/people/austin-slater.md",
+          "Spencer Jones": "../entities/people/spencer-jones.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "MLB rehabber Austin Slater walked to load the bases with two outs and Vivas doubled to tie the game": "../entities/events/mlb-rehabber-austin-slater-walked-to-load-the-bases-with-two-outs-and-vivas-doubled-to-tie-the-game.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-09-03T05:05:11",
+      "url": "https://www.thetimes-tribune.com/2025/09/03/railriders-rally-late-to-beat-woosox/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/03/2022-SWB-Navy-on-White-906x1024-1.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Chris Kelly Opinion: County Dem Machine to voters: Drop dead.",
+      "title_distilled": "Chris Kelly Opinion: County Dem Machine to voters: Drop dead.",
+      "description": "The Lackawanna County Democratic Machine is determined to deny voters a say in who assumes the throne abdicated in late February by departed Commissioner Matt McGloin.",
+      "description_distilled": "",
+      "content": "The Lackawanna County Democratic Machine is determined to deny voters a say in who assumes the throne abdicated in late February by departed Commissioner Matt McGloin.",
+      "content_distilled": "Lackawanna County Democratic Machine is determined to deny voters a say in who assumes the throne abdicated in late February by departed Commissioner Matt McGloin.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Chris Kelly",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/chris-kelly.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Lackawanna",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-lackawanna.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Commissioner Matt",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/commissioner-matt.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Matt",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/matt.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Lackawanna",
+            "to": "Commissioner Matt",
+            "type": "DEPARTED",
+            "verb": "departed"
+          },
+          {
+            "from": "The Lackawanna",
+            "to": "Matt",
+            "type": "DEPARTED",
+            "verb": "departed"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Commissioner Matt",
+            "type": "DEPARTED",
+            "verb": "departed"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Matt",
+            "type": "DEPARTED",
+            "verb": "departed"
+          },
+          {
+            "from": "Commissioner Matt",
+            "to": "Matt",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chris Ke</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commissi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Matt</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEPARTED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEPARTED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEPARTED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEPARTED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Chris Kelly": "../entities/people/chris-kelly.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "Commissioner Matt": "../entities/people/commissioner-matt.md",
+          "Matt": "../entities/people/matt.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-09-03T04:00:05",
+      "url": "https://www.thetimes-tribune.com/2025/09/03/chris-kelly-opinion-county-dem-machine-to-voters-drop-dead/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-KELLY-XXXX-01.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Scranton police embrace the beat: Department aims to boost trust, reduce crime",
+      "title_distilled": "Scranton police embrace the beat: Department aims to boost trust, reduce crime.",
+      "description": "Scranton Police's Neighborhood Police Patrol hopes to boost trust and reduce crime with door-to-door interactions.",
+      "description_distilled": "",
+      "content": "Scranton Police's Neighborhood Police Patrol hopes to boost trust and reduce crime with door-to-door interactions.",
+      "content_distilled": "Scranton Police's Neighborhood Police Patrol hopes to boost trust and reduce crime with door-to-door interactions.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton Police",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-police.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Neighborhood Police",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/neighborhood-police.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton Police",
+            "to": "Neighborhood Police",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "Scranton Police",
+            "to": "Scranton",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "Scranton",
+            "to": "Neighborhood Police",
+            "type": "BEAT",
+            "verb": "beat"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Neighbor</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Police": "../entities/people/scranton-police.md",
+          "Neighborhood Police": "../entities/people/neighborhood-police.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-09-02T23:36:09",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-police-embrace-the-beat-department-aims-to-boost-trust-reduce-crime-neighborhood-police-patrol-program/523-a9e5eb1f-8d1f-4744-9a0a-c94f093ccc4c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Scranton Mayor Paige Cognetti announces run for Congress",
+      "title_distilled": "Scranton Mayor Paige Cognetti announces run for Congress.",
+      "description": "Scranton Mayor Paige Cognetti announces run for Congress in Pennsylvania\u2019s 8th District.",
+      "description_distilled": "",
+      "content": "Scranton Mayor Paige Cognetti announces run for Congress in Pennsylvania\u2019s 8th District.",
+      "content_distilled": "Scranton Mayor Paige Cognetti announces run for Congress in Pennsylvania\u2019s 8th District.",
       "graph": {
         "entities": [
           {
@@ -703,31 +1084,17 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Paige Gebhardt",
+            "name": "Mayor Paige",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paige-gebhardt.md",
+            "file_path": "../entities/people/mayor-paige.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Congressional District",
+            "name": "Paige Cognetti",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/congressional-district.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Rob Bresnahan",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/rob-bresnahan.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Cognetti",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/cognetti.md",
+            "file_path": "../entities/people/paige-cognetti.md",
             "resolution_method": "new_entity"
           },
           {
@@ -736,21 +1103,38 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton Mayor",
-            "to": "Scranton",
+            "from": "Mayor Paige",
+            "to": "Scranton Mayor",
             "type": "HAS_TITLE"
+          },
+          {
+            "from": "Scranton Mayor",
+            "to": "Pennsylvania",
+            "type": "LOCATED_IN"
           },
           {
             "from": "Scranton Mayor",
             "to": "Congress Scranton",
             "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Ge</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rob Bres</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cognetti</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mayor Pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -763,301 +1147,15 @@
         "entity_files": {
           "Scranton Mayor": "../entities/people/scranton-mayor.md",
           "Congress Scranton": "../entities/people/congress-scranton.md",
-          "Paige Gebhardt": "../entities/people/paige-gebhardt.md",
-          "Congressional District": "../entities/people/congressional-district.md",
-          "Rob Bresnahan": "../entities/people/rob-bresnahan.md",
-          "Cognetti": "../entities/people/cognetti.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-09-02T10:30:10",
-      "url": "https://www.thetimes-tribune.com/2025/09/02/cognetti-announces-campaign-for-congress/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-UPDATE-0616-02.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "West Nile identified in more mosquitoes; still no human cases in county",
-      "title_distilled": "West Nile identified in more mosquitoes; still no human cases in county.",
-      "description": "Six more mosquitoes tested positive for West Nile virus in Lackawanna County, raising the total number this season to 25. But there hasn't been a case reported in humans.",
-      "description_distilled": "",
-      "content": "Six more mosquitoes tested positive for West Nile virus in Lackawanna County, raising the total number this season to 25. But there hasn't been a case reported in humans.",
-      "content_distilled": "Six more mosquitoes tested positive for West Nile virus in Lackawanna County, raising the total number this season to 25.",
-      "graph": {
-        "entities": [
-          {
-            "name": "West Nile",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/west-nile.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "West Nile",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Nil</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "West Nile": "../entities/people/west-nile.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-09-02T04:00:43",
-      "url": "https://www.thetimes-tribune.com/2025/09/02/west-nile-identified-in-more-mosquitoes-still-no-human-cases-in-county/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/bf9605fbf47ba22ffbf5cd62a450a6e0.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Sister Mary Persico, I.H.M., recognized with AICUP Award",
-      "title_distilled": "Sister Mary Persico, I.",
-      "description": "Sister Mary Persico, I.H.M., Ed.D., Marywood president emerita and director of special projects, this year\u2019s winner of the Association of Independent Colleges and Universities of Pennsylvania\u2019s Francis J. Michelini Award for Outstanding Service to Higher Education, accepts a special proclamation from state Sen. Marty Flynn, D-22, Dunmore, who is a Marywood alumnus.",
-      "description_distilled": "",
-      "content": "Sister Mary Persico, I.H.M., Ed.D., Marywood president emerita and director of special projects, this year\u2019s winner of the Association of Independent Colleges and Universities of Pennsylvania\u2019s Francis J. Michelini Award for Outstanding Service to Higher Education, accepts a special proclamation from state Sen. Marty Flynn, D-22, Dunmore, who is a Marywood alumnus.",
-      "content_distilled": "Sister Mary Persico, I.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Sister Mary",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sister-mary.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Award Sister",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/award-sister.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mary Persico",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mary-persico.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Independent Colleges",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/independent-colleges.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Michelini Award",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/michelini-award.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Higher Education",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/higher-education.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Marty Flynn",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/marty-flynn.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Outstanding Service",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/outstanding-service.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Independent Colleges",
-            "to": "Pennsylvania",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Michelini Award",
-            "to": "Higher Education",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sister M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Award Si</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mary Per</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Independ</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Michelin</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Higher E</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Sister Mary": "../entities/people/sister-mary.md",
-          "Award Sister": "../entities/people/award-sister.md",
-          "Mary Persico": "../entities/people/mary-persico.md",
-          "Independent Colleges": "../entities/people/independent-colleges.md",
-          "Michelini Award": "../entities/people/michelini-award.md",
-          "Higher Education": "../entities/people/higher-education.md",
-          "Marty Flynn": "../entities/people/marty-flynn.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "Outstanding Service": "../entities/organizations/outstanding-service.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-09-02T04:00:38",
-      "url": "https://www.thetimes-tribune.com/2025/09/02/sister-mary-persico-i-h-m-recognized-with-aicup-awards/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/08/STT-L-A2PIC1-0901.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "People celebrate Labor Day at the Wyoming County Fair",
-      "title_distilled": "People celebrate Labor Day at the Wyoming County Fair.",
-      "description": "Some people may have been at a campfire or BBQ on Labor Day, but some decided to celebrate at the Wyoming County Fair, the only fair in NEPA open for the holiday.",
-      "description_distilled": "",
-      "content": "Some people may have been at a campfire or BBQ on Labor Day, but some decided to celebrate at the Wyoming County Fair, the only fair in NEPA open for the holiday.",
-      "content_distilled": "Some people may have been at a campfire or BBQ on Labor Day, but some decided to celebrate at the Wyoming County Fair, the only fair in NEPA open for the holiday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Labor Day",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/labor-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Fair Some",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fair-some.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Labor Da</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fair Som</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Labor Day": "../entities/people/labor-day.md",
-          "Fair Some": "../entities/people/fair-some.md"
+          "Mayor Paige": "../entities/people/mayor-paige.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-09-02T02:40:19",
-      "url": "https://www.wnep.com/article/news/local/wyoming-county/saying-goodbye-wyoming-valley-fair-county-meshoppen-adithya-iyer-wnep-newswatch-16-labor-day/523-4391a975-6b6d-4560-8bcb-f012128438ee",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Final day of La Festa Italiana draws crowds to downtown Scranton",
-      "title_distilled": "Final day of La Festa Italiana draws crowds to downtown Scranton.",
-      "description": "Newswatch 16's Jack Culkin was there as vendors prepared to wrap up the 49th La Festa Italiana.",
-      "description_distilled": "",
-      "content": "Newswatch 16's Jack Culkin was there as vendors prepared to wrap up the 49th La Festa Italiana.",
-      "content_distilled": "Newswatch 16's Jack Culkin was there as vendors prepared to wrap up the 49th La Festa Italiana.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Festa Italiana",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/festa-italiana.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Newswatch",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-newswatch.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jack Culkin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jack-culkin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festa It</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jack Cul</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Festa Italiana": "../entities/people/festa-italiana.md",
-          "Scranton Newswatch": "../entities/people/scranton-newswatch.md",
-          "Jack Culkin": "../entities/people/jack-culkin.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-09-01T22:48:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/crowds-flock-to-downtown-scranton-for-final-day-of-la-festa-italiana-electric-city-italian-festival-food/523-d4b045bf-2143-415f-9f4f-ae574a6c6efa",
+      "publishedAt": "2025-09-02T21:31:54",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/paige-cognetti-rob-bresnahan-congress-eighth-district-election/523-a4c99e97-2327-44ea-88ff-40dacab27e27",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1065,52 +1163,38 @@
     },
     {
       "id": "short_13",
-      "title": "If you seek The Holy Grail (of Hockey), check Marywood University",
-      "title_distilled": "If you seek The Holy Grail , check Marywood University.",
-      "description": "The Stanley Cup \u2014 yes, that Stanley Cup \u2014 is on temporary display today at the Lackawanna County university",
+      "title": "Dunmore data center roundtable aims to educate public",
+      "title_distilled": "Dunmore data center roundtable aims to educate public.",
+      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Data centers have been getting lots of attention in NEPA lately, and now state legislators are joining the conversation to find out how the potential developments may impact their constituents. A meeting at a local university on Tuesday hoped to inform the local community and lawmakers on all aspects of [...]",
       "description_distilled": "",
-      "content": "The Stanley Cup \u2014 yes, that Stanley Cup \u2014 is on temporary display today at the Lackawanna County university",
-      "content_distilled": "Stanley Cup \u2014 yes, that Stanley Cup \u2014 is on temporary display today at the Lackawanna County university.",
+      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Data centers have been getting lots of attention in NEPA lately, and now state legislators are joining the conversation to find out how the potential developments may impact their constituents. A meeting at a local university on Tuesday hoped to inform the local community and lawmakers on all aspects of [...]",
+      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 Data centers have been getting lots of attention in NEPA lately, and now state legislators are joining the conversation to find out how the potential developments may impact their constituents.",
       "graph": {
         "entities": [
           {
-            "name": "The Holy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-holy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Marywood University",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/marywood-university.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Stanley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-stanley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Stanley Cup",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/stanley-cup.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Holy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marywood</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Stan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stanley </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1121,16 +1205,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Holy": "../entities/people/the-holy.md",
-          "Marywood University": "../entities/people/marywood-university.md",
-          "The Stanley": "../entities/people/the-stanley.md",
-          "Stanley Cup": "../entities/people/stanley-cup.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-09-01T21:21:07",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/stanley-cup-hockey-marywood-university-mike-joyce-visit/523-6dd14a01-b6d8-4bc2-b8dd-930ab5008ecf",
+      "source": "Wbre",
+      "publishedAt": "2025-09-03T03:11:57",
+      "url": "https://www.2822news.com/news/dunmore-data-center-roundtable-aims-to-educate-public/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1138,33 +1220,54 @@
     },
     {
       "id": "short_14",
-      "title": "Shoppers flock to Scranton Farmers Market for summer\u2019s final harvest",
-      "title_distilled": "Shoppers flock to Scranton Farmers Market for summer\u2019s final harvest.",
-      "description": "On Labor Day, shoppers packed the Co-Op Farmers Market in Scranton to grab late-summer produce as fall crops begin rolling in.",
+      "title": "Restoring significant Scranton performing arts center",
+      "title_distilled": "Restoring significant Scranton performing arts center.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A historic building and a pivotal piece of the community in Lackawanna County is being restored. The Scranton Cultural Center at the Masonic Temple is under construction both inside and out to restore it to its original state. 28/22 News Reporter Colby Hughes stopped by the Electric City to tell [...]",
       "description_distilled": "",
-      "content": "On Labor Day, shoppers packed the Co-Op Farmers Market in Scranton to grab late-summer produce as fall crops begin rolling in.",
-      "content_distilled": "On Labor Day, shoppers packed the Co-Op Farmers Market in Scranton to grab late-summer produce as fall crops begin rolling in.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A historic building and a pivotal piece of the community in Lackawanna County is being restored. The Scranton Cultural Center at the Masonic Temple is under construction both inside and out to restore it to its original state. 28/22 News Reporter Colby Hughes stopped by the Electric City to tell [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A historic building and a pivotal piece of the community in Lackawanna County is being restored.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Farmers",
+            "name": "The Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-farmers.md",
+            "file_path": "../entities/people/the-scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Labor Day",
+            "name": "Cultural Center",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/labor-day.md",
+            "file_path": "../entities/people/cultural-center.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Farmers Market",
+            "name": "Masonic Temple",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/farmers-market.md",
+            "file_path": "../entities/people/masonic-temple.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "News Reporter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/news-reporter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Colby Hughes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/colby-hughes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Electric City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/electric-city.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1173,16 +1276,47 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Farmers Market",
+            "from": "LACKAWANNA COUNTY",
             "to": "Scranton",
-            "type": "LOCATED_IN"
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Labor Da</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Farmers </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cultural</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Masonic </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1193,15 +1327,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Farmers": "../entities/people/scranton-farmers.md",
-          "Labor Day": "../entities/people/labor-day.md",
-          "Farmers Market": "../entities/people/farmers-market.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Cultural Center": "../entities/people/cultural-center.md",
+          "Masonic Temple": "../entities/people/masonic-temple.md",
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Colby Hughes": "../entities/people/colby-hughes.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-09-01T20:04:33",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/shoppers-flock-to-scranton-farmers-market-for-summers-final-harvest-barring-avenue-fruits-vegetableslocal-grown/523-7e9fc575-dd37-4115-bb47-dd6513eeb6e7",
+      "source": "Wbre",
+      "publishedAt": "2025-09-02T22:28:30",
+      "url": "https://www.2822news.com/news/local-news/restoring-significant-scranton-performing-arts-center/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
