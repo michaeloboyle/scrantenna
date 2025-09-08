@@ -1,12 +1,120 @@
 {
-  "generated_at": "2025-09-07T11:04:04.991246",
-  "source_file": "../data/daily/scranton_news_2025-09-07.json",
+  "generated_at": "2025-09-08T11:04:03.342683",
+  "source_file": "../data/daily/scranton_news_2025-09-08.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Biden Picks Delaware for His Presidential Library",
+      "title_distilled": "Biden Picks Delaware for His Presidential Library.",
+      "description": "Sorry, Scranton: Joe Biden has decided to build his presidential library in Delaware. The Joe and Jill Biden Foundation has approved a 13-member board packed with longtime allies and former administration figures to steer the effort, CNN reports. The project,\u2026",
+      "description_distilled": "",
+      "content": "Sorry, Scranton: Joe Biden has decided to build his presidential library in Delaware. The Joe and Jill Biden Foundation has approved a 13-member board packed with longtime allies and former administration figures to steer the effort, CNN reports. The project,\u2026",
+      "content_distilled": "Sorry, Scranton: Joe Biden has decided to build his presidential library in Delaware.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Biden Picks",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/biden-picks.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "His Presidential",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/his-presidential.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Library Sorry",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/library-sorry.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joe Biden",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joe-biden.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Joe",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-joe.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jill Biden",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jill-biden.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "CNN",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/cnn.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Biden Picks",
+            "to": "His Presidential",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "CNN",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Biden Pi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">His Pres</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Library </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Bide</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Joe</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jill Bid</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Biden Picks": "../entities/people/biden-picks.md",
+          "His Presidential": "../entities/people/his-presidential.md",
+          "Library Sorry": "../entities/people/library-sorry.md",
+          "Joe Biden": "../entities/people/joe-biden.md",
+          "The Joe": "../entities/people/the-joe.md",
+          "Jill Biden": "../entities/people/jill-biden.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "CNN": "../entities/organizations/cnn.md"
+        }
+      },
+      "source": "Newser",
+      "publishedAt": "2025-09-06T17:02:55Z",
+      "url": "https://www.newser.com/story/374781/biden-picks-delaware-for-his-presidential-library.html",
+      "urlToImage": "https://img1-azrcdn.newser.com/image/1632490-12-20250906120256.jpeg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "'The Office' Cast Net Worth, Ranked From Lowest to Highest",
       "title_distilled": "'The Office' Cast Net Worth, Ranked From Lowest to Highest.",
       "description": "The Office is one of the best shows in TV history, and it\u2019s getting new life thanks to The Paper. The mockumentary follows the work lives of office employees in the Scranton, Pennsylvania branch of the Dunder Mifflin Paper Company. It originally from March of\u2026",
@@ -128,11 +236,11 @@
       "url": "https://www.justjared.com/2025/09/05/the-office-cast-net-worth-ranked-from-lowest-to-highest/",
       "urlToImage": "https://cdn01.justjared.com/wp-content/uploads/headlines/2025/09/office-net-worth-social.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "One Fan Just Painstakingly Recreated The Office Inside No Man\u2019s Sky",
       "title_distilled": "One Fan Just Painstakingly Recreated The Office Inside No Man\u2019s Sky.",
       "description": "Insert your favorite Office reference here, there\u2019s a limitless galaxy here to hold all nine seasons of them The post One Fan Just Painstakingly Recreated The Office Inside No Man\u2019s Sky appeared first on Kotaku.",
@@ -201,11 +309,11 @@
       "url": "https://kotaku.com/no-mans-sky-the-office-base-building-settlement-nbc-2000623462",
       "urlToImage": "https://kotaku.com/app/uploads/2025/09/officenms-1200x675.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "\u2018The Paper\u2019 Reveals What Happened to Dunder Mifflin After \u2018The Office\u2019",
       "title_distilled": "\u2018The Paper\u2019 Reveals What Happened to Dunder Mifflin After \u2018The Office\u2019.",
       "description": "Peacock\u2019s \u2018The Paper\u2019 reveals the fate of Dunder Mifflin and how \u2018The Office\u2019 storyline connects to the new mockumentary series.",
@@ -272,11 +380,11 @@
       "url": "https://www.today.com/popculture/tv/the-paper-explains-dunder-mifflin-fate-the-office-rcna228391",
       "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2025-09/office-cast-cz-250902-13b9be.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Paige Cognetti's Chances of Beating GOP Incumbent in Pennsylvania\u2014Poll",
       "title_distilled": "Paige Cognetti's Chances of Beating GOP Incumbent in Pennsylvania\u2014Poll.",
       "description": "Voice is AI-generated. Inconsistencies may occur. Paige Cognetti, the Democratic mayor of Scranton, Pennsylvania, is challenging Republican Representative Rob Bresnahan in what is expected to be among the most competitive House elections of the 2026 midterms.\u2026",
@@ -364,11 +472,11 @@
       "url": "https://biztoc.com/x/744ec46927c63f6b",
       "urlToImage": "https://biztoc.com/cdn/744ec46927c63f6b_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Paige Cognetti's Chances of Beating GOP Incumbent in Pennsylvania\u2014Poll",
       "title_distilled": "Paige Cognetti's Chances of Beating GOP Incumbent in Pennsylvania\u2014Poll.",
       "description": "Cognetti, the mayor of Scranton, announced her bid for Congress on Tuesday, challenging Republican Representative Rob Bresnahan.",
@@ -494,11 +602,11 @@
       "url": "https://www.newsweek.com/paige-cognetti-rob-bresnahan-pennsylvania-poll-2123211",
       "urlToImage": "https://d.newsweek.com/en/full/2714263/scranton-mayor-paige-cognetti.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "Pennsylvania Democrats attract some buzz in the party's bid to take back the US House",
       "title_distilled": "Pennsylvania Democrats attract some buzz in the party's bid to take back the US House.",
       "description": "Scranton, Pennsylvania, Mayor Paige Cognetti is announcing a bid for Congress",
@@ -586,11 +694,11 @@
       "url": "https://abcnews.go.com/Politics/wireStory/pennsylvania-democrats-attract-buzz-partys-bid-back-us-125172907",
       "urlToImage": "https://i.abcnewsfe.com/a/c5511fa6-e0d6-415c-aba3-14ddecd47dba/wirestory_1e4ec001ee97b229f87e6c3d8635705d_16x9.jpg?w=1600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "Artist Janet Pierce: \u2018We arrived into Northern Ireland at the height of the Troubles, was forced to confront some of life\u2019s darkest realities\u2019",
       "title_distilled": "Artist Janet Pierce: \u2018We arrived into Northern Ireland at the height of the Troubles, was forced to confront some of life\u2019s darkest realities\u2019.",
       "description": "In 1973, Janet Pierce had her first solo exhibition in the Everhart Museum in \u00adScranton, Pennsylvania. Her most recent solo show is now on view at the Ballinglen Arts Foundation, Co Mayo, and Pierce has exhibited throughout Ireland, the UK, the US, Portugal a\u2026",
@@ -724,11 +832,11 @@
       "url": "https://www.independent.ie/entertainment/theatre-arts/artist-janet-pierce-we-arrived-into-northern-ireland-at-the-height-of-the-troubles-was-forced-to-confront-some-of-lifes-darkest-realities/a123170127.html",
       "urlToImage": "https://focus.independent.ie/thumbor/zwFgI1HjfmAhIolKhzIB2TZq0lo=/629x460/smart/prod-mh-ireland/3a38d678-1a1d-47e8-bc21-b3697a95d744/f1a3b14c-e752-46fb-8566-5a7168349059/SF%20Janet.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Details on deadly Casey Highway crash, victim identified",
       "title_distilled": "Details on deadly Casey Highway crash, victim identified.",
       "description": "CARBONDALE TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 State police released details on a rollover crash on the Casey Highway that killed a driver. On September 4,...",
@@ -789,11 +897,11 @@
       "url": "https://www.2822news.com/news/details-on-deadly-casey-highway-crash-victim-identified/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/dbbea8cd7dd75b2b5fd18a35179e8c9d",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "RailRiders get back on track in opener in Worcester",
       "title_distilled": "RailRiders get back on track in opener in Worcester.",
       "description": "Yankees\u2019 Triple-A affiliate had dropped final two games of series with Syracuse over the weekend",
@@ -830,11 +938,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects-statistics-game-recaps/162687/yankees-scranton-wilkes-barre-railriders-worcester-red-sox",
       "urlToImage": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2025/08/gettyimages-2228213136.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Scranton/Wilkes-Barre RailRiders to host Syracuse in showdown series",
       "title_distilled": "Scranton/Wilkes-Barre RailRiders to host Syracuse in showdown series.",
       "description": "Yankees, Mets Triple-A affiliates to battle for first place.",
@@ -879,11 +987,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects-statistics-game-recaps/161757/yankees-scranton-wilkes-barre-railriders-syracuse-mets-series-first-place",
       "urlToImage": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2025/08/gettyimages-2201515672.jpg?quality=90&strip=all&crop=0%2C10.736518996201%2C100%2C78.526962007598&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC",
       "title_distilled": "HS FOOTBALL: Observations from a 10-day tour around the camps of the LFC.",
       "description": "Football is challenging. It is physically and mentally exhausting. It is intense and competitive. It is a clash of wills and a battle of endurance. After 10 days of touring Northeastern Pennsylvania and visiting preseason camps, I had several key takeaways, b\u2026",
@@ -928,11 +1036,11 @@
       "url": "https://www.thetimes-tribune.com/2025/08/16/hs-football-observations-from-a-10-day-tour-around-the-camps-of-the-lfc/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
       "title": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation",
       "title_distilled": "Insulation Expert Mike Mancuso Explains How to Lower Your Energy Bill Through Proper Installation in HelloNation.",
       "description": "SCRANTON, Pa., Aug. 15, 2025 (GLOBE NEWSWIRE) -- How does insulation lower your energy bill? According to HelloNation , the answer is rooted in how heat moves and how insulation slows that process....",
@@ -1051,11 +1159,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/08/15/3134129/0/en/Insulation-Expert-Mike-Mancuso-Explains-How-to-Lower-Your-Energy-Bill-Through-Proper-Installation-in-HelloNation.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "Pennsylvania Democrat Paige Cognetti joins 2026 race for Congress",
       "title_distilled": "Pennsylvania Democrat Paige Cognetti joins 2026 race for Congress.",
       "description": "Democrats need three seats to flip control of the House and party leaders say the road to the majority likely goes through Pennsylvania. Paige Cognetti is the latest candidate to announce a bid.",
@@ -1122,205 +1230,29 @@
       "url": "https://www.wtae.com/article/pennsylvania-congress-house-cognetti-brooks-bresnahan-mackenzie/65952596",
       "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/cognetti-3-68b6ff0681da6.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Births, September 7, 2025",
-      "title_distilled": "Births, September 7, 2025.",
-      "description": "MOSES TAYLOR CARDEN: A son, Aug. 24, to Thomas III and Sarah Sherman Carden, Scranton. DUFFY: A son, Aug. 27, to Michael Duffy and Samantha Monteforte, Olyphant. GIERUBKI: A son, Aug. 25, to Christopher Gierubki and DanaMarie Gallagher, Scranton. LIPKO: A son, Aug. 18, to Edward Lipko and Courtney Ross, Factoryville. LONG: A son, Aug. 27, to David and Amanda Long, Shavertown. MACDONALD: A son, Aug. 24, to William and Sarah Nealon MacDonald, Pleasant Mount. MILLER: A daughter, Aug. 25, to Keith and Breanna Santarsiero Miller, Clarks Summit. PASQUALICHIO: A daughter, Aug. 28, to Nicholas and Stephanie Naro Pasqualichio, Dalton. [&#8230;]",
-      "description_distilled": "",
-      "content": "MOSES TAYLOR CARDEN: A son, Aug. 24, to Thomas III and Sarah Sherman Carden, Scranton. DUFFY: A son, Aug. 27, to Michael Duffy and Samantha Monteforte, Olyphant. GIERUBKI: A son, Aug. 25, to Christopher Gierubki and DanaMarie Gallagher, Scranton. LIPKO: A son, Aug. 18, to Edward Lipko and Courtney Ross, Factoryville. LONG: A son, Aug. 27, to David and Amanda Long, Shavertown. MACDONALD: A son, Aug. 24, to William and Sarah Nealon MacDonald, Pleasant Mount. MILLER: A daughter, Aug. 25, to Keith and Breanna Santarsiero Miller, Clarks Summit. PASQUALICHIO: A daughter, Aug. 28, to Nicholas and Stephanie Naro Pasqualichio, Dalton. [&#8230;]",
-      "content_distilled": "MOSES TAYLOR CARDEN: A son, Aug.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Sarah Sherman",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sarah-sherman.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Michael Duffy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/michael-duffy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Samantha Monteforte",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/samantha-monteforte.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Christopher Gierubki",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/christopher-gierubki.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Edward Lipko",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/edward-lipko.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Courtney Ross",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/courtney-ross.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Amanda Long",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/amanda-long.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sarah Nealon",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sarah-nealon.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pleasant Mount",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pleasant-mount.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Breanna Santarsiero",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/breanna-santarsiero.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sarah Sh</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Michael </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Samantha</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christop</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Edward L</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Courtney</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Sarah Sherman": "../entities/people/sarah-sherman.md",
-          "Michael Duffy": "../entities/people/michael-duffy.md",
-          "Samantha Monteforte": "../entities/people/samantha-monteforte.md",
-          "Christopher Gierubki": "../entities/people/christopher-gierubki.md",
-          "Edward Lipko": "../entities/people/edward-lipko.md",
-          "Courtney Ross": "../entities/people/courtney-ross.md",
-          "Amanda Long": "../entities/people/amanda-long.md",
-          "Sarah Nealon": "../entities/people/sarah-nealon.md",
-          "Pleasant Mount": "../entities/people/pleasant-mount.md",
-          "Breanna Santarsiero": "../entities/people/breanna-santarsiero.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-09-07T04:00:58",
-      "url": "https://www.thetimes-tribune.com/2025/09/07/births-september-7-2025/",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "Scranton UNICO expands with nine new members",
-      "title_distilled": "Scranton UNICO expands with nine new members.",
-      "description": "The Scranton Chapter of UNICO National added nine new members to its rolls recently during a monthly meeting at Carmella\u2019s, Dunmore. Standing, back row, from left, Jim Peters and Dom Peters, new members; Ann Genett, membership director; Beth Caucci, new member; Chris DiMattio, past national president and installing officer; John DeStefano, new member; Eva Tomassoni, new member; Dave Tomassoni, new member; Mike Rescigno, sponsor; and George Franceschelli, new member; middle row, Diane Calabro, sponsor; Ann Farias, sponsor; and Helene Tinsley, new member. Seated: Kevin X. McDonough, new member; Karen Clifford, sponsor; Carol Chisdak, sponsor; Ann Trevisan, new member; and Mike [&#8230;]",
+      "title": "HS FOOTBALL NOTEBOOK: Dunmore defense has dominated in the early season",
+      "title_distilled": "HS FOOTBALL NOTEBOOK: Dunmore defense has dominated in the early season.",
+      "description": "Football has an adage attributed to legendary Alabama coach Paul \u201cBear\u201d Bryant that states, \u201cOffense sells tickets, defense wins championships.\u201d So far this season, Dunmore has taken that to heart. Dunmore had high expectations heading into the season because of a wealth of experience returning on the defensive side of the ball after reaching the District 2 Class 2A final in 2024. That group has allowed the Bucks to get off to a 2-1 start with three straight impressive performances. In Week 3, Dunmore posted a shutout in a 50-0 win over Susquehanna. The Bucks limited Susquehanna to 86 total [&#8230;]",
       "description_distilled": "",
-      "content": "The Scranton Chapter of UNICO National added nine new members to its rolls recently during a monthly meeting at Carmella\u2019s, Dunmore. Standing, back row, from left, Jim Peters and Dom Peters, new members; Ann Genett, membership director; Beth Caucci, new member; Chris DiMattio, past national president and installing officer; John DeStefano, new member; Eva Tomassoni, new member; Dave Tomassoni, new member; Mike Rescigno, sponsor; and George Franceschelli, new member; middle row, Diane Calabro, sponsor; Ann Farias, sponsor; and Helene Tinsley, new member. Seated: Kevin X. McDonough, new member; Karen Clifford, sponsor; Carol Chisdak, sponsor; Ann Trevisan, new member; and Mike [&#8230;]",
-      "content_distilled": "Scranton Chapter of UNICO National added nine new members to its rolls recently during a monthly meeting at Carmella\u2019s, Dunmore.",
+      "content": "Football has an adage attributed to legendary Alabama coach Paul \u201cBear\u201d Bryant that states, \u201cOffense sells tickets, defense wins championships.\u201d So far this season, Dunmore has taken that to heart. Dunmore had high expectations heading into the season because of a wealth of experience returning on the defensive side of the ball after reaching the District 2 Class 2A final in 2024. That group has allowed the Bucks to get off to a 2-1 start with three straight impressive performances. In Week 3, Dunmore posted a shutout in a 50-0 win over Susquehanna. The Bucks limited Susquehanna to 86 total [&#8230;]",
+      "content_distilled": "Football has an adage attributed to legendary Alabama coach Paul \u201cBear\u201d Bryant that states, \u201cOffense sells tickets, defense wins championships.",
       "graph": {
         "entities": [
           {
-            "name": "The Scranton",
+            "name": "The Bucks",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jim Peters",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jim-peters.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dom Peters",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dom-peters.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ann Genett",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ann-genett.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Beth Caucci",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/beth-caucci.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Eva Tomassoni",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/eva-tomassoni.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dave Tomassoni",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dave-tomassoni.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mike Rescigno",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mike-rescigno.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "George Franceschelli",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/george-franceschelli.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Diane Calabro",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/diane-calabro.md",
+            "file_path": "../entities/people/the-bucks.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jim Pete</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dom Pete</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ann Gene</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Beth Cau</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eva Toma</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Buck</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1331,22 +1263,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Scranton": "../entities/people/the-scranton.md",
-          "Jim Peters": "../entities/people/jim-peters.md",
-          "Dom Peters": "../entities/people/dom-peters.md",
-          "Ann Genett": "../entities/people/ann-genett.md",
-          "Beth Caucci": "../entities/people/beth-caucci.md",
-          "Eva Tomassoni": "../entities/people/eva-tomassoni.md",
-          "Dave Tomassoni": "../entities/people/dave-tomassoni.md",
-          "Mike Rescigno": "../entities/people/mike-rescigno.md",
-          "George Franceschelli": "../entities/people/george-franceschelli.md",
-          "Diane Calabro": "../entities/people/diane-calabro.md"
+          "The Bucks": "../entities/people/the-bucks.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-09-07T04:00:51",
-      "url": "https://www.thetimes-tribune.com/2025/09/07/scranton-unico-expands-with-nine-new-members/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/09/STT-L-A2PIC1-0907.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-09-08T04:00:38",
+      "url": "https://www.thetimes-tribune.com/2025/09/08/hs-football-notebook-dunmore-defense-has-dominated-in-the-early-season/",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
