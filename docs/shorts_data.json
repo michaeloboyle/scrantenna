@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-09-18T11:04:35.613865",
-  "source_file": "../data/daily/scranton_news_2025-09-18.json",
+  "generated_at": "2025-09-19T11:04:18.361599",
+  "source_file": "../data/daily/scranton_news_2025-09-19.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -940,6 +940,85 @@
     },
     {
       "id": "short_9",
+      "title": "Travel agent pleads guilty to deceiving vacationers; 10 cases are from Luzerne County",
+      "title_distilled": "Travel agent pleads guilty to deceiving vacationers; 10 cases are from Luzerne County.",
+      "description": "Sep. 17\u2014SCRANTON \u2014 Court clerks who staffed the courtroom of Lackawanna County Judge Michael J. Barrasse definitely earned their pay on Monday. Eileen Marie ...",
+      "description_distilled": "",
+      "content": "Sep. 17\u2014SCRANTON \u2014 Court clerks who staffed the courtroom of Lackawanna County Judge Michael J. Barrasse definitely earned their pay on Monday. Eileen Marie ...",
+      "content_distilled": "Sep.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Judge Michael",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/judge-michael.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Eileen Marie",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/eileen-marie.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Michael",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/michael.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Judge Michael",
+            "to": "Michael",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Judge Mi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eileen M</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Michael</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Judge Michael": "../entities/people/judge-michael.md",
+          "Eileen Marie": "../entities/people/eileen-marie.md",
+          "Michael": "../entities/people/michael.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wilkes Barre Times-Leader",
+      "publishedAt": "2025-09-17T19:21:00Z",
+      "url": "https://www.timesleader.com/news/1717148/travel-agent-pleads-guilty-to-deceiving-vacationers-10-cases-from-luzerne-county",
+      "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
       "title": "Details on deadly Casey Highway crash, victim identified",
       "title_distilled": "Details on deadly Casey Highway crash, victim identified.",
       "description": "CARBONDALE TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 State police released details on a rollover crash on the Casey Highway that killed a driver. On September 4,...",
@@ -1000,11 +1079,90 @@
       "url": "https://www.2822news.com/news/details-on-deadly-casey-highway-crash-victim-identified/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/dbbea8cd7dd75b2b5fd18a35179e8c9d",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
+      "title": "Fidelity D & D Bancorp, Inc. Announces Retirement of Director Richard Hotchkiss",
+      "title_distilled": "Fidelity D & D Bancorp, Inc.",
+      "description": "DUNMORE, Pa., Sept. 17, 2025 (GLOBE NEWSWIRE) -- Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC) (\u201cFidelity Bank\u201d), the parent bank holding company of The Fidelity Deposit and Discount Bank (\u201cFidelity Bank\u201d), a Pennsylvania state-chartered, FDIC-insured community\u2026",
+      "description_distilled": "",
+      "content": "DUNMORE, Pa., Sept. 17, 2025 (GLOBE NEWSWIRE) -- Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC) (\u201cFidelity Bank\u201d), the parent bank holding company of The Fidelity Deposit and Discount Bank (\u201cFidelity Bank\u201d), a Pennsylvania state-chartered, FDIC-insured community\u2026",
+      "content_distilled": "DUNMORE, Pa.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Director Richard",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/director-richard.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fidelity Bank",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fidelity-bank.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Fidelity",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-fidelity.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Discount Bank",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/discount-bank.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Discount Bank",
+            "to": "The Fidelity",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Director</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fidelity</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Fide</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Discount</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Director Richard": "../entities/people/director-richard.md",
+          "Fidelity Bank": "../entities/people/fidelity-bank.md",
+          "The Fidelity": "../entities/people/the-fidelity.md",
+          "Discount Bank": "../entities/people/discount-bank.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "GlobeNewswire",
+      "publishedAt": "2025-09-17T20:07:00Z",
+      "url": "https://www.globenewswire.com/news-release/2025/09/17/3152012/0/en/Fidelity-D-D-Bancorp-Inc-Announces-Retirement-of-Director-Richard-Hotchkiss.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/7ff21eea-ee6d-46fb-9f2f-dd5e1bf9f1e3",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
       "title": "Jose Rojas having MVP-caliber season for RailRiders",
       "title_distilled": "Jose Rojas having MVP-caliber season for RailRiders.",
       "description": "Versatile veteran has produced in the clutch all season",
@@ -1041,11 +1199,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects-statistics-game-recaps/164318/yankees-aaa-jose-rojas-scranton-wilkes-barre-railriders-mvp-international-league",
       "urlToImage": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2025/09/gettyimages-2228213099.jpg?quality=90&strip=all&crop=0%2C0.28817639213855%2C100%2C78.534031413613&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_13",
       "title": "RailRiders get back on track in opener in Worcester",
       "title_distilled": "RailRiders get back on track in opener in Worcester.",
       "description": "Yankees\u2019 Triple-A affiliate had dropped final two games of series with Syracuse over the weekend",
@@ -1082,11 +1240,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects-statistics-game-recaps/162687/yankees-scranton-wilkes-barre-railriders-worcester-red-sox",
       "urlToImage": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2025/08/gettyimages-2228213136.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_14",
       "title": "Scranton/Wilkes-Barre RailRiders to host Syracuse in showdown series",
       "title_distilled": "Scranton/Wilkes-Barre RailRiders to host Syracuse in showdown series.",
       "description": "Yankees, Mets Triple-A affiliates to battle for first place.",
@@ -1130,199 +1288,6 @@
       "publishedAt": "2025-08-26T20:00:00Z",
       "url": "https://www.pinstripealley.com/yankees-prospects-statistics-game-recaps/161757/yankees-scranton-wilkes-barre-railriders-syracuse-mets-series-first-place",
       "urlToImage": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2025/08/gettyimages-2201515672.jpg?quality=90&strip=all&crop=0%2C10.736518996201%2C100%2C78.526962007598&w=1200",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Pennsylvania Democrat Paige Cognetti joins 2026 race for Congress",
-      "title_distilled": "Pennsylvania Democrat Paige Cognetti joins 2026 race for Congress.",
-      "description": "Democrats need three seats to flip control of the House and party leaders say the road to the majority likely goes through Pennsylvania. Paige Cognetti is the latest candidate to announce a bid.",
-      "description_distilled": "",
-      "content": "Democrats need three seats to flip control of the House and party leaders say the road to the majority likely goes through Pennsylvania. Paige Cognetti is the latest candidate to announce a bid.",
-      "content_distilled": "Democrats need three seats to flip control of the House and party leaders say the road to the majority likely goes through Pennsylvania.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Pennsylvania Democrat",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-democrat.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Paige Cognetti",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Congress Democrats",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/congress-democrats.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Pennsylvania Democrat",
-            "to": "Pennsylvania",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Pennsylvania Democrat": "../entities/people/pennsylvania-democrat.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
-          "Congress Democrats": "../entities/people/congress-democrats.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "WTAE Pittsburgh",
-      "publishedAt": "2025-09-02T14:55:48Z",
-      "url": "https://www.wtae.com/article/pennsylvania-congress-house-cognetti-brooks-bresnahan-mackenzie/65952596",
-      "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/cognetti-3-68b6ff0681da6.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "HS ROUNDUP: Western Wayne rolls past Dunmore",
-      "title_distilled": "HS ROUNDUP: Western Wayne rolls past Dunmore.",
-      "description": "Makenzie Chearney and Khloe Mistishin each had three goals, while Maci Lazorchak added two goals as Western Wayne defeated Dunmore, 8-1, in a Lackawanna League Division II girls soccer matchup Wednesday at Dunmore. Irelyn Gilhooley had the Lady Bucks&#8217; goal off an assist from Paige Ancherani. First: WW &#8211; Lazorchak, 13:00. WW &#8211; Chearney, 14:00. DUN &#8211; Gilhooley (Ancherani), 15:00. WW &#8211; Chearney, 22:00. WW &#8211; Lazorchak, 35:00. WW &#8211; Mistishin, 37:00. WW &#8211; Mistishin, 37:00; Second: WW &#8211; Mistishin, 50:00. WW &#8211; Chearney, 73:00; Corners: WW 6, DUN 1; Saves: WW 4, DUN 18; Records: WW (5-1, 4-0), DUN [&#8230;]",
-      "description_distilled": "",
-      "content": "Makenzie Chearney and Khloe Mistishin each had three goals, while Maci Lazorchak added two goals as Western Wayne defeated Dunmore, 8-1, in a Lackawanna League Division II girls soccer matchup Wednesday at Dunmore. Irelyn Gilhooley had the Lady Bucks&#8217; goal off an assist from Paige Ancherani. First: WW &#8211; Lazorchak, 13:00. WW &#8211; Chearney, 14:00. DUN &#8211; Gilhooley (Ancherani), 15:00. WW &#8211; Chearney, 22:00. WW &#8211; Lazorchak, 35:00. WW &#8211; Mistishin, 37:00. WW &#8211; Mistishin, 37:00; Second: WW &#8211; Mistishin, 50:00. WW &#8211; Chearney, 73:00; Corners: WW 6, DUN 1; Saves: WW 4, DUN 18; Records: WW (5-1, 4-0), DUN [&#8230;]",
-      "content_distilled": "Makenzie Chearney and Khloe Mistishin each had three goals, while Maci Lazorchak added two goals as Western Wayne defeated Dunmore, 8-1, in a Lackawanna League Division II girls soccer matchup Wednesday at Dunmore.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Western Wayne",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/western-wayne.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dunmore Makenzie",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dunmore-makenzie.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Khloe Mistishin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/khloe-mistishin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Maci Lazorchak",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/maci-lazorchak.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna League",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-league.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Irelyn Gilhooley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/irelyn-gilhooley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lady Bucks",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lady-bucks.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Paige Ancherani",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/paige-ancherani.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Western Wayne",
-            "to": "Lackawanna League",
-            "type": "DEFEATED",
-            "verb": "defeated"
-          },
-          {
-            "from": "Dunmore Makenzie",
-            "to": "Lackawanna League",
-            "type": "DEFEATED",
-            "verb": "defeated"
-          },
-          {
-            "from": "Khloe Mistishin",
-            "to": "Lackawanna League",
-            "type": "DEFEATED",
-            "verb": "defeated"
-          },
-          {
-            "from": "Maci Lazorchak",
-            "to": "Lackawanna League",
-            "type": "DEFEATED",
-            "verb": "defeated"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Western </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Khloe Mi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Maci Laz</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Irelyn G</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Western Wayne": "../entities/people/western-wayne.md",
-          "Dunmore Makenzie": "../entities/people/dunmore-makenzie.md",
-          "Khloe Mistishin": "../entities/people/khloe-mistishin.md",
-          "Maci Lazorchak": "../entities/people/maci-lazorchak.md",
-          "Lackawanna League": "../entities/people/lackawanna-league.md",
-          "Irelyn Gilhooley": "../entities/people/irelyn-gilhooley.md",
-          "Lady Bucks": "../entities/people/lady-bucks.md",
-          "Paige Ancherani": "../entities/people/paige-ancherani.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-09-18T04:32:47",
-      "url": "https://www.thetimes-tribune.com/2025/09/18/hs-roundup-western-wayne-rolls-past-dunmore/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/09/STT-L-WWDUN-0917-04.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
