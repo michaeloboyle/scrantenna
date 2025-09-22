@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-09-21T11:04:30.750864",
-  "source_file": "../data/daily/scranton_news_2025-09-21.json",
+  "generated_at": "2025-09-22T11:05:40.550575",
+  "source_file": "../data/daily/scranton_news_2025-09-22.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1178,38 +1178,93 @@
     },
     {
       "id": "short_14",
-      "title": "Gracie Jane Sinclair and other artists honored at Steamtown Music Awards",
-      "title_distilled": "Gracie Jane Sinclair and other artists honored at Steamtown Music Awards.",
-      "description": "The awards include winners and People's Choice honorees in more than 30 categories",
+      "title": "Outreach Volunteer Appreciation Breakfast",
+      "title_distilled": "Outreach Volunteer Appreciation Breakfast.",
+      "description": "April was National Volunteer Month, a time to celebrate and honor those who give back to their community. To show this appreciation, Outreach\u2013Center for Community Resources hosted a Volunteer Appreciation Breakfast at the Seventh Avenue Center in Scranton. The breakfast invited those who give their valuable time and resources to the organization throughout the year to come together and be honored for their efforts. Outreach\u2013Center for Community Resources has served individuals and families in Northeast Pennsylvania since 1988. From left: Bill Burnell, volunteer GED instructor, and Nikki Price, Outreach program director.",
       "description_distilled": "",
-      "content": "The awards include winners and People's Choice honorees in more than 30 categories",
-      "content_distilled": "awards include winners and People's Choice honorees in more than 30 categories.",
+      "content": "April was National Volunteer Month, a time to celebrate and honor those who give back to their community. To show this appreciation, Outreach\u2013Center for Community Resources hosted a Volunteer Appreciation Breakfast at the Seventh Avenue Center in Scranton. The breakfast invited those who give their valuable time and resources to the organization throughout the year to come together and be honored for their efforts. Outreach\u2013Center for Community Resources has served individuals and families in Northeast Pennsylvania since 1988. From left: Bill Burnell, volunteer GED instructor, and Nikki Price, Outreach program director.",
+      "content_distilled": "April was National Volunteer Month, a time to celebrate and honor those who give back to their community.",
       "graph": {
         "entities": [
           {
-            "name": "Gracie Jane",
+            "name": "Outreach Volunteer",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/gracie-jane.md",
+            "file_path": "../entities/people/outreach-volunteer.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Steamtown Music",
+            "name": "Appreciation Breakfast",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/steamtown-music.md",
+            "file_path": "../entities/people/appreciation-breakfast.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Awards The",
+            "name": "National Volunteer",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/awards-the.md",
+            "file_path": "../entities/people/national-volunteer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Community Resources",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/community-resources.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Volunteer Appreciation",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/volunteer-appreciation.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Seventh Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/seventh-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeast Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeast-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Bill Burnell",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bill-burnell.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nikki Price",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nikki-price.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gracie J</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Awards T</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Volunteer Appreciation",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Outreach</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Apprecia</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Voluntee</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Seventh </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1220,15 +1275,22 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Gracie Jane": "../entities/people/gracie-jane.md",
-          "Steamtown Music": "../entities/people/steamtown-music.md",
-          "Awards The": "../entities/people/awards-the.md"
+          "Outreach Volunteer": "../entities/people/outreach-volunteer.md",
+          "Appreciation Breakfast": "../entities/people/appreciation-breakfast.md",
+          "National Volunteer": "../entities/people/national-volunteer.md",
+          "Community Resources": "../entities/people/community-resources.md",
+          "Volunteer Appreciation": "../entities/people/volunteer-appreciation.md",
+          "Seventh Avenue": "../entities/people/seventh-avenue.md",
+          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
+          "Bill Burnell": "../entities/people/bill-burnell.md",
+          "Nikki Price": "../entities/people/nikki-price.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-09-21T04:00:34",
-      "url": "https://www.thetimes-tribune.com/2025/09/21/gracie-jane-sinclair-and-other-artists-honored-at-steamtown-music-awards/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/09/STT-L-AWARDS-0921-01.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-09-22T04:00:51",
+      "url": "https://www.thetimes-tribune.com/2025/09/22/outreach-volunteer-appreciation-breakfast-2/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/09/STT-L-A2PIC2-0922.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
