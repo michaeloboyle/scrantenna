@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-09-23T11:06:04.147193",
-  "source_file": "../data/daily/scranton_news_2025-09-23.json",
+  "generated_at": "2025-09-24T11:04:47.356001",
+  "source_file": "../data/daily/scranton_news_2025-09-24.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1178,19 +1178,61 @@
     },
     {
       "id": "short_14",
-      "title": "Lackawanna County Court Notes, September 23, 2025",
-      "title_distilled": "Lackawanna County Court Notes, September 23, 2025.",
-      "description": "Check out the latest marriage licenses, property transactions, divorces sought and estates filed in Lackawanna County.",
+      "title": "Actors Circle presenting Clive Barker\u2019s \u2018Subtle Bodies\u2019",
+      "title_distilled": "Actors Circle presenting Clive Barker\u2019s \u2018Subtle Bodies\u2019.",
+      "description": "This fall, Actors Circle is heading into spooky season with the Pennsylvania premiere of Clive Barker\u2019s \u201cSubtle Bodies,\u201d directed by Justin John Costello. This will be presented Oct. 2-5 and Oct. 10-12, at Providence Playhouse, 1256 Providence Road in Scranton. Show times are Thursday, Fridays and Saturdays at 7 p.m., and Sundays at 2 p.m. Tickets are $15/general, $12/seniors and $10/students. Oct. 2, all tickets are $10. Pay cash at the door or buy online at actorscircle.com. Reservations, call 570-342-9707. For mature audiences only. Presented in part through a grant from Lackawanna County Arts and Culture. Front row, from left: [&#8230;]",
       "description_distilled": "",
-      "content": "Check out the latest marriage licenses, property transactions, divorces sought and estates filed in Lackawanna County.",
-      "content_distilled": "Check out the latest marriage licenses, property transactions, divorces sought and estates filed in Lackawanna County.",
+      "content": "This fall, Actors Circle is heading into spooky season with the Pennsylvania premiere of Clive Barker\u2019s \u201cSubtle Bodies,\u201d directed by Justin John Costello. This will be presented Oct. 2-5 and Oct. 10-12, at Providence Playhouse, 1256 Providence Road in Scranton. Show times are Thursday, Fridays and Saturdays at 7 p.m., and Sundays at 2 p.m. Tickets are $15/general, $12/seniors and $10/students. Oct. 2, all tickets are $10. Pay cash at the door or buy online at actorscircle.com. Reservations, call 570-342-9707. For mature audiences only. Presented in part through a grant from Lackawanna County Arts and Culture. Front row, from left: [&#8230;]",
+      "content_distilled": "This fall, Actors Circle is heading into spooky season with the Pennsylvania premiere of Clive Barker\u2019s \u201cSubtle Bodies,\u201d directed by Justin John Costello.",
       "graph": {
         "entities": [
           {
-            "name": "Court Notes",
+            "name": "Actors Circle",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/court-notes.md",
+            "file_path": "../entities/people/actors-circle.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Clive Barker",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/clive-barker.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Subtle Bodies",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/subtle-bodies.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Justin John",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/justin-john.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Providence Playhouse",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/providence-playhouse.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1199,10 +1241,43 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Providence Road",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/providence-road.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Actors Circle",
+            "to": "Clive Barker",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Providence Road",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Providence Road",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Actors C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clive Ba</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Subtle B</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Justin J</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Providen</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1213,14 +1288,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Court Notes": "../entities/people/court-notes.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Actors Circle": "../entities/people/actors-circle.md",
+          "Clive Barker": "../entities/people/clive-barker.md",
+          "Subtle Bodies": "../entities/people/subtle-bodies.md",
+          "Justin John": "../entities/people/justin-john.md",
+          "Providence Playhouse": "../entities/people/providence-playhouse.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "Providence Road": "../entities/locations/providence-road.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-09-23T04:00:45",
-      "url": "https://www.thetimes-tribune.com/2025/09/23/lackawanna-county-court-notes-september-23-2025/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2024/10/STT-L-COURT-01-1.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-09-24T04:00:54",
+      "url": "https://www.thetimes-tribune.com/2025/09/24/actors-circle-presenting-clive-barkers-subtle-bodies/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/09/STT-L-A2PIC1-0924.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
