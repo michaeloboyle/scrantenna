@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-10-27T11:05:25.431942",
-  "source_file": "../data/daily/scranton_news_2025-10-27.json",
+  "generated_at": "2025-10-28T11:05:05.926625",
+  "source_file": "../data/daily/scranton_news_2025-10-28.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -760,24 +760,93 @@
     },
     {
       "id": "short_9",
-      "title": "Archbald to gather second round of community input for mine relics",
-      "title_distilled": "Archbald to gather second round of community input for mine relics.",
-      "description": "Work to modernize a century-old oil storage building is underway as a nonprofit group seeks community input on how to repurpose mining relics at the former Gravity Slope Colliery.",
+      "title": "ATHLETE OF THE WEEK: Cole Powell, Scranton Prep golf",
+      "title_distilled": "ATHLETE OF THE WEEK: Cole Powell, Scranton Prep golf.",
+      "description": "The sophomore shot 7-under-par 137 over two days on the Penn State University White Course to capture the Class 2A individual title at the PIAA Golf Championships. Powell shot a 4-under 68 in the first round and a 3-under 69 in the second round. Then, he carded a 2-under 70 to help the Cavaliers repeat as Class 2A team champs with a state-record score of 6-under 282. Family: Father, Will; mother, Pam; sister, Tiff Coach: Christi Dorece Going into the tournament, did you feel like you potentially could win: A couple weeks before the tournament, I went to my golf [&#8230;]",
       "description_distilled": "",
-      "content": "Work to modernize a century-old oil storage building is underway as a nonprofit group seeks community input on how to repurpose mining relics at the former Gravity Slope Colliery.",
-      "content_distilled": "Work to modernize a century-old oil storage building is underway as a nonprofit group seeks community input on how to repurpose mining relics at the former Gravity Slope Colliery.",
+      "content": "The sophomore shot 7-under-par 137 over two days on the Penn State University White Course to capture the Class 2A individual title at the PIAA Golf Championships. Powell shot a 4-under 68 in the first round and a 3-under 69 in the second round. Then, he carded a 2-under 70 to help the Cavaliers repeat as Class 2A team champs with a state-record score of 6-under 282. Family: Father, Will; mother, Pam; sister, Tiff Coach: Christi Dorece Going into the tournament, did you feel like you potentially could win: A couple weeks before the tournament, I went to my golf [&#8230;]",
+      "content_distilled": "sophomore shot 7-under-par 137 over two days on the Penn State University White Course to capture the Class 2A individual title at the PIAA Golf Championships.",
       "graph": {
         "entities": [
           {
-            "name": "Gravity Slope",
+            "name": "Cole Powell",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/gravity-slope.md",
+            "file_path": "../entities/people/cole-powell.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Prep",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-prep.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Penn State",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/penn-state.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "University White",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/university-white.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Golf Championships",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/golf-championships.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tiff Coach",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/tiff-coach.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Christi Dorece",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/christi-dorece.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Penn State University",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/penn-state-university.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Christi Dorece Going into the tournament",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/christi-dorece-going-into-the-tournament.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gravity </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Penn State University",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cole Pow</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Penn Sta</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Universi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Golf Cha</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tiff Coa</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -788,44 +857,115 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Gravity Slope": "../entities/people/gravity-slope.md"
+          "Cole Powell": "../entities/people/cole-powell.md",
+          "Scranton Prep": "../entities/people/scranton-prep.md",
+          "Penn State": "../entities/people/penn-state.md",
+          "University White": "../entities/people/university-white.md",
+          "Golf Championships": "../entities/people/golf-championships.md",
+          "Tiff Coach": "../entities/people/tiff-coach.md",
+          "Christi Dorece": "../entities/people/christi-dorece.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Penn State University": "../entities/organizations/penn-state-university.md",
+          "Christi Dorece Going into the tournament": "../entities/events/christi-dorece-going-into-the-tournament.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-10-27T04:00:58",
-      "url": "https://www.thetimes-tribune.com/2025/10/27/archbald-to-gather-second-round-of-community-input-for-mine-relics/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/STT-L-UPDATE-2.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-10-28T04:00:16",
+      "url": "https://www.thetimes-tribune.com/2025/10/28/athlete-of-the-week-cole-powell-scranton-prep-golf/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/STT-L-POWELL-1121.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
-      "title": "All Lackawanna County judges benched from former prison doctor\u2019s lawsuit",
-      "title_distilled": "All Lackawanna County judges benched from former prison doctor\u2019s lawsuit.",
-      "description": "Lackawanna County's top judge recused all eight judges from presiding over a lawsuit brought by a former provider of inmate medical care at Lackawanna County Prison because of potential conflicts.",
+      "title": "HS FOOTBALL: North Pocono goes wire-to-wire as No. 1 team in poll",
+      "title_distilled": "HS FOOTBALL: North Pocono goes wire-to-wire as No.",
+      "description": "After 10 weeks, things ended up where they started at the top of The Times-Tribune High School Football Poll. North Pocono completed an undefeated regular season with a comeback win over Scranton Prep, 24-21, in Week 10. The Trojans are 10-0 for the first time since 1991 and confirmed their preseason ranking at No. 1, holding the position for all 11 polls of 2025. This is the final ranking of the season. During their run to the Lackawanna Football Conference Division I championship, the Trojans defeated seven District 2 playoff qualifiers. North Pocono beat three teams with winning records &#8212; [&#8230;]",
       "description_distilled": "",
-      "content": "Lackawanna County's top judge recused all eight judges from presiding over a lawsuit brought by a former provider of inmate medical care at Lackawanna County Prison because of potential conflicts.",
-      "content_distilled": "Lackawanna County's top judge recused all eight judges from presiding over a lawsuit brought by a former provider of inmate medical care at Lackawanna County Prison because of potential conflicts.",
+      "content": "After 10 weeks, things ended up where they started at the top of The Times-Tribune High School Football Poll. North Pocono completed an undefeated regular season with a comeback win over Scranton Prep, 24-21, in Week 10. The Trojans are 10-0 for the first time since 1991 and confirmed their preseason ranking at No. 1, holding the position for all 11 polls of 2025. This is the final ranking of the season. During their run to the Lackawanna Football Conference Division I championship, the Trojans defeated seven District 2 playoff qualifiers. North Pocono beat three teams with winning records &#8212; [&#8230;]",
+      "content_distilled": "After 10 weeks, things ended up where they started at the top of The Times-Tribune High School Football Poll.",
       "graph": {
         "entities": [
           {
-            "name": "All Lackawanna",
+            "name": "North Pocono",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/all-lackawanna.md",
+            "file_path": "../entities/people/north-pocono.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "The Times",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-times.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tribune High",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/tribune-high.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "School Football",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/school-football.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Prep",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-prep.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Trojans",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-trojans.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna Football",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-football.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Conference Division",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/conference-division.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tribune High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/tribune-high-school.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">All Lack</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Tribune High School",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Po</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Time</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tribune </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School F</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Troj</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -836,42 +976,36 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "All Lackawanna": "../entities/people/all-lackawanna.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "North Pocono": "../entities/people/north-pocono.md",
+          "The Times": "../entities/people/the-times.md",
+          "Tribune High": "../entities/people/tribune-high.md",
+          "School Football": "../entities/people/school-football.md",
+          "Scranton Prep": "../entities/people/scranton-prep.md",
+          "The Trojans": "../entities/people/the-trojans.md",
+          "Lackawanna Football": "../entities/people/lackawanna-football.md",
+          "Conference Division": "../entities/people/conference-division.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Tribune High School": "../entities/organizations/tribune-high-school.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-10-27T04:00:36",
-      "url": "https://www.thetimes-tribune.com/2025/10/27/all-lackawanna-county-judges-benched-from-former-prison-doctors-lawsuit/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/STT-L-COURTHOUSE-XXXX-08.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-10-28T04:00:13",
+      "url": "https://www.thetimes-tribune.com/2025/10/28/hs-football-north-pocono-goes-wire-to-wire-as-no-1-team-in-poll/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/STT-L-SPNPFOOTBALL-102425-01-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "Lackawanna County judge won't restore ex-cop's pension",
-      "title_distilled": "Lackawanna County judge won't restore ex-cop's pension.",
-      "description": "Paul Helring collected nearly $18,000 for claiming he worked extra shifts that he never actually did",
+      "title": "Lackawanna County court notes, October 28, 2025",
+      "title_distilled": "Lackawanna County court notes, October 28, 2025.",
+      "description": "Check out the latest marriage licenses, property transactions and estates filed in Lackawanna County.",
       "description_distilled": "",
-      "content": "Paul Helring collected nearly $18,000 for claiming he worked extra shifts that he never actually did",
-      "content_distilled": "Paul Helring collected nearly $18,000 for claiming he worked extra shifts that he never actually did.",
+      "content": "Check out the latest marriage licenses, property transactions and estates filed in Lackawanna County.",
+      "content_distilled": "Check out the latest marriage licenses, property transactions and estates filed in Lackawanna County.",
       "graph": {
         "entities": [
-          {
-            "name": "t restore ex-cop",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/t-restore-ex-cop.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Paul Helring",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/paul-helring.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "Lackawanna County",
             "type": "LOCATION",
@@ -880,21 +1014,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "t restore ex-cop",
-            "type": "WON",
-            "verb": "won"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Paul Helring",
-            "type": "WON",
-            "verb": "won"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">t restor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paul Hel</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WON</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WON</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -905,53 +1026,100 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "t restore ex-cop": "../entities/works/movies/t-restore-ex-cop.md",
-          "Paul Helring": "../entities/people/paul-helring.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-10-26T23:21:50",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/paul-helring-disability-pension-terrence-nealon-scranton-police-theft-revoked/523-a60049f7-c196-4882-bc8b-5006e246731f",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-10-28T04:00:09",
+      "url": "https://www.thetimes-tribune.com/2025/10/28/lackawanna-county-court-notes-october-28-2025/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2024/10/STT-L-COURT-01-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Climbers trade ropes for trash, help NEPA wilderness",
-      "title_distilled": "Climbers trade ropes for trash, help NEPA wilderness.",
-      "description": "CONYNGHAM TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 It's not every day you see a group of rock climbers trading their ropes for trash bags, but a local group is doing just that, helping Pennsylvania's wilderness for generations to come. What do rock climbing and litter have in common? For some climbers, a whole lot more than [...]",
+      "title": "Hospice receives proceeds from local fundraiser",
+      "title_distilled": "Hospice receives proceeds from local fundraiser.",
+      "description": "Sherry Cross and Ann Rish delivered a $3,756 check to the Hospice of the Sacred Heart Inpatient Unit in Dunmore in May. The check represents proceeds from the third annual Night to Remember fundraiser in memory of Tracy Gototweski. The event was held at the Back Mountain Brewery in Dallas. There were basket raffles, a 50/50 drawing, great food and drinks. From left: Ellen St. Ledger, RN; Cross; Rish; Diane Baldi, CEO of Hospice of the Sacred Heart; Lisa Kramer, Hospice of the Sacred Heart inpatient unit social worker; and Michael Catalano, director of the Hospice of the Sacred Heart [&#8230;]",
       "description_distilled": "",
-      "content": "CONYNGHAM TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 It's not every day you see a group of rock climbers trading their ropes for trash bags, but a local group is doing just that, helping Pennsylvania's wilderness for generations to come. What do rock climbing and litter have in common? For some climbers, a whole lot more than [...]",
-      "content_distilled": "CONYNGHAM TOWNSHIP, LUZERNE COUNTY  \u2014 It's not every day you see a group of rock climbers trading their ropes for trash bags, but a local group is doing just that, helping Pennsylvania's wilderness for generations to come.",
+      "content": "Sherry Cross and Ann Rish delivered a $3,756 check to the Hospice of the Sacred Heart Inpatient Unit in Dunmore in May. The check represents proceeds from the third annual Night to Remember fundraiser in memory of Tracy Gototweski. The event was held at the Back Mountain Brewery in Dallas. There were basket raffles, a 50/50 drawing, great food and drinks. From left: Ellen St. Ledger, RN; Cross; Rish; Diane Baldi, CEO of Hospice of the Sacred Heart; Lisa Kramer, Hospice of the Sacred Heart inpatient unit social worker; and Michael Catalano, director of the Hospice of the Sacred Heart [&#8230;]",
+      "content_distilled": "Sherry Cross and Ann Rish delivered a $3,756 check to the Hospice of the Sacred Heart Inpatient Unit in Dunmore in May.",
       "graph": {
         "entities": [
           {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
+            "name": "Sherry Cross",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/people/sherry-cross.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
+            "name": "Ann Rish",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
+            "file_path": "../entities/people/ann-rish.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
+            "name": "Sacred Heart",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/sacred-heart.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Inpatient Unit",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/inpatient-unit.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tracy Gototweski",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/tracy-gototweski.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Back Mountain",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/back-mountain.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Ellen St. Ledger",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ellen-st-ledger.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Diane Baldi",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/diane-baldi.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lisa Kramer",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lisa-kramer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Michael Catalano",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/michael-catalano.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sherry C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ann Rish</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sacred H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Inpatien</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tracy Go</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Back Mou</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -962,34 +1130,103 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Sherry Cross": "../entities/people/sherry-cross.md",
+          "Ann Rish": "../entities/people/ann-rish.md",
+          "Sacred Heart": "../entities/people/sacred-heart.md",
+          "Inpatient Unit": "../entities/people/inpatient-unit.md",
+          "Tracy Gototweski": "../entities/people/tracy-gototweski.md",
+          "Back Mountain": "../entities/people/back-mountain.md",
+          "Ellen St. Ledger": "../entities/people/ellen-st-ledger.md",
+          "Diane Baldi": "../entities/people/diane-baldi.md",
+          "Lisa Kramer": "../entities/people/lisa-kramer.md",
+          "Michael Catalano": "../entities/people/michael-catalano.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-10-26T22:24:05",
-      "url": "https://www.2822news.com/news/local-news/climbers-trade-ropes-for-trash-help-nepa-wilderness/",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-10-28T04:00:04",
+      "url": "https://www.thetimes-tribune.com/2025/10/28/hospice-receives-proceeds-from-local-fundraiser/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/STT-L-A2PIC1-1028.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Commissioners to hold reorganization meeting in Scranton",
-      "title_distilled": "Commissioners to hold reorganization meeting in Scranton.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A shakeup on the Lackawanna County Commissioner's Board could be just hours away. A special reorganization meeting is scheduled for Monday, and there is speculation that Democratic Commissioner Bill Gaughan will be replaced as the board chair. The meeting comes just days after Democrat Brenda Sacco was sworn in as [...]",
+      "title": "New Trick or Tease bar in Scranton delights Halloween fans with spooky cocktails",
+      "title_distilled": "New Trick or Tease bar in Scranton delights Halloween fans with spooky cocktails.",
+      "description": "Trick or Tease pop-up bar in Scranton thrills Halloween fans with spooky decor and themed drinks.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A shakeup on the Lackawanna County Commissioner's Board could be just hours away. A special reorganization meeting is scheduled for Monday, and there is speculation that Democratic Commissioner Bill Gaughan will be replaced as the board chair. The meeting comes just days after Democrat Brenda Sacco was sworn in as [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A shakeup on the Lackawanna County Commissioner's Board could be just hours away.",
+      "content": "Trick or Tease pop-up bar in Scranton thrills Halloween fans with spooky decor and themed drinks.",
+      "content_distilled": "Trick or Tease pop-up bar in Scranton thrills Halloween fans with spooky decor and themed drinks.",
       "graph": {
         "entities": [
           {
-            "name": "Democratic Commissioner",
+            "name": "New Trick",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/democratic-commissioner.md",
+            "file_path": "../entities/people/new-trick.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "New Trick",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Tric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "New Trick": "../entities/people/new-trick.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-10-28T10:54:27",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-trick-or-tease-bar-in-scranton-delights-halloween-fans-with-spooky-cocktails-lackawanna-county/523-ecfc49f7-1820-4f27-b086-cbadf20d6872",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Gaughan out as chair of Lackawanna County board of commissioners, Sacco in",
+      "title_distilled": "Gaughan out as chair of Lackawanna County board of commissioners, Sacco in.",
+      "description": "Amid Democratic Party infighting, Commissioner Bill Gaughan was ousted Monday from his leadership role on the board",
+      "description_distilled": "",
+      "content": "Amid Democratic Party infighting, Commissioner Bill Gaughan was ousted Monday from his leadership role on the board",
+      "content_distilled": "Amid Democratic Party infighting, Commissioner Bill Gaughan was ousted Monday from his leadership role on the board.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Amid Democratic",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/amid-democratic.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Commissioner Bill",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/commissioner-bill.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1000,69 +1237,26 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Democrat Brenda",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/democrat-brenda.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Democratic Commissioner",
+            "from": "Commissioner Bill",
             "to": "Bill Gaughan",
             "type": "HAS_TITLE"
           },
           {
-            "from": "Democratic Commissioner",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "from": "Bill Gaughan",
+            "to": "Commissioner Bill",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bill Gau</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Amid Dem</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commissi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bill Gau</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1073,120 +1267,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Democratic Commissioner": "../entities/people/democratic-commissioner.md",
+          "Amid Democratic": "../entities/people/amid-democratic.md",
+          "Commissioner Bill": "../entities/people/commissioner-bill.md",
           "Bill Gaughan": "../entities/people/bill-gaughan.md",
-          "Democrat Brenda": "../entities/people/democrat-brenda.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-10-26T22:27:17",
-      "url": "https://www.2822news.com/news/commissioners-to-hold-reorganization-meeting-in-scranton/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Calling numbers for Jack & Jill Bingo event at Greater Scranton YMCA",
-      "title_distilled": "Calling numbers for Jack & Jill Bingo event at Greater Scranton YMCA.",
-      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There was some Bingo with a Halloween twist on Sunday. Participants showed up at the Greater Scranton YMCA for what was billed as Jack and Jill Bingo. Some even dressed the part to play in some of the 18 bingo games offered. The event also featured food vendors, raffles, and [...]",
-      "description_distilled": "",
-      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There was some Bingo with a Halloween twist on Sunday. Participants showed up at the Greater Scranton YMCA for what was billed as Jack and Jill Bingo. Some even dressed the part to play in some of the 18 bingo games offered. The event also featured food vendors, raffles, and [...]",
-      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 There was some Bingo with a Halloween twist on Sunday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Jill Bingo",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jill-bingo.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Greater Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/greater-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Greater Scranton",
-            "to": "Jill Bingo",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jill Bin</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greater </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Jill Bingo": "../entities/people/jill-bingo.md",
-          "Greater Scranton": "../entities/people/greater-scranton.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2025-10-26T22:13:15",
-      "url": "https://www.2822news.com/news/local-news/calling-numbers-for-jack-jill-bingo-event-at-greater-scranton-ymca/",
+      "source": "Wnep",
+      "publishedAt": "2025-10-27T18:39:22",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-bill-gaughan-ousted-commissioner-brenda-sacco-reorganization/523-c366453f-6c79-44b7-a1e0-992c11b7d1c7",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
