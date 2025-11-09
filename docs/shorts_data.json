@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-11-08T11:04:15.034924",
-  "source_file": "../data/daily/scranton_news_2025-11-08.json",
+  "generated_at": "2025-11-09T11:04:14.103893",
+  "source_file": "../data/daily/scranton_news_2025-11-09.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -447,6 +447,114 @@
     },
     {
       "id": "short_6",
+      "title": "Special Event Unites Pennsylvania Colleges and Amateur Radio Station W3USR",
+      "title_distilled": "Special Event Unites Pennsylvania Colleges and Amateur Radio Station W3USR.",
+      "description": "The Murgas Amateur Radio Club is celebrating its 50th anniversary this year with a special event that includes the University of Scranton, Kings College, and amateur radio station W3USR. The station is part of the University of Scranton Physics and Engineerin\u2026",
+      "description_distilled": "",
+      "content": "The Murgas Amateur Radio Club is celebrating its 50th anniversary this year with a special event that includes the University of Scranton, Kings College, and amateur radio station W3USR. The station is part of the University of Scranton Physics and Engineerin\u2026",
+      "content_distilled": "Murgas Amateur Radio Club is celebrating its 50th anniversary this year with a special event that includes the University of Scranton, Kings College, and amateur radio station W3USR.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Special Event",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/special-event.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Unites Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/unites-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Amateur Radio",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/amateur-radio.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Murgas",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-murgas.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Kings College",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/kings-college.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Physics",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-physics.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Special Event",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Special </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Unites P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Amateur </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Murg</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kings Co</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Special Event": "../entities/people/special-event.md",
+          "Unites Pennsylvania": "../entities/people/unites-pennsylvania.md",
+          "Amateur Radio": "../entities/people/amateur-radio.md",
+          "The Murgas": "../entities/people/the-murgas.md",
+          "Kings College": "../entities/people/kings-college.md",
+          "Scranton Physics": "../entities/people/scranton-physics.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Arrl.org",
+      "publishedAt": "2025-11-07T14:39:00Z",
+      "url": "http://www.arrl.org/news/view/special-event-unites-pennsylvania-colleges-and-amateur-radio-station-w3usr",
+      "urlToImage": "http://www.arrl.org//www.arrl.org/files/image/About_ARRL/ARRL_logo_with_title.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
       "title": "Ex-College Football Player Charged After Girlfriend's Death",
       "title_distilled": "Ex-College Football Player Charged After Girlfriend's Death.",
       "description": "Julian Fleming, a former standout wide receiver who played football at both Ohio State and Penn State, has been arrested in connection with an ATV crash that killed his girlfriend, Alyssa Boyd, in northeastern Pennsylvania. Authorities say the incident occurr\u2026",
@@ -588,11 +696,11 @@
       "url": "https://www.newser.com/story/376641/ex-college-football-player-charged-after-girlfriends-death.html",
       "urlToImage": "https://img1-azrcdn.newser.com/image/1639246-12-20251010023003.jpeg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Trump\u2019s Approval Ratings Have Hit a New Low",
       "title_distilled": "Trump\u2019s Approval Ratings Have Hit a New Low.",
       "description": "Chris Lehmann And Democrats need to seize the moment\u2014for once. The post Trump\u2019s Approval Ratings Have Hit a New Low appeared first on The Nation.",
@@ -661,11 +769,11 @@
       "url": "https://www.thenation.com/article/politics/trump-approval-ratings-low/",
       "urlToImage": "https://www.thenation.com/wp-content/uploads/2025/11/GettyImages-1229422398.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Shutdown fight fuels anger and uncertainty far from Washington, D.C. (Natasha Korecki/NBC News)",
       "title_distilled": "Shutdown fight fuels anger and uncertainty far from Washington, D.",
       "description": "Natasha Korecki / NBC News: Shutdown fight fuels anger and uncertainty far from Washington, D.C. \u2014 \u201cFolks in D.C. don't understand is what it's like to live paycheck to paycheck,\u201d Scranton, Pa., Mayor Paige Cognetti said. \u2014 A government shutdown with no e\u2026",
@@ -771,139 +879,59 @@
       "url": "https://www.memeorandum.com/251017/p26",
       "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251016-kansas-city-missouri-vl-227p-f830ed.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "WBS Penguins\u2019 losing skid hits three games",
-      "title_distilled": "WBS Penguins\u2019 losing skid hits three games.",
-      "description": "ROCHESTER \u2014 A three-goal deficit was too much for the Wilkes-Barre/Scranton Penguins to make up. Rochester jumped out to a 4-1 lead after the first period, and after the the Pens knotted it at 4, scored two unanswered in the final nine minutes to pull away for the 6-4 win Friday night at Blue Cross Arena. It&#8217;s the third straight loss for the Penguins heading into Saturday&#8217;s home match with Utica at Mohegan Arena. The loss dropped WBS out of first in the Atlantic, now one point behind Providence, while still two points ahead of Lehigh Valley for second. It [&#8230;]",
-      "description_distilled": "",
-      "content": "ROCHESTER \u2014 A three-goal deficit was too much for the Wilkes-Barre/Scranton Penguins to make up. Rochester jumped out to a 4-1 lead after the first period, and after the the Pens knotted it at 4, scored two unanswered in the final nine minutes to pull away for the 6-4 win Friday night at Blue Cross Arena. It&#8217;s the third straight loss for the Penguins heading into Saturday&#8217;s home match with Utica at Mohegan Arena. The loss dropped WBS out of first in the Atlantic, now one point behind Providence, while still two points ahead of Lehigh Valley for second. It [&#8230;]",
-      "content_distilled": "ROCHESTER \u2014 A three-goal deficit was too much for the Wilkes-Barre/Scranton Penguins to make up.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Penguins",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-penguins.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Blue Cross",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/blue-cross.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mohegan Arena",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mohegan-arena.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lehigh Valley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lehigh-valley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blue Cro</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mohegan </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Penguins": "../entities/people/scranton-penguins.md",
-          "Blue Cross": "../entities/people/blue-cross.md",
-          "Mohegan Arena": "../entities/people/mohegan-arena.md",
-          "Lehigh Valley": "../entities/people/lehigh-valley.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-08T07:14:00",
-      "url": "https://www.thetimes-tribune.com/2025/11/08/wbs-penguins-losing-skid-hits-three-games/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/CVC-L-WBS-01.jpg?w=1400px&strip=all",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
-      "title": "LOCAL COLLEGES: Lady Royals open season with victory",
-      "title_distilled": "LOCAL COLLEGES: Lady Royals open season with victory.",
-      "description": "Katie Gorski scored a team-high 17 points to lead the University of Scranton women&#8217;s basketball team to a 60-35 season-opening win at SUNY-Geneseo on Friday night. Gorski also had eight rebounds, four steals and one assist for the Lady Royals, ranked No. 2 in the d3hoops.com Top 25 and No. 4 in the Women&#8217;s Basketball Coaches Association Top 25. Geneseo, which is ranked No. 22 in the d3hoops.com poll, built an 11-4 lead in the opening 6\u00bd minutes. But Scranton&#8217;s defense held the Knights to just 24 points over the game&#8217;s final 33\u00bd minutes. Holy Cross graduate Kaci Kranson added [&#8230;]",
+      "title": "LOCAL COLLEGES: Scranton women\u2019s teams claim Landmark titles",
+      "title_distilled": "LOCAL COLLEGES: Scranton women\u2019s teams claim Landmark titles.",
+      "description": "Annie Shaw scored twice in a 39-second span of the third quarter to break a scoreless tie and lead the University of Scranton past Susquehanna University, 3-0, in the Landmark Conference field hockey championship game Saturday at Weiss Field in Scranton. Shaw was named the game&#8217;s Most Valuable Player. Shana Goldsmith added one goal and one assist for the Royals (17-3), who claimed their first Landmark title since 2021 and ended Susquehanna&#8217;s two-year reign as conference champ. Scranton earns an automatic bid to the NCAA Division III tournament. The field will be announced Sunday at 9 p.m. Marywood 3, Neumann [&#8230;]",
       "description_distilled": "",
-      "content": "Katie Gorski scored a team-high 17 points to lead the University of Scranton women&#8217;s basketball team to a 60-35 season-opening win at SUNY-Geneseo on Friday night. Gorski also had eight rebounds, four steals and one assist for the Lady Royals, ranked No. 2 in the d3hoops.com Top 25 and No. 4 in the Women&#8217;s Basketball Coaches Association Top 25. Geneseo, which is ranked No. 22 in the d3hoops.com poll, built an 11-4 lead in the opening 6\u00bd minutes. But Scranton&#8217;s defense held the Knights to just 24 points over the game&#8217;s final 33\u00bd minutes. Holy Cross graduate Kaci Kranson added [&#8230;]",
-      "content_distilled": "Katie Gorski scored a team-high 17 points to lead the University of Scranton women&#8217;s basketball team to a 60-35 season-opening win at SUNY-Geneseo on Friday night.",
+      "content": "Annie Shaw scored twice in a 39-second span of the third quarter to break a scoreless tie and lead the University of Scranton past Susquehanna University, 3-0, in the Landmark Conference field hockey championship game Saturday at Weiss Field in Scranton. Shaw was named the game&#8217;s Most Valuable Player. Shana Goldsmith added one goal and one assist for the Royals (17-3), who claimed their first Landmark title since 2021 and ended Susquehanna&#8217;s two-year reign as conference champ. Scranton earns an automatic bid to the NCAA Division III tournament. The field will be announced Sunday at 9 p.m. Marywood 3, Neumann [&#8230;]",
+      "content_distilled": "Annie Shaw scored twice in a 39-second span of the third quarter to break a scoreless tie and lead the University of Scranton past Susquehanna University, 3-0, in the Landmark Conference field hockey championship game Saturday at Weiss Field in Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Lady Royals",
+            "name": "Annie Shaw",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/lady-royals.md",
+            "file_path": "../entities/people/annie-shaw.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Katie Gorski",
+            "name": "Susquehanna University",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/katie-gorski.md",
+            "file_path": "../entities/people/susquehanna-university.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Basketball Coaches",
+            "name": "Landmark Conference",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/basketball-coaches.md",
+            "file_path": "../entities/people/landmark-conference.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Association Top",
+            "name": "Weiss Field",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/association-top.md",
+            "file_path": "../entities/people/weiss-field.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "But Scranton",
+            "name": "Most Valuable",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/but-scranton.md",
+            "file_path": "../entities/people/most-valuable.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Holy Cross",
+            "name": "Shana Goldsmith",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/holy-cross.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Kaci Kranson",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/kaci-kranson.md",
+            "file_path": "../entities/people/shana-goldsmith.md",
             "resolution_method": "new_entity"
           },
           {
@@ -914,21 +942,40 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "points over the game",
+            "name": "in the Landmark Conference field hockey championship game",
             "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/events/points-over-the-game.md",
+            "file_path": "../entities/events/in-the-landmark-conference-field-hockey-championship-game.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Shaw was named the game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/shaw-was-named-the-game.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "year reign as conference",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/year-reign-as-conference.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "points over the game",
+            "from": "in the Landmark Conference field hockey championship game",
             "to": "Scranton",
-            "type": "MEMBER_OF"
+            "type": "RELATES_TO"
+          },
+          {
+            "from": "Landmark Conference",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lady Roy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Katie Go</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Basketba</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Associat</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">But Scra</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holy Cro</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annie Sh</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Susqueha</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Landmark</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Weiss Fi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Most Val</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Shana Go</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -939,45 +986,78 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lady Royals": "../entities/people/lady-royals.md",
-          "Katie Gorski": "../entities/people/katie-gorski.md",
-          "Basketball Coaches": "../entities/people/basketball-coaches.md",
-          "Association Top": "../entities/people/association-top.md",
-          "But Scranton": "../entities/people/but-scranton.md",
-          "Holy Cross": "../entities/people/holy-cross.md",
-          "Kaci Kranson": "../entities/people/kaci-kranson.md",
+          "Annie Shaw": "../entities/people/annie-shaw.md",
+          "Susquehanna University": "../entities/people/susquehanna-university.md",
+          "Landmark Conference": "../entities/people/landmark-conference.md",
+          "Weiss Field": "../entities/people/weiss-field.md",
+          "Most Valuable": "../entities/people/most-valuable.md",
+          "Shana Goldsmith": "../entities/people/shana-goldsmith.md",
           "Scranton": "../entities/locations/scranton.md",
-          "points over the game": "../entities/events/points-over-the-game.md"
+          "in the Landmark Conference field hockey championship game": "../entities/events/in-the-landmark-conference-field-hockey-championship-game.md",
+          "Shaw was named the game": "../entities/events/shaw-was-named-the-game.md",
+          "year reign as conference": "../entities/events/year-reign-as-conference.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-11-08T06:52:12",
-      "url": "https://www.thetimes-tribune.com/2025/11/08/local-colleges-lady-royals-open-season-with-victory/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/03/STT-L-UOFSWOLFSTOCK.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-11-09T05:27:26",
+      "url": "https://www.thetimes-tribune.com/2025/11/09/local-colleges-scranton-womens-teams-claim-landmark-titles/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/STT-L-UOFSLOGO-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "HS FOOTBALL: Naniewicz helps lead Lakeland past Dunmore in Class 2A final",
-      "title_distilled": "HS FOOTBALL: Naniewicz helps lead Lakeland past Dunmore in Class 2A final.",
-      "description": "SCOTT TWP. \u2014 Only one thing could dampen Lakeland winning a District 2 championship and that was the sight of David Naniewicz laying on the ground. Late in the third quarter, the senior quarterback was tackled for a 3-yard loss. He remained down for several minutes while trainers tended to him before he limped to the sideline with an ankle injury. He returned for the Chiefs&#8217; next offensive series, then sat out the rest of the way except for taking a pair of kneel-downs that finished off a 27-7 win over Dunmore in the Class 2A final on a windy [&#8230;]",
+      "title": "Chris Kelly Opinion: \u2018Blue wave\u2019 inundates Republicans and independents",
+      "title_distilled": "Chris Kelly Opinion: \u2018Blue wave\u2019 inundates Republicans and independents.",
+      "description": "As we look back on the meanest municipal election season since the last municipal election season, leave it to a late mayor of Scranton to provide a timely reminder of the essence and necessity of unselfish public service. David Wenzel died Wednesday at about the same time the University of Scranton honored him with an inaugural Public Service Award planned to coincide with the 40th anniversary of his election on Nov. 5, 1985. He was 80 at the end of a life he spent without three limbs after he was gravely wounded in Vietnam. A landmine took both legs and [&#8230;]",
       "description_distilled": "",
-      "content": "SCOTT TWP. \u2014 Only one thing could dampen Lakeland winning a District 2 championship and that was the sight of David Naniewicz laying on the ground. Late in the third quarter, the senior quarterback was tackled for a 3-yard loss. He remained down for several minutes while trainers tended to him before he limped to the sideline with an ankle injury. He returned for the Chiefs&#8217; next offensive series, then sat out the rest of the way except for taking a pair of kneel-downs that finished off a 27-7 win over Dunmore in the Class 2A final on a windy [&#8230;]",
-      "content_distilled": "SCOTT TWP.",
+      "content": "As we look back on the meanest municipal election season since the last municipal election season, leave it to a late mayor of Scranton to provide a timely reminder of the essence and necessity of unselfish public service. David Wenzel died Wednesday at about the same time the University of Scranton honored him with an inaugural Public Service Award planned to coincide with the 40th anniversary of his election on Nov. 5, 1985. He was 80 at the end of a life he spent without three limbs after he was gravely wounded in Vietnam. A landmine took both legs and [&#8230;]",
+      "content_distilled": "As we look back on the meanest municipal election season since the last municipal election season, leave it to a late mayor of Scranton to provide a timely reminder of the essence and necessity of unselfish public service.",
       "graph": {
         "entities": [
           {
-            "name": "David Naniewicz",
+            "name": "Chris Kelly",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/david-naniewicz.md",
+            "file_path": "../entities/people/chris-kelly.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "David Wenzel",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/david-wenzel.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Public Service",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/public-service.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">David Na</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "David Wenzel",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Public Service",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chris Ke</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">David We</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Public S</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -988,46 +1068,70 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "David Naniewicz": "../entities/people/david-naniewicz.md"
+          "Chris Kelly": "../entities/people/chris-kelly.md",
+          "David Wenzel": "../entities/people/david-wenzel.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Public Service": "../entities/organizations/public-service.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-11-08T05:26:50",
-      "url": "https://www.thetimes-tribune.com/2025/11/08/hs-football-naniewicz-helps-lead-lakeland-past-dunmore-in-class-2a-final/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-DUNMORELAKELAND-110725-02.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-11-09T05:11:44",
+      "url": "https://www.thetimes-tribune.com/2025/11/09/chris-kelly-opinion-blue-wave-inundates-republicans-and-independents/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-KELLY-XXXX-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "HS FOOTBALL: Scranton Prep rolls past Berwick for Class 3A championship",
-      "title_distilled": "HS FOOTBALL: Scranton Prep rolls past Berwick for Class 3A championship.",
-      "description": "BERWICK \u2014 Each year, Scranton Prep continues to set the bar higher and higher. On what began as a normal night at Crispin Field with fireworks lighting up the sky, Friday night proved to be just another night for the Cavaliers at this time of the season. Scranton Prep scored on its first four possessions, and quarterback Will McPartland had a perfect night throwing the football as the Cavaliers won their fifth consecutive District 2 Class 3A championship with a convincing 42-7 victory over Berwick. The Cavaliers (7-5) advance to the first round of the PIAA playoffs next week, where [&#8230;]",
+      "title": "Scranton Central football reunion planned",
+      "title_distilled": "Scranton Central football reunion planned.",
+      "description": "The Scranton Central football reunion will be held Saturday, Nov. 29, at 1 p.m. at Lace Works, Court Street. From left: Joe Mesko, Lou DeFazio, Jim Simrell and Kirk Kandel.",
       "description_distilled": "",
-      "content": "BERWICK \u2014 Each year, Scranton Prep continues to set the bar higher and higher. On what began as a normal night at Crispin Field with fireworks lighting up the sky, Friday night proved to be just another night for the Cavaliers at this time of the season. Scranton Prep scored on its first four possessions, and quarterback Will McPartland had a perfect night throwing the football as the Cavaliers won their fifth consecutive District 2 Class 3A championship with a convincing 42-7 victory over Berwick. The Cavaliers (7-5) advance to the first round of the PIAA playoffs next week, where [&#8230;]",
-      "content_distilled": "BERWICK \u2014 Each year, Scranton Prep continues to set the bar higher and higher.",
+      "content": "The Scranton Central football reunion will be held Saturday, Nov. 29, at 1 p.m. at Lace Works, Court Street. From left: Joe Mesko, Lou DeFazio, Jim Simrell and Kirk Kandel.",
+      "content_distilled": "Scranton Central football reunion will be held Saturday, Nov.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Prep",
+            "name": "Scranton Central",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/people/scranton-central.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Crispin Field",
+            "name": "The Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/crispin-field.md",
+            "file_path": "../entities/people/the-scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Cavaliers",
+            "name": "Lace Works",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-cavaliers.md",
+            "file_path": "../entities/people/lace-works.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joe Mesko",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joe-mesko.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jim Simrell",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jim-simrell.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Kirk Kandel",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/kirk-kandel.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1036,10 +1140,23 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Court Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/court-street.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crispin </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Cava</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Court Street",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lace Wor</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Mesk</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jim Simr</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kirk Kan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1050,190 +1167,46 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Crispin Field": "../entities/people/crispin-field.md",
-          "The Cavaliers": "../entities/people/the-cavaliers.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Scranton Central": "../entities/people/scranton-central.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Lace Works": "../entities/people/lace-works.md",
+          "Joe Mesko": "../entities/people/joe-mesko.md",
+          "Jim Simrell": "../entities/people/jim-simrell.md",
+          "Kirk Kandel": "../entities/people/kirk-kandel.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Court Street": "../entities/locations/court-street.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-11-08T05:11:11",
-      "url": "https://www.thetimes-tribune.com/2025/11/08/hs-football-scranton-prep-rolls-past-berwick-for-class-3a-championship/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/CVC-L-FOOTBALLSPVSBER-1108-17.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-11-09T05:00:49",
+      "url": "https://www.thetimes-tribune.com/2025/11/09/scranton-central-football-reunion-planned/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-A2PIC1-1109.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Lackawanna County Court Notes, November 8, 2025",
-      "title_distilled": "Lackawanna County Court Notes, November 8, 2025.",
-      "description": "MARRIAGE LICENSE Patricia Anne Kromer and Christopher Phillip Hettes, both of Moosic. PROPERTY TRANSACTIONS Marcelo Saula Guasco and Ana Luisa Palxhizarca, and Segundo Pallchisaca Guaman and Margarita Saula Guasco, to Dante B. Olivo Mateo; a property at 1402 Prospect Ave., Scranton, for $260,000. Scranton Maxwell Realty Co. to Ballabani Realty LLC; two parcels in Scranton for $400,000. Kelly Corazzi, Lackawanna County, to Isabela Camayd, Lackawanna County; a property at 109 Upper Knapp Road, Clarks Summit, for $305,000. Angel G. Rufino Collado to Jose A. Rivas; a property at 1019 Fairfield St., Scranton, for $300,000. DIVORCES SOUGHT Laurie A. Thorn, Old [&#8230;]",
+      "title": "Feeding a community at the Elm Park Church in Scranton",
+      "title_distilled": "Feeding a community at the Elm Park Church in Scranton.",
+      "description": "Amidst the chaos with the government shutdown, Elm Park Church is hosting a free community meal on the second Saturday of every month in Scranton.",
       "description_distilled": "",
-      "content": "MARRIAGE LICENSE Patricia Anne Kromer and Christopher Phillip Hettes, both of Moosic. PROPERTY TRANSACTIONS Marcelo Saula Guasco and Ana Luisa Palxhizarca, and Segundo Pallchisaca Guaman and Margarita Saula Guasco, to Dante B. Olivo Mateo; a property at 1402 Prospect Ave., Scranton, for $260,000. Scranton Maxwell Realty Co. to Ballabani Realty LLC; two parcels in Scranton for $400,000. Kelly Corazzi, Lackawanna County, to Isabela Camayd, Lackawanna County; a property at 109 Upper Knapp Road, Clarks Summit, for $305,000. Angel G. Rufino Collado to Jose A. Rivas; a property at 1019 Fairfield St., Scranton, for $300,000. DIVORCES SOUGHT Laurie A. Thorn, Old [&#8230;]",
-      "content_distilled": "MARRIAGE LICENSE Patricia Anne Kromer and Christopher Phillip Hettes, both of Moosic.",
+      "content": "Amidst the chaos with the government shutdown, Elm Park Church is hosting a free community meal on the second Saturday of every month in Scranton.",
+      "content_distilled": "Amidst the chaos with the government shutdown, Elm Park Church is hosting a free community meal on the second Saturday of every month in Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Court Notes",
+            "name": "Elm Park",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/court-notes.md",
+            "file_path": "../entities/people/elm-park.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Patricia Anne",
+            "name": "Scranton Amidst",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/patricia-anne.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Christopher Phillip",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/christopher-phillip.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Marcelo Saula",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/marcelo-saula.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ana Luisa",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ana-luisa.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Segundo Pallchisaca",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/segundo-pallchisaca.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Margarita Saula",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/margarita-saula.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Olivo Mateo",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/olivo-mateo.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Prospect Ave",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/prospect-ave.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Maxwell",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-maxwell.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Patricia</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christop</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marcelo </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ana Luis</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Segundo </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Court Notes": "../entities/people/court-notes.md",
-          "Patricia Anne": "../entities/people/patricia-anne.md",
-          "Christopher Phillip": "../entities/people/christopher-phillip.md",
-          "Marcelo Saula": "../entities/people/marcelo-saula.md",
-          "Ana Luisa": "../entities/people/ana-luisa.md",
-          "Segundo Pallchisaca": "../entities/people/segundo-pallchisaca.md",
-          "Margarita Saula": "../entities/people/margarita-saula.md",
-          "Olivo Mateo": "../entities/people/olivo-mateo.md",
-          "Prospect Ave": "../entities/people/prospect-ave.md",
-          "Scranton Maxwell": "../entities/people/scranton-maxwell.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-08T05:00:48",
-      "url": "https://www.thetimes-tribune.com/2025/11/08/lackawanna-county-court-notes-november-8-2025/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/CVC-L-STOCKCOURTCOMPUTER-01.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "String Orchestra concert at the University of Scranton",
-      "title_distilled": "String Orchestra concert at the University of Scranton.",
-      "description": "Performance Music at the University of Scranton will present a concert featuring the university&#8217;s String Orchestra at 7:30 p.m. Nov. 14 at the Houlihan-McLean Center in downtown Scranton. Among the 40-plus members in the ensemble are, from left: Rachel Kerr, a University of Scranton alumnus from Archbald; Bernadetta Paolucci, of Montrose; Andrew Mauriello, of Duryea; and Claire Choo, a senior at Lakeland High School. Admission is free. Seating is on a first-come, first-seated basis. For information, call 570-941-7624 or email music@scranton.edu.",
-      "description_distilled": "",
-      "content": "Performance Music at the University of Scranton will present a concert featuring the university&#8217;s String Orchestra at 7:30 p.m. Nov. 14 at the Houlihan-McLean Center in downtown Scranton. Among the 40-plus members in the ensemble are, from left: Rachel Kerr, a University of Scranton alumnus from Archbald; Bernadetta Paolucci, of Montrose; Andrew Mauriello, of Duryea; and Claire Choo, a senior at Lakeland High School. Admission is free. Seating is on a first-come, first-seated basis. For information, call 570-941-7624 or email music@scranton.edu.",
-      "content_distilled": "Performance Music at the University of Scranton will present a concert featuring the university&#8217;s String Orchestra at 7:30 p.",
-      "graph": {
-        "entities": [
-          {
-            "name": "String Orchestra",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/string-orchestra.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Performance",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-performance.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Rachel Kerr",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/rachel-kerr.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bernadetta Paolucci",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bernadetta-paolucci.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Andrew Mauriello",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/andrew-mauriello.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Claire Choo",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/claire-choo.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lakeland High",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lakeland-high.md",
+            "file_path": "../entities/people/scranton-amidst.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1242,28 +1215,16 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lakeland High School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/lakeland-high-school.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "String Orchestra",
+            "from": "Elm Park",
             "to": "Scranton",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Lakeland High School",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">String O</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rachel K</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bernadet</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Andrew M</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Claire C</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elm Park</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1274,21 +1235,72 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "String Orchestra": "../entities/people/string-orchestra.md",
-          "Scranton Performance": "../entities/people/scranton-performance.md",
-          "Rachel Kerr": "../entities/people/rachel-kerr.md",
-          "Bernadetta Paolucci": "../entities/people/bernadetta-paolucci.md",
-          "Andrew Mauriello": "../entities/people/andrew-mauriello.md",
-          "Claire Choo": "../entities/people/claire-choo.md",
-          "Lakeland High": "../entities/people/lakeland-high.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Lakeland High School": "../entities/organizations/lakeland-high-school.md"
+          "Elm Park": "../entities/people/elm-park.md",
+          "Scranton Amidst": "../entities/people/scranton-amidst.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-08T05:00:28",
-      "url": "https://www.thetimes-tribune.com/2025/11/08/string-orchestra-concert-at-the-university-of-scranton/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-A2PIC2-1108_f86865.jpg?w=1400px&strip=all",
+      "source": "Wnep",
+      "publishedAt": "2025-11-09T04:26:21",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/feeding-a-community-at-the-elm-park-church-in-scranton/523-8d08373f-ff58-44dd-94c5-51ed9a09ca48",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Earthlings flock to the otherworldly event that is the Carbondalien Festival",
+      "title_distilled": "Earthlings flock to the otherworldly event that is the Carbondalien Festival.",
+      "description": "The Carbondalien Festival honors a UFO sighting in Carbondale all the way back in 1974.",
+      "description_distilled": "",
+      "content": "The Carbondalien Festival honors a UFO sighting in Carbondale all the way back in 1974.",
+      "content_distilled": "Carbondalien Festival honors a UFO sighting in Carbondale all the way back in 1974.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Carbondalien Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/carbondalien-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Carbondalien",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-carbondalien.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Earthlings flock to the otherworldly event that is the Carbondalien Festival The Carbondalien Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/earthlings-flock-to-the-otherworldly-event-that-is-the-carbondalien-festival-the-carbondalien-festival.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Carb</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Earthlin</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Carbondalien Festival": "../entities/people/carbondalien-festival.md",
+          "The Carbondalien": "../entities/people/the-carbondalien.md",
+          "Earthlings flock to the otherworldly event that is the Carbondalien Festival The Carbondalien Festival": "../entities/events/earthlings-flock-to-the-otherworldly-event-that-is-the-carbondalien-festival-the-carbondalien-festival.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-11-09T04:17:22",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/earthlings-flock-otherworldly-event-that-the-carbondalien-festival-lackawanna-county-carbondale/523-d41951ea-12fb-40cb-8344-43c6a6a4e4f8",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
