@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-11-14T11:04:41.108054",
-  "source_file": "../data/daily/scranton_news_2025-11-14.json",
+  "generated_at": "2025-11-15T11:04:12.791820",
+  "source_file": "../data/daily/scranton_news_2025-11-15.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -857,26 +857,26 @@
     },
     {
       "id": "short_10",
-      "title": "Scranton opens new 'Code Blue' shelters amid shelter closure challenges",
-      "title_distilled": "Scranton opens new 'Code Blue' shelters amid shelter closure challenges.",
-      "description": "As the cold weather sets in, Scranton City Hall is announcing a new overnight space for individuals experiencing homelessness.",
+      "title": "Gas outage affecting part of West Scranton",
+      "title_distilled": "Gas outage affecting part of West Scranton.",
+      "description": "Scranton Fire and UGI were called to a gas outage in part of West Scranton. Utilities for homes and businesses will be out until 8 a.m. Saturday.",
       "description_distilled": "",
-      "content": "As the cold weather sets in, Scranton City Hall is announcing a new overnight space for individuals experiencing homelessness.",
-      "content_distilled": "As the cold weather sets in, Scranton City Hall is announcing a new overnight space for individuals experiencing homelessness.",
+      "content": "Scranton Fire and UGI were called to a gas outage in part of West Scranton. Utilities for homes and businesses will be out until 8 a.m. Saturday.",
+      "content_distilled": "Scranton Fire and UGI were called to a gas outage in part of West Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Code Blue",
-            "type": "WORK",
+            "name": "West Scranton",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/code-blue.md",
+            "file_path": "../entities/people/west-scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton City",
+            "name": "Scranton Fire",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-city.md",
+            "file_path": "../entities/people/scranton-fire.md",
             "resolution_method": "new_entity"
           },
           {
@@ -885,23 +885,10 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "City Hall",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/city-hall.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "City Hall",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Code Blu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">City Hal</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -912,15 +899,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Code Blue": "../entities/works/movies/code-blue.md",
-          "Scranton City": "../entities/people/scranton-city.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "City Hall": "../entities/locations/city-hall.md"
+          "West Scranton": "../entities/people/west-scranton.md",
+          "Scranton Fire": "../entities/people/scranton-fire.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-11-13T23:22:06",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-opens-new-code-blue-shelters-amid-shelter-closure-challenges-lackawanna-county-homeless/523-1bca911e-c8aa-463a-9615-19d6ec1115ed",
+      "publishedAt": "2025-11-15T01:07:42",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/gas-outage-affecting-part-of-west-scranton-lackawanna-county/523-1519f3b6-3fc1-455c-bd31-7f263190602e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -928,59 +914,24 @@
     },
     {
       "id": "short_11",
-      "title": "Shelters collaborating so everyone has a warm place to sleep",
-      "title_distilled": "Shelters collaborating so everyone has a warm place to sleep.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 As cold weather sets in, the city of Scranton is preparing to help protect the homeless. Local shelters are working together to make sure everyone has a warm place to sleep. 28/22 News reporter Heidi Martens has more. The city is once again opening its code blue shelter at Weston Field. [...]",
+      "title": "Lycoming County man dies in conveyor belt accident",
+      "title_distilled": "Lycoming County man dies in conveyor belt accident.",
+      "description": "Arnold Taylor died from his injuries after becoming entangled while operating a machine that crushes rocks.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 As cold weather sets in, the city of Scranton is preparing to help protect the homeless. Local shelters are working together to make sure everyone has a warm place to sleep. 28/22 News reporter Heidi Martens has more. The city is once again opening its code blue shelter at Weston Field. [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 As cold weather sets in, the city of Scranton is preparing to help protect the homeless.",
+      "content": "Arnold Taylor died from his injuries after becoming entangled while operating a machine that crushes rocks.",
+      "content_distilled": "Arnold Taylor died from his injuries after becoming entangled while operating a machine that crushes rocks.",
       "graph": {
         "entities": [
           {
-            "name": "Heidi Martens",
+            "name": "Arnold Taylor",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/heidi-martens.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Weston Field",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/weston-field.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/arnold-taylor.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heidi Ma</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Weston F</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Arnold T</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -991,17 +942,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Heidi Martens": "../entities/people/heidi-martens.md",
-          "Weston Field": "../entities/people/weston-field.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Arnold Taylor": "../entities/people/arnold-taylor.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-11-13T23:22:48",
-      "url": "https://www.2822news.com/news/shelters-collaborating-so-everyone-has-a-warm-place-to-sleep/",
+      "source": "Wnep",
+      "publishedAt": "2025-11-15T00:10:46",
+      "url": "https://www.wnep.com/article/news/local/lycoming-county/man-dies-in-conveyor-belt-accident-lycoming-county-cogan-station/523-07925227-29f6-4f93-85be-5ecbdb2f4696",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1009,63 +955,24 @@
     },
     {
       "id": "short_12",
-      "title": "Man facing charges after $40,000 fraud scheme",
-      "title_distilled": "Man facing charges after $40,000 fraud scheme.",
-      "description": "WEST PITTSTON, LUZERNE COUNTY (WBRE/WYOU)\u2014 One man is facing charges in connection with a theft of services that cost one man over $40,000 and has left him homeless. 28/22 News reporter Connor Coar has more about this case. Alan White, of Scranton, has been charged with home improvement fraud and theft by deception. White was [...]",
+      "title": "Request to pause Lackawanna County property reassessment denied",
+      "title_distilled": "Request to pause Lackawanna County property reassessment denied.",
+      "description": "Lackawanna County is in the middle of its first property tax reassessment in 60 years, but some of the county's commissioners wanted to wait just a little longer.",
       "description_distilled": "",
-      "content": "WEST PITTSTON, LUZERNE COUNTY (WBRE/WYOU)\u2014 One man is facing charges in connection with a theft of services that cost one man over $40,000 and has left him homeless. 28/22 News reporter Connor Coar has more about this case. Alan White, of Scranton, has been charged with home improvement fraud and theft by deception. White was [...]",
-      "content_distilled": "WEST PITTSTON, LUZERNE COUNTY \u2014 One man is facing charges in connection with a theft of services that cost one man over $40,000 and has left him homeless.",
+      "content": "Lackawanna County is in the middle of its first property tax reassessment in 60 years, but some of the county's commissioners wanted to wait just a little longer.",
+      "content_distilled": "Lackawanna County is in the middle of its first property tax reassessment in 60 years, but some of the county's commissioners wanted to wait just a little longer.",
       "graph": {
         "entities": [
           {
-            "name": "Connor Coar",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/connor-coar.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Alan White",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/alan-white.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Connor C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Alan Whi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1076,16 +983,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Connor Coar": "../entities/people/connor-coar.md",
-          "Alan White": "../entities/people/alan-white.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-11-13T23:15:25",
-      "url": "https://www.2822news.com/news/man-facing-charges-after-40000-fraud-scheme/",
+      "source": "Wnep",
+      "publishedAt": "2025-11-14T23:11:32",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/request-to-pause-property-reassessment-lackawanna-county/523-08398377-a834-4ced-a31d-dde1f3270fef",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1093,45 +996,24 @@
     },
     {
       "id": "short_13",
-      "title": "Residents fear 'data center alley' in NEPA",
-      "title_distilled": "Residents fear 'data center alley' in NEPA.",
-      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Another heated data center discussion in Archbald. This time, people took to the streets ahead of the borough's council meeting to express their concerns. A vote on data centers was not on the agenda at Archbald's borough council meeting on Wednesday, but they were on the minds of around a [...]",
+      "title": "Scranton, Williamsport are seeing less snowy winters",
+      "title_distilled": "Scranton, Williamsport are seeing less snowy winters.",
+      "description": "Snow rates have fallen 25% for Scranton and 15% for Williamsport over the last century",
       "description_distilled": "",
-      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Another heated data center discussion in Archbald. This time, people took to the streets ahead of the borough's council meeting to express their concerns. A vote on data centers was not on the agenda at Archbald's borough council meeting on Wednesday, but they were on the minds of around a [...]",
-      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 Another heated data center discussion in Archbald.",
+      "content": "Snow rates have fallen 25% for Scranton and 15% for Williamsport over the last century",
+      "content_distilled": "Snow rates have fallen 25% for Scranton and 15% for Williamsport over the last century.",
       "graph": {
         "entities": [
           {
-            "name": "data center alley",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/data-center-alley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">data cen</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1142,15 +1024,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "data center alley": "../entities/works/movies/data-center-alley.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-11-13T16:49:56",
-      "url": "https://www.2822news.com/news/local-news/residents-fear-data-center-alley-in-nepa/",
+      "source": "Wnep",
+      "publishedAt": "2025-11-14T22:40:51",
+      "url": "https://www.wnep.com/article/weather/scranton-williamsport-seeing-less-snowy-winters-pennsylvania-lackawanna-county-lycoming/523-73ffbc88-ef84-4064-beac-6253374ce8cd",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1158,19 +1037,40 @@
     },
     {
       "id": "short_14",
-      "title": "One displaced after house fire in Scranton",
-      "title_distilled": "One displaced after house fire in Scranton.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 One person has been displaced after a fire broke out at a home across the street from the Lackawanna County Prison. Firefighters responded to a house fire around 9:20 a.m. Thursday on the 1300 block of North Washington Avenue, across the street from the Lackawanna County Prison in Scranton. There were [...]",
+      "title": "Gas outage affecting parts of West Scranton",
+      "title_distilled": "Gas outage affecting parts of West Scranton.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 UGI crews and the Scranton Fire Department are responding to a gas outage affecting homes in West Scranton, with utilities expected to be restored by mid- to late morning on Saturday, November 15. The outage has impacted several streets in the area, including Mt. Vernon Ave., W. Gibson St., N. Sumner Ave., [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 One person has been displaced after a fire broke out at a home across the street from the Lackawanna County Prison. Firefighters responded to a house fire around 9:20 a.m. Thursday on the 1300 block of North Washington Avenue, across the street from the Lackawanna County Prison in Scranton. There were [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 One person has been displaced after a fire broke out at a home across the street from the Lackawanna County Prison.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 UGI crews and the Scranton Fire Department are responding to a gas outage affecting homes in West Scranton, with utilities expected to be restored by mid- to late morning on Saturday, November 15. The outage has impacted several streets in the area, including Mt. Vernon Ave., W. Gibson St., N. Sumner Ave., [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 UGI crews and the Scranton Fire Department are responding to a gas outage affecting homes in West Scranton, with utilities expected to be restored by mid- to late morning on Saturday, November 15.",
       "graph": {
         "entities": [
           {
-            "name": "North Washington",
+            "name": "West Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-washington.md",
+            "file_path": "../entities/people/west-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Fire",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-fire.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Vernon Ave",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/vernon-ave.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Sumner Ave",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sumner-ave.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1188,10 +1088,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "of North Washington Avenue",
-            "type": "LOCATION",
+            "name": "Scranton Fire Department",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/of-north-washington-avenue.md",
+            "file_path": "../entities/organizations/scranton-fire-department.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1213,17 +1113,12 @@
           {
             "from": "LACKAWANNA COUNTY",
             "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
             "type": "LOCATED_NEAR"
           },
           {
-            "from": "of North Washington Avenue",
+            "from": "Scranton Fire Department",
             "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "type": "OPERATES_IN"
           },
           {
             "from": "WBRE",
@@ -1236,7 +1131,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">of North</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vernon A</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sumner A</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1247,17 +1142,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "North Washington": "../entities/people/north-washington.md",
+          "West Scranton": "../entities/people/west-scranton.md",
+          "Scranton Fire": "../entities/people/scranton-fire.md",
+          "Vernon Ave": "../entities/people/vernon-ave.md",
+          "Sumner Ave": "../entities/people/sumner-ave.md",
           "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "of North Washington Avenue": "../entities/locations/of-north-washington-avenue.md",
+          "Scranton Fire Department": "../entities/organizations/scranton-fire-department.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2025-11-13T15:39:01",
-      "url": "https://www.2822news.com/news/one-displaced-after-house-fire-in-scranton/",
+      "publishedAt": "2025-11-15T04:01:32",
+      "url": "https://www.2822news.com/news/gas-outage-affecting-parts-of-west-scranton/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
