@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-11-16T11:05:14.365211",
-  "source_file": "../data/daily/scranton_news_2025-11-16.json",
+  "generated_at": "2025-11-17T11:04:40.343044",
+  "source_file": "../data/daily/scranton_news_2025-11-17.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -190,6 +190,110 @@
     },
     {
       "id": "short_3",
+      "title": "Pa. woman, son charged in ballot-tampering investigation",
+      "title_distilled": "Pa.",
+      "description": "A mother and son face felony and misdemeanor charges stemming from an investigation into ballot tampering at a West Scranton polling place during the Nov. 4 municipal election. The Lackawanna County district attorney\u2019s office charged Kathie Sico, 67, and Mich\u2026",
+      "description_distilled": "",
+      "content": "A mother and son face felony and misdemeanor charges stemming from an investigation into ballot tampering at a West Scranton polling place during the Nov. 4 municipal election. The Lackawanna County district attorney\u2019s office charged Kathie Sico, 67, and Mich\u2026",
+      "content_distilled": "mother and son face felony and misdemeanor charges stemming from an investigation into ballot tampering at a West Scranton polling place during the Nov.",
+      "graph": {
+        "entities": [
+          {
+            "name": "West Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/west-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Lackawanna",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-lackawanna.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Kathie Sico",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/kathie-sico.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Lackawanna",
+            "to": "Kathie Sico",
+            "type": "CHARGED",
+            "verb": "charged"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Kathie Sico",
+            "type": "CHARGED",
+            "verb": "charged"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kathie S</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "West Scranton": "../entities/people/west-scranton.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "Kathie Sico": "../entities/people/kathie-sico.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Freerepublic.com",
+      "publishedAt": "2025-11-16T03:19:49Z",
+      "url": "https://freerepublic.com/focus/f-news/4352761/posts",
+      "urlToImage": null,
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
+    },
+    {
+      "id": "short_4",
       "title": "Cattle truck carrying 35 livestock caught fire on I-81",
       "title_distilled": "Cattle truck carrying 35 livestock caught fire on I-81.",
       "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A cattle truck carrying 35 livestock caught fire and is causing delays on Interstate 81 early Wednesday morning. The ...",
@@ -242,11 +346,11 @@
       "url": "https://www.2822news.com/traffic/cattle-truck-fire-on-i-81-slows-commute/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/1681fa053f534b7b68a0698ff240cdba",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Charles Hangen Joins Fidelity Bank as Senior Vice President and Chief Risk Officer",
       "title_distilled": "Charles Hangen Joins Fidelity Bank as Senior Vice President and Chief Risk Officer.",
       "description": "DUNMORE, Pa., Nov. 03, 2025 (GLOBE NEWSWIRE) -- Daniel J. Santaniello, President and CEO of Fidelity Bank, is pleased to announce that Charles Hangen has joined Fidelity Bank as SVP, Chief Risk Officer.",
@@ -347,11 +451,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/11/03/3179898/0/en/Charles-Hangen-Joins-Fidelity-Bank-as-Senior-Vice-President-and-Chief-Risk-Officer.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/653a97ad-f0c3-47f1-adc8-3fcbfa4a2d41",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "Eleven Consecutive Years Raising Dividends With 7.5% Increase for Fourth Quarter 2025",
       "title_distilled": "Eleven Consecutive Years Raising Dividends With 7.",
       "description": "DUNMORE, Pa., Oct. 23, 2025 (GLOBE NEWSWIRE) -- The Board of Directors of Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC), parent company of The Fidelity Deposit and Discount Bank, announce their declaration of the Company\u2019s fourth quarter dividend of $0.43 per s\u2026",
@@ -442,11 +546,11 @@
       "url": "https://www.globenewswire.com/news-release/2025/10/23/3172198/0/en/Eleven-Consecutive-Years-Raising-Dividends-With-7-5-Increase-for-Fourth-Quarter-2025.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/7ff21eea-ee6d-46fb-9f2f-dd5e1bf9f1e3",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "Special Event Unites Pennsylvania Colleges and Amateur Radio Station W3USR",
       "title_distilled": "Special Event Unites Pennsylvania Colleges and Amateur Radio Station W3USR.",
       "description": "The Murgas Amateur Radio Club is celebrating its 50th anniversary this year with a special event that includes the University of Scranton, Kings College, and amateur radio station W3USR. The station is part of the University of Scranton Physics and Engineerin\u2026",
@@ -550,11 +654,11 @@
       "url": "http://www.arrl.org/news/view/special-event-unites-pennsylvania-colleges-and-amateur-radio-station-w3usr",
       "urlToImage": "http://www.arrl.org//www.arrl.org/files/image/About_ARRL/ARRL_logo_with_title.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Gentex Corporation Secures Third Year Option on its Advanced Combat Helmet Generation II Contract Worth $38.4 Million",
       "title_distilled": "Gentex Corporation Secures Third Year Option on its Advanced Combat Helmet Generation II Contract Worth $38.",
       "description": "CARBONDALE, PA, November 13, 2025 \u2014 The Defense Logistics Agency (DLA) has exercised the third one-year option period of the Advanced Combat Helmet Generation II (ACH Gen II) production contract (SPE1C1-23-D-0004) awarded to Gentex Corporation. Valued at up t\u2026",
@@ -669,11 +773,11 @@
       "url": "https://soldiersystems.net/2025/11/13/gentex-corporation-secures-third-year-option-on-its-advanced-combat-helmet-generation-ii-contract-worth-38-4-million/",
       "urlToImage": "https://soldiersystems.net/wp-content/uploads/2025/11/20251029_ach_gen_ii_press_release_image-3.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Trump\u2019s Approval Ratings Have Hit a New Low",
       "title_distilled": "Trump\u2019s Approval Ratings Have Hit a New Low.",
       "description": "Chris Lehmann And Democrats need to seize the moment\u2014for once. The post Trump\u2019s Approval Ratings Have Hit a New Low appeared first on The Nation.",
@@ -742,11 +846,11 @@
       "url": "https://www.thenation.com/article/politics/trump-approval-ratings-low/",
       "urlToImage": "https://www.thenation.com/wp-content/uploads/2025/11/GettyImages-1229422398.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Shutdown fight fuels anger and uncertainty far from Washington, D.C. (Natasha Korecki/NBC News)",
       "title_distilled": "Shutdown fight fuels anger and uncertainty far from Washington, D.",
       "description": "Natasha Korecki / NBC News: Shutdown fight fuels anger and uncertainty far from Washington, D.C. \u2014 \u201cFolks in D.C. don't understand is what it's like to live paycheck to paycheck,\u201d Scranton, Pa., Mayor Paige Cognetti said. \u2014 A government shutdown with no e\u2026",
@@ -852,59 +956,24 @@
       "url": "https://www.memeorandum.com/251017/p26",
       "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251016-kansas-city-missouri-vl-227p-f830ed.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
-      "title": "COLLEGE ROUNDUP: Royals advance to DIII second round in men\u2019s soccer",
-      "title_distilled": "COLLEGE ROUNDUP: Royals advance to DIII second round in men\u2019s soccer.",
-      "description": "The University of Scranton advanced to the second round of the NCAA Division III men&#8217;s soccer tournament with a 4-0 victory over St. Joseph\u2019s on Saturday at Weiss Field. The Royals (13-0-6) will face No, 17 Williams College on Sunday at 3 p.m. with a berth in the Sweet 16 on the line. Scranton outshot the Golden Eagles, 24-11 while placing 12 attempts on goal. The Royals struck first in the 41st minute when Luke Roberto intercepted a pass, drove into the box, and scored to give Scranton a 1-0 lead at halftime. The lead grew in the 51st minute [&#8230;]",
+      "id": "short_11",
+      "title": "Scranton residents stopped by the Department of Public Works headquarters to recycle electronics",
+      "title_distilled": "Scranton residents stopped by the Department of Public Works headquarters to recycle electronics.",
+      "description": "This was Scranton's second recycling event of the year, this time getting around 150 residents to stop by and recycle.",
       "description_distilled": "",
-      "content": "The University of Scranton advanced to the second round of the NCAA Division III men&#8217;s soccer tournament with a 4-0 victory over St. Joseph\u2019s on Saturday at Weiss Field. The Royals (13-0-6) will face No, 17 Williams College on Sunday at 3 p.m. with a berth in the Sweet 16 on the line. Scranton outshot the Golden Eagles, 24-11 while placing 12 attempts on goal. The Royals struck first in the 41st minute when Luke Roberto intercepted a pass, drove into the box, and scored to give Scranton a 1-0 lead at halftime. The lead grew in the 51st minute [&#8230;]",
-      "content_distilled": "University of Scranton advanced to the second round of the NCAA Division III men&#8217;s soccer tournament with a 4-0 victory over St.",
+      "content": "This was Scranton's second recycling event of the year, this time getting around 150 residents to stop by and recycle.",
+      "content_distilled": "This was Scranton's second recycling event of the year, this time getting around 150 residents to stop by and recycle.",
       "graph": {
         "entities": [
           {
-            "name": "The University",
+            "name": "Public Works",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-university.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Weiss Field",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/weiss-field.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Royals",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-royals.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Williams College",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/williams-college.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Golden Eagles",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/golden-eagles.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Luke Roberto",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/luke-roberto.md",
+            "file_path": "../entities/people/public-works.md",
             "resolution_method": "new_entity"
           },
           {
@@ -913,17 +982,16 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "soccer tournament",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/soccer-tournament.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Univ</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Weiss Fi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Roya</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Williams</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Golden E</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Luke Rob</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Scranton",
+            "to": "Public Works",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Public W</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -934,168 +1002,33 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The University": "../entities/people/the-university.md",
-          "Weiss Field": "../entities/people/weiss-field.md",
-          "The Royals": "../entities/people/the-royals.md",
-          "Williams College": "../entities/people/williams-college.md",
-          "Golden Eagles": "../entities/people/golden-eagles.md",
-          "Luke Roberto": "../entities/people/luke-roberto.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "soccer tournament": "../entities/events/soccer-tournament.md"
+          "Public Works": "../entities/people/public-works.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-16T05:25:13",
-      "url": "https://www.thetimes-tribune.com/2025/11/16/college-roundup-royals-advance-to-diii-second-round-in-mens-soccer/",
+      "source": "Wnep",
+      "publishedAt": "2025-11-17T04:09:39",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-residents-stopped-department-of-public-works-headquarters-recycle-electronics-lackawanna-county/523-738662a5-7466-44f3-992f-4f188b93800f",
       "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Big potential for upcoming rifle bear season",
-      "title_distilled": "Big potential for upcoming rifle bear season.",
-      "description": "If the early bear seasons are an indication of what hunters can expect when the statewide rifle opener arrives on Nov. 22, there is reason for excitement in northeastern Pennsylvania.",
-      "description_distilled": "",
-      "content": "If the early bear seasons are an indication of what hunters can expect when the statewide rifle opener arrives on Nov. 22, there is reason for excitement in northeastern Pennsylvania.",
-      "content_distilled": "If the early bear seasons are an indication of what hunters can expect when the statewide rifle opener arrives on Nov.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-16T05:00:50",
-      "url": "https://www.thetimes-tribune.com/2025/11/16/big-potential-for-upcoming-rifle-bear-season/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/CVC-L-BEARSEASON-1116-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Food comes rolling in at the Wilkes-Barre Scranton Roller Derby",
-      "title_distilled": "Food comes rolling in at the Wilkes-Barre Scranton Roller Derby.",
-      "description": "The food donations collected will be donated to the Greater Pittston Food Pantry, and donors would receive discounted tickets to the game.",
+      "title": "Slithering to success as Electric City reptile expo returns to Lackawanna County",
+      "title_distilled": "Slithering to success as Electric City reptile expo returns to Lackawanna County.",
+      "description": "A variety of reptiles were on display, including turtles, snakes, frogs, and more.",
       "description_distilled": "",
-      "content": "The food donations collected will be donated to the Greater Pittston Food Pantry, and donors would receive discounted tickets to the game.",
-      "content_distilled": "food donations collected will be donated to the Greater Pittston Food Pantry, and donors would receive discounted tickets to the game.",
+      "content": "A variety of reptiles were on display, including turtles, snakes, frogs, and more.",
+      "content_distilled": "variety of reptiles were on display, including turtles, snakes, frogs, and more.",
       "graph": {
         "entities": [
           {
-            "name": "Barre Scranton",
+            "name": "Electric City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/barre-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Roller Derby",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/roller-derby.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Greater Pittston",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/greater-pittston.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Food Pantry",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/food-pantry.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "and donors would receive discounted tickets to the game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/and-donors-would-receive-discounted-tickets-to-the-game.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Sc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Roller D</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greater </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Food Pan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">and dono</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Barre Scranton": "../entities/people/barre-scranton.md",
-          "Roller Derby": "../entities/people/roller-derby.md",
-          "Greater Pittston": "../entities/people/greater-pittston.md",
-          "Food Pantry": "../entities/people/food-pantry.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "and donors would receive discounted tickets to the game": "../entities/events/and-donors-would-receive-discounted-tickets-to-the-game.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-11-16T04:31:04",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/food-comes-rolling-in-at-the-wilkes-barre-scranton-roller-derby-lackawanna-luzerne-county/523-92d6f05d-d837-4d25-a39e-17e85afde866",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Holiday spirit shines at Saint John's 33rd Christmas Bazaar in Lackawanna County",
-      "title_distilled": "Holiday spirit shines at Saint John's 33rd Christmas Bazaar in Lackawanna County.",
-      "description": "At the event, attendees could try various foods, participate in numerous raffle baskets, and begin their holiday shopping.",
-      "description_distilled": "",
-      "content": "At the event, attendees could try various foods, participate in numerous raffle baskets, and begin their holiday shopping.",
-      "content_distilled": "At the event, attendees could try various foods, participate in numerous raffle baskets, and begin their holiday shopping.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Saint John",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/saint-john.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Christmas Bazaar",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/christmas-bazaar.md",
+            "file_path": "../entities/people/electric-city.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1107,7 +1040,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Jo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christma</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1118,14 +1051,54 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Saint John": "../entities/people/saint-john.md",
-          "Christmas Bazaar": "../entities/people/christmas-bazaar.md",
+          "Electric City": "../entities/people/electric-city.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-11-16T02:57:59",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/holiday-spirit-shines-at-saint-johns-33rd-christmas-bazaar-in-lackawanna-county/523-1f102a8f-d57b-4c88-ba3d-c9aad60f1353",
+      "publishedAt": "2025-11-17T04:06:50",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/slithering-to-success-electric-city-reptile-expo-returns-lackawanna-county/523-124b6eb8-d21a-4ca5-bb1c-8e2a7a61975b",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Music lovers rejoiced as the Scranton-Wilkes-Barre LP vinyl record and CD show returned to the Woodlands",
+      "title_distilled": "Music lovers rejoiced as the Scranton-Wilkes-Barre LP vinyl record and CD show returned to the Woodlands.",
+      "description": "A variety of music was on display at the show in the Woodlands, including DVDs, CDs, books, and more.",
+      "description_distilled": "",
+      "content": "A variety of music was on display at the show in the Woodlands, including DVDs, CDs, books, and more.",
+      "content_distilled": "variety of music was on display at the show in the Woodlands, including DVDs, CDs, books, and more.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-11-17T03:54:40",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/music-lovers-rejoiced-scranton-wilkes-barre-lp-vinyl-record-and-cd-show-returned-woodlands/523-7dcb4583-cc66-403c-8f61-fcf359cf1031",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1133,59 +1106,45 @@
     },
     {
       "id": "short_14",
-      "title": "Fans gather in support of the Abington Heights Comets at Tully's in Clark Summit, as the team secured its first-ever state title",
-      "title_distilled": "Fans gather in support of the Abington Heights Comets at Tully's in Clark Summit, as the team secured its first-ever state title.",
-      "description": "Abington Heights fans and supporters gathered in Tully's Good Times Clarks Summit, and watched the Comets secure the win in the state championship.",
+      "title": "Cats and Tattoos were the talk of the town at an event in Scranton",
+      "title_distilled": "Cats and Tattoos were the talk of the town at an event in Scranton.",
+      "description": "Folks at the event enjoyed tattoos, raffle baskets, and cats, with proceeds going to the Barbuti Kitten Academy and Charm School.",
       "description_distilled": "",
-      "content": "Abington Heights fans and supporters gathered in Tully's Good Times Clarks Summit, and watched the Comets secure the win in the state championship.",
-      "content_distilled": "Abington Heights fans and supporters gathered in Tully's Good Times Clarks Summit, and watched the Comets secure the win in the state championship.",
+      "content": "Folks at the event enjoyed tattoos, raffle baskets, and cats, with proceeds going to the Barbuti Kitten Academy and Charm School.",
+      "content_distilled": "Folks at the event enjoyed tattoos, raffle baskets, and cats, with proceeds going to the Barbuti Kitten Academy and Charm School.",
       "graph": {
         "entities": [
           {
-            "name": "Abington Heights",
+            "name": "Scranton Folks",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/abington-heights.md",
+            "file_path": "../entities/people/scranton-folks.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Clark Summit",
+            "name": "Barbuti Kitten",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clark-summit.md",
+            "file_path": "../entities/people/barbuti-kitten.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Good Times",
+            "name": "Charm School",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/good-times.md",
+            "file_path": "../entities/people/charm-school.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Clarks Summit",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "in Clark Summit",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/in-clark-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Good Times Clarks Summit",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/good-times-clarks-summit.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clark Su</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Good Tim</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">in Clark</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Good Tim</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barbuti </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Charm Sc</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1196,17 +1155,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Abington Heights": "../entities/people/abington-heights.md",
-          "Clark Summit": "../entities/people/clark-summit.md",
-          "Good Times": "../entities/people/good-times.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "in Clark Summit": "../entities/events/in-clark-summit.md",
-          "Good Times Clarks Summit": "../entities/events/good-times-clarks-summit.md"
+          "Scranton Folks": "../entities/people/scranton-folks.md",
+          "Barbuti Kitten": "../entities/people/barbuti-kitten.md",
+          "Charm School": "../entities/people/charm-school.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-11-16T01:02:09",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fans-gather-in-support-of-the-abington-heights-comets-at-tullys-in-clark-summit-as-the-team-secured-its-first-ever-state-title-lackawanna-county/523-6bc6a902-c959-4210-8316-7038dd60fbc8",
+      "publishedAt": "2025-11-17T03:42:55",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/cats-and-tattoos-were-the-talk-of-the-town-event-scranton-lackawanna-county/523-80dcb49e-9df1-4f08-b9f6-dd6cbe7ec280",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
