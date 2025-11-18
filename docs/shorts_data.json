@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-11-17T11:04:40.343044",
-  "source_file": "../data/daily/scranton_news_2025-11-17.json",
+  "generated_at": "2025-11-18T11:04:30.057006",
+  "source_file": "../data/daily/scranton_news_2025-11-18.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -159,18 +159,61 @@
     },
     {
       "id": "short_2",
-      "title": "Shutdown fight fuels anger and uncertainty far from Washington, D.C.",
-      "title_distilled": "Shutdown fight fuels anger and uncertainty far from Washington, D.",
-      "description": "A government shutdown with no end in sight is starting to take its toll on middle America, the mayors of four cities say.",
+      "title": "NWS issues wind advisory across NEPA",
+      "title_distilled": "NWS issues wind advisory across NEPA.",
+      "description": "(WBRE/WYOU) \u2014 From rain to snow, changes are already happening across the area, and 28/22 News Meteorologist Valerie Smock has the forecast as the National...",
       "description_distilled": "",
-      "content": "A government shutdown with no end in sight is starting to take its toll on middle America, the mayors of four cities say.",
-      "content_distilled": "government shutdown with no end in sight is starting to take its toll on middle America, the mayors of four cities say.",
+      "content": "(WBRE/WYOU) \u2014 From rain to snow, changes are already happening across the area, and 28/22 News Meteorologist Valerie Smock has the forecast as the National...",
+      "content_distilled": " \u2014 From rain to snow, changes are already happening across the area, and 28/22 News Meteorologist Valerie Smock has the forecast as the National.",
       "graph": {
-        "entities": [],
+        "entities": [
+          {
+            "name": "News Meteorologist",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/news-meteorologist.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Valerie Smock",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/valerie-smock.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "NWS",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/nws.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "NWS issues wind advisory",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/nws-issues-wind-advisory.md",
+            "resolution_method": "new_entity"
+          }
+        ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Met</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valerie </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">NWS</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">NWS issu</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
-        "confidence": 0.0,
+        "confidence": 0.5,
         "vault_statistics": {
           "total_entities": 0,
           "by_type": {},
@@ -178,12 +221,19 @@
           "low_confidence": 0,
           "total_relationships": 0
         },
-        "entity_files": {}
+        "entity_files": {
+          "News Meteorologist": "../entities/people/news-meteorologist.md",
+          "Valerie Smock": "../entities/people/valerie-smock.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "NWS": "../entities/organizations/nws.md",
+          "NWS issues wind advisory": "../entities/events/nws-issues-wind-advisory.md"
+        }
       },
-      "source": "NBC News",
-      "publishedAt": "2025-10-17T09:00:00Z",
-      "url": "https://www.nbcnews.com/politics/congress/shutdown-fight-fuels-anger-uncertainty-mayors-rcna237996",
-      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251016-kansas-city-missouri-vl-227p-f830ed.jpg",
+      "source": "2822news.com",
+      "publishedAt": "2025-11-16T21:12:33Z",
+      "url": "https://www.2822news.com/weather/nws-issues-wind-advisory-across-nepa/",
+      "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/8eb26286da51f249aa0e39a464416045",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 0.2
@@ -961,19 +1011,75 @@
     },
     {
       "id": "short_11",
-      "title": "Scranton residents stopped by the Department of Public Works headquarters to recycle electronics",
-      "title_distilled": "Scranton residents stopped by the Department of Public Works headquarters to recycle electronics.",
-      "description": "This was Scranton's second recycling event of the year, this time getting around 150 residents to stop by and recycle.",
+      "title": "Symphonic music concert at University of Scranton",
+      "title_distilled": "Symphonic music concert at University of Scranton.",
+      "description": "Performance Music at the University of Scranton will present a concert featuring the university&#8217;s Symphonic Band at 7:30 p.m. Saturday at the Houlihan-McLean Center in Scranton. Among the ensemble members are musicians who graduated from local high schools. Front row, from left: Lia Hartman, Western Wayne; and Victoria Fiorini, Lackawanna Trail. Back row: Emma Ponas, Riverside; and Colin Gilmartin, North Pocono. The concert will feature a variety of symphonic band works. Admission is free and seating is on a first-come, first-seated basis.",
       "description_distilled": "",
-      "content": "This was Scranton's second recycling event of the year, this time getting around 150 residents to stop by and recycle.",
-      "content_distilled": "This was Scranton's second recycling event of the year, this time getting around 150 residents to stop by and recycle.",
+      "content": "Performance Music at the University of Scranton will present a concert featuring the university&#8217;s Symphonic Band at 7:30 p.m. Saturday at the Houlihan-McLean Center in Scranton. Among the ensemble members are musicians who graduated from local high schools. Front row, from left: Lia Hartman, Western Wayne; and Victoria Fiorini, Lackawanna Trail. Back row: Emma Ponas, Riverside; and Colin Gilmartin, North Pocono. The concert will feature a variety of symphonic band works. Admission is free and seating is on a first-come, first-seated basis.",
+      "content_distilled": "Performance Music at the University of Scranton will present a concert featuring the university&#8217;s Symphonic Band at 7:30 p.",
       "graph": {
         "entities": [
           {
-            "name": "Public Works",
+            "name": "Scranton Performance",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/public-works.md",
+            "file_path": "../entities/people/scranton-performance.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Symphonic Band",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/symphonic-band.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lia Hartman",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lia-hartman.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Western Wayne",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/western-wayne.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Victoria Fiorini",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/victoria-fiorini.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna Trail",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-trail.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Emma Ponas",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/emma-ponas.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Colin Gilmartin",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/colin-gilmartin.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "North Pocono",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/north-pocono.md",
             "resolution_method": "new_entity"
           },
           {
@@ -986,12 +1092,12 @@
         ],
         "relationships": [
           {
-            "from": "Scranton",
-            "to": "Public Works",
+            "from": "Scranton Performance",
+            "to": "Scranton",
             "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Public W</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Symphoni</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lia Hart</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Western </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Victoria</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1002,33 +1108,41 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Public Works": "../entities/people/public-works.md",
+          "Scranton Performance": "../entities/people/scranton-performance.md",
+          "Symphonic Band": "../entities/people/symphonic-band.md",
+          "Lia Hartman": "../entities/people/lia-hartman.md",
+          "Western Wayne": "../entities/people/western-wayne.md",
+          "Victoria Fiorini": "../entities/people/victoria-fiorini.md",
+          "Lackawanna Trail": "../entities/people/lackawanna-trail.md",
+          "Emma Ponas": "../entities/people/emma-ponas.md",
+          "Colin Gilmartin": "../entities/people/colin-gilmartin.md",
+          "North Pocono": "../entities/people/north-pocono.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-17T04:09:39",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-residents-stopped-department-of-public-works-headquarters-recycle-electronics-lackawanna-county/523-738662a5-7466-44f3-992f-4f188b93800f",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-18T05:00:58",
+      "url": "https://www.thetimes-tribune.com/2025/11/18/symphonic-music-concert-at-university-of-scranton/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-A2PIC1-1118.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Slithering to success as Electric City reptile expo returns to Lackawanna County",
-      "title_distilled": "Slithering to success as Electric City reptile expo returns to Lackawanna County.",
-      "description": "A variety of reptiles were on display, including turtles, snakes, frogs, and more.",
+      "title": "Lackawanna County Court Notes, November 18, 2025",
+      "title_distilled": "Lackawanna County Court Notes, November 18, 2025.",
+      "description": "A roundup of marriage licenses, divorce decrees and property transactions",
       "description_distilled": "",
-      "content": "A variety of reptiles were on display, including turtles, snakes, frogs, and more.",
-      "content_distilled": "variety of reptiles were on display, including turtles, snakes, frogs, and more.",
+      "content": "A roundup of marriage licenses, divorce decrees and property transactions",
+      "content_distilled": "roundup of marriage licenses, divorce decrees and property transactions.",
       "graph": {
         "entities": [
           {
-            "name": "Electric City",
+            "name": "Court Notes",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
+            "file_path": "../entities/people/court-notes.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1040,7 +1154,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1051,38 +1165,65 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Electric City": "../entities/people/electric-city.md",
+          "Court Notes": "../entities/people/court-notes.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-17T04:06:50",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/slithering-to-success-electric-city-reptile-expo-returns-lackawanna-county/523-124b6eb8-d21a-4ca5-bb1c-8e2a7a61975b",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-18T05:00:54",
+      "url": "https://www.thetimes-tribune.com/2025/11/18/lackawanna-county-court-notes-november-18-2025/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/03/RHR-L-HAINES-0109-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Music lovers rejoiced as the Scranton-Wilkes-Barre LP vinyl record and CD show returned to the Woodlands",
-      "title_distilled": "Music lovers rejoiced as the Scranton-Wilkes-Barre LP vinyl record and CD show returned to the Woodlands.",
-      "description": "A variety of music was on display at the show in the Woodlands, including DVDs, CDs, books, and more.",
+      "title": "Ornament sale in Olyphant and Throop",
+      "title_distilled": "Ornament sale in Olyphant and Throop.",
+      "description": "A newly designed 2025 St. Carlo Acutis Parish Christmas Ornament is available for purchase before all weekend Masses at the newly formed parish at St. Patrick&#8217;s Church in Olyphant and St. Anthony of Padua Church in Throop. Cost of the circular design with the image of St. Carlo Acutis is $20. Pictured is 5-year-old Aaron Butash holding the soon-to-be limited edition Christmas family memento. The new parish community, with worship sites in both Midvalley communities, is one of the first in the world to be named after the first millennial saint.",
       "description_distilled": "",
-      "content": "A variety of music was on display at the show in the Woodlands, including DVDs, CDs, books, and more.",
-      "content_distilled": "variety of music was on display at the show in the Woodlands, including DVDs, CDs, books, and more.",
+      "content": "A newly designed 2025 St. Carlo Acutis Parish Christmas Ornament is available for purchase before all weekend Masses at the newly formed parish at St. Patrick&#8217;s Church in Olyphant and St. Anthony of Padua Church in Throop. Cost of the circular design with the image of St. Carlo Acutis is $20. Pictured is 5-year-old Aaron Butash holding the soon-to-be limited edition Christmas family memento. The new parish community, with worship sites in both Midvalley communities, is one of the first in the world to be named after the first millennial saint.",
+      "content_distilled": "newly designed 2025 St.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Carlo Acutis",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/carlo-acutis.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Parish Christmas",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/parish-christmas.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Padua Church",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/padua-church.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Aaron Butash",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/aaron-butash.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Carlo Acutis",
+            "to": "Parish Christmas",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carlo Ac</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Parish C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Padua Ch</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Aaron Bu</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1093,60 +1234,34 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Carlo Acutis": "../entities/people/carlo-acutis.md",
+          "Parish Christmas": "../entities/people/parish-christmas.md",
+          "Padua Church": "../entities/people/padua-church.md",
+          "Aaron Butash": "../entities/people/aaron-butash.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-17T03:54:40",
-      "url": "https://www.wnep.com/article/news/local/luzerne-county/music-lovers-rejoiced-scranton-wilkes-barre-lp-vinyl-record-and-cd-show-returned-woodlands/523-7dcb4583-cc66-403c-8f61-fcf359cf1031",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-18T05:00:13",
+      "url": "https://www.thetimes-tribune.com/2025/11/18/ornament-sale-in-olyphant-and-throop/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-A2PIC2-1118.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "Cats and Tattoos were the talk of the town at an event in Scranton",
-      "title_distilled": "Cats and Tattoos were the talk of the town at an event in Scranton.",
-      "description": "Folks at the event enjoyed tattoos, raffle baskets, and cats, with proceeds going to the Barbuti Kitten Academy and Charm School.",
+      "title": "Police presence, road closed in Blakely",
+      "title_distilled": "Police presence, road closed in Blakely.",
+      "description": "A road is blocked off for police presence in Blakely around 11 p.m. Monday.",
       "description_distilled": "",
-      "content": "Folks at the event enjoyed tattoos, raffle baskets, and cats, with proceeds going to the Barbuti Kitten Academy and Charm School.",
-      "content_distilled": "Folks at the event enjoyed tattoos, raffle baskets, and cats, with proceeds going to the Barbuti Kitten Academy and Charm School.",
+      "content": "A road is blocked off for police presence in Blakely around 11 p.m. Monday.",
+      "content_distilled": "road is blocked off for police presence in Blakely around 11 p.",
       "graph": {
-        "entities": [
-          {
-            "name": "Scranton Folks",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-folks.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Barbuti Kitten",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/barbuti-kitten.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Charm School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/charm-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
+        "entities": [],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barbuti </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Charm Sc</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
         "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
+        "confidence": 0.0,
         "vault_statistics": {
           "total_entities": 0,
           "by_type": {},
@@ -1154,16 +1269,11 @@
           "low_confidence": 0,
           "total_relationships": 0
         },
-        "entity_files": {
-          "Scranton Folks": "../entities/people/scranton-folks.md",
-          "Barbuti Kitten": "../entities/people/barbuti-kitten.md",
-          "Charm School": "../entities/people/charm-school.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
+        "entity_files": {}
       },
       "source": "Wnep",
-      "publishedAt": "2025-11-17T03:42:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/cats-and-tattoos-were-the-talk-of-the-town-event-scranton-lackawanna-county/523-80dcb49e-9df1-4f08-b9f6-dd6cbe7ec280",
+      "publishedAt": "2025-11-18T04:43:40",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-presence-road-closed-blakely-lackawanna-county-5th-street-west-lackawanna-avenue/523-3c8e3901-1ec6-41f1-9641-96369b36ede0",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
