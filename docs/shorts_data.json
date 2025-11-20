@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-11-19T11:04:23.130368",
-  "source_file": "../data/daily/scranton_news_2025-11-19.json",
+  "generated_at": "2025-11-20T11:04:57.052042",
+  "source_file": "../data/daily/scranton_news_2025-11-20.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -901,24 +901,93 @@
     },
     {
       "id": "short_10",
-      "title": "Festive facade in downtown Scranton serves as nostalgic nod to the Globe",
-      "title_distilled": "Festive facade in downtown Scranton serves as nostalgic nod to the Globe.",
-      "description": "A new facade is highlighting the old charm of a once-famous shopping mecca in Scranton.",
+      "title": "LOCAL COLLEGE: Lady Royals roll in Landmark opener",
+      "title_distilled": "LOCAL COLLEGE: Lady Royals roll in Landmark opener.",
+      "description": "Holy Cross graduate Kaci Kranson, Elizabeth Bennett and Meghan Lamanna each scored 15 points to lead the University of Scranton women&#8217;s basketball team to a 71-48 victory over Drew in the Landmark Conference opener for both teams Wednesday at Baldwin Gym in Madison, N.J. Katie Gorski added 12 points and 10 rebounds for the Lady Royals, who played their first game since upsetting Division I Pittsburgh, 69-63, on Sunday. Alice Altomare led Drew with 15 points. Scranton faces Goucher on Saturday at 4 p.m. in its home opener. Men&#8217;s basketball Valley View graduate Eli Yusavage scored 27 points to lead [&#8230;]",
       "description_distilled": "",
-      "content": "A new facade is highlighting the old charm of a once-famous shopping mecca in Scranton.",
-      "content_distilled": "new facade is highlighting the old charm of a once-famous shopping mecca in Scranton.",
+      "content": "Holy Cross graduate Kaci Kranson, Elizabeth Bennett and Meghan Lamanna each scored 15 points to lead the University of Scranton women&#8217;s basketball team to a 71-48 victory over Drew in the Landmark Conference opener for both teams Wednesday at Baldwin Gym in Madison, N.J. Katie Gorski added 12 points and 10 rebounds for the Lady Royals, who played their first game since upsetting Division I Pittsburgh, 69-63, on Sunday. Alice Altomare led Drew with 15 points. Scranton faces Goucher on Saturday at 4 p.m. in its home opener. Men&#8217;s basketball Valley View graduate Eli Yusavage scored 27 points to lead [&#8230;]",
+      "content_distilled": "Holy Cross graduate Kaci Kranson, Elizabeth Bennett and Meghan Lamanna each scored 15 points to lead the University of Scranton women&#8217;s basketball team to a 71-48 victory over Drew in the Landmark Conference opener for both teams Wednesday at Baldwin Gym in Madison, N.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Lady Royals",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/lady-royals.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Holy Cross",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/holy-cross.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Kaci Kranson",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/kaci-kranson.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Elizabeth Bennett",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/elizabeth-bennett.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Meghan Lamanna",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/meghan-lamanna.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Landmark Conference",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/landmark-conference.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Baldwin Gym",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/baldwin-gym.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Katie Gorski",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/katie-gorski.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Alice Altomare",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/alice-altomare.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Valley View",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/valley-view.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Landmark Conference",
+            "to": "Baldwin Gym",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lady Roy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holy Cro</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kaci Kra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elizabet</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Meghan L</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Landmark</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -929,37 +998,60 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Lady Royals": "../entities/people/lady-royals.md",
+          "Holy Cross": "../entities/people/holy-cross.md",
+          "Kaci Kranson": "../entities/people/kaci-kranson.md",
+          "Elizabeth Bennett": "../entities/people/elizabeth-bennett.md",
+          "Meghan Lamanna": "../entities/people/meghan-lamanna.md",
+          "Landmark Conference": "../entities/people/landmark-conference.md",
+          "Baldwin Gym": "../entities/people/baldwin-gym.md",
+          "Katie Gorski": "../entities/people/katie-gorski.md",
+          "Alice Altomare": "../entities/people/alice-altomare.md",
+          "Valley View": "../entities/people/valley-view.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-18T23:08:42",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/festive-facade-in-scranton-serves-as-nostalgic-nod-to-the-globe-government-center/523-c6c6a591-e6d3-443c-87ae-0ee94159782d",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-20T06:09:10",
+      "url": "https://www.thetimes-tribune.com/2025/11/20/local-college-lady-royals-roll-in-landmark-opener/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/STT-L-UOFSLOGO-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "Suspect in deadly hit-and-run to stand trial in Lackawanna County",
-      "title_distilled": "Suspect in deadly hit-and-run to stand trial in Lackawanna County.",
-      "description": "A woman accused of hitting and killing a cyclist in Lackawanna County appeared in court on Tuesday.",
+      "title": "Olyphant veteran celebrates 100th birthday at Veterans Day event",
+      "title_distilled": "Olyphant veteran celebrates 100th birthday at Veterans Day event.",
+      "description": "World War II veteran Francis B. Hodorowski of Olyphant celebrated his approaching 100th birthday at a Veterans Day event Nov. 11 at the Olyphant American Legion.",
       "description_distilled": "",
-      "content": "A woman accused of hitting and killing a cyclist in Lackawanna County appeared in court on Tuesday.",
-      "content_distilled": "woman accused of hitting and killing a cyclist in Lackawanna County appeared in court on Tuesday.",
+      "content": "World War II veteran Francis B. Hodorowski of Olyphant celebrated his approaching 100th birthday at a Veterans Day event Nov. 11 at the Olyphant American Legion.",
+      "content_distilled": "World War II veteran Francis B.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "Veterans Day",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/veterans-day.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "World War",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/world-war.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Olyphant American",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/olyphant-american.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Veterans</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Wa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -970,37 +1062,60 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Veterans Day": "../entities/people/veterans-day.md",
+          "World War": "../entities/people/world-war.md",
+          "Olyphant American": "../entities/people/olyphant-american.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-18T22:40:33",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/suspect-in-deadly-hit-and-run-to-stand-trial-in-lackawanna-county-diane-fontana-raymond-bacchiocchi/523-0adc80e9-2e6a-492a-bbef-8d85b18540b5",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-20T05:17:53",
+      "url": "https://www.thetimes-tribune.com/2025/11/20/olyphant-veteran-celebrates-100th-birthday-at-veterans-day-event/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/SAV-L-VETERANOLY-1120.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Charges filed after incident that shut down Blakely street",
-      "title_distilled": "Charges filed after incident that shut down Blakely street.",
-      "description": "Police accused a man of pointing a loaded revolver at members of his family. No shots were fired.",
+      "title": "Carbondale Area Junior/Senior High School holds annual Veterans Day Assembly",
+      "title_distilled": "Carbondale Area Junior/Senior High School holds annual Veterans Day Assembly.",
+      "description": "Carbondale Area Junior/Senior High School held its annual Veterans Day Assembly on Nov. 10.",
       "description_distilled": "",
-      "content": "Police accused a man of pointing a loaded revolver at members of his family. No shots were fired.",
-      "content_distilled": "Police accused a man of pointing a loaded revolver at members of his family.",
+      "content": "Carbondale Area Junior/Senior High School held its annual Veterans Day Assembly on Nov. 10.",
+      "content_distilled": "Carbondale Area Junior/Senior High School held its annual Veterans Day Assembly on Nov.",
       "graph": {
         "entities": [
           {
-            "name": "shut down Blakely street",
-            "type": "LOCATION",
+            "name": "Carbondale Area",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/shut-down-blakely-street.md",
+            "file_path": "../entities/people/carbondale-area.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Senior High",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/senior-high.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Veterans Day Assembly",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/veterans-day-assembly.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Senior High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/senior-high-school.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">shut dow</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senior H</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Veterans</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senior H</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1011,50 +1126,88 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "shut down Blakely street": "../entities/locations/shut-down-blakely-street.md"
+          "Carbondale Area": "../entities/people/carbondale-area.md",
+          "Senior High": "../entities/people/senior-high.md",
+          "Veterans Day Assembly": "../entities/people/veterans-day-assembly.md",
+          "Senior High School": "../entities/organizations/senior-high-school.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-18T15:56:24",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-blakely-police-terroristic-threats-road-closed-firearm/523-1f0e0099-79af-49f6-af0a-3c4b43a500d7",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-20T05:16:59",
+      "url": "https://www.thetimes-tribune.com/2025/11/20/carbondale-area-junior-senior-high-school-holds-annual-veterans-day-assembly/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/SAV-L-CARBVETS-1120-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Water main break in Scranton repaired",
-      "title_distilled": "Water main break in Scranton repaired.",
-      "description": "A water main break on Monday night is affecting a part of Scranton near Geisinger-CMC. The estimated repair time is 10 a.m. Tuesday, according to American Water.",
+      "title": "Memorial plaque presented to Olyphant Vietnam veteran\u2019s wife",
+      "title_distilled": "Memorial plaque presented to Olyphant Vietnam veteran\u2019s wife.",
+      "description": "Army veteran Vincent Narcoonis of Olyphant, who died on May 10 at the age of 76, was a recipient of two Purple Hearts and other service medals while serving in the Vietnam War. Commander Peter Puhalla Sr. of the Shopa Davey VFW Post 6082, Peckville, presented a memorial plaque of all of Vincent Narcoonis&#8217; medals to his wife, Joan Narcoonis, this month.",
       "description_distilled": "",
-      "content": "A water main break on Monday night is affecting a part of Scranton near Geisinger-CMC. The estimated repair time is 10 a.m. Tuesday, according to American Water.",
-      "content_distilled": "water main break on Monday night is affecting a part of Scranton near Geisinger-CMC.",
+      "content": "Army veteran Vincent Narcoonis of Olyphant, who died on May 10 at the age of 76, was a recipient of two Purple Hearts and other service medals while serving in the Vietnam War. Commander Peter Puhalla Sr. of the Shopa Davey VFW Post 6082, Peckville, presented a memorial plaque of all of Vincent Narcoonis&#8217; medals to his wife, Joan Narcoonis, this month.",
+      "content_distilled": "Army veteran Vincent Narcoonis of Olyphant, who died on May 10 at the age of 76, was a recipient of two Purple Hearts and other service medals while serving in the Vietnam War.",
       "graph": {
         "entities": [
           {
-            "name": "American Water",
+            "name": "Olyphant Vietnam",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/american-water.md",
+            "file_path": "../entities/people/olyphant-vietnam.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Vincent Narcoonis",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/vincent-narcoonis.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Purple Hearts",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/purple-hearts.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Vietnam War. Commander",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/vietnam-war-commander.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Peter Puhalla",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/peter-puhalla.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Shopa Davey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/shopa-davey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joan Narcoonis",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joan-narcoonis.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "American Water",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "Vincent Narcoonis",
+            "to": "Olyphant Vietnam",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">American</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vincent </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Purple H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vietnam </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Peter Pu</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Shopa Da</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1065,66 +1218,57 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "American Water": "../entities/people/american-water.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Olyphant Vietnam": "../entities/people/olyphant-vietnam.md",
+          "Vincent Narcoonis": "../entities/people/vincent-narcoonis.md",
+          "Purple Hearts": "../entities/people/purple-hearts.md",
+          "Vietnam War. Commander": "../entities/people/vietnam-war-commander.md",
+          "Peter Puhalla": "../entities/people/peter-puhalla.md",
+          "Shopa Davey": "../entities/people/shopa-davey.md",
+          "Joan Narcoonis": "../entities/people/joan-narcoonis.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-18T12:55:53",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/water-main-break-affects-portion-of-scranton-lackawanna-county-scranton-cmc-hospital-geisinger/523-78b8e99b-cd47-4020-a3bf-13b956e4eeff",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-20T05:15:10",
+      "url": "https://www.thetimes-tribune.com/2025/11/20/memorial-plaque-presented-to-olyphant-vietnam-veterans-wife/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/SAV-L-VETNARCOONIS-1120.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "Developer continues push for data center, appeals denied zoning application",
-      "title_distilled": "Developer continues push for data center, appeals denied zoning application.",
-      "description": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A prospective developer continues their push to build a new data center in Lackawanna County. Breaker Street Associates LLC met with Jessup's zoning hearing board on Tuesday to appeal a previously denied zoning application involving a proposed data center. The original application was denied in June after the borough's zoning [...]",
+      "title": "2nd annual Carbondalien Festival lands in Carbondale",
+      "title_distilled": "2nd annual Carbondalien Festival lands in Carbondale.",
+      "description": "The second annual Carbondalien Festival beamed into Carbondale on Nov. 7-8.",
       "description_distilled": "",
-      "content": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A prospective developer continues their push to build a new data center in Lackawanna County. Breaker Street Associates LLC met with Jessup's zoning hearing board on Tuesday to appeal a previously denied zoning application involving a proposed data center. The original application was denied in June after the borough's zoning [...]",
-      "content_distilled": "JESSUP, LACKAWANNA COUNTY  \u2014 A prospective developer continues their push to build a new data center in Lackawanna County.",
+      "content": "The second annual Carbondalien Festival beamed into Carbondale on Nov. 7-8.",
+      "content_distilled": "second annual Carbondalien Festival beamed into Carbondale on Nov.",
       "graph": {
         "entities": [
           {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
+            "name": "Carbondalien Festival",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/carbondalien-festival.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Breaker Street",
-            "type": "LOCATION",
+            "name": "Carbondale The",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/breaker-street.md",
+            "file_path": "../entities/people/carbondale-the.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Breaker Street Associates LLC",
-            "type": "ORGANIZATION",
+            "name": "annual Carbondalien Festival lands in Carbondale The second annual Carbondalien Festival",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/breaker-street-associates-llc.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/events/annual-carbondalien-festival-lands-in-carbondale-the-second-annual-carbondalien-festival.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Breaker </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Breaker </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">annual C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1135,17 +1279,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Breaker Street": "../entities/locations/breaker-street.md",
-          "Breaker Street Associates LLC": "../entities/organizations/breaker-street-associates-llc.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Carbondalien Festival": "../entities/people/carbondalien-festival.md",
+          "Carbondale The": "../entities/people/carbondale-the.md",
+          "annual Carbondalien Festival lands in Carbondale The second annual Carbondalien Festival": "../entities/events/annual-carbondalien-festival-lands-in-carbondale-the-second-annual-carbondalien-festival.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-11-19T04:24:09",
-      "url": "https://www.2822news.com/news/local-news/developer-continues-push-for-data-center-appeals-denied-zoning-application/",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-20T05:14:36",
+      "url": "https://www.thetimes-tribune.com/2025/11/20/2nd-annual-carbondalien-festival-lands-in-carbondale/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-CARBONDALIEN-1109-01-03.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
