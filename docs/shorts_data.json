@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-11-22T11:04:36.187804",
-  "source_file": "../data/daily/scranton_news_2025-11-22.json",
+  "generated_at": "2025-11-23T11:04:00.840508",
+  "source_file": "../data/daily/scranton_news_2025-11-23.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -901,26 +901,47 @@
     },
     {
       "id": "short_10",
-      "title": "PIAA FOOTBALL: Scranton Prep falls to defending champ Northwestern Lehigh",
-      "title_distilled": "PIAA FOOTBALL: Scranton Prep falls to defending champ Northwestern Lehigh.",
-      "description": "BERWICK \u2014 Facing a third-and-11 and trailing by four touchdowns midway through the third quarter, Scranton Prep&#8217;s Will McPartland dug deep to keep the drive alive. The senior quarterback rolled right, avoided two pass rushers and reversed field. AJ Croom never gave up on the play, either. McPartland found him, and threw across his body to his sliding senior receiver for an 18-yard gain and a first down. &#8220;We\u2019re late in the game and not in the position we should be, and just trying to make a play, trying to do everything we can,&#8221; McPartland said. The drive lasted 16 [&#8230;]",
+      "title": "Penguins win Atlantic clash in Providence",
+      "title_distilled": "Penguins win Atlantic clash in Providence.",
+      "description": "The Wilkes-Barre/Scranton Penguins picked up a big conference win Saturday night on the road. One goal proved to be enough as Rutger McGroarty&#8217;s first-period shorthanded goal was the difference as the Penguins beat the Providence Bruins, 1-0, at the Amica Mutual Pavilion. Both the Penguins and Providence entered the clash at the top of the Atlantic Division standings. The victory vaults the Pens (13-4-1) back to the top of the conference, one point ahead of Providence (13-3). Lehigh Valley and Hershey are three and four in the division. WBS finished the road weekend with a 1-1 record. For McGroarty, it [&#8230;]",
       "description_distilled": "",
-      "content": "BERWICK \u2014 Facing a third-and-11 and trailing by four touchdowns midway through the third quarter, Scranton Prep&#8217;s Will McPartland dug deep to keep the drive alive. The senior quarterback rolled right, avoided two pass rushers and reversed field. AJ Croom never gave up on the play, either. McPartland found him, and threw across his body to his sliding senior receiver for an 18-yard gain and a first down. &#8220;We\u2019re late in the game and not in the position we should be, and just trying to make a play, trying to do everything we can,&#8221; McPartland said. The drive lasted 16 [&#8230;]",
-      "content_distilled": "BERWICK \u2014 Facing a third-and-11 and trailing by four touchdowns midway through the third quarter, Scranton Prep&#8217;s Will McPartland dug deep to keep the drive alive.",
+      "content": "The Wilkes-Barre/Scranton Penguins picked up a big conference win Saturday night on the road. One goal proved to be enough as Rutger McGroarty&#8217;s first-period shorthanded goal was the difference as the Penguins beat the Providence Bruins, 1-0, at the Amica Mutual Pavilion. Both the Penguins and Providence entered the clash at the top of the Atlantic Division standings. The victory vaults the Pens (13-4-1) back to the top of the conference, one point ahead of Providence (13-3). Lehigh Valley and Hershey are three and four in the division. WBS finished the road weekend with a 1-1 record. For McGroarty, it [&#8230;]",
+      "content_distilled": "Wilkes-Barre/Scranton Penguins picked up a big conference win Saturday night on the road.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Prep",
+            "name": "Scranton Penguins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/people/scranton-penguins.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Northwestern Lehigh",
+            "name": "Providence Bruins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/northwestern-lehigh.md",
+            "file_path": "../entities/people/providence-bruins.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Amica Mutual",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/amica-mutual.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Atlantic Division",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/atlantic-division.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lehigh Valley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lehigh-valley.md",
             "resolution_method": "new_entity"
           },
           {
@@ -931,28 +952,40 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "The drive",
-            "type": "LOCATION",
+            "name": "big conference",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/locations/the-drive.md",
+            "file_path": "../entities/events/big-conference.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "re late in the game",
+            "name": "back to the top of the conference",
             "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/events/re-late-in-the-game.md",
+            "file_path": "../entities/events/back-to-the-top-of-the-conference.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "The drive",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Scranton Penguins",
+            "to": "big conference",
+            "type": "PICKED",
+            "verb": "picked"
+          },
+          {
+            "from": "Scranton",
+            "to": "big conference",
+            "type": "PICKED",
+            "verb": "picked"
+          },
+          {
+            "from": "Scranton Penguins",
+            "to": "Atlantic Division",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northwes</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The driv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">re late </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Providen</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Amica Mu</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Atlantic</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -963,57 +996,148 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Northwestern Lehigh": "../entities/people/northwestern-lehigh.md",
+          "Scranton Penguins": "../entities/people/scranton-penguins.md",
+          "Providence Bruins": "../entities/people/providence-bruins.md",
+          "Amica Mutual": "../entities/people/amica-mutual.md",
+          "Atlantic Division": "../entities/people/atlantic-division.md",
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
           "Scranton": "../entities/locations/scranton.md",
-          "The drive": "../entities/locations/the-drive.md",
-          "re late in the game": "../entities/events/re-late-in-the-game.md"
+          "big conference": "../entities/events/big-conference.md",
+          "back to the top of the conference": "../entities/events/back-to-the-top-of-the-conference.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-11-22T05:39:26",
-      "url": "https://www.thetimes-tribune.com/2025/11/22/piaa-football-scranton-prep-falls-to-northwestern-lehigh-again-in-quarters/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/CVC-L-SPFOOTBALL-1122-5.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-11-23T05:36:10",
+      "url": "https://www.thetimes-tribune.com/2025/11/23/penguins-win-atlantic-clash-in-providence/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/CVC-L-WBS-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "COLLEGE FOOTBALL: Paris has impact during Diplomats\u2019 championship season",
-      "title_distilled": "COLLEGE FOOTBALL: Paris has impact during Diplomats\u2019 championship season.",
-      "description": "Louis Paris patiently waited to get healthy, then made a powerful impact in his first fall as a collegiate football player. After a torn ACL in the PIAA playoffs ended his senior season at Scranton Prep in 2024, the rugged leader had reconstructive surgery and months of rehabilitation to prepare for summer camp at Franklin &#38; Marshall College. The former Times-Tribune Offensive Player of the Year started his collegiate career by competing for time at quarterback. Then, once cleared for full contact, the coaching staff approached Paris about changing positions to running back. The consummate team player, he agreed and [&#8230;]",
+      "title": "School Notes, November 23, 2025",
+      "title_distilled": "School Notes, November 23, 2025.",
+      "description": "Abington Heights Senior Nathan Barrett had the opportunity to work full time for Scranton Electric Heating and Cooling Service Inc. as an HVAC apprentice. As a rising senior, school officials said he made the difficult decision to forgo the traditional senior experience in order to learn a trade. Working with school administration, Nathan arranged to complete his remaining credit requirements through online courses and secured approval from his employer so he could earn high school credit for his work experience. His employers report that he is learning the trade quickly and will become a valuable member of their organization through [&#8230;]",
       "description_distilled": "",
-      "content": "Louis Paris patiently waited to get healthy, then made a powerful impact in his first fall as a collegiate football player. After a torn ACL in the PIAA playoffs ended his senior season at Scranton Prep in 2024, the rugged leader had reconstructive surgery and months of rehabilitation to prepare for summer camp at Franklin &#38; Marshall College. The former Times-Tribune Offensive Player of the Year started his collegiate career by competing for time at quarterback. Then, once cleared for full contact, the coaching staff approached Paris about changing positions to running back. The consummate team player, he agreed and [&#8230;]",
-      "content_distilled": "Louis Paris patiently waited to get healthy, then made a powerful impact in his first fall as a collegiate football player.",
+      "content": "Abington Heights Senior Nathan Barrett had the opportunity to work full time for Scranton Electric Heating and Cooling Service Inc. as an HVAC apprentice. As a rising senior, school officials said he made the difficult decision to forgo the traditional senior experience in order to learn a trade. Working with school administration, Nathan arranged to complete his remaining credit requirements through online courses and secured approval from his employer so he could earn high school credit for his work experience. His employers report that he is learning the trade quickly and will become a valuable member of their organization through [&#8230;]",
+      "content_distilled": "Abington Heights Senior Nathan Barrett had the opportunity to work full time for Scranton Electric Heating and Cooling Service Inc.",
       "graph": {
         "entities": [
           {
-            "name": "Louis Paris",
+            "name": "School Notes",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/louis-paris.md",
+            "file_path": "../entities/people/school-notes.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Prep",
+            "name": "Abington Heights",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/people/abington-heights.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Marshall College",
+            "name": "Senior Nathan",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/marshall-college.md",
+            "file_path": "../entities/people/senior-nathan.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Tribune Offensive",
+            "name": "Scranton Electric",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/tribune-offensive.md",
+            "file_path": "../entities/people/scranton-electric.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Cooling Service",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/cooling-service.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "School Notes",
+            "to": "Scranton",
+            "type": "RELATES_TO"
+          },
+          {
+            "from": "Senior Nathan",
+            "to": "School Notes",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Abington Heights",
+            "to": "Scranton Electric",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Cooling Service",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School N</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senior N</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cooling </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "School Notes": "../entities/people/school-notes.md",
+          "Abington Heights": "../entities/people/abington-heights.md",
+          "Senior Nathan": "../entities/people/senior-nathan.md",
+          "Scranton Electric": "../entities/people/scranton-electric.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Cooling Service": "../entities/organizations/cooling-service.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-11-23T05:00:48",
+      "url": "https://www.thetimes-tribune.com/2025/11/23/school-notes-november-23-2025/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Births, November 23, 2025",
+      "title_distilled": "Births, November 23, 2025.",
+      "description": "MOSES TAYLOR IBA\u00d1EZ: A daughter, Nov. 14, to Xioana S. Iba\u00f1ez Quinones, Scranton. SPINDLER: A son, Nov. 14, to Jesse Baumann and Brianna Spindler, Scranton.",
+      "description_distilled": "",
+      "content": "MOSES TAYLOR IBA\u00d1EZ: A daughter, Nov. 14, to Xioana S. Iba\u00f1ez Quinones, Scranton. SPINDLER: A son, Nov. 14, to Jesse Baumann and Brianna Spindler, Scranton.",
+      "content_distilled": "MOSES TAYLOR IBA\u00d1EZ: A daughter, Nov.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Jesse Baumann",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jesse-baumann.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Brianna Spindler",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/brianna-spindler.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1025,7 +1149,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Louis Pa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marshall</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tribune </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jesse Ba</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brianna </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1036,189 +1160,39 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Louis Paris": "../entities/people/louis-paris.md",
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Marshall College": "../entities/people/marshall-college.md",
-          "Tribune Offensive": "../entities/people/tribune-offensive.md",
+          "Jesse Baumann": "../entities/people/jesse-baumann.md",
+          "Brianna Spindler": "../entities/people/brianna-spindler.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-11-22T05:00:45",
-      "url": "https://www.thetimes-tribune.com/2025/11/22/college-football-paris-has-impact-during-diplomats-championship-season/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-louisparis-01.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Lackawanna County Court Notes, November 22, 2025",
-      "title_distilled": "Lackawanna County Court Notes, November 22, 2025.",
-      "description": "MARRIAGE LICENSES Josue Paramo and Amy Sodeida Nohemi Cuxum, both of Dickson City. Lisa Marion Cummings and David Allen Sherry, both of Clarks Summit. Israel Rodriguez-DeJesus and Estela Bautista, both of Scranton. PROPERTY TRANSACTIONS Michelle and John Druther Jr., Clarks Summit, to Luciano Terrazas Cabrera and Dolores Hernandez Moran, Bronx, N.Y., as tenants by the entirety; a property at 1717 Clay Ave., Dunmore, for $270,000. Harry D. Buck Jr. and Karisa Zahornacky, now by marriage Karisa Buck, Waverly Twp., to Jonathan and Amanda Butler, Fort Meade, Md.; a property at 525 N. Abington Road, Waverly Twp., for $575,000. John R. [&#8230;]",
-      "description_distilled": "",
-      "content": "MARRIAGE LICENSES Josue Paramo and Amy Sodeida Nohemi Cuxum, both of Dickson City. Lisa Marion Cummings and David Allen Sherry, both of Clarks Summit. Israel Rodriguez-DeJesus and Estela Bautista, both of Scranton. PROPERTY TRANSACTIONS Michelle and John Druther Jr., Clarks Summit, to Luciano Terrazas Cabrera and Dolores Hernandez Moran, Bronx, N.Y., as tenants by the entirety; a property at 1717 Clay Ave., Dunmore, for $270,000. Harry D. Buck Jr. and Karisa Zahornacky, now by marriage Karisa Buck, Waverly Twp., to Jonathan and Amanda Butler, Fort Meade, Md.; a property at 525 N. Abington Road, Waverly Twp., for $575,000. John R. [&#8230;]",
-      "content_distilled": "MARRIAGE LICENSES Josue Paramo and Amy Sodeida Nohemi Cuxum, both of Dickson City.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Court Notes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/court-notes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Josue Paramo",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/josue-paramo.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Amy Sodeida",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/amy-sodeida.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Nohemi Cuxum",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nohemi-cuxum.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dickson City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lisa Marion",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lisa-marion.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "David Allen",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/david-allen.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clarks Summit",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Israel Rodriguez",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/israel-rodriguez.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Estela Bautista",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/estela-bautista.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Josue Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Amy Sode</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nohemi C</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lisa Mar</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Court Notes": "../entities/people/court-notes.md",
-          "Josue Paramo": "../entities/people/josue-paramo.md",
-          "Amy Sodeida": "../entities/people/amy-sodeida.md",
-          "Nohemi Cuxum": "../entities/people/nohemi-cuxum.md",
-          "Dickson City": "../entities/people/dickson-city.md",
-          "Lisa Marion": "../entities/people/lisa-marion.md",
-          "David Allen": "../entities/people/david-allen.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Israel Rodriguez": "../entities/people/israel-rodriguez.md",
-          "Estela Bautista": "../entities/people/estela-bautista.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-22T05:00:14",
-      "url": "https://www.thetimes-tribune.com/2025/11/22/lackawanna-county-court-notes-november-22-2025/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/03/STT-L-GAVEL-01_1090985615.jpg?w=1400px&strip=all",
+      "publishedAt": "2025-11-23T05:00:32",
+      "url": "https://www.thetimes-tribune.com/2025/11/23/births-november-23-2025/",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Clipboard, November 22, 2025",
-      "title_distilled": "Clipboard, November 22, 2025.",
-      "description": "Carbondale Soup sale: Trinity Episcopal Church is holding a homemade soup sale until the end of winter or until soups run out. Quarts, $9; pints, $5. There is also chili and stew available in pints for $6. Those interested can stop by weekdays, 9 a.m. to 1 p.m., at the church, 58 River St. Information: 570-282-3620. Forest City Christmas at the Museum: 2025 Christmas at the Museum, Nov. 29, Main and Dundaff streets. Doors open 11 a.m. Choral and band concert, 1 p.m. Includes food, vendors and a &#8220;Cram the Cruiser&#8221; toy drive in the Honesdale National Bank parking lot [&#8230;]",
+      "title": "Pedestrian struck, killed in Dickson City",
+      "title_distilled": "Pedestrian struck, killed in Dickson City.",
+      "description": "The westbound lanes of Route 6 in Dickson City are shut down as authorities investigate a deadly crash.",
       "description_distilled": "",
-      "content": "Carbondale Soup sale: Trinity Episcopal Church is holding a homemade soup sale until the end of winter or until soups run out. Quarts, $9; pints, $5. There is also chili and stew available in pints for $6. Those interested can stop by weekdays, 9 a.m. to 1 p.m., at the church, 58 River St. Information: 570-282-3620. Forest City Christmas at the Museum: 2025 Christmas at the Museum, Nov. 29, Main and Dundaff streets. Doors open 11 a.m. Choral and band concert, 1 p.m. Includes food, vendors and a &#8220;Cram the Cruiser&#8221; toy drive in the Honesdale National Bank parking lot [&#8230;]",
-      "content_distilled": "Carbondale Soup sale: Trinity Episcopal Church is holding a homemade soup sale until the end of winter or until soups run out.",
+      "content": "The westbound lanes of Route 6 in Dickson City are shut down as authorities investigate a deadly crash.",
+      "content_distilled": "westbound lanes of Route 6 in Dickson City are shut down as authorities investigate a deadly crash.",
       "graph": {
         "entities": [
           {
-            "name": "Carbondale Soup",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-soup.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Trinity Episcopal",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/trinity-episcopal.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "River St. Information",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/river-st-information.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Forest City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/forest-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Honesdale National",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/honesdale-national.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "toy drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/toy-drive.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trinity </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">River St</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Forest C</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Honesdal</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">toy driv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1229,17 +1203,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Carbondale Soup": "../entities/people/carbondale-soup.md",
-          "Trinity Episcopal": "../entities/people/trinity-episcopal.md",
-          "River St. Information": "../entities/people/river-st-information.md",
-          "Forest City": "../entities/people/forest-city.md",
-          "Honesdale National": "../entities/people/honesdale-national.md",
-          "toy drive": "../entities/locations/toy-drive.md"
+          "Dickson City": "../entities/people/dickson-city.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-22T05:00:12",
-      "url": "https://www.thetimes-tribune.com/2025/11/22/clipboard-november-22-2025/",
+      "source": "Wnep",
+      "publishedAt": "2025-11-23T01:57:07",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/coroner-called-to-crash-in-dickson-city-route-6-scranton-carbondale-highway/523-1a6d3ec3-c5d3-4075-9f89-c6b305ab108e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1247,33 +1216,33 @@
     },
     {
       "id": "short_14",
-      "title": "Scranton Police Department hosts annual toy drive",
-      "title_distilled": "Scranton Police Department hosts annual toy drive.",
-      "description": "Donations for Christmas presents are already piling up at the Waldorf Park Social Club in Scranton.",
+      "title": "Coroner confirms man dead after being struck by vehicle",
+      "title_distilled": "Coroner confirms man dead after being struck by vehicle.",
+      "description": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Lackawanna County Coroner confirms a person was killed after being struck by a vehicle on Business Route 6 Saturday night. Lackawanna County Officials confirmed with 28/22 News crews were called at about 6:20 p.m. to the 2000 block of the Scranton Carbondale Highway, also known as Business Route [...]",
       "description_distilled": "",
-      "content": "Donations for Christmas presents are already piling up at the Waldorf Park Social Club in Scranton.",
-      "content_distilled": "Donations for Christmas presents are already piling up at the Waldorf Park Social Club in Scranton.",
+      "content": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Lackawanna County Coroner confirms a person was killed after being struck by a vehicle on Business Route 6 Saturday night. Lackawanna County Officials confirmed with 28/22 News crews were called at about 6:20 p.m. to the 2000 block of the Scranton Carbondale Highway, also known as Business Route [...]",
+      "content_distilled": "DICKSON CITY, LACKAWANNA COUNTY  \u2014 The Lackawanna County Coroner confirms a person was killed after being struck by a vehicle on Business Route 6 Saturday night.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Police",
+            "name": "The Lackawanna",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
+            "file_path": "../entities/people/the-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Waldorf Park",
+            "name": "Business Route",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/waldorf-park.md",
+            "file_path": "../entities/people/business-route.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Social Club",
+            "name": "Scranton Carbondale",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/social-club.md",
+            "file_path": "../entities/people/scranton-carbondale.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1284,43 +1253,45 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "hosts annual toy drive",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/hosts-annual-toy-drive.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Police Department",
+            "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/scranton-police-department.md",
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton Police",
-            "to": "Scranton Police Department",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Scranton Police",
-            "to": "Scranton Police Department",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "hosts annual toy drive",
+            "from": "LACKAWANNA COUNTY",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
           },
           {
-            "from": "Scranton Police Department",
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
             "to": "Scranton",
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Waldorf </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Social C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">hosts an</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Business</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1331,17 +1302,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
-          "Waldorf Park": "../entities/people/waldorf-park.md",
-          "Social Club": "../entities/people/social-club.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "Business Route": "../entities/people/business-route.md",
+          "Scranton Carbondale": "../entities/people/scranton-carbondale.md",
           "Scranton": "../entities/locations/scranton.md",
-          "hosts annual toy drive": "../entities/locations/hosts-annual-toy-drive.md",
-          "Scranton Police Department": "../entities/organizations/scranton-police-department.md"
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-11-22T03:53:37",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-police-department-hosts-annual-toy-drive-lackawanna-county/523-e24a6f8a-0b23-49f4-a46e-5cd2f085bb44",
+      "source": "Wbre",
+      "publishedAt": "2025-11-23T00:27:58",
+      "url": "https://www.2822news.com/top-news/coroner-called-lanes-closed-on-business-route-6/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
