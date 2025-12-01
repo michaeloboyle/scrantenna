@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-11-30T11:04:57.592307",
-  "source_file": "../data/daily/scranton_news_2025-11-30.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2025-12-01T11:04:22.069967",
+  "source_file": "../data/daily/scranton_news_2025-12-01.json",
+  "total_shorts": 12,
+  "total_duration": 96,
   "has_svo": false,
   "shorts": [
     {
@@ -807,40 +807,47 @@
     },
     {
       "id": "short_8",
-      "title": "Swap, not shop at Snow Much Fun Day",
-      "title_distilled": "Swap, not shop at Snow Much Fun Day.",
-      "description": "A Dec. 6 clothing swap is part of Snow Much Fun Day at the Everhart Museum, in Nay Aug Park, Scranton. A later benefit will combine recycled fashion and art to benefit charity.",
+      "title": "Shoppers flood the Scranton Cultural Center for 13th annual Buy Local Holiday Marketplace",
+      "title_distilled": "Shoppers flood the Scranton Cultural Center for 13th annual Buy Local Holiday Marketplace.",
+      "description": "The Scranton Cultural Center's 13th annual Buy Local Holiday Marketplace held over 95 vendors, including local artisans wineries and more.",
       "description_distilled": "",
-      "content": "A Dec. 6 clothing swap is part of Snow Much Fun Day at the Everhart Museum, in Nay Aug Park, Scranton. A later benefit will combine recycled fashion and art to benefit charity.",
-      "content_distilled": "Dec.",
+      "content": "The Scranton Cultural Center's 13th annual Buy Local Holiday Marketplace held over 95 vendors, including local artisans wineries and more.",
+      "content_distilled": "Scranton Cultural Center's 13th annual Buy Local Holiday Marketplace held over 95 vendors, including local artisans wineries and more.",
       "graph": {
         "entities": [
           {
-            "name": "Snow Much",
+            "name": "Scranton Cultural",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/snow-much.md",
+            "file_path": "../entities/people/scranton-cultural.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Fun Day",
+            "name": "Buy Local",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/fun-day.md",
+            "file_path": "../entities/people/buy-local.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Everhart Museum",
+            "name": "Holiday Marketplace",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/everhart-museum.md",
+            "file_path": "../entities/people/holiday-marketplace.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Nay Aug Park",
+            "name": "The Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/nay-aug-park.md",
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Cultural Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cultural-center.md",
             "resolution_method": "new_entity"
           },
           {
@@ -849,23 +856,10 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Aug Park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/aug-park.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Aug Park",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Snow Muc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fun Day</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Aug Park</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Buy Loca</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holiday </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cultural</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -876,86 +870,37 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Snow Much": "../entities/people/snow-much.md",
-          "Fun Day": "../entities/people/fun-day.md",
-          "Everhart Museum": "../entities/people/everhart-museum.md",
-          "Nay Aug Park": "../entities/people/nay-aug-park.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Aug Park": "../entities/locations/aug-park.md"
+          "Scranton Cultural": "../entities/people/scranton-cultural.md",
+          "Buy Local": "../entities/people/buy-local.md",
+          "Holiday Marketplace": "../entities/people/holiday-marketplace.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Cultural Center": "../entities/people/cultural-center.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-30T05:00:59",
-      "url": "https://www.thetimes-tribune.com/2025/11/30/swap-not-shop-at-snow-much-fun-day/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-SWAP-1201-04.jpg?w=1400px&strip=all",
+      "source": "Wnep",
+      "publishedAt": "2025-12-01T03:58:57",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/shoppers-flood-scranton-cultural-center-for-13th-annual-buy-local-holiday-marketplace-lackawanna-county/523-5379a938-ed88-4b5e-bd41-764dcae9c9f2",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
       "animation_delay": 0.8
     },
     {
       "id": "short_9",
-      "title": "HS SWIMMING: Scranton Prep girls, Abington Heights boys seek league titles",
-      "title_distilled": "HS SWIMMING: Scranton Prep girls, Abington Heights boys seek league titles.",
-      "description": "There is an abundance of talent ready to dive into the pool for the Lackawanna League season. Elk Lake girls are the defending champions after breaking Scranton Prep\u2019s 73-meet league winning streak. Scranton Prep, however, is the favorite to reclaim the girls&#8217; title. Abington Heights, last season\u2019s District 2 Class 3A team champion, is expected to challenge the Classics. Abington Heights is the slight favorite to dethrone Delaware Valley in the Lackawanna League race. Both Times-Tribune Swimmers of the Year headline a group of returning All-Region athletes who should make for an intense winter competition. Scranton Prep\u2019s Rebecca Oakles was [&#8230;]",
+      "title": "Scranton school honors late student Lenny Zupon with a new court dedication",
+      "title_distilled": "Scranton school honors late student Lenny Zupon with a new court dedication.",
+      "description": "Newswatch 16's Valeria Qui\u00f1ones spoke to family and friends about Zupon's lasting impact.",
       "description_distilled": "",
-      "content": "There is an abundance of talent ready to dive into the pool for the Lackawanna League season. Elk Lake girls are the defending champions after breaking Scranton Prep\u2019s 73-meet league winning streak. Scranton Prep, however, is the favorite to reclaim the girls&#8217; title. Abington Heights, last season\u2019s District 2 Class 3A team champion, is expected to challenge the Classics. Abington Heights is the slight favorite to dethrone Delaware Valley in the Lackawanna League race. Both Times-Tribune Swimmers of the Year headline a group of returning All-Region athletes who should make for an intense winter competition. Scranton Prep\u2019s Rebecca Oakles was [&#8230;]",
-      "content_distilled": "There is an abundance of talent ready to dive into the pool for the Lackawanna League season.",
+      "content": "Newswatch 16's Valeria Qui\u00f1ones spoke to family and friends about Zupon's lasting impact.",
+      "content_distilled": "Newswatch 16's Valeria Qui\u00f1ones spoke to family and friends about Zupon's lasting impact.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Prep",
+            "name": "Lenny Zupon",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Abington Heights",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/abington-heights.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna League",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-league.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Elk Lake",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/elk-lake.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Delaware Valley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/delaware-valley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Both Times",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/both-times.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Tribune Swimmers",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/tribune-swimmers.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Rebecca Oakles",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/rebecca-oakles.md",
+            "file_path": "../entities/people/lenny-zupon.md",
             "resolution_method": "new_entity"
           },
           {
@@ -966,19 +911,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Abington Heights",
-            "to": "Lackawanna League",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Abington Heights",
-            "to": "Lackawanna League",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elk Lake</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Delaware</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Both Tim</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lenny Zu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -989,119 +923,38 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Abington Heights": "../entities/people/abington-heights.md",
-          "Lackawanna League": "../entities/people/lackawanna-league.md",
-          "Elk Lake": "../entities/people/elk-lake.md",
-          "Delaware Valley": "../entities/people/delaware-valley.md",
-          "Both Times": "../entities/people/both-times.md",
-          "Tribune Swimmers": "../entities/people/tribune-swimmers.md",
-          "Rebecca Oakles": "../entities/people/rebecca-oakles.md",
+          "Lenny Zupon": "../entities/people/lenny-zupon.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-30T05:00:50",
-      "url": "https://www.thetimes-tribune.com/2025/11/30/hs-swimming-scranton-prep-girls-abington-heights-boys-seek-league-titles/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-D22ASWIM-WBOX-0302-04.jpg?w=1400px&strip=all",
+      "source": "Wnep",
+      "publishedAt": "2025-12-01T01:53:12",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-school-honors-late-student-lenny-zupon-with-a-new-court-dedication-lackawanna-county/523-78a6e8e0-c303-492e-b47e-ef5ed8b1c295",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
-      "title": "School Notes, November 30, 2025",
-      "title_distilled": "School Notes, November 30, 2025.",
-      "description": "Abington Heights Clarks Summit Elementary School third graders Kiva and Keyan Patel performed a traditional dance during the Diwali celebration at St. Mary\u2019s Center in Scranton on Nov. 15. The event drew approximately 400 attendees who gathered to mark Diwali, the festival of lights that represents the triumph of light over darkness, knowledge over ignorance and good over evil. The evening featured cultural performances and a dinner served to all guests. Keyan said, &#8220;I felt happy after performing,&#8221; while Kiva said she \u201cfelt nervous and happy because I was in the front during the performance.\u201d They both like playing with [&#8230;]",
+      "title": "Making smiles and preserving history the Steamtown holiday train rumbles through Moscow",
+      "title_distilled": "Making smiles and preserving history the Steamtown holiday train rumbles through Moscow.",
+      "description": "A historic train excursion in Lackawanna County brings holiday cheer and helps maintain the station.",
       "description_distilled": "",
-      "content": "Abington Heights Clarks Summit Elementary School third graders Kiva and Keyan Patel performed a traditional dance during the Diwali celebration at St. Mary\u2019s Center in Scranton on Nov. 15. The event drew approximately 400 attendees who gathered to mark Diwali, the festival of lights that represents the triumph of light over darkness, knowledge over ignorance and good over evil. The evening featured cultural performances and a dinner served to all guests. Keyan said, &#8220;I felt happy after performing,&#8221; while Kiva said she \u201cfelt nervous and happy because I was in the front during the performance.\u201d They both like playing with [&#8230;]",
-      "content_distilled": "Abington Heights Clarks Summit Elementary School third graders Kiva and Keyan Patel performed a traditional dance during the Diwali celebration at St.",
+      "content": "A historic train excursion in Lackawanna County brings holiday cheer and helps maintain the station.",
+      "content_distilled": "historic train excursion in Lackawanna County brings holiday cheer and helps maintain the station.",
       "graph": {
         "entities": [
           {
-            "name": "School Notes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/school-notes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Abington Heights",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/abington-heights.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clarks Summit",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Elementary School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/elementary-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Keyan Patel",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/keyan-patel.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Abington Heights Clarks Summit Elementary School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/abington-heights-clarks-summit-elementary-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Abington Heights Clarks Summit",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/abington-heights-clarks-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "traditional dance during the Diwali celebration",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/traditional-dance-during-the-diwali-celebration.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "the festival",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/the-festival.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Keyan Patel",
-            "to": "Scranton",
-            "type": "RELATES_TO"
-          },
-          {
-            "from": "Abington Heights Clarks Summit Elementary School",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School N</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elementa</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keyan Pa</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1112,21 +965,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "School Notes": "../entities/people/school-notes.md",
-          "Abington Heights": "../entities/people/abington-heights.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Elementary School": "../entities/people/elementary-school.md",
-          "Keyan Patel": "../entities/people/keyan-patel.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Abington Heights Clarks Summit Elementary School": "../entities/organizations/abington-heights-clarks-summit-elementary-school.md",
-          "Abington Heights Clarks Summit": "../entities/events/abington-heights-clarks-summit.md",
-          "traditional dance during the Diwali celebration": "../entities/events/traditional-dance-during-the-diwali-celebration.md",
-          "the festival": "../entities/events/the-festival.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-30T05:00:36",
-      "url": "https://www.thetimes-tribune.com/2025/11/30/school-notes-november-30-2025/",
+      "source": "Wnep",
+      "publishedAt": "2025-12-01T01:53:00",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/making-smiles-and-preserving-history-the-steamtown-holiday-train-rumbles-through-moscow/523-ab2d291e-f10f-4154-a450-ebf59a49c0e4",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -1134,87 +978,66 @@
     },
     {
       "id": "short_11",
-      "title": "REMEMBER WHEN",
-      "title_distilled": "REMEMBER WHEN.",
-      "description": "30 years ago North Pocono overcame a five-point deficit after three quarters to defeat Valley View, 40-34, in a girls basketball season opener. Rita Yanulaitis led the rally, scoring 12 of her game-high 28 points in the fourth quarter when the Lady Trojans outscored the Cougars, 19-8. &#8230; Scranton Prep made coach Canio Cianci&#8217;s return to the high school ranks a successful one with a 65-46 win over Sacred Heart. Chris Glenn and Chris Skoff each scored 19 points for the Cavaliers. Matt Seitzinger added 11 points. &#8230; Lackawanna College lost to Georgia Military, 48-15, in the Huddle House Golden [&#8230;]",
+      "title": "Huge crowds turn out for 13th Annual Buy Local Holiday Marketplace",
+      "title_distilled": "Huge crowds turn out for 13th Annual Buy Local Holiday Marketplace.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local holiday marketplace tradition is alive and well this busy shopping weekend. A huge crowd turned out on Sunday at the Scranton Cultural Center for the 13th Annual Buy Local Holiday Marketplace. Some of the area's best small businesses, artisans, and wineries were on hand. Shoppers were able to [...]",
       "description_distilled": "",
-      "content": "30 years ago North Pocono overcame a five-point deficit after three quarters to defeat Valley View, 40-34, in a girls basketball season opener. Rita Yanulaitis led the rally, scoring 12 of her game-high 28 points in the fourth quarter when the Lady Trojans outscored the Cougars, 19-8. &#8230; Scranton Prep made coach Canio Cianci&#8217;s return to the high school ranks a successful one with a 65-46 win over Sacred Heart. Chris Glenn and Chris Skoff each scored 19 points for the Cavaliers. Matt Seitzinger added 11 points. &#8230; Lackawanna College lost to Georgia Military, 48-15, in the Huddle House Golden [&#8230;]",
-      "content_distilled": "30 years ago North Pocono overcame a five-point deficit after three quarters to defeat Valley View, 40-34, in a girls basketball season opener.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local holiday marketplace tradition is alive and well this busy shopping weekend. A huge crowd turned out on Sunday at the Scranton Cultural Center for the 13th Annual Buy Local Holiday Marketplace. Some of the area's best small businesses, artisans, and wineries were on hand. Shoppers were able to [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A local holiday marketplace tradition is alive and well this busy shopping weekend.",
       "graph": {
         "entities": [
           {
-            "name": "North Pocono",
+            "name": "Annual Buy Local",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-pocono.md",
+            "file_path": "../entities/people/annual-buy-local.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Valley View",
+            "name": "Holiday Marketplace",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/valley-view.md",
+            "file_path": "../entities/people/holiday-marketplace.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Rita Yanulaitis",
+            "name": "Scranton Cultural",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/rita-yanulaitis.md",
+            "file_path": "../entities/people/scranton-cultural.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lady Trojans",
-            "type": "PERSON",
+            "name": "SCRANTON",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/lady-trojans.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Prep",
-            "type": "PERSON",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Canio Cianci",
-            "type": "PERSON",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/canio-cianci.md",
+            "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Sacred Heart",
-            "type": "PERSON",
+            "name": "WYOU",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/sacred-heart.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Chris Glenn",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/chris-glenn.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Chris Skoff",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/chris-skoff.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Matt Seitzinger",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/matt-seitzinger.md",
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Po</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valley V</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rita Yan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lady Tro</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Canio Ci</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual B</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holiday </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1225,245 +1048,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "North Pocono": "../entities/people/north-pocono.md",
-          "Valley View": "../entities/people/valley-view.md",
-          "Rita Yanulaitis": "../entities/people/rita-yanulaitis.md",
-          "Lady Trojans": "../entities/people/lady-trojans.md",
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Canio Cianci": "../entities/people/canio-cianci.md",
-          "Sacred Heart": "../entities/people/sacred-heart.md",
-          "Chris Glenn": "../entities/people/chris-glenn.md",
-          "Chris Skoff": "../entities/people/chris-skoff.md",
-          "Matt Seitzinger": "../entities/people/matt-seitzinger.md"
+          "Annual Buy Local": "../entities/people/annual-buy-local.md",
+          "Holiday Marketplace": "../entities/people/holiday-marketplace.md",
+          "Scranton Cultural": "../entities/people/scranton-cultural.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2025-11-30T05:00:29",
-      "url": "https://www.thetimes-tribune.com/2025/11/30/remember-when-54/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-REMEMBERWHEN-1130.jpg?w=1400px&strip=all",
+      "source": "Wbre",
+      "publishedAt": "2025-12-01T00:10:14",
+      "url": "https://www.2822news.com/news/local-news/huge-crowds-turn-out-for-13th-annual-buy-local-holiday-marketplace/",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "No one injured after garage fire in Scranton",
-      "title_distilled": "No one injured after garage fire in Scranton.",
-      "description": "The fire happened along Hollow Avenue, the cause of the fire is not known.",
-      "description_distilled": "",
-      "content": "The fire happened along Hollow Avenue, the cause of the fire is not known.",
-      "content_distilled": "fire happened along Hollow Avenue, the cause of the fire is not known.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton The",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-the.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Hollow Avenue",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/hollow-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "happened along Hollow Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/happened-along-hollow-avenue.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "happened along Hollow Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hollow A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">happened</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton The": "../entities/people/scranton-the.md",
-          "Hollow Avenue": "../entities/people/hollow-avenue.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "happened along Hollow Avenue": "../entities/locations/happened-along-hollow-avenue.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-11-30T04:51:24",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/no-one-injured-after-garage-fire-in-scranton-lackawanna-county/523-a99e8cff-5c45-422f-bfdc-ee9e6da9024e",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Ballet Theatre of Scranton marks 50 years of 'The Nutcracker' as holiday tradition continues",
-      "title_distilled": "Ballet Theatre of Scranton marks 50 years of 'The Nutcracker' as holiday tradition continues.",
-      "description": "The ballet's alumni also got exclusive access onstage before the shows for a commemorative photo.",
-      "description_distilled": "",
-      "content": "The ballet's alumni also got exclusive access onstage before the shows for a commemorative photo.",
-      "content_distilled": "ballet's alumni also got exclusive access onstage before the shows for a commemorative photo.",
-      "graph": {
-        "entities": [
-          {
-            "name": "The Nutcracker",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/the-nutcracker.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ballet Theatre",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ballet-theatre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Ballet Theatre",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Nutc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ballet T</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "The Nutcracker": "../entities/works/movies/the-nutcracker.md",
-          "Ballet Theatre": "../entities/people/ballet-theatre.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-11-30T03:53:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/ballet-theatre-of-scranton-marks-50-years-of-the-nutcracker-as-holiday-tradition-continues-lackawanna-county/523-5f6884ef-8797-412f-8ecb-cb0688fa82e6",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Contestants crunch their way to glory at the 10th annual Middleswarth Chip Eating Contest",
-      "title_distilled": "Contestants crunch their way to glory at the 10th annual Middleswarth Chip Eating Contest.",
-      "description": "At Exeter's 10th Annual Middleswarth Potato Chip eating contest, 28 contestants vied for the Chip Champ trophy, supporting the NEPA Pet Food Pantry.",
-      "description_distilled": "",
-      "content": "At Exeter's 10th Annual Middleswarth Potato Chip eating contest, 28 contestants vied for the Chip Champ trophy, supporting the NEPA Pet Food Pantry.",
-      "content_distilled": "At Exeter's 10th Annual Middleswarth Potato Chip eating contest, 28 contestants vied for the Chip Champ trophy, supporting the NEPA Pet Food Pantry.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Middleswarth Chip",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/middleswarth-chip.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Eating Contest",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/eating-contest.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Annual Middleswarth",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/annual-middleswarth.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Potato Chip",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/potato-chip.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Chip Champ",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/chip-champ.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pet Food",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pet-food.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Eating Contest",
-            "to": "Chip Champ",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Middlesw</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eating C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual M</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Potato C</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chip Cha</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pet Food</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Middleswarth Chip": "../entities/people/middleswarth-chip.md",
-          "Eating Contest": "../entities/people/eating-contest.md",
-          "Annual Middleswarth": "../entities/people/annual-middleswarth.md",
-          "Potato Chip": "../entities/people/potato-chip.md",
-          "Chip Champ": "../entities/people/chip-champ.md",
-          "Pet Food": "../entities/people/pet-food.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-11-30T00:23:21",
-      "url": "https://www.wnep.com/article/news/local/luzerne-county/contestants-crunch-their-way-glory-10th-annual-middleswarth-chip-eating-contest-luzerne-county/523-185d19c6-12dd-4871-a5d5-d732b2cc2052",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
