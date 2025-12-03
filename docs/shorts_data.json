@@ -1,102 +1,96 @@
 {
-  "generated_at": "2025-12-02T11:05:04.088845",
-  "source_file": "../data/daily/scranton_news_2025-12-02.json",
+  "generated_at": "2025-12-03T11:05:18.583581",
+  "source_file": "../data/daily/scranton_news_2025-12-03.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
-      "title": "Senior Care Expert Peter Tomasi of Scranton Explains How to Find a Reliable Home Care Agency for HelloNation",
-      "title_distilled": "Senior Care Expert Peter Tomasi of Scranton Explains How to Find a Reliable Home Care Agency for HelloNation.",
-      "description": "Senior care expert Peter Tomasi, owner of FirstLight Home Care, offers insights on how families can select a trusted home care provider for their needs.",
+      "title": "Lottery ticket worth $1.7M sold in Pa.",
+      "title_distilled": "Lottery ticket worth $1.",
+      "description": "CLARK SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A jackpot-winning Pennsylvania Lottery Match 6 Lotto ticket worth $1,170,000 was sold in Lackawanna County. The...",
       "description_distilled": "",
-      "content": "Senior care expert Peter Tomasi, owner of FirstLight Home Care, offers insights on how families can select a trusted home care provider for their needs.",
-      "content_distilled": "Senior care expert Peter Tomasi, owner of FirstLight Home Care, offers insights on how families can select a trusted home care provider for their needs.",
+      "content": "CLARK SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A jackpot-winning Pennsylvania Lottery Match 6 Lotto ticket worth $1,170,000 was sold in Lackawanna County. The...",
+      "content_distilled": "CLARK SUMMIT, LACKAWANNA COUNTY  \u2014 A jackpot-winning Pennsylvania Lottery Match 6 Lotto ticket worth $1,170,000 was sold in Lackawanna County.",
       "graph": {
         "entities": [
           {
-            "name": "Senior Care",
+            "name": "Pennsylvania Lottery",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/senior-care.md",
+            "file_path": "../entities/people/pennsylvania-lottery.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Expert Peter",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/expert-peter.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Explains",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-explains.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Reliable Home",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/reliable-home.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Care Agency",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/care-agency.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Peter Tomasi",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/peter-tomasi.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Home Care",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/home-care.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Reliable Home Care Agency",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/reliable-home-care-agency.md",
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "CLARK SUMMIT",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/clark-summit.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Senior Care",
-            "to": "Scranton Explains",
-            "type": "MEMBER_OF"
+            "from": "Pennsylvania Lottery",
+            "to": "LACKAWANNA COUNTY",
+            "type": "SOLD",
+            "verb": "sold"
           },
           {
-            "from": "Reliable Home Care Agency",
-            "to": "Senior Care",
-            "type": "OCCURS_DURING"
+            "from": "Pennsylvania",
+            "to": "LACKAWANNA COUNTY",
+            "type": "SOLD",
+            "verb": "sold"
           },
           {
-            "from": "Reliable Home Care Agency",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "from": "LACKAWANNA COUNTY",
+            "to": "WBRE",
+            "type": "SOLD",
+            "verb": "sold"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "WYOU",
+            "type": "SOLD",
+            "verb": "sold"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "CLARK SUMMIT",
+            "type": "SOLD",
+            "verb": "sold"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senior C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Expert P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Reliable</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Care Age</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Peter To</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">CLARK SU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -107,21 +101,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Senior Care": "../entities/people/senior-care.md",
-          "Expert Peter": "../entities/people/expert-peter.md",
-          "Scranton Explains": "../entities/people/scranton-explains.md",
-          "Reliable Home": "../entities/people/reliable-home.md",
-          "Care Agency": "../entities/people/care-agency.md",
-          "Peter Tomasi": "../entities/people/peter-tomasi.md",
-          "Home Care": "../entities/people/home-care.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Reliable Home Care Agency": "../entities/organizations/reliable-home-care-agency.md"
+          "Pennsylvania Lottery": "../entities/people/pennsylvania-lottery.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "CLARK SUMMIT": "../entities/events/clark-summit.md"
         }
       },
-      "source": "GlobeNewswire",
-      "publishedAt": "2025-11-02T05:49:00Z",
-      "url": "https://www.globenewswire.com/news-release/2025/11/02/3178782/0/en/Senior-Care-Expert-Peter-Tomasi-of-Scranton-Explains-How-to-Find-a-Reliable-Home-Care-Agency-for-HelloNation.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/0423a69b-5051-4f16-9c29-8129b87a9da2",
+      "source": "2822news.com",
+      "publishedAt": "2025-12-01T16:46:12Z",
+      "url": "https://www.2822news.com/news/lottery-ticket-worth-1-7m-sold-in-pa/",
+      "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/e7863cfa2fceea4babdad4b7261fc7da",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 0.0
@@ -988,362 +979,61 @@
     },
     {
       "id": "short_10",
-      "title": "Lackawanna County Court Notes, December 2, 2025",
-      "title_distilled": "Lackawanna County Court Notes, December 2, 2025.",
-      "description": "MARRIAGE LICENSES Linh Ngoc Tran, London, Ontario, Canada, and Jamie Joseph Spindler, Scranton. Sean Bryan Merrifield and Bianka Marie Donovan, both of Olyphant. Brett Jason Mosley and Nina Alexandra Burke, both of Clarks Summit. PROPERTY TRANSACTIONS Kane Properties I LP, North Abington Twp., to RLIF Co-Investment II Properties LLC, Annapolis, Md.; parcels in Taylor and Scranton for $11,000,000. Eric J. Youshock and Elise Stavish, Pennsylvania, to Tara B. Jones, Pennsylvania; a property at 1332 E. Elm St., Scranton, for $305,000. Francis J. and Michele Sickle to Tyler and Shana Deitrick; a property at 10 Holly Lane, Thornhurst Twp., for $530,000. [&#8230;]",
+      "title": "Chris Kelly Opinion: Welcome to the Welby era",
+      "title_distilled": "Chris Kelly Opinion: Welcome to the Welby era.",
+      "description": "Today marks the dawn of the Thom Welby era and the official end of the \u201cOdd Couple\u201d de facto majority of interim Lackawanna County Commissioner Brenda Sacco and Commissioner Chris Chermak.",
       "description_distilled": "",
-      "content": "MARRIAGE LICENSES Linh Ngoc Tran, London, Ontario, Canada, and Jamie Joseph Spindler, Scranton. Sean Bryan Merrifield and Bianka Marie Donovan, both of Olyphant. Brett Jason Mosley and Nina Alexandra Burke, both of Clarks Summit. PROPERTY TRANSACTIONS Kane Properties I LP, North Abington Twp., to RLIF Co-Investment II Properties LLC, Annapolis, Md.; parcels in Taylor and Scranton for $11,000,000. Eric J. Youshock and Elise Stavish, Pennsylvania, to Tara B. Jones, Pennsylvania; a property at 1332 E. Elm St., Scranton, for $305,000. Francis J. and Michele Sickle to Tyler and Shana Deitrick; a property at 10 Holly Lane, Thornhurst Twp., for $530,000. [&#8230;]",
-      "content_distilled": "MARRIAGE LICENSES Linh Ngoc Tran, London, Ontario, Canada, and Jamie Joseph Spindler, Scranton.",
+      "content": "Today marks the dawn of the Thom Welby era and the official end of the \u201cOdd Couple\u201d de facto majority of interim Lackawanna County Commissioner Brenda Sacco and Commissioner Chris Chermak.",
+      "content_distilled": "Today marks the dawn of the Thom Welby era and the official end of the \u201cOdd Couple\u201d de facto majority of interim Lackawanna County Commissioner Brenda Sacco and Commissioner Chris Chermak.",
       "graph": {
         "entities": [
           {
-            "name": "Court Notes",
+            "name": "Chris Kelly",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/court-notes.md",
+            "file_path": "../entities/people/chris-kelly.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Linh Ngoc",
+            "name": "Thom Welby",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/linh-ngoc.md",
+            "file_path": "../entities/people/thom-welby.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jamie Joseph",
+            "name": "Odd Couple",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jamie-joseph.md",
+            "file_path": "../entities/people/odd-couple.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Sean Bryan",
+            "name": "Commissioner Brenda",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/sean-bryan.md",
+            "file_path": "../entities/people/commissioner-brenda.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Bianka Marie",
+            "name": "Commissioner Chris",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bianka-marie.md",
+            "file_path": "../entities/people/commissioner-chris.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Brett Jason",
+            "name": "Brenda Sacco",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/brett-jason.md",
+            "file_path": "../entities/people/brenda-sacco.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Nina Alexandra",
+            "name": "Chris Chermak",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/nina-alexandra.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clarks Summit",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Kane Properties",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/kane-properties.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Abington",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-abington.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Linh Ngo</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jamie Jo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sean Bry</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bianka M</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brett Ja</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Court Notes": "../entities/people/court-notes.md",
-          "Linh Ngoc": "../entities/people/linh-ngoc.md",
-          "Jamie Joseph": "../entities/people/jamie-joseph.md",
-          "Sean Bryan": "../entities/people/sean-bryan.md",
-          "Bianka Marie": "../entities/people/bianka-marie.md",
-          "Brett Jason": "../entities/people/brett-jason.md",
-          "Nina Alexandra": "../entities/people/nina-alexandra.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Kane Properties": "../entities/people/kane-properties.md",
-          "North Abington": "../entities/people/north-abington.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-12-02T05:00:47",
-      "url": "https://www.thetimes-tribune.com/2025/12/02/lackawanna-county-court-notes-december-2-2025/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/CVC-L-STOCKCOURTCOMPUTER-01.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "St. Mary\u2019s Orthodox Greek Catholic Church potato pancake sale",
-      "title_distilled": "St.",
-      "description": "St. Mary&#8217;s Orthodox Greek Catholic Church, 522 Main St., Dickson City, is holding a takeout-only Christmas potato pancake sale, Friday, Dec. 19, from 11:30 a.m.-5:30 p.m. Potato pancakes are $2 each and are great for lunch or dinner. Advance orders are recommended by Dec. 17. Call 570-309-5990. From left: Mary Ann Gieda, John Orbin and Joe Kofira.",
-      "description_distilled": "",
-      "content": "St. Mary&#8217;s Orthodox Greek Catholic Church, 522 Main St., Dickson City, is holding a takeout-only Christmas potato pancake sale, Friday, Dec. 19, from 11:30 a.m.-5:30 p.m. Potato pancakes are $2 each and are great for lunch or dinner. Advance orders are recommended by Dec. 17. Call 570-309-5990. From left: Mary Ann Gieda, John Orbin and Joe Kofira.",
-      "content_distilled": "St.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Orthodox Greek",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/orthodox-greek.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Catholic Church",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/catholic-church.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dickson City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mary Ann Gieda",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mary-ann-gieda.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "John Orbin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/john-orbin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Joe Kofira",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/joe-kofira.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Orthodox</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Catholic</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mary Ann</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Orb</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Kofi</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Orthodox Greek": "../entities/people/orthodox-greek.md",
-          "Catholic Church": "../entities/people/catholic-church.md",
-          "Dickson City": "../entities/people/dickson-city.md",
-          "Mary Ann Gieda": "../entities/people/mary-ann-gieda.md",
-          "John Orbin": "../entities/people/john-orbin.md",
-          "Joe Kofira": "../entities/people/joe-kofira.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-12-02T05:00:41",
-      "url": "https://www.thetimes-tribune.com/2025/12/02/st-marys-orthodox-greek-catholic-church-potato-pancake-sale/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-A2PIC1-1202.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Carbondale UNICO prepares meal for Ronald McDonald House",
-      "title_distilled": "Carbondale UNICO prepares meal for Ronald McDonald House.",
-      "description": "Yvonne and Tom Gatto, with Angel and Joe Masco, members of Carbondale Chapter of UNICO National, prepared a home-cooked meal for families staying at the Ronald McDonald House of Scranton, which provides a \u201chome away from home\u201d for families of seriously ill children. The service reflected UNICO\u2019s core values of unity, charity and community \u2014 living out its motto, \u201cService Above Self.\u201d From left, front: Yvonne Gatto and Angel Masco. Rear: Tom Gatto and Joe Masco.",
-      "description_distilled": "",
-      "content": "Yvonne and Tom Gatto, with Angel and Joe Masco, members of Carbondale Chapter of UNICO National, prepared a home-cooked meal for families staying at the Ronald McDonald House of Scranton, which provides a \u201chome away from home\u201d for families of seriously ill children. The service reflected UNICO\u2019s core values of unity, charity and community \u2014 living out its motto, \u201cService Above Self.\u201d From left, front: Yvonne Gatto and Angel Masco. Rear: Tom Gatto and Joe Masco.",
-      "content_distilled": "Yvonne and Tom Gatto, with Angel and Joe Masco, members of Carbondale Chapter of UNICO National, prepared a home-cooked meal for families staying at the Ronald McDonald House of Scranton, which provides a \u201chome away from home\u201d for families of seriously ill children.",
-      "graph": {
-        "entities": [
-          {
-            "name": "House Yvonne",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/house-yvonne.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Tom Gatto",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/tom-gatto.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Joe Masco",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/joe-masco.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Carbondale Chapter",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-chapter.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Yvonne Gatto",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/yvonne-gatto.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Angel Masco",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/angel-masco.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "House Yvonne",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Carbondale Chapter",
-            "to": "House Yvonne",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">House Yv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tom Gatt</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Masc</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Yvonne G</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Angel Ma</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "House Yvonne": "../entities/people/house-yvonne.md",
-          "Tom Gatto": "../entities/people/tom-gatto.md",
-          "Joe Masco": "../entities/people/joe-masco.md",
-          "Carbondale Chapter": "../entities/people/carbondale-chapter.md",
-          "Yvonne Gatto": "../entities/people/yvonne-gatto.md",
-          "Angel Masco": "../entities/people/angel-masco.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-12-02T05:00:39",
-      "url": "https://www.thetimes-tribune.com/2025/12/02/carbondale-unico-prepares-meal-for-ronald-mcdonald-house/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/11/STT-L-A2PIC2-1202.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Clipboard, December 2, 2025",
-      "title_distilled": "Clipboard, December 2, 2025.",
-      "description": "Factoryville Sportsmen meet: Factoryville Sportsmen\u2019s Club meeting, Dec. 17, 7:30 p.m., clubhouse. This change in schedule is due to the holiday season. Dues for 2026 are now being accepted. Lackawanna County Cookie walk: Friends of the Scranton Animal Association cookie walk fundraiser, Dec. 13, 10 a.m.-1 p.m. or until cookies are gone; assortment of homemade cookies for sale for $11/pound, cash only; proceeds will help homeless animals. Annual Christmas dinner: 32nd annual Bob Bolus Sr. Christmas Day Dinner, Dec. 25, noon-6 p.m., All Saints Academy Hall, 1425 Jackson St., Scranton. This free community event ensures that no one has to [&#8230;]",
-      "description_distilled": "",
-      "content": "Factoryville Sportsmen meet: Factoryville Sportsmen\u2019s Club meeting, Dec. 17, 7:30 p.m., clubhouse. This change in schedule is due to the holiday season. Dues for 2026 are now being accepted. Lackawanna County Cookie walk: Friends of the Scranton Animal Association cookie walk fundraiser, Dec. 13, 10 a.m.-1 p.m. or until cookies are gone; assortment of homemade cookies for sale for $11/pound, cash only; proceeds will help homeless animals. Annual Christmas dinner: 32nd annual Bob Bolus Sr. Christmas Day Dinner, Dec. 25, noon-6 p.m., All Saints Academy Hall, 1425 Jackson St., Scranton. This free community event ensures that no one has to [&#8230;]",
-      "content_distilled": "Factoryville Sportsmen meet: Factoryville Sportsmen\u2019s Club meeting, Dec.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Factoryville Sportsmen",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/factoryville-sportsmen.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Animal",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-animal.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Annual Christmas",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/annual-christmas.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bob Bolus",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bob-bolus.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Christmas Day Dinner",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/christmas-day-dinner.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "All Saints",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/all-saints.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Academy Hall",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/academy-hall.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/chris-chermak.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1356,12 +1046,12 @@
         ],
         "relationships": [
           {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Commissioner Chris",
+            "to": "Chris Chermak",
+            "type": "HAS_TITLE"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Factoryv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bob Bolu</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christma</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">All Sain</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chris Ke</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Thom Wel</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Odd Coup</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commissi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commissi</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brenda S</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1372,68 +1062,81 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Factoryville Sportsmen": "../entities/people/factoryville-sportsmen.md",
-          "Scranton Animal": "../entities/people/scranton-animal.md",
-          "Annual Christmas": "../entities/people/annual-christmas.md",
-          "Bob Bolus": "../entities/people/bob-bolus.md",
-          "Christmas Day Dinner": "../entities/people/christmas-day-dinner.md",
-          "All Saints": "../entities/people/all-saints.md",
-          "Academy Hall": "../entities/people/academy-hall.md",
-          "Scranton": "../entities/locations/scranton.md",
+          "Chris Kelly": "../entities/people/chris-kelly.md",
+          "Thom Welby": "../entities/people/thom-welby.md",
+          "Odd Couple": "../entities/people/odd-couple.md",
+          "Commissioner Brenda": "../entities/people/commissioner-brenda.md",
+          "Commissioner Chris": "../entities/people/commissioner-chris.md",
+          "Brenda Sacco": "../entities/people/brenda-sacco.md",
+          "Chris Chermak": "../entities/people/chris-chermak.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2025-12-02T05:00:08",
-      "url": "https://www.thetimes-tribune.com/2025/12/02/clipboard-december-2-2025/",
-      "urlToImage": "",
+      "publishedAt": "2025-12-03T11:00:51",
+      "url": "https://www.thetimes-tribune.com/2025/12/03/chris-kelly-opinion-welcome-to-the-welby-era/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/07/STT-L-KELLY-XXXX-01.jpg?w=1400px&strip=all",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_14",
-      "title": "Scranton City Hall banking on growth",
-      "title_distilled": "Scranton City Hall banking on growth.",
-      "description": "Mayor Paige Cognetti's administration is looking to expand into the neighboring Fidelity Bank Branch along North Washington Avenue.",
+      "id": "short_11",
+      "title": "Women in Philanthropy grant to Philharmonic",
+      "title_distilled": "Women in Philanthropy grant to Philharmonic.",
+      "description": "The Northeastern Pennsylvania Philharmonic receives a Women in Philanthropy grant to support the RxArts NEPA program, promoting healing through music and the arts. From left: Christine Zike, board of directors and vice president of development, Northeastern Pennsylvania Philharmonic; Chason Goldschmitz, executive director, Northeastern Pennsylvania Philharmonic; and Laura Ducceschi, president and CEO, Scranton Area Community Foundation.",
       "description_distilled": "",
-      "content": "Mayor Paige Cognetti's administration is looking to expand into the neighboring Fidelity Bank Branch along North Washington Avenue.",
-      "content_distilled": "Mayor Paige Cognetti's administration is looking to expand into the neighboring Fidelity Bank Branch along North Washington Avenue.",
+      "content": "The Northeastern Pennsylvania Philharmonic receives a Women in Philanthropy grant to support the RxArts NEPA program, promoting healing through music and the arts. From left: Christine Zike, board of directors and vice president of development, Northeastern Pennsylvania Philharmonic; Chason Goldschmitz, executive director, Northeastern Pennsylvania Philharmonic; and Laura Ducceschi, president and CEO, Scranton Area Community Foundation.",
+      "content_distilled": "Northeastern Pennsylvania Philharmonic receives a Women in Philanthropy grant to support the RxArts NEPA program, promoting healing through music and the arts.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton City",
+            "name": "Pennsylvania Philharmonic",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-city.md",
+            "file_path": "../entities/people/pennsylvania-philharmonic.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mayor Paige",
+            "name": "Christine Zike",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mayor-paige.md",
+            "file_path": "../entities/people/christine-zike.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Fidelity Bank",
+            "name": "Northeastern Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/fidelity-bank.md",
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "North Washington",
+            "name": "Chason Goldschmitz",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-washington.md",
+            "file_path": "../entities/people/chason-goldschmitz.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Paige Cognetti",
+            "name": "Laura Ducceschi",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
+            "file_path": "../entities/people/laura-ducceschi.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Area",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-area.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Community Foundation",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/community-foundation.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1444,38 +1147,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "along North Washington Avenue",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/along-north-washington-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "City Hall",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/city-hall.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Mayor Paige",
-            "to": "Paige Cognetti",
-            "type": "HAS_TITLE"
-          },
-          {
-            "from": "along North Washington Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "City Hall",
+            "from": "Pennsylvania",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mayor Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fidelity</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christin</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chason G</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Laura Du</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1486,20 +1172,238 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton City": "../entities/people/scranton-city.md",
-          "Mayor Paige": "../entities/people/mayor-paige.md",
-          "Fidelity Bank": "../entities/people/fidelity-bank.md",
-          "North Washington": "../entities/people/north-washington.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Pennsylvania Philharmonic": "../entities/people/pennsylvania-philharmonic.md",
+          "Christine Zike": "../entities/people/christine-zike.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Chason Goldschmitz": "../entities/people/chason-goldschmitz.md",
+          "Laura Ducceschi": "../entities/people/laura-ducceschi.md",
+          "Scranton Area": "../entities/people/scranton-area.md",
+          "Community Foundation": "../entities/people/community-foundation.md",
           "Scranton": "../entities/locations/scranton.md",
-          "along North Washington Avenue": "../entities/locations/along-north-washington-avenue.md",
-          "City Hall": "../entities/locations/city-hall.md"
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-12-01T22:50:25",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-city-hall-banking-on-growth-mayor-paige-cognetti-downtown-fidelity-bank-location/523-9eeef5c9-1028-44bc-863c-d33db202fd5c",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-12-03T05:00:44",
+      "url": "https://www.thetimes-tribune.com/2025/12/03/women-in-philanthropy-grant-to-philharmonic/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-A2PIC2-1203.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Toyota of Scranton supports Wreaths Across America",
+      "title_distilled": "Toyota of Scranton supports Wreaths Across America.",
+      "description": "Toyota of Scranton is proud to support Wreaths Across America on Saturday, Dec. 13, at noon at Cathedral Cemetery, Scranton. Molly Fenwick, a Juliette Scout, organizes this event each year. Wreaths are placed on the graves of veterans to honor and remember them. Families and volunteers are welcome to share in this meaningful and patriotic experience. From left: Molly Fenwick, Juliette Scout, Wreaths Across America organizer; and Patrick Rogers, chief financial officer, Toyota of Scranton.",
+      "description_distilled": "",
+      "content": "Toyota of Scranton is proud to support Wreaths Across America on Saturday, Dec. 13, at noon at Cathedral Cemetery, Scranton. Molly Fenwick, a Juliette Scout, organizes this event each year. Wreaths are placed on the graves of veterans to honor and remember them. Families and volunteers are welcome to share in this meaningful and patriotic experience. From left: Molly Fenwick, Juliette Scout, Wreaths Across America organizer; and Patrick Rogers, chief financial officer, Toyota of Scranton.",
+      "content_distilled": "Toyota of Scranton is proud to support Wreaths Across America on Saturday, Dec.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Wreaths Across",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wreaths-across.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "America Toyota",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/america-toyota.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Cathedral Cemetery",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cathedral-cemetery.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Molly Fenwick",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/molly-fenwick.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Juliette Scout",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/juliette-scout.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Patrick Rogers",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/patrick-rogers.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton",
+            "to": "Wreaths Across",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Scranton",
+            "to": "America Toyota",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "America Toyota",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wreaths </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">America </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cathedra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Molly Fe</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Juliette</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Patrick </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Wreaths Across": "../entities/people/wreaths-across.md",
+          "America Toyota": "../entities/people/america-toyota.md",
+          "Cathedral Cemetery": "../entities/people/cathedral-cemetery.md",
+          "Molly Fenwick": "../entities/people/molly-fenwick.md",
+          "Juliette Scout": "../entities/people/juliette-scout.md",
+          "Patrick Rogers": "../entities/people/patrick-rogers.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-12-03T05:00:39",
+      "url": "https://www.thetimes-tribune.com/2025/12/03/toyota-of-scranton-supports-wreaths-across-america/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-A2PIC1-1203.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "WBS PENS: Rivalries with Bears, Phantoms heating up the holidays",
+      "title_distilled": "WBS PENS: Rivalries with Bears, Phantoms heating up the holidays.",
+      "description": "The Wilkes-Barre/Scranton Penguins enter December looking to return to form after closing out November on a sour note in Hershey. Getting back to work and focusing on the details would appear to be the message heading into a long week of practice before the Penguins (15-5-1) get set to rematch both Lehigh Valley and Hershey on the weekend. &#8220;We have a full week of practice ahead of us now. It&#8217;s better to have these games early on. I feel like as a team, you can learn a lot from this,&#8221; Penguins defenseman Jack St. Ivany said after Saturday\u2019s loss to [&#8230;]",
+      "description_distilled": "",
+      "content": "The Wilkes-Barre/Scranton Penguins enter December looking to return to form after closing out November on a sour note in Hershey. Getting back to work and focusing on the details would appear to be the message heading into a long week of practice before the Penguins (15-5-1) get set to rematch both Lehigh Valley and Hershey on the weekend. &#8220;We have a full week of practice ahead of us now. It&#8217;s better to have these games early on. I feel like as a team, you can learn a lot from this,&#8221; Penguins defenseman Jack St. Ivany said after Saturday\u2019s loss to [&#8230;]",
+      "content_distilled": "Wilkes-Barre/Scranton Penguins enter December looking to return to form after closing out November on a sour note in Hershey.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Wilkes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-wilkes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Penguins",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-penguins.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lehigh Valley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lehigh-valley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jack St. Ivany",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jack-st-ivany.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Jack St. Ivany",
+            "to": "Scranton",
+            "type": "RELATES_TO"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wilk</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jack St.</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Wilkes": "../entities/people/the-wilkes.md",
+          "Scranton Penguins": "../entities/people/scranton-penguins.md",
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
+          "Jack St. Ivany": "../entities/people/jack-st-ivany.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-12-03T05:00:37",
+      "url": "https://www.thetimes-tribune.com/2025/12/03/wbs-pens-rivalries-with-bears-phantoms-heating-up-the-holidays/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/PEns.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "A varied Hanukkah to light up NEPA",
+      "title_distilled": "varied Hanukkah to light up NEPA.",
+      "description": "A Festival of Lights from the traditional to the unusual will brighten the region in Lackawanna and Luzerne counties",
+      "description_distilled": "",
+      "content": "A Festival of Lights from the traditional to the unusual will brighten the region in Lackawanna and Luzerne counties",
+      "content_distilled": "Festival of Lights from the traditional to the unusual will brighten the region in Lackawanna and Luzerne counties.",
+      "graph": {
+        "entities": [],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.0,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {}
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-12-03T05:00:08",
+      "url": "https://www.thetimes-tribune.com/2025/12/03/a-varied-hanukkah-to-light-up-nepa/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/CVC-L-MAYRUTZ-1230-6.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
