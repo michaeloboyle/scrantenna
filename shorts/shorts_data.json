@@ -1,12 +1,109 @@
 {
-  "generated_at": "2025-12-10T11:04:40.588283",
-  "source_file": "../data/daily/scranton_news_2025-12-10.json",
+  "generated_at": "2025-12-11T11:04:28.507346",
+  "source_file": "../data/daily/scranton_news_2025-12-11.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Police say 3 people stabbed, suspect in custody in Scranton",
+      "title_distilled": "Police say 3 people stabbed, suspect in custody in Scranton.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody....",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody....",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton Police",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-police.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "News Tuesday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/news-tuesday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Tue</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Police": "../entities/people/scranton-police.md",
+          "News Tuesday": "../entities/people/news-tuesday.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "2822news.com",
+      "publishedAt": "2025-12-10T01:13:32Z",
+      "url": "https://www.2822news.com/news/local-news/police-say-3-people-stabbed-suspect-in-custody-in-scranton/",
+      "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/70f17b8d2cb7e9ddda4b69f9d5311b4e",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Lottery ticket worth $1.7M sold in Pa.",
       "title_distilled": "Lottery ticket worth $1.",
       "description": "CLARK SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A jackpot-winning Pennsylvania Lottery Match 6 Lotto ticket worth $1,170,000 was sold in Lackawanna County. The...",
@@ -114,11 +211,11 @@
       "url": "https://www.2822news.com/news/lottery-ticket-worth-1-7m-sold-in-pa/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/e7863cfa2fceea4babdad4b7261fc7da",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "GOP voters liked Trump as the \u2018antiwar\u2019 candidate. Now they\u2019d support an attack on Venezuela",
       "title_distilled": "GOP voters liked Trump as the \u2018antiwar\u2019 candidate.",
       "description": "A narrow, brick-sided alley runs between the Republican Party headquarters in Lackawanna County, Pennsylvania, and its parking lot. The building also served as Donald Trump\u2019s 2024 campaign headquarters in the city of Scranton, and the alley is where I came ac\u2026",
@@ -198,11 +295,11 @@
       "url": "https://biztoc.com/x/aedc2d4fd8eaec88",
       "urlToImage": "https://biztoc.com/cdn/aedc2d4fd8eaec88_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "NWS issues wind advisory across NEPA",
       "title_distilled": "NWS issues wind advisory across NEPA.",
       "description": "(WBRE/WYOU) \u2014 From rain to snow, changes are already happening across the area, and 28/22 News Meteorologist Valerie Smock has the forecast as the National...",
@@ -279,11 +376,11 @@
       "url": "https://www.2822news.com/weather/nws-issues-wind-advisory-across-nepa/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/8eb26286da51f249aa0e39a464416045",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Pa. woman, son charged in ballot-tampering investigation",
       "title_distilled": "Pa.",
       "description": "A mother and son face felony and misdemeanor charges stemming from an investigation into ballot tampering at a West Scranton polling place during the Nov. 4 municipal election. The Lackawanna County district attorney\u2019s office charged Kathie Sico, 67, and Mich\u2026",
@@ -383,11 +480,11 @@
       "url": "https://freerepublic.com/focus/f-news/4352761/posts",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Auburn football officially signs three-star DL Tavian Branch",
       "title_distilled": "Auburn football officially signs three-star DL Tavian Branch.",
       "description": "Tavian Branch officially signs with Auburn after announcing his commitment to Alex Golesh and the Tigers on signing day.",
@@ -432,11 +529,11 @@
       "url": "https://auburnwire.usatoday.com/story/sports/college/auburn/recruiting/2025/12/04/auburn-football-lands-three-star-dl-tavian-branch/87604247007/",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/lUPKxo1KOtpft4sN6pp.bw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/auburn_wire_usa_today_articles_537/13640e6c7955b2ec907b026fbe884d0c",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "HS BASKETBALL: Coaches vs. Cancer Media Day unofficial start to season",
       "title_distilled": "HS BASKETBALL: Coaches vs.",
       "description": "SCRANTON \u2014 New venue. Same purpose. On Sunday, the annual Coaches vs. Cancer Northeast Pennsylvania Media Day was held at the Lackawanna College Student Union gymnasium for the first time. It was announced that the historic venue will continue to host the eve\u2026",
@@ -521,11 +618,323 @@
       "url": "https://www.thetimes-tribune.com/2025/11/23/hs-basketball-coaches-vs-cancer-media-day-unofficial-start-to-season/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
+      "title": "Trump kicks off affordability messaging tour after GOP\u2019s rough off-year elections",
+      "title_distilled": "Trump kicks off affordability messaging tour after GOP\u2019s rough off-year elections.",
+      "description": "President Trump launched his new affordability-focused roadshow Tuesday in northeastern Pennsylvania \u2014 the first stop on a high-stakes messaging blitz meant to steady the White House after Republicans suffered a bruising off-year election cycle in New Jersey,\u2026",
+      "description_distilled": "",
+      "content": "President Trump launched his new affordability-focused roadshow Tuesday in northeastern Pennsylvania \u2014 the first stop on a high-stakes messaging blitz meant to steady the White House after Republicans suffered a bruising off-year election cycle in New Jersey,\u2026",
+      "content_distilled": "President Trump launched his new affordability-focused roadshow Tuesday in northeastern Pennsylvania \u2014 the first stop on a high-stakes messaging blitz meant to steady the White House after Republicans suffered a bruising off-year election cycle in New Jersey,\u2026.",
+      "graph": {
+        "entities": [
+          {
+            "name": "President Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/president-trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "White House",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/white-house.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "New Jersey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/new-jersey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "President Trump",
+            "to": "White House",
+            "type": "LAUNCHED",
+            "verb": "launched"
+          },
+          {
+            "from": "President Trump",
+            "to": "New Jersey",
+            "type": "LAUNCHED",
+            "verb": "launched"
+          },
+          {
+            "from": "President Trump",
+            "to": "Pennsylvania",
+            "type": "LAUNCHED",
+            "verb": "launched"
+          },
+          {
+            "from": "Trump",
+            "to": "White House",
+            "type": "LAUNCHED",
+            "verb": "launched"
+          },
+          {
+            "from": "Trump",
+            "to": "New Jersey",
+            "type": "LAUNCHED",
+            "verb": "launched"
+          },
+          {
+            "from": "Trump",
+            "to": "Pennsylvania",
+            "type": "LAUNCHED",
+            "verb": "launched"
+          },
+          {
+            "from": "President Trump",
+            "to": "Trump",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">White Ho</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Jers</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LAUNCHED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LAUNCHED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LAUNCHED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LAUNCHED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LAUNCHED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LAUNCHED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "President Trump": "../entities/people/president-trump.md",
+          "White House": "../entities/people/white-house.md",
+          "New Jersey": "../entities/people/new-jersey.md",
+          "Trump": "../entities/people/trump.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "New York Post",
+      "publishedAt": "2025-12-10T00:37:01Z",
+      "url": "https://nypost.com/2025/12/09/us-news/trump-kicks-off-affordability-messaging-tour-after-gops-rough-off-year-elections/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/12/newspress-collage-6zhx325hh-1765326561151.jpg?quality=75&strip=all&1765308567&w=1200",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Trump to speak to voters on affordability as GOP faces tough midterm campaign",
+      "title_distilled": "Trump to speak to voters on affordability as GOP faces tough midterm campaign.",
+      "description": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "description_distilled": "",
+      "content": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "content_distilled": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "graph": {
+        "entities": [
+          {
+            "name": "President Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/president-trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "President Trump",
+            "to": "Trump",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "President Trump": "../entities/people/president-trump.md",
+          "Trump": "../entities/people/trump.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Biztoc.com",
+      "publishedAt": "2025-12-09T19:59:37Z",
+      "url": "https://biztoc.com/x/a71e53a2d776d6a1",
+      "urlToImage": "https://biztoc.com/cdn/955/og.png",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Trump to speak to voters on affordability as GOP faces tough midterm campaign",
+      "title_distilled": "Trump to speak to voters on affordability as GOP faces tough midterm campaign.",
+      "description": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "description_distilled": "",
+      "content": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "content_distilled": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "graph": {
+        "entities": [
+          {
+            "name": "President Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/president-trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "President Trump",
+            "to": "Trump",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "President Trump": "../entities/people/president-trump.md",
+          "Trump": "../entities/people/trump.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "CBS News",
+      "publishedAt": "2025-12-09T19:56:17Z",
+      "url": "https://www.cbsnews.com/news/trump-affordability-speech-economy-pennsylvania/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/12/09/3e69c575-6a4e-4066-8d4d-5a620dc76726/thumbnail/1200x630g2/02e00743cc11b1a5e2b903d1329e141c/trumppa.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Trump will again test \u2018blame Democrats\u2019 message on the economy -- this time at a casino",
+      "title_distilled": "Trump will again test \u2018blame Democrats\u2019 message on the economy -- this time at a casino.",
+      "description": "President Donald Trump will give a speech in Northeastern Pennsylvania on Tuesday, the first stop in a \u2018tour\u2019 where he will talk about affordability concerns, among others.",
+      "description_distilled": "",
+      "content": "President Donald Trump will give a speech in Northeastern Pennsylvania on Tuesday, the first stop in a \u2018tour\u2019 where he will talk about affordability concerns, among others.",
+      "content_distilled": "President Donald Trump will give a speech in Northeastern Pennsylvania on Tuesday, the first stop in a \u2018tour\u2019 where he will talk about affordability concerns, among others.",
+      "graph": {
+        "entities": [
+          {
+            "name": "President Donald",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/president-donald.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Donald Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/donald-trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "President Donald",
+            "to": "Donald Trump",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Donald T</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "President Donald": "../entities/people/president-donald.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Donald Trump": "../entities/people/donald-trump.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Biztoc.com",
+      "publishedAt": "2025-12-09T19:37:20Z",
+      "url": "https://biztoc.com/x/678e23f13ef393d4",
+      "urlToImage": "https://biztoc.com/cdn/678e23f13ef393d4_s.webp",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
       "title": "Dr. Oz joins Bresnahan for health care roundtable",
       "title_distilled": "Dr.",
       "description": "Administrator of the Centers for Medicare and Medicaid Dr. Mehmet Oz and U.S. Rep. Rob Bresnahan Jr. offered health care services checkup for people in Northeast Pennsylvania. They visited Scranton\u2026",
@@ -618,130 +1027,11 @@
       "url": "https://www.thetimes-tribune.com/2025/12/05/dr-oz-joins-bresnahan-for-healthcare-roundtable-friday/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-DROZ-1206-04-1.jpg?w=1024&h=661",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_7",
-      "title": "Gentex Corporation Secures Third Year Option on its Advanced Combat Helmet Generation II Contract Worth $38.4 Million",
-      "title_distilled": "Gentex Corporation Secures Third Year Option on its Advanced Combat Helmet Generation II Contract Worth $38.",
-      "description": "CARBONDALE, PA, November 13, 2025 \u2014 The Defense Logistics Agency (DLA) has exercised the third one-year option period of the Advanced Combat Helmet Generation II (ACH Gen II) production contract (SPE1C1-23-D-0004) awarded to Gentex Corporation. Valued at up t\u2026",
-      "description_distilled": "",
-      "content": "CARBONDALE, PA, November 13, 2025 \u2014 The Defense Logistics Agency (DLA) has exercised the third one-year option period of the Advanced Combat Helmet Generation II (ACH Gen II) production contract (SPE1C1-23-D-0004) awarded to Gentex Corporation. Valued at up t\u2026",
-      "content_distilled": "CARBONDALE, PA, November 13, 2025 \u2014 The Defense Logistics Agency  has exercised the third one-year option period of the Advanced Combat Helmet Generation II  production contract  awarded to Gentex Corporation.",
-      "graph": {
-        "entities": [
-          {
-            "name": "ACH Gen II",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/ach-gen-ii.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Gentex Corporation",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/gentex-corporation.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Secures Third",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/secures-third.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Year Option",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/year-option.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Advanced Combat",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/advanced-combat.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Helmet Generation",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/helmet-generation.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Contract Worth",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/contract-worth.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Defense",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-defense.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Logistics Agency",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/logistics-agency.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Year Option",
-            "to": "Advanced Combat",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">ACH Gen </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gentex C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Secures </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Year Opt</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Advanced</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Helmet G</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "ACH Gen II": "../entities/works/movies/ach-gen-ii.md",
-          "Gentex Corporation": "../entities/people/gentex-corporation.md",
-          "Secures Third": "../entities/people/secures-third.md",
-          "Year Option": "../entities/people/year-option.md",
-          "Advanced Combat": "../entities/people/advanced-combat.md",
-          "Helmet Generation": "../entities/people/helmet-generation.md",
-          "Contract Worth": "../entities/people/contract-worth.md",
-          "The Defense": "../entities/people/the-defense.md",
-          "Logistics Agency": "../entities/people/logistics-agency.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Soldiersystems.net",
-      "publishedAt": "2025-11-13T11:00:00Z",
-      "url": "https://soldiersystems.net/2025/11/13/gentex-corporation-secures-third-year-option-on-its-advanced-combat-helmet-generation-ii-contract-worth-38-4-million/",
-      "urlToImage": "https://soldiersystems.net/wp-content/uploads/2025/11/20251029_ach_gen_ii_press_release_image-3.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
+      "id": "short_12",
       "title": "Pens Points: Off to Philly",
       "title_distilled": "Pens Points: Off to Philly.",
       "description": "Here are your Pens Points for this Monday morning\u2026 The Pittsburgh Penguins assigned forwards Tristan Broz and Danton Heinen to the Wilkes-Barre/Scranton Penguins on Sunday. [Trib Live] Before his reassignment, rookie forward Tristan Broz made his NHL debut la\u2026",
@@ -834,291 +1124,47 @@
       "url": "https://www.pensburgh.com/news/69690/pens-points-penguins-broz-corey-oconnor-kyle-dubas-nhl-carter-hart-2026-olympics",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/qqE4gBuO0okg7ATwCRbRSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTY7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/89a34315d8fdf26f704a6f54497db7a8",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Two dozen people forced from homes after fire in Scranton",
-      "title_distilled": "Two dozen people forced from homes after fire in Scranton.",
-      "description": "A three-alarm fire in Scranton forces more than twenty people from their homes.",
-      "description_distilled": "",
-      "content": "A three-alarm fire in Scranton forces more than twenty people from their homes.",
-      "content_distilled": "three-alarm fire in Scranton forces more than twenty people from their homes.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-10T10:50:41",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/two-dozen-people-forced-from-homes-after-fire-in-scranton-west-side-hotel-main-avenue-nikki-krize/523-c482dca0-5130-4069-8cbd-86b5da187b14",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Three injured, one in custody after stabbing in Scranton, police say",
-      "title_distilled": "Three injured, one in custody after stabbing in Scranton, police say.",
-      "description": "Scranton Police are investigating a stabbing at the Jermyn Apartments on Tuesday night; three are injured, and one is in custody.",
-      "description_distilled": "",
-      "content": "Scranton Police are investigating a stabbing at the Jermyn Apartments on Tuesday night; three are injured, and one is in custody.",
-      "content_distilled": "Scranton Police are investigating a stabbing at the Jermyn Apartments on Tuesday night; three are injured, and one is in custody.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Police",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jermyn Apartments",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jermyn-apartments.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jermyn A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
-          "Jermyn Apartments": "../entities/people/jermyn-apartments.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-10T04:36:56",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-presence-closes-road-scranton-lackawanna-county-biden-street-wyoming-avenue/523-8bf06c7e-d09e-477c-b1f1-ca6c925b34e3",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Hundreds of kids receive holiday gifts through local Christmas event in Carbondale",
-      "title_distilled": "Hundreds of kids receive holiday gifts through local Christmas event in Carbondale.",
-      "description": "Kids received winter essentials like coats, hats, gloves, and scarves, and their families could select gifts for them this Christmas.",
-      "description_distilled": "",
-      "content": "Kids received winter essentials like coats, hats, gloves, and scarves, and their families could select gifts for them this Christmas.",
-      "content_distilled": "Kids received winter essentials like coats, hats, gloves, and scarves, and their families could select gifts for them this Christmas.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Carbondale Kids",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-kids.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Carbondale Kids": "../entities/people/carbondale-kids.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-10T04:27:28",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/hundreds-of-kids-receive-holiday-gifts-through-local-christmas-event-in-carbondale/523-bdfbca69-0dea-4e0f-8a7a-fe9d0fa73f38",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Kids with disabilities enjoy a festive day with Santa at Tobyhanna Army Depot party",
-      "title_distilled": "Kids with disabilities enjoy a festive day with Santa at Tobyhanna Army Depot party.",
-      "description": "Children with disabilities created ornaments and received gifts at a Christmas party in Lackawanna County, celebrating inclusivity and holiday cheer.",
-      "description_distilled": "",
-      "content": "Children with disabilities created ornaments and received gifts at a Christmas party in Lackawanna County, celebrating inclusivity and holiday cheer.",
-      "content_distilled": "Children with disabilities created ornaments and received gifts at a Christmas party in Lackawanna County, celebrating inclusivity and holiday cheer.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Tobyhanna Army",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/tobyhanna-army.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Tobyhanna Army",
-            "to": "Lackawanna County",
-            "type": "CREATED",
-            "verb": "created"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tobyhann</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CREATED</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Tobyhanna Army": "../entities/people/tobyhanna-army.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-09T22:52:39",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/kids-with-disabilities-enjoy-a-festive-day-with-santa-at-tobyhanna-army-depot-party-luccas-wnep-taylor/523-fe85af96-358f-4cd5-9bf1-8b56ed24490a",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "President Trump rallies crowd at Mount Airy Casino in the Poconos",
-      "title_distilled": "President Trump rallies crowd at Mount Airy Casino in the Poconos.",
-      "description": "PARADISE TOWNSHIP, MONROE COUNTY (WBRE/WYOU) \u2014 President Donald Trump took to the stage in the Poconos, touting his economic agenda and how he plans to tackle inflation and higher prices. President Trump visited northeastern Pennsylvania on Tuesday to talk about affordability, an issue that polls show has many Americans concerned. He held a rally at [...]",
+      "title": "Icy road conditions expected in Scranton",
+      "title_distilled": "Icy road conditions expected in Scranton.",
+      "description": "With the wet snow that's fallen and below-freezing temperatures expected over the next few days, roads are going to be icy. Folks in Scranton are preparing.",
       "description_distilled": "",
-      "content": "PARADISE TOWNSHIP, MONROE COUNTY (WBRE/WYOU) \u2014 President Donald Trump took to the stage in the Poconos, touting his economic agenda and how he plans to tackle inflation and higher prices. President Trump visited northeastern Pennsylvania on Tuesday to talk about affordability, an issue that polls show has many Americans concerned. He held a rally at [...]",
-      "content_distilled": "PARADISE TOWNSHIP, MONROE COUNTY  \u2014 President Donald Trump took to the stage in the Poconos, touting his economic agenda and how he plans to tackle inflation and higher prices.",
+      "content": "With the wet snow that's fallen and below-freezing temperatures expected over the next few days, roads are going to be icy. Folks in Scranton are preparing.",
+      "content_distilled": "With the wet snow that's fallen and below-freezing temperatures expected over the next few days, roads are going to be icy.",
       "graph": {
         "entities": [
           {
-            "name": "President Trump",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/president-trump.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mount Airy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mount-airy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "President Donald",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/president-donald.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Trump",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/trump.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Donald Trump",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/donald-trump.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
+            "name": "Icy road",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/icy-road.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "President Trump",
-            "to": "Pennsylvania",
-            "type": "VISITED",
-            "verb": "visited"
+            "from": "Icy road",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           },
           {
-            "from": "Trump",
-            "to": "Pennsylvania",
-            "type": "VISITED",
-            "verb": "visited"
-          },
-          {
-            "from": "President Donald",
-            "to": "Donald Trump",
-            "type": "HAS_TITLE"
+            "from": "Icy road",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mount Ai</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Donald T</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Icy road</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1129,19 +1175,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "President Trump": "../entities/people/president-trump.md",
-          "Mount Airy": "../entities/people/mount-airy.md",
-          "President Donald": "../entities/people/president-donald.md",
-          "Trump": "../entities/people/trump.md",
-          "Donald Trump": "../entities/people/donald-trump.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Scranton": "../entities/locations/scranton.md",
+          "Icy road": "../entities/locations/icy-road.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-12-09T13:39:15",
-      "url": "https://www.2822news.com/news/how-to-stream-president-donald-trumps-speech-from-mount-airy-casino-and-resort/",
+      "source": "Wnep",
+      "publishedAt": "2025-12-11T03:34:37",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/icy-road-conditions-expected-in-scranton-lackawanna-county/523-1ccdfc5d-1f52-4a30-b05d-a7a0250b6c3d",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1149,47 +1189,33 @@
     },
     {
       "id": "short_14",
-      "title": "Police say 3 people stabbed, suspect in custody in Scranton",
-      "title_distilled": "Police say 3 people stabbed, suspect in custody in Scranton.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody. 28/22 News was there Tuesday night, as several police cars were seen at the corner of Wyoming Avenue and Penn Avenue around 7:30 p.m. The Scranton Police Department says they're investigating [...]",
+      "title": "Investigators search for cause after flames tear through Scranton's West Side Hotel",
+      "title_distilled": "Investigators search for cause after flames tear through Scranton's West Side Hotel.",
+      "description": "Fire inspectors were back at the West Side Hotel after flames tore through the well-known establishment along South Main Avenue early Wednesday.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody. 28/22 News was there Tuesday night, as several police cars were seen at the corner of Wyoming Avenue and Penn Avenue around 7:30 p.m. The Scranton Police Department says they're investigating [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody.",
+      "content": "Fire inspectors were back at the West Side Hotel after flames tore through the well-known establishment along South Main Avenue early Wednesday.",
+      "content_distilled": "Fire inspectors were back at the West Side Hotel after flames tore through the well-known establishment along South Main Avenue early Wednesday.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Police",
+            "name": "West Side",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
+            "file_path": "../entities/people/west-side.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "News Tuesday",
+            "name": "Hotel Fire",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/news-tuesday.md",
+            "file_path": "../entities/people/hotel-fire.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Wyoming Avenue",
+            "name": "South Main",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/wyoming-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Penn Avenue",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/penn-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
+            "file_path": "../entities/people/south-main.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1200,62 +1226,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
+            "name": "along South Main Avenue",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "corner of Wyoming Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/corner-of-wyoming-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Scranton Police Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-scranton-police-department.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
+            "file_path": "../entities/locations/along-south-main-avenue.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "The Scranton Police Department",
-            "to": "Wyoming Avenue",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
+            "from": "along South Main Avenue",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "corner of Wyoming Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "The Scranton Police Department",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Tue</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wyoming </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Penn Ave</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Sid</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hotel Fi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ma</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along So</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1266,21 +1251,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
-          "News Tuesday": "../entities/people/news-tuesday.md",
-          "Wyoming Avenue": "../entities/people/wyoming-avenue.md",
-          "Penn Avenue": "../entities/people/penn-avenue.md",
-          "The Scranton": "../entities/people/the-scranton.md",
+          "West Side": "../entities/people/west-side.md",
+          "Hotel Fire": "../entities/people/hotel-fire.md",
+          "South Main": "../entities/people/south-main.md",
           "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "corner of Wyoming Avenue": "../entities/locations/corner-of-wyoming-avenue.md",
-          "The Scranton Police Department": "../entities/organizations/the-scranton-police-department.md",
-          "WBRE": "../entities/organizations/wbre.md"
+          "along South Main Avenue": "../entities/locations/along-south-main-avenue.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2025-12-10T01:13:32",
-      "url": "https://www.2822news.com/news/local-news/police-say-3-people-stabbed-suspect-in-custody-in-scranton/",
+      "source": "Wnep",
+      "publishedAt": "2025-12-10T21:55:23",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/investigators-search-for-cause-after-flames-tear-through-scrantons-west-side-hotel-south-main-avenue-kilcoynes/523-54651303-5f47-473b-a344-eced3451a35c",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
