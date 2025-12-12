@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-11T11:04:28.507346",
-  "source_file": "../data/daily/scranton_news_2025-12-11.json",
+  "generated_at": "2025-12-12T11:04:38.994285",
+  "source_file": "../data/daily/scranton_news_2025-12-12.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -623,6 +623,74 @@
     },
     {
       "id": "short_7",
+      "title": "Trump rants nonsense about transgender people instead of fixing affordability crisis at Pennsylvania rally",
+      "title_distilled": "Trump rants nonsense about transgender people instead of fixing affordability crisis at Pennsylvania rally.",
+      "description": "He called \"affordability\" a Democratic hoax while repeating bizarre \"transgender for all\" claim.",
+      "description_distilled": "",
+      "content": "He called \"affordability\" a Democratic hoax while repeating bizarre \"transgender for all\" claim.",
+      "content_distilled": "He called \"affordability\" a Democratic hoax while repeating bizarre \"transgender for all\" claim.",
+      "graph": {
+        "entities": [
+          {
+            "name": "affordability",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/affordability.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "transgender for all",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/transgender-for-all.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "transgender for all",
+            "to": "affordability",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "affordability",
+            "to": "Pennsylvania",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">affordab</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">transgen</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "affordability": "../entities/works/movies/affordability.md",
+          "transgender for all": "../entities/works/movies/transgender-for-all.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Advocate.com",
+      "publishedAt": "2025-12-10T17:31:09Z",
+      "url": "https://www.advocate.com/politics/trump-pa-affordability-transgender",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/7b6IOMszLdqZACGKv0M3LQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/the_advocate_articles_932/553a36416588bc570bf39abd3dfa05d7",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
       "title": "Trump kicks off affordability messaging tour after GOP\u2019s rough off-year elections",
       "title_distilled": "Trump kicks off affordability messaging tour after GOP\u2019s rough off-year elections.",
       "description": "President Trump launched his new affordability-focused roadshow Tuesday in northeastern Pennsylvania \u2014 the first stop on a high-stakes messaging blitz meant to steady the White House after Republicans suffered a bruising off-year election cycle in New Jersey,\u2026",
@@ -733,69 +801,6 @@
       "url": "https://nypost.com/2025/12/09/us-news/trump-kicks-off-affordability-messaging-tour-after-gops-rough-off-year-elections/",
       "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/12/newspress-collage-6zhx325hh-1765326561151.jpg?quality=75&strip=all&1765308567&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "Trump to speak to voters on affordability as GOP faces tough midterm campaign",
-      "title_distilled": "Trump to speak to voters on affordability as GOP faces tough midterm campaign.",
-      "description": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
-      "description_distilled": "",
-      "content": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
-      "content_distilled": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
-      "graph": {
-        "entities": [
-          {
-            "name": "President Trump",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/president-trump.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Trump",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/trump.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "President Trump",
-            "to": "Trump",
-            "type": "HAS_TITLE"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "President Trump": "../entities/people/president-trump.md",
-          "Trump": "../entities/people/trump.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Biztoc.com",
-      "publishedAt": "2025-12-09T19:59:37Z",
-      "url": "https://biztoc.com/x/a71e53a2d776d6a1",
-      "urlToImage": "https://biztoc.com/cdn/955/og.png",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
       "animation_delay": 0.8
     },
@@ -854,16 +859,79 @@
           "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "CBS News",
-      "publishedAt": "2025-12-09T19:56:17Z",
-      "url": "https://www.cbsnews.com/news/trump-affordability-speech-economy-pennsylvania/",
-      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/12/09/3e69c575-6a4e-4066-8d4d-5a620dc76726/thumbnail/1200x630g2/02e00743cc11b1a5e2b903d1329e141c/trumppa.jpg",
+      "source": "Biztoc.com",
+      "publishedAt": "2025-12-09T19:59:37Z",
+      "url": "https://biztoc.com/x/a71e53a2d776d6a1",
+      "urlToImage": "https://biztoc.com/cdn/955/og.png",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
+      "title": "Trump to speak to voters on affordability as GOP faces tough midterm campaign",
+      "title_distilled": "Trump to speak to voters on affordability as GOP faces tough midterm campaign.",
+      "description": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "description_distilled": "",
+      "content": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "content_distilled": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "graph": {
+        "entities": [
+          {
+            "name": "President Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/president-trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "President Trump",
+            "to": "Trump",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "President Trump": "../entities/people/president-trump.md",
+          "Trump": "../entities/people/trump.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "CBS News",
+      "publishedAt": "2025-12-09T19:56:17Z",
+      "url": "https://www.cbsnews.com/news/trump-affordability-speech-economy-pennsylvania/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/12/09/3e69c575-6a4e-4066-8d4d-5a620dc76726/thumbnail/1200x630g2/02e00743cc11b1a5e2b903d1329e141c/trumppa.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
       "title": "Trump will again test \u2018blame Democrats\u2019 message on the economy -- this time at a casino",
       "title_distilled": "Trump will again test \u2018blame Democrats\u2019 message on the economy -- this time at a casino.",
       "description": "President Donald Trump will give a speech in Northeastern Pennsylvania on Tuesday, the first stop in a \u2018tour\u2019 where he will talk about affordability concerns, among others.",
@@ -930,11 +998,11 @@
       "url": "https://biztoc.com/x/678e23f13ef393d4",
       "urlToImage": "https://biztoc.com/cdn/678e23f13ef393d4_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
       "title": "Dr. Oz joins Bresnahan for health care roundtable",
       "title_distilled": "Dr.",
       "description": "Administrator of the Centers for Medicare and Medicaid Dr. Mehmet Oz and U.S. Rep. Rob Bresnahan Jr. offered health care services checkup for people in Northeast Pennsylvania. They visited Scranton\u2026",
@@ -1027,11 +1095,11 @@
       "url": "https://www.thetimes-tribune.com/2025/12/05/dr-oz-joins-bresnahan-for-healthcare-roundtable-friday/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-DROZ-1206-04-1.jpg?w=1024&h=661",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "Pens Points: Off to Philly",
       "title_distilled": "Pens Points: Off to Philly.",
       "description": "Here are your Pens Points for this Monday morning\u2026 The Pittsburgh Penguins assigned forwards Tristan Broz and Danton Heinen to the Wilkes-Barre/Scranton Penguins on Sunday. [Trib Live] Before his reassignment, rookie forward Tristan Broz made his NHL debut la\u2026",
@@ -1124,123 +1192,70 @@
       "url": "https://www.pensburgh.com/news/69690/pens-points-penguins-broz-corey-oconnor-kyle-dubas-nhl-carter-hart-2026-olympics",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/qqE4gBuO0okg7ATwCRbRSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTY7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/89a34315d8fdf26f704a6f54497db7a8",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Icy road conditions expected in Scranton",
-      "title_distilled": "Icy road conditions expected in Scranton.",
-      "description": "With the wet snow that's fallen and below-freezing temperatures expected over the next few days, roads are going to be icy. Folks in Scranton are preparing.",
-      "description_distilled": "",
-      "content": "With the wet snow that's fallen and below-freezing temperatures expected over the next few days, roads are going to be icy. Folks in Scranton are preparing.",
-      "content_distilled": "With the wet snow that's fallen and below-freezing temperatures expected over the next few days, roads are going to be icy.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Icy road",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/icy-road.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Icy road",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Icy road",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Icy road</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md",
-          "Icy road": "../entities/locations/icy-road.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-11T03:34:37",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/icy-road-conditions-expected-in-scranton-lackawanna-county/523-1ccdfc5d-1f52-4a30-b05d-a7a0250b6c3d",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "Investigators search for cause after flames tear through Scranton's West Side Hotel",
-      "title_distilled": "Investigators search for cause after flames tear through Scranton's West Side Hotel.",
-      "description": "Fire inspectors were back at the West Side Hotel after flames tore through the well-known establishment along South Main Avenue early Wednesday.",
+      "title": "2025 John Mitchell Memorial Man of the Year Award",
+      "title_distilled": "2025 John Mitchell Memorial Man of the Year Award.",
+      "description": "Former Lackawanna County Commissioner Patrick O\u2019Malley received the John Mitchell Memorial Man of the Year Award.",
       "description_distilled": "",
-      "content": "Fire inspectors were back at the West Side Hotel after flames tore through the well-known establishment along South Main Avenue early Wednesday.",
-      "content_distilled": "Fire inspectors were back at the West Side Hotel after flames tore through the well-known establishment along South Main Avenue early Wednesday.",
+      "content": "Former Lackawanna County Commissioner Patrick O\u2019Malley received the John Mitchell Memorial Man of the Year Award.",
+      "content_distilled": "Former Lackawanna County Commissioner Patrick O\u2019Malley received the John Mitchell Memorial Man of the Year Award.",
       "graph": {
         "entities": [
           {
-            "name": "West Side",
+            "name": "John Mitchell",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/west-side.md",
+            "file_path": "../entities/people/john-mitchell.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Hotel Fire",
+            "name": "Memorial Man",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/hotel-fire.md",
+            "file_path": "../entities/people/memorial-man.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "South Main",
+            "name": "Year Award",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/south-main.md",
+            "file_path": "../entities/people/year-award.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "Former Lackawanna",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/former-lackawanna.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Patrick",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/patrick.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "along South Main Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/along-south-main-avenue.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "along South Main Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "John Mitchell",
+            "to": "Year Award",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Sid</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hotel Fi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ma</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along So</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Mit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Memorial</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Year Awa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Former L</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Patrick</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1251,17 +1266,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "West Side": "../entities/people/west-side.md",
-          "Hotel Fire": "../entities/people/hotel-fire.md",
-          "South Main": "../entities/people/south-main.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "along South Main Avenue": "../entities/locations/along-south-main-avenue.md"
+          "John Mitchell": "../entities/people/john-mitchell.md",
+          "Memorial Man": "../entities/people/memorial-man.md",
+          "Year Award": "../entities/people/year-award.md",
+          "Former Lackawanna": "../entities/people/former-lackawanna.md",
+          "Patrick": "../entities/people/patrick.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-12-10T21:55:23",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/investigators-search-for-cause-after-flames-tear-through-scrantons-west-side-hotel-south-main-avenue-kilcoynes/523-54651303-5f47-473b-a344-eced3451a35c",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-12-12T05:00:59",
+      "url": "https://www.thetimes-tribune.com/2025/12/12/2025-john-mitchell-memorial-man-of-the-year-award/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-A2PIC1-1212.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
