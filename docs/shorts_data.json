@@ -1,12 +1,76 @@
 {
-  "generated_at": "2025-12-13T11:04:13.351329",
-  "source_file": "../data/daily/scranton_news_2025-12-13.json",
+  "generated_at": "2025-12-14T11:04:00.351085",
+  "source_file": "../data/daily/scranton_news_2025-12-14.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Two women and a service dog killed in machete attack, police say",
+      "title_distilled": "Two women and a service dog killed in machete attack, police say.",
+      "description": "SCRANTON, Pa. (WNEP) - Two women were killed and another was hospitalized from a machete attack in Pennsylvania. Police in Scranton said they are still investigating the machete attack at the Hotel Jermyn apartments on Tuesday night. Two women and a service d\u2026",
+      "description_distilled": "",
+      "content": "SCRANTON, Pa. (WNEP) - Two women were killed and another was hospitalized from a machete attack in Pennsylvania. Police in Scranton said they are still investigating the machete attack at the Hotel Jermyn apartments on Tuesday night. Two women and a service d\u2026",
+      "content_distilled": "SCRANTON, Pa.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Hotel Jermyn",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/hotel-jermyn.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "SCRANTON",
+            "to": "Hotel Jermyn",
+            "type": "SAID",
+            "verb": "said"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hotel Je</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Hotel Jermyn": "../entities/people/hotel-jermyn.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Freerepublic.com",
+      "publishedAt": "2025-12-12T16:06:02Z",
+      "url": "https://freerepublic.com/focus/f-news/4357086/posts",
+      "urlToImage": null,
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Police say 3 people stabbed, suspect in custody in Scranton",
       "title_distilled": "Police say 3 people stabbed, suspect in custody in Scranton.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody....",
@@ -99,11 +163,11 @@
       "url": "https://www.2822news.com/news/local-news/police-say-3-people-stabbed-suspect-in-custody-in-scranton/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/70f17b8d2cb7e9ddda4b69f9d5311b4e",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Lottery ticket worth $1.7M sold in Pa.",
       "title_distilled": "Lottery ticket worth $1.",
       "description": "CLARK SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A jackpot-winning Pennsylvania Lottery Match 6 Lotto ticket worth $1,170,000 was sold in Lackawanna County. The...",
@@ -211,11 +275,11 @@
       "url": "https://www.2822news.com/news/lottery-ticket-worth-1-7m-sold-in-pa/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/e7863cfa2fceea4babdad4b7261fc7da",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "GOP voters liked Trump as the \u2018antiwar\u2019 candidate. Now they\u2019d support an attack on Venezuela",
       "title_distilled": "GOP voters liked Trump as the \u2018antiwar\u2019 candidate.",
       "description": "A narrow, brick-sided alley runs between the Republican Party headquarters in Lackawanna County, Pennsylvania, and its parking lot. The building also served as Donald Trump\u2019s 2024 campaign headquarters in the city of Scranton, and the alley is where I came ac\u2026",
@@ -295,11 +359,11 @@
       "url": "https://biztoc.com/x/aedc2d4fd8eaec88",
       "urlToImage": "https://biztoc.com/cdn/aedc2d4fd8eaec88_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "NWS issues wind advisory across NEPA",
       "title_distilled": "NWS issues wind advisory across NEPA.",
       "description": "(WBRE/WYOU) \u2014 From rain to snow, changes are already happening across the area, and 28/22 News Meteorologist Valerie Smock has the forecast as the National...",
@@ -376,11 +440,11 @@
       "url": "https://www.2822news.com/weather/nws-issues-wind-advisory-across-nepa/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/8eb26286da51f249aa0e39a464416045",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Pa. woman, son charged in ballot-tampering investigation",
       "title_distilled": "Pa.",
       "description": "A mother and son face felony and misdemeanor charges stemming from an investigation into ballot tampering at a West Scranton polling place during the Nov. 4 municipal election. The Lackawanna County district attorney\u2019s office charged Kathie Sico, 67, and Mich\u2026",
@@ -480,11 +544,11 @@
       "url": "https://freerepublic.com/focus/f-news/4352761/posts",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "Auburn football officially signs three-star DL Tavian Branch",
       "title_distilled": "Auburn football officially signs three-star DL Tavian Branch.",
       "description": "Tavian Branch officially signs with Auburn after announcing his commitment to Alex Golesh and the Tigers on signing day.",
@@ -529,11 +593,11 @@
       "url": "https://auburnwire.usatoday.com/story/sports/college/auburn/recruiting/2025/12/04/auburn-football-lands-three-star-dl-tavian-branch/87604247007/",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/lUPKxo1KOtpft4sN6pp.bw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/auburn_wire_usa_today_articles_537/13640e6c7955b2ec907b026fbe884d0c",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "HS BASKETBALL: Coaches vs. Cancer Media Day unofficial start to season",
       "title_distilled": "HS BASKETBALL: Coaches vs.",
       "description": "SCRANTON \u2014 New venue. Same purpose. On Sunday, the annual Coaches vs. Cancer Northeast Pennsylvania Media Day was held at the Lackawanna College Student Union gymnasium for the first time. It was announced that the historic venue will continue to host the eve\u2026",
@@ -618,11 +682,11 @@
       "url": "https://www.thetimes-tribune.com/2025/11/23/hs-basketball-coaches-vs-cancer-media-day-unofficial-start-to-season/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Trump rants nonsense about transgender people instead of fixing affordability crisis at Pennsylvania rally",
       "title_distilled": "Trump rants nonsense about transgender people instead of fixing affordability crisis at Pennsylvania rally.",
       "description": "He called \"affordability\" a Democratic hoax while repeating bizarre \"transgender for all\" claim.",
@@ -686,11 +750,11 @@
       "url": "https://www.advocate.com/politics/trump-pa-affordability-transgender",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/7b6IOMszLdqZACGKv0M3LQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/the_advocate_articles_932/553a36416588bc570bf39abd3dfa05d7",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Trump kicks off affordability messaging tour after GOP\u2019s rough off-year elections",
       "title_distilled": "Trump kicks off affordability messaging tour after GOP\u2019s rough off-year elections.",
       "description": "President Trump launched his new affordability-focused roadshow Tuesday in northeastern Pennsylvania \u2014 the first stop on a high-stakes messaging blitz meant to steady the White House after Republicans suffered a bruising off-year election cycle in New Jersey,\u2026",
@@ -801,69 +865,6 @@
       "url": "https://nypost.com/2025/12/09/us-news/trump-kicks-off-affordability-messaging-tour-after-gops-rough-off-year-elections/",
       "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/12/newspress-collage-6zhx325hh-1765326561151.jpg?quality=75&strip=all&1765308567&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Trump to speak to voters on affordability as GOP faces tough midterm campaign",
-      "title_distilled": "Trump to speak to voters on affordability as GOP faces tough midterm campaign.",
-      "description": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
-      "description_distilled": "",
-      "content": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
-      "content_distilled": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
-      "graph": {
-        "entities": [
-          {
-            "name": "President Trump",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/president-trump.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Trump",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/trump.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "President Trump",
-            "to": "Trump",
-            "type": "HAS_TITLE"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "President Trump": "../entities/people/president-trump.md",
-          "Trump": "../entities/people/trump.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Biztoc.com",
-      "publishedAt": "2025-12-09T19:59:37Z",
-      "url": "https://biztoc.com/x/a71e53a2d776d6a1",
-      "urlToImage": "https://biztoc.com/cdn/955/og.png",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
@@ -922,16 +923,79 @@
           "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "CBS News",
-      "publishedAt": "2025-12-09T19:56:17Z",
-      "url": "https://www.cbsnews.com/news/trump-affordability-speech-economy-pennsylvania/",
-      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/12/09/3e69c575-6a4e-4066-8d4d-5a620dc76726/thumbnail/1200x630g2/02e00743cc11b1a5e2b903d1329e141c/trumppa.jpg",
+      "source": "Biztoc.com",
+      "publishedAt": "2025-12-09T19:59:37Z",
+      "url": "https://biztoc.com/x/a71e53a2d776d6a1",
+      "urlToImage": "https://biztoc.com/cdn/955/og.png",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
+      "title": "Trump to speak to voters on affordability as GOP faces tough midterm campaign",
+      "title_distilled": "Trump to speak to voters on affordability as GOP faces tough midterm campaign.",
+      "description": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "description_distilled": "",
+      "content": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "content_distilled": "President Trump is speaking about affordability and his economic agenda in the Poconos, in northeastern Pennsylvania, Tuesday night.",
+      "graph": {
+        "entities": [
+          {
+            "name": "President Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/president-trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "President Trump",
+            "to": "Trump",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trump</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "President Trump": "../entities/people/president-trump.md",
+          "Trump": "../entities/people/trump.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "CBS News",
+      "publishedAt": "2025-12-09T19:56:17Z",
+      "url": "https://www.cbsnews.com/news/trump-affordability-speech-economy-pennsylvania/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/12/09/3e69c575-6a4e-4066-8d4d-5a620dc76726/thumbnail/1200x630g2/02e00743cc11b1a5e2b903d1329e141c/trumppa.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
       "title": "Trump will again test \u2018blame Democrats\u2019 message on the economy -- this time at a casino",
       "title_distilled": "Trump will again test \u2018blame Democrats\u2019 message on the economy -- this time at a casino.",
       "description": "President Donald Trump will give a speech in Northeastern Pennsylvania on Tuesday, the first stop in a \u2018tour\u2019 where he will talk about affordability concerns, among others.",
@@ -998,11 +1062,11 @@
       "url": "https://biztoc.com/x/678e23f13ef393d4",
       "urlToImage": "https://biztoc.com/cdn/678e23f13ef393d4_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "Dr. Oz joins Bresnahan for health care roundtable",
       "title_distilled": "Dr.",
       "description": "Administrator of the Centers for Medicare and Medicaid Dr. Mehmet Oz and U.S. Rep. Rob Bresnahan Jr. offered health care services checkup for people in Northeast Pennsylvania. They visited Scranton\u2026",
@@ -1095,11 +1159,11 @@
       "url": "https://www.thetimes-tribune.com/2025/12/05/dr-oz-joins-bresnahan-for-healthcare-roundtable-friday/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-DROZ-1206-04-1.jpg?w=1024&h=661",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_13",
+      "id": "short_14",
       "title": "Pens Points: Off to Philly",
       "title_distilled": "Pens Points: Off to Philly.",
       "description": "Here are your Pens Points for this Monday morning\u2026 The Pittsburgh Penguins assigned forwards Tristan Broz and Danton Heinen to the Wilkes-Barre/Scranton Penguins on Sunday. [Trib Live] Before his reassignment, rookie forward Tristan Broz made his NHL debut la\u2026",
@@ -1191,125 +1255,6 @@
       "publishedAt": "2025-12-01T11:00:00Z",
       "url": "https://www.pensburgh.com/news/69690/pens-points-penguins-broz-corey-oconnor-kyle-dubas-nhl-carter-hart-2026-olympics",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/qqE4gBuO0okg7ATwCRbRSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTY7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/89a34315d8fdf26f704a6f54497db7a8",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "HS ROUNDUP: Dunmore rolls past Wyoming Valley West",
-      "title_distilled": "HS ROUNDUP: Dunmore rolls past Wyoming Valley West.",
-      "description": "Amanda Dempsey had 11 points to lead Dunmore to a 61-23 win over Wyoming Valley West in a nonleague girls basketball game Friday night at Wyoming Valley West. Jackie Brown added 10 points, while Janaya Martin tacked on eight for Dunmore (2-0). Gabbi Novitski had six points for Wyoming Valley West (1-4). Honesdale 42, Wallenpaupack 31: At Wallenpaupack, Ruby Martin had 14 points to lead the Lady Hornets (4-1) to a nonleague win. Lily Mancino had 10 points for the Lady Buckhorns (3-2). Wyoming Seminary 56, Blue Ridge 40: At Blue Ridge, Ella Stambaugh had 23 points to lead the [&#8230;]",
-      "description_distilled": "",
-      "content": "Amanda Dempsey had 11 points to lead Dunmore to a 61-23 win over Wyoming Valley West in a nonleague girls basketball game Friday night at Wyoming Valley West. Jackie Brown added 10 points, while Janaya Martin tacked on eight for Dunmore (2-0). Gabbi Novitski had six points for Wyoming Valley West (1-4). Honesdale 42, Wallenpaupack 31: At Wallenpaupack, Ruby Martin had 14 points to lead the Lady Hornets (4-1) to a nonleague win. Lily Mancino had 10 points for the Lady Buckhorns (3-2). Wyoming Seminary 56, Blue Ridge 40: At Blue Ridge, Ella Stambaugh had 23 points to lead the [&#8230;]",
-      "content_distilled": "Amanda Dempsey had 11 points to lead Dunmore to a 61-23 win over Wyoming Valley West in a nonleague girls basketball game Friday night at Wyoming Valley West.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Wyoming Valley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/wyoming-valley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "West Amanda",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/west-amanda.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jackie Brown",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jackie-brown.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Janaya Martin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/janaya-martin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Gabbi Novitski",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/gabbi-novitski.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ruby Martin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ruby-martin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lady Hornets",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lady-hornets.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lily Mancino",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lily-mancino.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lady Buckhorns",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lady-buckhorns.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Wyoming Seminary",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/wyoming-seminary.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Gabbi Novitski",
-            "to": "Wyoming Valley",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wyoming </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Ama</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jackie B</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Janaya M</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gabbi No</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ruby Mar</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Wyoming Valley": "../entities/people/wyoming-valley.md",
-          "West Amanda": "../entities/people/west-amanda.md",
-          "Jackie Brown": "../entities/people/jackie-brown.md",
-          "Janaya Martin": "../entities/people/janaya-martin.md",
-          "Gabbi Novitski": "../entities/people/gabbi-novitski.md",
-          "Ruby Martin": "../entities/people/ruby-martin.md",
-          "Lady Hornets": "../entities/people/lady-hornets.md",
-          "Lily Mancino": "../entities/people/lily-mancino.md",
-          "Lady Buckhorns": "../entities/people/lady-buckhorns.md",
-          "Wyoming Seminary": "../entities/people/wyoming-seminary.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2025-12-13T05:08:51",
-      "url": "https://www.thetimes-tribune.com/2025/12/13/hs-roundup-dunmore-rolls-past-wyoming-valley-west/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2024/12/BasketballWebstock.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
