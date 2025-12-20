@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-19T11:04:57.549343",
-  "source_file": "../data/daily/scranton_news_2025-12-19.json",
+  "generated_at": "2025-12-20T11:04:05.187035",
+  "source_file": "../data/daily/scranton_news_2025-12-20.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1076,71 +1076,21 @@
     },
     {
       "id": "short_13",
-      "title": "Lackawanna County siblings honored for jumping into action as their neighbor's home was on fire",
-      "title_distilled": "Lackawanna County siblings honored for jumping into action as their neighbor's home was on fire.",
-      "description": "14-year-old Lucas and 10-year-old Mae Gervasi were honored by Moosic Borough officials for their courage in slowing down a fire at their neighbor's home.",
+      "title": "Holiday travels made easier with the reopening of major bridges in Lackawanna County",
+      "title_distilled": "Holiday travels made easier with the reopening of major bridges in Lackawanna County.",
+      "description": "The Twin Bridges on I-84 and the Green Ridge Street bridge in Scranton are both open. But until the fall of 2026, Green Ridge Street will still undergo construction.",
       "description_distilled": "",
-      "content": "14-year-old Lucas and 10-year-old Mae Gervasi were honored by Moosic Borough officials for their courage in slowing down a fire at their neighbor's home.",
-      "content_distilled": "14-year-old Lucas and 10-year-old Mae Gervasi were honored by Moosic Borough officials for their courage in slowing down a fire at their neighbor's home.",
+      "content": "The Twin Bridges on I-84 and the Green Ridge Street bridge in Scranton are both open. But until the fall of 2026, Green Ridge Street will still undergo construction.",
+      "content_distilled": "Twin Bridges on I-84 and the Green Ridge Street bridge in Scranton are both open.",
       "graph": {
         "entities": [
           {
-            "name": "Mae Gervasi",
+            "name": "The Twin",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mae-gervasi.md",
+            "file_path": "../entities/people/the-twin.md",
             "resolution_method": "new_entity"
           },
-          {
-            "name": "Moosic Borough",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/moosic-borough.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mae Gerv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moosic B</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Mae Gervasi": "../entities/people/mae-gervasi.md",
-          "Moosic Borough": "../entities/people/moosic-borough.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-19T03:38:52",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-siblings-honored-for-jumping-into-action-as-their-neighbors-home-was-on-fire-moosic/523-07246188-52bb-4385-92c3-3521069721ec",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Green Ridge Street bridge in Scranton reopens",
-      "title_distilled": "Green Ridge Street bridge in Scranton reopens.",
-      "description": "The bridge was closed for demolition late last year.",
-      "description_distilled": "",
-      "content": "The bridge was closed for demolition late last year.",
-      "content_distilled": "bridge was closed for demolition late last year.",
-      "graph": {
-        "entities": [
           {
             "name": "Green Ridge",
             "type": "PERSON",
@@ -1153,6 +1103,13 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1170,12 +1127,17 @@
             "type": "LOCATED_IN"
           },
           {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
             "from": "Green Ridge Street",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Twin</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1186,14 +1148,73 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "The Twin": "../entities/people/the-twin.md",
           "Green Ridge": "../entities/people/green-ridge.md",
           "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
           "Green Ridge Street": "../entities/locations/green-ridge-street.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2025-12-19T03:02:00",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/green-ridge-street-bridge-in-scranton-reopens-lackawanna-county/523-1a70d76a-3e41-40ae-b75e-1916b784e725",
+      "publishedAt": "2025-12-20T04:19:35",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/holiday-travels-made-easier-with-the-reopening-of-major-bridges-in-lackawanna-county-penndot/523-b4b76b26-57cc-4b3b-b2cc-ac83d7feb835",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Final weekend for Santa Train at Steamtown: Climb aboard with Santa",
+      "title_distilled": "Final weekend for Santa Train at Steamtown: Climb aboard with Santa.",
+      "description": "This weekend is the last chance to experience Scranton's festive Santa Train ride, with music, activities, and Santa visits.",
+      "description_distilled": "",
+      "content": "This weekend is the last chance to experience Scranton's festive Santa Train ride, with music, activities, and Santa visits.",
+      "content_distilled": "This weekend is the last chance to experience Scranton's festive Santa Train ride, with music, activities, and Santa visits.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Santa Train",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/santa-train.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Santa This",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/santa-this.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Tr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Th</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Santa Train": "../entities/people/santa-train.md",
+          "Santa This": "../entities/people/santa-this.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-12-19T11:44:08",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/final-weekend-santa-train-at-steamtown-climb-aboard-with-santa-christmas-nikki-krize/523-42e28bbc-ebf6-4600-b558-9d0dd4b67737",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
