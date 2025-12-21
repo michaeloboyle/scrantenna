@@ -1,6 +1,6 @@
 {
-  "generated_at": "2025-12-20T11:04:05.187035",
-  "source_file": "../data/daily/scranton_news_2025-12-20.json",
+  "generated_at": "2025-12-21T11:04:10.363339",
+  "source_file": "../data/daily/scranton_news_2025-12-21.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1076,115 +1076,40 @@
     },
     {
       "id": "short_13",
-      "title": "Holiday travels made easier with the reopening of major bridges in Lackawanna County",
-      "title_distilled": "Holiday travels made easier with the reopening of major bridges in Lackawanna County.",
-      "description": "The Twin Bridges on I-84 and the Green Ridge Street bridge in Scranton are both open. But until the fall of 2026, Green Ridge Street will still undergo construction.",
+      "title": "Partner and protector: Scott Twp. welcomes K-9 Redd honoring late Scranton Patrolman John Wilding",
+      "title_distilled": "Partner and protector: Scott Twp.",
+      "description": "Mary Wilding introduced the 5-month-old Redd at Tuesday's Scott Twp. supervisors meeting.",
       "description_distilled": "",
-      "content": "The Twin Bridges on I-84 and the Green Ridge Street bridge in Scranton are both open. But until the fall of 2026, Green Ridge Street will still undergo construction.",
-      "content_distilled": "Twin Bridges on I-84 and the Green Ridge Street bridge in Scranton are both open.",
+      "content": "Mary Wilding introduced the 5-month-old Redd at Tuesday's Scott Twp. supervisors meeting.",
+      "content_distilled": "Mary Wilding introduced the 5-month-old Redd at Tuesday's Scott Twp.",
       "graph": {
         "entities": [
           {
-            "name": "The Twin",
+            "name": "Scott Twp",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-twin.md",
+            "file_path": "../entities/people/scott-twp.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Green Ridge",
+            "name": "Scranton Patrolman",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/green-ridge.md",
+            "file_path": "../entities/people/scranton-patrolman.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Green Ridge Street",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/green-ridge-street.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Green Ridge",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "Green Ridge Street",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Twin</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "The Twin": "../entities/people/the-twin.md",
-          "Green Ridge": "../entities/people/green-ridge.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Green Ridge Street": "../entities/locations/green-ridge-street.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-20T04:19:35",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/holiday-travels-made-easier-with-the-reopening-of-major-bridges-in-lackawanna-county-penndot/523-b4b76b26-57cc-4b3b-b2cc-ac83d7feb835",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Final weekend for Santa Train at Steamtown: Climb aboard with Santa",
-      "title_distilled": "Final weekend for Santa Train at Steamtown: Climb aboard with Santa.",
-      "description": "This weekend is the last chance to experience Scranton's festive Santa Train ride, with music, activities, and Santa visits.",
-      "description_distilled": "",
-      "content": "This weekend is the last chance to experience Scranton's festive Santa Train ride, with music, activities, and Santa visits.",
-      "content_distilled": "This weekend is the last chance to experience Scranton's festive Santa Train ride, with music, activities, and Santa visits.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Santa Train",
+            "name": "John Wilding",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/santa-train.md",
+            "file_path": "../entities/people/john-wilding.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Santa This",
+            "name": "Mary Wilding",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/santa-this.md",
+            "file_path": "../entities/people/mary-wilding.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1196,7 +1121,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Tr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Th</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scott Tw</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Wil</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mary Wil</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1207,15 +1132,163 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Santa Train": "../entities/people/santa-train.md",
-          "Santa This": "../entities/people/santa-this.md",
+          "Scott Twp": "../entities/people/scott-twp.md",
+          "Scranton Patrolman": "../entities/people/scranton-patrolman.md",
+          "John Wilding": "../entities/people/john-wilding.md",
+          "Mary Wilding": "../entities/people/mary-wilding.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2025-12-19T11:44:08",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/final-weekend-santa-train-at-steamtown-climb-aboard-with-santa-christmas-nikki-krize/523-42e28bbc-ebf6-4600-b558-9d0dd4b67737",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2025-12-21T11:00:18",
+      "url": "https://www.thetimes-tribune.com/2025/12/21/partner-and-protector-scott-twp-welcomes-k9-redd-honoring-late-scranton-patrolman-john-wilding/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-K9-1218-02.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "LOCAL COLLEGES: Royals win again at York Spartan Classic",
+      "title_distilled": "LOCAL COLLEGES: Royals win again at York Spartan Classic.",
+      "description": "Sammy Tornabene had a double-double with 30 points and 13 rebounds as the University of Scranton men&#8217;s basketball team defeated Nazareth University on Saturday, 73-63, to sweep both its games at the York Spartan Classic. Tornabene had 18 points in the first half to help the Royals take a 40-35 halftime lead. Brendan Carr added 16 points and six rebounds. Nick Ruisi chipped in 10 points and Jon Spatola collected six points, 10 rebounds, three assists and three steals. Scranton (9-1) is idle until Jan. 3 when it visits King&#8217;s College at 3 p.m. Football Lackawanna College had three players [&#8230;]",
+      "description_distilled": "",
+      "content": "Sammy Tornabene had a double-double with 30 points and 13 rebounds as the University of Scranton men&#8217;s basketball team defeated Nazareth University on Saturday, 73-63, to sweep both its games at the York Spartan Classic. Tornabene had 18 points in the first half to help the Royals take a 40-35 halftime lead. Brendan Carr added 16 points and six rebounds. Nick Ruisi chipped in 10 points and Jon Spatola collected six points, 10 rebounds, three assists and three steals. Scranton (9-1) is idle until Jan. 3 when it visits King&#8217;s College at 3 p.m. Football Lackawanna College had three players [&#8230;]",
+      "content_distilled": "Sammy Tornabene had a double-double with 30 points and 13 rebounds as the University of Scranton men&#8217;s basketball team defeated Nazareth University on Saturday, 73-63, to sweep both its games at the York Spartan Classic.",
+      "graph": {
+        "entities": [
+          {
+            "name": "York Spartan",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/york-spartan.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Classic Sammy",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/classic-sammy.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nazareth University",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nazareth-university.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Brendan Carr",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/brendan-carr.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nick Ruisi",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nick-ruisi.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jon Spatola",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jon-spatola.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Football Lackawanna",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/football-lackawanna.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Football Lackawanna College",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/football-lackawanna-college.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "York Spartan",
+            "to": "Classic Sammy",
+            "type": "DEFEATED",
+            "verb": "defeated"
+          },
+          {
+            "from": "York Spartan",
+            "to": "Nazareth University",
+            "type": "DEFEATED",
+            "verb": "defeated"
+          },
+          {
+            "from": "York Spartan",
+            "to": "Scranton",
+            "type": "DEFEATED",
+            "verb": "defeated"
+          },
+          {
+            "from": "Classic Sammy",
+            "to": "Nazareth University",
+            "type": "DEFEATED",
+            "verb": "defeated"
+          },
+          {
+            "from": "Scranton",
+            "to": "Nazareth University",
+            "type": "DEFEATED",
+            "verb": "defeated"
+          },
+          {
+            "from": "Nazareth University",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Football Lackawanna College",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">York Spa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Classic </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nazareth</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brendan </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nick Rui</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jon Spat</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "York Spartan": "../entities/people/york-spartan.md",
+          "Classic Sammy": "../entities/people/classic-sammy.md",
+          "Nazareth University": "../entities/people/nazareth-university.md",
+          "Brendan Carr": "../entities/people/brendan-carr.md",
+          "Nick Ruisi": "../entities/people/nick-ruisi.md",
+          "Jon Spatola": "../entities/people/jon-spatola.md",
+          "Football Lackawanna": "../entities/people/football-lackawanna.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Football Lackawanna College": "../entities/organizations/football-lackawanna-college.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2025-12-21T05:28:55",
+      "url": "https://www.thetimes-tribune.com/2025/12/21/local-colleges-royals-win-again-at-york-spartan-classic/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/03/STT-L-LADYROYALSCOURT-0307-01-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
