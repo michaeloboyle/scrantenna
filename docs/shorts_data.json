@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-12-29T11:04:20.746211",
-  "source_file": "../data/daily/scranton_news_2025-12-29.json",
-  "total_shorts": 14,
-  "total_duration": 112,
+  "generated_at": "2025-12-30T11:04:27.163280",
+  "source_file": "../data/daily/scranton_news_2025-12-30.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -789,40 +789,187 @@
     },
     {
       "id": "short_10",
-      "title": "Miniature Scranton landmarks captivate visitors at Everhart Museum in Nay Aug Park",
-      "title_distilled": "Miniature Scranton landmarks captivate visitors at Everhart Museum in Nay Aug Park.",
-      "description": "At Lackawanna County's Everhart Museum, visitors can explore Don Clark's intricate miniature replicas of Scranton's iconic landmarks, on view through March 29.",
+      "title": "Lackawanna County native prepares to march in Rose Parade",
+      "title_distilled": "Lackawanna County native prepares to march in Rose Parade.",
+      "description": "A Lackawanna County native will be marching in Pasadena, California, in the 137th Rose Parade.",
       "description_distilled": "",
-      "content": "At Lackawanna County's Everhart Museum, visitors can explore Don Clark's intricate miniature replicas of Scranton's iconic landmarks, on view through March 29.",
-      "content_distilled": "At Lackawanna County's Everhart Museum, visitors can explore Don Clark's intricate miniature replicas of Scranton's iconic landmarks, on view through March 29.",
+      "content": "A Lackawanna County native will be marching in Pasadena, California, in the 137th Rose Parade.",
+      "content_distilled": "Lackawanna County native will be marching in Pasadena, California, in the 137th Rose Parade.",
       "graph": {
         "entities": [
           {
-            "name": "Miniature Scranton",
+            "name": "Rose Parade",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/miniature-scranton.md",
+            "file_path": "../entities/people/rose-parade.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Everhart Museum",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rose Par</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Rose Parade": "../entities/people/rose-parade.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-12-29T21:52:32",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-native-prepares-to-march-in-rose-parade-elaine-ort-old-forge-band-directors-marching-band/523-1410f4ea-57b6-48e8-86a8-2e7f1fafbe8f",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "New playground looks to keep kids having fun outside near Clarks Summit",
+      "title_distilled": "New playground looks to keep kids having fun outside near Clarks Summit.",
+      "description": "The Abington Lions Club raised more than $40,000 for the new equipment at Hillside Park in South Abington Township.",
+      "description_distilled": "",
+      "content": "The Abington Lions Club raised more than $40,000 for the new equipment at Hillside Park in South Abington Township.",
+      "content_distilled": "Abington Lions Club raised more than $40,000 for the new equipment at Hillside Park in South Abington Township.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Clarks Summit",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/everhart-museum.md",
+            "file_path": "../entities/people/clarks-summit.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Nay Aug Park",
+            "name": "The Abington",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/nay-aug-park.md",
+            "file_path": "../entities/people/the-abington.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Don Clark",
+            "name": "Lions Club",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/don-clark.md",
+            "file_path": "../entities/people/lions-club.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Hillside Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/hillside-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "South Abington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/south-abington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "New playground looks to keep kids having fun outside near Clarks Summit",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/new-playground-looks-to-keep-kids-having-fun-outside-near-clarks-summit.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Abin</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lions Cl</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hillside</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New play</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Clarks Summit": "../entities/people/clarks-summit.md",
+          "The Abington": "../entities/people/the-abington.md",
+          "Lions Club": "../entities/people/lions-club.md",
+          "Hillside Park": "../entities/people/hillside-park.md",
+          "South Abington": "../entities/people/south-abington.md",
+          "New playground looks to keep kids having fun outside near Clarks Summit": "../entities/events/new-playground-looks-to-keep-kids-having-fun-outside-near-clarks-summit.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-12-29T21:07:00",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-play-ground-looks-keep-kids-fun-outside-clarks-summit-lackawanna-county-hillside-park/523-e5307681-8cac-4339-8f51-f16ed438088a",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Sinkhole in Blakely repaired",
+      "title_distilled": "Sinkhole in Blakely repaired.",
+      "description": "The sinkhole opened up along 5th Street Friday night in the borough.",
+      "description_distilled": "",
+      "content": "The sinkhole opened up along 5th Street Friday night in the borough.",
+      "content_distilled": "sinkhole opened up along 5th Street Friday night in the borough.",
+      "graph": {
+        "entities": [],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.0,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {}
+      },
+      "source": "Wnep",
+      "publishedAt": "2025-12-29T20:14:09",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/sinkhole-in-blakely-repaired-5th-street-lackawanna-county/523-0eab0017-6de9-4fae-b48b-39065998def9",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Road closed, police investigation underway in Scranton's west side",
+      "title_distilled": "Road closed, police investigation underway in Scranton's west side.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Scranton roadway was closed, and an investigation is underway after a reported incident on Monday afternoon. Police were seen on the 1100 block of Round Wood Place in Scranton's West Side responding to a reported incident. The nature of the incident is unknown at this time. 28/22 News was [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Scranton roadway was closed, and an investigation is underway after a reported incident on Monday afternoon. Police were seen on the 1100 block of Round Wood Place in Scranton's West Side responding to a reported incident. The nature of the incident is unknown at this time. 28/22 News was [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A Scranton roadway was closed, and an investigation is underway after a reported incident on Monday afternoon.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Round Wood",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/round-wood.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "West Side",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/west-side.md",
             "resolution_method": "new_entity"
           },
           {
@@ -833,38 +980,50 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Aug Park",
-            "type": "LOCATION",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/aug-park.md",
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Miniature Scranton",
+            "from": "Round Wood",
             "to": "Scranton",
-            "type": "MEMBER_OF"
+            "type": "LOCATED_IN"
           },
           {
-            "from": "Lackawanna County",
+            "from": "LACKAWANNA COUNTY",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
           },
           {
-            "from": "Aug Park",
+            "from": "WBRE",
             "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Miniatur</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Don Clar</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Round Wo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Sid</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -875,304 +1034,101 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Miniature Scranton": "../entities/people/miniature-scranton.md",
-          "Everhart Museum": "../entities/people/everhart-museum.md",
-          "Nay Aug Park": "../entities/people/nay-aug-park.md",
-          "Don Clark": "../entities/people/don-clark.md",
+          "Round Wood": "../entities/people/round-wood.md",
+          "West Side": "../entities/people/west-side.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Aug Park": "../entities/locations/aug-park.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2025-12-29T03:40:57",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/miniature-scranton-landmarks-captivate-visitors-everhart-museum-nay-aug-park-lackawanna-county/523-868a77eb-31a8-42ab-a34e-44bb630d9d43",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Holiday spirit thrives at Feliz Navidad Pop-up Bar",
-      "title_distilled": "Holiday spirit thrives at Feliz Navidad Pop-up Bar.",
-      "description": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There's still some time to get into the holiday spirit in Lackawanna County. Burrito Loco in Dickson City has been serving up more than just authentic Mexican dishes, and Sunday is the final day for their Feliz Navidad Pop-up Bar. This year's theme was The Grinch, featuring cocktails, meals, [...]",
-      "description_distilled": "",
-      "content": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There's still some time to get into the holiday spirit in Lackawanna County. Burrito Loco in Dickson City has been serving up more than just authentic Mexican dishes, and Sunday is the final day for their Feliz Navidad Pop-up Bar. This year's theme was The Grinch, featuring cocktails, meals, [...]",
-      "content_distilled": "DICKSON CITY, LACKAWANNA COUNTY  \u2014 There's still some time to get into the holiday spirit in Lackawanna County.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Feliz Navidad",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/feliz-navidad.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Burrito Loco",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/burrito-loco.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dickson City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Grinch",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-grinch.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Feliz Na</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Burrito </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Grin</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Feliz Navidad": "../entities/people/feliz-navidad.md",
-          "Burrito Loco": "../entities/people/burrito-loco.md",
-          "Dickson City": "../entities/people/dickson-city.md",
-          "The Grinch": "../entities/people/the-grinch.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2025-12-28T23:48:06",
-      "url": "https://www.2822news.com/news/local-news/holiday-spirit-thrives-at-feliz-navidad-pop-up-bar/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Getting close-up look at Everhart 'The Office' exhibit",
-      "title_distilled": "Getting close-up look at Everhart 'The Office' exhibit.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A museum in Lackawanna County is proving \"there ain't no party like a Scranton Party.\" Every week, hundreds of people travel from all over the world to see The Office-themed exhibit at the Everhart Museum. The museum worked with NBC to bring in actual artifacts, props, and costumes from the [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A museum in Lackawanna County is proving \"there ain't no party like a Scranton Party.\" Every week, hundreds of people travel from all over the world to see The Office-themed exhibit at the Everhart Museum. The museum worked with NBC to bring in actual artifacts, props, and costumes from the [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A museum in Lackawanna County is proving \"there ain't no party like a Scranton Party.",
-      "graph": {
-        "entities": [
-          {
-            "name": "The Office",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/the-office.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "there ain",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/there-ain.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Party",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-party.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Everhart Museum",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/everhart-museum.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "NBC",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/nbc.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">there ai</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "The Office": "../entities/works/movies/the-office.md",
-          "there ain": "../entities/works/movies/there-ain.md",
-          "Scranton Party": "../entities/people/scranton-party.md",
-          "Everhart Museum": "../entities/people/everhart-museum.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "NBC": "../entities/organizations/nbc.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2025-12-28T23:43:58",
-      "url": "https://www.2822news.com/news/local-news/getting-close-up-look-at-everhart-the-office-exhibit/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Lackawanna County issues Code Blue though New Year's Eve",
-      "title_distilled": "Lackawanna County issues Code Blue though New Year's Eve.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Code Blue has been issued for the next few days in response to upcoming cold winter weather. The Code Blue will be in effect 8:00 p.m. Monday night through 7:00 a.m. Tuesday morning, and 8:00 p.m. Tuesday night through 7:00 a.m. Wednesday morning. St. Anthony's Haven, Weston Field House, and [...]",
-      "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Code Blue has been issued for the next few days in response to upcoming cold winter weather. The Code Blue will be in effect 8:00 p.m. Monday night through 7:00 a.m. Tuesday morning, and 8:00 p.m. Tuesday night through 7:00 a.m. Wednesday morning. St. Anthony's Haven, Weston Field House, and [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 A Code Blue has been issued for the next few days in response to upcoming cold winter weather.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Code Blue",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/code-blue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "New Year",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/new-year.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Code",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-code.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Weston Field",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/weston-field.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Code Blu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Year</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Code</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Weston F</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Code Blue": "../entities/people/code-blue.md",
-          "New Year": "../entities/people/new-year.md",
-          "The Code": "../entities/people/the-code.md",
-          "Weston Field": "../entities/people/weston-field.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2025-12-28T19:00:55",
-      "url": "https://www.2822news.com/news/lackawanna-county-issues-code-blue-though-new-years-eve/",
+      "publishedAt": "2025-12-29T21:52:15",
+      "url": "https://www.2822news.com/top-news/road-closed-police-investigation-underway-in-scrantons-west-side/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "3 pets dead, 4 people forced out of home after fire",
+      "title_distilled": "3 pets dead, 4 people forced out of home after fire.",
+      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A fire in Moosic forced four people from their home and claimed the lives of three animals. The fire sparked sometime just before 3:00 p.m. at the Moosic Heights trailer park along Moosic Street. Officials on scene told 28/22 News no one was home at the time the fire started. [...]",
+      "description_distilled": "",
+      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A fire in Moosic forced four people from their home and claimed the lives of three animals. The fire sparked sometime just before 3:00 p.m. at the Moosic Heights trailer park along Moosic Street. Officials on scene told 28/22 News no one was home at the time the fire started. [...]",
+      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 A fire in Moosic forced four people from their home and claimed the lives of three animals.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Moosic Heights",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/moosic-heights.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "park along Moosic Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/park-along-moosic-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "trailer park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/trailer-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moosic H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">park alo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">trailer </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Moosic Heights": "../entities/people/moosic-heights.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "park along Moosic Street": "../entities/locations/park-along-moosic-street.md",
+          "trailer park": "../entities/locations/trailer-park.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2025-12-30T00:08:06",
+      "url": "https://www.2822news.com/news/local-news/3-pets-dead-4-people-forced-out-of-home-after-fire/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
