@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-01-06T11:04:45.344423",
-  "source_file": "../data/daily/scranton_news_2026-01-06.json",
+  "generated_at": "2026-01-07T11:04:37.833312",
+  "source_file": "../data/daily/scranton_news_2026-01-07.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -461,40 +461,68 @@
     },
     {
       "id": "short_7",
-      "title": "Dr. Oz joins Bresnahan for health care roundtable",
-      "title_distilled": "Dr.",
-      "description": "Administrator of the Centers for Medicare and Medicaid Dr. Mehmet Oz and U.S. Rep. Rob Bresnahan Jr. offered health care services checkup for people in Northeast Pennsylvania. They visited Scranton\u2026",
+      "title": "Residents voice concerns over multi-data center plan 'Project Gravity' in Archbald",
+      "title_distilled": "Residents voice concerns over multi-data center plan 'Project Gravity' in Archbald.",
+      "description": "The proposed data centers for 'Project Gravity' in Archbald have raised community concerns about their proximity to homes and potential environmental impacts.",
       "description_distilled": "",
-      "content": "Administrator of the Centers for Medicare and Medicaid Dr. Mehmet Oz and U.S. Rep. Rob Bresnahan Jr. offered health care services checkup for people in Northeast Pennsylvania. They visited Scranton\u2026",
-      "content_distilled": "Administrator of the Centers for Medicare and Medicaid Dr.",
+      "content": "The proposed data centers for 'Project Gravity' in Archbald have raised community concerns about their proximity to homes and potential environmental impacts.",
+      "content_distilled": "proposed data centers for 'Project Gravity' in Archbald have raised community concerns about their proximity to homes and potential environmental impacts.",
       "graph": {
         "entities": [
           {
-            "name": "Medicaid Dr. Mehmet",
-            "type": "PERSON",
+            "name": "Project Gravity",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/medicaid-dr-mehmet.md",
+            "file_path": "../entities/works/movies/project-gravity.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Rob Bresnahan",
+            "name": "Archbald The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/rob-bresnahan.md",
+            "file_path": "../entities/people/archbald-the.md",
             "resolution_method": "new_entity"
-          },
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Project </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Project Gravity": "../entities/works/movies/project-gravity.md",
+          "Archbald The": "../entities/people/archbald-the.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-01-07T03:54:27",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/residents-voice-concerns-over-archbald-data-center-plan-lackawanna-county-project-gravity/523-af1be776-d2dd-4cdd-945d-b1342cf4e8c5",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Greater Scranton YMCA warm clothing drive sees overwhelming amount of support",
+      "title_distilled": "Greater Scranton YMCA warm clothing drive sees overwhelming amount of support.",
+      "description": "A collection of warm clothing is piling up as the Greater Scranton YMCA looks to help those in need.",
+      "description_distilled": "",
+      "content": "A collection of warm clothing is piling up as the Greater Scranton YMCA looks to help those in need.",
+      "content_distilled": "collection of warm clothing is piling up as the Greater Scranton YMCA looks to help those in need.",
+      "graph": {
+        "entities": [
           {
-            "name": "Northeast Pennsylvania",
+            "name": "Greater Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/northeast-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mehmet",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mehmet.md",
+            "file_path": "../entities/people/greater-scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -502,6 +530,168 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "YMCA warm clothing drive",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/ymca-warm-clothing-drive.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "YMCA warm clothing drive",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greater </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">YMCA war</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Greater Scranton": "../entities/people/greater-scranton.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "YMCA warm clothing drive": "../entities/locations/ymca-warm-clothing-drive.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-01-06T21:27:47",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/greater-scranton-ymca-warm-clothing-drive-sees-overwhelming-amount-of-support-dunmore-meghan-carnevale/523-f0d52262-f14c-4482-9241-ce4ed499d03d",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Made with love: National Bakery marks 80 years in business",
+      "title_distilled": "Made with love: National Bakery marks 80 years in business.",
+      "description": "Some flour, sugar, and other ingredients have kept one business in Scranton baking away for 80 years.",
+      "description_distilled": "",
+      "content": "Some flour, sugar, and other ingredients have kept one business in Scranton baking away for 80 years.",
+      "content_distilled": "Some flour, sugar, and other ingredients have kept one business in Scranton baking away for 80 years.",
+      "graph": {
+        "entities": [
+          {
+            "name": "National Bakery",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/national-bakery.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "National Bakery": "../entities/people/national-bakery.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-01-06T21:04:33",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/made-with-love-national-bakery-marks-80-years-in-business-capouse-avenue-candace-fox-break-desserts/523-cd3e0ba3-c632-4ab1-ab66-abf031eea368",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "DEP to host public meeting on proposed data center campus in Lackawanna County",
+      "title_distilled": "DEP to host public meeting on proposed data center campus in Lackawanna County.",
+      "description": "The meeting centers on a permit application made by 'Project Gravity' developers, who want seven-building campus just off Business Route 6 in Archbald",
+      "description_distilled": "",
+      "content": "The meeting centers on a permit application made by 'Project Gravity' developers, who want seven-building campus just off Business Route 6 in Archbald",
+      "content_distilled": "meeting centers on a permit application made by 'Project Gravity' developers, who want seven-building campus just off Business Route 6 in Archbald.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Project Gravity",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/project-gravity.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Business Route",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/business-route.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Project </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Business</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Project Gravity": "../entities/works/movies/project-gravity.md",
+          "Business Route": "../entities/people/business-route.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-01-06T16:41:55",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/data-center-lackawanna-county-archbald-project-gravity-department-of-enviornmental-protection-public-meeting-permit-application-western-hospitality/523-c87d11ea-aae7-4331-afef-ed892124ccdf",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "How to make healthier choices while supporting northeastern Pennsylvania farmers",
+      "title_distilled": "How to make healthier choices while supporting northeastern Pennsylvania farmers.",
+      "description": "Northeastern Pennsylvania's local farms offer year-round access to fresh, nutritious foods.",
+      "description_distilled": "",
+      "content": "Northeastern Pennsylvania's local farms offer year-round access to fresh, nutritious foods.",
+      "content_distilled": "Northeastern Pennsylvania's local farms offer year-round access to fresh, nutritious foods.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -512,24 +702,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Rob Bresnahan",
-            "to": "Medicaid Dr. Mehmet",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Rob Bresnahan",
-            "to": "Medicaid Dr. Mehmet",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Medicaid</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rob Bres</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mehmet</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -540,572 +714,38 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Medicaid Dr. Mehmet": "../entities/people/medicaid-dr-mehmet.md",
-          "Rob Bresnahan": "../entities/people/rob-bresnahan.md",
-          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
-          "Mehmet": "../entities/people/mehmet.md",
-          "Scranton": "../entities/locations/scranton.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "Thetimes-tribune.com",
-      "publishedAt": "2025-12-05T21:08:31Z",
-      "url": "https://www.thetimes-tribune.com/2025/12/05/dr-oz-joins-bresnahan-for-healthcare-roundtable-friday/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-DROZ-1206-04-1.jpg?w=1024&h=661",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "GIRLS BASKETBALL: Abington Heights\u2019 defense stops Scranton",
-      "title_distilled": "GIRLS BASKETBALL: Abington Heights\u2019 defense stops Scranton.",
-      "description": "SCRANTON \u2014 With its defense forcing Scranton into a tough shooting start, Abington Heights built a big halftime lead and went on to a 39-28 victory Monday night in a Lackawanna League Division I girls basketball matchup at Scranton High School. Emma Coleman scored 21 points for the second-ranked Lady Comets (3-0 league, 8-3 overall). Sarah Cantner added eight points and eight rebounds, while Sydney Pallman contributed six points and 10 rebounds. Chrissy Jacklinski led No. 5 Scranton (0-3, 3-8) with 12 points, nine rebounds, three assists and five steals. Rhylee Bell followed with nine points. &#8220;We tried a new [&#8230;]",
-      "description_distilled": "",
-      "content": "SCRANTON \u2014 With its defense forcing Scranton into a tough shooting start, Abington Heights built a big halftime lead and went on to a 39-28 victory Monday night in a Lackawanna League Division I girls basketball matchup at Scranton High School. Emma Coleman scored 21 points for the second-ranked Lady Comets (3-0 league, 8-3 overall). Sarah Cantner added eight points and eight rebounds, while Sydney Pallman contributed six points and 10 rebounds. Chrissy Jacklinski led No. 5 Scranton (0-3, 3-8) with 12 points, nine rebounds, three assists and five steals. Rhylee Bell followed with nine points. &#8220;We tried a new [&#8230;]",
-      "content_distilled": "SCRANTON \u2014 With its defense forcing Scranton into a tough shooting start, Abington Heights built a big halftime lead and went on to a 39-28 victory Monday night in a Lackawanna League Division I girls basketball matchup at Scranton High School.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Abington Heights",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/abington-heights.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna League",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-league.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton High",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-high.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Emma Coleman",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/emma-coleman.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lady Comets",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lady-comets.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sarah Cantner",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sarah-cantner.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sydney Pallman",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sydney-pallman.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Chrissy Jacklinski",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/chrissy-jacklinski.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Rhylee Bell",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/rhylee-bell.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Abington Heights",
-            "to": "Lackawanna League",
-            "type": "BUILT",
-            "verb": "built"
-          },
-          {
-            "from": "Abington Heights",
-            "to": "Lackawanna League",
-            "type": "WENT",
-            "verb": "went"
-          },
-          {
-            "from": "Abington Heights",
-            "to": "Scranton High",
-            "type": "BUILT",
-            "verb": "built"
-          },
-          {
-            "from": "Abington Heights",
-            "to": "Scranton High",
-            "type": "WENT",
-            "verb": "went"
-          },
-          {
-            "from": "Abington Heights",
-            "to": "Scranton",
-            "type": "BUILT",
-            "verb": "built"
-          },
-          {
-            "from": "Abington Heights",
-            "to": "Scranton",
-            "type": "WENT",
-            "verb": "went"
-          },
-          {
-            "from": "Scranton",
-            "to": "Lackawanna League",
-            "type": "BUILT",
-            "verb": "built"
-          },
-          {
-            "from": "Scranton",
-            "to": "Lackawanna League",
-            "type": "WENT",
-            "verb": "went"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Emma Col</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lady Com</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sarah Ca</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BUILT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WENT</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BUILT</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Abington Heights": "../entities/people/abington-heights.md",
-          "Lackawanna League": "../entities/people/lackawanna-league.md",
-          "Scranton High": "../entities/people/scranton-high.md",
-          "Emma Coleman": "../entities/people/emma-coleman.md",
-          "Lady Comets": "../entities/people/lady-comets.md",
-          "Sarah Cantner": "../entities/people/sarah-cantner.md",
-          "Sydney Pallman": "../entities/people/sydney-pallman.md",
-          "Chrissy Jacklinski": "../entities/people/chrissy-jacklinski.md",
-          "Rhylee Bell": "../entities/people/rhylee-bell.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-06T05:10:32",
-      "url": "https://www.thetimes-tribune.com/2026/01/06/girls-basketball-abington-heights-defense-stops-scranton/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-AHSCRANTONGIRLSBB-010526-09.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Clipboard, January 6, 2026",
-      "title_distilled": "Clipboard, January 6, 2026.",
-      "description": "Lackawanna County Winter sowing workshop: Winter sowing hands-on workshop will be presented by Penn State Master Gardeners, Saturday, 10 a.m., community room at Nay Aug Park, 500 Arthur Ave., Scranton. The program is hosted by the Greenhouse Project. Participants will leave with perennial seeds planted in their own winter sowing containers. Register at 570-561-2113 or email dxk42@psu.edu. Bus trip: AARP NEPA Chapter 3731 will host a bus trip to the premiere showing of &#8220;Joshua&#8221; at the Sight and Sound Theatre in Lancaster County on May 29. Front-center seats; dinner afterward at the Bird in Hand Smorgasbord is included in the [&#8230;]",
-      "description_distilled": "",
-      "content": "Lackawanna County Winter sowing workshop: Winter sowing hands-on workshop will be presented by Penn State Master Gardeners, Saturday, 10 a.m., community room at Nay Aug Park, 500 Arthur Ave., Scranton. The program is hosted by the Greenhouse Project. Participants will leave with perennial seeds planted in their own winter sowing containers. Register at 570-561-2113 or email dxk42@psu.edu. Bus trip: AARP NEPA Chapter 3731 will host a bus trip to the premiere showing of &#8220;Joshua&#8221; at the Sight and Sound Theatre in Lancaster County on May 29. Front-center seats; dinner afterward at the Bird in Hand Smorgasbord is included in the [&#8230;]",
-      "content_distilled": "Lackawanna County Winter sowing workshop: Winter sowing hands-on workshop will be presented by Penn State Master Gardeners, Saturday, 10 a.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Penn State",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/penn-state.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Master Gardeners",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/master-gardeners.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Nay Aug Park",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nay-aug-park.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Arthur Ave",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/arthur-ave.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sound Theatre",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sound-theatre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Hand Smorgasbord",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/hand-smorgasbord.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Aug Park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/aug-park.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "Aug Park",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Penn Sta</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Master G</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Arthur A</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sound Th</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hand Smo</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Penn State": "../entities/people/penn-state.md",
-          "Master Gardeners": "../entities/people/master-gardeners.md",
-          "Nay Aug Park": "../entities/people/nay-aug-park.md",
-          "Arthur Ave": "../entities/people/arthur-ave.md",
-          "Sound Theatre": "../entities/people/sound-theatre.md",
-          "Hand Smorgasbord": "../entities/people/hand-smorgasbord.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Aug Park": "../entities/locations/aug-park.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-06T05:00:48",
-      "url": "https://www.thetimes-tribune.com/2026/01/06/clipboard-january-6-2026/",
+      "source": "Wnep",
+      "publishedAt": "2026-01-06T14:40:59",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/supporting-farmers-while-eating-healthier-luzerne-county/523-ed5fd0d1-3e23-437f-9f56-a07760ce2877",
       "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "NEPA Gives 2025 raised over $1.3 million",
-      "title_distilled": "NEPA Gives 2025 raised over $1.",
-      "description": "The board of governors of the Scranton Area Community Foundation show their support during NEPA Gives 2025, a record-breaking 24-hour giving event that united more than 8,000 donors in support of critical nonprofit work across the region. From left: attorney Jerry Musheno, R.Ph., Kenneth Okrepkie, Laura Ducceschi, Ellen Burkey, Patricia Fox, Psy.D., and Ryan McGowan.",
-      "description_distilled": "",
-      "content": "The board of governors of the Scranton Area Community Foundation show their support during NEPA Gives 2025, a record-breaking 24-hour giving event that united more than 8,000 donors in support of critical nonprofit work across the region. From left: attorney Jerry Musheno, R.Ph., Kenneth Okrepkie, Laura Ducceschi, Ellen Burkey, Patricia Fox, Psy.D., and Ryan McGowan.",
-      "content_distilled": "board of governors of the Scranton Area Community Foundation show their support during NEPA Gives 2025, a record-breaking 24-hour giving event that united more than 8,000 donors in support of critical nonprofit work across the region.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Area",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-area.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Community Foundation",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/community-foundation.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jerry Musheno",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jerry-musheno.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Kenneth Okrepkie",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/kenneth-okrepkie.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Laura Ducceschi",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/laura-ducceschi.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ellen Burkey",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ellen-burkey.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Patricia Fox",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/patricia-fox.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jerry Mu</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kenneth </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Laura Du</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ellen Bu</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Area": "../entities/people/scranton-area.md",
-          "Community Foundation": "../entities/people/community-foundation.md",
-          "Jerry Musheno": "../entities/people/jerry-musheno.md",
-          "Kenneth Okrepkie": "../entities/people/kenneth-okrepkie.md",
-          "Laura Ducceschi": "../entities/people/laura-ducceschi.md",
-          "Ellen Burkey": "../entities/people/ellen-burkey.md",
-          "Patricia Fox": "../entities/people/patricia-fox.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-06T05:00:33",
-      "url": "https://www.thetimes-tribune.com/2026/01/06/nepa-gives-2025-raised-over-1-3-million-2/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC2-0106.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Lackawanna County Court Notes, January 6, 2026",
-      "title_distilled": "Lackawanna County Court Notes, January 6, 2026.",
-      "description": "PROPERTY TRANSACTIONS Brenda Rignanesi and William G. Wychowanec, Lackawanna County, to 4R Yellow LLC, Lackawanna County; a property at 807 Moosic Road, Old Forge, for $350,000. AJT Properties LLC to Chalet Bleu LLC, Erie; a property at 127 Livingston Lane, Clifton Twp., for $307,500. Joseph P. Markey Jr., Keith Markey, Barbara Rowland, Stephen Markey, Bethann Kurahara and Melanie Aiello to Erika Rodriguez; a property at 9 N. Lehigh River Drive, Clifton Twp., for $340,000. ESTATES FILED Girard J. Albrecht, 1409 E. Elm St., Scranton, letters testamentary to Joanne Albrecht Keppley, 99 Walden Road, Lebanon. Barbara A. Smith, 103 Forest Drive, [&#8230;]",
-      "description_distilled": "",
-      "content": "PROPERTY TRANSACTIONS Brenda Rignanesi and William G. Wychowanec, Lackawanna County, to 4R Yellow LLC, Lackawanna County; a property at 807 Moosic Road, Old Forge, for $350,000. AJT Properties LLC to Chalet Bleu LLC, Erie; a property at 127 Livingston Lane, Clifton Twp., for $307,500. Joseph P. Markey Jr., Keith Markey, Barbara Rowland, Stephen Markey, Bethann Kurahara and Melanie Aiello to Erika Rodriguez; a property at 9 N. Lehigh River Drive, Clifton Twp., for $340,000. ESTATES FILED Girard J. Albrecht, 1409 E. Elm St., Scranton, letters testamentary to Joanne Albrecht Keppley, 99 Walden Road, Lebanon. Barbara A. Smith, 103 Forest Drive, [&#8230;]",
-      "content_distilled": "PROPERTY TRANSACTIONS Brenda Rignanesi and William G.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Court Notes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/court-notes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Brenda Rignanesi",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/brenda-rignanesi.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Old Forge",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Chalet Bleu",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/chalet-bleu.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Livingston Lane",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/livingston-lane.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clifton Twp",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/clifton-twp.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Keith Markey",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/keith-markey.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Barbara Rowland",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/barbara-rowland.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Stephen Markey",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/stephen-markey.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bethann Kurahara",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bethann-kurahara.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brenda R</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chalet B</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Livingst</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clifton </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Court Notes": "../entities/people/court-notes.md",
-          "Brenda Rignanesi": "../entities/people/brenda-rignanesi.md",
-          "Old Forge": "../entities/people/old-forge.md",
-          "Chalet Bleu": "../entities/people/chalet-bleu.md",
-          "Livingston Lane": "../entities/people/livingston-lane.md",
-          "Clifton Twp": "../entities/people/clifton-twp.md",
-          "Keith Markey": "../entities/people/keith-markey.md",
-          "Barbara Rowland": "../entities/people/barbara-rowland.md",
-          "Stephen Markey": "../entities/people/stephen-markey.md",
-          "Bethann Kurahara": "../entities/people/bethann-kurahara.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-06T05:00:31",
-      "url": "https://www.thetimes-tribune.com/2026/01/06/lackawanna-county-court-notes-january-6-2026/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/CVC-L-STOCKCOURTCOMPUTER-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "HS BASKETBALL: No. 1 Riverside, No. 4 Dunmore set for Division II showdown",
-      "title_distilled": "HS BASKETBALL: No.",
-      "description": "Two of the dominant and most explosive teams in the Lackawanna League collide for the first of two meetings this week. Riverside (10-0 overall, 2-0 in division), the high-scoring and highly entertaining top-ranked team in The Times-Tribune High School Basketball Poll, hosts No. 4 Dunmore (9-1, 2-0) in a Division II showdown on Tuesday at 7:15 p.m. This matchup will feature the two most prolific scoring teams in the league, which sets the stage for an exciting game. Riverside has scored more than 60 points in nine of 10 games this season. They have a 97-point effort against Wyoming Valley [&#8230;]",
+      "title": "UPDATE: Police make an arrest in connection with stolen vehicle",
+      "title_distilled": "UPDATE: Police make an arrest in connection with stolen vehicle.",
+      "description": "The car was reported stolen from Scranton's south side and dumped minutes after an attempted abduction in front of an intermediate school, police said",
       "description_distilled": "",
-      "content": "Two of the dominant and most explosive teams in the Lackawanna League collide for the first of two meetings this week. Riverside (10-0 overall, 2-0 in division), the high-scoring and highly entertaining top-ranked team in The Times-Tribune High School Basketball Poll, hosts No. 4 Dunmore (9-1, 2-0) in a Division II showdown on Tuesday at 7:15 p.m. This matchup will feature the two most prolific scoring teams in the league, which sets the stage for an exciting game. Riverside has scored more than 60 points in nine of 10 games this season. They have a 97-point effort against Wyoming Valley [&#8230;]",
-      "content_distilled": "Two of the dominant and most explosive teams in the Lackawanna League collide for the first of two meetings this week.",
+      "content": "The car was reported stolen from Scranton's south side and dumped minutes after an attempted abduction in front of an intermediate school, police said",
+      "content_distilled": "car was reported stolen from Scranton's south side and dumped minutes after an attempted abduction in front of an intermediate school, police said.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna League",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-league.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Times",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-times.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Tribune High",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/tribune-high.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "School Basketball",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/school-basketball.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Wyoming Valley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/wyoming-valley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Tribune High School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/tribune-high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "which sets the stage for an exciting game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/which-sets-the-stage-for-an-exciting-game.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Time</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tribune </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School B</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wyoming </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tribune </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1116,91 +756,72 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna League": "../entities/people/lackawanna-league.md",
-          "The Times": "../entities/people/the-times.md",
-          "Tribune High": "../entities/people/tribune-high.md",
-          "School Basketball": "../entities/people/school-basketball.md",
-          "Wyoming Valley": "../entities/people/wyoming-valley.md",
-          "Tribune High School": "../entities/organizations/tribune-high-school.md",
-          "which sets the stage for an exciting game": "../entities/events/which-sets-the-stage-for-an-exciting-game.md"
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-06T05:00:24",
-      "url": "https://www.thetimes-tribune.com/2026/01/06/hs-basketball-no-1-riverside-no-4-dunmore-set-for-division-ii-showdown/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-LYNETTBOYSSBB-122925-01.jpg?w=1400px&strip=all",
+      "source": "Wnep",
+      "publishedAt": "2026-01-06T11:38:19",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-abduction-attempt-south-side-school-police-search-stolen-car-bolo/523-3f0395f5-4767-464a-8a03-206ad85f3449",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "ATHLETE OF THE WEEK: Brayden Rose, Riverside basketball",
-      "title_distilled": "ATHLETE OF THE WEEK: Brayden Rose, Riverside basketball.",
-      "description": "The Riverside junior basketball player scored 58 points in two wins. He had 32 points and earned Taylor Lions Tournament MVP, as the Vikings defeated Lackawanna Trail, 86-59. Then, he scored 26 points in a 66-38 win over Mid Valley. Family: Mom, Kristyn; dad, Gerry; brother, Gerry; sister, Kayla. What do you think of how you&#8217;ve played recently: I thought it&#8217;s been a lot better. At the beginning, I wasn&#8217;t scoring as much as I would like to, so I just decided to step it up and get more aggressive and attacking the basket and it has proven to do [&#8230;]",
+      "title": "DEP, developer answer questions on 'Project Gravity'",
+      "title_distilled": "DEP, developer answer questions on 'Project Gravity'.",
+      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More community worries about a proposed data center project in Archbald, Lackawanna County. This time, it was the PA Department of Environmental Protection (DEP) that hosted a public forum. The project, known as Project Gravity, would consist of seven two-story buildings, each with a footprint of roughly 135,000 square feet. [...]",
       "description_distilled": "",
-      "content": "The Riverside junior basketball player scored 58 points in two wins. He had 32 points and earned Taylor Lions Tournament MVP, as the Vikings defeated Lackawanna Trail, 86-59. Then, he scored 26 points in a 66-38 win over Mid Valley. Family: Mom, Kristyn; dad, Gerry; brother, Gerry; sister, Kayla. What do you think of how you&#8217;ve played recently: I thought it&#8217;s been a lot better. At the beginning, I wasn&#8217;t scoring as much as I would like to, so I just decided to step it up and get more aggressive and attacking the basket and it has proven to do [&#8230;]",
-      "content_distilled": "Riverside junior basketball player scored 58 points in two wins.",
+      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More community worries about a proposed data center project in Archbald, Lackawanna County. This time, it was the PA Department of Environmental Protection (DEP) that hosted a public forum. The project, known as Project Gravity, would consist of seven two-story buildings, each with a footprint of roughly 135,000 square feet. [...]",
+      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 More community worries about a proposed data center project in Archbald, Lackawanna County.",
       "graph": {
         "entities": [
           {
-            "name": "Brayden Rose",
-            "type": "PERSON",
+            "name": "Project Gravity",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/brayden-rose.md",
+            "file_path": "../entities/works/movies/project-gravity.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Riverside",
+            "name": "Environmental Protection",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-riverside.md",
+            "file_path": "../entities/people/environmental-protection.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Taylor Lions",
-            "type": "PERSON",
+            "name": "Pennsylvania",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/taylor-lions.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna Trail",
-            "type": "PERSON",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-trail.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mid Valley",
-            "type": "PERSON",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/mid-valley.md",
+            "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "points and earned Taylor Lions Tournament",
-            "type": "EVENT",
+            "name": "WYOU",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/events/points-and-earned-taylor-lions-tournament.md",
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Taylor Lions",
-            "to": "Lackawanna Trail",
-            "type": "DEFEATED",
-            "verb": "defeated"
-          },
-          {
-            "from": "points and earned Taylor Lions Tournament",
-            "to": "Lackawanna Trail",
-            "type": "DEFEATED",
-            "verb": "defeated"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brayden </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Rive</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Taylor L</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mid Vall</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">points a</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Project </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Environm</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1211,105 +832,98 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Brayden Rose": "../entities/people/brayden-rose.md",
-          "The Riverside": "../entities/people/the-riverside.md",
-          "Taylor Lions": "../entities/people/taylor-lions.md",
-          "Lackawanna Trail": "../entities/people/lackawanna-trail.md",
-          "Mid Valley": "../entities/people/mid-valley.md",
-          "points and earned Taylor Lions Tournament": "../entities/events/points-and-earned-taylor-lions-tournament.md"
+          "Project Gravity": "../entities/works/movies/project-gravity.md",
+          "Environmental Protection": "../entities/people/environmental-protection.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-06T05:00:16",
-      "url": "https://www.thetimes-tribune.com/2026/01/06/athlete-of-the-week-brayden-rose-riverside-basketball/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-playerstowatch9-04.jpg?w=1400px&strip=all",
+      "source": "Wbre",
+      "publishedAt": "2026-01-07T04:06:22",
+      "url": "https://www.2822news.com/news/local-news/dep-developer-answer-questions-on-project-gravity/",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "NEPA Gives 2025 raised over $1.3 million",
-      "title_distilled": "NEPA Gives 2025 raised over $1.",
-      "description": "Scranton Area Community Foundation staff members gather at the foundation\u2019s new headquarters inside the historic Century Club of Scranton to celebrate the success of NEPA Gives 2025, which raised over $1.3 million for 257 nonprofit organizations across Northeast Pennsylvania. Standing, from left: Jana Nelhybel, sustainability manager; Jacob Torba, philanthropy associate; Maggie Martinelli, chief operating officer; Cathy Fitzpatrick, director of grants and scholarships; Laura Ducceschi, president and CEO; Brad Reid, philanthropy manager; Brittany Pagnotti, director of donor relations and communications; Amy Betts, community impact manager; and Koren Clark, community impact manager. Seated: Dana Hunter, operations manager; Faith Schechter, NEPA Gives intern; [&#8230;]",
+      "title": "County DA says 2 men arrested after meth sting operation",
+      "title_distilled": "County DA says 2 men arrested after meth sting operation.",
+      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Authorities say two men are facing drug charges after a meth sting in Moosic. The Lackawanna County District Attorney and Pennsylvania State Police say investigators seized four ounces of methamphetamine during a controlled buy at the Hampton Inn on Monday. Bernard Brightman and Carl Lambert were taken into custody after [...]",
       "description_distilled": "",
-      "content": "Scranton Area Community Foundation staff members gather at the foundation\u2019s new headquarters inside the historic Century Club of Scranton to celebrate the success of NEPA Gives 2025, which raised over $1.3 million for 257 nonprofit organizations across Northeast Pennsylvania. Standing, from left: Jana Nelhybel, sustainability manager; Jacob Torba, philanthropy associate; Maggie Martinelli, chief operating officer; Cathy Fitzpatrick, director of grants and scholarships; Laura Ducceschi, president and CEO; Brad Reid, philanthropy manager; Brittany Pagnotti, director of donor relations and communications; Amy Betts, community impact manager; and Koren Clark, community impact manager. Seated: Dana Hunter, operations manager; Faith Schechter, NEPA Gives intern; [&#8230;]",
-      "content_distilled": "Scranton Area Community Foundation staff members gather at the foundation\u2019s new headquarters inside the historic Century Club of Scranton to celebrate the success of NEPA Gives 2025, which raised over $1.",
+      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Authorities say two men are facing drug charges after a meth sting in Moosic. The Lackawanna County District Attorney and Pennsylvania State Police say investigators seized four ounces of methamphetamine during a controlled buy at the Hampton Inn on Monday. Bernard Brightman and Carl Lambert were taken into custody after [...]",
+      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 Authorities say two men are facing drug charges after a meth sting in Moosic.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Area",
+            "name": "The Lackawanna",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-area.md",
+            "file_path": "../entities/people/the-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Community Foundation",
+            "name": "Pennsylvania State",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/community-foundation.md",
+            "file_path": "../entities/people/pennsylvania-state.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Century Club",
+            "name": "Hampton Inn",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/century-club.md",
+            "file_path": "../entities/people/hampton-inn.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Northeast Pennsylvania",
+            "name": "Bernard Brightman",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/northeast-pennsylvania.md",
+            "file_path": "../entities/people/bernard-brightman.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jana Nelhybel",
+            "name": "Carl Lambert",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jana-nelhybel.md",
+            "file_path": "../entities/people/carl-lambert.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jacob Torba",
-            "type": "PERSON",
+            "name": "Pennsylvania",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/jacob-torba.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Maggie Martinelli",
-            "type": "PERSON",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/maggie-martinelli.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Cathy Fitzpatrick",
-            "type": "PERSON",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/cathy-fitzpatrick.md",
+            "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Laura Ducceschi",
-            "type": "PERSON",
+            "name": "WYOU",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/laura-ducceschi.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Brad Reid",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/brad-reid.md",
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Century </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jana Nel</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jacob To</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hampton </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bernard </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carl Lam</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1320,22 +934,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Area": "../entities/people/scranton-area.md",
-          "Community Foundation": "../entities/people/community-foundation.md",
-          "Century Club": "../entities/people/century-club.md",
-          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
-          "Jana Nelhybel": "../entities/people/jana-nelhybel.md",
-          "Jacob Torba": "../entities/people/jacob-torba.md",
-          "Maggie Martinelli": "../entities/people/maggie-martinelli.md",
-          "Cathy Fitzpatrick": "../entities/people/cathy-fitzpatrick.md",
-          "Laura Ducceschi": "../entities/people/laura-ducceschi.md",
-          "Brad Reid": "../entities/people/brad-reid.md"
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "Pennsylvania State": "../entities/people/pennsylvania-state.md",
+          "Hampton Inn": "../entities/people/hampton-inn.md",
+          "Bernard Brightman": "../entities/people/bernard-brightman.md",
+          "Carl Lambert": "../entities/people/carl-lambert.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-06T05:00:16",
-      "url": "https://www.thetimes-tribune.com/2026/01/06/nepa-gives-2025-raised-over-1-3-million/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC1-0106.jpg?w=1400px&strip=all",
+      "source": "Wbre",
+      "publishedAt": "2026-01-07T01:37:56",
+      "url": "https://www.2822news.com/news/local-news/county-da-says-2-men-arrested-after-meth-sting-operation/",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
