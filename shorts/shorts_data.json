@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-01-10T11:04:23.405585",
-  "source_file": "../data/daily/scranton_news_2026-01-10.json",
-  "total_shorts": 13,
-  "total_duration": 104,
+  "generated_at": "2026-01-11T11:04:01.958966",
+  "source_file": "../data/daily/scranton_news_2026-01-11.json",
+  "total_shorts": 14,
+  "total_duration": 112,
   "has_svo": false,
   "shorts": [
     {
@@ -128,103 +128,6 @@
     },
     {
       "id": "short_2",
-      "title": "Police say 3 people stabbed, suspect in custody in Scranton",
-      "title_distilled": "Police say 3 people stabbed, suspect in custody in Scranton.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody....",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody....",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Scranton Police told 28/22 News Tuesday night that three people were stabbed and a potential suspect is in custody.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Police",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "News Tuesday",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/news-tuesday.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Tue</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
-          "News Tuesday": "../entities/people/news-tuesday.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "2822news.com",
-      "publishedAt": "2025-12-10T01:13:32Z",
-      "url": "https://www.2822news.com/news/local-news/police-say-3-people-stabbed-suspect-in-custody-in-scranton/",
-      "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/70f17b8d2cb7e9ddda4b69f9d5311b4e",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
-    },
-    {
-      "id": "short_3",
       "title": "Fidelity Bank Welcomes James Clemente, CPA, MT and Rocco A. DelVecchio to Board of Directors",
       "title_distilled": "Fidelity Bank Welcomes James Clemente, CPA, MT and Rocco A.",
       "description": "DUNMORE, Pa., Jan. 02, 2026 (GLOBE NEWSWIRE) -- Brian J. Cali, Chairman of the Board of Fidelity Bank, is pleased to announce the appointment of James Clemente, CPA, MT and Rocco A. DelVecchio to its Board of Directors.",
@@ -285,11 +188,11 @@
       "url": "https://www.globenewswire.com/news-release/2026/01/02/3212314/0/en/Fidelity-Bank-Welcomes-James-Clemente-CPA-MT-and-Rocco-A-DelVecchio-to-Board-of-Directors.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/653a97ad-f0c3-47f1-adc8-3fcbfa4a2d41",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_4",
+      "id": "short_3",
       "title": "PennDOT restores speed limits on NEPA interstates",
       "title_distilled": "PennDOT restores speed limits on NEPA interstates.",
       "description": "(WBRE/WYOU) \u2014 The Pennsylvania Department of Transportation (PennDOT) removed the remaining restrictions for non-commercial vehicles that were put in place...",
@@ -358,11 +261,11 @@
       "url": "https://www.2822news.com/news/penndot-restores-speed-limits-on-nepa-interstates/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/c92b752e8c3ab9c7dc3cd89d3c272a8c",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_5",
+      "id": "short_4",
       "title": "Troopers claim retaliation in lawsuit over alleged payroll fraud",
       "title_distilled": "Troopers claim retaliation in lawsuit over alleged payroll fraud.",
       "description": "Two Pennsylvania state troopers have filed a lawsuit against Gov. Josh Shapiro and others, claiming they faced retaliation after reporting payroll fraud within the department.",
@@ -415,11 +318,11 @@
       "url": "https://www.wgal.com/article/pennsylvania-state-police-lawsuit-payroll-fraud-allegations/69895079",
       "urlToImage": "https://kubrick.htvapps.com/vidthumb/images/pennsylvania-state-police-graphic-1666609696.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_6",
+      "id": "short_5",
       "title": "What were the fifty most-aired movies on HBO in the 1980s?",
       "title_distilled": "What were the fifty most-aired movies on HBO in the 1980s?.",
       "description": "What were the fifty most-aired movies on HBO in the 1980s? The question has been answered, and The Beastmaster didn't make the list The post What were the fifty most-aired movies on HBO in the 1980s? appeared first on JoBlo.",
@@ -456,57 +359,36 @@
       "url": "https://www.joblo.com/most-aired-hbo/",
       "urlToImage": "https://www.joblo.com/wp-content/uploads/2024/05/flash-gordon-movie.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_7",
-      "title": "Clipboard, January 10, 2026",
-      "title_distilled": "Clipboard, January 10, 2026.",
-      "description": "Carbondale Cash bingo: Trinity Episcopal Church, 58 River St., cash bingo, Jan. 25, $1,000 grand prize, $25/admission ticket includes 10 regular games with a $100 prize, jackpot and special boards are sold separately. Doors open at 1:30 p.m. Games start at 2:30; 50/50, lottery wheel raffle and door prize, snack bar available. Stop by weekdays 9 a.m.-1 p.m. for tickets or purchase online at www.trinity-episcopal.weebly.com; church office, 570-282-3620. Dickson City Reorganization meeting: Dickson City Decorative Light and Banner Association annual reorganization meeting, Jan. 28, borough building, 901 Enterprise St. The meeting, open to all residents of Dickson City and scheduled [&#8230;]",
+      "id": "short_6",
+      "title": "Chris Kelly Opinion: DEP hearing exposes gravity of data center speculation",
+      "title_distilled": "Chris Kelly Opinion: DEP hearing exposes gravity of data center speculation.",
+      "description": "Tuesday's state Department of Environmental Protection hearing on \u201cProject Gravity\u201d was billed as an opportunity for the public to ask questions and \u201cget educated\u201d on the proposed data center campus in Archbald.",
       "description_distilled": "",
-      "content": "Carbondale Cash bingo: Trinity Episcopal Church, 58 River St., cash bingo, Jan. 25, $1,000 grand prize, $25/admission ticket includes 10 regular games with a $100 prize, jackpot and special boards are sold separately. Doors open at 1:30 p.m. Games start at 2:30; 50/50, lottery wheel raffle and door prize, snack bar available. Stop by weekdays 9 a.m.-1 p.m. for tickets or purchase online at www.trinity-episcopal.weebly.com; church office, 570-282-3620. Dickson City Reorganization meeting: Dickson City Decorative Light and Banner Association annual reorganization meeting, Jan. 28, borough building, 901 Enterprise St. The meeting, open to all residents of Dickson City and scheduled [&#8230;]",
-      "content_distilled": "Carbondale Cash bingo: Trinity Episcopal Church, 58 River St.",
+      "content": "Tuesday's state Department of Environmental Protection hearing on \u201cProject Gravity\u201d was billed as an opportunity for the public to ask questions and \u201cget educated\u201d on the proposed data center campus in Archbald.",
+      "content_distilled": "Tuesday's state Department of Environmental Protection hearing on \u201cProject Gravity\u201d was billed as an opportunity for the public to ask questions and \u201cget educated\u201d on the proposed data center campus in Archbald.",
       "graph": {
         "entities": [
           {
-            "name": "Carbondale Cash",
+            "name": "Chris Kelly",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-cash.md",
+            "file_path": "../entities/people/chris-kelly.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Trinity Episcopal",
+            "name": "Environmental Protection",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/trinity-episcopal.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dickson City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Decorative Light",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/decorative-light.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Banner Association",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/banner-association.md",
+            "file_path": "../entities/people/environmental-protection.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trinity </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Decorati</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Banner A</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chris Ke</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Environm</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -517,275 +399,71 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Carbondale Cash": "../entities/people/carbondale-cash.md",
-          "Trinity Episcopal": "../entities/people/trinity-episcopal.md",
-          "Dickson City": "../entities/people/dickson-city.md",
-          "Decorative Light": "../entities/people/decorative-light.md",
-          "Banner Association": "../entities/people/banner-association.md"
+          "Chris Kelly": "../entities/people/chris-kelly.md",
+          "Environmental Protection": "../entities/people/environmental-protection.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2026-01-10T05:00:59",
-      "url": "https://www.thetimes-tribune.com/2026/01/10/clipboard-january-10-2026/",
-      "urlToImage": "",
+      "publishedAt": "2026-01-11T11:00:37",
+      "url": "https://www.thetimes-tribune.com/2026/01/11/chris-kelly-opinion-dep-hearing-exposes-gravity-of-data-center-speculation/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-KELLY-XXXX-01.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
+      "title": "Looking ahead to key storylines in 2026",
+      "title_distilled": "Looking ahead to key storylines in 2026.",
+      "description": "The year ahead has the potential to shape NEPA's future politically, physically, economically and otherwise; here are some of the top events to keep an eye on in 2026",
+      "description_distilled": "",
+      "content": "The year ahead has the potential to shape NEPA's future politically, physically, economically and otherwise; here are some of the top events to keep an eye on in 2026",
+      "content_distilled": "year ahead has the potential to shape NEPA's future politically, physically, economically and otherwise; here are some of the top events to keep an eye on in 2026.",
+      "graph": {
+        "entities": [],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.0,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {}
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-01-11T05:00:54",
+      "url": "https://www.thetimes-tribune.com/2026/01/11/looking-ahead-to-key-storylines-in-2026/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/10/STT-L-STREETS-1015-02-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
       "animation_delay": 0.7000000000000001
     },
     {
       "id": "short_8",
-      "title": "Scranton Prep Magis Scholarship winners achieved scores in the top 35",
-      "title_distilled": "Scranton Prep Magis Scholarship winners achieved scores in the top 35.",
-      "description": "Scranton Prep\u2019s 2025 Entrance Exam Scholarship winners celebrated their achievement over breakfast at Prep on Dec. 17. Prep awarded scholarships to the top 35 scores out of over 250 test takers. Magis Scholarship winners achieved scores in the top 35. Pictured, top row, from left: Kristin Cupillari, Scranton Prep principal; Lucas Yeager, St. Clare/St. Paul; Matthew Carlson, Western Wayne; Nicholas Bonczkiewicz, Lakeland; Ronan Keating, St. Clare/St. Paul; Ellie Wargo, Riverside; Cassie Sheehan, Our Lady of Peace; Emily Vodzak, Our Lady of Peace; Ethan Murray, St. Clare/St. Paul; and the Rev. A.J. Rizzo, S.J., Scranton Prep president. Seated: Joseph Haggerty, St. [&#8230;]",
+      "title": "\"The Trouble with Cali\" returns to Lackawanna County",
+      "title_distilled": "\"The Trouble with Cali\" returns to Lackawanna County.",
+      "description": "\"The Trouble with Cali\" returned to Scranton amid anticipation for a revealing documentary about its troubled production.",
       "description_distilled": "",
-      "content": "Scranton Prep\u2019s 2025 Entrance Exam Scholarship winners celebrated their achievement over breakfast at Prep on Dec. 17. Prep awarded scholarships to the top 35 scores out of over 250 test takers. Magis Scholarship winners achieved scores in the top 35. Pictured, top row, from left: Kristin Cupillari, Scranton Prep principal; Lucas Yeager, St. Clare/St. Paul; Matthew Carlson, Western Wayne; Nicholas Bonczkiewicz, Lakeland; Ronan Keating, St. Clare/St. Paul; Ellie Wargo, Riverside; Cassie Sheehan, Our Lady of Peace; Emily Vodzak, Our Lady of Peace; Ethan Murray, St. Clare/St. Paul; and the Rev. A.J. Rizzo, S.J., Scranton Prep president. Seated: Joseph Haggerty, St. [&#8230;]",
-      "content_distilled": "Scranton Prep\u2019s 2025 Entrance Exam Scholarship winners celebrated their achievement over breakfast at Prep on Dec.",
+      "content": "\"The Trouble with Cali\" returned to Scranton amid anticipation for a revealing documentary about its troubled production.",
+      "content_distilled": "\"The Trouble with Cali\" returned to Scranton amid anticipation for a revealing documentary about its troubled production.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Prep",
+            "name": "The Trouble",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/people/the-trouble.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Magis Scholarship",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/magis-scholarship.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Entrance Exam",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/entrance-exam.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Kristin Cupillari",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/kristin-cupillari.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lucas Yeager",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lucas-yeager.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Matthew Carlson",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/matthew-carlson.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Western Wayne",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/western-wayne.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Nicholas Bonczkiewicz",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nicholas-bonczkiewicz.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ronan Keating",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ronan-keating.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ellie Wargo",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ellie-wargo.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Magis Sc</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Entrance</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kristin </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lucas Ye</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Matthew </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Magis Scholarship": "../entities/people/magis-scholarship.md",
-          "Entrance Exam": "../entities/people/entrance-exam.md",
-          "Kristin Cupillari": "../entities/people/kristin-cupillari.md",
-          "Lucas Yeager": "../entities/people/lucas-yeager.md",
-          "Matthew Carlson": "../entities/people/matthew-carlson.md",
-          "Western Wayne": "../entities/people/western-wayne.md",
-          "Nicholas Bonczkiewicz": "../entities/people/nicholas-bonczkiewicz.md",
-          "Ronan Keating": "../entities/people/ronan-keating.md",
-          "Ellie Wargo": "../entities/people/ellie-wargo.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-10T05:00:40",
-      "url": "https://www.thetimes-tribune.com/2026/01/10/scranton-prep-magis-scholarship-winners-achieved-scores-in-the-top-35/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC1-0109.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Lackawanna County Court Notes, January 10, 2026",
-      "title_distilled": "Lackawanna County Court Notes, January 10, 2026.",
-      "description": "PROPERTY TRANSACTIONS Mary Ellen Krenitsky, contingent trustee of the Stella Krenitsky Irrevocable Personal Residence Trust Agreement, to Damian Rosado, Garfield, N.J.; a property at 968 Wood St., Old Forge, for $252,350. Sean A. and Kaitlin B. Byrne, Archbald, to Deborah B. Yearing and Kristen Yearing, Scranton, as joint tenants with rights of survivorship; a property at 231 Cherry St., Jessup, for $320,000. APS Property LLC, South Abington Twp., to Ruchiben K. and Kirtankumar P. Patel, Scranton; a property at 1028-1030 Madison Ave., Scranton, for $306,000. Mid Valley Plumbing Supply Inc., Peckville, to MVP Lackawanna Realty LLC, Dunmore; two parcels in [&#8230;]",
-      "description_distilled": "",
-      "content": "PROPERTY TRANSACTIONS Mary Ellen Krenitsky, contingent trustee of the Stella Krenitsky Irrevocable Personal Residence Trust Agreement, to Damian Rosado, Garfield, N.J.; a property at 968 Wood St., Old Forge, for $252,350. Sean A. and Kaitlin B. Byrne, Archbald, to Deborah B. Yearing and Kristen Yearing, Scranton, as joint tenants with rights of survivorship; a property at 231 Cherry St., Jessup, for $320,000. APS Property LLC, South Abington Twp., to Ruchiben K. and Kirtankumar P. Patel, Scranton; a property at 1028-1030 Madison Ave., Scranton, for $306,000. Mid Valley Plumbing Supply Inc., Peckville, to MVP Lackawanna Realty LLC, Dunmore; two parcels in [&#8230;]",
-      "content_distilled": "PROPERTY TRANSACTIONS Mary Ellen Krenitsky, contingent trustee of the Stella Krenitsky Irrevocable Personal Residence Trust Agreement, to Damian Rosado, Garfield, N.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Court Notes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/court-notes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mary Ellen",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mary-ellen.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Stella Krenitsky",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/stella-krenitsky.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Irrevocable Personal",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/irrevocable-personal.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Residence Trust",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/residence-trust.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Damian Rosado",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/damian-rosado.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Old Forge",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Kristen Yearing",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/kristen-yearing.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "South Abington",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/south-abington.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Madison Ave",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/madison-ave.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Residence Trust",
-            "to": "Stella Krenitsky",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mary Ell</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stella K</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Irrevoca</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Residenc</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Damian R</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Court Notes": "../entities/people/court-notes.md",
-          "Mary Ellen": "../entities/people/mary-ellen.md",
-          "Stella Krenitsky": "../entities/people/stella-krenitsky.md",
-          "Irrevocable Personal": "../entities/people/irrevocable-personal.md",
-          "Residence Trust": "../entities/people/residence-trust.md",
-          "Damian Rosado": "../entities/people/damian-rosado.md",
-          "Old Forge": "../entities/people/old-forge.md",
-          "Kristen Yearing": "../entities/people/kristen-yearing.md",
-          "South Abington": "../entities/people/south-abington.md",
-          "Madison Ave": "../entities/people/madison-ave.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-10T05:00:35",
-      "url": "https://www.thetimes-tribune.com/2026/01/10/lackawanna-county-court-notes-january-10-2026/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/CVC-L-STOCKCOURTCOMPUTER-01.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Dunmore police sergeant accused of stealing drugs",
-      "title_distilled": "Dunmore police sergeant accused of stealing drugs.",
-      "description": "Dunmore Police Sergeant Stephon Burgette turned himself in to authorities in Lackawanna County on Friday.",
-      "description_distilled": "",
-      "content": "Dunmore Police Sergeant Stephon Burgette turned himself in to authorities in Lackawanna County on Friday.",
-      "content_distilled": "Dunmore Police Sergeant Stephon Burgette turned himself in to authorities in Lackawanna County on Friday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Dunmore Police",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dunmore-police.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sergeant Stephon",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sergeant-stephon.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -798,19 +476,24 @@
         ],
         "relationships": [
           {
-            "from": "Dunmore Police",
-            "to": "Sergeant Stephon",
-            "type": "ACCUSED",
-            "verb": "accused"
+            "from": "The Trouble",
+            "to": "Scranton",
+            "type": "RETURNED",
+            "verb": "returned"
           },
           {
-            "from": "Dunmore Police",
-            "to": "Lackawanna County",
-            "type": "ACCUSED",
-            "verb": "accused"
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "RETURNED",
+            "verb": "returned"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sergeant</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Trou</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RETURNED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RETURNED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -821,14 +504,152 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dunmore Police": "../entities/people/dunmore-police.md",
-          "Sergeant Stephon": "../entities/people/sergeant-stephon.md",
+          "The Trouble": "../entities/people/the-trouble.md",
+          "Scranton": "../entities/locations/scranton.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-01-09T22:11:13",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/dunmore-police-sergeant-accused-of-stealing-drugs-department-scranton-stephon-burgette-paperwork/523-cd959658-f777-435d-bf66-a13f858858bc",
+      "publishedAt": "2026-01-11T02:17:24",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/the-trouble-with-cali-returns-to-lackawanna-county-scranton/523-0016d3e8-75bd-4211-9c62-a482be226dc7",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Runners embrace the cold at Shiver by the River",
+      "title_distilled": "Runners embrace the cold at Shiver by the River.",
+      "description": "Runners and walkers braved the cold in Scranton for the Shiver by the River race, supporting the street cats and dogs of Nay Aug Zoo.",
+      "description_distilled": "",
+      "content": "Runners and walkers braved the cold in Scranton for the Shiver by the River race, supporting the street cats and dogs of Nay Aug Zoo.",
+      "content_distilled": "Runners and walkers braved the cold in Scranton for the Shiver by the River race, supporting the street cats and dogs of Nay Aug Zoo.",
+      "graph": {
+        "entities": [
+          {
+            "name": "River Runners",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/river-runners.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nay Aug Zoo",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nay-aug-zoo.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "the River",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/the-river.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "River Runners",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "River Runners",
+            "to": "the River",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "the River",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">River Ru</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">the Rive</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "River Runners": "../entities/people/river-runners.md",
+          "Nay Aug Zoo": "../entities/people/nay-aug-zoo.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "the River": "../entities/locations/the-river.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-01-11T00:04:51",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/runners-embrace-the-cold-at-shiver-by-the-river-scranton-lackawanna-county/523-6c6cb528-6aa1-4580-98df-44aa307c0a39",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Young athletes sidelined after civic center damaged",
+      "title_distilled": "Young athletes sidelined after civic center damaged.",
+      "description": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some young athletes are sidelined this weekend after damage to a local civic center. Parents and coaches are forced to find other places for their kids to play until further notice. It's unclear how multiple windows ended up broken at the building in Lackawanna County, but 28/22 News spoke [...]",
+      "description_distilled": "",
+      "content": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some young athletes are sidelined this weekend after damage to a local civic center. Parents and coaches are forced to find other places for their kids to play until further notice. It's unclear how multiple windows ended up broken at the building in Lackawanna County, but 28/22 News spoke [...]",
+      "content_distilled": "SCOTT TOWNSHIP, LACKAWANNA COUNTY  \u2014 Some young athletes are sidelined this weekend after damage to a local civic center.",
+      "graph": {
+        "entities": [
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-01-11T04:11:34",
+      "url": "https://www.2822news.com/news/local-news/young-athletes-sidelined-after-civic-center-damaged/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -836,44 +657,30 @@
     },
     {
       "id": "short_11",
-      "title": "Sergeant charged with using drugs from evidence room",
-      "title_distilled": "Sergeant charged with using drugs from evidence room.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Sergeant of the Dunmore Police Department is facing charges after allegedly using drugs that had been confiscated as evidence. In November 2025, the Dumo...",
+      "title": "Runners, walkers shake off chills in Scranton event",
+      "title_distilled": "Runners, walkers shake off chills in Scranton event.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Runners and walkers shook off the chill for an event in Scranton on Saturday. The Scranton Running Company hosted Shiver by the River. It's held two times a year, and has been happening for more than a decade. Participants could choose from a 5K or 10K, or a two-mile walk. [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Sergeant of the Dunmore Police Department is facing charges after allegedly using drugs that had been confiscated as evidence. In November 2025, the Dumo...",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A Sergeant of the Dunmore Police Department is facing charges after allegedly using drugs that had been confiscated as evidence.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Runners and walkers shook off the chill for an event in Scranton on Saturday. The Scranton Running Company hosted Shiver by the River. It's held two times a year, and has been happening for more than a decade. Participants could choose from a 5K or 10K, or a two-mile walk. [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Runners and walkers shook off the chill for an event in Scranton on Saturday.",
       "graph": {
         "entities": [
           {
-            "name": "Dunmore Police",
+            "name": "The Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dunmore-police.md",
+            "file_path": "../entities/people/the-scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Dumore Police",
+            "name": "Running Company",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dumore-police.md",
+            "file_path": "../entities/people/running-company.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "District Attorney",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/district-attorney.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sergeant Stephon",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sergeant-stephon.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
@@ -887,17 +694,17 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Dunmore Police Department",
-            "type": "ORGANIZATION",
+            "name": "the River",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/dunmore-police-department.md",
+            "file_path": "../entities/locations/the-river.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Dumore Police Department",
+            "name": "The Scranton Running Company",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/dumore-police-department.md",
+            "file_path": "../entities/organizations/the-scranton-running-company.md",
             "resolution_method": "new_entity"
           },
           {
@@ -917,17 +724,32 @@
         ],
         "relationships": [
           {
-            "from": "Sergeant Stephon",
-            "to": "SCRANTON",
-            "type": "MEMBER_OF"
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           },
           {
-            "from": "Sergeant Stephon",
-            "to": "Dunmore Police",
-            "type": "MEMBER_OF"
+            "from": "the River",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "The Scranton Running Company",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dumore P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">District</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sergeant</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Running </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">the Rive</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -938,21 +760,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dunmore Police": "../entities/people/dunmore-police.md",
-          "Dumore Police": "../entities/people/dumore-police.md",
-          "District Attorney": "../entities/people/district-attorney.md",
-          "Sergeant Stephon": "../entities/people/sergeant-stephon.md",
-          "SCRANTON": "../entities/locations/scranton.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Running Company": "../entities/people/running-company.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Dunmore Police Department": "../entities/organizations/dunmore-police-department.md",
-          "Dumore Police Department": "../entities/organizations/dumore-police-department.md",
+          "the River": "../entities/locations/the-river.md",
+          "The Scranton Running Company": "../entities/organizations/the-scranton-running-company.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-01-09T17:28:23",
-      "url": "https://www.2822news.com/news/crime-courts/officer-charged-with-using-drugs-from-evidence-room/",
+      "publishedAt": "2026-01-10T23:48:40",
+      "url": "https://www.2822news.com/news/local-news/runners-walkers-shake-off-chills-in-scranton-event/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -960,44 +780,180 @@
     },
     {
       "id": "short_12",
-      "title": "Viewmont Mall to reopen after gas leak evacuation",
-      "title_distilled": "Viewmont Mall to reopen after gas leak evacuation.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Viewmont Mall will reopen Friday after closing and evacuating Thursday night due to a gas leak. Viewmont Mall Property Manager Associate Rosemary Bohenek said the mall will open for business at 11:00 a.m. Friday. However, some stores currently do not have power, but should have power back Saturday morning To [...]",
+      "title": "2 sent to hospital after rollover, entrapment",
+      "title_distilled": "2 sent to hospital after rollover, entrapment.",
+      "description": "ROARING BROOK TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Two people were taken to the hospital after a rollover crash Saturday afternoon, officials say. Lackawanna County officials confirmed with 28/22 News that authorities responded to the Scranton-Pocono Highway, near the Lake Scranton Parking lot in Roaring Brook Township, at 3:13 p.m. for a vehicle rollover crash. Authorities [...]",
       "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Viewmont Mall will reopen Friday after closing and evacuating Thursday night due to a gas leak. Viewmont Mall Property Manager Associate Rosemary Bohenek said the mall will open for business at 11:00 a.m. Friday. However, some stores currently do not have power, but should have power back Saturday morning To [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 The Viewmont Mall will reopen Friday after closing and evacuating Thursday night due to a gas leak.",
+      "content": "ROARING BROOK TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Two people were taken to the hospital after a rollover crash Saturday afternoon, officials say. Lackawanna County officials confirmed with 28/22 News that authorities responded to the Scranton-Pocono Highway, near the Lake Scranton Parking lot in Roaring Brook Township, at 3:13 p.m. for a vehicle rollover crash. Authorities [...]",
+      "content_distilled": "ROARING BROOK TOWNSHIP, LACKAWANNA COUNTY  \u2014 Two people were taken to the hospital after a rollover crash Saturday afternoon, officials say.",
       "graph": {
         "entities": [
           {
-            "name": "Viewmont Mall",
+            "name": "Pocono Highway",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/viewmont-mall.md",
+            "file_path": "../entities/people/pocono-highway.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Viewmont",
+            "name": "Lake Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-viewmont.md",
+            "file_path": "../entities/people/lake-scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Property Manager",
+            "name": "Roaring Brook",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/property-manager.md",
+            "file_path": "../entities/people/roaring-brook.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Associate Rosemary",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/associate-rosemary.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
             "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "the Lake",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/the-lake.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Pocono Highway",
+            "type": "CONFIRMED",
+            "verb": "confirmed"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Lake Scranton",
+            "type": "CONFIRMED",
+            "verb": "confirmed"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Roaring Brook",
+            "type": "CONFIRMED",
+            "verb": "confirmed"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "CONFIRMED",
+            "verb": "confirmed"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "the Lake",
+            "type": "CONFIRMED",
+            "verb": "confirmed"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "the Lake",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pocono H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lake Scr</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Roaring </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">the Lake</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONFIRMED</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONFIRMED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONFIRMED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONFIRMED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONFIRMED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Pocono Highway": "../entities/people/pocono-highway.md",
+          "Lake Scranton": "../entities/people/lake-scranton.md",
+          "Roaring Brook": "../entities/people/roaring-brook.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "the Lake": "../entities/locations/the-lake.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-01-10T21:42:42",
+      "url": "https://www.2822news.com/top-news/2-sent-to-hospital-after-rollover-entrapment/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Lackawanna County, Scranton issue Code Blue",
+      "title_distilled": "Lackawanna County, Scranton issue Code Blue.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County and the City of Scranton issued a Code Blue Frigid Weather Alert for Sunday and Monday nights. The alerts are issued for between 8:00 p.m. Sunday, Jan. 11, until 7:00 a.m. Monday, Jan. 12, and 8:00 p.m. Monday, Jan. 12, until 7:00 a.m. Tuesday, Jan. 13. St. Anthony\u2019s Haven, [...]",
+      "description_distilled": "",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County and the City of Scranton issued a Code Blue Frigid Weather Alert for Sunday and Monday nights. The alerts are issued for between 8:00 p.m. Sunday, Jan. 11, until 7:00 a.m. Monday, Jan. 12, and 8:00 p.m. Monday, Jan. 12, until 7:00 a.m. Tuesday, Jan. 13. St. Anthony\u2019s Haven, [...]",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 Lackawanna County and the City of Scranton issued a Code Blue Frigid Weather Alert for Sunday and Monday nights.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Code Blue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/code-blue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Frigid Weather",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/frigid-weather.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
@@ -1016,10 +972,38 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Code Blue Frigid Weather Alert",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/code-blue-frigid-weather-alert.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Viewmont</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The View</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Property</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Associat</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Code Blu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Frigid W</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1030,21 +1014,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Viewmont Mall": "../entities/people/viewmont-mall.md",
-          "The Viewmont": "../entities/people/the-viewmont.md",
-          "Property Manager": "../entities/people/property-manager.md",
-          "Associate Rosemary": "../entities/people/associate-rosemary.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Code Blue": "../entities/people/code-blue.md",
+          "Frigid Weather": "../entities/people/frigid-weather.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "Code Blue Frigid Weather Alert": "../entities/events/code-blue-frigid-weather-alert.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-01-09T15:24:57",
-      "url": "https://www.2822news.com/news/local-news/viewmont-mall-to-reopen-after-gas-leak-evacuation/",
+      "publishedAt": "2026-01-10T18:16:36",
+      "url": "https://www.2822news.com/news/local-news/lackawanna-county-scranton-issue-code-blue/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     }
   ]
