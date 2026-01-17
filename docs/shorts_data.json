@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-01-16T11:04:23.382321",
-  "source_file": "../data/daily/scranton_news_2026-01-16.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2026-01-17T11:04:05.424535",
+  "source_file": "../data/daily/scranton_news_2026-01-17.json",
+  "total_shorts": 14,
+  "total_duration": 112,
   "has_svo": false,
   "shorts": [
     {
@@ -405,145 +405,40 @@
     },
     {
       "id": "short_6",
-      "title": "Water main break in part of Olyphant",
-      "title_distilled": "Water main break in part of Olyphant.",
-      "description": "Crews are working on a water main break reported near East Lackawanna Avenue around 9:30 p.m.",
+      "title": "Dunmore High School class of 1975 50th reunion",
+      "title_distilled": "Dunmore High School class of 1975 50th reunion.",
+      "description": "The 50th class reunion of the Dunmore High School class of 1975 was held Sept. 7 at the Waldorf Social Club of the German American Federation on East Mountain, Scranton.",
       "description_distilled": "",
-      "content": "Crews are working on a water main break reported near East Lackawanna Avenue around 9:30 p.m.",
-      "content_distilled": "Crews are working on a water main break reported near East Lackawanna Avenue around 9:30 p.",
+      "content": "The 50th class reunion of the Dunmore High School class of 1975 was held Sept. 7 at the Waldorf Social Club of the German American Federation on East Mountain, Scranton.",
+      "content_distilled": "50th class reunion of the Dunmore High School class of 1975 was held Sept.",
       "graph": {
         "entities": [
           {
-            "name": "Olyphant Crews",
+            "name": "Dunmore High",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/olyphant-crews.md",
+            "file_path": "../entities/people/dunmore-high.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "East Lackawanna",
+            "name": "Waldorf Social",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/east-lackawanna.md",
+            "file_path": "../entities/people/waldorf-social.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "near East Lackawanna Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/near-east-lackawanna-avenue.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Olyphant Crews",
-            "to": "East Lackawanna",
-            "type": "REPORTED",
-            "verb": "reported"
-          },
-          {
-            "from": "Olyphant Crews",
-            "to": "near East Lackawanna Avenue",
-            "type": "REPORTED",
-            "verb": "reported"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">East Lac</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">near Eas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REPORTED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REPORTED</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Olyphant Crews": "../entities/people/olyphant-crews.md",
-          "East Lackawanna": "../entities/people/east-lackawanna.md",
-          "near East Lackawanna Avenue": "../entities/locations/near-east-lackawanna-avenue.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-01-16T03:54:06",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/water-main-break-in-part-of-olyphant-lackawanna-county/523-b0cb94fa-18d7-408c-8ea9-360856e665a9",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
-    },
-    {
-      "id": "short_7",
-      "title": "Carbondale Police Department to undergo $300K renovation thanks to state grant funding",
-      "title_distilled": "Carbondale Police Department to undergo $300K renovation thanks to state grant funding.",
-      "description": "Carbondale is set to revamp its police department thanks to $300,000 in state grant funding, modernizing outdated facilities with no cost to taxpayers.",
-      "description_distilled": "",
-      "content": "Carbondale is set to revamp its police department thanks to $300,000 in state grant funding, modernizing outdated facilities with no cost to taxpayers.",
-      "content_distilled": "Carbondale is set to revamp its police department thanks to $300,000 in state grant funding, modernizing outdated facilities with no cost to taxpayers.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Carbondale Police",
+            "name": "German American",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-police.md",
+            "file_path": "../entities/people/german-american.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Carbondale Police Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/carbondale-police-department.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Carbondale Police": "../entities/people/carbondale-police.md",
-          "Carbondale Police Department": "../entities/organizations/carbondale-police-department.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-01-15T20:55:59",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/carbondale-police-department-to-undergo-300k-renovation-thanks-to-state-grant-funding-mayor-michelle-bannon-lackawanna-county/523-203d7e8f-ada3-482f-9cd5-50677cf05fa4",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "Part of North Main Avenue in Scranton to close for $6M bridge replacement project",
-      "title_distilled": "Part of North Main Avenue in Scranton to close for $6M bridge replacement project.",
-      "description": "North Main Avenue between Marvine Avenue and Watkins Street will shut down on Tuesday and remain closed through the winter of 2026.",
-      "description_distilled": "",
-      "content": "North Main Avenue between Marvine Avenue and Watkins Street will shut down on Tuesday and remain closed through the winter of 2026.",
-      "content_distilled": "North Main Avenue between Marvine Avenue and Watkins Street will shut down on Tuesday and remain closed through the winter of 2026.",
-      "graph": {
-        "entities": [
-          {
-            "name": "North Main",
+            "name": "East Mountain",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-main.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Marvine Avenue",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/marvine-avenue.md",
+            "file_path": "../entities/people/east-mountain.md",
             "resolution_method": "new_entity"
           },
           {
@@ -554,38 +449,26 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "of North Main Avenue",
-            "type": "LOCATION",
+            "name": "Dunmore High School",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/of-north-main-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "between Marvine Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/between-marvine-avenue.md",
+            "file_path": "../entities/organizations/dunmore-high-school.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "North Main",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "Waldorf Social",
+            "to": "German American",
+            "type": "MEMBER_OF"
           },
           {
-            "from": "of North Main Avenue",
+            "from": "Dunmore High School",
             "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "between Marvine Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marvine </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">of North</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">between </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Waldorf </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">German A</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">East Mou</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -596,36 +479,431 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "North Main": "../entities/people/north-main.md",
-          "Marvine Avenue": "../entities/people/marvine-avenue.md",
+          "Dunmore High": "../entities/people/dunmore-high.md",
+          "Waldorf Social": "../entities/people/waldorf-social.md",
+          "German American": "../entities/people/german-american.md",
+          "East Mountain": "../entities/people/east-mountain.md",
           "Scranton": "../entities/locations/scranton.md",
-          "of North Main Avenue": "../entities/locations/of-north-main-avenue.md",
-          "between Marvine Avenue": "../entities/locations/between-marvine-avenue.md"
+          "Dunmore High School": "../entities/organizations/dunmore-high-school.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-01-15T16:50:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/part-of-north-main-avenue-in-scranton-to-close-for-6m-bridge-replacement-project-marvine-avenue-watkins-street-leggetts-creek/523-db9f3c32-9b70-4714-afa6-fcde661da479",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2026-01-17T05:00:55",
+      "url": "https://www.thetimes-tribune.com/2026/01/17/dunmore-high-school-class-of-1975-50th-reunion-2/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC2-0117.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
+      "title": "Lackawanna County Court Notes, January 17, 2026",
+      "title_distilled": "Lackawanna County Court Notes, January 17, 2026.",
+      "description": "MARRIAGE LICENSE Joshua Charles Wolk and Tabay Willis, both of Taylor. PROPERTY TRANSACTIONS Nicholas Jr. and Marcia L. Demian to Lombardi &#38; Co. Inc.; a property in Archbald for $300,000. Lloyd Van Sickle, through his duly appointed power of attorneys, Lloyd Midgett and Rosemarie Midgett, Old Forge, to Savannah June Reardon; two parcels in Old Forge for $270,000. Thomas I. Sweeney, Jermyn, to Derek Everett and Hannah Casey Tolerico, Archbald, as joint tenants with rights of survivorship; a property at 413 Gibson St., Archbald, for $325,000. Nicholas R. and Julie A. Buss to Vincent James Donovan; a property at 794 [&#8230;]",
+      "description_distilled": "",
+      "content": "MARRIAGE LICENSE Joshua Charles Wolk and Tabay Willis, both of Taylor. PROPERTY TRANSACTIONS Nicholas Jr. and Marcia L. Demian to Lombardi &#38; Co. Inc.; a property in Archbald for $300,000. Lloyd Van Sickle, through his duly appointed power of attorneys, Lloyd Midgett and Rosemarie Midgett, Old Forge, to Savannah June Reardon; two parcels in Old Forge for $270,000. Thomas I. Sweeney, Jermyn, to Derek Everett and Hannah Casey Tolerico, Archbald, as joint tenants with rights of survivorship; a property at 413 Gibson St., Archbald, for $325,000. Nicholas R. and Julie A. Buss to Vincent James Donovan; a property at 794 [&#8230;]",
+      "content_distilled": "MARRIAGE LICENSE Joshua Charles Wolk and Tabay Willis, both of Taylor.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Court Notes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/court-notes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joshua Charles",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joshua-charles.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tabay Willis",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/tabay-willis.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lloyd Van Sickle",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lloyd-van-sickle.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lloyd Midgett",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lloyd-midgett.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Rosemarie Midgett",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rosemarie-midgett.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Old Forge",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/old-forge.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Savannah June",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/savannah-june.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Derek Everett",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/derek-everett.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Hannah Casey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/hannah-casey.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Lloyd Van Sickle",
+            "to": "Lloyd Midgett",
+            "type": "APPOINTED",
+            "verb": "appointed"
+          },
+          {
+            "from": "Lloyd Van Sickle",
+            "to": "Rosemarie Midgett",
+            "type": "APPOINTED",
+            "verb": "appointed"
+          },
+          {
+            "from": "Lloyd Van Sickle",
+            "to": "Old Forge",
+            "type": "APPOINTED",
+            "verb": "appointed"
+          },
+          {
+            "from": "Lloyd Van Sickle",
+            "to": "Savannah June",
+            "type": "APPOINTED",
+            "verb": "appointed"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joshua C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tabay Wi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lloyd Va</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lloyd Mi</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rosemari</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">APPOINTED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">APPOINTED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Court Notes": "../entities/people/court-notes.md",
+          "Joshua Charles": "../entities/people/joshua-charles.md",
+          "Tabay Willis": "../entities/people/tabay-willis.md",
+          "Lloyd Van Sickle": "../entities/people/lloyd-van-sickle.md",
+          "Lloyd Midgett": "../entities/people/lloyd-midgett.md",
+          "Rosemarie Midgett": "../entities/people/rosemarie-midgett.md",
+          "Old Forge": "../entities/people/old-forge.md",
+          "Savannah June": "../entities/people/savannah-june.md",
+          "Derek Everett": "../entities/people/derek-everett.md",
+          "Hannah Casey": "../entities/people/hannah-casey.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-01-17T05:00:36",
+      "url": "https://www.thetimes-tribune.com/2026/01/17/lackawanna-county-court-notes-january-17-2026/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/CVC-L-STOCKCOURTCOMPUTER-01.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Dunmore High School class of 1975 50th reunion",
+      "title_distilled": "Dunmore High School class of 1975 50th reunion.",
+      "description": "The 50th class reunion of the Dunmore High School class of 1975 was held Sept. 7 at the Waldorf Social Club of the German American Federation on East Mountain, Scranton. Committee members, front row, from left: MaryAnn Valvano Ragnacci, Toni Manci DiVizio, Jan Dempsey Boles, Bonny Bianco Capooci, Maureen McDonald Guzzi and Jody Conway Maloney. Second row: Karen McGraw Pasqualicchio, Lou Pasqualicchio, Valerie Kolback Inman, Gene DiVizio, Susan Cannon Ditchkus, Paul Arduino, Angela Scalzo Dempsey, Linda Bliss, Marianne Sawko Chiumento, John Occhipinti and Jay Cali.",
+      "description_distilled": "",
+      "content": "The 50th class reunion of the Dunmore High School class of 1975 was held Sept. 7 at the Waldorf Social Club of the German American Federation on East Mountain, Scranton. Committee members, front row, from left: MaryAnn Valvano Ragnacci, Toni Manci DiVizio, Jan Dempsey Boles, Bonny Bianco Capooci, Maureen McDonald Guzzi and Jody Conway Maloney. Second row: Karen McGraw Pasqualicchio, Lou Pasqualicchio, Valerie Kolback Inman, Gene DiVizio, Susan Cannon Ditchkus, Paul Arduino, Angela Scalzo Dempsey, Linda Bliss, Marianne Sawko Chiumento, John Occhipinti and Jay Cali.",
+      "content_distilled": "50th class reunion of the Dunmore High School class of 1975 was held Sept.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dunmore High",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dunmore-high.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Waldorf Social",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/waldorf-social.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "German American",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/german-american.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "East Mountain",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/east-mountain.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Valvano Ragnacci",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/valvano-ragnacci.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Toni Manci",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/toni-manci.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jan Dempsey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jan-dempsey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Bonny Bianco",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bonny-bianco.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jody Conway",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jody-conway.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lou Pasqualicchio",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lou-pasqualicchio.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Waldorf Social",
+            "to": "German American",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Waldorf </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">German A</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">East Mou</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valvano </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Toni Man</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dunmore High": "../entities/people/dunmore-high.md",
+          "Waldorf Social": "../entities/people/waldorf-social.md",
+          "German American": "../entities/people/german-american.md",
+          "East Mountain": "../entities/people/east-mountain.md",
+          "Valvano Ragnacci": "../entities/people/valvano-ragnacci.md",
+          "Toni Manci": "../entities/people/toni-manci.md",
+          "Jan Dempsey": "../entities/people/jan-dempsey.md",
+          "Bonny Bianco": "../entities/people/bonny-bianco.md",
+          "Jody Conway": "../entities/people/jody-conway.md",
+          "Lou Pasqualicchio": "../entities/people/lou-pasqualicchio.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-01-17T05:00:21",
+      "url": "https://www.thetimes-tribune.com/2026/01/17/dunmore-high-school-class-of-1975-50th-reunion/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC1-0117.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
       "animation_delay": 0.8
     },
     {
       "id": "short_9",
-      "title": "Saint Joseph's Center holds MLK Day clothing drive in Lackawanna County",
-      "title_distilled": "Saint Joseph's Center holds MLK Day clothing drive in Lackawanna County.",
-      "description": "Saint Joseph's Center needs winter clothing for children. They are holding a clothing drive on MLK Day.",
+      "title": "Clipboard, January 17, 2026",
+      "title_distilled": "Clipboard, January 17, 2026.",
+      "description": "Clarks Summit Ice festival activities: Clarks Summit Ice Festival activities at First Presbyterian Church in Clarks Summit, weekend of Jan. 30-Feb. 1. Other than buying food in the Chili Cafe, all activities are free. The church is at 300 School St., one block off the main street. In additional to an ice sculpture on display just outside the entrance to the sanctuary, events include: Elaine Tweedy directing the photography and art show in the session room most of the weekend, featuring a juried photographic exhibit, as well as the artwork of talented parishioners and community members, Jan. 30, 4-7 p.m., [&#8230;]",
       "description_distilled": "",
-      "content": "Saint Joseph's Center needs winter clothing for children. They are holding a clothing drive on MLK Day.",
-      "content_distilled": "Saint Joseph's Center needs winter clothing for children.",
+      "content": "Clarks Summit Ice festival activities: Clarks Summit Ice Festival activities at First Presbyterian Church in Clarks Summit, weekend of Jan. 30-Feb. 1. Other than buying food in the Chili Cafe, all activities are free. The church is at 300 School St., one block off the main street. In additional to an ice sculpture on display just outside the entrance to the sanctuary, events include: Elaine Tweedy directing the photography and art show in the session room most of the weekend, featuring a juried photographic exhibit, as well as the artwork of talented parishioners and community members, Jan. 30, 4-7 p.m., [&#8230;]",
+      "content_distilled": "Clarks Summit Ice festival activities: Clarks Summit Ice Festival activities at First Presbyterian Church in Clarks Summit, weekend of Jan.",
       "graph": {
         "entities": [
           {
-            "name": "Saint Joseph",
+            "name": "Clarks Summit",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/saint-joseph.md",
+            "file_path": "../entities/people/clarks-summit.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Ice Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ice-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "First Presbyterian",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/first-presbyterian.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Chili Cafe",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/chili-cafe.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Elaine Tweedy",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/elaine-tweedy.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Clarks Summit Ice festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/clarks-summit-ice-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Clarks Summit Ice Festival activities at First Presbyterian Church in Clarks Summit",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/clarks-summit-ice-festival-activities-at-first-presbyterian-church-in-clarks-summit.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ice Fest</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">First Pr</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chili Ca</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elaine T</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Clarks Summit": "../entities/people/clarks-summit.md",
+          "Ice Festival": "../entities/people/ice-festival.md",
+          "First Presbyterian": "../entities/people/first-presbyterian.md",
+          "Chili Cafe": "../entities/people/chili-cafe.md",
+          "Elaine Tweedy": "../entities/people/elaine-tweedy.md",
+          "Clarks Summit Ice festival": "../entities/events/clarks-summit-ice-festival.md",
+          "Clarks Summit Ice Festival activities at First Presbyterian Church in Clarks Summit": "../entities/events/clarks-summit-ice-festival-activities-at-first-presbyterian-church-in-clarks-summit.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-01-17T05:00:02",
+      "url": "https://www.thetimes-tribune.com/2026/01/17/clipboard-january-17-2026/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "5th annual 'Downtown on Ice' kicks off",
+      "title_distilled": "5th annual 'Downtown on Ice' kicks off.",
+      "description": "Since 2021, downtown Scranton has celebrated the winter season with 'Downtown on Ice.' This year, 50 ice sculptures are scattered across 30 blocks in the city.",
+      "description_distilled": "",
+      "content": "Since 2021, downtown Scranton has celebrated the winter season with 'Downtown on Ice.' This year, 50 ice sculptures are scattered across 30 blocks in the city.",
+      "content_distilled": "Since 2021, downtown Scranton has celebrated the winter season with 'Downtown on Ice.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-01-17T03:57:00",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fifth-annual-downtown-on-ice-kicks-off-lackawanna-county-scranton/523-3951ba39-d80a-4a2e-ae35-39f2b25b2a8d",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Trail walkers brave the cold in Lackawanna County",
+      "title_distilled": "Trail walkers brave the cold in Lackawanna County.",
+      "description": "Newswatch 16's Anthony Bordanaro shares how folks are taking advantage of the Lackawanna Heritage Trail despite the cold temps.",
+      "description_distilled": "",
+      "content": "Newswatch 16's Anthony Bordanaro shares how folks are taking advantage of the Lackawanna Heritage Trail despite the cold temps.",
+      "content_distilled": "Newswatch 16's Anthony Bordanaro shares how folks are taking advantage of the Lackawanna Heritage Trail despite the cold temps.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Anthony Bordanaro",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/anthony-bordanaro.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna Heritage",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-heritage.md",
             "resolution_method": "new_entity"
           },
           {
@@ -634,24 +912,16 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "MLK Day clothing drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/mlk-day-clothing-drive.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "clothing drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/clothing-drive.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Jo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">MLK Day </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">clothing</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Anthony Bordanaro",
+            "to": "Lackawanna Heritage",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Anthony </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -662,177 +932,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Saint Joseph": "../entities/people/saint-joseph.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "MLK Day clothing drive": "../entities/locations/mlk-day-clothing-drive.md",
-          "clothing drive": "../entities/locations/clothing-drive.md"
+          "Anthony Bordanaro": "../entities/people/anthony-bordanaro.md",
+          "Lackawanna Heritage": "../entities/people/lackawanna-heritage.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-01-15T15:04:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/saint-josephs-center-holds-mlk-day-clothing-drive-lackawanna-county-dunmore-nikki-krize/523-908cdc03-26c4-4e5b-bbde-69f715210737",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Water main break impacting homes and businesses",
-      "title_distilled": "Water main break impacting homes and businesses.",
-      "description": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Part of a road is closed after a water main break on Thursday night. According to Pennsylvania American Water, a broken 8-inch main has affected 40 customer...",
-      "description_distilled": "",
-      "content": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Part of a road is closed after a water main break on Thursday night. According to Pennsylvania American Water, a broken 8-inch main has affected 40 customer...",
-      "content_distilled": "OLYPHANT, LACKAWANNA COUNTY \u2014 Part of a road is closed after a water main break on Thursday night.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Pennsylvania American",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-american.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Pennsylvania American": "../entities/people/pennsylvania-american.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-01-16T04:20:41",
-      "url": "https://www.2822news.com/news/water-main-break-impacting-homes-and-businesses/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Residents concerned over proposed pump to treat leachate water",
-      "title_distilled": "Residents concerned over proposed pump to treat leachate water.",
-      "description": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Landfill officials in Lackawanna County are proposing a new underground line to pump treated leachate water from the landfill into the Lackawanna River basin. The Keystone Sanitary Landfill is seeking to install a private line to convey treated leachate from the landfill's plant in Dunmore to the Lackawanna River Basin Sewer Authority [...]",
-      "description_distilled": "",
-      "content": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Landfill officials in Lackawanna County are proposing a new underground line to pump treated leachate water from the landfill into the Lackawanna River basin. The Keystone Sanitary Landfill is seeking to install a private line to convey treated leachate from the landfill's plant in Dunmore to the Lackawanna River Basin Sewer Authority [...]",
-      "content_distilled": "THROOP, LACKAWANNA COUNTY \u2014 Landfill officials in Lackawanna County are proposing a new underground line to pump treated leachate water from the landfill into the Lackawanna River basin.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Lackawanna River",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-river.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Keystone",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-keystone.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sanitary Landfill",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sanitary-landfill.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Basin Sewer",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/basin-sewer.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Keys</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sanitary</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Basin Se</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Lackawanna River": "../entities/people/lackawanna-river.md",
-          "The Keystone": "../entities/people/the-keystone.md",
-          "Sanitary Landfill": "../entities/people/sanitary-landfill.md",
-          "Basin Sewer": "../entities/people/basin-sewer.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-01-16T04:15:24",
-      "url": "https://www.2822news.com/news/residents-concerned-over-proposed-pump-to-treat-leachate-water/",
+      "publishedAt": "2026-01-16T21:50:45",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/trail-walkers-brave-the-cold-in-lackawanna-county-heritage-scranton-weather/523-45336811-075a-4e14-8df9-40dacfd7722e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -840,121 +947,26 @@
     },
     {
       "id": "short_12",
-      "title": "Police search for man who allegedly rammed, shot at ex",
-      "title_distilled": "Police search for man who allegedly rammed, shot at ex.",
-      "description": "WOODWARD TOWNSHIP, LYCOMING COUNTY (WBRE/WYOU) \u2014 Troopers say they are searching for a man who rammed his ex-girlfriend's vehicle and shot a rifle at her. Pennsylvania State Police have put out a warrant for the arrest of 47-year-old Adam Taylor, from South Williamsport, on the charges of attempted criminal homicide. Pennsylvania State Police responded to [...]",
+      "title": "What to expect at this year's Ice Festival!",
+      "title_distilled": "What to expect at this year's Ice Festival!.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 There are no fears of melting ice in Scranton at this year's downtown on ice event. Streets in the center city are lined with hand-carved ice sculptures. The annual event kicks off on Friday at 6:00 p.m. 28/22 News reporter Heidi Martens has more of what the annual ice fest will offer [...]",
       "description_distilled": "",
-      "content": "WOODWARD TOWNSHIP, LYCOMING COUNTY (WBRE/WYOU) \u2014 Troopers say they are searching for a man who rammed his ex-girlfriend's vehicle and shot a rifle at her. Pennsylvania State Police have put out a warrant for the arrest of 47-year-old Adam Taylor, from South Williamsport, on the charges of attempted criminal homicide. Pennsylvania State Police responded to [...]",
-      "content_distilled": "WOODWARD TOWNSHIP, LYCOMING COUNTY  \u2014 Troopers say they are searching for a man who rammed his ex-girlfriend's vehicle and shot a rifle at her.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 There are no fears of melting ice in Scranton at this year's downtown on ice event. Streets in the center city are lined with hand-carved ice sculptures. The annual event kicks off on Friday at 6:00 p.m. 28/22 News reporter Heidi Martens has more of what the annual ice fest will offer [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 There are no fears of melting ice in Scranton at this year's downtown on ice event.",
       "graph": {
         "entities": [
           {
-            "name": "Pennsylvania State",
+            "name": "Ice Festival",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-state.md",
+            "file_path": "../entities/people/ice-festival.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Adam Taylor",
+            "name": "Heidi Martens",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/adam-taylor.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "South Williamsport",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/south-williamsport.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Adam Tay</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Wi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Pennsylvania State": "../entities/people/pennsylvania-state.md",
-          "Adam Taylor": "../entities/people/adam-taylor.md",
-          "South Williamsport": "../entities/people/south-williamsport.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-01-16T00:22:18",
-      "url": "https://www.2822news.com/news/police-search-for-man-who-allegedly-rammed-shot-at-ex/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Residents press public utilities commission on rate hikes",
-      "title_distilled": "Residents press public utilities commission on rate hikes.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 A hearing took place in Lackawanna County about rising prices for residents' water bills. The state Public Utility Commission is holding two hearings to hear from Pennsylvania American Water customers. 28/22 News reporter Connor Coar is following Thursday's developments in Scranton and has more about the meetings. The PA Utility Commission [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 A hearing took place in Lackawanna County about rising prices for residents' water bills. The state Public Utility Commission is holding two hearings to hear from Pennsylvania American Water customers. 28/22 News reporter Connor Coar is following Thursday's developments in Scranton and has more about the meetings. The PA Utility Commission [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 A hearing took place in Lackawanna County about rising prices for residents' water bills.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Public Utility",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/public-utility.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania American",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-american.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Connor Coar",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/connor-coar.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Utility Commission",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/utility-commission.md",
+            "file_path": "../entities/people/heidi-martens.md",
             "resolution_method": "new_entity"
           },
           {
@@ -965,20 +977,6 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
             "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
@@ -1000,14 +998,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Public Utility",
-            "to": "Pennsylvania American",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Public U</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Connor C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Utility </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ice Fest</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heidi Ma</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1018,54 +1010,58 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Public Utility": "../entities/people/public-utility.md",
-          "Pennsylvania American": "../entities/people/pennsylvania-american.md",
-          "Connor Coar": "../entities/people/connor-coar.md",
-          "Utility Commission": "../entities/people/utility-commission.md",
+          "Ice Festival": "../entities/people/ice-festival.md",
+          "Heidi Martens": "../entities/people/heidi-martens.md",
           "SCRANTON": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-01-15T23:28:55",
-      "url": "https://www.2822news.com/news/residents-press-public-utilities-commission-on-rate-hikes/",
+      "publishedAt": "2026-01-16T23:45:51",
+      "url": "https://www.2822news.com/news/local-news/what-to-expect-at-this-years-ice-festival/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_14",
-      "title": "Shapiro talks fighting opioid epidemic in NEPA",
-      "title_distilled": "Shapiro talks fighting opioid epidemic in NEPA.",
-      "description": "TUNKHANNOCK, WYOMING COUNTY (WBRE/WYOU)\u2014 Call it a meeting of the minds in Tunkhannock to tackle a troubling problem. Governor Josh Shapiro visited the Wyoming County Emergency Management Agency. He joined state health leaders to discuss the commonwealth's drug problem. The roundtable focused on efforts to save lives, prevent fatal overdoses, and support families struggling with substance [...]",
+      "id": "short_13",
+      "title": "Celebrating MLK Day a little early in NEPA",
+      "title_distilled": "Celebrating MLK Day a little early in NEPA.",
+      "description": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU)\u2014 Martin Luther King Day is being celebrated a little early in the Diamond City. Preparations for the national holiday are underway as the city of Wilkes-Barre held a ceremony at City Hall to launch festivities for January 19. The city welcomed the NAACP Branch 2306 in Luzerne County for the first [...]",
       "description_distilled": "",
-      "content": "TUNKHANNOCK, WYOMING COUNTY (WBRE/WYOU)\u2014 Call it a meeting of the minds in Tunkhannock to tackle a troubling problem. Governor Josh Shapiro visited the Wyoming County Emergency Management Agency. He joined state health leaders to discuss the commonwealth's drug problem. The roundtable focused on efforts to save lives, prevent fatal overdoses, and support families struggling with substance [...]",
-      "content_distilled": "TUNKHANNOCK, WYOMING COUNTY \u2014 Call it a meeting of the minds in Tunkhannock to tackle a troubling problem.",
+      "content": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU)\u2014 Martin Luther King Day is being celebrated a little early in the Diamond City. Preparations for the national holiday are underway as the city of Wilkes-Barre held a ceremony at City Hall to launch festivities for January 19. The city welcomed the NAACP Branch 2306 in Luzerne County for the first [...]",
+      "content_distilled": "WILKES-BARRE, LUZERNE COUNTY \u2014 Martin Luther King Day is being celebrated a little early in the Diamond City.",
       "graph": {
         "entities": [
           {
-            "name": "Governor Josh",
+            "name": "Martin Luther",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/governor-josh.md",
+            "file_path": "../entities/people/martin-luther.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Emergency Management",
+            "name": "King Day",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/emergency-management.md",
+            "file_path": "../entities/people/king-day.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Wyoming County Emergency Management Agency",
-            "type": "ORGANIZATION",
+            "name": "Diamond City",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wyoming-county-emergency-management-agency.md",
+            "file_path": "../entities/people/diamond-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "City Hall",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/city-hall.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1081,30 +1077,10 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Governor Josh Shapiro visited the Wyoming County Emergency",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/governor-josh-shapiro-visited-the-wyoming-county-emergency.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Governor Josh",
-            "to": "Emergency Management",
-            "type": "VISITED",
-            "verb": "visited"
-          },
-          {
-            "from": "Governor Josh",
-            "to": "Wyoming County Emergency Management Agency",
-            "type": "VISITED",
-            "verb": "visited"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Governor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Emergenc</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wyoming </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Governor</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Martin L</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">King Day</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Diamond </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">City Hal</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1115,20 +1091,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Governor Josh": "../entities/people/governor-josh.md",
-          "Emergency Management": "../entities/people/emergency-management.md",
-          "Wyoming County Emergency Management Agency": "../entities/organizations/wyoming-county-emergency-management-agency.md",
+          "Martin Luther": "../entities/people/martin-luther.md",
+          "King Day": "../entities/people/king-day.md",
+          "Diamond City": "../entities/people/diamond-city.md",
+          "City Hall": "../entities/people/city-hall.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Governor Josh Shapiro visited the Wyoming County Emergency": "../entities/events/governor-josh-shapiro-visited-the-wyoming-county-emergency.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-01-15T22:50:20",
-      "url": "https://www.2822news.com/news/shapiro-talks-fighting-opioid-epidemic-in-nepa/",
+      "publishedAt": "2026-01-16T22:16:56",
+      "url": "https://www.2822news.com/news/celebrating-mlk-day-a-little-early-in-nepa/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     }
   ]
