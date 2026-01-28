@@ -1,12 +1,125 @@
 {
-  "generated_at": "2026-01-27T11:06:07.809302",
-  "source_file": "../data/daily/scranton_news_2026-01-27.json",
-  "total_shorts": 14,
-  "total_duration": 112,
+  "generated_at": "2026-01-28T11:06:23.563962",
+  "source_file": "../data/daily/scranton_news_2026-01-28.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Senior Care Expert Peter Tomasi of Scranton Explains How to Know When It\u2019s Time for Home Care for HelloNation",
+      "title_distilled": "Senior Care Expert Peter Tomasi of Scranton Explains How to Know When It\u2019s Time for Home Care for HelloNation.",
+      "description": "SCRANTON, Pa., Jan. 26, 2026 (GLOBE NEWSWIRE) -- How can families recognize the right moment to begin home care for an aging loved one? That question is thoughtfully explored in a HelloNation article featuring insights from Peter Tomasi, Senior Care Expert \u2026",
+      "description_distilled": "",
+      "content": "SCRANTON, Pa., Jan. 26, 2026 (GLOBE NEWSWIRE) -- How can families recognize the right moment to begin home care for an aging loved one? That question is thoughtfully explored in a HelloNation article featuring insights from Peter Tomasi, Senior Care Expert \u2026",
+      "content_distilled": "SCRANTON, Pa.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Senior Care",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/senior-care.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Expert Peter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/expert-peter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Explains",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-explains.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Know When",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/know-when.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Home Care",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/home-care.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Peter Tomasi",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/peter-tomasi.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Senior Care",
+            "to": "Scranton Explains",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Home Care",
+            "to": "Scranton",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senior C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Expert P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Know Whe</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Home Car</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Peter To</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Senior Care": "../entities/people/senior-care.md",
+          "Expert Peter": "../entities/people/expert-peter.md",
+          "Scranton Explains": "../entities/people/scranton-explains.md",
+          "Know When": "../entities/people/know-when.md",
+          "Home Care": "../entities/people/home-care.md",
+          "Peter Tomasi": "../entities/people/peter-tomasi.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-01-26T15:33:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/01/26/3225792/0/en/Senior-Care-Expert-Peter-Tomasi-of-Scranton-Explains-How-to-Know-When-It-s-Time-for-Home-Care-for-HelloNation.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/b3d97f3b-1417-45c1-8642-1d6f0c98b8df",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Future of historic Scranton Times building unknown",
       "title_distilled": "Future of historic Scranton Times building unknown.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The future of a historic landmark in Downtown Scranton is up in the air. The Scranton Times building was donated to...",
@@ -107,11 +220,11 @@
       "url": "https://www.2822news.com/news/local-news/future-of-historic-scranton-times-building-unknown/",
       "urlToImage": "https://s.yimg.com/os/en/wbre_articles_217/f782e056a44cfbe579eb8e4abe417a48",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Lackawanna County contract with SEIU to save $1.2M in health care costs",
       "title_distilled": "Lackawanna County contract with SEIU to save $1.",
       "description": "The Lackawanna County Commissioners unanimously ratified a four-year contract Tuesday with the Service Employees International Union that will save the county $1.2 million in health care costs",
@@ -164,11 +277,11 @@
       "url": "https://www.thetimes-tribune.com/2025/12/30/lackawanna-county-contract-with-seiu-to-save-1-2m-in-health-care-costs/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/12/STT-L-SEIU-1231-04.jpg?w=1024&h=669",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Fidelity D & D Bancorp, Inc. First Quarter 2026 Dividend",
       "title_distilled": "Fidelity D & D Bancorp, Inc.",
       "description": "DUNMORE, Pa., Jan. 22, 2026 (GLOBE NEWSWIRE) -- The Board of Directors of Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC), parent company of The Fidelity Deposit and Discount Bank, announce their declaration of the Company\u2019s 2026 first quarter dividend of $0.43 p\u2026",
@@ -243,11 +356,11 @@
       "url": "https://www.globenewswire.com/news-release/2026/01/22/3223713/0/en/Fidelity-D-D-Bancorp-Inc-First-Quarter-2026-Dividend.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/653a97ad-f0c3-47f1-adc8-3fcbfa4a2d41",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Fidelity Bank Welcomes James Clemente, CPA, MT and Rocco A. DelVecchio to Board of Directors",
       "title_distilled": "Fidelity Bank Welcomes James Clemente, CPA, MT and Rocco A.",
       "description": "DUNMORE, Pa., Jan. 02, 2026 (GLOBE NEWSWIRE) -- Brian J. Cali, Chairman of the Board of Fidelity Bank, is pleased to announce the appointment of James Clemente, CPA, MT and Rocco A. DelVecchio to its Board of Directors.",
@@ -308,11 +421,11 @@
       "url": "https://www.globenewswire.com/news-release/2026/01/02/3212314/0/en/Fidelity-Bank-Welcomes-James-Clemente-CPA-MT-and-Rocco-A-DelVecchio-to-Board-of-Directors.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/653a97ad-f0c3-47f1-adc8-3fcbfa4a2d41",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Gentex Unveils Ops-Core FAST XP Helmet System, A New Standard in Next-Generation Protection for Law Enforcement",
       "title_distilled": "Gentex Unveils Ops-Core FAST XP Helmet System, A New Standard in Next-Generation Protection for Law Enforcement.",
       "description": "CARBONDALE, PA, January 19, 2026 \u2013Gentex Corporation announced the launch of the newly re-designed Ops-Core FAST XP Helmet System, a ballistic helmet solution purpose built and priced for law enforcement. Designed to meet the real-world needs ofspecialized un\u2026",
@@ -446,11 +559,11 @@
       "url": "https://soldiersystems.net/2026/01/19/gentex-unveils-ops-core-fast-xp-helmet-system-a-new-standard-in-next-generation-protection-for-law-enforcement/",
       "urlToImage": "https://soldiersystems.net/wp-content/uploads/2026/01/OPS_FAST_XP_Press_Release_Image-440x248.jpeg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "PennDOT restores speed limits on NEPA interstates",
       "title_distilled": "PennDOT restores speed limits on NEPA interstates.",
       "description": "(WBRE/WYOU) \u2014 The Pennsylvania Department of Transportation (PennDOT) removed the remaining restrictions for non-commercial vehicles that were put in place...",
@@ -519,11 +632,11 @@
       "url": "https://www.2822news.com/news/penndot-restores-speed-limits-on-nepa-interstates/",
       "urlToImage": "https://media.zenfs.com/en/wbre_articles_217/c92b752e8c3ab9c7dc3cd89d3c272a8c",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "Troopers claim retaliation in lawsuit over alleged payroll fraud",
       "title_distilled": "Troopers claim retaliation in lawsuit over alleged payroll fraud.",
       "description": "Two Pennsylvania state troopers have filed a lawsuit against Gov. Josh Shapiro and others, claiming they faced retaliation after reporting payroll fraud within the department.",
@@ -576,66 +689,24 @@
       "url": "https://www.wgal.com/article/pennsylvania-state-police-lawsuit-payroll-fraud-allegations/69895079",
       "urlToImage": "https://kubrick.htvapps.com/vidthumb/images/pennsylvania-state-police-graphic-1666609696.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
-      "title": "New task force launches to prevent sleep-related infant deaths",
-      "title_distilled": "New task force launches to prevent sleep-related infant deaths.",
-      "description": "The NEPA Sleep Safety Task Force, co-chaired by Meghan Lennox Gagorik, executive cirector of the Children\u2019s Advocacy Center of Northeastern Pennsylvania, and Lackawanna County District Attorney Brian Gallagher, has been launched to address the alarming and preventable trend of sleep-related infant deaths in the region. The initiative was born out of conversations between CAC of NEPA and the DA&#8217;s office about how more could be done to protect children before tragedy strikes. Guided by CAC\u2019s mission to promote safety, healing and justice, the task force brings together law enforcement, medical professionals, child welfare agencies and community leaders to educate families, [&#8230;]",
+      "id": "short_8",
+      "title": "A variety of entertainment on the way in NEPA",
+      "title_distilled": "variety of entertainment on the way in NEPA.",
+      "description": "The 2026 entertainment options for Northeast Pennsylvania are varied and include big names and local acts.",
       "description_distilled": "",
-      "content": "The NEPA Sleep Safety Task Force, co-chaired by Meghan Lennox Gagorik, executive cirector of the Children\u2019s Advocacy Center of Northeastern Pennsylvania, and Lackawanna County District Attorney Brian Gallagher, has been launched to address the alarming and preventable trend of sleep-related infant deaths in the region. The initiative was born out of conversations between CAC of NEPA and the DA&#8217;s office about how more could be done to protect children before tragedy strikes. Guided by CAC\u2019s mission to promote safety, healing and justice, the task force brings together law enforcement, medical professionals, child welfare agencies and community leaders to educate families, [&#8230;]",
-      "content_distilled": "NEPA Sleep Safety Task Force, co-chaired by Meghan Lennox Gagorik, executive cirector of the Children\u2019s Advocacy Center of Northeastern Pennsylvania, and Lackawanna County District Attorney Brian Gallagher, has been launched to address the alarming and preventable trend of sleep-related infant deaths in the region.",
+      "content": "The 2026 entertainment options for Northeast Pennsylvania are varied and include big names and local acts.",
+      "content_distilled": "2026 entertainment options for Northeast Pennsylvania are varied and include big names and local acts.",
       "graph": {
         "entities": [
           {
-            "name": "Sleep Safety",
+            "name": "Northeast Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/sleep-safety.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Task Force",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/task-force.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Meghan Lennox",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/meghan-lennox.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Advocacy Center",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/advocacy-center.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "District Attorney",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/district-attorney.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Brian Gallagher",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/brian-gallagher.md",
+            "file_path": "../entities/people/northeast-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -644,23 +715,10 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Advocacy Center",
-            "to": "Northeastern Pennsylvania",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sleep Sa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Task For</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Meghan L</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Advocacy</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">District</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -671,49 +729,101 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Sleep Safety": "../entities/people/sleep-safety.md",
-          "Task Force": "../entities/people/task-force.md",
-          "Meghan Lennox": "../entities/people/meghan-lennox.md",
-          "Advocacy Center": "../entities/people/advocacy-center.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "District Attorney": "../entities/people/district-attorney.md",
-          "Brian Gallagher": "../entities/people/brian-gallagher.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2026-01-27T05:00:49",
-      "url": "https://www.thetimes-tribune.com/2026/01/27/new-task-force-launches-to-prevent-sleep-related-infant-deaths/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC1-0127.jpg?w=1400px&strip=all",
+      "publishedAt": "2026-01-28T05:00:53",
+      "url": "https://www.thetimes-tribune.com/2026/01/28/a-variety-of-entertainment-on-the-way-in-nepa/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/AP25174625937769.jpg?w=1400px&strip=all",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
-      "title": "Summer interns gain valuable experience at the Wright Center",
-      "title_distilled": "Summer interns gain valuable experience at the Wright Center.",
-      "description": "The Wright Centers for Community Health and Graduate Medical Education hosted Internship Capstone Poster Day at the health center in Scranton. Participating interns and the schools they are attending, from left, kneeling: Paige Walsh, University of Pittsburgh; Mya Maus, University of Scranton; Noah Lynch, Elizabethtown College; Matthew Dombrowski, University of Scranton; Shane Cegelka, King\u2019s College; and Alexander Franklin, University of Scranton. Seated: Rebekah Feinberg, A.T. Still University; Remy Turrell, Wyoming Seminary; Krittika Boruah, Wyoming Seminary; Katherine Mena Pereyra, American University; Jiya Shah, Abington Heights High School; and Patricia McAndrew, King\u2019s College. Standing: Alivia Minich, Penn State; Leelah Farrell, New York [&#8230;]",
+      "id": "short_9",
+      "title": "Colbert and Grebas PC donates to school",
+      "title_distilled": "Colbert and Grebas PC donates to school.",
+      "description": "Each month the law firm of Colbert &#38; Grebas PC has a \u201cDressing Down for a Cause Day.\u201d A check representing donations from staff in its Moosic and Kingston offices, in addition to a matching donation from the firm, is given to a local recipient. A recent donation was presented to the Scranton School for Deaf &#38; Hard-of-Hearing Children. The firm supports the school\u2019s commitment to focus on challenges that are ahead for the children who attend the school and the importance of providing an outstanding education for the students. From left: presenting the donation on behalf of the firm [&#8230;]",
       "description_distilled": "",
-      "content": "The Wright Centers for Community Health and Graduate Medical Education hosted Internship Capstone Poster Day at the health center in Scranton. Participating interns and the schools they are attending, from left, kneeling: Paige Walsh, University of Pittsburgh; Mya Maus, University of Scranton; Noah Lynch, Elizabethtown College; Matthew Dombrowski, University of Scranton; Shane Cegelka, King\u2019s College; and Alexander Franklin, University of Scranton. Seated: Rebekah Feinberg, A.T. Still University; Remy Turrell, Wyoming Seminary; Krittika Boruah, Wyoming Seminary; Katherine Mena Pereyra, American University; Jiya Shah, Abington Heights High School; and Patricia McAndrew, King\u2019s College. Standing: Alivia Minich, Penn State; Leelah Farrell, New York [&#8230;]",
-      "content_distilled": "Wright Centers for Community Health and Graduate Medical Education hosted Internship Capstone Poster Day at the health center in Scranton.",
+      "content": "Each month the law firm of Colbert &#38; Grebas PC has a \u201cDressing Down for a Cause Day.\u201d A check representing donations from staff in its Moosic and Kingston offices, in addition to a matching donation from the firm, is given to a local recipient. A recent donation was presented to the Scranton School for Deaf &#38; Hard-of-Hearing Children. The firm supports the school\u2019s commitment to focus on challenges that are ahead for the children who attend the school and the importance of providing an outstanding education for the students. From left: presenting the donation on behalf of the firm [&#8230;]",
+      "content_distilled": "Each month the law firm of Colbert &#38; Grebas PC has a \u201cDressing Down for a Cause Day.",
       "graph": {
         "entities": [
           {
-            "name": "Wright Center",
+            "name": "Dressing Down",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/wright-center.md",
+            "file_path": "../entities/people/dressing-down.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Wright",
+            "name": "Cause Day",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-wright.md",
+            "file_path": "../entities/people/cause-day.md",
             "resolution_method": "new_entity"
           },
+          {
+            "name": "Scranton School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Hearing Children",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/hearing-children.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dressing</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cause Da</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hearing </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dressing Down": "../entities/people/dressing-down.md",
+          "Cause Day": "../entities/people/cause-day.md",
+          "Scranton School": "../entities/people/scranton-school.md",
+          "Hearing Children": "../entities/people/hearing-children.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-01-28T05:00:53",
+      "url": "https://www.thetimes-tribune.com/2026/01/28/colbert-and-grebas-pc-donates-to-school/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC1-0128.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Rotary helps NEPA Community Health Care",
+      "title_distilled": "Rotary helps NEPA Community Health Care.",
+      "description": "The New Milford Area Rotary recently celebrated a successful completion of a $4,500 District Designated Fund grant provided to Northeast Pennsylvania Community Health Care. The $4,500 grant included funds from New Milford Area Rotary, the Peoples Security Bank and Trust Community Foundation and the Honesdale National Bank. Three refrigerator/freezer vaccine storage units that include emergency power backup features were purchased and installed at three of the NEPA Community Health Care locations, including Hallstead, Montrose and Greenfield Twp. These vaccine storage units have each already proven their value in maintaining the vaccine supply at each site, during lengthy weather-induced power outages. [&#8230;]",
+      "description_distilled": "",
+      "content": "The New Milford Area Rotary recently celebrated a successful completion of a $4,500 District Designated Fund grant provided to Northeast Pennsylvania Community Health Care. The $4,500 grant included funds from New Milford Area Rotary, the Peoples Security Bank and Trust Community Foundation and the Honesdale National Bank. Three refrigerator/freezer vaccine storage units that include emergency power backup features were purchased and installed at three of the NEPA Community Health Care locations, including Hallstead, Montrose and Greenfield Twp. These vaccine storage units have each already proven their value in maintaining the vaccine supply at each site, during lengthy weather-induced power outages. [&#8230;]",
+      "content_distilled": "New Milford Area Rotary recently celebrated a successful completion of a $4,500 District Designated Fund grant provided to Northeast Pennsylvania Community Health Care.",
+      "graph": {
+        "entities": [
           {
             "name": "Community Health",
             "type": "PERSON",
@@ -722,57 +832,71 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Graduate Medical",
+            "name": "Milford Area",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/graduate-medical.md",
+            "file_path": "../entities/people/milford-area.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Internship Capstone",
+            "name": "District Designated",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/internship-capstone.md",
+            "file_path": "../entities/people/district-designated.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Poster Day",
+            "name": "Northeast Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/poster-day.md",
+            "file_path": "../entities/people/northeast-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Paige Walsh",
+            "name": "New Milford",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paige-walsh.md",
+            "file_path": "../entities/people/new-milford.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mya Maus",
+            "name": "Area Rotary",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mya-maus.md",
+            "file_path": "../entities/people/area-rotary.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Noah Lynch",
+            "name": "Peoples Security",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/noah-lynch.md",
+            "file_path": "../entities/people/peoples-security.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Elizabethtown College",
+            "name": "Trust Community",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/elizabethtown-college.md",
+            "file_path": "../entities/people/trust-community.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Honesdale National",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/honesdale-national.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Greenfield Twp. These",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/greenfield-twp-these.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wright C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wrig</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Graduate</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Internsh</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Poster D</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Milford </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">District</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Milf</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Area Rot</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -783,99 +907,34 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Wright Center": "../entities/people/wright-center.md",
-          "The Wright": "../entities/people/the-wright.md",
           "Community Health": "../entities/people/community-health.md",
-          "Graduate Medical": "../entities/people/graduate-medical.md",
-          "Internship Capstone": "../entities/people/internship-capstone.md",
-          "Poster Day": "../entities/people/poster-day.md",
-          "Paige Walsh": "../entities/people/paige-walsh.md",
-          "Mya Maus": "../entities/people/mya-maus.md",
-          "Noah Lynch": "../entities/people/noah-lynch.md",
-          "Elizabethtown College": "../entities/people/elizabethtown-college.md"
+          "Milford Area": "../entities/people/milford-area.md",
+          "District Designated": "../entities/people/district-designated.md",
+          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
+          "New Milford": "../entities/people/new-milford.md",
+          "Area Rotary": "../entities/people/area-rotary.md",
+          "Peoples Security": "../entities/people/peoples-security.md",
+          "Trust Community": "../entities/people/trust-community.md",
+          "Honesdale National": "../entities/people/honesdale-national.md",
+          "Greenfield Twp. These": "../entities/people/greenfield-twp-these.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2026-01-27T05:00:44",
-      "url": "https://www.thetimes-tribune.com/2026/01/27/summer-interns-gain-valuable-experience-at-the-wright-center/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC2-0127-1.jpg?w=1400px&strip=all",
+      "publishedAt": "2026-01-28T05:00:52",
+      "url": "https://www.thetimes-tribune.com/2026/01/28/rotary-helps-nepa-community-health-care/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-A2PIC2-0128.jpg?w=1400px&strip=all",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_9",
-      "title": "HS SWIMMING: North Pocono\u2019s Johnson enjoying first varsity season; Lackawanna League showdown highlights week",
-      "title_distilled": "HS SWIMMING: North Pocono\u2019s Johnson enjoying first varsity season; Lackawanna League showdown highlights week.",
-      "description": "Like most in her sport, Alexandra Johnson started swimming at a young age with lessons at the YMCA. Each year, her instructors encouraged her to try competing. However, she ran into a challenge. As a student at North Pocono, which does not sponsor swimming, Johnson needed to find a way to race and give herself opportunities to develop her skills. She trains with the Pacers Aquatic Club team, and she competes as an exhibition athlete when Dunmore faces its opponents in the Lackawanna League schedule. The freshman isn&#8217;t the first to take this path; she\u2019s just the latest and is [&#8230;]",
+      "id": "short_11",
+      "title": "As the snowstorm in Lackawanna County cleared, PennDOT crews still work to clean up",
+      "title_distilled": "As the snowstorm in Lackawanna County cleared, PennDOT crews still work to clean up.",
+      "description": "Lackawanna County roads are clear post-storm, ensuring safety and rapid recovery as crews prep for potential future storms.",
       "description_distilled": "",
-      "content": "Like most in her sport, Alexandra Johnson started swimming at a young age with lessons at the YMCA. Each year, her instructors encouraged her to try competing. However, she ran into a challenge. As a student at North Pocono, which does not sponsor swimming, Johnson needed to find a way to race and give herself opportunities to develop her skills. She trains with the Pacers Aquatic Club team, and she competes as an exhibition athlete when Dunmore faces its opponents in the Lackawanna League schedule. The freshman isn&#8217;t the first to take this path; she\u2019s just the latest and is [&#8230;]",
-      "content_distilled": "Like most in her sport, Alexandra Johnson started swimming at a young age with lessons at the YMCA.",
-      "graph": {
-        "entities": [
-          {
-            "name": "North Pocono",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-pocono.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna League",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-league.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Alexandra Johnson",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/alexandra-johnson.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pacers Aquatic",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pacers-aquatic.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Po</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Alexandr</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pacers A</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "North Pocono": "../entities/people/north-pocono.md",
-          "Lackawanna League": "../entities/people/lackawanna-league.md",
-          "Alexandra Johnson": "../entities/people/alexandra-johnson.md",
-          "Pacers Aquatic": "../entities/people/pacers-aquatic.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-01-27T05:00:03",
-      "url": "https://www.thetimes-tribune.com/2026/01/27/hs-swimming-north-poconos-johnson-enjoying-first-varsity-season-lackawanna-league-showdown-highlights-week/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/01/STT-L-WESTSWIM-012236-06.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Snow removal crews endure around-the-clock hours in Lackawanna County",
-      "title_distilled": "Snow removal crews endure around-the-clock hours in Lackawanna County.",
-      "description": "Workers in Lackawanna County braved grueling, around-the-clock hours to clear snow amid challenging conditions Sunday through Monday.",
-      "description_distilled": "",
-      "content": "Workers in Lackawanna County braved grueling, around-the-clock hours to clear snow amid challenging conditions Sunday through Monday.",
-      "content_distilled": "Workers in Lackawanna County braved grueling, around-the-clock hours to clear snow amid challenging conditions Sunday through Monday.",
+      "content": "Lackawanna County roads are clear post-storm, ensuring safety and rapid recovery as crews prep for potential future storms.",
+      "content_distilled": "Lackawanna County roads are clear post-storm, ensuring safety and rapid recovery as crews prep for potential future storms.",
       "graph": {
         "entities": [
           {
@@ -902,57 +961,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-01-27T04:02:52",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/workers-endure-long-hours-to-clear-snow-in-scranton-locals-praise-road-efforts-lackawanna-county-scranton/523-5cf0d412-98f0-477b-abd3-f118a5d735f3",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "13 train cars derail in Old Forge",
-      "title_distilled": "13 train cars derail in Old Forge.",
-      "description": "13 train cars derailed behind Moosic Road in Old Forge around 10:30 a.m.",
-      "description_distilled": "",
-      "content": "13 train cars derailed behind Moosic Road in Old Forge around 10:30 a.m.",
-      "content_distilled": "13 train cars derailed behind Moosic Road in Old Forge around 10:30 a.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Old Forge",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "derailed behind Moosic Road",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/derailed-behind-moosic-road.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">derailed</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Old Forge": "../entities/people/old-forge.md",
-          "derailed behind Moosic Road": "../entities/locations/derailed-behind-moosic-road.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-01-26T21:47:01",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/13-train-cars-derail-in-old-forge-lackawanna-county-moosic-road/523-a9de7ee6-96f4-4792-9564-333a38a7fd59",
+      "publishedAt": "2026-01-27T22:23:04",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/as-the-snow-storm-in-lackawanna-county-cleared-penndot-crews-still-work-to-clean-up-dunmore-lackawanna-county-jack-culkin-wnep-newswatch-16/523-0b30474a-3c9f-4bf0-9596-b96cebff924e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -960,40 +970,40 @@
     },
     {
       "id": "short_12",
-      "title": "Wine Coolers? Multiple train cars transferring wine derailed in snow",
-      "title_distilled": "Wine Coolers? Multiple train cars transferring wine derailed in snow.",
-      "description": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Multiple train cars carrying wine were derailed Monday morning in the snow. The Old Forge Police Chief says up to 12 of 20 cars were derailed, and some went down an embankment in the 900 block of Moosic Road while traveling through the snow in Old Forge. \"Upon arrival, [...]",
+      "title": "Extreme cold to persist through workweek in NEPA",
+      "title_distilled": "Extreme cold to persist through workweek in NEPA.",
+      "description": "(WBRE/WYOU) \u2014 After the recent winter storm hit Northeastern Pennsylvania, cold temperatures are expected to continue to grip the Keystone State for several days. Despite a lingering flurry or snow shower, Tuesday night will be partly cloudy and frigid. Cold Weather Advisories are in effect as lows fall to near 0\u00b0 and wind chills between [...]",
       "description_distilled": "",
-      "content": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Multiple train cars carrying wine were derailed Monday morning in the snow. The Old Forge Police Chief says up to 12 of 20 cars were derailed, and some went down an embankment in the 900 block of Moosic Road while traveling through the snow in Old Forge. \"Upon arrival, [...]",
-      "content_distilled": "OLD FORGE, LACKAWANNA COUNTY  \u2014 Multiple train cars carrying wine were derailed Monday morning in the snow.",
+      "content": "(WBRE/WYOU) \u2014 After the recent winter storm hit Northeastern Pennsylvania, cold temperatures are expected to continue to grip the Keystone State for several days. Despite a lingering flurry or snow shower, Tuesday night will be partly cloudy and frigid. Cold Weather Advisories are in effect as lows fall to near 0\u00b0 and wind chills between [...]",
+      "content_distilled": " \u2014 After the recent winter storm hit Northeastern Pennsylvania, cold temperatures are expected to continue to grip the Keystone State for several days.",
       "graph": {
         "entities": [
           {
-            "name": "Wine Coolers",
+            "name": "Northeastern Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/wine-coolers.md",
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Old Forge",
+            "name": "Keystone State",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
+            "file_path": "../entities/people/keystone-state.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
+            "name": "Cold Weather",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/cold-weather.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "block of Moosic Road",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/block-of-moosic-road.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1011,20 +1021,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Old Forge",
-            "to": "block of Moosic Road",
-            "type": "WENT",
-            "verb": "went"
-          },
-          {
-            "from": "block of Moosic Road",
-            "to": "Old Forge",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wine Coo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">block of</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WENT</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keystone</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cold Wea</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1035,17 +1033,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Wine Coolers": "../entities/people/wine-coolers.md",
-          "Old Forge": "../entities/people/old-forge.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "block of Moosic Road": "../entities/locations/block-of-moosic-road.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Keystone State": "../entities/people/keystone-state.md",
+          "Cold Weather": "../entities/people/cold-weather.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-01-26T16:02:52",
-      "url": "https://www.2822news.com/news/multiple-train-cars-derailed-in-snow/",
+      "publishedAt": "2026-01-27T23:24:44",
+      "url": "https://www.2822news.com/weather/extreme-cold-to-persist-through-workweek-in-nepa/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1053,33 +1051,19 @@
     },
     {
       "id": "short_13",
-      "title": "Electric City begins clean up after winter storm",
-      "title_distilled": "Electric City begins clean up after winter storm.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The cleanup continued in Lackawanna County after the weekend storm. 28/22 News Reporter Colby Hughes explained how the Electric City dug out. People all over Scranton were out working through the day on Monday to dig themselves and their cars out of the snow. Nearly a foot of snow fell [...]",
+      "title": "Residents weigh in as DPW works to clear snow",
+      "title_distilled": "Residents weigh in as DPW works to clear snow.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Communities throughout NEPA continue to dig out their streets, sidewalks, and parking spaces after last weekend's winter storm, and two days later, most major roads are clear, but how well did local Department of Public Works (DPW) workers do with cleaning up? It depends on who you ask. 28/22 News [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The cleanup continued in Lackawanna County after the weekend storm. 28/22 News Reporter Colby Hughes explained how the Electric City dug out. People all over Scranton were out working through the day on Monday to dig themselves and their cars out of the snow. Nearly a foot of snow fell [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The cleanup continued in Lackawanna County after the weekend storm.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Communities throughout NEPA continue to dig out their streets, sidewalks, and parking spaces after last weekend's winter storm, and two days later, most major roads are clear, but how well did local Department of Public Works (DPW) workers do with cleaning up? It depends on who you ask. 28/22 News [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Communities throughout NEPA continue to dig out their streets, sidewalks, and parking spaces after last weekend's winter storm, and two days later, most major roads are clear, but how well did local Department of Public Works  workers do with cleaning up? It depends on who you ask.",
       "graph": {
         "entities": [
           {
-            "name": "Electric City",
+            "name": "Public Works",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "News Reporter",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/news-reporter.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Colby Hughes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/colby-hughes.md",
+            "file_path": "../entities/people/public-works.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1112,7 +1096,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Public W</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1123,9 +1107,7 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Electric City": "../entities/people/electric-city.md",
-          "News Reporter": "../entities/people/news-reporter.md",
-          "Colby Hughes": "../entities/people/colby-hughes.md",
+          "Public Works": "../entities/people/public-works.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
@@ -1133,11 +1115,130 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-01-26T23:55:24",
-      "url": "https://www.2822news.com/news/local-news/electric-city-begins-clean-up-after-winter-storm/",
+      "publishedAt": "2026-01-28T04:18:41",
+      "url": "https://www.2822news.com/news/local-news/residents-weigh-in-as-dpw-works-to-clear-snow/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Wilkes-Barre extends Code Blue as extreme cold continues",
+      "title_distilled": "Wilkes-Barre extends Code Blue as extreme cold continues.",
+      "description": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 In the aftermath of the winter storm that hit Northeastern Pennsylvania, Wilkes-Barre officials say they have extended their Code Blue. On Tuesday, the office of Wilkes-Barre Mayor George Brown released a statement saying the Code Blue Shelter at the Calvary Bible Church on 410 South River Street, Wilkes-Barre, would be [...]",
+      "description_distilled": "",
+      "content": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 In the aftermath of the winter storm that hit Northeastern Pennsylvania, Wilkes-Barre officials say they have extended their Code Blue. On Tuesday, the office of Wilkes-Barre Mayor George Brown released a statement saying the Code Blue Shelter at the Calvary Bible Church on 410 South River Street, Wilkes-Barre, would be [...]",
+      "content_distilled": "WILKES-BARRE, LUZERNE COUNTY  \u2014 In the aftermath of the winter storm that hit Northeastern Pennsylvania, Wilkes-Barre officials say they have extended their Code Blue.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Code Blue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/code-blue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barre Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "George Brown",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/george-brown.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Calvary Bible",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/calvary-bible.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "South River",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/south-river.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "South River Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/south-river-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Barre Mayor",
+            "to": "George Brown",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Code Blu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Ma</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">George B</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Calvary </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ri</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Code Blue": "../entities/people/code-blue.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Barre Mayor": "../entities/people/barre-mayor.md",
+          "George Brown": "../entities/people/george-brown.md",
+          "Calvary Bible": "../entities/people/calvary-bible.md",
+          "South River": "../entities/people/south-river.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "South River Street": "../entities/locations/south-river-street.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-01-28T01:35:45",
+      "url": "https://www.2822news.com/weather/wilkes-barre-extends-code-blue-as-extreme-cold-continues/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
