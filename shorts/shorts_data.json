@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-05T11:14:29.733237",
-  "source_file": "../data/daily/scranton_news_2026-02-05.json",
+  "generated_at": "2026-03-03T11:26:49.336847",
+  "source_file": "../data/daily/scranton_news_2026-03-03.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -48,54 +48,33 @@
     },
     {
       "id": "short_1",
-      "title": "Senior Care Expert Peter Tomasi of Scranton Explains How to Know When It\u2019s Time for Home Care for HelloNation",
-      "title_distilled": "Senior Care Expert Peter Tomasi of Scranton Explains How to Know When It\u2019s Time for Home Care for HelloNation.",
-      "description": "SCRANTON, Pa., Jan. 26, 2026 (GLOBE NEWSWIRE) -- How can families recognize the right moment to begin home care for an aging loved one? That question is thoughtfully explored in a HelloNation article featuring insights from Peter Tomasi, Senior Care Expert \u2026",
+      "title": "Hospital fire underscores region's health care capacity challenges",
+      "title_distilled": "Hospital fire underscores region's health care capacity challenges.",
+      "description": "The fire that shut Lehigh Valley Hospital-Dickson City reignited anxieties about health care capacity challenges, just days after a deal that saved Commonwealth Health\u2019s Scranton hospitals.",
       "description_distilled": "",
-      "content": "SCRANTON, Pa., Jan. 26, 2026 (GLOBE NEWSWIRE) -- How can families recognize the right moment to begin home care for an aging loved one? That question is thoughtfully explored in a HelloNation article featuring insights from Peter Tomasi, Senior Care Expert \u2026",
-      "content_distilled": "SCRANTON, Pa.",
+      "content": "The fire that shut Lehigh Valley Hospital-Dickson City reignited anxieties about health care capacity challenges, just days after a deal that saved Commonwealth Health\u2019s Scranton hospitals.",
+      "content_distilled": "fire that shut Lehigh Valley Hospital-Dickson City reignited anxieties about health care capacity challenges, just days after a deal that saved Commonwealth Health\u2019s Scranton hospitals.",
       "graph": {
         "entities": [
           {
-            "name": "Senior Care",
+            "name": "Lehigh Valley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/senior-care.md",
+            "file_path": "../entities/people/lehigh-valley.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Expert Peter",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/expert-peter.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Explains",
+            "name": "Commonwealth Health",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-explains.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Know When",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/know-when.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Home Care",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/home-care.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Peter Tomasi",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/peter-tomasi.md",
+            "file_path": "../entities/people/commonwealth-health.md",
             "resolution_method": "new_entity"
           },
           {
@@ -104,33 +83,10 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Senior Care",
-            "to": "Scranton Explains",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Home Care",
-            "to": "Scranton",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senior C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Expert P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Know Whe</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Home Car</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Peter To</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commonwe</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -141,102 +97,54 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Senior Care": "../entities/people/senior-care.md",
-          "Expert Peter": "../entities/people/expert-peter.md",
-          "Scranton Explains": "../entities/people/scranton-explains.md",
-          "Know When": "../entities/people/know-when.md",
-          "Home Care": "../entities/people/home-care.md",
-          "Peter Tomasi": "../entities/people/peter-tomasi.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Commonwealth Health": "../entities/people/commonwealth-health.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "GlobeNewswire",
-      "publishedAt": "2026-01-26T15:33:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/01/26/3225792/0/en/Senior-Care-Expert-Peter-Tomasi-of-Scranton-Explains-How-to-Know-When-It-s-Time-for-Home-Care-for-HelloNation.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/b3d97f3b-1417-45c1-8642-1d6f0c98b8df",
+      "source": "Thetimes-tribune.com",
+      "publishedAt": "2026-02-08T05:05:56Z",
+      "url": "https://www.thetimes-tribune.com/2026/02/08/hospital-fire-underscores-regions-health-care-capacity-challenges/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/02/STT-L-HOSPITALFIRE-0206-04.jpg?w=1024&h=679",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 0.1
     },
     {
       "id": "short_2",
-      "title": "Future of historic Scranton Times building unknown",
-      "title_distilled": "Future of historic Scranton Times building unknown.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The future of a historic landmark in Downtown Scranton is up in the air. The Scranton Times building was donated to...",
+      "title": "Fire at Lehigh Valley Hospital in Dickson City prompts dozens of evacuations",
+      "title_distilled": "Fire at Lehigh Valley Hospital in Dickson City prompts dozens of evacuations.",
+      "description": "Crews are battling a large fire at Lehigh Valley Hospital in Dickson City, Pennsylvania, Wednesday night.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The future of a historic landmark in Downtown Scranton is up in the air. The Scranton Times building was donated to...",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The future of a historic landmark in Downtown Scranton is up in the air.",
+      "content": "Crews are battling a large fire at Lehigh Valley Hospital in Dickson City, Pennsylvania, Wednesday night.",
+      "content_distilled": "Crews are battling a large fire at Lehigh Valley Hospital in Dickson City, Pennsylvania, Wednesday night.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Times",
+            "name": "Lehigh Valley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-times.md",
+            "file_path": "../entities/people/lehigh-valley.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Downtown Scranton",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/downtown-scranton.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -247,59 +155,41 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Times": "../entities/people/scranton-times.md",
-          "Downtown Scranton": "../entities/people/downtown-scranton.md",
-          "The Scranton": "../entities/people/the-scranton.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "2822news.com",
-      "publishedAt": "2026-01-13T23:30:59Z",
-      "url": "https://www.2822news.com/news/local-news/future-of-historic-scranton-times-building-unknown/",
-      "urlToImage": "https://s.yimg.com/os/en/wbre_articles_217/f782e056a44cfbe579eb8e4abe417a48",
+      "source": "CBS News",
+      "publishedAt": "2026-02-05T07:13:29Z",
+      "url": "https://www.cbsnews.com/philadelphia/news/lehigh-valley-hospital-dickson-city-fire/",
+      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/02/05/227f34a9-66e7-483b-87b5-047343905cac/thumbnail/1200x630/a176ec156a42c703a6deff2cf4d9a47e/ap26036200173752.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 0.2
     },
     {
       "id": "short_3",
-      "title": "Fidelity D & D Bancorp, Inc. First Quarter 2026 Dividend",
-      "title_distilled": "Fidelity D & D Bancorp, Inc.",
-      "description": "DUNMORE, Pa., Jan. 22, 2026 (GLOBE NEWSWIRE) -- The Board of Directors of Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC), parent company of The Fidelity Deposit and Discount Bank, announce their declaration of the Company\u2019s 2026 first quarter dividend of $0.43 p\u2026",
+      "title": "Fire at Pennsylvania Hospital Forces Evacuation of Dozens of Patients",
+      "title_distilled": "Fire at Pennsylvania Hospital Forces Evacuation of Dozens of Patients.",
+      "description": "A fire tore through a northeastern Pennsylvania hospital, sending smoke billowing into the air as dozens of patients were evacuated and emergency medical crews were rushed in from across the region, authorities said. No one was reported injured by the \u2026",
       "description_distilled": "",
-      "content": "DUNMORE, Pa., Jan. 22, 2026 (GLOBE NEWSWIRE) -- The Board of Directors of Fidelity D & D Bancorp, Inc. (NASDAQ: FDBC), parent company of The Fidelity Deposit and Discount Bank, announce their declaration of the Company\u2019s 2026 first quarter dividend of $0.43 p\u2026",
-      "content_distilled": "DUNMORE, Pa.",
+      "content": "A fire tore through a northeastern Pennsylvania hospital, sending smoke billowing into the air as dozens of patients were evacuated and emergency medical crews were rushed in from across the region, authorities said. No one was reported injured by the \u2026",
+      "content_distilled": "fire tore through a northeastern Pennsylvania hospital, sending smoke billowing into the air as dozens of patients were evacuated and emergency medical crews were rushed in from across the region, authorities said.",
       "graph": {
         "entities": [
           {
-            "name": "First Quarter",
+            "name": "Pennsylvania Hospital",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/first-quarter.md",
+            "file_path": "../entities/people/pennsylvania-hospital.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Board",
+            "name": "Forces Evacuation",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-board.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Fidelity",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-fidelity.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Discount Bank",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/discount-bank.md",
+            "file_path": "../entities/people/forces-evacuation.md",
             "resolution_method": "new_entity"
           },
           {
@@ -308,16 +198,23 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "sending smoke billowing into the air as dozens of patients were evacuated and emergency",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/sending-smoke-billowing-into-the-air-as-dozens-of-patients-were-evacuated-and-emergency.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "The Board",
-            "to": "The Fidelity",
+            "from": "Pennsylvania Hospital",
+            "to": "sending smoke billowing into the air as dozens of patients were evacuated and emergency",
             "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">First Qu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Boar</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Fide</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Discount</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Forces E</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">sending </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -328,132 +225,68 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "First Quarter": "../entities/people/first-quarter.md",
-          "The Board": "../entities/people/the-board.md",
-          "The Fidelity": "../entities/people/the-fidelity.md",
-          "Discount Bank": "../entities/people/discount-bank.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Pennsylvania Hospital": "../entities/people/pennsylvania-hospital.md",
+          "Forces Evacuation": "../entities/people/forces-evacuation.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "sending smoke billowing into the air as dozens of patients were evacuated and emergency": "../entities/events/sending-smoke-billowing-into-the-air-as-dozens-of-patients-were-evacuated-and-emergency.md"
         }
       },
-      "source": "GlobeNewswire",
-      "publishedAt": "2026-01-22T13:05:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/01/22/3223713/0/en/Fidelity-D-D-Bancorp-Inc-First-Quarter-2026-Dividend.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/653a97ad-f0c3-47f1-adc8-3fcbfa4a2d41",
+      "source": "Insurance Journal",
+      "publishedAt": "2026-02-08T16:33:22Z",
+      "url": "https://www.insurancejournal.com/news/east/2026/02/08/857327.htm",
+      "urlToImage": "https://www.insurancejournal.com/app/uploads/2026/02/Penn-hospital-fire-2026-AP-photo-scaled.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 0.30000000000000004
     },
     {
       "id": "short_4",
-      "title": "Gentex Unveils Ops-Core FAST XP Helmet System, A New Standard in Next-Generation Protection for Law Enforcement",
-      "title_distilled": "Gentex Unveils Ops-Core FAST XP Helmet System, A New Standard in Next-Generation Protection for Law Enforcement.",
-      "description": "CARBONDALE, PA, January 19, 2026 \u2013Gentex Corporation announced the launch of the newly re-designed Ops-Core FAST XP Helmet System, a ballistic helmet solution purpose built and priced for law enforcement. Designed to meet the real-world needs ofspecialized un\u2026",
+      "title": "Everhart Museum",
+      "title_distilled": "Everhart Museum.",
+      "description": "Contributed by Kelsey MitchellSource: kelsey.fyi Kelsey Mitchell. License: All Rights Reserved. The museum's updated logo was inspired by their building's chiseled facade lettering and uses Terza Display by Commercial Type. The emblem, inspired by their folk \u2026",
       "description_distilled": "",
-      "content": "CARBONDALE, PA, January 19, 2026 \u2013Gentex Corporation announced the launch of the newly re-designed Ops-Core FAST XP Helmet System, a ballistic helmet solution purpose built and priced for law enforcement. Designed to meet the real-world needs ofspecialized un\u2026",
-      "content_distilled": "CARBONDALE, PA, January 19, 2026 \u2013Gentex Corporation announced the launch of the newly re-designed Ops-Core FAST XP Helmet System, a ballistic helmet solution purpose built and priced for law enforcement.",
+      "content": "Contributed by Kelsey MitchellSource: kelsey.fyi Kelsey Mitchell. License: All Rights Reserved. The museum's updated logo was inspired by their building's chiseled facade lettering and uses Terza Display by Commercial Type. The emblem, inspired by their folk \u2026",
+      "content_distilled": "Contributed by Kelsey MitchellSource: kelsey.",
       "graph": {
         "entities": [
           {
-            "name": "Gentex Unveils",
+            "name": "Everhart Museum",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/gentex-unveils.md",
+            "file_path": "../entities/people/everhart-museum.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Helmet System",
+            "name": "Kelsey Mitchell",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/helmet-system.md",
+            "file_path": "../entities/people/kelsey-mitchell.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "New Standard",
+            "name": "All Rights",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/new-standard.md",
+            "file_path": "../entities/people/all-rights.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Generation Protection",
+            "name": "Terza Display",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/generation-protection.md",
+            "file_path": "../entities/people/terza-display.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Law Enforcement",
+            "name": "Commercial Type",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/law-enforcement.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Gentex Corporation",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/gentex-corporation.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/people/commercial-type.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Gentex Unveils",
-            "to": "Helmet System",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Gentex Unveils",
-            "to": "Helmet System",
-            "type": "DESIGNED",
-            "verb": "designed"
-          },
-          {
-            "from": "Gentex Unveils",
-            "to": "Law Enforcement",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Gentex Unveils",
-            "to": "Law Enforcement",
-            "type": "BUILT",
-            "verb": "built"
-          },
-          {
-            "from": "Gentex Unveils",
-            "to": "Law Enforcement",
-            "type": "DESIGNED",
-            "verb": "designed"
-          },
-          {
-            "from": "Helmet System",
-            "to": "New Standard",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Helmet System",
-            "to": "New Standard",
-            "type": "DESIGNED",
-            "verb": "designed"
-          },
-          {
-            "from": "Helmet System",
-            "to": "Generation Protection",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gentex U</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Helmet S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Stan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Generati</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Law Enfo</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gentex C</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DESIGNED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BUILT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DESIGNED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DESIGNED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kelsey M</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">All Righ</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Terza Di</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commerci</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -464,19 +297,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Gentex Unveils": "../entities/people/gentex-unveils.md",
-          "Helmet System": "../entities/people/helmet-system.md",
-          "New Standard": "../entities/people/new-standard.md",
-          "Generation Protection": "../entities/people/generation-protection.md",
-          "Law Enforcement": "../entities/people/law-enforcement.md",
-          "Gentex Corporation": "../entities/people/gentex-corporation.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Everhart Museum": "../entities/people/everhart-museum.md",
+          "Kelsey Mitchell": "../entities/people/kelsey-mitchell.md",
+          "All Rights": "../entities/people/all-rights.md",
+          "Terza Display": "../entities/people/terza-display.md",
+          "Commercial Type": "../entities/people/commercial-type.md"
         }
       },
-      "source": "Soldiersystems.net",
-      "publishedAt": "2026-01-19T14:00:00Z",
-      "url": "https://soldiersystems.net/2026/01/19/gentex-unveils-ops-core-fast-xp-helmet-system-a-new-standard-in-next-generation-protection-for-law-enforcement/",
-      "urlToImage": "https://soldiersystems.net/wp-content/uploads/2026/01/OPS_FAST_XP_Press_Release_Image-440x248.jpeg",
+      "source": "Fontsinuse.com",
+      "publishedAt": "2026-02-06T09:48:11Z",
+      "url": "https://fontsinuse.com/uses/74945/everhart-museum",
+      "urlToImage": "https://cards.fontsinuse.com/cardshot?s=twitter&t=use&url=https://fontsinuse.com/uses/74945/everhart-museum&k=d26052de200b80cfed6b6e701067a08e&v=a884eeb4",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 0.4
@@ -546,59 +377,31 @@
     },
     {
       "id": "short_6",
-      "title": "BREAKING: Pa. Health Department OKs Tenor Health acquisition application for 3 NEPA hospitals",
-      "title_distilled": "BREAKING: Pa.",
-      "description": "Pennsylvania Health Department officials have given their blessing to Tenor Health Foundation's application to acquire three Northeast Pennsylvania hospitals, multiple sources said Wednesday.",
+      "title": "Scranton crime spike dogs Dem mayor as she challenges GOP Rep in Biden\u2019s hometown",
+      "title_distilled": "Scranton crime spike dogs Dem mayor as she challenges GOP Rep in Biden\u2019s hometown.",
+      "description": "Crime crisis rocks Biden's hometown as Scranton mayor faces heat over reported gang violence while challenging GOP Rep. Rob Bresnahan in swing district.",
       "description_distilled": "",
-      "content": "Pennsylvania Health Department officials have given their blessing to Tenor Health Foundation's application to acquire three Northeast Pennsylvania hospitals, multiple sources said Wednesday.",
-      "content_distilled": "Pennsylvania Health Department officials have given their blessing to Tenor Health Foundation's application to acquire three Northeast Pennsylvania hospitals, multiple sources said Wednesday.",
+      "content": "Crime crisis rocks Biden's hometown as Scranton mayor faces heat over reported gang violence while challenging GOP Rep. Rob Bresnahan in swing district.",
+      "content_distilled": "Crime crisis rocks Biden's hometown as Scranton mayor faces heat over reported gang violence while challenging GOP Rep.",
       "graph": {
         "entities": [
           {
-            "name": "Tenor Health",
+            "name": "Rob Bresnahan",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/tenor-health.md",
+            "file_path": "../entities/people/rob-bresnahan.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania Health",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-health.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeast Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeast-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Health Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/health-department.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania Health Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/pennsylvania-health-department.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tenor He</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Health D</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rob Bres</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -609,44 +412,61 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Tenor Health": "../entities/people/tenor-health.md",
-          "Pennsylvania Health": "../entities/people/pennsylvania-health.md",
-          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "Health Department": "../entities/organizations/health-department.md",
-          "Pennsylvania Health Department": "../entities/organizations/pennsylvania-health-department.md"
+          "Rob Bresnahan": "../entities/people/rob-bresnahan.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Wvia.org",
-      "publishedAt": "2026-01-28T21:06:25Z",
-      "url": "https://www.wvia.org/news/local/2026-01-28/breaking-pa-health-department-oks-tenor-health-acquisition-application-for-3-nepa-hospitals",
-      "urlToImage": "https://npr.brightspotcdn.com/dims4/default/558f9a6/2147483647/strip/true/crop/1760x924+0+33/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F83%2Fb7%2Fd297e3b2495d9699551d08daa7b6%2Fhospitals.jpg",
+      "source": "Fox News",
+      "publishedAt": "2026-02-17T21:19:01Z",
+      "url": "https://www.foxnews.com/politics/scranton-crime-spike-dogs-dem-mayor-challenges-gop-rep-bidens-hometown",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/12/2024-04-17t150541z_349035747_rc2e87aw3783_rtrmadp_3_usa-biden.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
       "animation_delay": 0.6000000000000001
     },
     {
       "id": "short_7",
-      "title": "Tenor Health says NEPA hospital purchase deal remains under Pa. Department of Health review",
-      "title_distilled": "Tenor Health says NEPA hospital purchase deal remains under Pa.",
-      "description": "Tenor Health Foundation\u2019s CEO said the company is ready to own and operate the Commonwealth Health Systems hospitals in NEPA, but that the transaction still awaits approval from the Pennsylvania Department of Health.",
+      "title": "HNL Lab Medicine Opens New Patient Service Center at The Marketplace at Steamtown",
+      "title_distilled": "HNL Lab Medicine Opens New Patient Service Center at The Marketplace at Steamtown.",
+      "description": "SCRANTON, Pa., Feb. 11, 2026 (GLOBE NEWSWIRE) -- HNL Lab Medicine is expanding access to convenient, high-quality laboratory services with the opening of a new Patient Service Center at The Marketplace at Steamtown, located at 300 Lackawanna Ave., Scranton, P\u2026",
       "description_distilled": "",
-      "content": "Tenor Health Foundation\u2019s CEO said the company is ready to own and operate the Commonwealth Health Systems hospitals in NEPA, but that the transaction still awaits approval from the Pennsylvania Department of Health.",
-      "content_distilled": "Tenor Health Foundation\u2019s CEO said the company is ready to own and operate the Commonwealth Health Systems hospitals in NEPA, but that the transaction still awaits approval from the Pennsylvania Department of Health.",
+      "content": "SCRANTON, Pa., Feb. 11, 2026 (GLOBE NEWSWIRE) -- HNL Lab Medicine is expanding access to convenient, high-quality laboratory services with the opening of a new Patient Service Center at The Marketplace at Steamtown, located at 300 Lackawanna Ave., Scranton, P\u2026",
+      "content_distilled": "SCRANTON, Pa.",
       "graph": {
         "entities": [
           {
-            "name": "Tenor Health",
+            "name": "Lab Medicine",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/tenor-health.md",
+            "file_path": "../entities/people/lab-medicine.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Commonwealth Health",
+            "name": "Opens New Patient",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/commonwealth-health.md",
+            "file_path": "../entities/people/opens-new-patient.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Marketplace",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-marketplace.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna Ave",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-ave.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -657,44 +477,22 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania Department",
+            "name": "Lab Medicine Opens New Patient Service",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/pennsylvania-department.md",
+            "file_path": "../entities/organizations/lab-medicine-opens-new-patient-service.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Patient Service",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/patient-service.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Tenor Health",
-            "to": "Commonwealth Health",
-            "type": "SAID",
-            "verb": "said"
-          },
-          {
-            "from": "Tenor Health",
-            "to": "Pennsylvania",
-            "type": "SAID",
-            "verb": "said"
-          },
-          {
-            "from": "Tenor Health",
-            "to": "Pennsylvania Department",
-            "type": "SAID",
-            "verb": "said"
-          },
-          {
-            "from": "Pennsylvania Department",
-            "to": "Tenor Health",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Pennsylvania Department",
-            "to": "Commonwealth Health",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tenor He</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commonwe</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lab Medi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Opens Ne</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Mark</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -705,84 +503,132 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Tenor Health": "../entities/people/tenor-health.md",
-          "Commonwealth Health": "../entities/people/commonwealth-health.md",
+          "Lab Medicine": "../entities/people/lab-medicine.md",
+          "Opens New Patient": "../entities/people/opens-new-patient.md",
+          "The Marketplace": "../entities/people/the-marketplace.md",
+          "Lackawanna Ave": "../entities/people/lackawanna-ave.md",
+          "SCRANTON": "../entities/locations/scranton.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "Pennsylvania Department": "../entities/organizations/pennsylvania-department.md"
+          "Lab Medicine Opens New Patient Service": "../entities/organizations/lab-medicine-opens-new-patient-service.md",
+          "Patient Service": "../entities/organizations/patient-service.md"
         }
       },
-      "source": "Wvia.org",
-      "publishedAt": "2026-01-27T21:39:02Z",
-      "url": "https://www.wvia.org/news/local/2026-01-27/tenor-health-says-nepa-hospital-purchase-deal-remains-under-pa-department-of-health-review",
-      "urlToImage": "https://npr.brightspotcdn.com/dims4/default/558f9a6/2147483647/strip/true/crop/1760x924+0+33/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F83%2Fb7%2Fd297e3b2495d9699551d08daa7b6%2Fhospitals.jpg",
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-02-11T13:02:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/02/11/3236247/0/en/HNL-Lab-Medicine-Opens-New-Patient-Service-Center-at-The-Marketplace-at-Steamtown.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/1e7817e1-61b3-46db-b5ac-13999a9ef12c",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
       "animation_delay": 0.7000000000000001
     },
     {
       "id": "short_8",
-      "title": "A wondrous return: Wonderstone Gallery reopens in Bucktown Center",
-      "title_distilled": "wondrous return: Wonderstone Gallery reopens in Bucktown Center.",
-      "description": "A local business offering yoga classes and self-care items has found a new home. The Wonderstone Gallery has reopened in the Bucktown Center, 222 E. Drinker St., Dunmore. Owner Beth Ann Zero and he...",
+      "title": "Crews battle fire and evacuate patients from Pennsylvania hospital",
+      "title_distilled": "Crews battle fire and evacuate patients from Pennsylvania hospital.",
+      "description": "Emergency crews battled a blaze and evacuated patients from a northeastern Pennsylvania hospital after a fire broke out. Authorities say no one was injured in Wednesday night's fire at the Lehigh Valley Hospital campus in Dickson City. Fire officials say it s\u2026",
       "description_distilled": "",
-      "content": "A local business offering yoga classes and self-care items has found a new home. The Wonderstone Gallery has reopened in the Bucktown Center, 222 E. Drinker St., Dunmore. Owner Beth Ann Zero and he...",
-      "content_distilled": "local business offering yoga classes and self-care items has found a new home.",
+      "content": "Emergency crews battled a blaze and evacuated patients from a northeastern Pennsylvania hospital after a fire broke out. Authorities say no one was injured in Wednesday night's fire at the Lehigh Valley Hospital campus in Dickson City. Fire officials say it s\u2026",
+      "content_distilled": "Emergency crews battled a blaze and evacuated patients from a northeastern Pennsylvania hospital after a fire broke out.",
       "graph": {
         "entities": [
           {
-            "name": "Wonderstone Gallery",
+            "name": "Lehigh Valley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/wonderstone-gallery.md",
+            "file_path": "../entities/people/lehigh-valley.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Bucktown Center",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bucktown-center.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Wonderstone",
-            "type": "PERSON",
+            "name": "Pennsylvania",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-wonderstone.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Owner Beth",
+            "name": "Crews battle fire and evacuate patients from Pennsylvania hospital Emergency",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/crews-battle-fire-and-evacuate-patients-from-pennsylvania-hospital-emergency.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crews ba</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Crews battle fire and evacuate patients from Pennsylvania hospital Emergency": "../entities/events/crews-battle-fire-and-evacuate-patients-from-pennsylvania-hospital-emergency.md"
+        }
+      },
+      "source": "Associated Press",
+      "publishedAt": "2026-02-05T05:06:07Z",
+      "url": "https://apnews.com/article/pennsylvania-hospital-fire-lehigh-valley-ea092bc53a3bbe2e1a24dcd893e3414c",
+      "urlToImage": "https://dims.apnews.com/dims4/default/d083de6/2147483647/strip/true/crop/7500x4997+0+314/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F22%2Fc6%2Fe16baee0d08228809061ce493cf3%2Fc3c12a5d51574099830ad78c565d1147",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "ATHLETE OF THE WEEK: Eva Kaszuba, Scranton Prep basketball and swimming",
+      "title_distilled": "ATHLETE OF THE WEEK: Eva Kaszuba, Scranton Prep basketball and swimming.",
+      "description": "Scranton Prep&#8217;s junior&#8217;s two-sport standout was into heavy medal this weekend. First, Kaszuba totaled nine points, six rebounds, three assists and two steals to help the basketball team beat Valley View, 52-47, in the District 2 Class 4A final at Mohegan Arena \u2014 the Classics&#8217; fourth straight title and eighth in nine years. Then at the District 2 Class 2A Swimming Championships, she won gold in the 100-yard breaststroke, was part of the victorious 200-yard medley relay and 200-yard free relay teams and took bronze in the 50-yard freestyle to help Scranton Prep capture the team title over Dallas, 266.5-253. [&#8230;]",
+      "description_distilled": "",
+      "content": "Scranton Prep&#8217;s junior&#8217;s two-sport standout was into heavy medal this weekend. First, Kaszuba totaled nine points, six rebounds, three assists and two steals to help the basketball team beat Valley View, 52-47, in the District 2 Class 4A final at Mohegan Arena \u2014 the Classics&#8217; fourth straight title and eighth in nine years. Then at the District 2 Class 2A Swimming Championships, she won gold in the 100-yard breaststroke, was part of the victorious 200-yard medley relay and 200-yard free relay teams and took bronze in the 50-yard freestyle to help Scranton Prep capture the team title over Dallas, 266.5-253. [&#8230;]",
+      "content_distilled": "Scranton Prep&#8217;s junior&#8217;s two-sport standout was into heavy medal this weekend.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Eva Kaszuba",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/owner-beth.md",
+            "file_path": "../entities/people/eva-kaszuba.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Ann Zero",
+            "name": "Scranton Prep",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/ann-zero.md",
+            "file_path": "../entities/people/scranton-prep.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Melissa Martini",
+            "name": "Valley View",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/melissa-martini.md",
+            "file_path": "../entities/people/valley-view.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "North Blakely",
+            "name": "Mohegan Arena",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-blakely.md",
+            "file_path": "../entities/people/mohegan-arena.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "East Market",
+            "name": "Swimming Championships",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/east-market.md",
+            "file_path": "../entities/people/swimming-championships.md",
             "resolution_method": "new_entity"
           },
           {
@@ -795,55 +641,19 @@
         ],
         "relationships": [
           {
-            "from": "Owner Beth",
-            "to": "Wonderstone Gallery",
-            "type": "OPENED",
-            "verb": "opened"
+            "from": "Swimming Championships",
+            "to": "Scranton Prep",
+            "type": "WON",
+            "verb": "won"
           },
           {
-            "from": "Ann Zero",
-            "to": "Wonderstone Gallery",
-            "type": "OPENED",
-            "verb": "opened"
-          },
-          {
-            "from": "Melissa Martini",
-            "to": "Wonderstone Gallery",
-            "type": "OPENED",
-            "verb": "opened"
-          },
-          {
-            "from": "Owner Beth",
-            "to": "The Wonderstone",
-            "type": "OPENED",
-            "verb": "opened"
-          },
-          {
-            "from": "Ann Zero",
-            "to": "The Wonderstone",
-            "type": "OPENED",
-            "verb": "opened"
-          },
-          {
-            "from": "Melissa Martini",
-            "to": "The Wonderstone",
-            "type": "OPENED",
-            "verb": "opened"
-          },
-          {
-            "from": "Owner Beth",
-            "to": "North Blakely",
-            "type": "OPENED",
-            "verb": "opened"
-          },
-          {
-            "from": "Ann Zero",
-            "to": "North Blakely",
-            "type": "OPENED",
-            "verb": "opened"
+            "from": "Swimming Championships",
+            "to": "Scranton",
+            "type": "WON",
+            "verb": "won"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wonderst</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bucktown</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wond</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Owner Be</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ann Zero</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Melissa </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPENED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPENED</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPENED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPENED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPENED</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPENED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eva Kasz</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valley V</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mohegan </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Swimming</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WON</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -854,184 +664,75 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Wonderstone Gallery": "../entities/people/wonderstone-gallery.md",
-          "Bucktown Center": "../entities/people/bucktown-center.md",
-          "The Wonderstone": "../entities/people/the-wonderstone.md",
-          "Owner Beth": "../entities/people/owner-beth.md",
-          "Ann Zero": "../entities/people/ann-zero.md",
-          "Melissa Martini": "../entities/people/melissa-martini.md",
-          "North Blakely": "../entities/people/north-blakely.md",
-          "East Market": "../entities/people/east-market.md",
+          "Eva Kaszuba": "../entities/people/eva-kaszuba.md",
+          "Scranton Prep": "../entities/people/scranton-prep.md",
+          "Valley View": "../entities/people/valley-view.md",
+          "Mohegan Arena": "../entities/people/mohegan-arena.md",
+          "Swimming Championships": "../entities/people/swimming-championships.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2026-02-05T05:20:19",
-      "url": "https://www.thetimes-tribune.com/2026/02/05/a-wondrous-return-wonderstone-gallery-reopens-in-bucktown-center/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/02/SAV-L-WONDERSTONE-0205-01.jpg?w=1400px&strip=all",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Olyphant police, volunteers hold winter coat giveaway",
-      "title_distilled": "Olyphant police, volunteers hold winter coat giveaway.",
-      "description": "For the fifth year, the Olyphant Police Department held a coat giveaway, organized by police Sgt. Lewis Kline. The department worked with the Dickson City Civic Center and the Throop Civic Center to identify those in need of winter coats. Olyphant Hose Company 2 and Ladder 26 assisted in packing the gifts and delivering them.",
-      "description_distilled": "",
-      "content": "For the fifth year, the Olyphant Police Department held a coat giveaway, organized by police Sgt. Lewis Kline. The department worked with the Dickson City Civic Center and the Throop Civic Center to identify those in need of winter coats. Olyphant Hose Company 2 and Ladder 26 assisted in packing the gifts and delivering them.",
-      "content_distilled": "For the fifth year, the Olyphant Police Department held a coat giveaway, organized by police Sgt.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Olyphant Police",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/olyphant-police.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lewis Kline",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lewis-kline.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dickson City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Civic Center",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/civic-center.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Throop Civic",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/throop-civic.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Olyphant Hose",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/olyphant-hose.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Olyphant Police Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/olyphant-police-department.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Olyphant Hose Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/olyphant-hose-company.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Olyphant Police",
-            "to": "Olyphant Police Department",
-            "type": "VOLUNTEERS",
-            "verb": "volunteers"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lewis Kl</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Civic Ce</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Throop C</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Olyphant Police": "../entities/people/olyphant-police.md",
-          "Lewis Kline": "../entities/people/lewis-kline.md",
-          "Dickson City": "../entities/people/dickson-city.md",
-          "Civic Center": "../entities/people/civic-center.md",
-          "Throop Civic": "../entities/people/throop-civic.md",
-          "Olyphant Hose": "../entities/people/olyphant-hose.md",
-          "Olyphant Police Department": "../entities/organizations/olyphant-police-department.md",
-          "Olyphant Hose Company": "../entities/organizations/olyphant-hose-company.md"
-        }
-      },
-      "source": "Times Tribune",
-      "publishedAt": "2026-02-05T05:18:09",
-      "url": "https://www.thetimes-tribune.com/2026/02/05/olyphant-police-volunteers-hold-winter-coat-giveaway/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/02/SAV-L-OLYPHANTCOAT-0205-01.jpg?w=1400px&strip=all",
+      "publishedAt": "2026-03-03T05:00:54",
+      "url": "https://www.thetimes-tribune.com/2026/03/03/athlete-of-the-week-eva-kaszuba-scranton-prep-basketball-and-swimming/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/03/STT-L-AOWKASZUBA-0303-1.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
-      "title": "Community Briefs 2/5/26",
-      "title_distilled": "Community Briefs 2/5/26.",
-      "description": "WingFest XIX to benefit Volunteer Hose Company of Throop In what has become a Super Bowl day tradition, the Volunteer Hose Company of Throop will host its annual WingFest XIX fundraiser Sunday from 11 a.m. to 4 p.m. at the fire hall, 401 Dunmore St., Throop. WingFest XIX is organized by the fire company&#8217;s members and volunteers. &#8220;WingFest is one of our largest fundraisers of the year and plays a vital role in supporting our volunteer fire company and the services we provide to the borough and surrounding areas,&#8221; said Jeremy Jarrow, vice president of Volunteer Hose Company of Throop, [&#8230;]",
+      "title": "Carbondale UNICO inducts new members",
+      "title_distilled": "Carbondale UNICO inducts new members.",
+      "description": "Two new members were inducted by Carbondale UNICO at Pettinato\u2019s restaurant in Carbondale. The inductees were sworn in by President Bob Tomaine, center. The new members are Theresa Gowat, left, and Emilene Pittsman, right.",
       "description_distilled": "",
-      "content": "WingFest XIX to benefit Volunteer Hose Company of Throop In what has become a Super Bowl day tradition, the Volunteer Hose Company of Throop will host its annual WingFest XIX fundraiser Sunday from 11 a.m. to 4 p.m. at the fire hall, 401 Dunmore St., Throop. WingFest XIX is organized by the fire company&#8217;s members and volunteers. &#8220;WingFest is one of our largest fundraisers of the year and plays a vital role in supporting our volunteer fire company and the services we provide to the borough and surrounding areas,&#8221; said Jeremy Jarrow, vice president of Volunteer Hose Company of Throop, [&#8230;]",
-      "content_distilled": "WingFest XIX to benefit Volunteer Hose Company of Throop In what has become a Super Bowl day tradition, the Volunteer Hose Company of Throop will host its annual WingFest XIX fundraiser Sunday from 11 a.",
+      "content": "Two new members were inducted by Carbondale UNICO at Pettinato\u2019s restaurant in Carbondale. The inductees were sworn in by President Bob Tomaine, center. The new members are Theresa Gowat, left, and Emilene Pittsman, right.",
+      "content_distilled": "Two new members were inducted by Carbondale UNICO at Pettinato\u2019s restaurant in Carbondale.",
       "graph": {
         "entities": [
           {
-            "name": "Community Briefs",
+            "name": "President Bob Tomaine",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/community-briefs.md",
+            "file_path": "../entities/people/president-bob-tomaine.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Volunteer Hose",
+            "name": "Theresa Gowat",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/volunteer-hose.md",
+            "file_path": "../entities/people/theresa-gowat.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Super Bowl",
+            "name": "Emilene Pittsman",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/super-bowl.md",
+            "file_path": "../entities/people/emilene-pittsman.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jeremy Jarrow",
+            "name": "Bob Tomaine",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jeremy-jarrow.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "fire hall",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/fire-hall.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Volunteer Hose Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/volunteer-hose-company.md",
+            "file_path": "../entities/people/bob-tomaine.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Voluntee</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Super Bo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jeremy J</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">fire hal</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Voluntee</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Theresa Gowat",
+            "to": "Emilene Pittsman",
+            "type": "LEFT",
+            "verb": "left"
+          },
+          {
+            "from": "President Bob Tomaine",
+            "to": "Bob Tomaine",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Theresa </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Emilene </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bob Toma</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1042,112 +743,114 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Community Briefs": "../entities/people/community-briefs.md",
-          "Volunteer Hose": "../entities/people/volunteer-hose.md",
-          "Super Bowl": "../entities/people/super-bowl.md",
-          "Jeremy Jarrow": "../entities/people/jeremy-jarrow.md",
-          "fire hall": "../entities/locations/fire-hall.md",
-          "Volunteer Hose Company": "../entities/organizations/volunteer-hose-company.md"
+          "President Bob Tomaine": "../entities/people/president-bob-tomaine.md",
+          "Theresa Gowat": "../entities/people/theresa-gowat.md",
+          "Emilene Pittsman": "../entities/people/emilene-pittsman.md",
+          "Bob Tomaine": "../entities/people/bob-tomaine.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2026-02-05T05:10:33",
-      "url": "https://www.thetimes-tribune.com/2026/02/05/community-briefs-2-5-26/",
-      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/02/SAV-L-WINGFEST-0205.jpg?w=1400px&strip=all",
+      "publishedAt": "2026-03-03T05:00:29",
+      "url": "https://www.thetimes-tribune.com/2026/03/03/carbondale-unico-inducts-new-members/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/02/STT-L-A2PIC1-0303.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_11",
-      "title": "School Briefs 2/5/26",
-      "title_distilled": "School Briefs 2/5/26.",
-      "description": "Delaware Valley University Zackary Kovaleski of Jermyn was named to the fall 2025 dean&#8217;s list. East Stroudsburg University A total of 1,965 students have been named to the dean&#8217;s list for the fall 2025 semester of the 2025-2026 academic year, as announced by Margaret Ball D.M.A., the university&#8217;s provost and vice president for academic affairs. The following local students were named to the dean&#8217;s list: Mya Biamonte, a nursing major from Scott Twp. Lily Carey, a biology major from Scott Twp. Noah Dougherty, a sport management major from Dunmore. Abigail Earley, a hotel, restaurant and tourism management major from Dunmore. [&#8230;]",
+      "title": "Clipboard, March 3, 2026",
+      "title_distilled": "Clipboard, March 3, 2026.",
+      "description": "Jermyn Pizza sale: Knights of Columbus Council 7622 will sell premade, uncooked pizza Fridays during Lent; 12-cut square pizza for $12, available for pickup from 4-6 p.m. at the parish centers of Sacred Heart of Mary Church in Jermyn and St. Thomas Aquinas Church in Archbald. Order and prepay by Wednesday for pickup Friday. Call Grand Knight Kevin Pittack, 570-510-7758. Lackawanna County Ham and cabbage dinner: Northeastern Detachment Marine Corps League annual ham and cabbage dinner, March 14, noon-5 p.m. or sold out, at the detachment, 1340 Alder St., Scranton; tickets available at the door, public welcome. Midvalley Cheesecake fundraiser: [&#8230;]",
       "description_distilled": "",
-      "content": "Delaware Valley University Zackary Kovaleski of Jermyn was named to the fall 2025 dean&#8217;s list. East Stroudsburg University A total of 1,965 students have been named to the dean&#8217;s list for the fall 2025 semester of the 2025-2026 academic year, as announced by Margaret Ball D.M.A., the university&#8217;s provost and vice president for academic affairs. The following local students were named to the dean&#8217;s list: Mya Biamonte, a nursing major from Scott Twp. Lily Carey, a biology major from Scott Twp. Noah Dougherty, a sport management major from Dunmore. Abigail Earley, a hotel, restaurant and tourism management major from Dunmore. [&#8230;]",
-      "content_distilled": "Delaware Valley University Zackary Kovaleski of Jermyn was named to the fall 2025 dean&#8217;s list.",
+      "content": "Jermyn Pizza sale: Knights of Columbus Council 7622 will sell premade, uncooked pizza Fridays during Lent; 12-cut square pizza for $12, available for pickup from 4-6 p.m. at the parish centers of Sacred Heart of Mary Church in Jermyn and St. Thomas Aquinas Church in Archbald. Order and prepay by Wednesday for pickup Friday. Call Grand Knight Kevin Pittack, 570-510-7758. Lackawanna County Ham and cabbage dinner: Northeastern Detachment Marine Corps League annual ham and cabbage dinner, March 14, noon-5 p.m. or sold out, at the detachment, 1340 Alder St., Scranton; tickets available at the door, public welcome. Midvalley Cheesecake fundraiser: [&#8230;]",
+      "content_distilled": "Jermyn Pizza sale: Knights of Columbus Council 7622 will sell premade, uncooked pizza Fridays during Lent; 12-cut square pizza for $12, available for pickup from 4-6 p.",
       "graph": {
         "entities": [
           {
-            "name": "School Briefs",
+            "name": "Jermyn Pizza",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/school-briefs.md",
+            "file_path": "../entities/people/jermyn-pizza.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Delaware Valley",
+            "name": "Columbus Council",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/delaware-valley.md",
+            "file_path": "../entities/people/columbus-council.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "University Zackary",
+            "name": "Sacred Heart",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/university-zackary.md",
+            "file_path": "../entities/people/sacred-heart.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "East Stroudsburg",
+            "name": "Mary Church",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/east-stroudsburg.md",
+            "file_path": "../entities/people/mary-church.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Margaret Ball",
+            "name": "Thomas Aquinas",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/margaret-ball.md",
+            "file_path": "../entities/people/thomas-aquinas.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mya Biamonte",
+            "name": "Call Grand",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mya-biamonte.md",
+            "file_path": "../entities/people/call-grand.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scott Twp. Lily",
+            "name": "Knight Kevin",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scott-twp-lily.md",
+            "file_path": "../entities/people/knight-kevin.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scott Twp. Noah",
+            "name": "Northeastern Detachment",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scott-twp-noah.md",
+            "file_path": "../entities/people/northeastern-detachment.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Abigail Earley",
+            "name": "Marine Corps",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/abigail-earley.md",
+            "file_path": "../entities/people/marine-corps.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Delaware Valley University",
-            "type": "ORGANIZATION",
+            "name": "Midvalley Cheesecake",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/delaware-valley-university.md",
+            "file_path": "../entities/people/midvalley-cheesecake.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "East Stroudsburg",
-            "to": "Margaret Ball",
-            "type": "ANNOUNCED",
-            "verb": "announced"
+            "from": "Knight Kevin",
+            "to": "Columbus Council",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Sacred Heart",
+            "to": "Jermyn Pizza",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School B</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Delaware</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Universi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">East Str</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Margaret</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mya Biam</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jermyn P</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Columbus</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sacred H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mary Chu</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Thomas A</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Call Gra</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1158,21 +861,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "School Briefs": "../entities/people/school-briefs.md",
-          "Delaware Valley": "../entities/people/delaware-valley.md",
-          "University Zackary": "../entities/people/university-zackary.md",
-          "East Stroudsburg": "../entities/people/east-stroudsburg.md",
-          "Margaret Ball": "../entities/people/margaret-ball.md",
-          "Mya Biamonte": "../entities/people/mya-biamonte.md",
-          "Scott Twp. Lily": "../entities/people/scott-twp-lily.md",
-          "Scott Twp. Noah": "../entities/people/scott-twp-noah.md",
-          "Abigail Earley": "../entities/people/abigail-earley.md",
-          "Delaware Valley University": "../entities/organizations/delaware-valley-university.md"
+          "Jermyn Pizza": "../entities/people/jermyn-pizza.md",
+          "Columbus Council": "../entities/people/columbus-council.md",
+          "Sacred Heart": "../entities/people/sacred-heart.md",
+          "Mary Church": "../entities/people/mary-church.md",
+          "Thomas Aquinas": "../entities/people/thomas-aquinas.md",
+          "Call Grand": "../entities/people/call-grand.md",
+          "Knight Kevin": "../entities/people/knight-kevin.md",
+          "Northeastern Detachment": "../entities/people/northeastern-detachment.md",
+          "Marine Corps": "../entities/people/marine-corps.md",
+          "Midvalley Cheesecake": "../entities/people/midvalley-cheesecake.md"
         }
       },
       "source": "Times Tribune",
-      "publishedAt": "2026-02-05T05:08:02",
-      "url": "https://www.thetimes-tribune.com/2026/02/05/school-briefs-2-5-26/",
+      "publishedAt": "2026-03-03T05:00:24",
+      "url": "https://www.thetimes-tribune.com/2026/03/03/clipboard-march-3-2026/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1180,37 +883,106 @@
     },
     {
       "id": "short_12",
-      "title": "Nearly 80 patients transferred after hospital fire in Dickson City",
-      "title_distilled": "Nearly 80 patients transferred after hospital fire in Dickson City.",
-      "description": "Crews battled flames at the orthopedics side of the Lehigh Valley Hospital-Dickson City on Wednesday night.",
+      "title": "Froggy 101 spreads warmth through coat drive",
+      "title_distilled": "Froggy 101 spreads warmth through coat drive.",
+      "description": "United Neighborhood Centers of Northeastern Pennsylvania received a donation of more than 100 brand-new winter coats, along with hats and scarves, from Froggy 101 to support the Angel\u2019s Attic Food &#38; Clothing Pantry, located at 410 Olive St. in Scranton. These winter essentials were collected through Froggy 101\u2019s annual coat drive and were distributed to families in need who visit the pantry. The donation came at a critical time as families prepared for colder weather and faced increasing costs of living. UNC\u2019s Community Services Department, which houses the Angel\u2019s Attic Food &#38; Clothing Pantry, provides food, clothing and household essentials [&#8230;]",
       "description_distilled": "",
-      "content": "Crews battled flames at the orthopedics side of the Lehigh Valley Hospital-Dickson City on Wednesday night.",
-      "content_distilled": "Crews battled flames at the orthopedics side of the Lehigh Valley Hospital-Dickson City on Wednesday night.",
+      "content": "United Neighborhood Centers of Northeastern Pennsylvania received a donation of more than 100 brand-new winter coats, along with hats and scarves, from Froggy 101 to support the Angel\u2019s Attic Food &#38; Clothing Pantry, located at 410 Olive St. in Scranton. These winter essentials were collected through Froggy 101\u2019s annual coat drive and were distributed to families in need who visit the pantry. The donation came at a critical time as families prepared for colder weather and faced increasing costs of living. UNC\u2019s Community Services Department, which houses the Angel\u2019s Attic Food &#38; Clothing Pantry, provides food, clothing and household essentials [&#8230;]",
+      "content_distilled": "United Neighborhood Centers of Northeastern Pennsylvania received a donation of more than 100 brand-new winter coats, along with hats and scarves, from Froggy 101 to support the Angel\u2019s Attic Food &#38; Clothing Pantry, located at 410 Olive St.",
       "graph": {
         "entities": [
           {
-            "name": "Dickson City",
+            "name": "United Neighborhood",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
+            "file_path": "../entities/people/united-neighborhood.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lehigh Valley",
+            "name": "Northeastern Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/lehigh-valley.md",
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Attic Food",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/attic-food.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Clothing Pantry",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/clothing-pantry.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "warmth through coat drive",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/warmth-through-coat-drive.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "annual coat drive",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/annual-coat-drive.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Community Services Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/community-services-department.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Dickson City",
-            "to": "Lehigh Valley",
+            "from": "United Neighborhood",
+            "to": "Northeastern Pennsylvania",
             "type": "MEMBER_OF"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "warmth through coat drive",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "annual coat drive",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Community Services Department",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">United N</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Attic Fo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clothing</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1221,86 +993,108 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dickson City": "../entities/people/dickson-city.md",
-          "Lehigh Valley": "../entities/people/lehigh-valley.md"
+          "United Neighborhood": "../entities/people/united-neighborhood.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Attic Food": "../entities/people/attic-food.md",
+          "Clothing Pantry": "../entities/people/clothing-pantry.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "warmth through coat drive": "../entities/locations/warmth-through-coat-drive.md",
+          "annual coat drive": "../entities/locations/annual-coat-drive.md",
+          "Community Services Department": "../entities/organizations/community-services-department.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-02-05T09:47:14",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-at-lehigh-valley-hospital-dickson-city/523-2a1f780b-a2e0-410e-a9c6-8c2dbf501d72",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-03T05:00:14",
+      "url": "https://www.thetimes-tribune.com/2026/03/03/froggy-101-spreads-warmth-through-coat-drive/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/02/STT-L-A2PIC2-0303.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Lackawanna County commissioners to discuss 'Protect Your Neighbors Ordinance'",
-      "title_distilled": "Lackawanna County commissioners to discuss 'Protect Your Neighbors Ordinance'.",
-      "description": "Commissioner Bill Gaughan pushed to deliberate on a proposed 'Protect Your Neighbors Ordinance,' aiming to define the county's role in federal immigration.",
+      "title": "Lackawanna County Court Notes, March 3, 2026",
+      "title_distilled": "Lackawanna County Court Notes, March 3, 2026.",
+      "description": "MARRIAGE LICENSES Marissa Siconolfi and Christopher George Daher, both of Scranton. Claudia Yelissa Herrera-Garrido and Manuel Orlando Leger-Paulino, both of South Abington Twp. PROPERTY TRANSACTIONS John Zachary Monahan and Stephanie J. Murphy, South Abington Twp., to Justin Roach and Rebekah Smith, Scranton, as joint tenants with rights of survivorship; a property at 162 Edgewood Drive E., South Abington Twp., for $320,000. Richard J. Drury, executor of the estate of Patricia E. Petrone, now or formerly of Copiague, N.Y., to Ryan M. Sandor, Taylor; a property at 101 Parkview Drive, South Abington Twp., for $343,509. Courtney Brissett and John A. Simeon, [&#8230;]",
       "description_distilled": "",
-      "content": "Commissioner Bill Gaughan pushed to deliberate on a proposed 'Protect Your Neighbors Ordinance,' aiming to define the county's role in federal immigration.",
-      "content_distilled": "Commissioner Bill Gaughan pushed to deliberate on a proposed 'Protect Your Neighbors Ordinance,' aiming to define the county's role in federal immigration.",
+      "content": "MARRIAGE LICENSES Marissa Siconolfi and Christopher George Daher, both of Scranton. Claudia Yelissa Herrera-Garrido and Manuel Orlando Leger-Paulino, both of South Abington Twp. PROPERTY TRANSACTIONS John Zachary Monahan and Stephanie J. Murphy, South Abington Twp., to Justin Roach and Rebekah Smith, Scranton, as joint tenants with rights of survivorship; a property at 162 Edgewood Drive E., South Abington Twp., for $320,000. Richard J. Drury, executor of the estate of Patricia E. Petrone, now or formerly of Copiague, N.Y., to Ryan M. Sandor, Taylor; a property at 101 Parkview Drive, South Abington Twp., for $343,509. Courtney Brissett and John A. Simeon, [&#8230;]",
+      "content_distilled": "MARRIAGE LICENSES Marissa Siconolfi and Christopher George Daher, both of Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Protect Your Neighbors Ordinance",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/protect-your-neighbors-ordinance.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Protect Your Neighbors Ordinance,",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/protect-your-neighbors-ordinance.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Protect Your",
+            "name": "Court Notes",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/protect-your.md",
+            "file_path": "../entities/people/court-notes.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Neighbors Ordinance",
+            "name": "Marissa Siconolfi",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/neighbors-ordinance.md",
+            "file_path": "../entities/people/marissa-siconolfi.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Commissioner Bill",
+            "name": "Christopher George",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/commissioner-bill.md",
+            "file_path": "../entities/people/christopher-george.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Bill Gaughan",
+            "name": "Claudia Yelissa",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bill-gaughan.md",
+            "file_path": "../entities/people/claudia-yelissa.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "Manuel Orlando",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/manuel-orlando.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "South Abington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/south-abington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "John Zachary",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/john-zachary.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Justin Roach",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/justin-roach.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Rebekah Smith",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rebekah-smith.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Edgewood Drive",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/edgewood-drive.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Commissioner Bill",
-            "to": "Bill Gaughan",
-            "type": "HAS_TITLE"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Protect </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Protect </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Protect </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Neighbor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commissi</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bill Gau</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Court No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marissa </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christop</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Claudia </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Manuel O</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1311,43 +1105,81 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Protect Your Neighbors Ordinance": "../entities/works/movies/protect-your-neighbors-ordinance.md",
-          "Protect Your Neighbors Ordinance,": "../entities/works/movies/protect-your-neighbors-ordinance.md",
-          "Protect Your": "../entities/people/protect-your.md",
-          "Neighbors Ordinance": "../entities/people/neighbors-ordinance.md",
-          "Commissioner Bill": "../entities/people/commissioner-bill.md",
-          "Bill Gaughan": "../entities/people/bill-gaughan.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Court Notes": "../entities/people/court-notes.md",
+          "Marissa Siconolfi": "../entities/people/marissa-siconolfi.md",
+          "Christopher George": "../entities/people/christopher-george.md",
+          "Claudia Yelissa": "../entities/people/claudia-yelissa.md",
+          "Manuel Orlando": "../entities/people/manuel-orlando.md",
+          "South Abington": "../entities/people/south-abington.md",
+          "John Zachary": "../entities/people/john-zachary.md",
+          "Justin Roach": "../entities/people/justin-roach.md",
+          "Rebekah Smith": "../entities/people/rebekah-smith.md",
+          "Edgewood Drive": "../entities/people/edgewood-drive.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-02-04T22:40:04",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-commissioners-to-discuss-protect-your-neighbors-ordinance-federal-immigration-enforcement-citizenship-status/523-ef94cacc-1200-46b2-896d-cb9dd958c0a5",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-03T05:00:13",
+      "url": "https://www.thetimes-tribune.com/2026/03/03/lackawanna-county-court-notes-march-3-2026/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2025/01/CVC-L-STOCKCOURTCOMPUTER-01.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "Lackawanna County commissioners weigh data center moratorium to discuss potential regulations",
-      "title_distilled": "Lackawanna County commissioners weigh data center moratorium to discuss potential regulations.",
-      "description": "Lackawanna County commissioners discussed options to slow the development of data centers across the county during their bi-weekly meeting.",
+      "title": "FILM ROOM PODCAST: Eva Kaszuba joins Season 2 Episode 27",
+      "title_distilled": "FILM ROOM PODCAST: Eva Kaszuba joins Season 2 Episode 27.",
+      "description": "Welcome to Season 2 Episode 27 of the Film Room Podcast! Scranton Prep basketball player and swimmer Eva Kaszuba joins hosts Joe Baress and Joby Fawcett to discuss capturing District 2 gold in both sports, what it&#8217;s like balancing basketball and swimming, the importance of her family in her athletic journey, what it took for the basketball team to win a district title with five new starters, being a part of the Scranton Prep swimming community and more. We also recap the busiest weekend if high school sports with the District 2 basketball and swimming championships and wrestling regionals, share [&#8230;]",
       "description_distilled": "",
-      "content": "Lackawanna County commissioners discussed options to slow the development of data centers across the county during their bi-weekly meeting.",
-      "content_distilled": "Lackawanna County commissioners discussed options to slow the development of data centers across the county during their bi-weekly meeting.",
+      "content": "Welcome to Season 2 Episode 27 of the Film Room Podcast! Scranton Prep basketball player and swimmer Eva Kaszuba joins hosts Joe Baress and Joby Fawcett to discuss capturing District 2 gold in both sports, what it&#8217;s like balancing basketball and swimming, the importance of her family in her athletic journey, what it took for the basketball team to win a district title with five new starters, being a part of the Scranton Prep swimming community and more. We also recap the busiest weekend if high school sports with the District 2 basketball and swimming championships and wrestling regionals, share [&#8230;]",
+      "content_distilled": "Welcome to Season 2 Episode 27 of the Film Room Podcast! Scranton Prep basketball player and swimmer Eva Kaszuba joins hosts Joe Baress and Joby Fawcett to discuss capturing District 2 gold in both sports, what it&#8217;s like balancing basketball and swimming, the importance of her family in her athletic journey, what it took for the basketball team to win a district title with five new starters, being a part of the Scranton Prep swimming community and more.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna County",
+            "name": "Eva Kaszuba",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/eva-kaszuba.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Film Room",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/film-room.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Prep",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-prep.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joe Baress",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joe-baress.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joby Fawcett",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joby-fawcett.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eva Kasz</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Film Roo</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Bare</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joby Faw</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1358,13 +1190,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Eva Kaszuba": "../entities/people/eva-kaszuba.md",
+          "Film Room": "../entities/people/film-room.md",
+          "Scranton Prep": "../entities/people/scranton-prep.md",
+          "Joe Baress": "../entities/people/joe-baress.md",
+          "Joby Fawcett": "../entities/people/joby-fawcett.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-02-04T21:55:47",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-commissioners-weigh-data-center-moratorium-bill-gaughan-chris-chermak-thom-welby-ai-infrastructure-gov-shapiro/523-3f835a23-f59a-40d6-92a7-06c1c0bbffe0",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-03T01:26:45",
+      "url": "https://www.thetimes-tribune.com/2026/03/02/film-room-podcast-eva-kaszuba-joins-season-2-episode-27/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/03/STT-L-GIRLS4ABB-06.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
