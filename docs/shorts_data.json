@@ -1,12 +1,107 @@
 {
-  "generated_at": "2026-03-06T11:23:25.778335",
-  "source_file": "../data/daily/scranton_news_2026-03-06.json",
-  "total_shorts": 8,
-  "total_duration": 64,
+  "generated_at": "2026-03-07T11:15:15.542311",
+  "source_file": "../data/daily/scranton_news_2026-03-07.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Is This PA Congressional Candidate Already Living the D.C. Insider Lifestyle?",
+      "title_distilled": "Is This PA Congressional Candidate Already Living the D.",
+      "description": "Paige Cognetti, the current mayor of Scranton, Pennsylvania, is running for Congress against incumbent Republican Rob Bresnahan. Like the rest of the midterm races, this seat is important and a must-win for Republicans. That's why people are questioning wheth\u2026",
+      "description_distilled": "",
+      "content": "Paige Cognetti, the current mayor of Scranton, Pennsylvania, is running for Congress against incumbent Republican Rob Bresnahan. Like the rest of the midterm races, this seat is important and a must-win for Republicans. That's why people are questioning wheth\u2026",
+      "content_distilled": "Paige Cognetti, the current mayor of Scranton, Pennsylvania, is running for Congress against incumbent Republican Rob Bresnahan.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Congressional Candidate",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/congressional-candidate.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Already Living",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/already-living.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Insider Lifestyle",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/insider-lifestyle.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Republican Rob Bresnahan",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/republican-rob-bresnahan.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Already </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Insider </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Republic</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Congressional Candidate": "../entities/people/congressional-candidate.md",
+          "Already Living": "../entities/people/already-living.md",
+          "Insider Lifestyle": "../entities/people/insider-lifestyle.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Republican Rob Bresnahan": "../entities/people/republican-rob-bresnahan.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Freerepublic.com",
+      "publishedAt": "2026-03-05T22:49:01Z",
+      "url": "https://freerepublic.com/focus/f-news/4369467/posts",
+      "urlToImage": null,
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Hospital fire underscores region's health care capacity challenges",
       "title_distilled": "Hospital fire underscores region's health care capacity challenges.",
       "description": "The fire that shut Lehigh Valley Hospital-Dickson City reignited anxieties about health care capacity challenges, just days after a deal that saved Commonwealth Health\u2019s Scranton hospitals.",
@@ -67,11 +162,11 @@
       "url": "https://www.thetimes-tribune.com/2026/02/08/hospital-fire-underscores-regions-health-care-capacity-challenges/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/02/STT-L-HOSPITALFIRE-0206-04.jpg?w=1024&h=679",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Fire at Pennsylvania Hospital Forces Evacuation of Dozens of Patients",
       "title_distilled": "Fire at Pennsylvania Hospital Forces Evacuation of Dozens of Patients.",
       "description": "A fire tore through a northeastern Pennsylvania hospital, sending smoke billowing into the air as dozens of patients were evacuated and emergency medical crews were rushed in from across the region, authorities said. No one was reported injured by the \u2026",
@@ -138,11 +233,11 @@
       "url": "https://www.insurancejournal.com/news/east/2026/02/08/857327.htm",
       "urlToImage": "https://www.insurancejournal.com/app/uploads/2026/02/Penn-hospital-fire-2026-AP-photo-scaled.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Everhart Museum",
       "title_distilled": "Everhart Museum.",
       "description": "Contributed by Kelsey MitchellSource: kelsey.fyi Kelsey Mitchell. License: All Rights Reserved. The museum's updated logo was inspired by their building's chiseled facade lettering and uses Terza Display by Commercial Type. The emblem, inspired by their folk \u2026",
@@ -211,11 +306,11 @@
       "url": "https://fontsinuse.com/uses/74945/everhart-museum",
       "urlToImage": "https://cards.fontsinuse.com/cardshot?s=twitter&t=use&url=https://fontsinuse.com/uses/74945/everhart-museum&k=d26052de200b80cfed6b6e701067a08e&v=a884eeb4",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Scranton crime spike dogs Dem mayor as she challenges GOP Rep in Biden\u2019s hometown",
       "title_distilled": "Scranton crime spike dogs Dem mayor as she challenges GOP Rep in Biden\u2019s hometown.",
       "description": "Crime crisis rocks Biden's hometown as Scranton mayor faces heat over reported gang violence while challenging GOP Rep. Rob Bresnahan in swing district.",
@@ -260,11 +355,11 @@
       "url": "https://www.foxnews.com/politics/scranton-crime-spike-dogs-dem-mayor-challenges-gop-rep-bidens-hometown",
       "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/12/2024-04-17t150541z_349035747_rc2e87aw3783_rtrmadp_3_usa-biden.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "HNL Lab Medicine Opens New Patient Service Center at The Marketplace at Steamtown",
       "title_distilled": "HNL Lab Medicine Opens New Patient Service Center at The Marketplace at Steamtown.",
       "description": "SCRANTON, Pa., Feb. 11, 2026 (GLOBE NEWSWIRE) -- HNL Lab Medicine is expanding access to convenient, high-quality laboratory services with the opening of a new Patient Service Center at The Marketplace at Steamtown, located at 300 Lackawanna Ave., Scranton, P\u2026",
@@ -357,24 +452,66 @@
       "url": "https://www.globenewswire.com/news-release/2026/02/11/3236247/0/en/HNL-Lab-Medicine-Opens-New-Patient-Service-Center-at-The-Marketplace-at-Steamtown.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/1e7817e1-61b3-46db-b5ac-13999a9ef12c",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
-      "title": "Luzerne County to update data center zoning",
-      "title_distilled": "Luzerne County to update data center zoning.",
-      "description": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 Fears surrounding data centers continue to circulate not just here in Northeastern Pennsylvania, but nationwide. Officials in Luzerne County are working to calm those fears and are taking steps to ensure that no data center gets built without the proper precautions and guidelines in place. The county is trying to [...]",
+      "id": "short_6",
+      "title": "Tickets on sale for UNC\u2019s designer purse bingo",
+      "title_distilled": "Tickets on sale for UNC\u2019s designer purse bingo.",
+      "description": "Tickets are on sale for United Neighborhood Centers of Northeastern Pennsylvania&#8217;s fourth annual designer purse bingo, presented by Grimm Construction, on Friday, April 10, at Holy Cross High School, 501 E. Drinker St., Dunmore. Doors open at 5:30 p.m. and bingo begins at 6:30. This year, guests will have the opportunity to participate in a Louis Vuitton Neverfull Bag raffle, with winners not required to be present to claim the prize. The event is open to guests 21 and older. Tickets are $35 in advance and $40 at the door. Admission includes 15 rounds of bingo. Additional opportunities to win [&#8230;]",
       "description_distilled": "",
-      "content": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 Fears surrounding data centers continue to circulate not just here in Northeastern Pennsylvania, but nationwide. Officials in Luzerne County are working to calm those fears and are taking steps to ensure that no data center gets built without the proper precautions and guidelines in place. The county is trying to [...]",
-      "content_distilled": "WILKES-BARRE, LUZERNE COUNTY  \u2014 Fears surrounding data centers continue to circulate not just here in Northeastern Pennsylvania, but nationwide.",
+      "content": "Tickets are on sale for United Neighborhood Centers of Northeastern Pennsylvania&#8217;s fourth annual designer purse bingo, presented by Grimm Construction, on Friday, April 10, at Holy Cross High School, 501 E. Drinker St., Dunmore. Doors open at 5:30 p.m. and bingo begins at 6:30. This year, guests will have the opportunity to participate in a Louis Vuitton Neverfull Bag raffle, with winners not required to be present to claim the prize. The event is open to guests 21 and older. Tickets are $35 in advance and $40 at the door. Admission includes 15 rounds of bingo. Additional opportunities to win [&#8230;]",
+      "content_distilled": "Tickets are on sale for United Neighborhood Centers of Northeastern Pennsylvania&#8217;s fourth annual designer purse bingo, presented by Grimm Construction, on Friday, April 10, at Holy Cross High School, 501 E.",
       "graph": {
         "entities": [
+          {
+            "name": "United Neighborhood",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/united-neighborhood.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Northeastern Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
             "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Grimm Construction",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/grimm-construction.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Holy Cross",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/holy-cross.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "High School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Louis Vuitton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/louis-vuitton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Neverfull Bag",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/neverfull-bag.md",
             "resolution_method": "new_entity"
           },
           {
@@ -385,140 +522,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
+            "name": "Holy Cross High School",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-03-06T04:20:56",
-      "url": "https://www.2822news.com/news/luzerne-county-to-update-data-center-zoning/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
-    },
-    {
-      "id": "short_6",
-      "title": "Release of confidential document raises legal concern",
-      "title_distilled": "Release of confidential document raises legal concern.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County could face legal backlash after a once confidential document was released to the public. A motion to release a confidential memo from the County Solicitors Office to Commissioners about the \"Protect Your Neighbors Act\" did not pass. However, after Wednesday's commissioners meeting ended, Commissioner Bill Gaughan released it [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County could face legal backlash after a once confidential document was released to the public. A motion to release a confidential memo from the County Solicitors Office to Commissioners about the \"Protect Your Neighbors Act\" did not pass. However, after Wednesday's commissioners meeting ended, Commissioner Bill Gaughan released it [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Lackawanna County could face legal backlash after a once confidential document was released to the public.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Protect Your Neighbors Act",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/protect-your-neighbors-act.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Protect Your",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/protect-your.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Neighbors Act",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/neighbors-act.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Commissioner Bill",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/commissioner-bill.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bill Gaughan",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bill-gaughan.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "County Solicitors Office",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/county-solicitors-office.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/organizations/holy-cross-high-school.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Commissioner Bill",
-            "to": "Bill Gaughan",
-            "type": "HAS_TITLE"
-          },
-          {
-            "from": "Commissioner Bill",
-            "to": "County Solicitors Office",
-            "type": "ISSUED"
+            "from": "United Neighborhood",
+            "to": "Northeastern Pennsylvania",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Protect </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Protect </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Neighbor</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commissi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bill Gau</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">United N</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Grimm Co</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holy Cro</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Louis Vu</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -529,41 +547,274 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Protect Your Neighbors Act": "../entities/works/movies/protect-your-neighbors-act.md",
-          "Protect Your": "../entities/people/protect-your.md",
-          "Neighbors Act": "../entities/people/neighbors-act.md",
-          "Commissioner Bill": "../entities/people/commissioner-bill.md",
-          "Bill Gaughan": "../entities/people/bill-gaughan.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "County Solicitors Office": "../entities/organizations/county-solicitors-office.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "United Neighborhood": "../entities/people/united-neighborhood.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Grimm Construction": "../entities/people/grimm-construction.md",
+          "Holy Cross": "../entities/people/holy-cross.md",
+          "High School": "../entities/people/high-school.md",
+          "Louis Vuitton": "../entities/people/louis-vuitton.md",
+          "Neverfull Bag": "../entities/people/neverfull-bag.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Holy Cross High School": "../entities/organizations/holy-cross-high-school.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-03-06T00:04:42",
-      "url": "https://www.2822news.com/news/release-of-confidential-document-raises-legal-concern/",
-      "urlToImage": "",
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-07T05:00:17",
+      "url": "https://www.thetimes-tribune.com/2026/03/07/tickets-on-sale-for-uncs-designer-purse-bingo/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/03/STT-L-A2PIC2-0307.jpg?w=1400px&strip=all",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
       "animation_delay": 0.6000000000000001
     },
     {
       "id": "short_7",
-      "title": "Man charged after crash left child with brain injury",
-      "title_distilled": "Man charged after crash left child with brain injury.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man is facing charges after police say a crash he was involved in left a child with a traumatic brain injury. Rysene Travis Price, 33, of Moosic, is being charged with aggravated assault by vehicle as a result of an investigation into a crash in Scranton in October 2025. [...]",
+      "title": "Clipboard, March 7, 2026",
+      "title_distilled": "Clipboard, March 7, 2026.",
+      "description": "Abingtons Insulin pump support group: Insulin Pump Support Group meeting, March 19, 6 p.m., Abington Community Library. Guest speaker will be Emily Gelatt, who brings professional expertise and a desire to help people understand insurance and Medicare benefits. Carbondale Bingo fundraiser: Trinity Episcopal Church, 58 River St., cash bingo, March 22, with a grand prize of $1,000. Entrance tickets are $25 and include 10 regular games with a $100 prize. Grand prize and specials boards are sold separately. Doors will open at 1:30 p.m. and games start at 2:30. There will also be a 50/50, snack bar and door prizes. [&#8230;]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man is facing charges after police say a crash he was involved in left a child with a traumatic brain injury. Rysene Travis Price, 33, of Moosic, is being charged with aggravated assault by vehicle as a result of an investigation into a crash in Scranton in October 2025. [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A man is facing charges after police say a crash he was involved in left a child with a traumatic brain injury.",
+      "content": "Abingtons Insulin pump support group: Insulin Pump Support Group meeting, March 19, 6 p.m., Abington Community Library. Guest speaker will be Emily Gelatt, who brings professional expertise and a desire to help people understand insurance and Medicare benefits. Carbondale Bingo fundraiser: Trinity Episcopal Church, 58 River St., cash bingo, March 22, with a grand prize of $1,000. Entrance tickets are $25 and include 10 regular games with a $100 prize. Grand prize and specials boards are sold separately. Doors will open at 1:30 p.m. and games start at 2:30. There will also be a 50/50, snack bar and door prizes. [&#8230;]",
+      "content_distilled": "Abingtons Insulin pump support group: Insulin Pump Support Group meeting, March 19, 6 p.",
       "graph": {
         "entities": [
           {
-            "name": "Rysene Travis",
+            "name": "Abingtons Insulin",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/rysene-travis.md",
+            "file_path": "../entities/people/abingtons-insulin.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Insulin Pump",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/insulin-pump.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Support Group",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/support-group.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Abington Community",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/abington-community.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Emily Gelatt",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/emily-gelatt.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Carbondale Bingo",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/carbondale-bingo.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trinity Episcopal",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trinity-episcopal.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Insulin </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Support </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Emily Ge</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Abingtons Insulin": "../entities/people/abingtons-insulin.md",
+          "Insulin Pump": "../entities/people/insulin-pump.md",
+          "Support Group": "../entities/people/support-group.md",
+          "Abington Community": "../entities/people/abington-community.md",
+          "Emily Gelatt": "../entities/people/emily-gelatt.md",
+          "Carbondale Bingo": "../entities/people/carbondale-bingo.md",
+          "Trinity Episcopal": "../entities/people/trinity-episcopal.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-07T05:00:07",
+      "url": "https://www.thetimes-tribune.com/2026/03/07/clipboard-march-7-2026/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Wallenpaupack Area swimmers win 2026 Mulrine Award",
+      "title_distilled": "Wallenpaupack Area swimmers win 2026 Mulrine Award.",
+      "description": "At the Les Richards Swim Tournament at Scranton High School in February, Lackawanna Swim PIAA presented the Gary Mulrine Sportsmanship Award to the Wallenpaupack Area High School boys and girls swim team, which was selected by league PIAA swim officials. Mulrine served for many years as swim coach and official in Lackawanna County. Les Richards, the namesake for the tournament, has served the region in many aspects of swimming. The Wallenpaupack head coach is Stephanie Campbell and assistant coaches are Emily Kotcho, Hunter Vargo and Ali Parkes. Team captains of the boys are Jacob Eckes and Jasper Hathaway; the girls [&#8230;]",
+      "description_distilled": "",
+      "content": "At the Les Richards Swim Tournament at Scranton High School in February, Lackawanna Swim PIAA presented the Gary Mulrine Sportsmanship Award to the Wallenpaupack Area High School boys and girls swim team, which was selected by league PIAA swim officials. Mulrine served for many years as swim coach and official in Lackawanna County. Les Richards, the namesake for the tournament, has served the region in many aspects of swimming. The Wallenpaupack head coach is Stephanie Campbell and assistant coaches are Emily Kotcho, Hunter Vargo and Ali Parkes. Team captains of the boys are Jacob Eckes and Jasper Hathaway; the girls [&#8230;]",
+      "content_distilled": "At the Les Richards Swim Tournament at Scranton High School in February, Lackawanna Swim PIAA presented the Gary Mulrine Sportsmanship Award to the Wallenpaupack Area High School boys and girls swim team, which was selected by league PIAA swim officials.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Wallenpaupack Area",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wallenpaupack-area.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mulrine Award",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mulrine-award.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Les Richards",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/les-richards.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Swim Tournament",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/swim-tournament.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton High",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-high.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna Swim",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-swim.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Gary Mulrine",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/gary-mulrine.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Sportsmanship Award",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sportsmanship-award.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "High School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Wallenpaupack",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-wallenpaupack.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Mulrine Award",
+            "to": "Scranton High",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Gary Mulrine",
+            "to": "Lackawanna Swim",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wallenpa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mulrine </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Les Rich</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Swim Tou</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Wallenpaupack Area": "../entities/people/wallenpaupack-area.md",
+          "Mulrine Award": "../entities/people/mulrine-award.md",
+          "Les Richards": "../entities/people/les-richards.md",
+          "Swim Tournament": "../entities/people/swim-tournament.md",
+          "Scranton High": "../entities/people/scranton-high.md",
+          "Lackawanna Swim": "../entities/people/lackawanna-swim.md",
+          "Gary Mulrine": "../entities/people/gary-mulrine.md",
+          "Sportsmanship Award": "../entities/people/sportsmanship-award.md",
+          "High School": "../entities/people/high-school.md",
+          "The Wallenpaupack": "../entities/people/the-wallenpaupack.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-07T05:00:02",
+      "url": "https://www.thetimes-tribune.com/2026/03/07/wallenpaupack-area-swimmers-win-2026-mulrine-award/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/03/STT-L-A2PIC1-0307.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "NCAA BASKETBALL: Lady Royals dismantle Framingham State in first round",
+      "title_distilled": "NCAA BASKETBALL: Lady Royals dismantle Framingham State in first round.",
+      "description": "SCRANTON \u2014 Things could not have gone better for the University of Scranton women&#8217;s basketball team in their NCAA Division III tournament opener. The Lady Royals turned in a record performance in dismantling Framingham State, 104-39, in the first round Friday night at the John Long Center. Five players scored in double figures for Scranton (28-0), which set a program record for points in a NCAA tournament game. The previous mark was 103 points in a win over Waynesburg in the first round March 5, 1993. Scranton also had 101 points in an AIAW game \u2014 the forerunner to the [&#8230;]",
+      "description_distilled": "",
+      "content": "SCRANTON \u2014 Things could not have gone better for the University of Scranton women&#8217;s basketball team in their NCAA Division III tournament opener. The Lady Royals turned in a record performance in dismantling Framingham State, 104-39, in the first round Friday night at the John Long Center. Five players scored in double figures for Scranton (28-0), which set a program record for points in a NCAA tournament game. The previous mark was 103 points in a win over Waynesburg in the first round March 5, 1993. Scranton also had 101 points in an AIAW game \u2014 the forerunner to the [&#8230;]",
+      "content_distilled": "SCRANTON \u2014 Things could not have gone better for the University of Scranton women&#8217;s basketball team in their NCAA Division III tournament opener.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Lady Royals",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lady-royals.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Framingham State",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/framingham-state.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Lady",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-lady.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "John Long",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/john-long.md",
             "resolution_method": "new_entity"
           },
           {
@@ -574,10 +825,450 @@
             "resolution_method": "new_entity"
           },
           {
+            "name": "basketball team in their NCAA Division III tournament",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/basketball-team-in-their-ncaa-division-iii-tournament.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "NCAA tournament game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/ncaa-tournament-game.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "points in an AIAW game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/points-in-an-aiaw-game.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lady Roy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Framingh</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lady</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Lon</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">basketba</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lady Royals": "../entities/people/lady-royals.md",
+          "Framingham State": "../entities/people/framingham-state.md",
+          "The Lady": "../entities/people/the-lady.md",
+          "John Long": "../entities/people/john-long.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "basketball team in their NCAA Division III tournament": "../entities/events/basketball-team-in-their-ncaa-division-iii-tournament.md",
+          "NCAA tournament game": "../entities/events/ncaa-tournament-game.md",
+          "points in an AIAW game": "../entities/events/points-in-an-aiaw-game.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-07T04:52:31",
+      "url": "https://www.thetimes-tribune.com/2026/03/06/ncaa-basketball-lady-royals-dismantle-framingham-state-in-first-round/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/03/STT-L-NCAALADYROYALSBB-030626-05.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "PIAA GIRLS BASKETBALL: Dunmore, Mountain View advance; Scranton bounced",
+      "title_distilled": "PIAA GIRLS BASKETBALL: Dunmore, Mountain View advance; Scranton bounced.",
+      "description": "Amanda Dempsey connected on three of her four 3-pointers in the second quarter and finished with 14 points, leading Dunmore to a 36-33 win over Mount Carmel on Friday night in the PIAA Class 3A girls basketball first round. Jackie Brown added seven points, and Janaya Martin, the hero of the District 2 championship game, added six points, including four in the fourth quarter, for the Lady Bucks. Dunmore (23-3) advances to Tuesday&#8217;s second round and will play Executive Education (18-7), the District 11 champion, at a site and time to be determined. Dempsey scored nine points, all on 3-pointers, [&#8230;]",
+      "description_distilled": "",
+      "content": "Amanda Dempsey connected on three of her four 3-pointers in the second quarter and finished with 14 points, leading Dunmore to a 36-33 win over Mount Carmel on Friday night in the PIAA Class 3A girls basketball first round. Jackie Brown added seven points, and Janaya Martin, the hero of the District 2 championship game, added six points, including four in the fourth quarter, for the Lady Bucks. Dunmore (23-3) advances to Tuesday&#8217;s second round and will play Executive Education (18-7), the District 11 champion, at a site and time to be determined. Dempsey scored nine points, all on 3-pointers, [&#8230;]",
+      "content_distilled": "Amanda Dempsey connected on three of her four 3-pointers in the second quarter and finished with 14 points, leading Dunmore to a 36-33 win over Mount Carmel on Friday night in the PIAA Class 3A girls basketball first round.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Mountain View",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mountain-view.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Amanda Dempsey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/amanda-dempsey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mount Carmel",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mount-carmel.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jackie Brown",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jackie-brown.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Janaya Martin",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/janaya-martin.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lady Bucks",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lady-bucks.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Executive Education",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/executive-education.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "championship game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/championship-game.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mountain</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Amanda D</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mount Ca</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jackie B</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Janaya M</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lady Buc</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Mountain View": "../entities/people/mountain-view.md",
+          "Amanda Dempsey": "../entities/people/amanda-dempsey.md",
+          "Mount Carmel": "../entities/people/mount-carmel.md",
+          "Jackie Brown": "../entities/people/jackie-brown.md",
+          "Janaya Martin": "../entities/people/janaya-martin.md",
+          "Lady Bucks": "../entities/people/lady-bucks.md",
+          "Executive Education": "../entities/people/executive-education.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "championship game": "../entities/events/championship-game.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-07T04:33:15",
+      "url": "https://www.thetimes-tribune.com/2026/03/06/piaa-girls-basketball-dempsey-leads-dunmore-to-class-3a-win-over-mount-carmel/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/03/STT-L-all-stars-07.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "PIAA CLASS 4A BOYS: Doherty lifts Prep into second round; Valley View moves on",
+      "title_distilled": "PIAA CLASS 4A BOYS: Doherty lifts Prep into second round; Valley View moves on.",
+      "description": "SCRANTON \u2013 Packy Doherty drained his final shot inside of the Xavier Center as the horn sounded to sub him out. With the Scranton Prep student section shouting and chanting his name, the Cavalier took a moment to soak it all in. One final time. One final moment inside a gym where he reigned supreme the last four seasons. The senior gave his fans a show in the second half of Friday&#8217;s PIAA Class 4A boys&#8217; basketball first-round game against Schuylkill Valley. Doherty drained shots from every square inch of Keller Court, hitting all five of his attempts in the [&#8230;]",
+      "description_distilled": "",
+      "content": "SCRANTON \u2013 Packy Doherty drained his final shot inside of the Xavier Center as the horn sounded to sub him out. With the Scranton Prep student section shouting and chanting his name, the Cavalier took a moment to soak it all in. One final time. One final moment inside a gym where he reigned supreme the last four seasons. The senior gave his fans a show in the second half of Friday&#8217;s PIAA Class 4A boys&#8217; basketball first-round game against Schuylkill Valley. Doherty drained shots from every square inch of Keller Court, hitting all five of his attempts in the [&#8230;]",
+      "content_distilled": "SCRANTON \u2013 Packy Doherty drained his final shot inside of the Xavier Center as the horn sounded to sub him out.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Valley View",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/valley-view.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Packy Doherty",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/packy-doherty.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Xavier Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/xavier-center.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Prep",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-prep.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Schuylkill Valley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/schuylkill-valley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Keller Court",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/keller-court.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "round game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/round-game.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Packy Doherty",
+            "to": "Xavier Center",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Packy Doherty",
+            "to": "Keller Court",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valley V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Packy Do</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Xavier C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Schuylki</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keller C</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Valley View": "../entities/people/valley-view.md",
+          "Packy Doherty": "../entities/people/packy-doherty.md",
+          "Xavier Center": "../entities/people/xavier-center.md",
+          "Scranton Prep": "../entities/people/scranton-prep.md",
+          "Schuylkill Valley": "../entities/people/schuylkill-valley.md",
+          "Keller Court": "../entities/people/keller-court.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "round game": "../entities/events/round-game.md"
+        }
+      },
+      "source": "Times Tribune",
+      "publishedAt": "2026-03-07T03:39:59",
+      "url": "https://www.thetimes-tribune.com/2026/03/06/piaa-class-4a-boys-doherty-lifts-prep-into-second-round-valley-view-moves-on/",
+      "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/03/STT-L-SPBASKETBALL-0307-3.jpg?w=1400px&strip=all",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Vehicles damaged during blasting work in Dickson City",
+      "title_distilled": "Vehicles damaged during blasting work in Dickson City.",
+      "description": "Some cars in the Wegmans parking lot in Dickson City were damaged during blasting work at a nearby quarry.",
+      "description_distilled": "",
+      "content": "Some cars in the Wegmans parking lot in Dickson City were damaged during blasting work at a nearby quarry.",
+      "content_distilled": "Some cars in the Wegmans parking lot in Dickson City were damaged during blasting work at a nearby quarry.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dickson City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dickson-city.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dickson City": "../entities/people/dickson-city.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-06T21:35:31",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/vehicles-damaged-during-blasting-work-in-dickson-city-lackawanna-county-business-route-6-cold-springs-road/523-e507695a-841b-482b-986a-909295794adf",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Police charge 3 more in deadly Scranton shooting",
+      "title_distilled": "Police charge 3 more in deadly Scranton shooting.",
+      "description": "The shooting along the 1300 block of Bryn Mawr Street left 16-year-old Dylan Smith dead back in December.",
+      "description_distilled": "",
+      "content": "The shooting along the 1300 block of Bryn Mawr Street left 16-year-old Dylan Smith dead back in December.",
+      "content_distilled": "shooting along the 1300 block of Bryn Mawr Street left 16-year-old Dylan Smith dead back in December.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Bryn Mawr",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bryn-mawr.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Dylan Smith",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dylan-smith.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "of Bryn Mawr Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/of-bryn-mawr-street.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Bryn Mawr",
+            "to": "Dylan Smith",
+            "type": "LEFT",
+            "verb": "left"
+          },
+          {
+            "from": "Scranton",
+            "to": "Dylan Smith",
+            "type": "LEFT",
+            "verb": "left"
+          },
+          {
+            "from": "of Bryn Mawr Street",
+            "to": "Dylan Smith",
+            "type": "LEFT",
+            "verb": "left"
+          },
+          {
+            "from": "of Bryn Mawr Street",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bryn Maw</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dylan Sm</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">of Bryn </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Bryn Mawr": "../entities/people/bryn-mawr.md",
+          "Dylan Smith": "../entities/people/dylan-smith.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "of Bryn Mawr Street": "../entities/locations/of-bryn-mawr-street.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-06T16:24:47",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-charge-3-more-in-deadly-scranton-shooting-bryn-mawr-street-lackawanna-county/523-dd24d09a-eacf-48dc-af6f-e7d4ac1273ee",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Three charged, Scranton shooting investigation ongoing",
+      "title_distilled": "Three charged, Scranton shooting investigation ongoing.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A woman and two juveniles are facing charges as police continue to investigate a shooting that left a 16-year-old dead. On Thursday, February 26, detectives charged three people as they continued to investigate the death of Dylan Smith that occurred in December 2025. The Scranton Police Department said 24-year-old Mariah Cortes [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A woman and two juveniles are facing charges as police continue to investigate a shooting that left a 16-year-old dead. On Thursday, February 26, detectives charged three people as they continued to investigate the death of Dylan Smith that occurred in December 2025. The Scranton Police Department said 24-year-old Mariah Cortes [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A woman and two juveniles are facing charges as police continue to investigate a shooting that left a 16-year-old dead.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dylan Smith",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dylan-smith.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mariah Cortes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mariah-cortes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
             "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton Police Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/the-scranton-police-department.md",
             "resolution_method": "new_entity"
           },
           {
@@ -597,13 +1288,50 @@
         ],
         "relationships": [
           {
-            "from": "Rysene Travis",
-            "to": "SCRANTON",
-            "type": "CHARGED",
-            "verb": "charged"
+            "from": "The Scranton",
+            "to": "Mariah Cortes",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "Scranton",
+            "to": "Mariah Cortes",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "The Scranton Police Department",
+            "to": "Mariah Cortes",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "The Scranton Police Department",
+            "to": "Scranton",
+            "type": "RELATES_TO"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "The Scranton Police Department",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rysene T</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dylan Sm</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mariah C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -614,20 +1342,23 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Rysene Travis": "../entities/people/rysene-travis.md",
-          "SCRANTON": "../entities/locations/scranton.md",
+          "Dylan Smith": "../entities/people/dylan-smith.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Mariah Cortes": "../entities/people/mariah-cortes.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "The Scranton Police Department": "../entities/organizations/the-scranton-police-department.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-03-05T16:16:50",
-      "url": "https://www.2822news.com/news/crime-courts/man-charged-after-crash-left-child-with-brain-injury/",
+      "publishedAt": "2026-03-06T15:53:22",
+      "url": "https://www.2822news.com/news/crime-courts/three-charged-scranton-shooting-investigation-ongoing/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 1.0
     }
   ]
 }
