@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-15T11:07:51.275512",
-  "source_file": "../data/daily/scranton_news_2026-03-15.json",
-  "total_shorts": 10,
-  "total_duration": 80,
+  "generated_at": "2026-03-16T11:19:01.934974",
+  "source_file": "../data/daily/scranton_news_2026-03-16.json",
+  "total_shorts": 9,
+  "total_duration": 72,
   "has_svo": false,
   "shorts": [
     {
@@ -232,18 +232,47 @@
     },
     {
       "id": "short_3",
-      "title": "Carbondale celebrates 175th anniversary with birthday gala",
-      "title_distilled": "Carbondale celebrates 175th anniversary with birthday gala.",
-      "description": "At the gala, folks enjoyed dinner, dancing, and historic displays from over 11 different organizations.",
+      "title": "NEPA's largest Flea market reopens in Dickson City",
+      "title_distilled": "NEPA's largest Flea market reopens in Dickson City.",
+      "description": "The flea market located at the Circle Drive-In has been open since the 1970's and is the largest flea market in Northeast Pennsylvania.",
       "description_distilled": "",
-      "content": "At the gala, folks enjoyed dinner, dancing, and historic displays from over 11 different organizations.",
-      "content_distilled": "At the gala, folks enjoyed dinner, dancing, and historic displays from over 11 different organizations.",
+      "content": "The flea market located at the Circle Drive-In has been open since the 1970's and is the largest flea market in Northeast Pennsylvania.",
+      "content_distilled": "flea market located at the Circle Drive-In has been open since the 1970's and is the largest flea market in Northeast Pennsylvania.",
       "graph": {
-        "entities": [],
+        "entities": [
+          {
+            "name": "Dickson City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dickson-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Circle Drive",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/circle-drive.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeast Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeast-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Circle D</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
-        "confidence": 0.0,
+        "confidence": 0.5,
         "vault_statistics": {
           "total_entities": 0,
           "by_type": {},
@@ -251,11 +280,16 @@
           "low_confidence": 0,
           "total_relationships": 0
         },
-        "entity_files": {}
+        "entity_files": {
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Circle Drive": "../entities/people/circle-drive.md",
+          "Northeast Pennsylvania": "../entities/people/northeast-pennsylvania.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
       },
       "source": "Wnep",
-      "publishedAt": "2026-03-15T04:28:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/carbondale-celebrates-175th-anniversary-birthday-gala-lackawanna-county/523-f3614751-1a72-42a4-a615-6f3a13f1a747",
+      "publishedAt": "2026-03-16T03:41:02",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepas-largest-flea-market-reopens-dickson-city-lackawanna-county/523-adbac5b2-58f2-4024-864e-7d2721fcb4d0",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -263,54 +297,112 @@
     },
     {
       "id": "short_4",
-      "title": "'Clover Cup' youth soccer tournament raises funds for Big Brothers Big Sisters of Northeastern Pennsylvania",
-      "title_distilled": "'Clover Cup' youth soccer tournament raises funds for Big Brothers Big Sisters of Northeastern Pennsylvania.",
-      "description": "Hosted by UnitedGoals USA and Montoursville Lady Warriors Soccer Program, girls and boys faced off to support a good cause.",
+      "title": "South side shooting injures 2 in Scranton",
+      "title_distilled": "South side shooting injures 2 in Scranton.",
+      "description": "Lackawanna County District Attorney Brian Gallagher says two people were injured but expected to survive after a Saturday morning shooting at Big Daddy's lounge.",
       "description_distilled": "",
-      "content": "Hosted by UnitedGoals USA and Montoursville Lady Warriors Soccer Program, girls and boys faced off to support a good cause.",
-      "content_distilled": "Hosted by UnitedGoals USA and Montoursville Lady Warriors Soccer Program, girls and boys faced off to support a good cause.",
+      "content": "Lackawanna County District Attorney Brian Gallagher says two people were injured but expected to survive after a Saturday morning shooting at Big Daddy's lounge.",
+      "content_distilled": "Lackawanna County District Attorney Brian Gallagher says two people were injured but expected to survive after a Saturday morning shooting at Big Daddy's lounge.",
       "graph": {
         "entities": [
           {
-            "name": "Clover Cup",
-            "type": "WORK",
+            "name": "Scranton Lackawanna",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/clover-cup.md",
+            "file_path": "../entities/people/scranton-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Big Brothers",
+            "name": "Attorney Brian",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/big-brothers.md",
+            "file_path": "../entities/people/attorney-brian.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Big Sisters",
+            "name": "Big Daddy",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/big-sisters.md",
+            "file_path": "../entities/people/big-daddy.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Montoursville Lady",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Attorney</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Dadd</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Lackawanna": "../entities/people/scranton-lackawanna.md",
+          "Attorney Brian": "../entities/people/attorney-brian.md",
+          "Big Daddy": "../entities/people/big-daddy.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-15T19:33:20",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/south-side-bar-shooting-injures-2-in-scranton-lackawanna-county/523-389caec4-ae0a-4327-8093-5e24abebb7a5",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
+    },
+    {
+      "id": "short_5",
+      "title": "Storm system expected to move through NEPA Monday",
+      "title_distilled": "Storm system expected to move through NEPA Monday.",
+      "description": "(WBRE/WYOU) \u2014 Your Future Alert Weather Forecast is keeping an eye on a storm system that is anticipated to enter Pennsylvania Sunday night through the coming workweek. Changes are expected at the start of the week, as it will be mostly cloudy with showers developing Sunday night. It could be breezy but mild with a [...]",
+      "description_distilled": "",
+      "content": "(WBRE/WYOU) \u2014 Your Future Alert Weather Forecast is keeping an eye on a storm system that is anticipated to enter Pennsylvania Sunday night through the coming workweek. Changes are expected at the start of the week, as it will be mostly cloudy with showers developing Sunday night. It could be breezy but mild with a [...]",
+      "content_distilled": " \u2014 Your Future Alert Weather Forecast is keeping an eye on a storm system that is anticipated to enter Pennsylvania Sunday night through the coming workweek.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Your Future",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/montoursville-lady.md",
+            "file_path": "../entities/people/your-future.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Warriors Soccer",
+            "name": "Alert Weather",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/warriors-soccer.md",
+            "file_path": "../entities/people/alert-weather.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania Sunday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-sunday.md",
             "resolution_method": "new_entity"
           },
           {
@@ -321,26 +413,29 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "youth soccer tournament",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Your Future Alert",
             "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/events/youth-soccer-tournament.md",
+            "file_path": "../entities/events/your-future-alert.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Big Brothers",
-            "to": "Northeastern Pennsylvania",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "youth soccer tournament",
-            "to": "Big Brothers",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clover C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Brot</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Sist</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Montours</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Warriors</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Your Fut</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Alert We</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -351,74 +446,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Clover Cup": "../entities/works/movies/clover-cup.md",
-          "Big Brothers": "../entities/people/big-brothers.md",
-          "Big Sisters": "../entities/people/big-sisters.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Montoursville Lady": "../entities/people/montoursville-lady.md",
-          "Warriors Soccer": "../entities/people/warriors-soccer.md",
+          "Your Future": "../entities/people/your-future.md",
+          "Alert Weather": "../entities/people/alert-weather.md",
+          "Pennsylvania Sunday": "../entities/people/pennsylvania-sunday.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "youth soccer tournament": "../entities/events/youth-soccer-tournament.md"
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "Your Future Alert": "../entities/events/your-future-alert.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-03-15T02:20:21",
-      "url": "https://www.wnep.com/article/news/local/lycoming-county/clover-cup-youth-soccer-tournament-raises-funds-big-brothers-big-sisters-northeastern-pennsylvania-lycoming-county/523-a470b21c-bd9b-4ecc-88d7-9df850efa22d",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
-    },
-    {
-      "id": "short_5",
-      "title": "Scranton turns green for 64th annual St. Patrick's Day Parade",
-      "title_distilled": "Scranton turns green for 64th annual St.",
-      "description": "The 64th annual St. Patrick's Parade in Scranton brought tens of thousands together despite chilly weather, with 140 organizations filling the parade route.",
-      "description_distilled": "",
-      "content": "The 64th annual St. Patrick's Parade in Scranton brought tens of thousands together despite chilly weather, with 140 organizations filling the parade route.",
-      "content_distilled": "64th annual St.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Day Parade",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/day-parade.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Day Parade",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Para</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Day Parade": "../entities/people/day-parade.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-03-15T01:19:07",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-turns-green-for-64th-annual-st-patricks-day-parade-lackawanna-county/523-d00dbaea-bbdb-496d-86cf-8cc475630c46",
+      "source": "Wbre",
+      "publishedAt": "2026-03-15T23:37:17",
+      "url": "https://www.2822news.com/weather/storm-system-expected-to-move-through-nepa-monday/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
@@ -426,56 +465,52 @@
     },
     {
       "id": "short_6",
-      "title": "Scranton honors St. Patrick's Day with annual Mass, Footrace in memory of late parade president",
-      "title_distilled": "Scranton honors St.",
-      "description": "Parade Day in Scranton kicks off with the annual St. Patty's Day mass, followed by Brian P. Kelly Memorial St. Patrick's Parade Footrace.",
+      "title": "Veteran looking to pass the torch to honor late veterans",
+      "title_distilled": "Veteran looking to pass the torch to honor late veterans.",
+      "description": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Navy veteran in Lackawanna County is looking for someone to take over his three-decade-long business that honors late veterans. 77-year-old Jim Steier has been making wooden flag cases since 1994. The Navy vet started his business after years of experience in the casket industry. Steier is looking for [...]",
       "description_distilled": "",
-      "content": "Parade Day in Scranton kicks off with the annual St. Patty's Day mass, followed by Brian P. Kelly Memorial St. Patrick's Parade Footrace.",
-      "content_distilled": "Parade Day in Scranton kicks off with the annual St.",
+      "content": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Navy veteran in Lackawanna County is looking for someone to take over his three-decade-long business that honors late veterans. 77-year-old Jim Steier has been making wooden flag cases since 1994. The Navy vet started his business after years of experience in the casket industry. Steier is looking for [...]",
+      "content_distilled": "SCOTT TOWNSHIP, LACKAWANNA COUNTY  \u2014 A Navy veteran in Lackawanna County is looking for someone to take over his three-decade-long business that honors late veterans.",
       "graph": {
         "entities": [
           {
-            "name": "Parade Day",
+            "name": "Jim Steier",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/parade-day.md",
+            "file_path": "../entities/people/jim-steier.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Kelly Memorial",
+            "name": "The Navy",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/kelly-memorial.md",
+            "file_path": "../entities/people/the-navy.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Parade Footrace",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/parade-footrace.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Parade Footrace",
-            "to": "Parade Day",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Parade Day",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Parade D</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kelly Me</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Parade F</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jim Stei</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Navy</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -486,15 +521,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Parade Day": "../entities/people/parade-day.md",
-          "Kelly Memorial": "../entities/people/kelly-memorial.md",
-          "Parade Footrace": "../entities/people/parade-footrace.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Jim Steier": "../entities/people/jim-steier.md",
+          "The Navy": "../entities/people/the-navy.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-03-14T23:49:34",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-honors-st-patricks-day-with-annual-mass-footrace-memory-late-parade-president-lackawanna-county/523-711d8753-a0f7-4117-bc01-bab61b5bdccf",
+      "source": "Wbre",
+      "publishedAt": "2026-03-16T03:30:09",
+      "url": "https://www.2822news.com/news/local-news/veteran-looking-to-pass-the-torch-to-honor-late-veterans/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
@@ -502,47 +538,19 @@
     },
     {
       "id": "short_7",
-      "title": "Scranton organization celebrates giving back",
-      "title_distilled": "Scranton organization celebrates giving back.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local organization is ready to donate a big check they raised. The Frank Burke the Fourth Memorial Fund is celebrating another year of giving back. They raised $40,000 to be donated to Make-A-Wish, and $8,000 more for South Scranton Intermediate School. The Bogey for Burkey's golf tournament was held [...]",
+      "title": "Running of the Ginger returns to Scranton",
+      "title_distilled": "Running of the Ginger returns to Scranton.",
+      "description": "SCRANTON, LACKAWANNA (WBRE/WYOU) \u2014 Parade day in Scranton was not only a green colored celebration, but also one featuring reddish orange. A tradition started by some University of Scranton students a few years ago returned, called The Running of the Gingers. Redheads ran up a hill to honor Irish pride. It's become quite a social [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local organization is ready to donate a big check they raised. The Frank Burke the Fourth Memorial Fund is celebrating another year of giving back. They raised $40,000 to be donated to Make-A-Wish, and $8,000 more for South Scranton Intermediate School. The Bogey for Burkey's golf tournament was held [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A local organization is ready to donate a big check they raised.",
+      "content": "SCRANTON, LACKAWANNA (WBRE/WYOU) \u2014 Parade day in Scranton was not only a green colored celebration, but also one featuring reddish orange. A tradition started by some University of Scranton students a few years ago returned, called The Running of the Gingers. Redheads ran up a hill to honor Irish pride. It's become quite a social [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA  \u2014 Parade day in Scranton was not only a green colored celebration, but also one featuring reddish orange.",
       "graph": {
         "entities": [
           {
-            "name": "The Frank",
+            "name": "The Running",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-frank.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Fourth Memorial",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fourth-memorial.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "South Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/south-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Intermediate School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/intermediate-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Bogey",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-bogey.md",
+            "file_path": "../entities/people/the-running.md",
             "resolution_method": "new_entity"
           },
           {
@@ -550,20 +558,6 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "South Scranton Intermediate School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/south-scranton-intermediate-school.md",
             "resolution_method": "new_entity"
           },
           {
@@ -579,18 +573,26 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "green colored celebration",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/green-colored-celebration.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Scranton",
+            "to": "The Running",
+            "type": "RETURNED",
+            "verb": "returned"
           },
           {
-            "from": "South Scranton Intermediate School",
+            "from": "The Running",
             "to": "Scranton",
-            "type": "OPERATES_IN"
+            "type": "MEMBER_OF"
           },
           {
             "from": "WBRE",
@@ -603,7 +605,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Fran</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fourth M</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Sc</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Intermed</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Boge</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Runn</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">green co</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RETURNED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -614,21 +616,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Frank": "../entities/people/the-frank.md",
-          "Fourth Memorial": "../entities/people/fourth-memorial.md",
-          "South Scranton": "../entities/people/south-scranton.md",
-          "Intermediate School": "../entities/people/intermediate-school.md",
-          "The Bogey": "../entities/people/the-bogey.md",
+          "The Running": "../entities/people/the-running.md",
           "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "South Scranton Intermediate School": "../entities/organizations/south-scranton-intermediate-school.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "green colored celebration": "../entities/events/green-colored-celebration.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-03-15T03:06:58",
-      "url": "https://www.2822news.com/news/local-news/scranton-organization-celebrates-giving-back/",
+      "publishedAt": "2026-03-16T03:20:08",
+      "url": "https://www.2822news.com/news/local-news/running-of-the-ginger-returns-to-scranton/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
@@ -636,33 +633,26 @@
     },
     {
       "id": "short_8",
-      "title": "Memorial race steps off on Scranton Parade route",
-      "title_distilled": "Memorial race steps off on Scranton Parade route.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 After mass, runners and walkers laced up their sneakers for the Brian P Kelly Memorial Race in Scranton. The two-mile foot race takes place entirely on the parade route and is the oldest road race in the Scranton area. The race is held in honor of Brian P Kelly, the [...]",
+      "title": "Interstate 81 to see lane restrictions through week",
+      "title_distilled": "Interstate 81 to see lane restrictions through week.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Interstate 81 in Lackawanna County will receive several lane restrictions from the Pennsylvania Department of Transportation (PennDOT) throughout the week. Between Monday, March 16, and Friday, March 20, PennDOT announced Lackawanna County will have several lane restrictions between 7:00 a.m. and 4:00 p.m. for tree trimming. The restrictions will be on [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 After mass, runners and walkers laced up their sneakers for the Brian P Kelly Memorial Race in Scranton. The two-mile foot race takes place entirely on the parade route and is the oldest road race in the Scranton area. The race is held in honor of Brian P Kelly, the [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 After mass, runners and walkers laced up their sneakers for the Brian P Kelly Memorial Race in Scranton.",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Interstate 81 in Lackawanna County will receive several lane restrictions from the Pennsylvania Department of Transportation (PennDOT) throughout the week. Between Monday, March 16, and Friday, March 20, PennDOT announced Lackawanna County will have several lane restrictions between 7:00 a.m. and 4:00 p.m. for tree trimming. The restrictions will be on [...]",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 Interstate 81 in Lackawanna County will receive several lane restrictions from the Pennsylvania Department of Transportation  throughout the week.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Parade",
+            "name": "Between Monday",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-parade.md",
+            "file_path": "../entities/people/between-monday.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Kelly Memorial",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/kelly-memorial.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -670,6 +660,34 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "to see lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/to-see-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "will receive several lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/will-receive-several-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "will have several lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/will-have-several-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/pennsylvania-department.md",
             "resolution_method": "new_entity"
           },
           {
@@ -689,27 +707,19 @@
         ],
         "relationships": [
           {
-            "from": "Kelly Memorial",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "Between Monday",
+            "to": "LACKAWANNA COUNTY",
+            "type": "ANNOUNCED",
+            "verb": "announced"
           },
           {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "from": "Between Monday",
+            "to": "will have several lane",
+            "type": "ANNOUNCED",
+            "verb": "announced"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kelly Me</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Between </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">to see l</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">will rec</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">will hav</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -720,142 +730,24 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Parade": "../entities/people/scranton-parade.md",
-          "Kelly Memorial": "../entities/people/kelly-memorial.md",
-          "Scranton": "../entities/locations/scranton.md",
+          "Between Monday": "../entities/people/between-monday.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "to see lane": "../entities/locations/to-see-lane.md",
+          "will receive several lane": "../entities/locations/will-receive-several-lane.md",
+          "will have several lane": "../entities/locations/will-have-several-lane.md",
+          "Pennsylvania Department": "../entities/organizations/pennsylvania-department.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-03-14T22:54:17",
-      "url": "https://www.2822news.com/news/local-news/memorial-race-steps-off-on-scranton-parade-route/",
+      "publishedAt": "2026-03-16T00:38:51",
+      "url": "https://www.2822news.com/traffic/interstate-81-to-see-lane-restrictions-through-week/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
       "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Annual tradition held before Scranton Saint Patrick's Parade",
-      "title_distilled": "Annual tradition held before Scranton Saint Patrick's Parade.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Before the parade stepped off, another annual tradition was held in downtown Scranton. Saint Peter's Cathedral hosted its annual Saint Patrick's Parade Day Mass on Saturday morning. Bishop Bambera led the mass, and various priests from the diocese of Scranton concelebrated. \"As a Christian, it's very important. It keeps everyone [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Before the parade stepped off, another annual tradition was held in downtown Scranton. Saint Peter's Cathedral hosted its annual Saint Patrick's Parade Day Mass on Saturday morning. Bishop Bambera led the mass, and various priests from the diocese of Scranton concelebrated. \"As a Christian, it's very important. It keeps everyone [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Before the parade stepped off, another annual tradition was held in downtown Scranton.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Saint",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-saint.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Saint Peter",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/saint-peter.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Saint Patrick",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/saint-patrick.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Parade Day Mass",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/parade-day-mass.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bishop Bambera",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bishop-bambera.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Pe</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Parade D</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bishop B</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Saint": "../entities/people/scranton-saint.md",
-          "Saint Peter": "../entities/people/saint-peter.md",
-          "Saint Patrick": "../entities/people/saint-patrick.md",
-          "Parade Day Mass": "../entities/people/parade-day-mass.md",
-          "Bishop Bambera": "../entities/people/bishop-bambera.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-03-14T22:49:49",
-      "url": "https://www.2822news.com/news/local-news/annual-tradition-held-before-scranton-saint-patricks-parade/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
     }
   ]
 }
