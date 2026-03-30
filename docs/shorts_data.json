@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-29T11:08:23.532888",
-  "source_file": "../data/daily/scranton_news_2026-03-29.json",
-  "total_shorts": 10,
-  "total_duration": 80,
+  "generated_at": "2026-03-30T11:22:48.864082",
+  "source_file": "../data/daily/scranton_news_2026-03-30.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -369,6 +369,403 @@
     },
     {
       "id": "short_5",
+      "title": "Designer purse bingo in Dunmore to raise money for United Neighborhood Center",
+      "title_distilled": "Designer purse bingo in Dunmore to raise money for United Neighborhood Center.",
+      "description": "Join the excitement at Holy Cross High on April 10 for UNC's Designer Purse Bingo, featuring a Louis Vuitton raffle. Proceeds support local community programs.",
+      "description_distilled": "",
+      "content": "Join the excitement at Holy Cross High on April 10 for UNC's Designer Purse Bingo, featuring a Louis Vuitton raffle. Proceeds support local community programs.",
+      "content_distilled": "Join the excitement at Holy Cross High on April 10 for UNC's Designer Purse Bingo, featuring a Louis Vuitton raffle.",
+      "graph": {
+        "entities": [
+          {
+            "name": "United Neighborhood",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/united-neighborhood.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Center Join",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/center-join.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Holy Cross",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/holy-cross.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Designer Purse",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/designer-purse.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Louis Vuitton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/louis-vuitton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Designer Purse",
+            "to": "United Neighborhood",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">United N</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Center J</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holy Cro</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Designer</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Louis Vu</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "United Neighborhood": "../entities/people/united-neighborhood.md",
+          "Center Join": "../entities/people/center-join.md",
+          "Holy Cross": "../entities/people/holy-cross.md",
+          "Designer Purse": "../entities/people/designer-purse.md",
+          "Louis Vuitton": "../entities/people/louis-vuitton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-30T10:33:38",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/designer-purse-bingo-dunmore-raise-money-united-neighborhood-center-holy-cross-nikki-krize/523-6d95b0b8-0c9a-43aa-b0bc-935c122d6d74",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
+    },
+    {
+      "id": "short_6",
+      "title": "Memorial bowling tournament held in Scranton",
+      "title_distilled": "Memorial bowling tournament held in Scranton.",
+      "description": "The tournament honors a local bowler who died in a car accident in 2021.",
+      "description_distilled": "",
+      "content": "The tournament honors a local bowler who died in a car accident in 2021.",
+      "content_distilled": "tournament honors a local bowler who died in a car accident in 2021.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton The",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-the.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Memorial bowling tournament held in Scranton The tournament",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/memorial-bowling-tournament-held-in-scranton-the-tournament.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Memorial</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton The": "../entities/people/scranton-the.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Memorial bowling tournament held in Scranton The tournament": "../entities/events/memorial-bowling-tournament-held-in-scranton-the-tournament.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-30T03:05:07",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/memorial-bowling-tournament-held-in-scranton/523-9c333576-0de4-4b75-8558-f4757bf90db5",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
+      "title": "Scranton Prep celebrates Father Bernard McIlhenny turning 100 with plaque unveiling",
+      "title_distilled": "Scranton Prep celebrates Father Bernard McIlhenny turning 100 with plaque unveiling.",
+      "description": "Celebrating his 100th birthday, Father Bernard McIlhenny, beloved former headmaster known as \"Father Mac,\" is honored with a plaque at Scranton Prep.",
+      "description_distilled": "",
+      "content": "Celebrating his 100th birthday, Father Bernard McIlhenny, beloved former headmaster known as \"Father Mac,\" is honored with a plaque at Scranton Prep.",
+      "content_distilled": "Celebrating his 100th birthday, Father Bernard McIlhenny, beloved former headmaster known as \"Father Mac,\" is honored with a plaque at Scranton Prep.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Father Mac,",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/father-mac.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Prep",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-prep.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Father Bernard",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/father-bernard.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Father Mac",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/father-mac.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Father M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Father B</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Father M</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Father Mac,": "../entities/works/movies/father-mac.md",
+          "Scranton Prep": "../entities/people/scranton-prep.md",
+          "Father Bernard": "../entities/people/father-bernard.md",
+          "Father Mac": "../entities/people/father-mac.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-30T03:03:48",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-prep-celebrates-father-bernard-mcilhenny-plaque-unveiling-on-hundred-plaque-unveiling-lackawanna-county/523-f7f6eb97-3962-48fd-9e19-e40f7a42ff26",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "NEPA's King of Wings has a winner",
+      "title_distilled": "NEPA's King of Wings has a winner.",
+      "description": "More than 116,000 votes came in for the face-off against Wyoming Valley's best and Lackawanna County.",
+      "description_distilled": "",
+      "content": "More than 116,000 votes came in for the face-off against Wyoming Valley's best and Lackawanna County.",
+      "content_distilled": "More than 116,000 votes came in for the face-off against Wyoming Valley's best and Lackawanna County.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Wyoming Valley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wyoming-valley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wyoming </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Wyoming Valley": "../entities/people/wyoming-valley.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-30T03:02:01",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/the-battle-for-nepas-king-of-wings-murphys-haggertys-scranton-swoyersville-chicken-resturant-businesses/523-36e7f178-b2f6-4c53-941f-beefd48b213f",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Easter Bunny delights Scranton kids with egg hunt on Courthouse Square",
+      "title_distilled": "Easter Bunny delights Scranton kids with egg hunt on Courthouse Square.",
+      "description": "The Easter Bunny ushered in the first-ever egg hunt on Courthouse Square in Scranton.",
+      "description_distilled": "",
+      "content": "The Easter Bunny ushered in the first-ever egg hunt on Courthouse Square in Scranton.",
+      "content_distilled": "Easter Bunny ushered in the first-ever egg hunt on Courthouse Square in Scranton.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Easter Bunny",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/easter-bunny.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Courthouse Square",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/courthouse-square.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Easter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-easter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Courthouse Square",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Easter B</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Courthou</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The East</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Easter Bunny": "../entities/people/easter-bunny.md",
+          "Courthouse Square": "../entities/people/courthouse-square.md",
+          "The Easter": "../entities/people/the-easter.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-30T02:50:43",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/easter-bunny-delights-scranton-kids-with-egg-hunt-on-courthouse-square-lackawanna-county/523-ff2aa22f-98d2-43dd-9ff6-a8969d91cec1",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Faithful celebrate Palm Sunday at Scranton's Cathedral of Saint Peter",
+      "title_distilled": "Faithful celebrate Palm Sunday at Scranton's Cathedral of Saint Peter.",
+      "description": "Community members in Scranton celebrated Palm Sunday, receiving 'palm fronds' to participate in the reenactment of Christ's arrival in Jerusalem.",
+      "description_distilled": "",
+      "content": "Community members in Scranton celebrated Palm Sunday, receiving 'palm fronds' to participate in the reenactment of Christ's arrival in Jerusalem.",
+      "content_distilled": "Community members in Scranton celebrated Palm Sunday, receiving 'palm fronds' to participate in the reenactment of Christ's arrival in Jerusalem.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Palm Sunday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/palm-sunday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Saint Peter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/saint-peter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Palm Sunday",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Saint Peter",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Palm Sun</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Pe</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Palm Sunday": "../entities/people/palm-sunday.md",
+          "Saint Peter": "../entities/people/saint-peter.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-03-29T23:37:45",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/faithful-celebrate-palm-sunday-scrantons-cathedral-saint-peter-lackawanna-county/523-30f8c78b-6909-4393-aac5-cd58170385c9",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
       "title": "At least one dead after a multi-home fire in Scranton",
       "title_distilled": "At least one dead after a multi-home fire in Scranton.",
       "description": "A fire in Scranton spread to multiple homes. The fire department is trying to account for everyone from the affected homes.",
@@ -401,74 +798,39 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-03-29T01:25:25",
+      "publishedAt": "2026-03-29T16:30:40",
       "url": "https://www.wnep.com/article/news/local/lackawanna-county/at-least-one-dead-after-multi-home-fire-scranton-lackawanna-county/523-cf1181f4-f507-4820-8de4-6e642dd56ded",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_6",
-      "title": "Protestors take to downtown Scranton in third 'No Kings' movement",
-      "title_distilled": "Protestors take to downtown Scranton in third 'No Kings' movement.",
-      "description": "Newswatch 16's Valeria Qui\u00f1ones takes us to one of the many 'No Kings' protests happening in our area.",
+      "id": "short_12",
+      "title": "Community reacts after fire leaves man dead, displaces 4",
+      "title_distilled": "Community reacts after fire leaves man dead, displaces 4.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 One man is dead, and four others are displaced after a three-home fire Saturday evening, according to officials. Scranton Fire Department Chief John Judge ...",
       "description_distilled": "",
-      "content": "Newswatch 16's Valeria Qui\u00f1ones takes us to one of the many 'No Kings' protests happening in our area.",
-      "content_distilled": "Newswatch 16's Valeria Qui\u00f1ones takes us to one of the many 'No Kings' protests happening in our area.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 One man is dead, and four others are displaced after a three-home fire Saturday evening, according to officials. Scranton Fire Department Chief John Judge ...",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 One man is dead, and four others are displaced after a three-home fire Saturday evening, according to officials.",
       "graph": {
         "entities": [
           {
-            "name": "No Kings",
-            "type": "WORK",
+            "name": "Scranton Fire",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/no-kings.md",
+            "file_path": "../entities/people/scranton-fire.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "John Judge",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/john-judge.md",
             "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">No Kings</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "No Kings": "../entities/works/movies/no-kings.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-03-28T22:28:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/protestors-take-downtown-scranton-third-no-kings-movement-lackawanna-county/523-a776f971-d73a-4366-a0e8-8e0d98419f9d",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
-    },
-    {
-      "id": "short_7",
-      "title": "1 dead after 3 houses catch fire in Scranton",
-      "title_distilled": "1 dead after 3 houses catch fire in Scranton.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Officials say the coroner was called to the scene of a fire involving multiple structures Saturday night. Lackawanna County officials confirmed that Scranton crews were called at 6:05 p.m. to the 1300 block of Dartmouth Street for a reported fire involving three structures. So far, authorities say there are no [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Officials say the coroner was called to the scene of a fire involving multiple structures Saturday night. Lackawanna County officials confirmed that Scranton crews were called at 6:05 p.m. to the 1300 block of Dartmouth Street for a reported fire involving three structures. So far, authorities say there are no [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Officials say the coroner was called to the scene of a fire involving multiple structures Saturday night.",
-      "graph": {
-        "entities": [
+          },
           {
-            "name": "Scranton",
+            "name": "SCRANTON",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
@@ -482,10 +844,217 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "block of Dartmouth Street",
+            "name": "Scranton Fire Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/scranton-fire-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Jud</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Fire": "../entities/people/scranton-fire.md",
+          "John Judge": "../entities/people/john-judge.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Scranton Fire Department": "../entities/organizations/scranton-fire-department.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-03-29T19:46:50",
+      "url": "https://www.2822news.com/news/4-displaced-1-dead-3-houses-severely-damaged-in-fire/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Easter Bunny makes rounds on rails at Electric City Trolley Station and Museum",
+      "title_distilled": "Easter Bunny makes rounds on rails at Electric City Trolley Station and Museum.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Easter Bunny is making the rounds on the rails before hopping to it next weekend. It's a busy weekend for the bunny at the Electric City Trolley Station and Museum. Families were able to take a train ride with the beloved figure both Saturday and Sunday. Organizers packed the [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Easter Bunny is making the rounds on the rails before hopping to it next weekend. It's a busy weekend for the bunny at the Electric City Trolley Station and Museum. Families were able to take a train ride with the beloved figure both Saturday and Sunday. Organizers packed the [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The Easter Bunny is making the rounds on the rails before hopping to it next weekend.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Easter Bunny",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/easter-bunny.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Electric City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/electric-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trolley Station",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trolley-station.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Easter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-easter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/block-of-dartmouth-street.md",
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Easter B</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trolley </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The East</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Easter Bunny": "../entities/people/easter-bunny.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "Trolley Station": "../entities/people/trolley-station.md",
+          "The Easter": "../entities/people/the-easter.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-03-29T22:36:34",
+      "url": "https://www.2822news.com/news/local-news/easter-bunny-makes-rounds-on-rails-at-electric-city-trolley-station-and-museum/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "PennDOT schedules multiple restrictions for I-81, I-80",
+      "title_distilled": "PennDOT schedules multiple restrictions for I-81, I-80.",
+      "description": "(WBRE/WYOU) \u2014 There will be several lane restrictions and closures beginning Monday on Interstates 81 and 80 in Lackawanna and Luzerne counties, according to the Pennsylvania Department of Transpor...",
+      "description_distilled": "",
+      "content": "(WBRE/WYOU) \u2014 There will be several lane restrictions and closures beginning Monday on Interstates 81 and 80 in Lackawanna and Luzerne counties, according to the Pennsylvania Department of Transpor...",
+      "content_distilled": " \u2014 There will be several lane restrictions and closures beginning Monday on Interstates 81 and 80 in Lackawanna and Luzerne counties, according to the Pennsylvania Department of Transpor.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dickson City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dickson-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Expressway",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-expressway.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "will be several lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/will-be-several-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "southbound will have lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/southbound-will-have-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/pennsylvania-department.md",
             "resolution_method": "new_entity"
           },
           {
@@ -505,20 +1074,29 @@
         ],
         "relationships": [
           {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "CONFIRMED",
-            "verb": "confirmed"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
+            "from": "Pennsylvania",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
           },
           {
-            "from": "block of Dartmouth Street",
+            "from": "Lackawanna County",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "will be several lane",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "southbound will have lane",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Pennsylvania Department",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           },
           {
             "from": "WBRE",
@@ -531,7 +1109,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">block of</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONFIRMED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">will be </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -542,198 +1120,25 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Scranton Expressway": "../entities/people/scranton-expressway.md",
           "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "block of Dartmouth Street": "../entities/locations/block-of-dartmouth-street.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-03-29T01:19:05",
-      "url": "https://www.2822news.com/news/local-news/firefighters-battle-blaze-involving-three-structures/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "Hundreds protest in NEPA at No Kings rallies",
-      "title_distilled": "Hundreds protest in NEPA at No Kings rallies.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 People are mobilizing across the country on Saturday, including in northeastern and central Pennsylvania. They are gathering to protest the Trump administration for the third No Kings Protest. As 28/22 News Reporter Colby Hughes explains, the event brought hundreds of people together. Hundreds holding signs showed up at Lackawanna County [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 People are mobilizing across the country on Saturday, including in northeastern and central Pennsylvania. They are gathering to protest the Trump administration for the third No Kings Protest. As 28/22 News Reporter Colby Hughes explains, the event brought hundreds of people together. Hundreds holding signs showed up at Lackawanna County [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 People are mobilizing across the country on Saturday, including in northeastern and central Pennsylvania.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Kings Protest",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/kings-protest.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "News Reporter",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/news-reporter.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Colby Hughes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/colby-hughes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kings Pr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Kings Protest": "../entities/people/kings-protest.md",
-          "News Reporter": "../entities/people/news-reporter.md",
-          "Colby Hughes": "../entities/people/colby-hughes.md",
-          "SCRANTON": "../entities/locations/scranton.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "will be several lane": "../entities/locations/will-be-several-lane.md",
+          "southbound will have lane": "../entities/locations/southbound-will-have-lane.md",
+          "Pennsylvania Department": "../entities/organizations/pennsylvania-department.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-03-28T22:35:29",
-      "url": "https://www.2822news.com/news/local-news/hundreds-protest-in-nepa-at-no-kings-rallies/",
+      "publishedAt": "2026-03-29T16:52:26",
+      "url": "https://www.2822news.com/news/penndot-schedules-multiple-restrictions-for-i-81-i-80/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Interstate 476 to close for work in Lackawanna County",
-      "title_distilled": "Interstate 476 to close for work in Lackawanna County.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A section of Interstate 476 in Lackawanna County will close early Sunday morning for the demolition of toll facilities. Between 12:00 a.m. and 5:00 a.m. Sunday, I-476 north and south will be closed between Wyoming Valley (Exit 115) and Clarks Summit Interchange (Exit 131). Travelers will be prohibited from entering the [...]",
-      "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A section of Interstate 476 in Lackawanna County will close early Sunday morning for the demolition of toll facilities. Between 12:00 a.m. and 5:00 a.m. Sunday, I-476 north and south will be closed between Wyoming Valley (Exit 115) and Clarks Summit Interchange (Exit 131). Travelers will be prohibited from entering the [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 A section of Interstate 476 in Lackawanna County will close early Sunday morning for the demolition of toll facilities.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Wyoming Valley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/wyoming-valley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clarks Summit",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "and Clarks Summit",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/and-clarks-summit.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wyoming </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">and Clar</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Wyoming Valley": "../entities/people/wyoming-valley.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "and Clarks Summit": "../entities/events/and-clarks-summit.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-03-28T17:34:15",
-      "url": "https://www.2822news.com/news/interstate-476-to-close-for-work-in-lackawanna-county/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 1.0
     }
   ]
 }
