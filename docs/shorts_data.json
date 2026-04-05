@@ -1,12 +1,156 @@
 {
-  "generated_at": "2026-04-04T11:08:32.859032",
-  "source_file": "../data/daily/scranton_news_2026-04-04.json",
-  "total_shorts": 9,
-  "total_duration": 72,
+  "generated_at": "2026-04-05T11:08:55.331094",
+  "source_file": "../data/daily/scranton_news_2026-04-05.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Army Under Secretary Tours Scranton Army Ammunition Plant",
+      "title_distilled": "Army Under Secretary Tours Scranton Army Ammunition Plant.",
+      "description": "SCRANTON, Pa. \u2014 The Under Secretary of the Army, Honorable Michael Obadal, visited the Scranton Army Ammunition Plant on March 19. SCAAP is a government-owned, contractor-operated facility, and is one of 17 arsenals, depots, and ammunition plants that are sub\u2026",
+      "description_distilled": "",
+      "content": "SCRANTON, Pa. \u2014 The Under Secretary of the Army, Honorable Michael Obadal, visited the Scranton Army Ammunition Plant on March 19. SCAAP is a government-owned, contractor-operated facility, and is one of 17 arsenals, depots, and ammunition plants that are sub\u2026",
+      "content_distilled": "SCRANTON, Pa.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Army Under",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/army-under.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Secretary Tours",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/secretary-tours.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Army",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-army.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Ammunition Plant",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ammunition-plant.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Under",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-under.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Honorable Michael",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/honorable-michael.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Under",
+            "to": "Scranton Army",
+            "type": "VISITED",
+            "verb": "visited"
+          },
+          {
+            "from": "Honorable Michael",
+            "to": "Scranton Army",
+            "type": "VISITED",
+            "verb": "visited"
+          },
+          {
+            "from": "The Under",
+            "to": "Ammunition Plant",
+            "type": "VISITED",
+            "verb": "visited"
+          },
+          {
+            "from": "Honorable Michael",
+            "to": "Ammunition Plant",
+            "type": "VISITED",
+            "verb": "visited"
+          },
+          {
+            "from": "The Under",
+            "to": "Scranton",
+            "type": "VISITED",
+            "verb": "visited"
+          },
+          {
+            "from": "Honorable Michael",
+            "to": "Scranton",
+            "type": "VISITED",
+            "verb": "visited"
+          },
+          {
+            "from": "The Under",
+            "to": "Scranton Army",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Army Und</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Secretar</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ammuniti</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Unde</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Honorabl</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VISITED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Army Under": "../entities/people/army-under.md",
+          "Secretary Tours": "../entities/people/secretary-tours.md",
+          "Scranton Army": "../entities/people/scranton-army.md",
+          "Ammunition Plant": "../entities/people/ammunition-plant.md",
+          "The Under": "../entities/people/the-under.md",
+          "Honorable Michael": "../entities/people/honorable-michael.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Soldiersystems.net",
+      "publishedAt": "2026-04-04T00:00:00Z",
+      "url": "https://soldiersystems.net/2026/04/04/army-under-secretary-tours-scranton-army-ammunition-plant/",
+      "urlToImage": "https://soldiersystems.net/wp-content/uploads/2026/04/image-4.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "\u200b\u2018The Office US\u2019 cast: Where the Dunder Mifflin folks are now\u200b",
       "title_distilled": "\u200b\u2018The Office US\u2019 cast: Where the Dunder Mifflin folks are now\u200b.",
       "description": "Over ten years since the last episode, \u2018The Office US\u2019 is still one of the all-time favorites. This mockumentary about the oddball staff at Dunder Mifflin in Scranton, Pennsylvania, first hit screens in 2005 and stuck around for nine seasons, wrapping up in 2\u2026",
@@ -83,11 +227,11 @@
       "url": "https://timesofindia.indiatimes.com/web-series/news/english/the-office-us-cast-where-the-dunder-mifflin-folks-are-now/photostory/129334148.cms",
       "urlToImage": "https://static.toiimg.com/thumb/msid-129334175,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Is This PA Congressional Candidate Already Living the D.C. Insider Lifestyle?",
       "title_distilled": "Is This PA Congressional Candidate Already Living the D.",
       "description": "Paige Cognetti, the current mayor of Scranton, Pennsylvania, is running for Congress against incumbent Republican Rob Bresnahan. Like the rest of the midterm races, this seat is important and a must-win for Republicans. That's why people are questioning wheth\u2026",
@@ -178,11 +322,11 @@
       "url": "https://freerepublic.com/focus/f-news/4369467/posts",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "The AI boom has plunged a small Pennsylvania town into chaos",
       "title_distilled": "AI boom has plunged a small Pennsylvania town into chaos.",
       "description": "Data centers will swallow 14 percent of Archbald, evict a trailer park, and border many residential properties. Who's to blame is a matter of fierce debate.",
@@ -227,11 +371,11 @@
       "url": "https://grist.org/energy/the-ai-boom-has-plunged-a-small-pennsylvania-town-into-chaos/",
       "urlToImage": "https://grist.org/wp-content/uploads/2026/03/PowerlineCover-16x9-1.jpg?quality=75&strip=all",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "The Pennsylvania Town Facing a Data Center Boom",
       "title_distilled": "Pennsylvania Town Facing a Data Center Boom.",
       "description": "Archbald, Pennsylvania, a borough of fewer than 8,000 people, may soon be home to five massive data centers that, when completed, will rank among the largest in the world. While residents are worried that data centers will strain the electric grid and drive u\u2026",
@@ -300,11 +444,11 @@
       "url": "https://e360.yale.edu/digest/archbald-data-centers",
       "urlToImage": "https://yale-threesixty.transforms.svdcdn.com/production/Archbald_Archbald.jpg?w=1200&q=60&auto=format&fit=max&dm=1773756853&s=40226d0094b0c3d9d688dfaba0769dce",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns",
       "title_distilled": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns.",
       "description": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns SCRANTON, Pa., March 12, 2026 /PRNewswire/ \u2014 Greenlight Networks(\u201cGreenlight), a leading fiber-to-the-home provider, is set to accelerate the construction of its ultra-fast fiber \u2026",
@@ -364,98 +508,43 @@
       "url": "https://www.telecompetitor.com/greenlight-networks-announces-buildout-across-nine-northeast-pennsylvania-towns/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
-    },
-    {
-      "id": "short_5",
-      "title": "Bosak's in Olyphant draws crowds ahead of holiday",
-      "title_distilled": "Bosak's in Olyphant draws crowds ahead of holiday.",
-      "description": "Shoppers filled Bosak's Choice Meats, grabbing all the last-minute essentials ahead of Easter.",
-      "description_distilled": "",
-      "content": "Shoppers filled Bosak's Choice Meats, grabbing all the last-minute essentials ahead of Easter.",
-      "content_distilled": "Shoppers filled Bosak's Choice Meats, grabbing all the last-minute essentials ahead of Easter.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Choice Meats",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/choice-meats.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Choice M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Choice Meats": "../entities/people/choice-meats.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-04-03T19:39:46",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/bosaks-meats-draws-crowds-ahead-of-holiday-olyphant-lackawanna-county-tom-bosak/523-421db5c0-a4e8-432e-8376-4178635c2c68",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
       "animation_delay": 0.5
     },
     {
       "id": "short_6",
-      "title": "Artisan Hose Company\u2019s Fish Fry: A community tradition on Good Friday",
-      "title_distilled": "Artisan Hose Company\u2019s Fish Fry: A community tradition on Good Friday.",
-      "description": "One hose company in Lackawanna County delivers a community staple every Good Friday.",
+      "title": "Easter weekend draws early morning crowds to Lynn Sandy's Bakery in Scranton",
+      "title_distilled": "Easter weekend draws early morning crowds to Lynn Sandy's Bakery in Scranton.",
+      "description": "Lines formed early at Lynn Sandy's Bakery in Scranton, as locals upheld the Easter tradition of stocking up on their favorite baked goods.",
       "description_distilled": "",
-      "content": "One hose company in Lackawanna County delivers a community staple every Good Friday.",
-      "content_distilled": "One hose company in Lackawanna County delivers a community staple every Good Friday.",
+      "content": "Lines formed early at Lynn Sandy's Bakery in Scranton, as locals upheld the Easter tradition of stocking up on their favorite baked goods.",
+      "content_distilled": "Lines formed early at Lynn Sandy's Bakery in Scranton, as locals upheld the Easter tradition of stocking up on their favorite baked goods.",
       "graph": {
         "entities": [
           {
-            "name": "Artisan Hose",
+            "name": "Lynn Sandy",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/artisan-hose.md",
+            "file_path": "../entities/people/lynn-sandy.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Fish Fry",
+            "name": "Scranton Lines",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/fish-fry.md",
+            "file_path": "../entities/people/scranton-lines.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Good Friday",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/good-friday.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Artisan Hose Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/artisan-hose-company.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Artisan </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fish Fry</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Good Fri</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Artisan </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lynn San</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -466,16 +555,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Artisan Hose": "../entities/people/artisan-hose.md",
-          "Fish Fry": "../entities/people/fish-fry.md",
-          "Good Friday": "../entities/people/good-friday.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Artisan Hose Company": "../entities/organizations/artisan-hose-company.md"
+          "Lynn Sandy": "../entities/people/lynn-sandy.md",
+          "Scranton Lines": "../entities/people/scranton-lines.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-03T19:02:41",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/artisan-hose-companys-fish-fry-a-community-tradition-on-good-friday-lenten-food-chief-jerry-mcdermott-judy-graham/523-28088077-8cdd-475a-b8eb-e0b0ddee2d1b",
+      "publishedAt": "2026-04-05T03:36:27",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/easter-weekend-draws-early-morning-crowds-lynn-sandys-bakery-scranton-lackawanna-county/523-90c7dec2-400d-4793-bc02-1ec30c8938c0",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
@@ -483,33 +570,295 @@
     },
     {
       "id": "short_7",
-      "title": "Pizza shop opens years after owner's murder",
-      "title_distilled": "Pizza shop opens years after owner's murder.",
-      "description": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 What some people consider to be Old Forge's first and oldest pizza place is back in business. \"Old Forge has a lot of good places, a lot of good pizza places, but this is probably the best one,\" Richard Deorio of Pittston said. Bill Dessoye, also of Pittston, said, [...]",
+      "title": "Easter vigil held at St. Peter's Cathedral in Scranton",
+      "title_distilled": "Easter vigil held at St.",
+      "description": "Hundreds gathered at Scranton's St. Peter's Cathedral for a vigil mass, spreading hope as the Paschal candle was lit and Easter celebrations began.",
       "description_distilled": "",
-      "content": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 What some people consider to be Old Forge's first and oldest pizza place is back in business. \"Old Forge has a lot of good places, a lot of good pizza places, but this is probably the best one,\" Richard Deorio of Pittston said. Bill Dessoye, also of Pittston, said, [...]",
-      "content_distilled": "OLD FORGE, LACKAWANNA COUNTY  \u2014 What some people consider to be Old Forge's first and oldest pizza place is back in business.",
+      "content": "Hundreds gathered at Scranton's St. Peter's Cathedral for a vigil mass, spreading hope as the Paschal candle was lit and Easter celebrations began.",
+      "content_distilled": "Hundreds gathered at Scranton's St.",
       "graph": {
         "entities": [
           {
-            "name": "Old Forge",
+            "name": "Scranton Hundreds",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
+            "file_path": "../entities/people/scranton-hundreds.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Richard Deorio",
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton Hundreds",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Hundreds": "../entities/people/scranton-hundreds.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-05T03:24:20",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/easter-vigil-held-st-peters-cathedral-scranton-lackawanna-county/523-2f441634-114a-40f7-bc66-75a0b2309b9a",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Dunmore hosts annual egg hunt at Saint Anthony's Memorial Park",
+      "title_distilled": "Dunmore hosts annual egg hunt at Saint Anthony's Memorial Park.",
+      "description": "Around 2,000 eggs were spread across the park as children raced to get their share of the Easter candy.",
+      "description_distilled": "",
+      "content": "Around 2,000 eggs were spread across the park as children raced to get their share of the Easter candy.",
+      "content_distilled": "Around 2,000 eggs were spread across the park as children raced to get their share of the Easter candy.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Saint Anthony",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/richard-deorio.md",
+            "file_path": "../entities/people/saint-anthony.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Bill Dessoye",
+            "name": "Memorial Park",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bill-dessoye.md",
+            "file_path": "../entities/people/memorial-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "the park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/the-park.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint An</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Memorial</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">the park</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Saint Anthony": "../entities/people/saint-anthony.md",
+          "Memorial Park": "../entities/people/memorial-park.md",
+          "the park": "../entities/locations/the-park.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-04T23:27:52",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/dunmore-hosts-annual-egg-hunt-at-saint-anthonys-memorial-park-lackawanna-county/523-5587b335-352a-4987-9748-0f262808a948",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "PNC Field trades baseballs for Easter Eggs",
+      "title_distilled": "PNC Field trades baseballs for Easter Eggs.",
+      "description": "Newswatch 16's Valeria Qui\u00f1ones takes us to the first Champ's Free Easter Egg hunt hosted by Scranton/Wilkes-Barre RailRiders.",
+      "description_distilled": "",
+      "content": "Newswatch 16's Valeria Qui\u00f1ones takes us to the first Champ's Free Easter Egg hunt hosted by Scranton/Wilkes-Barre RailRiders.",
+      "content_distilled": "Newswatch 16's Valeria Qui\u00f1ones takes us to the first Champ's Free Easter Egg hunt hosted by Scranton/Wilkes-Barre RailRiders.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Easter Eggs",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/easter-eggs.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Free Easter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/free-easter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Easter E</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Free Eas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Easter Eggs": "../entities/people/easter-eggs.md",
+          "Free Easter": "../entities/people/free-easter.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-04T23:27:27",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pnc-field-trades-baseballs-for-easter-eggs-lackawanna-county/523-7d4b6392-3e49-4f03-a619-c226b3765bae",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Families frolick, hunt for Easter Eggs at playground",
+      "title_distilled": "Families frolick, hunt for Easter Eggs at playground.",
+      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Kids and families alike were frolicking around looking for eggs in an Easter Egg Hunt, this one at Saint Anthony's Playground in Dunmore. This is their ninth annual Egg Hunt, and there was no shortage of eggs to find. 2,000 eggs were hidden around for families to hunt and grab. [...]",
+      "description_distilled": "",
+      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Kids and families alike were frolicking around looking for eggs in an Easter Egg Hunt, this one at Saint Anthony's Playground in Dunmore. This is their ninth annual Egg Hunt, and there was no shortage of eggs to find. 2,000 eggs were hidden around for families to hunt and grab. [...]",
+      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 Kids and families alike were frolicking around looking for eggs in an Easter Egg Hunt, this one at Saint Anthony's Playground in Dunmore.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Easter Eggs",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/easter-eggs.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Easter Egg Hunt",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/easter-egg-hunt.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Saint Anthony",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/saint-anthony.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Egg Hunt",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/egg-hunt.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Egg Hunt",
+            "to": "Easter Eggs",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Easter Eggs",
+            "to": "Egg Hunt",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Easter E</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Easter E</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint An</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Egg Hunt</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Easter Eggs": "../entities/people/easter-eggs.md",
+          "Easter Egg Hunt": "../entities/people/easter-egg-hunt.md",
+          "Saint Anthony": "../entities/people/saint-anthony.md",
+          "Egg Hunt": "../entities/people/egg-hunt.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-05T03:18:46",
+      "url": "https://www.2822news.com/news/local-news/families-frolick-hunt-for-easter-eggs-at-playground/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Family owned buisness helps firefighters with burgers",
+      "title_distilled": "Family owned buisness helps firefighters with burgers.",
+      "description": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a tasty way to support a local fire company: Burgers, chicken, and fries top the menu at the Smash Hut Fundraiser. The Smash Hut is a family-owned business, and this is the first event held with the new owners. Hungry folks lined up as early as 11:00 a.m. [...]",
+      "description_distilled": "",
+      "content": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a tasty way to support a local fire company: Burgers, chicken, and fries top the menu at the Smash Hut Fundraiser. The Smash Hut is a family-owned business, and this is the first event held with the new owners. Hungry folks lined up as early as 11:00 a.m. [...]",
+      "content_distilled": "THROOP, LACKAWANNA COUNTY  \u2014 It was a tasty way to support a local fire company: Burgers, chicken, and fries top the menu at the Smash Hut Fundraiser.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Smash Hut Fundraiser",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/smash-hut-fundraiser.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Smash",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-smash.md",
             "resolution_method": "new_entity"
           },
           {
@@ -535,7 +884,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Richard </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bill Des</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Smash Hu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Smas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -546,51 +895,64 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Old Forge": "../entities/people/old-forge.md",
-          "Richard Deorio": "../entities/people/richard-deorio.md",
-          "Bill Dessoye": "../entities/people/bill-dessoye.md",
+          "Smash Hut Fundraiser": "../entities/people/smash-hut-fundraiser.md",
+          "The Smash": "../entities/people/the-smash.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-04T03:05:43",
-      "url": "https://www.2822news.com/news/pizza-shop-opens-years-after-owners-murder/",
+      "publishedAt": "2026-04-05T03:13:38",
+      "url": "https://www.2822news.com/news/local-news/family-owned-buisness-helps-firefighters-with-burgers/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_8",
-      "title": "Parishioners practice Easter weekend traditions",
-      "title_distilled": "Parishioners practice Easter weekend traditions.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Parishioners gathered Friday at the Cathedral of Saint Peter in Scranton to observe Good Friday, marking the crucifixion and death of Jesus Christ. The day was defined by silence and reflection as the community began its primary Easter weekend traditions. The service is considered one of the most holy days [...]",
+      "id": "short_12",
+      "title": "Shoppers supporting local businesses at Easter Market",
+      "title_distilled": "Shoppers supporting local businesses at Easter Market.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Saturday shoppers had a chance to pick up some fresh produce and easter gifts at an Easter Market in the Electric City on Saturday. The South Side Farmers Market was hosted by the United Neighborhood Centers of NEPA. Vendors were selling everything from candy, cookies, honey, and fresh bread. It's [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Parishioners gathered Friday at the Cathedral of Saint Peter in Scranton to observe Good Friday, marking the crucifixion and death of Jesus Christ. The day was defined by silence and reflection as the community began its primary Easter weekend traditions. The service is considered one of the most holy days [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Parishioners gathered Friday at the Cathedral of Saint Peter in Scranton to observe Good Friday, marking the crucifixion and death of Jesus Christ.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Saturday shoppers had a chance to pick up some fresh produce and easter gifts at an Easter Market in the Electric City on Saturday. The South Side Farmers Market was hosted by the United Neighborhood Centers of NEPA. Vendors were selling everything from candy, cookies, honey, and fresh bread. It's [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Saturday shoppers had a chance to pick up some fresh produce and easter gifts at an Easter Market in the Electric City on Saturday.",
       "graph": {
         "entities": [
           {
-            "name": "Saint Peter",
+            "name": "Easter Market",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/saint-peter.md",
+            "file_path": "../entities/people/easter-market.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Good Friday",
+            "name": "Electric City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/good-friday.md",
+            "file_path": "../entities/people/electric-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jesus Christ",
+            "name": "The South",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jesus-christ.md",
+            "file_path": "../entities/people/the-south.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Side Farmers",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/side-farmers.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "United Neighborhood",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/united-neighborhood.md",
             "resolution_method": "new_entity"
           },
           {
@@ -622,19 +984,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Good Friday",
-            "to": "Saint Peter",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Saint Peter",
-            "to": "SCRANTON",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Pe</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Good Fri</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jesus Ch</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Easter M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Sout</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Side Far</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">United N</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -645,9 +996,11 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Saint Peter": "../entities/people/saint-peter.md",
-          "Good Friday": "../entities/people/good-friday.md",
-          "Jesus Christ": "../entities/people/jesus-christ.md",
+          "Easter Market": "../entities/people/easter-market.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "The South": "../entities/people/the-south.md",
+          "Side Farmers": "../entities/people/side-farmers.md",
+          "United Neighborhood": "../entities/people/united-neighborhood.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
@@ -655,12 +1008,164 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-03T22:12:41",
-      "url": "https://www.2822news.com/news/parishioners-practice-easter-weekend-traditions/",
+      "publishedAt": "2026-04-04T23:17:37",
+      "url": "https://www.2822news.com/news/local-news/shoppers-supporting-local-businesses-at-easter-market/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Spring celebrations bring families together in Easter Egg Hunt",
+      "title_distilled": "Spring celebrations bring families together in Easter Egg Hunt.",
+      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Spring celebrations are bringing families together across our region. One local park turned into a sea of smiles as kids raced to grab some Easter fun. Hundreds of people filled Mercatili-Segilia Park in Moosic for an Easter Egg Hunt that brought the community together. Children lined up and rushed out [...]",
+      "description_distilled": "",
+      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Spring celebrations are bringing families together across our region. One local park turned into a sea of smiles as kids raced to grab some Easter fun. Hundreds of people filled Mercatili-Segilia Park in Moosic for an Easter Egg Hunt that brought the community together. Children lined up and rushed out [...]",
+      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 Spring celebrations are bringing families together across our region.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Easter Egg Hunt",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/easter-egg-hunt.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Segilia Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/segilia-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "local park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/local-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Segilia Park",
+            "to": "Easter Egg Hunt",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Easter E</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Segilia </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">local pa</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Easter Egg Hunt": "../entities/people/easter-egg-hunt.md",
+          "Segilia Park": "../entities/people/segilia-park.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "local park": "../entities/locations/local-park.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-04T23:01:36",
+      "url": "https://www.2822news.com/news/local-news/spring-celebrations-bring-families-together-in-easter-egg-hunt/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Anglers cast their lines as Trout Season kicks off in NEPA",
+      "title_distilled": "Anglers cast their lines as Trout Season kicks off in NEPA.",
+      "description": "KINGSTON TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 Trout Season began on Saturday, and anglers were quick to take advantage of the warmer weather. Lines are in the water as Trout Season gets underway across Pennsylvania. Fishermen of all ages are heading to lakes, rivers, and streams, all hoping to reel in a fresh catch. At Francis [...]",
+      "description_distilled": "",
+      "content": "KINGSTON TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 Trout Season began on Saturday, and anglers were quick to take advantage of the warmer weather. Lines are in the water as Trout Season gets underway across Pennsylvania. Fishermen of all ages are heading to lakes, rivers, and streams, all hoping to reel in a fresh catch. At Francis [...]",
+      "content_distilled": "KINGSTON TOWNSHIP, LUZERNE COUNTY  \u2014 Trout Season began on Saturday, and anglers were quick to take advantage of the warmer weather.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Trout Season",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trout-season.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trout Se</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Trout Season": "../entities/people/trout-season.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-04T22:53:18",
+      "url": "https://www.2822news.com/news/anglers-cast-their-lines-as-trout-season-kicks-off-in-nepa/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 1.0
     }
   ]
 }
