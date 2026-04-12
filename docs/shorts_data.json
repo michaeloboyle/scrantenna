@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-11T11:09:22.395131",
-  "source_file": "../data/daily/scranton_news_2026-04-11.json",
-  "total_shorts": 10,
-  "total_duration": 80,
+  "generated_at": "2026-04-12T11:12:26.791203",
+  "source_file": "../data/daily/scranton_news_2026-04-12.json",
+  "total_shorts": 12,
+  "total_duration": 96,
   "has_svo": false,
   "shorts": [
     {
@@ -151,87 +151,6 @@
     },
     {
       "id": "short_1",
-      "title": "\u200b\u2018The Office US\u2019 cast: Where the Dunder Mifflin folks are now\u200b",
-      "title_distilled": "\u200b\u2018The Office US\u2019 cast: Where the Dunder Mifflin folks are now\u200b.",
-      "description": "Over ten years since the last episode, \u2018The Office US\u2019 is still one of the all-time favorites. This mockumentary about the oddball staff at Dunder Mifflin in Scranton, Pennsylvania, first hit screens in 2005 and stuck around for nine seasons, wrapping up in 2\u2026",
-      "description_distilled": "",
-      "content": "Over ten years since the last episode, \u2018The Office US\u2019 is still one of the all-time favorites. This mockumentary about the oddball staff at Dunder Mifflin in Scranton, Pennsylvania, first hit screens in 2005 and stuck around for nine seasons, wrapping up in 2\u2026",
-      "content_distilled": "Over ten years since the last episode, \u2018The Office US\u2019 is still one of the all-time favorites.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Dunder Mifflin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dunder-mifflin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Office",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-office.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Dunder Mifflin",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "The Office",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunder M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Dunder Mifflin": "../entities/people/dunder-mifflin.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "The Office": "../entities/organizations/the-office.md"
-        }
-      },
-      "source": "The Times of India",
-      "publishedAt": "2026-03-09T13:01:39Z",
-      "url": "https://timesofindia.indiatimes.com/web-series/news/english/the-office-us-cast-where-the-dunder-mifflin-folks-are-now/photostory/129334148.cms",
-      "urlToImage": "https://static.toiimg.com/thumb/msid-129334175,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
-    },
-    {
-      "id": "short_2",
       "title": "Yankees\u2019 Triple-A RailRiders return to PNC Field after successful start on road",
       "title_distilled": "Yankees\u2019 Triple-A RailRiders return to PNC Field after successful start on road.",
       "description": "A look at some of the RailRiders\u2019 most memorable home openers.",
@@ -258,11 +177,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/182791/yankees-aaa-scranton-home-opener-railriders-pnc-field-return",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/rET2iRfo5FSQTlZizM7HEQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/2b735f2dcf9428ad25df7d2de487c987",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_3",
+      "id": "short_2",
       "title": "The AI boom has plunged a small Pennsylvania town into chaos",
       "title_distilled": "AI boom has plunged a small Pennsylvania town into chaos.",
       "description": "Data centers will swallow 14 percent of Archbald, evict a trailer park, and border many residential properties. Who's to blame is a matter of fierce debate.",
@@ -307,11 +226,11 @@
       "url": "https://grist.org/energy/the-ai-boom-has-plunged-a-small-pennsylvania-town-into-chaos/",
       "urlToImage": "https://grist.org/wp-content/uploads/2026/03/PowerlineCover-16x9-1.jpg?quality=75&strip=all",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_4",
+      "id": "short_3",
       "title": "The Pennsylvania Town Facing a Data Center Boom",
       "title_distilled": "Pennsylvania Town Facing a Data Center Boom.",
       "description": "Archbald, Pennsylvania, a borough of fewer than 8,000 people, may soon be home to five massive data centers that, when completed, will rank among the largest in the world. While residents are worried that data centers will strain the electric grid and drive u\u2026",
@@ -380,11 +299,11 @@
       "url": "https://e360.yale.edu/digest/archbald-data-centers",
       "urlToImage": "https://yale-threesixty.transforms.svdcdn.com/production/Archbald_Archbald.jpg?w=1200&q=60&auto=format&fit=max&dm=1773756853&s=40226d0094b0c3d9d688dfaba0769dce",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_5",
+      "id": "short_4",
       "title": "Democrat swing candidate called Biden's border handling 'a huge misstep' after backing his approach as mayor",
       "title_distilled": "Democrat swing candidate called Biden's border handling 'a huge misstep' after backing his approach as mayor.",
       "description": "Scranton Mayor Paige Cognetti, a Democratic House candidate, faced questions over her shift on Biden's southern border policies in a battleground House race.",
@@ -453,11 +372,11 @@
       "url": "https://www.foxnews.com/politics/democrat-swing-candidate-called-bidens-border-handling-a-huge-misstep-after-backing-his-approach-mayor",
       "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/04/paige-cognetti.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_6",
+      "id": "short_5",
       "title": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns",
       "title_distilled": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns.",
       "description": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns SCRANTON, Pa., March 12, 2026 /PRNewswire/ \u2014 Greenlight Networks(\u201cGreenlight), a leading fiber-to-the-home provider, is set to accelerate the construction of its ultra-fast fiber \u2026",
@@ -517,17 +436,17 @@
       "url": "https://www.telecompetitor.com/greenlight-networks-announces-buildout-across-nine-northeast-pennsylvania-towns/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_7",
-      "title": "Starry-eyed space enthusiasts watch Artemis return",
-      "title_distilled": "Starry-eyed space enthusiasts watch Artemis return.",
-      "description": "With the Artemis II crew returning back to Earth, space enthusiasts around Lackawanna County spent their day learning about and engaging with space exploration.",
+      "id": "short_6",
+      "title": "Fire leaves four people without a place to stay in Lackawanna County",
+      "title_distilled": "Fire leaves four people without a place to stay in Lackawanna County.",
+      "description": "The fire caused damage to the inside of the home. No one was hurt.",
       "description_distilled": "",
-      "content": "With the Artemis II crew returning back to Earth, space enthusiasts around Lackawanna County spent their day learning about and engaging with space exploration.",
-      "content_distilled": "With the Artemis II crew returning back to Earth, space enthusiasts around Lackawanna County spent their day learning about and engaging with space exploration.",
+      "content": "The fire caused damage to the inside of the home. No one was hurt.",
+      "content_distilled": "fire caused damage to the inside of the home.",
       "graph": {
         "entities": [
           {
@@ -554,8 +473,79 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-11T03:10:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/starry-eyed-space-enthusiasts-watch-artemis-return-lackawanna-county/523-58fb7c53-0e2b-4f9b-8ed1-900bbc68f6d6",
+      "publishedAt": "2026-04-12T03:07:14",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-leaves-four-people-without-place-stay-lackawanna-county/523-0f96205d-f646-442a-a00b-11ba8e327a91",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
+      "title": "Miner ingenuity on display at the Anthracite Heritage Museum in Scranton",
+      "title_distilled": "Miner ingenuity on display at the Anthracite Heritage Museum in Scranton.",
+      "description": "Mine Rescue Day at the Anthracite Heritage Museum lets folks step into the boots of a mine rescuer to see how they responded to danger and disasters.",
+      "description_distilled": "",
+      "content": "Mine Rescue Day at the Anthracite Heritage Museum lets folks step into the boots of a mine rescuer to see how they responded to danger and disasters.",
+      "content_distilled": "Mine Rescue Day at the Anthracite Heritage Museum lets folks step into the boots of a mine rescuer to see how they responded to danger and disasters.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Anthracite Heritage",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/anthracite-heritage.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Mine",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-mine.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Rescue Day",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rescue-day.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Anthracite Heritage",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Anthraci</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rescue D</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Anthracite Heritage": "../entities/people/anthracite-heritage.md",
+          "Scranton Mine": "../entities/people/scranton-mine.md",
+          "Rescue Day": "../entities/people/rescue-day.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-11T23:47:04",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/miner-ingenuity-on-display-at-the-anthracite-heritage-museum-scranton-lackawanna-county/523-bb53d049-193e-458e-b8b3-00df314f5dfb",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
@@ -563,54 +553,54 @@
     },
     {
       "id": "short_8",
-      "title": "Road reopens after sewer line, hole-caused closure",
-      "title_distilled": "Road reopens after sewer line, hole-caused closure.",
-      "description": "SCRANTON, LACKWANNA COUNTY (WBRE/WYOU) \u2014 A Scranton road is now reopened after being closed for a day after a hole opened in the road, caused by a sewer line break. North Main Avenue was closed between Providence Road and Green Ridge Street after a sewer line caused a hole to open in the road. According [...]",
+      "title": "Scranton Trolley Excursions starts season",
+      "title_distilled": "Scranton Trolley Excursions starts season.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Electric City got its name because it was the first in the nation to have electric-powered streetcars, and now it's that time of the year when you can ride one yourself. The Scranton Trolley Excursions started up this week for the season, and it's their first weekend of operation. [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKWANNA COUNTY (WBRE/WYOU) \u2014 A Scranton road is now reopened after being closed for a day after a hole opened in the road, caused by a sewer line break. North Main Avenue was closed between Providence Road and Green Ridge Street after a sewer line caused a hole to open in the road. According [...]",
-      "content_distilled": "SCRANTON, LACKWANNA COUNTY  \u2014 A Scranton road is now reopened after being closed for a day after a hole opened in the road, caused by a sewer line break.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Electric City got its name because it was the first in the nation to have electric-powered streetcars, and now it's that time of the year when you can ride one yourself. The Scranton Trolley Excursions started up this week for the season, and it's their first weekend of operation. [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The Electric City got its name because it was the first in the nation to have electric-powered streetcars, and now it's that time of the year when you can ride one yourself.",
       "graph": {
         "entities": [
           {
-            "name": "North Main",
+            "name": "Scranton Trolley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-main.md",
+            "file_path": "../entities/people/scranton-trolley.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Green Ridge",
+            "name": "The Electric",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/green-ridge.md",
+            "file_path": "../entities/people/the-electric.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "SCRANTON",
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Trolley Excursions",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trolley-excursions.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton road",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton-road.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Main Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/north-main-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "closed between Providence Road",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/closed-between-providence-road.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
@@ -630,19 +620,22 @@
         ],
         "relationships": [
           {
-            "from": "North Main",
-            "to": "Green Ridge",
-            "type": "CLOSED",
-            "verb": "closed"
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           },
           {
-            "from": "North Main Avenue",
-            "to": "Green Ridge",
-            "type": "CLOSED",
-            "verb": "closed"
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">closed b</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Elec</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trolley </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -653,19 +646,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "North Main": "../entities/people/north-main.md",
-          "Green Ridge": "../entities/people/green-ridge.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "Scranton road": "../entities/locations/scranton-road.md",
-          "North Main Avenue": "../entities/locations/north-main-avenue.md",
-          "closed between Providence Road": "../entities/locations/closed-between-providence-road.md",
+          "Scranton Trolley": "../entities/people/scranton-trolley.md",
+          "The Electric": "../entities/people/the-electric.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Trolley Excursions": "../entities/people/trolley-excursions.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-11T03:10:10",
-      "url": "https://www.2822news.com/news/road-reopens-after-sewer-line-hole-caused-closure/",
+      "publishedAt": "2026-04-11T22:45:01",
+      "url": "https://www.2822news.com/news/local-news/scranton-trolley-excursions-starts-season/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -673,54 +666,264 @@
     },
     {
       "id": "short_9",
-      "title": "Cause determined for Wayne County house fire",
-      "title_distilled": "Cause determined for Wayne County house fire.",
-      "description": "WAYMART, WAYNE COUNTY (WBRE/WYOU) \u2014 The state police fire marshal unit has determined the cause of a fire in Wayne County that damaged a home earlier this week. The Crystal Fire Company assisted Waymart Volunteer Fire Company at a house fire on West Carbondale Road in Waymart on April 6. Crews say a man was [...]",
+      "title": "Teens train together to achieve dreams",
+      "title_distilled": "Teens train together to achieve dreams.",
+      "description": "BLAKELY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A pair of teens is working to accomplish a running dream together, but they need your help to do so. Once a week, Dylan Henderson of Olyphant and Nate Buchinski from Dickson City get out to train for a marathon. They will be running the 2027 Disney Marathon with the [...]",
       "description_distilled": "",
-      "content": "WAYMART, WAYNE COUNTY (WBRE/WYOU) \u2014 The state police fire marshal unit has determined the cause of a fire in Wayne County that damaged a home earlier this week. The Crystal Fire Company assisted Waymart Volunteer Fire Company at a house fire on West Carbondale Road in Waymart on April 6. Crews say a man was [...]",
-      "content_distilled": "WAYMART, WAYNE COUNTY  \u2014 The state police fire marshal unit has determined the cause of a fire in Wayne County that damaged a home earlier this week.",
+      "content": "BLAKELY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A pair of teens is working to accomplish a running dream together, but they need your help to do so. Once a week, Dylan Henderson of Olyphant and Nate Buchinski from Dickson City get out to train for a marathon. They will be running the 2027 Disney Marathon with the [...]",
+      "content_distilled": "BLAKELY, LACKAWANNA COUNTY  \u2014 A pair of teens is working to accomplish a running dream together, but they need your help to do so.",
       "graph": {
         "entities": [
           {
-            "name": "The Crystal",
+            "name": "Dylan Henderson",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-crystal.md",
+            "file_path": "../entities/people/dylan-henderson.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Fire Company",
+            "name": "Nate Buchinski",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/fire-company.md",
+            "file_path": "../entities/people/nate-buchinski.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Waymart Volunteer",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/waymart-volunteer.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "West Carbondale",
+            "name": "Disney Marathon",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/west-carbondale.md",
+            "file_path": "../entities/people/disney-marathon.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Crystal Fire Company",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/the-crystal-fire-company.md",
+            "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Waymart Volunteer Fire Company",
+            "name": "WYOU",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/waymart-volunteer-fire-company.md",
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Dylan Henderson",
+            "to": "Dickson City",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dylan He</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nate Buc</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Disney M</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dylan Henderson": "../entities/people/dylan-henderson.md",
+          "Nate Buchinski": "../entities/people/nate-buchinski.md",
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Disney Marathon": "../entities/people/disney-marathon.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-11T22:39:58",
+      "url": "https://www.2822news.com/news/local-news/teens-train-together-to-achieve-dreams/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Scranton police announce road closures ahead of race",
+      "title_distilled": "Scranton police announce road closures ahead of race.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Travelers should expect some traffic delays in Scranton on Sunday for the race. Certain roads will be closed and restricted in Green Ridge, Pine Brook, Center City, Cedar Avenue, North Washington Avenue, and near Scranton High. Heavy pedestrian traffic is expected on some roads, and vehicles will be prohibited.",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Travelers should expect some traffic delays in Scranton on Sunday for the race. Certain roads will be closed and restricted in Green Ridge, Pine Brook, Center City, Cedar Avenue, North Washington Avenue, and near Scranton High. Heavy pedestrian traffic is expected on some roads, and vehicles will be prohibited.",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Travelers should expect some traffic delays in Scranton on Sunday for the race.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Green Ridge",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/green-ridge.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pine Brook",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pine-brook.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Center City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/center-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Cedar Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cedar-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "North Washington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/north-washington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton High",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-high.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton police announce road",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton-police-announce-road.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "North Washington Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/north-washington-avenue.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Scranton police announce road",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "North Washington Avenue",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pine Bro</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Center C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cedar Av</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Green Ridge": "../entities/people/green-ridge.md",
+          "Pine Brook": "../entities/people/pine-brook.md",
+          "Center City": "../entities/people/center-city.md",
+          "Cedar Avenue": "../entities/people/cedar-avenue.md",
+          "North Washington": "../entities/people/north-washington.md",
+          "Scranton High": "../entities/people/scranton-high.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Scranton police announce road": "../entities/locations/scranton-police-announce-road.md",
+          "North Washington Avenue": "../entities/locations/north-washington-avenue.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-11T22:32:35",
+      "url": "https://www.2822news.com/traffic/scranton-police-announce-road-closures-ahead-of-race/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "5K, Kids' Fun Run kicks off in Electric City",
+      "title_distilled": "5K, Kids' Fun Run kicks off in Electric City.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Thousands of people from all over the country and the world are gearing up for one of the biggest races in the Electric City. Sunday is the Scranton half-marathon, but before the big race, there was a small start to the weekend events on Saturday. Hundreds of runners pounded the [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Thousands of people from all over the country and the world are gearing up for one of the biggest races in the Electric City. Sunday is the Scranton half-marathon, but before the big race, there was a small start to the weekend events on Saturday. Hundreds of runners pounded the [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Thousands of people from all over the country and the world are gearing up for one of the biggest races in the Electric City.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Fun Run",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fun-run.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Electric City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/electric-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
@@ -739,7 +942,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Crys</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fire Com</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Waymart </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Car</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Crys</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Waymart </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fun Run</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -750,23 +953,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Crystal": "../entities/people/the-crystal.md",
-          "Fire Company": "../entities/people/fire-company.md",
-          "Waymart Volunteer": "../entities/people/waymart-volunteer.md",
-          "West Carbondale": "../entities/people/west-carbondale.md",
-          "The Crystal Fire Company": "../entities/organizations/the-crystal-fire-company.md",
-          "Waymart Volunteer Fire Company": "../entities/organizations/waymart-volunteer-fire-company.md",
+          "Fun Run": "../entities/people/fun-run.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-10T15:38:44",
-      "url": "https://www.2822news.com/news/caused-released-for-fire-that-damaged-house/",
+      "publishedAt": "2026-04-11T22:26:15",
+      "url": "https://www.2822news.com/news/local-news/5k-kids-fun-run-kicks-off-in-electric-city/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
     }
   ]
 }
