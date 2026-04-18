@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-17T11:19:25.361029",
-  "source_file": "../data/daily/scranton_news_2026-04-17.json",
-  "total_shorts": 11,
-  "total_duration": 88,
+  "generated_at": "2026-04-18T11:13:43.800190",
+  "source_file": "../data/daily/scranton_news_2026-04-18.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -408,19 +408,785 @@
     },
     {
       "id": "short_6",
-      "title": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns",
-      "title_distilled": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns.",
-      "description": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns SCRANTON, Pa., March 12, 2026 /PRNewswire/ \u2014 Greenlight Networks(\u201cGreenlight), a leading fiber-to-the-home provider, is set to accelerate the construction of its ultra-fast fiber \u2026",
+      "title": "Nanticoke Area Little League celebrates 75 years of baseball",
+      "title_distilled": "Nanticoke Area Little League celebrates 75 years of baseball.",
+      "description": "Starting just 12 years after Little League was founded in Williamsport, the Nanticoke Area Little League is one of the oldest leagues in Northeastern Pennsylvania.",
       "description_distilled": "",
-      "content": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns SCRANTON, Pa., March 12, 2026 /PRNewswire/ \u2014 Greenlight Networks(\u201cGreenlight), a leading fiber-to-the-home provider, is set to accelerate the construction of its ultra-fast fiber \u2026",
-      "content_distilled": "Greenlight Networks announces buildout across nine northeast Pennsylvania towns SCRANTON, Pa.",
+      "content": "Starting just 12 years after Little League was founded in Williamsport, the Nanticoke Area Little League is one of the oldest leagues in Northeastern Pennsylvania.",
+      "content_distilled": "Starting just 12 years after Little League was founded in Williamsport, the Nanticoke Area Little League is one of the oldest leagues in Northeastern Pennsylvania.",
       "graph": {
         "entities": [
           {
-            "name": "Greenlight Networks",
+            "name": "Nanticoke Area",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/greenlight-networks.md",
+            "file_path": "../entities/people/nanticoke-area.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Little League",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/little-league.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Nanticoke Area",
+            "to": "Little League",
+            "type": "FOUNDED",
+            "verb": "founded"
+          },
+          {
+            "from": "Nanticoke Area",
+            "to": "Northeastern Pennsylvania",
+            "type": "FOUNDED",
+            "verb": "founded"
+          },
+          {
+            "from": "Nanticoke Area",
+            "to": "Pennsylvania",
+            "type": "FOUNDED",
+            "verb": "founded"
+          },
+          {
+            "from": "Little League",
+            "to": "Northeastern Pennsylvania",
+            "type": "FOUNDED",
+            "verb": "founded"
+          },
+          {
+            "from": "Little League",
+            "to": "Pennsylvania",
+            "type": "FOUNDED",
+            "verb": "founded"
+          },
+          {
+            "from": "Nanticoke Area",
+            "to": "Little League",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nanticok</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Little L</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">FOUNDED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">FOUNDED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">FOUNDED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">FOUNDED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">FOUNDED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Nanticoke Area": "../entities/people/nanticoke-area.md",
+          "Little League": "../entities/people/little-league.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-18T03:12:59",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/nanticoke-area-little-league-celebrates-75-years-of-baseball-luzerne-county/523-5b0e2a84-bd79-4fb1-8f1a-680dcba7c4b0",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
+      "title": "Postal worker faces terroristic threats, harassment charges in Lackawanna County",
+      "title_distilled": "Postal worker faces terroristic threats, harassment charges in Lackawanna County.",
+      "description": "John Lepka faces charges after police say he threatened his supervisor at the post office on South Main Street in Taylor.",
+      "description_distilled": "",
+      "content": "John Lepka faces charges after police say he threatened his supervisor at the post office on South Main Street in Taylor.",
+      "content_distilled": "John Lepka faces charges after police say he threatened his supervisor at the post office on South Main Street in Taylor.",
+      "graph": {
+        "entities": [
+          {
+            "name": "John Lepka",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/john-lepka.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "South Main",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/south-main.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Lep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ma</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "John Lepka": "../entities/people/john-lepka.md",
+          "South Main": "../entities/people/south-main.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-17T22:03:07",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/postal-worker-faces-terroristic-threats-harassment-charges-in-lackawanna-county-taylor-scranton/523-ca8f4b1b-3c5e-48d3-bb3d-0cb8e31b7258",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Johnson College hosts recycling event in Scranton",
+      "title_distilled": "Johnson College hosts recycling event in Scranton.",
+      "description": "Some students in Scranton showed Newswatch 16 how they can put those old appliances to good use.",
+      "description_distilled": "",
+      "content": "Some students in Scranton showed Newswatch 16 how they can put those old appliances to good use.",
+      "content_distilled": "Some students in Scranton showed Newswatch 16 how they can put those old appliances to good use.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Johnson College",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/johnson-college.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Some",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-some.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Johnson College",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Johnson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Johnson College": "../entities/people/johnson-college.md",
+          "Scranton Some": "../entities/people/scranton-some.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-17T20:14:55",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/johnson-college-hosts-recycling-event-in-scranton-hvac-students-refrigerant-chemicals-environmental-safety/523-ada604d7-79a0-409d-8eb9-2f50ed2ff0b3",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Housing affordability puts Lackawanna County at 'inflection point,' report finds",
+      "title_distilled": "Housing affordability puts Lackawanna County at 'inflection point,' report finds.",
+      "description": "Draft report from Wilkes-Barre think tank that Lackawanna County faces a housing crisis as costs outpace incomes.",
+      "description_distilled": "",
+      "content": "Draft report from Wilkes-Barre think tank that Lackawanna County faces a housing crisis as costs outpace incomes.",
+      "content_distilled": "Draft report from Wilkes-Barre think tank that Lackawanna County faces a housing crisis as costs outpace incomes.",
+      "graph": {
+        "entities": [
+          {
+            "name": "inflection point,",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/inflection-point.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">inflecti</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "inflection point,": "../entities/works/movies/inflection-point.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-17T19:07:15",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/housing-affordability-lackawanna-county-report-institute-for-public-policy-and-economic-development/523-27df25e6-0c82-423f-b441-bcec2f75d2dd",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Joint operation leads to drug, gun seizures, arrest",
+      "title_distilled": "Joint operation leads to drug, gun seizures, arrest.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A multi-week narcotics investigation in Lackawanna County resulted in the seizure of several illegal drugs and guns. The joint operation was between the District Attorney's Office Narcotics unit, the Scranton Police Street Crimes unit, the Pennsylvania State Police Vice Unit, and the US Marshals Fugitive Task Force. The operation revealed more [...]",
+      "description_distilled": "",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A multi-week narcotics investigation in Lackawanna County resulted in the seizure of several illegal drugs and guns. The joint operation was between the District Attorney's Office Narcotics unit, the Scranton Police Street Crimes unit, the Pennsylvania State Police Vice Unit, and the US Marshals Fugitive Task Force. The operation revealed more [...]",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 A multi-week narcotics investigation in Lackawanna County resulted in the seizure of several illegal drugs and guns.",
+      "graph": {
+        "entities": [
+          {
+            "name": "District Attorney",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/district-attorney.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Police",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-police.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania State",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-state.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Police Vice",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/police-vice.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Marshals Fugitive",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/marshals-fugitive.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Task Force",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/task-force.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">District</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Police V</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marshals</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Task For</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "District Attorney": "../entities/people/district-attorney.md",
+          "Scranton Police": "../entities/people/scranton-police.md",
+          "Pennsylvania State": "../entities/people/pennsylvania-state.md",
+          "Police Vice": "../entities/people/police-vice.md",
+          "Marshals Fugitive": "../entities/people/marshals-fugitive.md",
+          "Task Force": "../entities/people/task-force.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-18T03:18:36",
+      "url": "https://www.2822news.com/news/joint-operation-leads-to-drug-gun-seizures-arrest/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Refrigerant recycling event helps get rid of appliances",
+      "title_distilled": "Refrigerant recycling event helps get rid of appliances.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 People across Lackawanna County are doing their part to protect the environment, one appliance at a time. Johnson College is hosting a two-day \"Refrigerant Recycling Event.\" The event gives the community a free and easy way to safely dispose of items like refrigerators, air conditioners, and dehumidifiers. Cars lined up [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 People across Lackawanna County are doing their part to protect the environment, one appliance at a time. Johnson College is hosting a two-day \"Refrigerant Recycling Event.\" The event gives the community a free and easy way to safely dispose of items like refrigerators, air conditioners, and dehumidifiers. Cars lined up [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 People across Lackawanna County are doing their part to protect the environment, one appliance at a time.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Refrigerant Recycling Event.",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/refrigerant-recycling-event.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Johnson College",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/johnson-college.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Refrigerant Recycling",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/refrigerant-recycling.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Refrigerant Recycling",
+            "to": "SCRANTON",
+            "type": "HELPS",
+            "verb": "helps"
+          },
+          {
+            "from": "Refrigerant Recycling",
+            "to": "LACKAWANNA COUNTY",
+            "type": "HELPS",
+            "verb": "helps"
+          },
+          {
+            "from": "Refrigerant Recycling",
+            "to": "WBRE",
+            "type": "HELPS",
+            "verb": "helps"
+          },
+          {
+            "from": "Refrigerant Recycling",
+            "to": "WYOU",
+            "type": "HELPS",
+            "verb": "helps"
+          },
+          {
+            "from": "Refrigerant Recycling",
+            "to": "SCRANTON",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Refriger</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Johnson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Refriger</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HELPS</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HELPS</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HELPS</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Refrigerant Recycling Event.": "../entities/works/movies/refrigerant-recycling-event.md",
+          "Johnson College": "../entities/people/johnson-college.md",
+          "Refrigerant Recycling": "../entities/people/refrigerant-recycling.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-18T02:29:31",
+      "url": "https://www.2822news.com/news/refrigerant-recycling-event-helps-get-rid-of-appliances/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Officials urging safety at gorge ahead of summer months",
+      "title_distilled": "Officials urging safety at gorge ahead of summer months.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 First responders are urging caution for visitors to Nay Aug Gorge in Scranton as summer approaches. The scenic spot has a history of trespassing and poses significant dangers to those who venture off designated trails. The Scranton Fire Department responds to three to five rescue calls at Nay Aug Gorge [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 First responders are urging caution for visitors to Nay Aug Gorge in Scranton as summer approaches. The scenic spot has a history of trespassing and poses significant dangers to those who venture off designated trails. The Scranton Fire Department responds to three to five rescue calls at Nay Aug Gorge [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 First responders are urging caution for visitors to Nay Aug Gorge in Scranton as summer approaches.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Nay Aug Gorge",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nay-aug-gorge.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton Fire Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/the-scranton-fire-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Nay Aug Gorge",
+            "to": "The Scranton Fire Department",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Nay Aug Gorge",
+            "to": "The Scranton Fire Department",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Nay Aug Gorge": "../entities/people/nay-aug-gorge.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "The Scranton Fire Department": "../entities/organizations/the-scranton-fire-department.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-17T23:06:43",
+      "url": "https://www.2822news.com/news/officials-urging-safety-at-gorge-ahead-of-summer-months/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Man accused of threatening supervisor at post office",
+      "title_distilled": "Man accused of threatening supervisor at post office.",
+      "description": "TAYLOR BOROUGH, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A post office employee was arrested Friday after Scranton police say he threatened his supervisor. John Lepka of Lake Aerial, 39, was arrested and ch...",
+      "description_distilled": "",
+      "content": "TAYLOR BOROUGH, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A post office employee was arrested Friday after Scranton police say he threatened his supervisor. John Lepka of Lake Aerial, 39, was arrested and ch...",
+      "content_distilled": "TAYLOR BOROUGH, LACKAWANNA COUNTY  \u2014 A post office employee was arrested Friday after Scranton police say he threatened his supervisor.",
+      "graph": {
+        "entities": [
+          {
+            "name": "packing.",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/packing.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "John Lepka",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/john-lepka.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lake Aerial",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lake-aerial.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "of Lake",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/of-lake.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "ARRESTED",
+            "verb": "arrested"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "ARRESTED",
+            "verb": "arrested"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "ARRESTED",
+            "verb": "arrested"
+          },
+          {
+            "from": "John Lepka",
+            "to": "Lake Aerial",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "of Lake",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">packing.</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Lep</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lake Aer</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">of Lake</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRESTED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "packing.": "../entities/works/movies/packing.md",
+          "John Lepka": "../entities/people/john-lepka.md",
+          "Lake Aerial": "../entities/people/lake-aerial.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "of Lake": "../entities/locations/of-lake.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-17T22:29:21",
+      "url": "https://www.2822news.com/uncategorized/man-accused-of-threatening-supervisor-at-post-office/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Tattoo convention back in Lackawanna County",
+      "title_distilled": "Tattoo convention back in Lackawanna County.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Artists far and wide will join in Scranton, starting on Friday, to showcase a permanent art style\u2026 Tattoos \"We want to bring exceptional tattooing to Scranton, Pennsylvania. So that's why we bring in artists from California and North Carolina and just bring in the best tattooers we can.\" The Electric [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Artists far and wide will join in Scranton, starting on Friday, to showcase a permanent art style\u2026 Tattoos \"We want to bring exceptional tattooing to Scranton, Pennsylvania. So that's why we bring in artists from California and North Carolina and just bring in the best tattooers we can.\" The Electric [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Artists far and wide will join in Scranton, starting on Friday, to showcase a permanent art style\u2026 Tattoos \"We want to bring exceptional tattooing to Scranton, Pennsylvania.",
+      "graph": {
+        "entities": [
+          {
+            "name": "North Carolina",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/north-carolina.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Electric",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-electric.md",
             "resolution_method": "new_entity"
           },
           {
@@ -438,111 +1204,6 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greenlig</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Greenlight Networks": "../entities/people/greenlight-networks.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Telecompetitor",
-      "publishedAt": "2026-03-16T18:52:24Z",
-      "url": "https://www.telecompetitor.com/greenlight-networks-announces-buildout-across-nine-northeast-pennsylvania-towns/",
-      "urlToImage": null,
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
-    },
-    {
-      "id": "short_7",
-      "title": "More than a dozen bumpy roads set for smooth transformation with $2.5M paving project in Scranton",
-      "title_distilled": "More than a dozen bumpy roads set for smooth transformation with $2.",
-      "description": "The city of Scranton is working to make a smoother ride out on the roads, officially opening its bids for the 2026 paving project.",
-      "description_distilled": "",
-      "content": "The city of Scranton is working to make a smoother ride out on the roads, officially opening its bids for the 2026 paving project.",
-      "content_distilled": "city of Scranton is working to make a smoother ride out on the roads, officially opening its bids for the 2026 paving project.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton The",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-the.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Scranton The",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton The": "../entities/people/scranton-the.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-04-16T20:12:03",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/more-than-a-dozen-bumpy-roads-set-for-smooth-transformation-with-25m-paving-project-in-scranton-lackawanna-county/523-355deed0-3a9b-4f06-a17b-597c9dc1faae",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "Crash closed highway in Lackawanna County",
-      "title_distilled": "Crash closed highway in Lackawanna County.",
-      "description": "Three vehicles collided on the Casey Highway Thursday morning.",
-      "description_distilled": "",
-      "content": "Three vehicles collided on the Casey Highway Thursday morning.",
-      "content_distilled": "Three vehicles collided on the Casey Highway Thursday morning.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Casey Highway",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/casey-highway.md",
-            "resolution_method": "new_entity"
-          },
-          {
             "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
@@ -550,15 +1211,22 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Crash closed highway",
-            "type": "LOCATION",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/crash-closed-highway.md",
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Casey Hi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crash cl</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ca</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Elec</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -569,210 +1237,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Casey Highway": "../entities/people/casey-highway.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Crash closed highway": "../entities/locations/crash-closed-highway.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-04-16T12:29:05",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/crash-closed-highway-in-lackawanna-county-pickup-suv-boxtruck-state-police-penndot/523-a848f8d2-dbcf-4127-9d38-f55f00cb1a86",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Drivers sent to hospital after three vehicle crash",
-      "title_distilled": "Drivers sent to hospital after three vehicle crash.",
-      "description": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A three-car crash on Casey Highway Route 6 has sent two drivers to the hospital. Around 6:30 a.m., crews were called to a crash on Route 6 Casey Highway in Throop. Captain Vincent Cesari from the Throop Fire Department tells 28/22 News that there was a three-vehicle crash in which [...]",
-      "description_distilled": "",
-      "content": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A three-car crash on Casey Highway Route 6 has sent two drivers to the hospital. Around 6:30 a.m., crews were called to a crash on Route 6 Casey Highway in Throop. Captain Vincent Cesari from the Throop Fire Department tells 28/22 News that there was a three-vehicle crash in which [...]",
-      "content_distilled": "THROOP, LACKAWANNA COUNTY  \u2014 A three-car crash on Casey Highway Route 6 has sent two drivers to the hospital.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Casey Highway",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/casey-highway.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Captain Vincent",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/captain-vincent.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Throop Fire",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/throop-fire.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Throop Fire Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/throop-fire-department.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Captain Vincent",
-            "to": "Throop Fire",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Casey Hi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Captain </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Throop F</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Throop F</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Casey Highway": "../entities/people/casey-highway.md",
-          "Captain Vincent": "../entities/people/captain-vincent.md",
-          "Throop Fire": "../entities/people/throop-fire.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Throop Fire Department": "../entities/organizations/throop-fire-department.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-04-16T16:32:24",
-      "url": "https://www.2822news.com/news/drivers-sent-to-hospital-after-three-vehicle-crash/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Nearly 2,000 without power in NEPA after last night's storm",
-      "title_distilled": "Nearly 2,000 without power in NEPA after last night's storm.",
-      "description": "(WBRE/WYOU) \u2014 Nearly 2,000 PPL customers are without power due to Wednesday night's storm that went through Northeastern Pennsylvania. Pictured below is the PPL power outages map. The current outages are impacting areas in Lackawanna, Wayne, Lycoming, and Pike Counties Many customers are experiencing outages due to a tripped breaker or a blown fuse, and [...]",
-      "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 Nearly 2,000 PPL customers are without power due to Wednesday night's storm that went through Northeastern Pennsylvania. Pictured below is the PPL power outages map. The current outages are impacting areas in Lackawanna, Wayne, Lycoming, and Pike Counties Many customers are experiencing outages due to a tripped breaker or a blown fuse, and [...]",
-      "content_distilled": " \u2014 Nearly 2,000 PPL customers are without power due to Wednesday night's storm that went through Northeastern Pennsylvania.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pike Counties",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pike-counties.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "WBRE",
-            "to": "Northeastern Pennsylvania",
-            "type": "WENT",
-            "verb": "went"
-          },
-          {
-            "from": "WYOU",
-            "to": "Northeastern Pennsylvania",
-            "type": "WENT",
-            "verb": "went"
-          },
-          {
-            "from": "WBRE",
-            "to": "Pennsylvania",
-            "type": "WENT",
-            "verb": "went"
-          },
-          {
-            "from": "WYOU",
-            "to": "Pennsylvania",
-            "type": "WENT",
-            "verb": "went"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pike Cou</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WENT</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WENT</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WENT</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Pike Counties": "../entities/people/pike-counties.md",
+          "North Carolina": "../entities/people/north-carolina.md",
+          "The Electric": "../entities/people/the-electric.md",
+          "SCRANTON": "../entities/locations/scranton.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-16T12:18:47",
-      "url": "https://www.2822news.com/news/nearly-2000-without-power-in-nepa-after-last-nights-storm/",
+      "publishedAt": "2026-04-17T18:54:56",
+      "url": "https://www.2822news.com/news/tattoo-convention-back-in-lackawanna-county/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
