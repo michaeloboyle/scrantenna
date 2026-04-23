@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-22T11:25:17.981498",
-  "source_file": "../data/daily/scranton_news_2026-04-22.json",
-  "total_shorts": 10,
-  "total_duration": 80,
+  "generated_at": "2026-04-23T11:25:47.158660",
+  "source_file": "../data/daily/scranton_news_2026-04-23.json",
+  "total_shorts": 12,
+  "total_duration": 96,
   "has_svo": false,
   "shorts": [
     {
@@ -286,38 +286,44 @@
     },
     {
       "id": "short_4",
-      "title": "Downtown Carbondale comes alive with food, music, and late-night shopping on 'Second Saturdays'",
-      "title_distilled": "Downtown Carbondale comes alive with food, music, and late-night shopping on 'Second Saturdays'.",
-      "description": "Discover Carbondale's vibrant local scene with \"Second Saturdays,\" a monthly event featuring open shops, food trucks, and live music from May to October.",
+      "title": "Fans gather in Scranton for 'The Office' 5K race",
+      "title_distilled": "Fans gather in Scranton for 'The Office' 5K race.",
+      "description": "Celebrate The Office with a fan takeover in Scranton's iconic sites at the Office 5K, supporting Valley in Motion.",
       "description_distilled": "",
-      "content": "Discover Carbondale's vibrant local scene with \"Second Saturdays,\" a monthly event featuring open shops, food trucks, and live music from May to October.",
-      "content_distilled": "Discover Carbondale's vibrant local scene with \"Second Saturdays,\" a monthly event featuring open shops, food trucks, and live music from May to October.",
+      "content": "Celebrate The Office with a fan takeover in Scranton's iconic sites at the Office 5K, supporting Valley in Motion.",
+      "content_distilled": "Celebrate The Office with a fan takeover in Scranton's iconic sites at the Office 5K, supporting Valley in Motion.",
       "graph": {
         "entities": [
           {
-            "name": "Second Saturdays",
+            "name": "The Office",
             "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/second-saturdays.md",
+            "file_path": "../entities/works/movies/the-office.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Downtown Carbondale",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/downtown-carbondale.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Discover Carbondale",
-            "type": "PERSON",
+            "name": "Celebrate The Office",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/discover-carbondale.md",
+            "file_path": "../entities/organizations/celebrate-the-office.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Second S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Discover</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Celebrate The Office",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Celebrat</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -328,14 +334,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Second Saturdays": "../entities/works/movies/second-saturdays.md",
-          "Downtown Carbondale": "../entities/people/downtown-carbondale.md",
-          "Discover Carbondale": "../entities/people/discover-carbondale.md"
+          "The Office": "../entities/works/movies/the-office.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Celebrate The Office": "../entities/organizations/celebrate-the-office.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-22T10:30:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/downtown-carbondale-comes-alive-with-food-music-and-late-night-shopping-on-second-saturdays-lackawanna-county/523-23514852-b9e1-4f4b-af51-f493f82ed1c1",
+      "publishedAt": "2026-04-23T10:42:41",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fans-gather-scranton-for-the-office-5k-race-lackawanna-county-electric-dwight-nikki-krize-coopers-penn-pater/523-b4abc0c7-f7c8-48d6-a21b-4d5169376f69",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
@@ -343,12 +349,12 @@
     },
     {
       "id": "short_5",
-      "title": "Data center opponents question PPL transmission project in Lackawanna County",
-      "title_distilled": "Data center opponents question PPL transmission project in Lackawanna County.",
-      "description": "PPL is looking to build a substation and miles of new power lines in the same borough, which is seeing an influx of data center development.",
+      "title": "Overcoming odds and conquering pancreatic cancer",
+      "title_distilled": "Overcoming odds and conquering pancreatic cancer.",
+      "description": "A woman from Lackawanna County was diagnosed with pancreatic cancer two years ago. She's defying odds and encouraging others along the way.",
       "description_distilled": "",
-      "content": "PPL is looking to build a substation and miles of new power lines in the same borough, which is seeing an influx of data center development.",
-      "content_distilled": "PPL is looking to build a substation and miles of new power lines in the same borough, which is seeing an influx of data center development.",
+      "content": "A woman from Lackawanna County was diagnosed with pancreatic cancer two years ago. She's defying odds and encouraging others along the way.",
+      "content_distilled": "woman from Lackawanna County was diagnosed with pancreatic cancer two years ago.",
       "graph": {
         "entities": [
           {
@@ -375,8 +381,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-22T01:53:51",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/data-center-opponents-question-ppl-transmission-project-lackawanna-county-archbald-jefferson-township-jessup-olyphant/523-d36cb005-8c1d-40bf-80a6-531a684e54d3",
+      "publishedAt": "2026-04-23T08:48:42",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/overcoming-odds-and-conquering-pancreatic-cancer-purple-strides-scranton-nay-aug-mindi-ramsey/523-1157f0fb-814c-4d39-b890-bca806d1fa0b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
@@ -384,40 +390,242 @@
     },
     {
       "id": "short_6",
-      "title": "Charges filed after over 10k tires piled illegally",
-      "title_distilled": "Charges filed after over 10k tires piled illegally.",
-      "description": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 10,000 tires were piled illegally on a Carbondale property, and on Tuesday, the man accused of putting them there is facing charges. The State Attorney General charged Joseph Brennan of Fell Township with five counts of unlawful conduct on Tuesday. Investigators say he ran an unregistered tire business [...]",
+      "title": "Storytelling event at Marywood University highlights community building",
+      "title_distilled": "Storytelling event at Marywood University highlights community building.",
+      "description": "The African Sisters Education Collaborative's storytelling event highlighted inspiring narratives of building community and fostering connection.",
       "description_distilled": "",
-      "content": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 10,000 tires were piled illegally on a Carbondale property, and on Tuesday, the man accused of putting them there is facing charges. The State Attorney General charged Joseph Brennan of Fell Township with five counts of unlawful conduct on Tuesday. Investigators say he ran an unregistered tire business [...]",
-      "content_distilled": "CARBONDALE, LACKAWANNA COUNTY  \u2014 More than 10,000 tires were piled illegally on a Carbondale property, and on Tuesday, the man accused of putting them there is facing charges.",
+      "content": "The African Sisters Education Collaborative's storytelling event highlighted inspiring narratives of building community and fostering connection.",
+      "content_distilled": "African Sisters Education Collaborative's storytelling event highlighted inspiring narratives of building community and fostering connection.",
       "graph": {
         "entities": [
           {
-            "name": "The State",
+            "name": "Marywood University",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-state.md",
+            "file_path": "../entities/people/marywood-university.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Attorney General",
+            "name": "The African",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/attorney-general.md",
+            "file_path": "../entities/people/the-african.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Joseph Brennan",
+            "name": "Sisters Education",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/joseph-brennan.md",
+            "file_path": "../entities/people/sisters-education.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marywood</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Afri</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sisters </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Marywood University": "../entities/people/marywood-university.md",
+          "The African": "../entities/people/the-african.md",
+          "Sisters Education": "../entities/people/sisters-education.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-23T02:19:29",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/storytelling-event-marywood-university-highlights-african-sisterhood-community-building-lackawanna-county-scranton/523-a75c7b31-2f56-46c2-85f8-27bfbf9ded4e",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
+      "title": "$22M affordable housing project planned in Wayne County",
+      "title_distilled": "$22M affordable housing project planned in Wayne County.",
+      "description": "The United Neighborhood Centers of NEPA was recently awarded funding to purchase property for the Timber Mill Development.",
+      "description_distilled": "",
+      "content": "The United Neighborhood Centers of NEPA was recently awarded funding to purchase property for the Timber Mill Development.",
+      "content_distilled": "United Neighborhood Centers of NEPA was recently awarded funding to purchase property for the Timber Mill Development.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The United",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-united.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Fell Township",
+            "name": "Neighborhood Centers",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/fell-township.md",
+            "file_path": "../entities/people/neighborhood-centers.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Timber Mill",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/timber-mill.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The United",
+            "to": "Timber Mill",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "The United",
+            "to": "Timber Mill",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Unit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Neighbor</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Timber M</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The United": "../entities/people/the-united.md",
+          "Neighborhood Centers": "../entities/people/neighborhood-centers.md",
+          "Timber Mill": "../entities/people/timber-mill.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-22T20:12:44",
+      "url": "https://www.wnep.com/article/news/local/wayne-county/affordable-housing-project-planned-in-wayne-county-commercial-drive-honesdale-timber-mill-commons/523-9f212f05-728c-47a9-867a-d42b7926ce6c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Mayor Cognetti highlights Scranton's revival, goals in State of the City address",
+      "title_distilled": "Mayor Cognetti highlights Scranton's revival, goals in State of the City address.",
+      "description": "It's a chance once a year for the mayor to present the progress made in our area's largest city.",
+      "description_distilled": "",
+      "content": "It's a chance once a year for the mayor to present the progress made in our area's largest city.",
+      "content_distilled": "It's a chance once a year for the mayor to present the progress made in our area's largest city.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Mayor Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mayor-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Mayor Cognetti",
+            "to": "Cognetti",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mayor Co</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cognetti</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Mayor Cognetti": "../entities/people/mayor-cognetti.md",
+          "Cognetti": "../entities/people/cognetti.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-22T19:51:53",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/mayor-cognetti-highlights-scrantons-revival-goals-in-state-of-the-city-address-paige-progress/523-d64e7b23-ba67-4df4-ac39-ad924ecf50ec",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Scranton Mayor gives State of the City Address",
+      "title_distilled": "Scranton Mayor gives State of the City Address.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Mayor of Scranton gave her State of the City address Wednesday morning, highlighting accomplishments from her six years in office. 28/22 News Reporter Colby Hughes explained the address and how residents feel about her performance. Over the past six years, Cognetti said she has worked to improve the quality [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Mayor of Scranton gave her State of the City address Wednesday morning, highlighting accomplishments from her six years in office. 28/22 News Reporter Colby Hughes explained the address and how residents feel about her performance. Over the past six years, Cognetti said she has worked to improve the quality [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The Mayor of Scranton gave her State of the City address Wednesday morning, highlighting accomplishments from her six years in office.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "City Address",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/city-address.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "News Reporter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/news-reporter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Colby Hughes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/colby-hughes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -444,31 +652,37 @@
         ],
         "relationships": [
           {
-            "from": "The State",
-            "to": "Joseph Brennan",
-            "type": "CHARGED",
-            "verb": "charged"
+            "from": "The Mayor",
+            "to": "Scranton",
+            "type": "HAS_TITLE"
           },
           {
-            "from": "The State",
-            "to": "Fell Township",
-            "type": "CHARGED",
-            "verb": "charged"
+            "from": "Scranton Mayor",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
           },
           {
-            "from": "Attorney General",
-            "to": "Joseph Brennan",
-            "type": "CHARGED",
-            "verb": "charged"
+            "from": "Scranton",
+            "to": "City Address",
+            "type": "MEMBER_OF"
           },
           {
-            "from": "Attorney General",
-            "to": "Fell Township",
-            "type": "CHARGED",
-            "verb": "charged"
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Stat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Attorney</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joseph B</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fell Tow</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">City Add</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Mayo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -479,59 +693,136 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The State": "../entities/people/the-state.md",
-          "Attorney General": "../entities/people/attorney-general.md",
-          "Joseph Brennan": "../entities/people/joseph-brennan.md",
-          "Fell Township": "../entities/people/fell-township.md",
+          "Scranton Mayor": "../entities/people/scranton-mayor.md",
+          "City Address": "../entities/people/city-address.md",
+          "The Mayor": "../entities/people/the-mayor.md",
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Colby Hughes": "../entities/people/colby-hughes.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-22T02:23:39",
-      "url": "https://www.2822news.com/news/local-news/charges-filed-after-over-10k-tires-piled-illegally/",
+      "publishedAt": "2026-04-23T00:31:51",
+      "url": "https://www.2822news.com/news/local-news/scranton-mayor-gives-state-of-the-city-address/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_7",
-      "title": "Water boil advisory lifted for nearly 600 customers",
-      "title_distilled": "Water boil advisory lifted for nearly 600 customers.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Good news for nearly 600 homes and businesses in Lackawanna County: Pennsylvania American Water has lifted the water boil advisory for parts of Clarks Green and South Abington Township. Water samples collected on Sunday and Monday came back clean. The state Department of Environmental Protection gave the all-clear on Tuesday, and [...]",
+      "id": "short_10",
+      "title": "Scranton residents mark Earth Day with hands-on effort",
+      "title_distilled": "Scranton residents mark Earth Day with hands-on effort.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County is marking Earth Day with hands-on efforts across Scranton. On Wednesday, the county hosted an information fair inside the government center, while volunteers cleaned up around the courthouse, picking up trash and cigarette butts. The county says it's all about raising awareness and encouraging small actions that make [...]",
       "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Good news for nearly 600 homes and businesses in Lackawanna County: Pennsylvania American Water has lifted the water boil advisory for parts of Clarks Green and South Abington Township. Water samples collected on Sunday and Monday came back clean. The state Department of Environmental Protection gave the all-clear on Tuesday, and [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 Good news for nearly 600 homes and businesses in Lackawanna County: Pennsylvania American Water has lifted the water boil advisory for parts of Clarks Green and South Abington Township.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County is marking Earth Day with hands-on efforts across Scranton. On Wednesday, the county hosted an information fair inside the government center, while volunteers cleaned up around the courthouse, picking up trash and cigarette butts. The county says it's all about raising awareness and encouraging small actions that make [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Lackawanna County is marking Earth Day with hands-on efforts across Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Pennsylvania American",
+            "name": "Earth Day",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-american.md",
+            "file_path": "../entities/people/earth-day.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Clarks Green",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-green.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "South Abington",
-            "type": "PERSON",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/south-abington.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Environmental Protection",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Earth Da</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Earth Day": "../entities/people/earth-day.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-22T22:59:40",
+      "url": "https://www.2822news.com/news/local-news/scranton-residents-mark-earth-day-with-hands-on-effort/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Scranton council puts pause on kratom ban",
+      "title_distilled": "Scranton council puts pause on kratom ban.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There is no kratom ban in Scranton, at least not yet. The city council voted unanimously on Tuesday to put the proposed ordinance on hold. Kratom is an herbal supplement you can buy at gas stations and smoke shops. It's unregulated in Pennsylvania, and the US Food and Drug Administration [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There is no kratom ban in Scranton, at least not yet. The city council voted unanimously on Tuesday to put the proposed ordinance on hold. Kratom is an herbal supplement you can buy at gas stations and smoke shops. It's unregulated in Pennsylvania, and the US Food and Drug Administration [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 There is no kratom ban in Scranton, at least not yet.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Drug Administration",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/environmental-protection.md",
+            "file_path": "../entities/people/drug-administration.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -561,35 +852,31 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Water boil advisory",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/water-boil-advisory.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania American Water has lifted the water boil advisory",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/pennsylvania-american-water-has-lifted-the-water-boil-advisory.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Pennsylvania American",
-            "to": "Clarks Green",
-            "type": "MEMBER_OF"
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           },
           {
-            "from": "Pennsylvania American Water has lifted the water boil advisory",
-            "to": "Clarks Green",
-            "type": "OCCURS_DURING"
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks G</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Environm</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Drug Adm</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -600,279 +887,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pennsylvania American": "../entities/people/pennsylvania-american.md",
-          "Clarks Green": "../entities/people/clarks-green.md",
-          "South Abington": "../entities/people/south-abington.md",
-          "Environmental Protection": "../entities/people/environmental-protection.md",
+          "Drug Administration": "../entities/people/drug-administration.md",
+          "Scranton": "../entities/locations/scranton.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Water boil advisory": "../entities/events/water-boil-advisory.md",
-          "Pennsylvania American Water has lifted the water boil advisory": "../entities/events/pennsylvania-american-water-has-lifted-the-water-boil-advisory.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-22T02:20:00",
-      "url": "https://www.2822news.com/news/local-news/water-boil-advisory-lifted-for-nearly-600-customers/",
+      "publishedAt": "2026-04-22T22:38:15",
+      "url": "https://www.2822news.com/news/local-news/scranton-council-puts-pause-on-kratom-ban/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "Students go green for Earth Day hands-on showcase",
-      "title_distilled": "Students go green for Earth Day hands-on showcase.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a campus celebration with a purpose on Tuesday at the University of Scranton: Students turned the Loyola Science Center into a hands-on Earth Day showcase, hosting a fair focused on sustainability and everyday environmental action. Under the theme \"Students for Sustainable Living,\" guests moved from table to table, [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a campus celebration with a purpose on Tuesday at the University of Scranton: Students turned the Loyola Science Center into a hands-on Earth Day showcase, hosting a fair focused on sustainability and everyday environmental action. Under the theme \"Students for Sustainable Living,\" guests moved from table to table, [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 It was a campus celebration with a purpose on Tuesday at the University of Scranton: Students turned the Loyola Science Center into a hands-on Earth Day showcase, hosting a fair focused on sustainability and everyday environmental action.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Students for Sustainable Living,",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/students-for-sustainable-living.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Earth Day",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/earth-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Loyola Science",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/loyola-science.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sustainable Living",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sustainable-living.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "campus celebration",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/campus-celebration.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Students for Sustainable Living,",
-            "to": "Earth Day",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "Students for Sustainable Living,",
-            "to": "Sustainable Living",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Students</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Earth Da</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Loyola S</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sustaina</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Students for Sustainable Living,": "../entities/works/movies/students-for-sustainable-living.md",
-          "Earth Day": "../entities/people/earth-day.md",
-          "Loyola Science": "../entities/people/loyola-science.md",
-          "Sustainable Living": "../entities/people/sustainable-living.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "campus celebration": "../entities/events/campus-celebration.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-04-21T23:03:02",
-      "url": "https://www.2822news.com/news/local-news/students-go-green-for-earth-day-hands-on-showcase/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Prom Dress Drive helps students with that special night",
-      "title_distilled": "Prom Dress Drive helps students with that special night.",
-      "description": "CLIFTON TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 For many, the key to prom season is finding that perfect dress to wear on their special night. \"To have a great dress is to look good; it means that you think you're pretty and you're just confident overall,\" says North Pocono High School student Nadia Londo. Salon Joy [...]",
-      "description_distilled": "",
-      "content": "CLIFTON TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 For many, the key to prom season is finding that perfect dress to wear on their special night. \"To have a great dress is to look good; it means that you think you're pretty and you're just confident overall,\" says North Pocono High School student Nadia Londo. Salon Joy [...]",
-      "content_distilled": "CLIFTON TOWNSHIP, LACKAWANNA COUNTY  \u2014 For many, the key to prom season is finding that perfect dress to wear on their special night.",
-      "graph": {
-        "entities": [
-          {
-            "name": "re just confident overall,",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/re-just-confident-overall.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Prom Dress",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/prom-dress.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Pocono",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-pocono.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "High School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Nadia Londo",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nadia-londo.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Salon Joy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/salon-joy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Prom Dress Drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/prom-dress-drive.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Pocono High School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/north-pocono-high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Prom Dress",
-            "to": "LACKAWANNA COUNTY",
-            "type": "HELPS",
-            "verb": "helps"
-          },
-          {
-            "from": "Prom Dress",
-            "to": "WBRE",
-            "type": "HELPS",
-            "verb": "helps"
-          },
-          {
-            "from": "Prom Dress Drive",
-            "to": "LACKAWANNA COUNTY",
-            "type": "HELPS",
-            "verb": "helps"
-          },
-          {
-            "from": "Prom Dress Drive",
-            "to": "WBRE",
-            "type": "HELPS",
-            "verb": "helps"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">re just </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Prom Dre</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Po</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nadia Lo</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Salon Jo</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "re just confident overall,": "../entities/works/movies/re-just-confident-overall.md",
-          "Prom Dress": "../entities/people/prom-dress.md",
-          "North Pocono": "../entities/people/north-pocono.md",
-          "High School": "../entities/people/high-school.md",
-          "Nadia Londo": "../entities/people/nadia-londo.md",
-          "Salon Joy": "../entities/people/salon-joy.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Prom Dress Drive": "../entities/locations/prom-dress-drive.md",
-          "North Pocono High School": "../entities/organizations/north-pocono-high-school.md",
-          "WBRE": "../entities/organizations/wbre.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-04-21T19:28:41",
-      "url": "https://www.2822news.com/news/prom-dress-drive-helps-students-with-that-special-night/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
     }
   ]
 }
