@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-24T11:25:24.942842",
-  "source_file": "../data/daily/scranton_news_2026-04-24.json",
-  "total_shorts": 10,
-  "total_duration": 80,
+  "generated_at": "2026-04-25T11:15:48.324093",
+  "source_file": "../data/daily/scranton_news_2026-04-25.json",
+  "total_shorts": 9,
+  "total_duration": 72,
   "has_svo": false,
   "shorts": [
     {
@@ -335,44 +335,43 @@
     },
     {
       "id": "short_5",
-      "title": "Fans gather in Scranton for 'The Office' 5K race",
-      "title_distilled": "Fans gather in Scranton for 'The Office' 5K race.",
-      "description": "Celebrate The Office with a fan takeover in Scranton's iconic sites at the Office 5K, supporting Valley in Motion.",
+      "title": "Benefit held to support family of late Lackawanna County police officer",
+      "title_distilled": "Benefit held to support family of late Lackawanna County police officer.",
+      "description": "Community members came together to support the family of an officer who passed away on New Year's Eve.",
       "description_distilled": "",
-      "content": "Celebrate The Office with a fan takeover in Scranton's iconic sites at the Office 5K, supporting Valley in Motion.",
-      "content_distilled": "Celebrate The Office with a fan takeover in Scranton's iconic sites at the Office 5K, supporting Valley in Motion.",
+      "content": "Community members came together to support the family of an officer who passed away on New Year's Eve.",
+      "content_distilled": "Community members came together to support the family of an officer who passed away on New Year's Eve.",
       "graph": {
         "entities": [
           {
-            "name": "The Office",
-            "type": "WORK",
+            "name": "New Year",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/the-office.md",
+            "file_path": "../entities/people/new-year.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Celebrate The Office",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/celebrate-the-office.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Celebrate The Office",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "from": "Lackawanna County",
+            "to": "New Year",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "New Year",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Celebrat</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Year</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -383,14 +382,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Office": "../entities/works/movies/the-office.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Celebrate The Office": "../entities/organizations/celebrate-the-office.md"
+          "New Year": "../entities/people/new-year.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-23T14:32:41",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fans-gather-scranton-for-the-office-5k-race-lackawanna-county-electric-dwight-nikki-krize-coopers-penn-pater/523-b4abc0c7-f7c8-48d6-a21b-4d5169376f69",
+      "publishedAt": "2026-04-25T03:01:38",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/benefit-held-to-support-family-of-late-lackawanna-county-police-officer-south-abington-township-clarks-summit/523-c72f3b45-d788-444c-802a-364a226d19fc",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
@@ -398,59 +396,24 @@
     },
     {
       "id": "short_6",
-      "title": "Police academy cadets to start career after graduation",
-      "title_distilled": "Police academy cadets to start career after graduation.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 With the final salute behind them, dozens of cadets officially turned months of training into a call to serve. 31 cadets graduated from the Lackawanna College Police Academy Thursday evening, marking the start of their law enforcement careers. The ceremony brought together family, friends, and local officials to recognize the [...]",
+      "title": "Meet a local storm spotter in Monroe County",
+      "title_distilled": "Meet a local storm spotter in Monroe County.",
+      "description": "Our Stormtracker 16 team relies on storm spotters across NEPA for important weather information. We meet one spotter whose helped for more than two decades.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 With the final salute behind them, dozens of cadets officially turned months of training into a call to serve. 31 cadets graduated from the Lackawanna College Police Academy Thursday evening, marking the start of their law enforcement careers. The ceremony brought together family, friends, and local officials to recognize the [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 With the final salute behind them, dozens of cadets officially turned months of training into a call to serve.",
+      "content": "Our Stormtracker 16 team relies on storm spotters across NEPA for important weather information. We meet one spotter whose helped for more than two decades.",
+      "content_distilled": "Our Stormtracker 16 team relies on storm spotters across NEPA for important weather information.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna College",
+            "name": "Our Stormtracker",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/lackawanna-college.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Police Academy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/police-academy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/our-stormtracker.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Police A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Our Stor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -461,17 +424,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna College": "../entities/people/lackawanna-college.md",
-          "Police Academy": "../entities/people/police-academy.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Our Stormtracker": "../entities/people/our-stormtracker.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-04-24T03:10:43",
-      "url": "https://www.2822news.com/news/police-academy-cadets-to-start-career-after-graduation/",
+      "source": "Wnep",
+      "publishedAt": "2026-04-24T23:39:50",
+      "url": "https://www.wnep.com/article/news/local/monroe-county/meet-a-local-storm-spotter-in-monroe-county-pocono-summit/523-cbddc7bd-97b2-4c76-91ca-7b8201a81b22",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
@@ -479,84 +437,24 @@
     },
     {
       "id": "short_7",
-      "title": "Bill seeks tougher penalties for crimes against law enforcement",
-      "title_distilled": "Bill seeks tougher penalties for crimes against law enforcement.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A bill aimed at increasing minimum sentences for individuals who attempt to murder law enforcement officers is moving forward in the Pennsylvania State Senate. The proposed legislation, sponsored by State Sen. Lisa Baker, seeks to establish significantly tougher prison terms for these crimes. Senate Bill 1284, which recently received approval [...]",
+      "title": "Flames destroy home in Lackawanna County",
+      "title_distilled": "Flames destroy home in Lackawanna County.",
+      "description": "Crews were called around 2:30 p.m. to a home that was engulfed and destroyed on Gudz Road near Moscow.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A bill aimed at increasing minimum sentences for individuals who attempt to murder law enforcement officers is moving forward in the Pennsylvania State Senate. The proposed legislation, sponsored by State Sen. Lisa Baker, seeks to establish significantly tougher prison terms for these crimes. Senate Bill 1284, which recently received approval [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A bill aimed at increasing minimum sentences for individuals who attempt to murder law enforcement officers is moving forward in the Pennsylvania State Senate.",
+      "content": "Crews were called around 2:30 p.m. to a home that was engulfed and destroyed on Gudz Road near Moscow.",
+      "content_distilled": "Crews were called around 2:30 p.",
       "graph": {
         "entities": [
           {
-            "name": "Pennsylvania State",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-state.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "State Sen. Lisa",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/state-sen-lisa.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Senate Bill",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/senate-bill.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Senate Bill",
-            "to": "SCRANTON",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "Senate Bill",
-            "to": "Pennsylvania State",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State Se</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senate B</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -567,19 +465,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pennsylvania State": "../entities/people/pennsylvania-state.md",
-          "State Sen. Lisa": "../entities/people/state-sen-lisa.md",
-          "Senate Bill": "../entities/people/senate-bill.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-04-23T23:05:48",
-      "url": "https://www.2822news.com/news/bill-seeks-tougher-penalties-for-crimes-against-law-enforcement/",
+      "source": "Wnep",
+      "publishedAt": "2026-04-24T20:19:51",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/flames-destroy-home-in-lackawanna-county-moscow-spring-brook-township/523-766b3674-ede0-4824-b9e3-4ca3f20fcc7a",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
@@ -587,61 +478,26 @@
     },
     {
       "id": "short_8",
-      "title": "Spring brings increased road work",
-      "title_distilled": "Spring brings increased road work.",
-      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 As spring weather returns, so do flowers, insects, and construction season across northeastern Pennsylvania. \"So, it is all weather-dependent, you know, it rains a lot. So, everything is weather- and temperature-dependent,\u201d said Liz Fabri, PennDOT District 4 Press Office The third week of April marks National Work Zone Safety Awareness [...]",
+      "title": "PennDOT warns drivers of headaches on I-81 starting Sunday",
+      "title_distilled": "PennDOT warns drivers of headaches on I-81 starting Sunday.",
+      "description": "(WBRE/WYOU) \u2014 PennDOT is warning drivers of impending lane restrictions that could affect traffic on Interstate 81 in Luzerne and Lackawanna County. According to a press release from PennDOT, the f...",
       "description_distilled": "",
-      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 As spring weather returns, so do flowers, insects, and construction season across northeastern Pennsylvania. \"So, it is all weather-dependent, you know, it rains a lot. So, everything is weather- and temperature-dependent,\u201d said Liz Fabri, PennDOT District 4 Press Office The third week of April marks National Work Zone Safety Awareness [...]",
-      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 As spring weather returns, so do flowers, insects, and construction season across northeastern Pennsylvania.",
+      "content": "(WBRE/WYOU) \u2014 PennDOT is warning drivers of impending lane restrictions that could affect traffic on Interstate 81 in Luzerne and Lackawanna County. According to a press release from PennDOT, the f...",
+      "content_distilled": " \u2014 PennDOT is warning drivers of impending lane restrictions that could affect traffic on Interstate 81 in Luzerne and Lackawanna County.",
       "graph": {
         "entities": [
           {
-            "name": "Liz Fabri",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/liz-fabri.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "National Work",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/national-work.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Zone Safety",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/zone-safety.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Spring brings increased road",
+            "name": "drivers of impending lane",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/spring-brings-increased-road.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Press Office",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/press-office.md",
+            "file_path": "../entities/locations/drivers-of-impending-lane.md",
             "resolution_method": "new_entity"
           },
           {
@@ -657,16 +513,17 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
+          },
           {
-            "from": "Press Office",
-            "to": "National Work",
-            "type": "MEMBER_OF"
+            "name": "PennDOT is warning",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/penndot-is-warning.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Liz Fabr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Zone Saf</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Spring b</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">drivers </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">PennDOT </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -677,137 +534,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Liz Fabri": "../entities/people/liz-fabri.md",
-          "National Work": "../entities/people/national-work.md",
-          "Zone Safety": "../entities/people/zone-safety.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Spring brings increased road": "../entities/locations/spring-brings-increased-road.md",
-          "Press Office": "../entities/organizations/press-office.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "drivers of impending lane": "../entities/locations/drivers-of-impending-lane.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "PennDOT is warning": "../entities/events/penndot-is-warning.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-23T16:16:09",
-      "url": "https://www.2822news.com/news/spring-brings-increased-road-work/",
+      "publishedAt": "2026-04-24T18:49:04",
+      "url": "https://www.2822news.com/traffic/penndot-warns-of-impending-lane-restrictions-on-i-81/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
       "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Teens charged after alleged gunpoint robbery at Sherman Hills",
-      "title_distilled": "Teens charged after alleged gunpoint robbery at Sherman Hills.",
-      "description": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 Two teens are charged after police said they were part of a gunpoint robbery at the Sherman Hills Apartments in Wilkes-Barre. On April 19, police reported 18-year-old Avery J. Lucas, of Kingston, and a 17-year-old Caleb Shovlin from Scranton were part of a group of eight people who jumped and [...]",
-      "description_distilled": "",
-      "content": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 Two teens are charged after police said they were part of a gunpoint robbery at the Sherman Hills Apartments in Wilkes-Barre. On April 19, police reported 18-year-old Avery J. Lucas, of Kingston, and a 17-year-old Caleb Shovlin from Scranton were part of a group of eight people who jumped and [...]",
-      "content_distilled": "WILKES-BARRE, LUZERNE COUNTY  \u2014 Two teens are charged after police said they were part of a gunpoint robbery at the Sherman Hills Apartments in Wilkes-Barre.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Sherman Hills",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sherman-hills.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Caleb Shovlin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/caleb-shovlin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Sherman Hills",
-            "to": "WBRE",
-            "type": "CHARGED",
-            "verb": "charged"
-          },
-          {
-            "from": "Sherman Hills",
-            "to": "WBRE",
-            "type": "SAID",
-            "verb": "said"
-          },
-          {
-            "from": "Sherman Hills",
-            "to": "WYOU",
-            "type": "CHARGED",
-            "verb": "charged"
-          },
-          {
-            "from": "Sherman Hills",
-            "to": "WYOU",
-            "type": "SAID",
-            "verb": "said"
-          },
-          {
-            "from": "Caleb Shovlin",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sherman </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Caleb Sh</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Sherman Hills": "../entities/people/sherman-hills.md",
-          "Caleb Shovlin": "../entities/people/caleb-shovlin.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-04-23T15:35:09",
-      "url": "https://www.2822news.com/news/crime-courts/teens-charged-after-alleged-gunpoint-robbery-at-sherman-hills/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
     }
   ]
 }
