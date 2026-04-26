@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-25T11:15:48.324093",
-  "source_file": "../data/daily/scranton_news_2026-04-25.json",
-  "total_shorts": 9,
-  "total_duration": 72,
+  "generated_at": "2026-04-26T11:15:50.730740",
+  "source_file": "../data/daily/scranton_news_2026-04-26.json",
+  "total_shorts": 8,
+  "total_duration": 64,
   "has_svo": false,
   "shorts": [
     {
@@ -335,43 +335,84 @@
     },
     {
       "id": "short_5",
-      "title": "Benefit held to support family of late Lackawanna County police officer",
-      "title_distilled": "Benefit held to support family of late Lackawanna County police officer.",
-      "description": "Community members came together to support the family of an officer who passed away on New Year's Eve.",
+      "title": "Pancan Purple Stride Walk in Scranton unites community to fight pancreatic cancer",
+      "title_distilled": "Pancan Purple Stride Walk in Scranton unites community to fight pancreatic cancer.",
+      "description": "Dozens gathered in Scranton for the annual 'Pancan Purple Stride Walk' at Nay Aug Park, raising funds for the Pancreatic Cancer Action Network.",
       "description_distilled": "",
-      "content": "Community members came together to support the family of an officer who passed away on New Year's Eve.",
-      "content_distilled": "Community members came together to support the family of an officer who passed away on New Year's Eve.",
+      "content": "Dozens gathered in Scranton for the annual 'Pancan Purple Stride Walk' at Nay Aug Park, raising funds for the Pancreatic Cancer Action Network.",
+      "content_distilled": "Dozens gathered in Scranton for the annual 'Pancan Purple Stride Walk' at Nay Aug Park, raising funds for the Pancreatic Cancer Action Network.",
       "graph": {
         "entities": [
           {
-            "name": "New Year",
-            "type": "PERSON",
+            "name": "Pancan Purple Stride Walk",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/new-year.md",
+            "file_path": "../entities/works/movies/pancan-purple-stride-walk.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "Pancan Purple",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pancan-purple.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Stride Walk",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/stride-walk.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nay Aug Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nay-aug-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pancreatic Cancer",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pancreatic-cancer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Action Network",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/action-network.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Aug Park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/aug-park.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Lackawanna County",
-            "to": "New Year",
-            "type": "CAME",
-            "verb": "came"
+            "from": "Pancan Purple Stride Walk",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           },
           {
-            "from": "Lackawanna County",
-            "to": "New Year",
-            "type": "MEMBER_OF"
+            "from": "Aug Park",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Year</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pancan P</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pancan P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stride W</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pancreat</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Action N</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -382,13 +423,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "New Year": "../entities/people/new-year.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Pancan Purple Stride Walk": "../entities/works/movies/pancan-purple-stride-walk.md",
+          "Pancan Purple": "../entities/people/pancan-purple.md",
+          "Stride Walk": "../entities/people/stride-walk.md",
+          "Nay Aug Park": "../entities/people/nay-aug-park.md",
+          "Pancreatic Cancer": "../entities/people/pancreatic-cancer.md",
+          "Action Network": "../entities/people/action-network.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Aug Park": "../entities/locations/aug-park.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-25T03:01:38",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/benefit-held-to-support-family-of-late-lackawanna-county-police-officer-south-abington-township-clarks-summit/523-c72f3b45-d788-444c-802a-364a226d19fc",
+      "publishedAt": "2026-04-25T22:50:10",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pancan-purple-stride-walk-scranton-unites-community-fight-pancreatic-cancer-lackawanna-county/523-c932c1fe-322d-4b23-a5a9-048367b5112e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
@@ -396,24 +443,24 @@
     },
     {
       "id": "short_6",
-      "title": "Meet a local storm spotter in Monroe County",
-      "title_distilled": "Meet a local storm spotter in Monroe County.",
-      "description": "Our Stormtracker 16 team relies on storm spotters across NEPA for important weather information. We meet one spotter whose helped for more than two decades.",
+      "title": "Health and wellness fair takes place in downtown Scranton",
+      "title_distilled": "Health and wellness fair takes place in downtown Scranton.",
+      "description": "The Junior League of Scranton hosted a health and wellness fair, connecting locals with 45 vendors for accessible healthcare options and free screenings.",
       "description_distilled": "",
-      "content": "Our Stormtracker 16 team relies on storm spotters across NEPA for important weather information. We meet one spotter whose helped for more than two decades.",
-      "content_distilled": "Our Stormtracker 16 team relies on storm spotters across NEPA for important weather information.",
+      "content": "The Junior League of Scranton hosted a health and wellness fair, connecting locals with 45 vendors for accessible healthcare options and free screenings.",
+      "content_distilled": "Junior League of Scranton hosted a health and wellness fair, connecting locals with 45 vendors for accessible healthcare options and free screenings.",
       "graph": {
         "entities": [
           {
-            "name": "Our Stormtracker",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/our-stormtracker.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Our Stor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -424,12 +471,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Our Stormtracker": "../entities/people/our-stormtracker.md"
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-24T23:39:50",
-      "url": "https://www.wnep.com/article/news/local/monroe-county/meet-a-local-storm-spotter-in-monroe-county-pocono-summit/523-cbddc7bd-97b2-4c76-91ca-7b8201a81b22",
+      "publishedAt": "2026-04-25T22:49:15",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/health-and-wellness-fair-takes-place-downtown-scranton-lackawanna-county/523-265d8c85-68ff-4ca4-b184-708d524044bb",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
@@ -437,67 +484,26 @@
     },
     {
       "id": "short_7",
-      "title": "Flames destroy home in Lackawanna County",
-      "title_distilled": "Flames destroy home in Lackawanna County.",
-      "description": "Crews were called around 2:30 p.m. to a home that was engulfed and destroyed on Gudz Road near Moscow.",
+      "title": "Pennsylvania weather: cold, wet start to weekend before Sunday sun",
+      "title_distilled": "Pennsylvania weather: cold, wet start to weekend before Sunday sun.",
+      "description": "(WBRE/WYOU) \u2014 It was a wet and chilly start to the weekend, and we're not done just yet. Showers continue for Saturday night with an otherwise mostly cloudy sky. There is the potential for it to be cold enough for some wet snowflakes across the hilltops of northeastern Pennsylvania Saturday night! Lows drop to near 40. [...]",
       "description_distilled": "",
-      "content": "Crews were called around 2:30 p.m. to a home that was engulfed and destroyed on Gudz Road near Moscow.",
-      "content_distilled": "Crews were called around 2:30 p.",
+      "content": "(WBRE/WYOU) \u2014 It was a wet and chilly start to the weekend, and we're not done just yet. Showers continue for Saturday night with an otherwise mostly cloudy sky. There is the potential for it to be cold enough for some wet snowflakes across the hilltops of northeastern Pennsylvania Saturday night! Lows drop to near 40. [...]",
+      "content_distilled": " \u2014 It was a wet and chilly start to the weekend, and we're not done just yet.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "Pennsylvania Saturday",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-04-24T20:19:51",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/flames-destroy-home-in-lackawanna-county-moscow-spring-brook-township/523-766b3674-ede0-4824-b9e3-4ca3f20fcc7a",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "PennDOT warns drivers of headaches on I-81 starting Sunday",
-      "title_distilled": "PennDOT warns drivers of headaches on I-81 starting Sunday.",
-      "description": "(WBRE/WYOU) \u2014 PennDOT is warning drivers of impending lane restrictions that could affect traffic on Interstate 81 in Luzerne and Lackawanna County. According to a press release from PennDOT, the f...",
-      "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 PennDOT is warning drivers of impending lane restrictions that could affect traffic on Interstate 81 in Luzerne and Lackawanna County. According to a press release from PennDOT, the f...",
-      "content_distilled": " \u2014 PennDOT is warning drivers of impending lane restrictions that could affect traffic on Interstate 81 in Luzerne and Lackawanna County.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/pennsylvania-saturday.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "drivers of impending lane",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/drivers-of-impending-lane.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -513,17 +519,10 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "PennDOT is warning",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/penndot-is-warning.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">drivers </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">PennDOT </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -534,20 +533,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "drivers of impending lane": "../entities/locations/drivers-of-impending-lane.md",
+          "Pennsylvania Saturday": "../entities/people/pennsylvania-saturday.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "PennDOT is warning": "../entities/events/penndot-is-warning.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-24T18:49:04",
-      "url": "https://www.2822news.com/traffic/penndot-warns-of-impending-lane-restrictions-on-i-81/",
+      "publishedAt": "2026-04-25T14:51:49",
+      "url": "https://www.2822news.com/weather/pennsylvania-weather-cold-wet-start-to-weekend-before-sunday-sun/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     }
   ]
 }
