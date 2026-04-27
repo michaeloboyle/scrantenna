@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-26T11:15:50.730740",
-  "source_file": "../data/daily/scranton_news_2026-04-26.json",
-  "total_shorts": 8,
-  "total_duration": 64,
+  "generated_at": "2026-04-27T11:33:42.203917",
+  "source_file": "../data/daily/scranton_news_2026-04-27.json",
+  "total_shorts": 13,
+  "total_duration": 104,
   "has_svo": false,
   "shorts": [
     {
@@ -335,84 +335,70 @@
     },
     {
       "id": "short_5",
-      "title": "Pancan Purple Stride Walk in Scranton unites community to fight pancreatic cancer",
-      "title_distilled": "Pancan Purple Stride Walk in Scranton unites community to fight pancreatic cancer.",
-      "description": "Dozens gathered in Scranton for the annual 'Pancan Purple Stride Walk' at Nay Aug Park, raising funds for the Pancreatic Cancer Action Network.",
+      "title": "New hillside playground donated by the Abington Lions Club opens in Lackawanna County",
+      "title_distilled": "New hillside playground donated by the Abington Lions Club opens in Lackawanna County.",
+      "description": "Community members came out to make the finishing touches on the new hillside park playground in South Abington Township.",
       "description_distilled": "",
-      "content": "Dozens gathered in Scranton for the annual 'Pancan Purple Stride Walk' at Nay Aug Park, raising funds for the Pancreatic Cancer Action Network.",
-      "content_distilled": "Dozens gathered in Scranton for the annual 'Pancan Purple Stride Walk' at Nay Aug Park, raising funds for the Pancreatic Cancer Action Network.",
+      "content": "Community members came out to make the finishing touches on the new hillside park playground in South Abington Township.",
+      "content_distilled": "Community members came out to make the finishing touches on the new hillside park playground in South Abington Township.",
       "graph": {
         "entities": [
           {
-            "name": "Pancan Purple Stride Walk",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/pancan-purple-stride-walk.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pancan Purple",
+            "name": "Abington Lions",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pancan-purple.md",
+            "file_path": "../entities/people/abington-lions.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Stride Walk",
+            "name": "South Abington",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/stride-walk.md",
+            "file_path": "../entities/people/south-abington.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Nay Aug Park",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nay-aug-park.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pancreatic Cancer",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pancreatic-cancer.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Action Network",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/action-network.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Aug Park",
+            "name": "hillside park",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/aug-park.md",
+            "file_path": "../entities/locations/hillside-park.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Pancan Purple Stride Walk",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "Abington Lions",
+            "to": "South Abington",
+            "type": "CAME",
+            "verb": "came"
           },
           {
-            "from": "Aug Park",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Abington Lions",
+            "to": "hillside park",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "South Abington",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "hillside park",
+            "type": "CAME",
+            "verb": "came"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pancan P</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pancan P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stride W</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pancreat</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Action N</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">hillside</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -423,19 +409,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pancan Purple Stride Walk": "../entities/works/movies/pancan-purple-stride-walk.md",
-          "Pancan Purple": "../entities/people/pancan-purple.md",
-          "Stride Walk": "../entities/people/stride-walk.md",
-          "Nay Aug Park": "../entities/people/nay-aug-park.md",
-          "Pancreatic Cancer": "../entities/people/pancreatic-cancer.md",
-          "Action Network": "../entities/people/action-network.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Aug Park": "../entities/locations/aug-park.md"
+          "Abington Lions": "../entities/people/abington-lions.md",
+          "South Abington": "../entities/people/south-abington.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "hillside park": "../entities/locations/hillside-park.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-25T22:50:10",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pancan-purple-stride-walk-scranton-unites-community-fight-pancreatic-cancer-lackawanna-county/523-c932c1fe-322d-4b23-a5a9-048367b5112e",
+      "publishedAt": "2026-04-27T02:42:02",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-hillside-playground-donated-the-abington-lions-club-opens-lackawanna-county/523-247b4b74-1993-4ff5-90c0-bb3a442d0295",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
@@ -443,14 +425,62 @@
     },
     {
       "id": "short_6",
-      "title": "Health and wellness fair takes place in downtown Scranton",
-      "title_distilled": "Health and wellness fair takes place in downtown Scranton.",
-      "description": "The Junior League of Scranton hosted a health and wellness fair, connecting locals with 45 vendors for accessible healthcare options and free screenings.",
+      "title": "Chicken cutlet dinner fundraiser supports Jessup's Saint Ubaldo Society",
+      "title_distilled": "Chicken cutlet dinner fundraiser supports Jessup's Saint Ubaldo Society.",
+      "description": "170 meals were sold at the fundraiser for the Saint Ubaldo Society.",
       "description_distilled": "",
-      "content": "The Junior League of Scranton hosted a health and wellness fair, connecting locals with 45 vendors for accessible healthcare options and free screenings.",
-      "content_distilled": "Junior League of Scranton hosted a health and wellness fair, connecting locals with 45 vendors for accessible healthcare options and free screenings.",
+      "content": "170 meals were sold at the fundraiser for the Saint Ubaldo Society.",
+      "content_distilled": "170 meals were sold at the fundraiser for the Saint Ubaldo Society.",
       "graph": {
         "entities": [
+          {
+            "name": "Saint Ubaldo",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/saint-ubaldo.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Ub</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Saint Ubaldo": "../entities/people/saint-ubaldo.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-27T02:33:40",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/chicken-cutlet-meal-fundraiser-supports-jessups-saint-ubaldo-society-lackawanna-county/523-ebb5e669-1c65-4f58-8dee-aaa4321e5545",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
+    },
+    {
+      "id": "short_7",
+      "title": "Scranton's 160th birthday celebrated at the Everhart Museum",
+      "title_distilled": "Scranton's 160th birthday celebrated at the Everhart Museum.",
+      "description": "The electric city marked its 160th anniversary at the Everhart Museum, featuring live music, historical exhibits, and family activities.",
+      "description_distilled": "",
+      "content": "The electric city marked its 160th anniversary at the Everhart Museum, featuring live music, historical exhibits, and family activities.",
+      "content_distilled": "electric city marked its 160th anniversary at the Everhart Museum, featuring live music, historical exhibits, and family activities.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Everhart Museum",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/everhart-museum.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -460,7 +490,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -471,39 +501,117 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Everhart Museum": "../entities/people/everhart-museum.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-04-25T22:49:15",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/health-and-wellness-fair-takes-place-downtown-scranton-lackawanna-county/523-265d8c85-68ff-4ca4-b184-708d524044bb",
+      "publishedAt": "2026-04-26T23:31:35",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scrantons-160th-birthday-celebrated-everhart-museum-lackawanna-county/523-e21f4c93-d1d6-42ec-9a03-8a18c7861693",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
-      "title": "Pennsylvania weather: cold, wet start to weekend before Sunday sun",
-      "title_distilled": "Pennsylvania weather: cold, wet start to weekend before Sunday sun.",
-      "description": "(WBRE/WYOU) \u2014 It was a wet and chilly start to the weekend, and we're not done just yet. Showers continue for Saturday night with an otherwise mostly cloudy sky. There is the potential for it to be cold enough for some wet snowflakes across the hilltops of northeastern Pennsylvania Saturday night! Lows drop to near 40. [...]",
+      "id": "short_8",
+      "title": "Lackawanna County bar set to close after 12 years",
+      "title_distilled": "Lackawanna County bar set to close after 12 years.",
+      "description": "Staff at the Ale Mary's bar in Scranton tell Newswatch 16 that it will close after the end of business day on Sunday.",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 It was a wet and chilly start to the weekend, and we're not done just yet. Showers continue for Saturday night with an otherwise mostly cloudy sky. There is the potential for it to be cold enough for some wet snowflakes across the hilltops of northeastern Pennsylvania Saturday night! Lows drop to near 40. [...]",
-      "content_distilled": " \u2014 It was a wet and chilly start to the weekend, and we're not done just yet.",
+      "content": "Staff at the Ale Mary's bar in Scranton tell Newswatch 16 that it will close after the end of business day on Sunday.",
+      "content_distilled": "Staff at the Ale Mary's bar in Scranton tell Newswatch 16 that it will close after the end of business day on Sunday.",
       "graph": {
         "entities": [
           {
-            "name": "Pennsylvania Saturday",
+            "name": "Ale Mary",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-saturday.md",
+            "file_path": "../entities/people/ale-mary.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ale Mary</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Ale Mary": "../entities/people/ale-mary.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-04-26T23:27:24",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-bar-close-after-twelve-years-scranton/523-90e9715a-0d59-4b63-8c95-23e07c2a06b4",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Father-son bond growing through exercise",
+      "title_distilled": "Father-son bond growing through exercise.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A father in Lackawanna County broke down barriers for his son by creating a space for him to start on a fitness journey. He said he wants to include others who may be looking for help. As 28/22 News Reporter Colby Hughes explained, their hard work has already made a [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A father in Lackawanna County broke down barriers for his son by creating a space for him to start on a fitness journey. He said he wants to include others who may be looking for help. As 28/22 News Reporter Colby Hughes explained, their hard work has already made a [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A father in Lackawanna County broke down barriers for his son by creating a space for him to start on a fitness journey.",
+      "graph": {
+        "entities": [
+          {
+            "name": "News Reporter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/news-reporter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Colby Hughes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/colby-hughes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
@@ -522,7 +630,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -533,19 +641,256 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pennsylvania Saturday": "../entities/people/pennsylvania-saturday.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Colby Hughes": "../entities/people/colby-hughes.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-04-25T14:51:49",
-      "url": "https://www.2822news.com/weather/pennsylvania-weather-cold-wet-start-to-weekend-before-sunday-sun/",
+      "publishedAt": "2026-04-27T03:14:36",
+      "url": "https://www.2822news.com/news/local-news/father-son-bond-growing-through-exercise/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Residents celebrate Earth Month with E recycling event",
+      "title_distilled": "Residents celebrate Earth Month with E recycling event.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 This month is Earth Month, and the City of Scranton is helping residents make sure they're doing their spring cleaning properly. On Sunday morning, officials held their first Electronics Recycling event of the year. The event kicked off at 9:00 a.m. and continued through noon at the Department of Public [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 This month is Earth Month, and the City of Scranton is helping residents make sure they're doing their spring cleaning properly. On Sunday morning, officials held their first Electronics Recycling event of the year. The event kicked off at 9:00 a.m. and continued through noon at the Department of Public [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 This month is Earth Month, and the City of Scranton is helping residents make sure they're doing their spring cleaning properly.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Earth Month",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/earth-month.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Electronics Recycling",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/electronics-recycling.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Earth Mo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electron</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Earth Month": "../entities/people/earth-month.md",
+          "Electronics Recycling": "../entities/people/electronics-recycling.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-27T03:06:31",
+      "url": "https://www.2822news.com/news/local-news/residents-celebrate-earth-month-with-e-recycling-event/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Local school supports businesses with Spring Vendor Market",
+      "title_distilled": "Local school supports businesses with Spring Vendor Market.",
+      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local school is bringing the community together, all while supporting small businesses. The Dunmore PTA hosted its Spring Vendor Market on Sunday at the Dunmore Elementary Center. Roughly 30 local vendors filled the gym, selling everything from handmade crafts and clothing to sweet treats and empanadas. Organizers say the [...]",
+      "description_distilled": "",
+      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local school is bringing the community together, all while supporting small businesses. The Dunmore PTA hosted its Spring Vendor Market on Sunday at the Dunmore Elementary Center. Roughly 30 local vendors filled the gym, selling everything from handmade crafts and clothing to sweet treats and empanadas. Organizers say the [...]",
+      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 A local school is bringing the community together, all while supporting small businesses.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Spring Vendor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/spring-vendor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Dunmore",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-dunmore.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Dunmore Elementary",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dunmore-elementary.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Spring V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Dunm</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Spring Vendor": "../entities/people/spring-vendor.md",
+          "The Dunmore": "../entities/people/the-dunmore.md",
+          "Dunmore Elementary": "../entities/people/dunmore-elementary.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-26T22:44:08",
+      "url": "https://www.2822news.com/news/local-news/local-school-supports-businesses-with-spring-vendor-market/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Community helps people learn bike riding",
+      "title_distilled": "Community helps people learn bike riding.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There's no better time than now to learn something new: One community in Scranton is helping people break the barrier, overcome challenges, and start riding bikes. A kickoff event was hosted on Saturday to help those interested in biking who may have a physical or balance issues. The Bike Buddy [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There's no better time than now to learn something new: One community in Scranton is helping people break the barrier, overcome challenges, and start riding bikes. A kickoff event was hosted on Saturday to help those interested in biking who may have a physical or balance issues. The Bike Buddy [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 There's no better time than now to learn something new: One community in Scranton is helping people break the barrier, overcome challenges, and start riding bikes.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Bike",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-bike.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Bike</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Bike": "../entities/people/the-bike.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-04-26T16:03:09",
+      "url": "https://www.2822news.com/news/local-news/community-helps-people-learn-bike-riding/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
     }
   ]
 }
