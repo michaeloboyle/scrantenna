@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T11:16:30.322262",
-  "source_file": "../data/daily/scranton_news_2026-05-02.json",
-  "total_shorts": 11,
-  "total_duration": 88,
+  "generated_at": "2026-05-03T11:15:56.354016",
+  "source_file": "../data/daily/scranton_news_2026-05-03.json",
+  "total_shorts": 13,
+  "total_duration": 104,
   "has_svo": false,
   "shorts": [
     {
@@ -482,19 +482,33 @@
     },
     {
       "id": "short_8",
-      "title": "Scranton kindergarteners explore conservation by raising and releasing trout",
-      "title_distilled": "Scranton kindergarteners explore conservation by raising and releasing trout.",
-      "description": "Newswatch 16's Valeria Qui\u00f1ones stopped at DeSandis Pond in Covington Township, where kindergarteners released the trout they raised.",
+      "title": "'The Office' 5K in Downtown Scranton",
+      "title_distilled": "'The Office' 5K in Downtown Scranton.",
+      "description": "Nearly 2,000 people from around the country and around the world traveled to The Electric City for Season 5 of The Office 5k.",
       "description_distilled": "",
-      "content": "Newswatch 16's Valeria Qui\u00f1ones stopped at DeSandis Pond in Covington Township, where kindergarteners released the trout they raised.",
-      "content_distilled": "Newswatch 16's Valeria Qui\u00f1ones stopped at DeSandis Pond in Covington Township, where kindergarteners released the trout they raised.",
+      "content": "Nearly 2,000 people from around the country and around the world traveled to The Electric City for Season 5 of The Office 5k.",
+      "content_distilled": "Nearly 2,000 people from around the country and around the world traveled to The Electric City for Season 5 of The Office 5k.",
       "graph": {
         "entities": [
           {
-            "name": "Covington Township",
+            "name": "The Office",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/the-office.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Downtown Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/covington-township.md",
+            "file_path": "../entities/people/downtown-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Electric",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-electric.md",
             "resolution_method": "new_entity"
           },
           {
@@ -505,8 +519,39 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Covingto</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "The Office",
+            "to": "Downtown Scranton",
+            "type": "TRAVELED_TO",
+            "verb": "traveled"
+          },
+          {
+            "from": "The Office",
+            "to": "The Electric",
+            "type": "TRAVELED_TO",
+            "verb": "traveled"
+          },
+          {
+            "from": "The Office",
+            "to": "Scranton",
+            "type": "TRAVELED_TO",
+            "verb": "traveled"
+          },
+          {
+            "from": "Downtown Scranton",
+            "to": "The Electric",
+            "type": "TRAVELED_TO",
+            "verb": "traveled"
+          },
+          {
+            "from": "Scranton",
+            "to": "The Electric",
+            "type": "TRAVELED_TO",
+            "verb": "traveled"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Elec</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -517,13 +562,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Covington Township": "../entities/people/covington-township.md",
+          "The Office": "../entities/works/movies/the-office.md",
+          "Downtown Scranton": "../entities/people/downtown-scranton.md",
+          "The Electric": "../entities/people/the-electric.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-01T20:13:14",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-kindergarteners-explore-conservation-by-raising-and-releasing-trout-covington-township-lackawanna-county/523-d7c01b0f-f06e-48b3-be1b-8cd9e7b7030a",
+      "publishedAt": "2026-05-03T01:00:43",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/the-office-5k-downtown-scranton-lackawanna-county/523-0219afca-ede7-4f71-8346-a96f71962978",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -531,19 +578,60 @@
     },
     {
       "id": "short_9",
-      "title": "Dunmore police chief retires after 36 years of service",
-      "title_distilled": "Dunmore police chief retires after 36 years of service.",
-      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 36 years ago, Sal Marchese joined the Dunmore Police Department as a patrolman. Friday, he walked out as chief. Marchese's department celebrating him with cake, pizza, family, and a giant balloon \"36\" to match every year he gave to this community.",
+      "title": "Fire damages building in Carbondale",
+      "title_distilled": "Fire damages building in Carbondale.",
+      "description": "Firefighters battled the fire on Wayne Street in Carbondale for hours Saturday. The first calls for the fire began around 12 a.m.",
       "description_distilled": "",
-      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 36 years ago, Sal Marchese joined the Dunmore Police Department as a patrolman. Friday, he walked out as chief. Marchese's department celebrating him with cake, pizza, family, and a giant balloon \"36\" to match every year he gave to this community.",
-      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 36 years ago, Sal Marchese joined the Dunmore Police Department as a patrolman.",
+      "content": "Firefighters battled the fire on Wayne Street in Carbondale for hours Saturday. The first calls for the fire began around 12 a.m.",
+      "content_distilled": "Firefighters battled the fire on Wayne Street in Carbondale for hours Saturday.",
       "graph": {
         "entities": [
           {
-            "name": "Dunmore Police",
+            "name": "Carbondale Firefighters",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dunmore-police.md",
+            "file_path": "../entities/people/carbondale-firefighters.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Carbondale Firefighters": "../entities/people/carbondale-firefighters.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-02T17:18:16",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-damages-building-in-carbondale-lackawanna-county/523-29959a70-9ebf-44dd-a348-15c0ee09172c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "1 injured, 11 displaced after overnight apartment building fire",
+      "title_distilled": "1 injured, 11 displaced after overnight apartment building fire.",
+      "description": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 City officials say one person was injured and 11 more were displaced after an early morning apartment building fire in Carbondale on Saturday. Crews resp...",
+      "description_distilled": "",
+      "content": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 City officials say one person was injured and 11 more were displaced after an early morning apartment building fire in Carbondale on Saturday. Crews resp...",
+      "content_distilled": "CARBONDALE, LACKAWANNA COUNTY  \u2014 City officials say one person was injured and 11 more were displaced after an early morning apartment building fire in Carbondale on Saturday.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Crystal Fire",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/crystal-fire.md",
             "resolution_method": "new_entity"
           },
           {
@@ -554,10 +642,118 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Dunmore Police Department",
+            "name": "Crystal Fire Company",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/dunmore-police-department.md",
+            "file_path": "../entities/organizations/crystal-fire-company.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crystal </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crystal </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Crystal Fire": "../entities/people/crystal-fire.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Crystal Fire Company": "../entities/organizations/crystal-fire-company.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-02T14:28:57",
+      "url": "https://www.2822news.com/news/crews-respond-to-overnight-apartment-building-fire/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Bringing TV fandom to life with 'The Office' 5K",
+      "title_distilled": "Bringing TV fandom to life with 'The Office' 5K.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lace up your sneakers, and maybe your best Dwight costume: Hundreds of fans flooded downtown Scranton on Saturday for The Office 5K, running past iconic show locations with a special appearance from Actor Bobby Ray Shafer, who played Bob Vance of Vance Refrigeration in The Office. 28/22 Photo Journalist Brian [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lace up your sneakers, and maybe your best Dwight costume: Hundreds of fans flooded downtown Scranton on Saturday for The Office 5K, running past iconic show locations with a special appearance from Actor Bobby Ray Shafer, who played Bob Vance of Vance Refrigeration in The Office. 28/22 Photo Journalist Brian [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Lace up your sneakers, and maybe your best Dwight costume: Hundreds of fans flooded downtown Scranton on Saturday for The Office 5K, running past iconic show locations with a special appearance from Actor Bobby Ray Shafer, who played Bob Vance of Vance Refrigeration in The Office.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Office",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/the-office.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Actor Bobby",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/actor-bobby.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Ray Shafer",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ray-shafer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Bob Vance",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bob-vance.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Vance Refrigeration",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/vance-refrigeration.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Photo Journalist",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/photo-journalist.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
@@ -577,49 +773,17 @@
         ],
         "relationships": [
           {
-            "from": "Dunmore Police",
-            "to": "LACKAWANNA COUNTY",
-            "type": "JOINED",
-            "verb": "joined"
+            "from": "Bob Vance",
+            "to": "The Office",
+            "type": "MEMBER_OF"
           },
           {
-            "from": "Dunmore Police",
-            "to": "Dunmore Police Department",
-            "type": "JOINED",
-            "verb": "joined"
-          },
-          {
-            "from": "Dunmore Police",
-            "to": "WBRE",
-            "type": "JOINED",
-            "verb": "joined"
-          },
-          {
-            "from": "Dunmore Police",
-            "to": "WYOU",
-            "type": "JOINED",
-            "verb": "joined"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Dunmore Police Department",
-            "type": "JOINED",
-            "verb": "joined"
-          },
-          {
-            "from": "WBRE",
-            "to": "Dunmore Police Department",
-            "type": "JOINED",
-            "verb": "joined"
-          },
-          {
-            "from": "WYOU",
-            "to": "Dunmore Police Department",
-            "type": "JOINED",
-            "verb": "joined"
+            "from": "SCRANTON",
+            "to": "The Office",
+            "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">JOINED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">JOINED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">JOINED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">JOINED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">JOINED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">JOINED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">JOINED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Actor Bo</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ray Shaf</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bob Vanc</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vance Re</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Photo Jo</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -630,31 +794,64 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dunmore Police": "../entities/people/dunmore-police.md",
+          "The Office": "../entities/works/movies/the-office.md",
+          "Actor Bobby": "../entities/people/actor-bobby.md",
+          "Ray Shafer": "../entities/people/ray-shafer.md",
+          "Bob Vance": "../entities/people/bob-vance.md",
+          "Vance Refrigeration": "../entities/people/vance-refrigeration.md",
+          "Photo Journalist": "../entities/people/photo-journalist.md",
+          "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Dunmore Police Department": "../entities/organizations/dunmore-police-department.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-02T00:48:38",
-      "url": "https://www.2822news.com/news/dunmore-police-chief-retires-after-36-years-of-service/",
+      "publishedAt": "2026-05-03T01:06:21",
+      "url": "https://www.2822news.com/news/local-news/bringing-tv-fandom-to-life-with-the-office-5k/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
-      "title": "Multi-county drug trafficking organization dismantled, police say",
-      "title_distilled": "Multi-county drug trafficking organization dismantled, police say.",
-      "description": "(WBRE/WYOU) \u2014 Three people have been charged after police say a multi-county drug trafficking organization has been dismantled. According to state police, a trafficking organization responsible for...",
+      "id": "short_12",
+      "title": "Hershey Bears win game 2 with 2-1 score against WBS Penguins",
+      "title_distilled": "Hershey Bears win game 2 with 2-1 score against WBS Penguins.",
+      "description": "(WBRE/WYOU) \u2014 The Pittsburgh Penguins were knocked out of the Stanley Cup playoffs after falling in their round one series to the Flyers 4-2. Meanwhile, back home in Wilkes-Barre and Scranton, the Penguins are entering game two of the Calder Cup playoffs against their oldest rival, the Hershey Bears, Saturday night at home. On X, [...]",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 Three people have been charged after police say a multi-county drug trafficking organization has been dismantled. According to state police, a trafficking organization responsible for...",
-      "content_distilled": " \u2014 Three people have been charged after police say a multi-county drug trafficking organization has been dismantled.",
+      "content": "(WBRE/WYOU) \u2014 The Pittsburgh Penguins were knocked out of the Stanley Cup playoffs after falling in their round one series to the Flyers 4-2. Meanwhile, back home in Wilkes-Barre and Scranton, the Penguins are entering game two of the Calder Cup playoffs against their oldest rival, the Hershey Bears, Saturday night at home. On X, [...]",
+      "content_distilled": " \u2014 The Pittsburgh Penguins were knocked out of the Stanley Cup playoffs after falling in their round one series to the Flyers 4-2.",
       "graph": {
         "entities": [
+          {
+            "name": "Hershey Bears",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/hershey-bears.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Pittsburgh",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-pittsburgh.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Stanley Cup",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/stanley-cup.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Calder Cup",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/calder-cup.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -675,9 +872,33 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Hershey Bears win game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/hershey-bears-win-game.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "the Penguins are entering game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/the-penguins-are-entering-game.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
+          {
+            "from": "The Pittsburgh",
+            "to": "Stanley Cup",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "the Penguins are entering game",
+            "to": "Calder Cup",
+            "type": "MEMBER_OF"
+          },
           {
             "from": "WBRE",
             "to": "Scranton",
@@ -689,7 +910,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hershey </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Pitt</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stanley </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Calder C</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -700,17 +921,23 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Hershey Bears": "../entities/people/hershey-bears.md",
+          "The Pittsburgh": "../entities/people/the-pittsburgh.md",
+          "Stanley Cup": "../entities/people/stanley-cup.md",
+          "Calder Cup": "../entities/people/calder-cup.md",
           "Scranton": "../entities/locations/scranton.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "Hershey Bears win game": "../entities/events/hershey-bears-win-game.md",
+          "the Penguins are entering game": "../entities/events/the-penguins-are-entering-game.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-01T15:05:53",
-      "url": "https://www.2822news.com/news/crime-courts/multi-county-drug-trafficking-organization-dismantled-police-say/",
+      "publishedAt": "2026-05-02T22:47:22",
+      "url": "https://www.2822news.com/sports/wbs-penguins/penguins-enter-game-2-of-calder-cup-playoffs/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     }
   ]
