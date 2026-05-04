@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-03T11:15:56.354016",
-  "source_file": "../data/daily/scranton_news_2026-05-03.json",
-  "total_shorts": 13,
-  "total_duration": 104,
+  "generated_at": "2026-05-04T11:34:22.997055",
+  "source_file": "../data/daily/scranton_news_2026-05-04.json",
+  "total_shorts": 14,
+  "total_duration": 112,
   "has_svo": false,
   "shorts": [
     {
@@ -482,33 +482,83 @@
     },
     {
       "id": "short_8",
-      "title": "'The Office' 5K in Downtown Scranton",
-      "title_distilled": "'The Office' 5K in Downtown Scranton.",
-      "description": "Nearly 2,000 people from around the country and around the world traveled to The Electric City for Season 5 of The Office 5k.",
+      "title": "Mother's Day market in Dunmore supports children's advocacy center",
+      "title_distilled": "Mother's Day market in Dunmore supports children's advocacy center.",
+      "description": "The Mother's Day market in Lackawanna County celebrated moms while supporting the Children's Advocacy Center's crucial services for local children in need.",
       "description_distilled": "",
-      "content": "Nearly 2,000 people from around the country and around the world traveled to The Electric City for Season 5 of The Office 5k.",
-      "content_distilled": "Nearly 2,000 people from around the country and around the world traveled to The Electric City for Season 5 of The Office 5k.",
+      "content": "The Mother's Day market in Lackawanna County celebrated moms while supporting the Children's Advocacy Center's crucial services for local children in need.",
+      "content_distilled": "Mother's Day market in Lackawanna County celebrated moms while supporting the Children's Advocacy Center's crucial services for local children in need.",
       "graph": {
         "entities": [
           {
-            "name": "The Office",
+            "name": "The Mother",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-mother.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Advocacy Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/advocacy-center.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Moth</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Advocacy</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Mother": "../entities/people/the-mother.md",
+          "Advocacy Center": "../entities/people/advocacy-center.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-04T03:05:00",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/mothers-day-market-dunmore-supports-childrens-advocacy-center-lackawanna-county/523-eccb4e24-27ce-4bfa-83f2-6bd45c258cd5",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "US Navy Band 'Cruisers' captivates Scranton crowd",
+      "title_distilled": "US Navy Band 'Cruisers' captivates Scranton crowd.",
+      "description": "The U.S. Navy Band \"Cruisers\" stopped by in Scranton to give the crowd an amazing performance, showcasing their musical talents and dance moves.",
+      "description_distilled": "",
+      "content": "The U.S. Navy Band \"Cruisers\" stopped by in Scranton to give the crowd an amazing performance, showcasing their musical talents and dance moves.",
+      "content_distilled": "U.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Cruisers",
             "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/the-office.md",
+            "file_path": "../entities/works/movies/cruisers.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Downtown Scranton",
+            "name": "Navy Band",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/downtown-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Electric",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-electric.md",
+            "file_path": "../entities/people/navy-band.md",
             "resolution_method": "new_entity"
           },
           {
@@ -519,39 +569,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "The Office",
-            "to": "Downtown Scranton",
-            "type": "TRAVELED_TO",
-            "verb": "traveled"
-          },
-          {
-            "from": "The Office",
-            "to": "The Electric",
-            "type": "TRAVELED_TO",
-            "verb": "traveled"
-          },
-          {
-            "from": "The Office",
-            "to": "Scranton",
-            "type": "TRAVELED_TO",
-            "verb": "traveled"
-          },
-          {
-            "from": "Downtown Scranton",
-            "to": "The Electric",
-            "type": "TRAVELED_TO",
-            "verb": "traveled"
-          },
-          {
-            "from": "Scranton",
-            "to": "The Electric",
-            "type": "TRAVELED_TO",
-            "verb": "traveled"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Elec</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cruisers</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Navy Ban</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -562,56 +581,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Office": "../entities/works/movies/the-office.md",
-          "Downtown Scranton": "../entities/people/downtown-scranton.md",
-          "The Electric": "../entities/people/the-electric.md",
+          "Cruisers": "../entities/works/movies/cruisers.md",
+          "Navy Band": "../entities/people/navy-band.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-03T01:00:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/the-office-5k-downtown-scranton-lackawanna-county/523-0219afca-ede7-4f71-8346-a96f71962978",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Fire damages building in Carbondale",
-      "title_distilled": "Fire damages building in Carbondale.",
-      "description": "Firefighters battled the fire on Wayne Street in Carbondale for hours Saturday. The first calls for the fire began around 12 a.m.",
-      "description_distilled": "",
-      "content": "Firefighters battled the fire on Wayne Street in Carbondale for hours Saturday. The first calls for the fire began around 12 a.m.",
-      "content_distilled": "Firefighters battled the fire on Wayne Street in Carbondale for hours Saturday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Carbondale Firefighters",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-firefighters.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Carbondale Firefighters": "../entities/people/carbondale-firefighters.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-02T17:18:16",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-damages-building-in-carbondale-lackawanna-county/523-29959a70-9ebf-44dd-a348-15c0ee09172c",
+      "publishedAt": "2026-05-04T00:07:10",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/us-navy-band-cruisers-captivates-scranton-crowd-lackawanna-county/523-4cca81aa-0091-4d00-ba4b-e15496bdbe64",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -619,52 +596,44 @@
     },
     {
       "id": "short_10",
-      "title": "1 injured, 11 displaced after overnight apartment building fire",
-      "title_distilled": "1 injured, 11 displaced after overnight apartment building fire.",
-      "description": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 City officials say one person was injured and 11 more were displaced after an early morning apartment building fire in Carbondale on Saturday. Crews resp...",
+      "title": "'Go Baby Go' program empowers children with disabilities at University of Scranton event",
+      "title_distilled": "'Go Baby Go' program empowers children with disabilities at University of Scranton event.",
+      "description": "Children with disabilities in Lackawanna County experienced the thrill of driving adapted cars for the first time at University of Scranton's \"Go Baby Go\" event.",
       "description_distilled": "",
-      "content": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 City officials say one person was injured and 11 more were displaced after an early morning apartment building fire in Carbondale on Saturday. Crews resp...",
-      "content_distilled": "CARBONDALE, LACKAWANNA COUNTY  \u2014 City officials say one person was injured and 11 more were displaced after an early morning apartment building fire in Carbondale on Saturday.",
+      "content": "Children with disabilities in Lackawanna County experienced the thrill of driving adapted cars for the first time at University of Scranton's \"Go Baby Go\" event.",
+      "content_distilled": "Children with disabilities in Lackawanna County experienced the thrill of driving adapted cars for the first time at University of Scranton's \"Go Baby Go\" event.",
       "graph": {
         "entities": [
           {
-            "name": "Crystal Fire",
-            "type": "PERSON",
+            "name": "Go Baby Go",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/crystal-fire.md",
+            "file_path": "../entities/works/movies/go-baby-go.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Crystal Fire Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/crystal-fire-company.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crystal </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Crystal </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Go Baby </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -675,16 +644,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Crystal Fire": "../entities/people/crystal-fire.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Crystal Fire Company": "../entities/organizations/crystal-fire-company.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Go Baby Go": "../entities/works/movies/go-baby-go.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-05-02T14:28:57",
-      "url": "https://www.2822news.com/news/crews-respond-to-overnight-apartment-building-fire/",
+      "source": "Wnep",
+      "publishedAt": "2026-05-03T23:03:10",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/go-baby-go-program-empowers-children-with-disabilities-university-scranton-event-lackawanna-county/523-77216ba1-71fe-41a2-a0fa-8b446c077aa9",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -692,54 +659,26 @@
     },
     {
       "id": "short_11",
-      "title": "Bringing TV fandom to life with 'The Office' 5K",
-      "title_distilled": "Bringing TV fandom to life with 'The Office' 5K.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lace up your sneakers, and maybe your best Dwight costume: Hundreds of fans flooded downtown Scranton on Saturday for The Office 5K, running past iconic show locations with a special appearance from Actor Bobby Ray Shafer, who played Bob Vance of Vance Refrigeration in The Office. 28/22 Photo Journalist Brian [...]",
+      "title": "Church serves up great food, music ahead of Cinco De Mayo",
+      "title_distilled": "Church serves up great food, music ahead of Cinco De Mayo.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It's a day of food, fun, and faith at one church ahead of Cinco De Mayo. There were plenty of options for good food on Sunday at Saint Teresa of Calcutta's in southside Scranton during their Cinco De Mayo celebration. People came by for Hispanic music and food on Saturday [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lace up your sneakers, and maybe your best Dwight costume: Hundreds of fans flooded downtown Scranton on Saturday for The Office 5K, running past iconic show locations with a special appearance from Actor Bobby Ray Shafer, who played Bob Vance of Vance Refrigeration in The Office. 28/22 Photo Journalist Brian [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Lace up your sneakers, and maybe your best Dwight costume: Hundreds of fans flooded downtown Scranton on Saturday for The Office 5K, running past iconic show locations with a special appearance from Actor Bobby Ray Shafer, who played Bob Vance of Vance Refrigeration in The Office.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It's a day of food, fun, and faith at one church ahead of Cinco De Mayo. There were plenty of options for good food on Sunday at Saint Teresa of Calcutta's in southside Scranton during their Cinco De Mayo celebration. People came by for Hispanic music and food on Saturday [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 It's a day of food, fun, and faith at one church ahead of Cinco De Mayo.",
       "graph": {
         "entities": [
           {
-            "name": "The Office",
-            "type": "WORK",
+            "name": "Cinco De Mayo",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/the-office.md",
+            "file_path": "../entities/people/cinco-de-mayo.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Actor Bobby",
+            "name": "Saint Teresa",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/actor-bobby.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ray Shafer",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ray-shafer.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bob Vance",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bob-vance.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Vance Refrigeration",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/vance-refrigeration.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Photo Journalist",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/photo-journalist.md",
+            "file_path": "../entities/people/saint-teresa.md",
             "resolution_method": "new_entity"
           },
           {
@@ -769,21 +708,23 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "in southside Scranton during their Cinco De Mayo celebration",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/in-southside-scranton-during-their-cinco-de-mayo-celebration.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Bob Vance",
-            "to": "The Office",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "SCRANTON",
-            "to": "The Office",
+            "from": "in southside Scranton during their Cinco De Mayo celebration",
+            "to": "Cinco De Mayo",
             "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Actor Bo</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ray Shaf</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bob Vanc</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vance Re</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Photo Jo</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cinco De</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Te</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -794,21 +735,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Office": "../entities/works/movies/the-office.md",
-          "Actor Bobby": "../entities/people/actor-bobby.md",
-          "Ray Shafer": "../entities/people/ray-shafer.md",
-          "Bob Vance": "../entities/people/bob-vance.md",
-          "Vance Refrigeration": "../entities/people/vance-refrigeration.md",
-          "Photo Journalist": "../entities/people/photo-journalist.md",
+          "Cinco De Mayo": "../entities/people/cinco-de-mayo.md",
+          "Saint Teresa": "../entities/people/saint-teresa.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "in southside Scranton during their Cinco De Mayo celebration": "../entities/events/in-southside-scranton-during-their-cinco-de-mayo-celebration.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-03T01:06:21",
-      "url": "https://www.2822news.com/news/local-news/bringing-tv-fandom-to-life-with-the-office-5k/",
+      "publishedAt": "2026-05-04T03:15:21",
+      "url": "https://www.2822news.com/news/local-news/church-serves-up-great-food-music-ahead-of-cinco-de-mayo/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -816,40 +754,33 @@
     },
     {
       "id": "short_12",
-      "title": "Hershey Bears win game 2 with 2-1 score against WBS Penguins",
-      "title_distilled": "Hershey Bears win game 2 with 2-1 score against WBS Penguins.",
-      "description": "(WBRE/WYOU) \u2014 The Pittsburgh Penguins were knocked out of the Stanley Cup playoffs after falling in their round one series to the Flyers 4-2. Meanwhile, back home in Wilkes-Barre and Scranton, the Penguins are entering game two of the Calder Cup playoffs against their oldest rival, the Hershey Bears, Saturday night at home. On X, [...]",
+      "title": "Navy band performs free concert at Scranton park",
+      "title_distilled": "Navy band performs free concert at Scranton park.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was nothing but electric in the Electric City on Sunday as music filled the air at a local park. The United States Navy Band, Cruisers, the Navy's premier popular music group, performed at Nay Aug Park. Dozens of people turned out for the high-energy, free concert, with some fans [...]",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 The Pittsburgh Penguins were knocked out of the Stanley Cup playoffs after falling in their round one series to the Flyers 4-2. Meanwhile, back home in Wilkes-Barre and Scranton, the Penguins are entering game two of the Calder Cup playoffs against their oldest rival, the Hershey Bears, Saturday night at home. On X, [...]",
-      "content_distilled": " \u2014 The Pittsburgh Penguins were knocked out of the Stanley Cup playoffs after falling in their round one series to the Flyers 4-2.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was nothing but electric in the Electric City on Sunday as music filled the air at a local park. The United States Navy Band, Cruisers, the Navy's premier popular music group, performed at Nay Aug Park. Dozens of people turned out for the high-energy, free concert, with some fans [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 It was nothing but electric in the Electric City on Sunday as music filled the air at a local park.",
       "graph": {
         "entities": [
           {
-            "name": "Hershey Bears",
+            "name": "Electric City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/hershey-bears.md",
+            "file_path": "../entities/people/electric-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Pittsburgh",
+            "name": "The United",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-pittsburgh.md",
+            "file_path": "../entities/people/the-united.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Stanley Cup",
+            "name": "Nay Aug Park",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/stanley-cup.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Calder Cup",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/calder-cup.md",
+            "file_path": "../entities/people/nay-aug-park.md",
             "resolution_method": "new_entity"
           },
           {
@@ -857,6 +788,34 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "local park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/local-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Aug Park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/aug-park.md",
             "resolution_method": "new_entity"
           },
           {
@@ -872,32 +831,28 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Hershey Bears win game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/hershey-bears-win-game.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "the Penguins are entering game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/the-penguins-are-entering-game.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "The Pittsburgh",
-            "to": "Stanley Cup",
-            "type": "MEMBER_OF"
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           },
           {
-            "from": "the Penguins are entering game",
-            "to": "Calder Cup",
-            "type": "MEMBER_OF"
+            "from": "Scranton park",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "local park",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Aug Park",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           },
           {
             "from": "WBRE",
@@ -910,7 +865,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hershey </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Pitt</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stanley </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Calder C</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Unit</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -921,23 +876,172 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Hershey Bears": "../entities/people/hershey-bears.md",
-          "The Pittsburgh": "../entities/people/the-pittsburgh.md",
-          "Stanley Cup": "../entities/people/stanley-cup.md",
-          "Calder Cup": "../entities/people/calder-cup.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "The United": "../entities/people/the-united.md",
+          "Nay Aug Park": "../entities/people/nay-aug-park.md",
           "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Scranton park": "../entities/locations/scranton-park.md",
+          "local park": "../entities/locations/local-park.md",
+          "Aug Park": "../entities/locations/aug-park.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Hershey Bears win game": "../entities/events/hershey-bears-win-game.md",
-          "the Penguins are entering game": "../entities/events/the-penguins-are-entering-game.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-02T22:47:22",
-      "url": "https://www.2822news.com/sports/wbs-penguins/penguins-enter-game-2-of-calder-cup-playoffs/",
+      "publishedAt": "2026-05-04T00:04:53",
+      "url": "https://www.2822news.com/news/local-news/navy-band-performs-free-concert-at-scranton-park/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "PennDOT to restrict lanes on I-81 in Lackawanna County",
+      "title_distilled": "PennDOT to restrict lanes on I-81 in Lackawanna County.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There will be lane restrictions on Interstate 81 in Lackawanna County starting Monday, according to the Pennsylvania Department of Transportation (PennDOT). Between ...",
+      "description_distilled": "",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There will be lane restrictions on Interstate 81 in Lackawanna County starting Monday, according to the Pennsylvania Department of Transportation (PennDOT). Between ...",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 There will be lane restrictions on Interstate 81 in Lackawanna County starting Monday, according to the Pennsylvania Department of Transportation .",
+      "graph": {
+        "entities": [
+          {
+            "name": "Between Monday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/between-monday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Biden Expressway",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/biden-expressway.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "There will be lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/there-will-be-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/pennsylvania-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Between Monday",
+            "to": "Biden Expressway",
+            "type": "LEFT",
+            "verb": "left"
+          },
+          {
+            "from": "Between Monday",
+            "to": "Scranton",
+            "type": "LEFT",
+            "verb": "left"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "There will be lane",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Pennsylvania Department",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Between </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Biden Ex</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">There wi</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Between Monday": "../entities/people/between-monday.md",
+          "Biden Expressway": "../entities/people/biden-expressway.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "There will be lane": "../entities/locations/there-will-be-lane.md",
+          "Pennsylvania Department": "../entities/organizations/pennsylvania-department.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-03T19:18:16",
+      "url": "https://www.2822news.com/traffic/penndot-to-restrict-lanes-on-i-81-in-lackawanna-county/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     }
   ]
