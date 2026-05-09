@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08T11:30:13.629770",
-  "source_file": "../data/daily/scranton_news_2026-05-08.json",
-  "total_shorts": 13,
-  "total_duration": 104,
+  "generated_at": "2026-05-09T11:18:37.838661",
+  "source_file": "../data/daily/scranton_news_2026-05-09.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -452,40 +452,75 @@
     },
     {
       "id": "short_8",
-      "title": "Democrat swing candidate called Biden's border handling 'a huge misstep' after backing his approach as mayor",
-      "title_distilled": "Democrat swing candidate called Biden's border handling 'a huge misstep' after backing his approach as mayor.",
-      "description": "Scranton Mayor Paige Cognetti, a Democratic House candidate, faced questions over her shift on Biden's southern border policies in a battleground House race.",
+      "title": "Scranton man convicted of rape",
+      "title_distilled": "Scranton man convicted of rape.",
+      "description": "A jury convicted Mario Valentine of the rape of a mentally disabled person and related charges.",
       "description_distilled": "",
-      "content": "Scranton Mayor Paige Cognetti, a Democratic House candidate, faced questions over her shift on Biden's southern border policies in a battleground House race.",
-      "content_distilled": "Scranton Mayor Paige Cognetti, a Democratic House candidate, faced questions over her shift on Biden's southern border policies in a battleground House race.",
+      "content": "A jury convicted Mario Valentine of the rape of a mentally disabled person and related charges.",
+      "content_distilled": "jury convicted Mario Valentine of the rape of a mentally disabled person and related charges.",
       "graph": {
         "entities": [
           {
-            "name": "s border handling",
-            "type": "WORK",
+            "name": "Mario Valentine",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/s-border-handling.md",
+            "file_path": "../entities/people/mario-valentine.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Mayor",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-mayor.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
+          }
+        ],
+        "relationships": [
           {
-            "name": "Paige Cognetti",
+            "from": "Scranton",
+            "to": "Mario Valentine",
+            "type": "CONVICTED",
+            "verb": "convicted"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mario Va</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONVICTED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Mario Valentine": "../entities/people/mario-valentine.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-08T19:10:09",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-man-convicted-of-rape-lackawanna-county/523-ede35e42-679e-43ce-80b0-55974a2e2148",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Man charged in connection with Scranton shooting",
+      "title_distilled": "Man charged in connection with Scranton shooting.",
+      "description": "Nymere Canada faces several charges, including aggravated assault, recklessly endangering another person, and simple assault.",
+      "description_distilled": "",
+      "content": "Nymere Canada faces several charges, including aggravated assault, recklessly endangering another person, and simple assault.",
+      "content_distilled": "Nymere Canada faces several charges, including aggravated assault, recklessly endangering another person, and simple assault.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Nymere Canada",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Democratic House",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/democratic-house.md",
+            "file_path": "../entities/people/nymere-canada.md",
             "resolution_method": "new_entity"
           },
           {
@@ -497,7 +532,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">s border</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nymere C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -508,65 +543,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "s border handling": "../entities/works/movies/s-border-handling.md",
-          "Scranton Mayor": "../entities/people/scranton-mayor.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
-          "Democratic House": "../entities/people/democratic-house.md",
+          "Nymere Canada": "../entities/people/nymere-canada.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Fox News",
-      "publishedAt": "2026-04-07T21:00:39Z",
-      "url": "https://www.foxnews.com/politics/democrat-swing-candidate-called-bidens-border-handling-a-huge-misstep-after-backing-his-approach-mayor",
-      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/04/paige-cognetti.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Mother's Day flowers are blossoming in Dunmore",
-      "title_distilled": "Mother's Day flowers are blossoming in Dunmore.",
-      "description": "Jerry's for All Seasons in Dunmore is bustling with vibrant flowers and hanging baskets ahead of Mother's Day, marking one of its busiest times.",
-      "description_distilled": "",
-      "content": "Jerry's for All Seasons in Dunmore is bustling with vibrant flowers and hanging baskets ahead of Mother's Day, marking one of its busiest times.",
-      "content_distilled": "Jerry's for All Seasons in Dunmore is bustling with vibrant flowers and hanging baskets ahead of Mother's Day, marking one of its busiest times.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Dunmore Jerry",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dunmore-jerry.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "All Seasons",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/all-seasons.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">All Seas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Dunmore Jerry": "../entities/people/dunmore-jerry.md",
-          "All Seasons": "../entities/people/all-seasons.md"
-        }
-      },
       "source": "Wnep",
-      "publishedAt": "2026-05-08T11:12:34",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/mothers-day-flowers-are-blossoming-in-dunmore/523-9d3171f0-04d2-415c-a664-4bbce67bafdb",
+      "publishedAt": "2026-05-08T16:20:59",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/man-charged-in-connection-with-scranton-shooting-clay-avenue/523-bf3b296c-8195-4cdb-bb4f-3c243eab5700",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -574,26 +557,108 @@
     },
     {
       "id": "short_10",
-      "title": "Candidates face off for democratic nomination",
-      "title_distilled": "Candidates face off for democratic nomination.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The 22nd senatorial district's Democratic incumbent Marty Flynn and his challenger Jeffrey Lake faced off Thursday at the University of Scranton. The two went back and forth on issues ranging from the state budget and housing costs to legalizing recreational marijuana. But with energy costs on the rise and data centers [...]",
+      "title": "State, local police begin 'Operation Nighthawk'",
+      "title_distilled": "State, local police begin 'Operation Nighthawk'.",
+      "description": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 On Friday, 75 officers hit the roads of Northeastern Pennsylvania with one goal in mind: saving lives. 'Operation Nighthawk' is a massive DUI enforcement sweep taking place across Lackawanna County. 258 people died last year in Pennsylvania in crashes involving impaired drivers, but State Trooper Bob Urban says one is too [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The 22nd senatorial district's Democratic incumbent Marty Flynn and his challenger Jeffrey Lake faced off Thursday at the University of Scranton. The two went back and forth on issues ranging from the state budget and housing costs to legalizing recreational marijuana. But with energy costs on the rise and data centers [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 The 22nd senatorial district's Democratic incumbent Marty Flynn and his challenger Jeffrey Lake faced off Thursday at the University of Scranton.",
+      "content": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 On Friday, 75 officers hit the roads of Northeastern Pennsylvania with one goal in mind: saving lives. 'Operation Nighthawk' is a massive DUI enforcement sweep taking place across Lackawanna County. 258 people died last year in Pennsylvania in crashes involving impaired drivers, but State Trooper Bob Urban says one is too [...]",
+      "content_distilled": "JESSUP, LACKAWANNA COUNTY \u2014 On Friday, 75 officers hit the roads of Northeastern Pennsylvania with one goal in mind: saving lives.",
       "graph": {
         "entities": [
           {
-            "name": "Marty Flynn",
-            "type": "PERSON",
+            "name": "Operation Nighthawk",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/marty-flynn.md",
+            "file_path": "../entities/works/movies/operation-nighthawk.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jeffrey Lake",
+            "name": "Northeastern Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jeffrey-lake.md",
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "State Trooper",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/state-trooper.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Operatio</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State Tr</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Operation Nighthawk": "../entities/works/movies/operation-nighthawk.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "State Trooper": "../entities/people/state-trooper.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-09T03:17:39",
+      "url": "https://www.2822news.com/news/state-local-police-begin-operation-nighthawk/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Man found guilty of raping 18-year-old with autism",
+      "title_distilled": "Man found guilty of raping 18-year-old with autism.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A guilty verdict was issued for a Scranton man convicted of raping an intellectually disabled woman. A jury needed just 90 minutes to convict Mario Valentine following a four-day trial. The victim, an 18-year-old woman, was assaulted in 2024. Valentine faces up to 35 years in prison.",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A guilty verdict was issued for a Scranton man convicted of raping an intellectually disabled woman. A jury needed just 90 minutes to convict Mario Valentine following a four-day trial. The victim, an 18-year-old woman, was assaulted in 2024. Valentine faces up to 35 years in prison.",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A guilty verdict was issued for a Scranton man convicted of raping an intellectually disabled woman.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Mario Valentine",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mario-valentine.md",
             "resolution_method": "new_entity"
           },
           {
@@ -625,14 +690,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Marty Flynn",
-            "to": "SCRANTON",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marty Fl</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jeffrey </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mario Va</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -643,8 +702,7 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Marty Flynn": "../entities/people/marty-flynn.md",
-          "Jeffrey Lake": "../entities/people/jeffrey-lake.md",
+          "Mario Valentine": "../entities/people/mario-valentine.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
@@ -652,21 +710,21 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-08T03:15:55",
-      "url": "https://www.2822news.com/top-news/candidates-face-off-for-democratic-nomination/",
+      "publishedAt": "2026-05-08T23:30:18",
+      "url": "https://www.2822news.com/news/man-found-guilty-of-raping-18-year-old-with-autism/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
-      "title": "Penguins beat Bears 4-1, advance to third round of AHL Playoffs",
-      "title_distilled": "Penguins beat Bears 4-1, advance to third round of AHL Playoffs.",
-      "description": "(WBRE/WYOU) \u2014 The Wilkes-Barre/Scranton Penguins beat the Hershey Bears 4-1 in Game 4 of the Second Round to win the series 3-1, and will move on to the Third Round of the AHL playoffs for the first time since 2016. Joona Koppanen netted one just over a minute into the game to give the Penguins [...]",
+      "id": "short_12",
+      "title": "Schedule released for Penguins next series vs Thunderbirds",
+      "title_distilled": "Schedule released for Penguins next series vs Thunderbirds.",
+      "description": "(WBRE/WYOU)\u2014 The Wilkes-Barre/Scranton Penguins defeated the Hershey Bears 4-1 on Thursday, winning the series 3-1, and advancing to the Atlantic Division Finals for the first time since 2016. The team announced its schedule for the best-of-five series against the Thunderbirds: Game 1: Tuesday, May 12 \u2013 Springfield @ Wilkes-Barre/Scranton, 7:05 p.m., Mohegan ArenaGame 2: Thursday, [...]",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 The Wilkes-Barre/Scranton Penguins beat the Hershey Bears 4-1 in Game 4 of the Second Round to win the series 3-1, and will move on to the Third Round of the AHL playoffs for the first time since 2016. Joona Koppanen netted one just over a minute into the game to give the Penguins [...]",
-      "content_distilled": " \u2014 The Wilkes-Barre/Scranton Penguins beat the Hershey Bears 4-1 in Game 4 of the Second Round to win the series 3-1, and will move on to the Third Round of the AHL playoffs for the first time since 2016.",
+      "content": "(WBRE/WYOU)\u2014 The Wilkes-Barre/Scranton Penguins defeated the Hershey Bears 4-1 on Thursday, winning the series 3-1, and advancing to the Atlantic Division Finals for the first time since 2016. The team announced its schedule for the best-of-five series against the Thunderbirds: Game 1: Tuesday, May 12 \u2013 Springfield @ Wilkes-Barre/Scranton, 7:05 p.m., Mohegan ArenaGame 2: Thursday, [...]",
+      "content_distilled": "\u2014 The Wilkes-Barre/Scranton Penguins defeated the Hershey Bears 4-1 on Thursday, winning the series 3-1, and advancing to the Atlantic Division Finals for the first time since 2016.",
       "graph": {
         "entities": [
           {
@@ -691,24 +749,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Second Round",
+            "name": "Atlantic Division",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/second-round.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Third Round",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/third-round.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Joona Koppanen",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/joona-koppanen.md",
+            "file_path": "../entities/people/atlantic-division.md",
             "resolution_method": "new_entity"
           },
           {
@@ -731,66 +775,59 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "in Game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/in-game.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
             "from": "The Wilkes",
             "to": "Hershey Bears",
-            "type": "BEAT",
-            "verb": "beat"
+            "type": "DEFEATED",
+            "verb": "defeated"
           },
           {
             "from": "The Wilkes",
-            "to": "Second Round",
-            "type": "BEAT",
-            "verb": "beat"
-          },
-          {
-            "from": "The Wilkes",
-            "to": "Third Round",
-            "type": "BEAT",
-            "verb": "beat"
-          },
-          {
-            "from": "The Wilkes",
-            "to": "in Game",
-            "type": "BEAT",
-            "verb": "beat"
+            "to": "Atlantic Division",
+            "type": "DEFEATED",
+            "verb": "defeated"
           },
           {
             "from": "Scranton Penguins",
             "to": "Hershey Bears",
-            "type": "BEAT",
-            "verb": "beat"
+            "type": "DEFEATED",
+            "verb": "defeated"
           },
           {
             "from": "Scranton Penguins",
-            "to": "Second Round",
-            "type": "BEAT",
-            "verb": "beat"
+            "to": "Atlantic Division",
+            "type": "DEFEATED",
+            "verb": "defeated"
           },
           {
-            "from": "Scranton Penguins",
-            "to": "Third Round",
-            "type": "BEAT",
-            "verb": "beat"
+            "from": "Scranton",
+            "to": "Hershey Bears",
+            "type": "DEFEATED",
+            "verb": "defeated"
           },
           {
-            "from": "Scranton Penguins",
-            "to": "in Game",
-            "type": "BEAT",
-            "verb": "beat"
+            "from": "WBRE",
+            "to": "Hershey Bears",
+            "type": "DEFEATED",
+            "verb": "defeated"
+          },
+          {
+            "from": "WYOU",
+            "to": "Hershey Bears",
+            "type": "DEFEATED",
+            "verb": "defeated"
+          },
+          {
+            "from": "Scranton",
+            "to": "Atlantic Division",
+            "type": "DEFEATED",
+            "verb": "defeated"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wilk</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hershey </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Second R</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Third Ro</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joona Ko</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wilk</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hershey </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Atlantic</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">DEFEATED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -804,45 +841,172 @@
           "The Wilkes": "../entities/people/the-wilkes.md",
           "Scranton Penguins": "../entities/people/scranton-penguins.md",
           "Hershey Bears": "../entities/people/hershey-bears.md",
-          "Second Round": "../entities/people/second-round.md",
-          "Third Round": "../entities/people/third-round.md",
-          "Joona Koppanen": "../entities/people/joona-koppanen.md",
+          "Atlantic Division": "../entities/people/atlantic-division.md",
           "Scranton": "../entities/locations/scranton.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "in Game": "../entities/events/in-game.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-08T01:55:36",
-      "url": "https://www.2822news.com/news/penguins-beat-bears-4-1-advance-to-second-round-of-ahl-playoffs/",
+      "publishedAt": "2026-05-08T22:17:14",
+      "url": "https://www.2822news.com/news/schedule-released-for-penguins-next-series-vs-thunderbirds/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
-      "title": "Community Theater to adapt show for young audiences",
-      "title_distilled": "Community Theater to adapt show for young audiences.",
-      "description": "TAYLOR, LACKAWANNA COUNTY(WBRE/WYOU) \u2014 Outlets for children to express themselves and create friendships outside of school are in high demand for many. In the case of Lila Stefanoski, being homeschooled adds to that. But being able to perform here helps that. \"So getting to come here really helps me a lot with socializing, and they're [...]",
+      "id": "short_13",
+      "title": "Man arrested in alleged connection to Scranton shooting",
+      "title_distilled": "Man arrested in alleged connection to Scranton shooting.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man has been arrested in an alleged connection to a shooting that took place in April. According to a report from Scranton Police, 21-year-old Nymere Can...",
       "description_distilled": "",
-      "content": "TAYLOR, LACKAWANNA COUNTY(WBRE/WYOU) \u2014 Outlets for children to express themselves and create friendships outside of school are in high demand for many. In the case of Lila Stefanoski, being homeschooled adds to that. But being able to perform here helps that. \"So getting to come here really helps me a lot with socializing, and they're [...]",
-      "content_distilled": "TAYLOR, LACKAWANNA COUNTY \u2014 Outlets for children to express themselves and create friendships outside of school are in high demand for many.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man has been arrested in an alleged connection to a shooting that took place in April. According to a report from Scranton Police, 21-year-old Nymere Can...",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A man has been arrested in an alleged connection to a shooting that took place in April.",
       "graph": {
         "entities": [
           {
-            "name": "Community Theater",
+            "name": "Scranton Police",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/community-theater.md",
+            "file_path": "../entities/people/scranton-police.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lila Stefanoski",
+            "name": "Nymere Canada",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/lila-stefanoski.md",
+            "file_path": "../entities/people/nymere-canada.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Clay Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/clay-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "block of Clay Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/block-of-clay-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "block of Clay Avenue",
+            "to": "Clay Avenue",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "block of Clay Avenue",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nymere C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clay Ave</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">block of</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Police": "../entities/people/scranton-police.md",
+          "Nymere Canada": "../entities/people/nymere-canada.md",
+          "Clay Avenue": "../entities/people/clay-avenue.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "block of Clay Avenue": "../entities/locations/block-of-clay-avenue.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-08T19:23:59",
+      "url": "https://www.2822news.com/news/man-arrested-in-alleged-connection-to-scranton-shooting/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Local small businesses keep traditions alive in Scranton",
+      "title_distilled": "Local small businesses keep traditions alive in Scranton.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 This week is National Small Business Week, and with Mother's Day coming up this weekend, local shops are seeing support pour in from their communities. 28/22 News visited a Scranton bakery to see how small businesses help keep local traditions alive. My Mother's Delicacies has been serving the community for [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 This week is National Small Business Week, and with Mother's Day coming up this weekend, local shops are seeing support pour in from their communities. 28/22 News visited a Scranton bakery to see how small businesses help keep local traditions alive. My Mother's Delicacies has been serving the community for [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 This week is National Small Business Week, and with Mother's Day coming up this weekend, local shops are seeing support pour in from their communities.",
+      "graph": {
+        "entities": [
+          {
+            "name": "National Small",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/national-small.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Business Week",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/business-week.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -867,8 +1031,29 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lila Ste</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "National Small",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Business</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -879,19 +1064,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Community Theater": "../entities/people/community-theater.md",
-          "Lila Stefanoski": "../entities/people/lila-stefanoski.md",
+          "National Small": "../entities/people/national-small.md",
+          "Business Week": "../entities/people/business-week.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-07T16:24:57",
-      "url": "https://www.2822news.com/news/community-theater-to-adapt-show-for-young-audiences/",
+      "publishedAt": "2026-05-08T17:08:13",
+      "url": "https://www.2822news.com/news/local-small-businesses-keep-traditions-alive-in-scranton/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
