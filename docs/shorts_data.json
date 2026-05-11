@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-10T11:20:16.903321",
-  "source_file": "../data/daily/scranton_news_2026-05-10.json",
+  "generated_at": "2026-05-11T12:02:15.480188",
+  "source_file": "../data/daily/scranton_news_2026-05-11.json",
   "total_shorts": 12,
   "total_duration": 96,
   "has_svo": false,
@@ -421,26 +421,40 @@
     },
     {
       "id": "short_7",
-      "title": "Helen Gohsler, Scranton's pro-life advocate, dies at 95",
-      "title_distilled": "Helen Gohsler, Scranton's pro-life advocate, dies at 95.",
-      "description": "Helen Gohsler, a lifelong pro-life advocate who led Scranton's Pennsylvanians for Human Life chapter for 37 years, passed away at 95.",
+      "title": "Special Mass in Scranton Honors Mothers by Choice on Mother's Day",
+      "title_distilled": "Special Mass in Scranton Honors Mothers by Choice on Mother's Day.",
+      "description": "A heartfelt Mother's Day Adoption Mass in Scranton honors mothers by choice, celebrating the profound bonds formed through adoption at Saint Peter's Cathedral.",
       "description_distilled": "",
-      "content": "Helen Gohsler, a lifelong pro-life advocate who led Scranton's Pennsylvanians for Human Life chapter for 37 years, passed away at 95.",
-      "content_distilled": "Helen Gohsler, a lifelong pro-life advocate who led Scranton's Pennsylvanians for Human Life chapter for 37 years, passed away at 95.",
+      "content": "A heartfelt Mother's Day Adoption Mass in Scranton honors mothers by choice, celebrating the profound bonds formed through adoption at Saint Peter's Cathedral.",
+      "content_distilled": "heartfelt Mother's Day Adoption Mass in Scranton honors mothers by choice, celebrating the profound bonds formed through adoption at Saint Peter's Cathedral.",
       "graph": {
         "entities": [
           {
-            "name": "Helen Gohsler",
+            "name": "Special Mass",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/helen-gohsler.md",
+            "file_path": "../entities/people/special-mass.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Human Life",
+            "name": "Scranton Honors",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/human-life.md",
+            "file_path": "../entities/people/scranton-honors.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Day Adoption",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/day-adoption.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Saint Peter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/saint-peter.md",
             "resolution_method": "new_entity"
           },
           {
@@ -451,8 +465,14 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Helen Go</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Human Li</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Special Mass",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Special </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Adop</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Pe</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -463,14 +483,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Helen Gohsler": "../entities/people/helen-gohsler.md",
-          "Human Life": "../entities/people/human-life.md",
+          "Special Mass": "../entities/people/special-mass.md",
+          "Scranton Honors": "../entities/people/scranton-honors.md",
+          "Day Adoption": "../entities/people/day-adoption.md",
+          "Saint Peter": "../entities/people/saint-peter.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-10T02:56:00",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/helen-gohsler-scrantons-pro-life-pioneer-dies-at-95-lackawanna-county/523-31845012-4d1a-4e1a-82da-25cefb8a79b7",
+      "publishedAt": "2026-05-11T02:43:50",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/special-mass-in-scranton-honors-mothers-by-choice-on-mothers-day/523-e87992a6-8218-4a02-9eb8-0c1aa9ff7678",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
@@ -478,6 +500,82 @@
     },
     {
       "id": "short_8",
+      "title": "Families Celebrate Mother\u2019s Day at Cooper\u2019s Seafood House in Scranton",
+      "title_distilled": "Families Celebrate Mother\u2019s Day at Cooper\u2019s Seafood House in Scranton.",
+      "description": "Many families across NEPA spent today celebrating the women who raised them. For many in Scranton, that tradition brought them to a popular restaurant.",
+      "description_distilled": "",
+      "content": "Many families across NEPA spent today celebrating the women who raised them. For many in Scranton, that tradition brought them to a popular restaurant.",
+      "content_distilled": "Many families across NEPA spent today celebrating the women who raised them.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Families Celebrate",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/families-celebrate.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Seafood House",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/seafood-house.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Many",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-many.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Seafood House",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Scranton Many",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Families</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Seafood </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Families Celebrate": "../entities/people/families-celebrate.md",
+          "Seafood House": "../entities/people/seafood-house.md",
+          "Scranton Many": "../entities/people/scranton-many.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-10T22:46:38",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/families-celebrate-mothers-day-at-coopers-seafood-house-in-scranton-lackawanna-county/523-1e67dcb1-3e16-4046-bfb1-56fa25b6200b",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
       "title": "Coroner called to deadly crash in Lackawanna County",
       "title_distilled": "Coroner called to deadly crash in Lackawanna County.",
       "description": "Crews were called to the scene along 801 Route 502 in Lackawanna County for a crash that killed a 26-year-old man from Scranton.",
@@ -524,28 +622,56 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-09T22:03:48",
+      "publishedAt": "2026-05-10T14:15:17",
       "url": "https://www.wnep.com/article/news/local/lackawanna-county/coroner-called-deadly-crash-lackawanna-county/523-9966f3ce-8c51-40f8-8693-abedef91c9b4",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
-      "title": "1 killed, 1 injured in crash on gravel driveway, PSP investigating",
-      "title_distilled": "1 killed, 1 injured in crash on gravel driveway, PSP investigating.",
-      "description": "SPRINGBROOK TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 One person was killed, and another was injured in a Saturday afternoon crash, officials say. Lackawanna County officials confirmed the coroner was called around 2:20 p.m. Saturday to a crash off Route 502 in Springbrook Township. One person was killed, and another was injured, county officials say. Lackawanna County [...]",
+      "id": "short_10",
+      "title": "Honoring all mothers at annual Mother's Day Adoption Mass",
+      "title_distilled": "Honoring all mothers at annual Mother's Day Adoption Mass.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some families are born, others are chosen, and on Sunday, both were honored. Faith, family, and love filled Saint Peter's Cathedral in Scranton as part of the Diocese of Scranton's Annual Mother's Day Adoption Mass. The service honored all mothers, with special recognition for adoptive, foster, and birth mothers. Families [...]",
       "description_distilled": "",
-      "content": "SPRINGBROOK TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 One person was killed, and another was injured in a Saturday afternoon crash, officials say. Lackawanna County officials confirmed the coroner was called around 2:20 p.m. Saturday to a crash off Route 502 in Springbrook Township. One person was killed, and another was injured, county officials say. Lackawanna County [...]",
-      "content_distilled": "SPRINGBROOK TWP.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some families are born, others are chosen, and on Sunday, both were honored. Faith, family, and love filled Saint Peter's Cathedral in Scranton as part of the Diocese of Scranton's Annual Mother's Day Adoption Mass. The service honored all mothers, with special recognition for adoptive, foster, and birth mothers. Families [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Some families are born, others are chosen, and on Sunday, both were honored.",
       "graph": {
         "entities": [
           {
-            "name": "Springbrook Township",
+            "name": "s Annual Mother",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/s-annual-mother.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Day Adoption",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/springbrook-township.md",
+            "file_path": "../entities/people/day-adoption.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Saint Peter",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/saint-peter.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Annual Mother",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/annual-mother.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -571,7 +697,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Springbr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">s Annual</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Adop</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Pe</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual M</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -582,56 +708,67 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Springbrook Township": "../entities/people/springbrook-township.md",
+          "s Annual Mother": "../entities/works/movies/s-annual-mother.md",
+          "Day Adoption": "../entities/people/day-adoption.md",
+          "Saint Peter": "../entities/people/saint-peter.md",
+          "Annual Mother": "../entities/people/annual-mother.md",
+          "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-09T19:37:33",
-      "url": "https://www.2822news.com/top-news/1-killed-1-injured-in-crash-on-gravel-driveway/",
+      "publishedAt": "2026-05-10T23:04:04",
+      "url": "https://www.2822news.com/news/local-news/honoring-all-mothers-at-annual-mothers-day-adoption-mass/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
-      "title": "Hose company hosts Soppressata contest for food, fun, fundraising",
-      "title_distilled": "Hose company hosts Soppressata contest for food, fun, fundraising.",
-      "description": "CARBONDALE TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Homemade meats, packed tables, and people traveling from multiple states: The Meredith Hose Company hosted its annual Soppressata Contest in Childs near Carbondale, drawing more than 100 people for food, fun, and fundraising. People packed into the Meredith Hose Company to sample different kinds of homemade soppressata, a dry [...]",
+      "id": "short_11",
+      "title": "Coroner identifies man killed in driveway crash",
+      "title_distilled": "Coroner identifies man killed in driveway crash.",
+      "description": "SPRINGBOOK TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Lackawanna County Coroner has identified the man killed in a Saturday afternoon crash. Jonathan Ordonez Delag of Scranton, 26, died after multip...",
       "description_distilled": "",
-      "content": "CARBONDALE TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Homemade meats, packed tables, and people traveling from multiple states: The Meredith Hose Company hosted its annual Soppressata Contest in Childs near Carbondale, drawing more than 100 people for food, fun, and fundraising. People packed into the Meredith Hose Company to sample different kinds of homemade soppressata, a dry [...]",
-      "content_distilled": "CARBONDALE TOWNSHIP, LACKAWANNA COUNTY  \u2014 Homemade meats, packed tables, and people traveling from multiple states: The Meredith Hose Company hosted its annual Soppressata Contest in Childs near Carbondale, drawing more than 100 people for food, fun, and fundraising.",
+      "content": "SPRINGBOOK TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Lackawanna County Coroner has identified the man killed in a Saturday afternoon crash. Jonathan Ordonez Delag of Scranton, 26, died after multip...",
+      "content_distilled": "SPRINGBOOK TWP.",
       "graph": {
         "entities": [
           {
-            "name": "The Meredith",
+            "name": "The Lackawanna",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-meredith.md",
+            "file_path": "../entities/people/the-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Hose Company",
+            "name": "Jonathan Ordonez",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/hose-company.md",
+            "file_path": "../entities/people/jonathan-ordonez.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Soppressata Contest",
+            "name": "Springbrook Township",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/soppressata-contest.md",
+            "file_path": "../entities/people/springbrook-township.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Meredith Hose",
+            "name": "Coroner Timothy",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/meredith-hose.md",
+            "file_path": "../entities/people/coroner-timothy.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -639,20 +776,6 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Meredith Hose Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-meredith-hose-company.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Meredith Hose Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/meredith-hose-company.md",
             "resolution_method": "new_entity"
           },
           {
@@ -672,12 +795,27 @@
         ],
         "relationships": [
           {
-            "from": "The Meredith",
-            "to": "Soppressata Contest",
+            "from": "Jonathan Ordonez",
+            "to": "Scranton",
             "type": "MEMBER_OF"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Mere</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hose Com</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Soppress</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Meredith</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Mere</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jonathan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Springbr</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Coroner </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -688,144 +826,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Meredith": "../entities/people/the-meredith.md",
-          "Hose Company": "../entities/people/hose-company.md",
-          "Soppressata Contest": "../entities/people/soppressata-contest.md",
-          "Meredith Hose": "../entities/people/meredith-hose.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "Jonathan Ordonez": "../entities/people/jonathan-ordonez.md",
+          "Springbrook Township": "../entities/people/springbrook-township.md",
+          "Coroner Timothy": "../entities/people/coroner-timothy.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "The Meredith Hose Company": "../entities/organizations/the-meredith-hose-company.md",
-          "Meredith Hose Company": "../entities/organizations/meredith-hose-company.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-10T03:20:05",
-      "url": "https://www.2822news.com/news/hose-company-hosts-soppressata-contest-for-food-fun-fundraising/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Bringing community together with food, art, fun for kids",
-      "title_distilled": "Bringing community together with food, art, fun for kids.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Bringing a community together with art and food, and making art extra fun for kids: That's what was happening at the annual Pine Brook Family Arts Festival on Saturday in Scranton. The United Neighborhood Centers of Northeastern Pennsylvania teamed up with John Adams Elementary School. Kids got the chance to [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Bringing a community together with art and food, and making art extra fun for kids: That's what was happening at the annual Pine Brook Family Arts Festival on Saturday in Scranton. The United Neighborhood Centers of Northeastern Pennsylvania teamed up with John Adams Elementary School. Kids got the chance to [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Bringing a community together with art and food, and making art extra fun for kids: That's what was happening at the annual Pine Brook Family Arts Festival on Saturday in Scranton.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Pine Brook",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pine-brook.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Family Arts",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/family-arts.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The United",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-united.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Neighborhood Centers",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/neighborhood-centers.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "John Adams",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/john-adams.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Elementary School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/elementary-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "The United",
-            "to": "Northeastern Pennsylvania",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Pine Brook",
-            "to": "SCRANTON",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pine Bro</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Family A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Unit</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Neighbor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Ada</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Pine Brook": "../entities/people/pine-brook.md",
-          "Family Arts": "../entities/people/family-arts.md",
-          "The United": "../entities/people/the-united.md",
-          "Neighborhood Centers": "../entities/people/neighborhood-centers.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "John Adams": "../entities/people/john-adams.md",
-          "Elementary School": "../entities/people/elementary-school.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-09T22:37:02",
-      "url": "https://www.2822news.com/news/local-news/bringing-community-together-with-food-art-fun-for-kids/",
+      "publishedAt": "2026-05-10T14:24:36",
+      "url": "https://www.2822news.com/news/coroner-identifies-man-killed-in-driveway-crash/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
