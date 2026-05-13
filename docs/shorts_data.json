@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-12T11:38:10.019374",
-  "source_file": "../data/daily/scranton_news_2026-05-12.json",
+  "generated_at": "2026-05-13T11:43:35.032104",
+  "source_file": "../data/daily/scranton_news_2026-05-13.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -421,26 +421,33 @@
     },
     {
       "id": "short_7",
-      "title": "Swingin' on Vine fundraiser returns to support Scranton Public Libraries",
-      "title_distilled": "Swingin' on Vine fundraiser returns to support Scranton Public Libraries.",
-      "description": "Swingin' On Vine, Scranton Public Library's major annual fundraiser, promises live music, food, and dancing, with proceeds aiding local library services.",
+      "title": "Fans cheer on Wilkes-Barre/Scranton Penguins during Calder Cup playoffs",
+      "title_distilled": "Fans cheer on Wilkes-Barre/Scranton Penguins during Calder Cup playoffs.",
+      "description": "It's been a decade since the Baby Pens advanced this far in the Calder Cup tournament. Newswatch 16's Adi Iyer joined the fans at the arena for game one.",
       "description_distilled": "",
-      "content": "Swingin' On Vine, Scranton Public Library's major annual fundraiser, promises live music, food, and dancing, with proceeds aiding local library services.",
-      "content_distilled": "Swingin' On Vine, Scranton Public Library's major annual fundraiser, promises live music, food, and dancing, with proceeds aiding local library services.",
+      "content": "It's been a decade since the Baby Pens advanced this far in the Calder Cup tournament. Newswatch 16's Adi Iyer joined the fans at the arena for game one.",
+      "content_distilled": "It's been a decade since the Baby Pens advanced this far in the Calder Cup tournament.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Public",
+            "name": "Scranton Penguins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-public.md",
+            "file_path": "../entities/people/scranton-penguins.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Libraries Swingin",
+            "name": "Calder Cup",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/libraries-swingin.md",
+            "file_path": "../entities/people/calder-cup.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Baby Pens",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/baby-pens.md",
             "resolution_method": "new_entity"
           },
           {
@@ -449,10 +456,30 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "decade since the Baby Pens advanced this far in the Calder Cup tournament",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/decade-since-the-baby-pens-advanced-this-far-in-the-calder-cup-tournament.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Adi Iyer joined the fans at the arena for game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/adi-iyer-joined-the-fans-at-the-arena-for-game.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Librarie</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Scranton Penguins",
+            "to": "Calder Cup",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Calder C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Baby Pen</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">decade s</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Adi Iyer</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -463,14 +490,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Public": "../entities/people/scranton-public.md",
-          "Libraries Swingin": "../entities/people/libraries-swingin.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Scranton Penguins": "../entities/people/scranton-penguins.md",
+          "Calder Cup": "../entities/people/calder-cup.md",
+          "Baby Pens": "../entities/people/baby-pens.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "decade since the Baby Pens advanced this far in the Calder Cup tournament": "../entities/events/decade-since-the-baby-pens-advanced-this-far-in-the-calder-cup-tournament.md",
+          "Adi Iyer joined the fans at the arena for game": "../entities/events/adi-iyer-joined-the-fans-at-the-arena-for-game.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-12T11:25:26",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/swingin-on-vine-fundraiser-returns-to-support-scranton-public-libraries-15-years-lackwanna-county/523-f9a3c96d-a12f-4f20-851e-7a28cce5b139",
+      "publishedAt": "2026-05-13T03:22:43",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/fans-cheer-on-wilkes-barre-penguins-during-calder-cup-playoffs-scranton-luzerne-county-mohegan-arena/523-e3d4e454-cbf9-4e47-9a4c-e0cb6793e652",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
@@ -478,19 +508,19 @@
     },
     {
       "id": "short_8",
-      "title": "Scranton man to spend 'rest of his life behind bars' for sexually abusing children, DA says",
-      "title_distilled": "Scranton man to spend 'rest of his life behind bars' for sexually abusing children, DA says.",
-      "description": "\"This defendant repeatedly preyed upon vulnerable children and a mentally disabled victim, causing unimaginable trauma and lifelong harm,\" says DA Brian Gallagher",
+      "title": "Scranton School District's MMA mentoring program hosts championship tournament",
+      "title_distilled": "Scranton School District's MMA mentoring program hosts championship tournament.",
+      "description": "The school district's MMA and SEL program hosted its championship tournament on Tuesday.",
       "description_distilled": "",
-      "content": "\"This defendant repeatedly preyed upon vulnerable children and a mentally disabled victim, causing unimaginable trauma and lifelong harm,\" says DA Brian Gallagher",
-      "content_distilled": "\"This defendant repeatedly preyed upon vulnerable children and a mentally disabled victim, causing unimaginable trauma and lifelong harm,\" says DA Brian Gallagher.",
+      "content": "The school district's MMA and SEL program hosted its championship tournament on Tuesday.",
+      "content_distilled": "school district's MMA and SEL program hosted its championship tournament on Tuesday.",
       "graph": {
         "entities": [
           {
-            "name": "Brian Gallagher",
+            "name": "Scranton School",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/brian-gallagher.md",
+            "file_path": "../entities/people/scranton-school.md",
             "resolution_method": "new_entity"
           },
           {
@@ -499,10 +529,24 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "MMA mentoring program hosts championship tournament",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/mma-mentoring-program-hosts-championship-tournament.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "MMA and SEL program hosted its championship tournament",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/mma-and-sel-program-hosted-its-championship-tournament.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brian Ga</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">MMA ment</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">MMA and </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -513,13 +557,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Brian Gallagher": "../entities/people/brian-gallagher.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Scranton School": "../entities/people/scranton-school.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "MMA mentoring program hosts championship tournament": "../entities/events/mma-mentoring-program-hosts-championship-tournament.md",
+          "MMA and SEL program hosted its championship tournament": "../entities/events/mma-and-sel-program-hosted-its-championship-tournament.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-11T18:50:39",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/sex-abuse-child-sentence-judge-barrasse-tara-glan/523-e006d8f7-dc34-4e24-bd5b-0d52e8a4268b",
+      "publishedAt": "2026-05-13T01:13:49",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-mma-mentoring-program-hosts-championship-tournament-lackawanna-county/523-2fd7e632-5c8a-46e1-8a97-e1eaf0c8f617",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -527,38 +573,42 @@
     },
     {
       "id": "short_9",
-      "title": "Under the influence, a wanted Scranton man hits a cop car at a red light, police said",
-      "title_distilled": "Under the influence, a wanted Scranton man hits a cop car at a red light, police said.",
-      "description": "No one was hurt in the pre-dawn collision, but Pablo Rivera ended up in handcuffs",
+      "title": "Children's Advocacy Center of NEPA seeks state funds to expand support for victims",
+      "title_distilled": "Children's Advocacy Center of NEPA seeks state funds to expand support for victims.",
+      "description": "The Children's Advocacy Center of NEPA is opening its doors to lawmakers and members of law enforcement as they push for more funding from Harrisburg.",
       "description_distilled": "",
-      "content": "No one was hurt in the pre-dawn collision, but Pablo Rivera ended up in handcuffs",
-      "content_distilled": "No one was hurt in the pre-dawn collision, but Pablo Rivera ended up in handcuffs.",
+      "content": "The Children's Advocacy Center of NEPA is opening its doors to lawmakers and members of law enforcement as they push for more funding from Harrisburg.",
+      "content_distilled": "Children's Advocacy Center of NEPA is opening its doors to lawmakers and members of law enforcement as they push for more funding from Harrisburg.",
       "graph": {
         "entities": [
           {
-            "name": "Pablo Rivera",
+            "name": "Advocacy Center",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pablo-rivera.md",
+            "file_path": "../entities/people/advocacy-center.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "The Children",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/the-children.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton",
-            "to": "Pablo Rivera",
-            "type": "SAID",
-            "verb": "said"
+            "from": "Advocacy Center",
+            "to": "The Children",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Advocacy Center",
+            "to": "The Children",
+            "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pablo Ri</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Advocacy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Chil</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -569,13 +619,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pablo Rivera": "../entities/people/pablo-rivera.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Advocacy Center": "../entities/people/advocacy-center.md",
+          "The Children": "../entities/people/the-children.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-11T17:07:48",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-police-dui-crash-old-forge-pablo-rivera-arrest/523-7c649090-999d-45fe-abfa-a23c93be66a0",
+      "publishedAt": "2026-05-12T20:57:28",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/childrens-advocacy-center-of-nepa-seeks-state-funds-to-expand-support-for-victims-scranton-mulberry-street-harrisburg/523-5f73271a-8bc0-4091-bc51-8a0747f6c825",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -583,24 +633,31 @@
     },
     {
       "id": "short_10",
-      "title": "Scranton man accused of sexually abusing, threatening girl",
-      "title_distilled": "Scranton man accused of sexually abusing, threatening girl.",
-      "description": "Police say man threatened to kill the girl's family if she ever disclosed her abuse",
+      "title": "Meth and cocaine to blame in Lackawanna County crash that injured woman, police say",
+      "title_distilled": "Meth and cocaine to blame in Lackawanna County crash that injured woman, police say.",
+      "description": "Edward Stranko faces charges, including aggravated assault by vehicle while under the influence",
       "description_distilled": "",
-      "content": "Police say man threatened to kill the girl's family if she ever disclosed her abuse",
-      "content_distilled": "Police say man threatened to kill the girl's family if she ever disclosed her abuse.",
+      "content": "Edward Stranko faces charges, including aggravated assault by vehicle while under the influence",
+      "content_distilled": "Edward Stranko faces charges, including aggravated assault by vehicle while under the influence.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
+            "name": "Edward Stranko",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/edward-stranko.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Edward S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -611,12 +668,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Edward Stranko": "../entities/people/edward-stranko.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-11T15:46:26",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-lackawanna-county-abuse-case-threats-police-eliceo-ortega-davila/523-997b45a1-66d7-459c-913e-608917dfb457",
+      "publishedAt": "2026-05-12T18:03:25",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/drug-crash-dui-arrest-roaring-brook-township-edward-stranko-aggravated-assault/523-e3b2573b-0cf8-4523-957e-136b9f5aed98",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -624,45 +682,31 @@
     },
     {
       "id": "short_11",
-      "title": "Neighbors question data center plan",
-      "title_distilled": "Neighbors question data center plan.",
-      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There was a packed room in Archbald on Monday night, and a lot of unanswered questions about a data center that could be coming to Lackawanna County. More than 80 people showed up to a borough hearing on the proposed Green Mountain data center. They have concerns about health, safety, [...]",
+      "title": "Testing planned for Scranton flood protection and warning systems",
+      "title_distilled": "Testing planned for Scranton flood protection and warning systems.",
+      "description": "Some traffic disruptions expected when city tests levee closure systems",
       "description_distilled": "",
-      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 There was a packed room in Archbald on Monday night, and a lot of unanswered questions about a data center that could be coming to Lackawanna County. More than 80 people showed up to a borough hearing on the proposed Green Mountain data center. They have concerns about health, safety, [...]",
-      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 There was a packed room in Archbald on Monday night, and a lot of unanswered questions about a data center that could be coming to Lackawanna County.",
+      "content": "Some traffic disruptions expected when city tests levee closure systems",
+      "content_distilled": "Some traffic disruptions expected when city tests levee closure systems.",
       "graph": {
         "entities": [
           {
-            "name": "Green Mountain",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/green-mountain.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
+            "name": "Testing planned for Scranton flood protection and warning",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/events/testing-planned-for-scranton-flood-protection-and-warning.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Mo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Testing </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -673,15 +717,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Green Mountain": "../entities/people/green-mountain.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Scranton": "../entities/locations/scranton.md",
+          "Testing planned for Scranton flood protection and warning": "../entities/events/testing-planned-for-scranton-flood-protection-and-warning.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-05-12T03:15:43",
-      "url": "https://www.2822news.com/news/data-centers/neighbors-question-data-center-plan/",
+      "source": "Wnep",
+      "publishedAt": "2026-05-12T14:45:59",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/flood-testing-levee-sirens-scranton/523-98b03f2d-6eea-4b69-a621-12125c6e0775",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -689,113 +731,68 @@
     },
     {
       "id": "short_12",
-      "title": "Hobbit-themed Airbnb opens in NEPA",
-      "title_distilled": "Hobbit-themed Airbnb opens in NEPA.",
-      "description": "PENN FOREST TOWNSHIP, CARBON COUNTY (WBRE/WYOU) \u2014 A Hobbit-themed cabin in Carbon County is drawing big attention from fans of The Lord of the Rings. The one-bedroom, one-bath retreat near Jim Thorpe features a rustic stone and log design inspired by a Hobbit Hole. It's complete with cozy interiors and film references throughout the structure. [...]",
+      "title": "Penguins beat Thunderbirds 2-0, lead series 1-0",
+      "title_distilled": "Penguins beat Thunderbirds 2-0, lead series 1-0.",
+      "description": "(WBRE/WYOU) \u2014 The Wilkes-Barre/Scranton Penguins beat the Springfield Thunderbirds 2-0 in Game 1 of the Third Round to lead the Atlantic Division Finals Series 1-0. Bill Zonnon backhanded his first career AHL goal on the breakaway to give the Penguins a 1-0 lead in the middle of the second period. Then it was right-winger Tanner Howe [...]",
       "description_distilled": "",
-      "content": "PENN FOREST TOWNSHIP, CARBON COUNTY (WBRE/WYOU) \u2014 A Hobbit-themed cabin in Carbon County is drawing big attention from fans of The Lord of the Rings. The one-bedroom, one-bath retreat near Jim Thorpe features a rustic stone and log design inspired by a Hobbit Hole. It's complete with cozy interiors and film references throughout the structure. [...]",
-      "content_distilled": "PENN FOREST TOWNSHIP, CARBON COUNTY  \u2014 A Hobbit-themed cabin in Carbon County is drawing big attention from fans of The Lord of the Rings.",
+      "content": "(WBRE/WYOU) \u2014 The Wilkes-Barre/Scranton Penguins beat the Springfield Thunderbirds 2-0 in Game 1 of the Third Round to lead the Atlantic Division Finals Series 1-0. Bill Zonnon backhanded his first career AHL goal on the breakaway to give the Penguins a 1-0 lead in the middle of the second period. Then it was right-winger Tanner Howe [...]",
+      "content_distilled": " \u2014 The Wilkes-Barre/Scranton Penguins beat the Springfield Thunderbirds 2-0 in Game 1 of the Third Round to lead the Atlantic Division Finals Series 1-0.",
       "graph": {
         "entities": [
           {
-            "name": "The Lord",
+            "name": "The Wilkes",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-lord.md",
+            "file_path": "../entities/people/the-wilkes.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jim Thorpe",
+            "name": "Scranton Penguins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jim-thorpe.md",
+            "file_path": "../entities/people/scranton-penguins.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Hobbit Hole",
+            "name": "Springfield Thunderbirds",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/hobbit-hole.md",
+            "file_path": "../entities/people/springfield-thunderbirds.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
+            "name": "Third Round",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
+            "file_path": "../entities/people/third-round.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Jim Thorpe",
-            "to": "Hobbit Hole",
-            "type": "FEATURES",
-            "verb": "features"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lord</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jim Thor</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hobbit H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">FEATURES</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "The Lord": "../entities/people/the-lord.md",
-          "Jim Thorpe": "../entities/people/jim-thorpe.md",
-          "Hobbit Hole": "../entities/people/hobbit-hole.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-12T01:31:29",
-      "url": "https://www.2822news.com/news/local-news/hobbit-themed-airbnb-opens-in-nepa/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Man facing DUI charges after crashing into police car",
-      "title_distilled": "Man facing DUI charges after crashing into police car.",
-      "description": "(WBRE/WYOU) \u2014 A Scranton man is locked up after crashing into a marked police car while the officers inside were transporting a prisoner. Early Saturday morning, Old Forge officers say they were stopped at a red light at Olive and Penn when Pablo Rivera's jeep slammed into them from behind. Rivera refused to say who [...]",
-      "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 A Scranton man is locked up after crashing into a marked police car while the officers inside were transporting a prisoner. Early Saturday morning, Old Forge officers say they were stopped at a red light at Olive and Penn when Pablo Rivera's jeep slammed into them from behind. Rivera refused to say who [...]",
-      "content_distilled": " \u2014 A Scranton man is locked up after crashing into a marked police car while the officers inside were transporting a prisoner.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Early Saturday",
+            "name": "Atlantic Division",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/early-saturday.md",
+            "file_path": "../entities/people/atlantic-division.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Old Forge",
+            "name": "Finals Series",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
+            "file_path": "../entities/people/finals-series.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pablo Rivera",
+            "name": "Bill Zonnon",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pablo-rivera.md",
+            "file_path": "../entities/people/bill-zonnon.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tanner Howe",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/tanner-howe.md",
             "resolution_method": "new_entity"
           },
           {
@@ -811,28 +808,59 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "from": "The Wilkes",
+            "to": "Springfield Thunderbirds",
+            "type": "BEAT",
+            "verb": "beat"
           },
           {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "from": "The Wilkes",
+            "to": "Third Round",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "The Wilkes",
+            "to": "Atlantic Division",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "The Wilkes",
+            "to": "Finals Series",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "Scranton Penguins",
+            "to": "Springfield Thunderbirds",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "Scranton Penguins",
+            "to": "Third Round",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "Scranton Penguins",
+            "to": "Atlantic Division",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "Scranton Penguins",
+            "to": "Finals Series",
+            "type": "BEAT",
+            "verb": "beat"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Early Sa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pablo Ri</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wilk</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Springfi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Third Ro</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Atlantic</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Finals S</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -843,51 +871,48 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Early Saturday": "../entities/people/early-saturday.md",
-          "Old Forge": "../entities/people/old-forge.md",
-          "Pablo Rivera": "../entities/people/pablo-rivera.md",
+          "The Wilkes": "../entities/people/the-wilkes.md",
+          "Scranton Penguins": "../entities/people/scranton-penguins.md",
+          "Springfield Thunderbirds": "../entities/people/springfield-thunderbirds.md",
+          "Third Round": "../entities/people/third-round.md",
+          "Atlantic Division": "../entities/people/atlantic-division.md",
+          "Finals Series": "../entities/people/finals-series.md",
+          "Bill Zonnon": "../entities/people/bill-zonnon.md",
+          "Tanner Howe": "../entities/people/tanner-howe.md",
           "Scranton": "../entities/locations/scranton.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WBRE": "../entities/organizations/wbre.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-12T01:17:33",
-      "url": "https://www.2822news.com/news/crime-courts/man-facing-dui-charges-after-crashing-into-police-car/",
+      "publishedAt": "2026-05-13T01:22:45",
+      "url": "https://www.2822news.com/news/penguins-beat-thunderbirds-2-0-lead-series-1-0/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_14",
-      "title": "Crews put finishing touches on courts at Nay Aug Park",
-      "title_distilled": "Crews put finishing touches on courts at Nay Aug Park.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 As summer approaches, finishing touches are being done at a Lackawanna County park. Crews were seen painting lines on Monday for the new pickleball and basketball courts at Nay Aug Park in Scranton. The courts are expected to open for Memorial Day weekend. The Director of Parks and Recreation says [...]",
+      "id": "short_13",
+      "title": "Child advocacy centers fight for funding",
+      "title_distilled": "Child advocacy centers fight for funding.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Child advocacy centers say limited state and federal funding is stretching resources thin, and a tour of one of their facilities provided insight into the struggles centers across the state face. 28/22 News Reporter Connor Coar was at the tour and has details about what leadership is hoping for. \"The [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 As summer approaches, finishing touches are being done at a Lackawanna County park. Crews were seen painting lines on Monday for the new pickleball and basketball courts at Nay Aug Park in Scranton. The courts are expected to open for Memorial Day weekend. The Director of Parks and Recreation says [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 As summer approaches, finishing touches are being done at a Lackawanna County park.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Child advocacy centers say limited state and federal funding is stretching resources thin, and a tour of one of their facilities provided insight into the struggles centers across the state face. 28/22 News Reporter Connor Coar was at the tour and has details about what leadership is hoping for. \"The [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Child advocacy centers say limited state and federal funding is stretching resources thin, and a tour of one of their facilities provided insight into the struggles centers across the state face.",
       "graph": {
         "entities": [
           {
-            "name": "Nay Aug Park",
+            "name": "News Reporter",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/nay-aug-park.md",
+            "file_path": "../entities/people/news-reporter.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Memorial Day",
+            "name": "Connor Coar",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/memorial-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Director",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-director.md",
+            "file_path": "../entities/people/connor-coar.md",
             "resolution_method": "new_entity"
           },
           {
@@ -905,17 +930,91 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Aug Park",
-            "type": "LOCATION",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/aug-park.md",
+            "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "County park",
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Connor C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Connor Coar": "../entities/people/connor-coar.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-12T23:45:04",
+      "url": "https://www.2822news.com/news/local-news/child-advocacy-centers-fight-for-funding/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Food is Medicine pilot program to help patients get healthy food",
+      "title_distilled": "Food is Medicine pilot program to help patients get healthy food.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A big investment from the state, all going towards healthy foods: The Shapiro administration stopped by Geisinger's Fresh Food Farmacy in Scranton on Tuesday for a tour of the food pantry. The administration is backing a Food Is Medicine pilot program aimed at helping medicaid recipients with chronic conditions like [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A big investment from the state, all going towards healthy foods: The Shapiro administration stopped by Geisinger's Fresh Food Farmacy in Scranton on Tuesday for a tour of the food pantry. The administration is backing a Food Is Medicine pilot program aimed at helping medicaid recipients with chronic conditions like [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A big investment from the state, all going towards healthy foods: The Shapiro administration stopped by Geisinger's Fresh Food Farmacy in Scranton on Tuesday for a tour of the food pantry.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Shapiro",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-shapiro.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fresh Food",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fresh-food.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Food Is Medicine",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/food-is-medicine.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/county-park.md",
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
@@ -935,17 +1034,12 @@
         ],
         "relationships": [
           {
-            "from": "The Director",
-            "to": "County park",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Nay Aug Park",
+            "from": "Fresh Food",
             "to": "SCRANTON",
             "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Memorial</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Dire</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Aug Park</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Shap</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fresh Fo</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Food Is </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -956,20 +1050,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Nay Aug Park": "../entities/people/nay-aug-park.md",
-          "Memorial Day": "../entities/people/memorial-day.md",
-          "The Director": "../entities/people/the-director.md",
+          "The Shapiro": "../entities/people/the-shapiro.md",
+          "Fresh Food": "../entities/people/fresh-food.md",
+          "Food Is Medicine": "../entities/people/food-is-medicine.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Aug Park": "../entities/locations/aug-park.md",
-          "County park": "../entities/locations/county-park.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-11T22:50:48",
-      "url": "https://www.2822news.com/news/crews-put-finishing-touches-on-courts-at-nay-aug-park/",
+      "publishedAt": "2026-05-12T23:14:32",
+      "url": "https://www.2822news.com/news/local-news/food-is-medicine-pilot-program-to-help-patients-get-healthy-food/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
