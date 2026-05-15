@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-14T11:35:09.085787",
-  "source_file": "../data/daily/scranton_news_2026-05-14.json",
-  "total_shorts": 10,
-  "total_duration": 80,
+  "generated_at": "2026-05-15T11:38:32.078409",
+  "source_file": "../data/daily/scranton_news_2026-05-15.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -194,6 +194,104 @@
     },
     {
       "id": "short_2",
+      "title": "Ruth Turkington promoted to Executive Vice President, Chief Banking Officer at Fidelity Bank",
+      "title_distilled": "Ruth Turkington promoted to Executive Vice President, Chief Banking Officer at Fidelity Bank.",
+      "description": "DUNMORE, Pa., May 13, 2026 (GLOBE NEWSWIRE) -- Daniel J. Santaniello, President and CEO of Fidelity Bank, is pleased to announce that Ruth Turkington has been promoted to Chief Banking Officer.",
+      "description_distilled": "",
+      "content": "DUNMORE, Pa., May 13, 2026 (GLOBE NEWSWIRE) -- Daniel J. Santaniello, President and CEO of Fidelity Bank, is pleased to announce that Ruth Turkington has been promoted to Chief Banking Officer.",
+      "content_distilled": "DUNMORE, Pa.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Ruth Turkington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ruth-turkington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Executive Vice",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/executive-vice.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Chief Banking",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/chief-banking.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fidelity Bank",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fidelity-bank.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Ruth Turkington",
+            "to": "Executive Vice",
+            "type": "PROMOTED",
+            "verb": "promoted"
+          },
+          {
+            "from": "Ruth Turkington",
+            "to": "Chief Banking",
+            "type": "PROMOTED",
+            "verb": "promoted"
+          },
+          {
+            "from": "Ruth Turkington",
+            "to": "Fidelity Bank",
+            "type": "PROMOTED",
+            "verb": "promoted"
+          },
+          {
+            "from": "Fidelity Bank",
+            "to": "Chief Banking",
+            "type": "PROMOTED",
+            "verb": "promoted"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ruth Tur</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Executiv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chief Ba</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fidelity</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PROMOTED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Ruth Turkington": "../entities/people/ruth-turkington.md",
+          "Executive Vice": "../entities/people/executive-vice.md",
+          "Chief Banking": "../entities/people/chief-banking.md",
+          "Fidelity Bank": "../entities/people/fidelity-bank.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-05-13T13:37:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/05/13/3294113/0/en/Ruth-Turkington-promoted-to-Executive-Vice-President-Chief-Banking-Officer-at-Fidelity-Bank.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/707ac25e-570e-4add-acc9-d40633e56829",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
+    },
+    {
+      "id": "short_3",
       "title": "Fidelity D & D Bancorp, Inc. Second Quarter 2026 Dividend",
       "title_distilled": "Fidelity D & D Bancorp, Inc.",
       "description": "Fidelity D&D Bancorp (NASDAQ: FDBC) announces Q2 2026 dividend of $0.43 per share, payable June 10, 2026 to shareholders of record May 20, 2026....",
@@ -238,11 +336,11 @@
       "url": "https://www.globenewswire.com/news-release/2026/04/22/3279422/0/en/Fidelity-D-D-Bancorp-Inc-Second-Quarter-2026-Dividend.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/9d0c9561-d853-4dd8-b6e0-d1d4100346a5",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council mem",
       "title_distilled": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council mem.",
       "description": "The residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area. \u2026",
@@ -287,11 +385,11 @@
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183026298",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council members have resigned from their positions as town fights back",
       "title_distilled": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council members have resigned from their positions as town fights back.",
       "description": "The residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area.",
@@ -336,11 +434,11 @@
       "url": "https://www.tomshardware.com/desktops/servers/six-ai-data-centers-proposed-for-a-small-town-of-7-000-equal-to-51-walmart-supercenters-in-17-square-mile-area-four-out-of-the-seven-town-council-members-have-resigned-from-their-positions-as-town-fights-back",
       "urlToImage": "https://cdn.mos.cms.futurecdn.net/cAkbprtpxDB6ChwJfP7Thg-1920-80.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "Residents left furious as their picturesque small town surrounded by forests and nature is set to be 'ruined' by sprawling data centers... but they're refusing to back down",
       "title_distilled": "Residents left furious as their picturesque small town surrounded by forests and nature is set to be 'ruined' by sprawling data centers.",
       "description": "Residents in Archbald, Pennsylvania are outraged over developers' plans to use hundreds of grassy acres for data centers, but they are pushing back against the projects.",
@@ -385,17 +483,58 @@
       "url": "https://www.dailymail.com/news/article-15767057/archbald-pennsylvania-data-center-angry-residents.html",
       "urlToImage": "https://i.dailymail.com/1s/2026/04/26/21/108177381-0-image-a-12_1777235396803.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
-      "title": "New facility in Carbondale to offer fresh start for women overcoming addiction",
-      "title_distilled": "New facility in Carbondale to offer fresh start for women overcoming addiction.",
-      "description": "Advocates are looking to offer a new place for rehabilitation to women in recovery in Lackawanna County.",
+      "id": "short_7",
+      "title": "Key series with Syracuse on tap this week for Triple-A RailRiders",
+      "title_distilled": "Key series with Syracuse on tap this week for Triple-A RailRiders.",
+      "description": "Both teams battling to stay in first-half race in International League.",
       "description_distilled": "",
-      "content": "Advocates are looking to offer a new place for rehabilitation to women in recovery in Lackawanna County.",
-      "content_distilled": "Advocates are looking to offer a new place for rehabilitation to women in recovery in Lackawanna County.",
+      "content": "Both teams battling to stay in first-half race in International League.",
+      "content_distilled": "Both teams battling to stay in first-half race in International League.",
+      "graph": {
+        "entities": [
+          {
+            "name": "International League",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/international-league.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Internat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "International League": "../entities/people/international-league.md"
+        }
+      },
+      "source": "Pinstripe Alley",
+      "publishedAt": "2026-05-13T12:30:00Z",
+      "url": "https://www.pinstripealley.com/yankees-prospects/187813/yankees-prospects-aaa-scranton-syracuse-road-trip-railriders",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wiMghwAmRq5V51kTqFueQw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/e51e584b988137d86730070a997932ac",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
+      "title": "Multi-vehicle crash on I-81 in Lackawanna County",
+      "title_distilled": "Multi-vehicle crash on I-81 in Lackawanna County.",
+      "description": "A lane restriction was in place after two vehicles were involved in a crash Thursday evening on I-81 north near Exit 180.",
+      "description_distilled": "",
+      "content": "A lane restriction was in place after two vehicles were involved in a crash Thursday evening on I-81 north near Exit 180.",
+      "content_distilled": "lane restriction was in place after two vehicles were involved in a crash Thursday evening on I-81 north near Exit 180.",
       "graph": {
         "entities": [
           {
@@ -422,146 +561,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-13T20:26:57",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-facility-in-carbondale-to-offer-fresh-start-for-women-overcoming-addiction-lackawanna-county-beyond-addiction-recovery/523-bbbddf79-a8cf-4ede-a6eb-5365cf2bc99c",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
-    },
-    {
-      "id": "short_7",
-      "title": "Jessup man killed in NYC subway attack",
-      "title_distilled": "Jessup man killed in NYC subway attack.",
-      "description": "(WBRE/WYOU) \u2014 28/22 News is learning the man killed in a New York City (NYC) subway attack had roots here in northeastern Pennsylvania. Officials confirm to 28/22 News that 76-year-old Ross Falzone was from Jessup. NYC police say Falzone was shoved down a subway entrance stairway in Chelsea last Thursday. Falzone was taken to the [...]",
-      "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 28/22 News is learning the man killed in a New York City (NYC) subway attack had roots here in northeastern Pennsylvania. Officials confirm to 28/22 News that 76-year-old Ross Falzone was from Jessup. NYC police say Falzone was shoved down a subway entrance stairway in Chelsea last Thursday. Falzone was taken to the [...]",
-      "content_distilled": " \u2014 28/22 News is learning the man killed in a New York City  subway attack had roots here in northeastern Pennsylvania.",
-      "graph": {
-        "entities": [
-          {
-            "name": "New York",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/new-york.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ross Falzone",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ross-falzone.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New York</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ross Fal</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "New York": "../entities/people/new-york.md",
-          "Ross Falzone": "../entities/people/ross-falzone.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-14T03:08:37",
-      "url": "https://www.2822news.com/news/local-news/jessup-man-killed-in-nyc-subway-attack/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "'Forever chemicals' found in school water",
-      "title_distilled": "'Forever chemicals' found in school water.",
-      "description": "SCOTT TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Forever chemicals were found in an area school district's drinking water system. The school is now looking to add a filtration system to keep the safety of their students, faculty, and staff a top priority. \"It's certainly concerning to hear that you know that there could be potential contamination in your [...]",
-      "description_distilled": "",
-      "content": "SCOTT TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Forever chemicals were found in an area school district's drinking water system. The school is now looking to add a filtration system to keep the safety of their students, faculty, and staff a top priority. \"It's certainly concerning to hear that you know that there could be potential contamination in your [...]",
-      "content_distilled": "SCOTT TWP.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Forever chemicals",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/forever-chemicals.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Forever </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Forever chemicals": "../entities/works/movies/forever-chemicals.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-13T22:45:45",
-      "url": "https://www.2822news.com/news/local-news/forever-chemicals-found-in-school-water/",
+      "publishedAt": "2026-05-15T03:04:47",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/multi-vehicle-crash-on-i-81-in-lackawanna-county-moosic/523-3347e59a-7d41-41c2-ae14-f21c60140c84",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -569,14 +570,159 @@
     },
     {
       "id": "short_9",
-      "title": "Flood gate, siren test scheduled in Scranton",
-      "title_distilled": "Flood gate, siren test scheduled in Scranton.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 With rain in the forecast, Scranton is making sure its flood protection systems work. The city will test its levee flood closure and flood siren systems on Friday. Closing the emergency flood walls will cause some traffic disruptions at each location during testing. The city wants to remind everyone this [...]",
+      "title": "Noise concerns are the focus at Archbald data center hearing",
+      "title_distilled": "Noise concerns are the focus at Archbald data center hearing.",
+      "description": "It's another conditional use hearing for the proposed Wildcat Ridge Data Center Campus in Archbald. Developers called in a noise expert to speak about sound impact.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 With rain in the forecast, Scranton is making sure its flood protection systems work. The city will test its levee flood closure and flood siren systems on Friday. Closing the emergency flood walls will cause some traffic disruptions at each location during testing. The city wants to remind everyone this [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 With rain in the forecast, Scranton is making sure its flood protection systems work.",
+      "content": "It's another conditional use hearing for the proposed Wildcat Ridge Data Center Campus in Archbald. Developers called in a noise expert to speak about sound impact.",
+      "content_distilled": "It's another conditional use hearing for the proposed Wildcat Ridge Data Center Campus in Archbald.",
       "graph": {
         "entities": [
+          {
+            "name": "Wildcat Ridge",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wildcat-ridge.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Data Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/data-center.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wildcat </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Data Cen</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Wildcat Ridge": "../entities/people/wildcat-ridge.md",
+          "Data Center": "../entities/people/data-center.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-15T02:57:35",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/noise-concerns-are-the-focus-at-archbald-data-center-hearing-lackawanna-county/523-168f920d-ae48-41a9-8547-4777080fd71c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Scranton gears up for Armed Forces Day Parade amid nation's 250th celebrations",
+      "title_distilled": "Scranton gears up for Armed Forces Day Parade amid nation's 250th celebrations.",
+      "description": "A parade to honor members of the armed forces takes over the streets of downtown Scranton this weekend.",
+      "description_distilled": "",
+      "content": "A parade to honor members of the armed forces takes over the streets of downtown Scranton this weekend.",
+      "content_distilled": "parade to honor members of the armed forces takes over the streets of downtown Scranton this weekend.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Armed Forces",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/armed-forces.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Day Parade",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/day-parade.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Armed Forces",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Scranton",
+            "to": "Armed Forces",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Armed Fo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Para</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Armed Forces": "../entities/people/armed-forces.md",
+          "Day Parade": "../entities/people/day-parade.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-14T20:04:53",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-gears-up-for-armed-forces-day-parade-amid-nations-250th-celebrations-service-members-troops-lackawanna-county-america-250/523-3245b018-3d3f-4020-b702-482163c6a448",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Sinkhole shuts down part of North Main Avenue in Scranton",
+      "title_distilled": "Sinkhole shuts down part of North Main Avenue in Scranton.",
+      "description": "North Main Avenue will be closed between Green Ridge Street and Clearview Street from 7 a.m. Thursday through Friday evening, as crews repair the sinkhole.",
+      "description_distilled": "",
+      "content": "North Main Avenue will be closed between Green Ridge Street and Clearview Street from 7 a.m. Thursday through Friday evening, as crews repair the sinkhole.",
+      "content_distilled": "North Main Avenue will be closed between Green Ridge Street and Clearview Street from 7 a.",
+      "graph": {
+        "entities": [
+          {
+            "name": "North Main",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/north-main.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton North",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-north.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Main Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/main-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Green Ridge",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/green-ridge.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -585,6 +731,124 @@
             "resolution_method": "new_entity"
           },
           {
+            "name": "of North Main Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/of-north-main-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton North Main Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton-north-main-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "between Green Ridge Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/between-green-ridge-street.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "North Main",
+            "to": "Green Ridge",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "North Main",
+            "to": "between Green Ridge Street",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Scranton North",
+            "to": "Green Ridge",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Scranton North",
+            "to": "between Green Ridge Street",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Main Avenue",
+            "to": "Green Ridge",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Main Avenue",
+            "to": "between Green Ridge Street",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Scranton",
+            "to": "Green Ridge",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "of North Main Avenue",
+            "to": "Green Ridge",
+            "type": "CLOSED",
+            "verb": "closed"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Main Ave</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ri</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">of North</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "North Main": "../entities/people/north-main.md",
+          "Scranton North": "../entities/people/scranton-north.md",
+          "Main Avenue": "../entities/people/main-avenue.md",
+          "Green Ridge": "../entities/people/green-ridge.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "of North Main Avenue": "../entities/locations/of-north-main-avenue.md",
+          "Scranton North Main Avenue": "../entities/locations/scranton-north-main-avenue.md",
+          "between Green Ridge Street": "../entities/locations/between-green-ridge-street.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-14T19:23:24",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/sinkhole-shuts-down-part-of-north-main-avenue-in-scranton-lackawanna-county/523-2e4b15be-71e2-416e-8e76-94583552d2f3",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Sound study questioned in 'Wildcat Ridge' hearing",
+      "title_distilled": "Sound study questioned in 'Wildcat Ridge' hearing.",
+      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 In April, 19 microphones popped up throughout Archbald neighborhoods and disappeared just days later without a trace. They were part of a sound study for Wildcat Ridge, a proposed 14 building 570-acre data center campus, and the borough's largest so far. On Thursday, the developer's sound study came under fire, down [...]",
+      "description_distilled": "",
+      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 In April, 19 microphones popped up throughout Archbald neighborhoods and disappeared just days later without a trace. They were part of a sound study for Wildcat Ridge, a proposed 14 building 570-acre data center campus, and the borough's largest so far. On Thursday, the developer's sound study came under fire, down [...]",
+      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY \u2014 In April, 19 microphones popped up throughout Archbald neighborhoods and disappeared just days later without a trace.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Wildcat Ridge",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/wildcat-ridge.md",
+            "resolution_method": "new_entity"
+          },
+          {
             "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
@@ -604,33 +868,10 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Closing the emergency",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/closing-the-emergency.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Closing </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wildcat </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -641,20 +882,238 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md",
+          "Wildcat Ridge": "../entities/works/movies/wildcat-ridge.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Closing the emergency": "../entities/events/closing-the-emergency.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-13T22:12:57",
-      "url": "https://www.2822news.com/news/local-news/flood-gate-siren-test-scheduled-in-scranton/",
+      "publishedAt": "2026-05-15T03:26:12",
+      "url": "https://www.2822news.com/news/sound-study-questioned-in-wildcat-ridge-hearing/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Multi-vehicle crash causes slowdown in I-81",
+      "title_distilled": "Multi-vehicle crash causes slowdown in I-81.",
+      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Traffic is slowed down as crews respond to a crash on Interstate 81 northbound in Lackawanna County. According to county officials, a tractor trailer, a car,...",
+      "description_distilled": "",
+      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Traffic is slowed down as crews respond to a crash on Interstate 81 northbound in Lackawanna County. According to county officials, a tractor trailer, a car,...",
+      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 Traffic is slowed down as crews respond to a crash on Interstate 81 northbound in Lackawanna County.",
+      "graph": {
+        "entities": [
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-15T02:32:50",
+      "url": "https://www.2822news.com/news/multi-vehicle-crash-causes-slowdown-in-i-81/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Thunderbirds beat Penguins 4-3 in OT, series tied 1-1",
+      "title_distilled": "Thunderbirds beat Penguins 4-3 in OT, series tied 1-1.",
+      "description": "(WBRE/WYOU) \u2014 The Springfield Thunderbirds beat the Wilkes-Barre Scranton Penguins 4-3 in Game 2 of the Third Round to lead the Atlantic Division Finals Series 2-0. Stay tuned for highlights in the 11 PM newscast! Bill Zonnon capitalized on a power play rebound to give the Penguins a 1-0 lead just over nine minutes into his [...]",
+      "description_distilled": "",
+      "content": "(WBRE/WYOU) \u2014 The Springfield Thunderbirds beat the Wilkes-Barre Scranton Penguins 4-3 in Game 2 of the Third Round to lead the Atlantic Division Finals Series 2-0. Stay tuned for highlights in the 11 PM newscast! Bill Zonnon capitalized on a power play rebound to give the Penguins a 1-0 lead just over nine minutes into his [...]",
+      "content_distilled": " \u2014 The Springfield Thunderbirds beat the Wilkes-Barre Scranton Penguins 4-3 in Game 2 of the Third Round to lead the Atlantic Division Finals Series 2-0.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Springfield",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-springfield.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barre Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Third Round",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/third-round.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Atlantic Division",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/atlantic-division.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Finals Series",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/finals-series.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Bill Zonnon",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bill-zonnon.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "in Game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/in-game.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Springfield",
+            "to": "Barre Scranton",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "The Springfield",
+            "to": "Third Round",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "The Springfield",
+            "to": "Atlantic Division",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "The Springfield",
+            "to": "Finals Series",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "The Springfield",
+            "to": "Scranton",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "The Springfield",
+            "to": "in Game",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "WBRE",
+            "to": "Barre Scranton",
+            "type": "BEAT",
+            "verb": "beat"
+          },
+          {
+            "from": "WYOU",
+            "to": "Barre Scranton",
+            "type": "BEAT",
+            "verb": "beat"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Spri</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Sc</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Third Ro</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Atlantic</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Finals S</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bill Zon</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BEAT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Springfield": "../entities/people/the-springfield.md",
+          "Barre Scranton": "../entities/people/barre-scranton.md",
+          "Third Round": "../entities/people/third-round.md",
+          "Atlantic Division": "../entities/people/atlantic-division.md",
+          "Finals Series": "../entities/people/finals-series.md",
+          "Bill Zonnon": "../entities/people/bill-zonnon.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "in Game": "../entities/events/in-game.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-15T02:25:06",
+      "url": "https://www.2822news.com/news/thunderbirds-beat-penguins-4-3-in-ot-series-tied-1-1/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 1.0
     }
   ]
 }
