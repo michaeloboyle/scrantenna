@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-16T11:22:28.665331",
-  "source_file": "../data/daily/scranton_news_2026-05-16.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2026-05-17T11:26:10.651192",
+  "source_file": "../data/daily/scranton_news_2026-05-17.json",
+  "total_shorts": 11,
+  "total_duration": 88,
   "has_svo": false,
   "shorts": [
     {
@@ -639,85 +639,21 @@
     },
     {
       "id": "short_9",
-      "title": "Clarks Summit paramedics reunite with baby they helped deliver",
-      "title_distilled": "Clarks Summit paramedics reunite with baby they helped deliver.",
-      "description": "Last month, an ambulance crew from Clarks Summit Fire Company delivered a baby while on the way to the hospital.",
+      "title": "Scranton honors military legacy with Armed Forces Day parade",
+      "title_distilled": "Scranton honors military legacy with Armed Forces Day parade.",
+      "description": "Decades of tradition continued as the Armed Forces Day parade in Scranton honored active service members.",
       "description_distilled": "",
-      "content": "Last month, an ambulance crew from Clarks Summit Fire Company delivered a baby while on the way to the hospital.",
-      "content_distilled": "Last month, an ambulance crew from Clarks Summit Fire Company delivered a baby while on the way to the hospital.",
+      "content": "Decades of tradition continued as the Armed Forces Day parade in Scranton honored active service members.",
+      "content_distilled": "Decades of tradition continued as the Armed Forces Day parade in Scranton honored active service members.",
       "graph": {
         "entities": [
           {
-            "name": "Clarks Summit",
+            "name": "Armed Forces",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/armed-forces.md",
             "resolution_method": "new_entity"
           },
-          {
-            "name": "Fire Company",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fire-company.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clarks Summit Fire Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/clarks-summit-fire-company.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "an ambulance crew from Clarks Summit",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/an-ambulance-crew-from-clarks-summit.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "an ambulance crew from Clarks Summit",
-            "to": "Clarks Summit",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fire Com</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">an ambul</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Fire Company": "../entities/people/fire-company.md",
-          "Clarks Summit Fire Company": "../entities/organizations/clarks-summit-fire-company.md",
-          "an ambulance crew from Clarks Summit": "../entities/events/an-ambulance-crew-from-clarks-summit.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-16T02:30:33",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/clark-summit-paramedics-reunite-with-baby-they-helped-deliver-lackawanna-county/523-c24b1cc8-aac0-41d6-855e-41418a4518da",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Mobile healthcare van brings critical medical aid to those in need in Scranton",
-      "title_distilled": "Mobile healthcare van brings critical medical aid to those in need in Scranton.",
-      "description": "The Wright Center is hitting the streets and bringing the doctor's office right to those who need it.",
-      "description_distilled": "",
-      "content": "The Wright Center is hitting the streets and bringing the doctor's office right to those who need it.",
-      "content_distilled": "Wright Center is hitting the streets and bringing the doctor's office right to those who need it.",
-      "graph": {
-        "entities": [
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -726,8 +662,14 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Armed Forces",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Armed Fo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -738,255 +680,26 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Armed Forces": "../entities/people/armed-forces.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-15T21:11:23",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/mobile-healthcare-van-brings-critical-medical-aid-to-those-in-need-in-scranton-wright-center-medicine-treatment/523-ba72ad4a-c8ba-4363-80cd-00fe41fa31c7",
+      "publishedAt": "2026-05-17T02:46:45",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-honors-military-legacy-with-armed-forces-day-parade-lackawanna-county/523-a50af0b8-5bb3-42d9-b4d5-8f2d5a538d98",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_11",
-      "title": "Sinkhole opens, part of truck falls in",
-      "title_distilled": "Sinkhole opens, part of truck falls in.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Scranton driver got quite a scare after a sinkhole opened up and took part of his pickup truck. Just after 3:00 p.m. Friday at North Main Avenue and Reese Street, the front wheel of the truck punched straight through a sewer grate. Thankfully, the driver and passengers are all [...]",
+      "id": "short_10",
+      "title": "Honoring men, women who serve nation with PA Armed Forces Day Parade",
+      "title_distilled": "Honoring men, women who serve nation with PA Armed Forces Day Parade.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Saturday's weather was great for a patriotic parade to celebrate Armed Forces Day. The northeast PA Armed Forces Day Parade marched through downtown Scranton. 28/22 Photojournalist Brian Orbin was there on Saturday as they honored men and women who wear the uniform and serve the nation. \"I think it's really [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Scranton driver got quite a scare after a sinkhole opened up and took part of his pickup truck. Just after 3:00 p.m. Friday at North Main Avenue and Reese Street, the front wheel of the truck punched straight through a sewer grate. Thankfully, the driver and passengers are all [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A Scranton driver got quite a scare after a sinkhole opened up and took part of his pickup truck.",
-      "graph": {
-        "entities": [
-          {
-            "name": "North Main",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-main.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "North Main": "../entities/people/north-main.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-16T03:07:08",
-      "url": "https://www.2822news.com/news/sinkhole-opens-part-of-truck-falls-in/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Floodgates tested to prepare for emergency",
-      "title_distilled": "Floodgates tested to prepare for emergency.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton tested out its flood defenses Friday. City crews tested levee closures and warning sirensas part of emergency preparedness. Several bridges were closed for the morning commute in parts of the electric city because of it.Neighbors say they're thankful for the protection. \"Right when it starts raining, the whole streets [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton tested out its flood defenses Friday. City crews tested levee closures and warning sirensas part of emergency preparedness. Several bridges were closed for the morning commute in parts of the electric city because of it.Neighbors say they're thankful for the protection. \"Right when it starts raining, the whole streets [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Scranton tested out its flood defenses Friday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Floodgates tested to prepare for emergency",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/floodgates-tested-to-prepare-for-emergency.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "City crews tested levee closures and warning sirensas part of emergency",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/city-crews-tested-levee-closures-and-warning-sirensas-part-of-emergency.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "City crews tested levee closures and warning sirensas part of emergency",
-            "to": "Floodgates tested to prepare for emergency",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Floodgates tested to prepare for emergency",
-            "to": "SCRANTON",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Floodgat</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">City cre</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Floodgates tested to prepare for emergency": "../entities/events/floodgates-tested-to-prepare-for-emergency.md",
-          "City crews tested levee closures and warning sirensas part of emergency": "../entities/events/city-crews-tested-levee-closures-and-warning-sirensas-part-of-emergency.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-16T01:24:13",
-      "url": "https://www.2822news.com/news/local-news/floodgates-tested-to-prepare-for-emergency/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "New sports complex to open on land planned for data center",
-      "title_distilled": "New sports complex to open on land planned for data center.",
-      "description": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A new sports complex is now planned for land once zoned for a data center\u2014 giving residents a different vision for the future. While the plot of land in Dickson City does not look like much, soon this area is set to become the home of an indoor sports [...]",
-      "description_distilled": "",
-      "content": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A new sports complex is now planned for land once zoned for a data center\u2014 giving residents a different vision for the future. While the plot of land in Dickson City does not look like much, soon this area is set to become the home of an indoor sports [...]",
-      "content_distilled": "DICKSON CITY, LACKAWANNA COUNTY  \u2014 A new sports complex is now planned for land once zoned for a data center\u2014 giving residents a different vision for the future.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Dickson City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Dickson City": "../entities/people/dickson-city.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-16T00:28:26",
-      "url": "https://www.2822news.com/news/new-sports-complex-to-open-on-land-planned-for-data-center/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Getting ready for NEPA Armed Forces Day Parade",
-      "title_distilled": "Getting ready for NEPA Armed Forces Day Parade.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A patriotic tradition is getting ready to step off in the Electric City. The northeast PA Armed Forces Day Parade begins Saturday at 11 a.m. Organizers say the walk celebrates and recognizes the service of men and women who sacrifice their lives for our freedom. The parade begins at the [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A patriotic tradition is getting ready to step off in the Electric City. The northeast PA Armed Forces Day Parade begins Saturday at 11 a.m. Organizers say the walk celebrates and recognizes the service of men and women who sacrifice their lives for our freedom. The parade begins at the [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A patriotic tradition is getting ready to step off in the Electric City.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Saturday's weather was great for a patriotic parade to celebrate Armed Forces Day. The northeast PA Armed Forces Day Parade marched through downtown Scranton. 28/22 Photojournalist Brian Orbin was there on Saturday as they honored men and women who wear the uniform and serve the nation. \"I think it's really [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Saturday's weather was great for a patriotic parade to celebrate Armed Forces Day.",
       "graph": {
         "entities": [
           {
@@ -1004,10 +717,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Electric City",
+            "name": "Photojournalist Brian",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
+            "file_path": "../entities/people/photojournalist-brian.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1015,6 +728,13 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1047,7 +767,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Armed Fo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Para</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Armed Fo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Para</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Photojou</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1060,7 +780,7 @@
         "entity_files": {
           "Armed Forces": "../entities/people/armed-forces.md",
           "Day Parade": "../entities/people/day-parade.md",
-          "Electric City": "../entities/people/electric-city.md",
+          "Photojournalist Brian": "../entities/people/photojournalist-brian.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
@@ -1069,11 +789,11 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-15T21:30:49",
-      "url": "https://www.2822news.com/news/getting-ready-for-nepa-armed-forces-day-parade/",
+      "publishedAt": "2026-05-16T22:24:04",
+      "url": "https://www.2822news.com/news/local-news/honoring-men-women-who-serve-nation-with-pa-armed-forces-day-parade/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     }
   ]
