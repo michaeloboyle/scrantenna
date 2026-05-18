@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-17T11:26:10.651192",
-  "source_file": "../data/daily/scranton_news_2026-05-17.json",
-  "total_shorts": 11,
-  "total_duration": 88,
+  "generated_at": "2026-05-18T12:10:26.817443",
+  "source_file": "../data/daily/scranton_news_2026-05-18.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -639,37 +639,44 @@
     },
     {
       "id": "short_9",
-      "title": "Scranton honors military legacy with Armed Forces Day parade",
-      "title_distilled": "Scranton honors military legacy with Armed Forces Day parade.",
-      "description": "Decades of tradition continued as the Armed Forces Day parade in Scranton honored active service members.",
+      "title": "Lackawanna County teen earns college degree ahead of high school graduation",
+      "title_distilled": "Lackawanna County teen earns college degree ahead of high school graduation.",
+      "description": "Ella Casper, a high school senior from Fell Township, earned an associate's degree in professional studies and will receive her high school diploma in a few weeks.",
       "description_distilled": "",
-      "content": "Decades of tradition continued as the Armed Forces Day parade in Scranton honored active service members.",
-      "content_distilled": "Decades of tradition continued as the Armed Forces Day parade in Scranton honored active service members.",
+      "content": "Ella Casper, a high school senior from Fell Township, earned an associate's degree in professional studies and will receive her high school diploma in a few weeks.",
+      "content_distilled": "Ella Casper, a high school senior from Fell Township, earned an associate's degree in professional studies and will receive her high school diploma in a few weeks.",
       "graph": {
         "entities": [
           {
-            "name": "Armed Forces",
+            "name": "Ella Casper",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/armed-forces.md",
+            "file_path": "../entities/people/ella-casper.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "Fell Township",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fell-township.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Armed Forces",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "Lackawanna County",
+            "to": "Ella Casper",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Armed Fo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ella Cas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fell Tow</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -680,13 +687,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Armed Forces": "../entities/people/armed-forces.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Ella Casper": "../entities/people/ella-casper.md",
+          "Fell Township": "../entities/people/fell-township.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-17T02:46:45",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-honors-military-legacy-with-armed-forces-day-parade-lackawanna-county/523-a50af0b8-5bb3-42d9-b4d5-8f2d5a538d98",
+      "publishedAt": "2026-05-18T03:25:17",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-teen-earns-college-degree-ahead-of-high-school-graduation/523-92223b62-eedb-4b6b-a681-adea087edc69",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -694,54 +702,222 @@
     },
     {
       "id": "short_10",
-      "title": "Honoring men, women who serve nation with PA Armed Forces Day Parade",
-      "title_distilled": "Honoring men, women who serve nation with PA Armed Forces Day Parade.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Saturday's weather was great for a patriotic parade to celebrate Armed Forces Day. The northeast PA Armed Forces Day Parade marched through downtown Scranton. 28/22 Photojournalist Brian Orbin was there on Saturday as they honored men and women who wear the uniform and serve the nation. \"I think it's really [...]",
+      "title": "Car and crafts show in Archbald raises funds for Valley View athletes' state competition",
+      "title_distilled": "Car and crafts show in Archbald raises funds for Valley View athletes' state competition.",
+      "description": "Community members in Lackawanna County rallied at a car and crafts show to support Valley View High's Unified Club, funding athlete gear for a state contest.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Saturday's weather was great for a patriotic parade to celebrate Armed Forces Day. The northeast PA Armed Forces Day Parade marched through downtown Scranton. 28/22 Photojournalist Brian Orbin was there on Saturday as they honored men and women who wear the uniform and serve the nation. \"I think it's really [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Saturday's weather was great for a patriotic parade to celebrate Armed Forces Day.",
+      "content": "Community members in Lackawanna County rallied at a car and crafts show to support Valley View High's Unified Club, funding athlete gear for a state contest.",
+      "content_distilled": "Community members in Lackawanna County rallied at a car and crafts show to support Valley View High's Unified Club, funding athlete gear for a state contest.",
       "graph": {
         "entities": [
           {
-            "name": "Armed Forces",
+            "name": "Valley View",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/armed-forces.md",
+            "file_path": "../entities/people/valley-view.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Day Parade",
+            "name": "Unified Club",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/day-parade.md",
+            "file_path": "../entities/people/unified-club.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Photojournalist Brian",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valley V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Unified </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Valley View": "../entities/people/valley-view.md",
+          "Unified Club": "../entities/people/unified-club.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-18T03:05:16",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/car-and-crafts-show-archbald-raises-funds-for-valley-view-athletes-state-competition-lackawanna-county/523-0daf0c96-7a96-4c10-9a31-eb4eb55ec5a6",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Truck crashes into building in Taylor",
+      "title_distilled": "Truck crashes into building in Taylor.",
+      "description": "Crews responded to the scene along Main Street around 3:30 a.m.",
+      "description_distilled": "",
+      "content": "Crews responded to the scene along Main Street around 3:30 a.m.",
+      "content_distilled": "Crews responded to the scene along Main Street around 3:30 a.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Taylor Crews",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/photojournalist-brian.md",
+            "file_path": "../entities/people/taylor-crews.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "SCRANTON",
+            "name": "scene along Main Street",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/scene-along-main-street.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Taylor C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">scene al</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Taylor Crews": "../entities/people/taylor-crews.md",
+          "scene along Main Street": "../entities/locations/scene-along-main-street.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-18T03:04:35",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/truck-crashes-into-building-in-taylor-lackawanna-county/523-f49f3776-55a7-45fd-9569-e96fa4d9b184",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Jessup community gathers for wine tasting at Station Park",
+      "title_distilled": "Jessup community gathers for wine tasting at Station Park.",
+      "description": "Residents in Lackawanna County soaked in the sun at the 29th annual wine tasting event in Jessup.",
+      "description_distilled": "",
+      "content": "Residents in Lackawanna County soaked in the sun at the 29th annual wine tasting event in Jessup.",
+      "content_distilled": "Residents in Lackawanna County soaked in the sun at the 29th annual wine tasting event in Jessup.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Station Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/station-park.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Station </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Station Park": "../entities/people/station-park.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-17T22:56:03",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/wine-tasting-jessup-kicks-off-saint-ubaldo-week-with-music-camaraderie-lackawanna-county/523-e8308738-b951-4a32-9fd4-9325ee43331c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Dunmore garden center sees surge in customers as warm weather arrives",
+      "title_distilled": "Dunmore garden center sees surge in customers as warm weather arrives.",
+      "description": "Warm weather drew crowds to Jerry's for All Seasons in Dunmore, as eager customers filled the store to kickstart their summer planting.",
+      "description_distilled": "",
+      "content": "Warm weather drew crowds to Jerry's for All Seasons in Dunmore, as eager customers filled the store to kickstart their summer planting.",
+      "content_distilled": "Warm weather drew crowds to Jerry's for All Seasons in Dunmore, as eager customers filled the store to kickstart their summer planting.",
+      "graph": {
+        "entities": [
+          {
+            "name": "All Seasons",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/all-seasons.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">All Seas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "All Seasons": "../entities/people/all-seasons.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-17T22:54:13",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/dunmore-garden-center-sees-surge-in-customers-as-warm-weather-arrives-lackawanna-county/523-483f3686-e677-431d-9191-785437664598",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Residents enjoy final day of flowery festival",
+      "title_distilled": "Residents enjoy final day of flowery festival.",
+      "description": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A flowery festival in our area is coming to an end: Visitors came to Lakeland Orchard and Cidery in Scott Township on Sunday to enjoy an eight-acre tulip farm. Sunshine replaced rain, put a damper on the tulip festival during Mother's Day, so on Sunday, some visitors cashed in [...]",
+      "description_distilled": "",
+      "content": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A flowery festival in our area is coming to an end: Visitors came to Lakeland Orchard and Cidery in Scott Township on Sunday to enjoy an eight-acre tulip farm. Sunshine replaced rain, put a damper on the tulip festival during Mother's Day, so on Sunday, some visitors cashed in [...]",
+      "content_distilled": "SCOTT TOWNSHIP, LACKAWANNA COUNTY  \u2014 A flowery festival in our area is coming to an end: Visitors came to Lakeland Orchard and Cidery in Scott Township on Sunday to enjoy an eight-acre tulip farm.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Lakeland Orchard",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lakeland-orchard.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
+            "name": "Scott Township",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/people/scott-township.md",
             "resolution_method": "new_entity"
           },
           {
@@ -764,10 +940,80 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Residents enjoy final day of flowery festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/residents-enjoy-final-day-of-flowery-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "flowery festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/flowery-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "damper on the tulip festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/damper-on-the-tulip-festival.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Armed Fo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Para</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Photojou</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Scott Township",
+            "to": "Lakeland Orchard",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Lakeland Orchard",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "WBRE",
+            "to": "Lakeland Orchard",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "WYOU",
+            "to": "Lakeland Orchard",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "Residents enjoy final day of flowery festival",
+            "to": "Lakeland Orchard",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "flowery festival",
+            "to": "Lakeland Orchard",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "Scott Township",
+            "to": "LACKAWANNA COUNTY",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "Scott Township",
+            "to": "WBRE",
+            "type": "CAME",
+            "verb": "came"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lakeland</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scott To</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Resident</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -778,22 +1024,22 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Armed Forces": "../entities/people/armed-forces.md",
-          "Day Parade": "../entities/people/day-parade.md",
-          "Photojournalist Brian": "../entities/people/photojournalist-brian.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lakeland Orchard": "../entities/people/lakeland-orchard.md",
+          "Scott Township": "../entities/people/scott-township.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "Residents enjoy final day of flowery festival": "../entities/events/residents-enjoy-final-day-of-flowery-festival.md",
+          "flowery festival": "../entities/events/flowery-festival.md",
+          "damper on the tulip festival": "../entities/events/damper-on-the-tulip-festival.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-16T22:24:04",
-      "url": "https://www.2822news.com/news/local-news/honoring-men-women-who-serve-nation-with-pa-armed-forces-day-parade/",
+      "publishedAt": "2026-05-18T00:10:42",
+      "url": "https://www.2822news.com/news/local-news/residents-enjoy-final-day-of-flowery-festival/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
