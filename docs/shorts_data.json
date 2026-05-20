@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-19T12:02:21.665577",
-  "source_file": "../data/daily/scranton_news_2026-05-19.json",
+  "generated_at": "2026-05-20T11:57:27.422285",
+  "source_file": "../data/daily/scranton_news_2026-05-20.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -734,38 +734,44 @@
     },
     {
       "id": "short_10",
-      "title": "Scranton Prep student's photograph earns national recognition",
-      "title_distilled": "Scranton Prep student's photograph earns national recognition.",
-      "description": "A local high school student is now in the same discussion as Andy Warhol after winning a competition entered by more than 100,000 students across the state.",
+      "title": "Phishing scam targets Jessup Hose Company #2 Carnival",
+      "title_distilled": "Phishing scam targets Jessup Hose Company #2 Carnival.",
+      "description": "Members of Jessup Hose Company #2 thankfully caught the scammers before any money was lost.",
       "description_distilled": "",
-      "content": "A local high school student is now in the same discussion as Andy Warhol after winning a competition entered by more than 100,000 students across the state.",
-      "content_distilled": "local high school student is now in the same discussion as Andy Warhol after winning a competition entered by more than 100,000 students across the state.",
+      "content": "Members of Jessup Hose Company #2 thankfully caught the scammers before any money was lost.",
+      "content_distilled": "Members of Jessup Hose Company #2 thankfully caught the scammers before any money was lost.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Prep",
+            "name": "Jessup Hose",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/people/jessup-hose.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Andy Warhol",
+            "name": "Carnival Members",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/andy-warhol.md",
+            "file_path": "../entities/people/carnival-members.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Jessup Hose Company",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/organizations/jessup-hose-company.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Andy War</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Carnival Members",
+            "to": "Jessup Hose Company",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carnival</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -776,14 +782,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Andy Warhol": "../entities/people/andy-warhol.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Jessup Hose": "../entities/people/jessup-hose.md",
+          "Carnival Members": "../entities/people/carnival-members.md",
+          "Jessup Hose Company": "../entities/organizations/jessup-hose-company.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-18T21:52:52",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-prep-students-photograph-earns-national-recognition-jacob-layland-lackawanna-county/523-a588bef5-2889-4a8f-af39-8b3a24e0db1d",
+      "publishedAt": "2026-05-19T20:41:22",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scammers-look-take-advantage-carnival-fundraises-first-responders-jessup-hose-company-2-lackawanna-county-jack-culkin/523-af81e8e0-1429-4e67-b7cd-ba24131fbec3",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -791,12 +797,132 @@
     },
     {
       "id": "short_11",
-      "title": "Police: Scranton man set fire to home with mother inside",
-      "title_distilled": "Police: Scranton man set fire to home with mother inside.",
-      "description": "No one was hurt and the home filled with smoke. Arson charges were filed.",
+      "title": "Man faces charges after allegedly threatening Senator Marty Flynn",
+      "title_distilled": "Man faces charges after allegedly threatening Senator Marty Flynn.",
+      "description": "A man is sitting in a Lackawanna County prison after allegedly posting threats against a sitting state senator.",
       "description_distilled": "",
-      "content": "No one was hurt and the home filled with smoke. Arson charges were filed.",
-      "content_distilled": "No one was hurt and the home filled with smoke.",
+      "content": "A man is sitting in a Lackawanna County prison after allegedly posting threats against a sitting state senator.",
+      "content_distilled": "man is sitting in a Lackawanna County prison after allegedly posting threats against a sitting state senator.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Senator Marty",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/senator-marty.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Marty Flynn",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/marty-flynn.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Senator Marty",
+            "to": "Marty Flynn",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Senator </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marty Fl</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Senator Marty": "../entities/people/senator-marty.md",
+          "Marty Flynn": "../entities/people/marty-flynn.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-19T19:59:20",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/man-faces-charges-after-allegedly-threatening-senator-marty-flynn-pennsylvania-22nd-district-jeffrey-lake-jimmy-goble/523-c9594392-b26b-4794-badc-24a5b4ac4891",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Slow start to primary election day in northeastern Pennsylvania",
+      "title_distilled": "Slow start to primary election day in northeastern Pennsylvania.",
+      "description": "The primary election of 2026 is off and running. Newswatch 16's Andy Palumbo found a slow start to the day at some polling places.",
+      "description_distilled": "",
+      "content": "The primary election of 2026 is off and running. Newswatch 16's Andy Palumbo found a slow start to the day at some polling places.",
+      "content_distilled": "primary election of 2026 is off and running.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Pennsylvania The",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-the.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Andy Palumbo",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/andy-palumbo.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Andy Pal</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Pennsylvania The": "../entities/people/pennsylvania-the.md",
+          "Andy Palumbo": "../entities/people/andy-palumbo.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-19T19:08:12",
+      "url": "https://www.wnep.com/article/news/politics/elections/slow-start-to-primary-election-day-in-luzerne-county-lackawanna-county/523-bc18c17d-71f8-4930-8f6e-002cc0fc9a5f",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Police investigating after car crashes into University of Scranton gateway",
+      "title_distilled": "Police investigating after car crashes into University of Scranton gateway.",
+      "description": "The crash happened around 9 a.m. Tuesday.",
+      "description_distilled": "",
+      "content": "The crash happened around 9 a.m. Tuesday.",
+      "content_distilled": "crash happened around 9 a.",
       "graph": {
         "entities": [
           {
@@ -823,138 +949,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-18T19:46:41",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-man-set-fire-to-home-with-mother-inside/523-963bc981-9324-49f4-ba62-0c31060fc1f0",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Timeline: mother's alleged neglect of teen son",
-      "title_distilled": "Timeline: mother's alleged neglect of teen son.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 50-year-old Zakia Patterson appeared to be in good spirits following her preliminary hearing Monday. She is facing charges of aggravated assault and endangering the welfare of a child. \"Because it was preliminary, only one side was heard. I feel like there were a lot of assumptions, but there are things [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 50-year-old Zakia Patterson appeared to be in good spirits following her preliminary hearing Monday. She is facing charges of aggravated assault and endangering the welfare of a child. \"Because it was preliminary, only one side was heard. I feel like there were a lot of assumptions, but there are things [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 50-year-old Zakia Patterson appeared to be in good spirits following her preliminary hearing Monday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Zakia Patterson",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/zakia-patterson.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Zakia Pa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Zakia Patterson": "../entities/people/zakia-patterson.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-19T03:28:10",
-      "url": "https://www.2822news.com/news/local-news/timeline-mothers-alleged-neglect-of-teen-son/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Preparations underway for upcoming Race of Saints",
-      "title_distilled": "Preparations underway for upcoming Race of Saints.",
-      "description": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Preparations are officially underway for the annual race of the saints in Jessup this weekend. On Saturday, three teams will dress in traditional clothing to represent each saint and race through the streets carrying 500-pound statues while the crowd cheers them on. With flags already hung and streets painted, Saint [...]",
-      "description_distilled": "",
-      "content": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Preparations are officially underway for the annual race of the saints in Jessup this weekend. On Saturday, three teams will dress in traditional clothing to represent each saint and race through the streets carrying 500-pound statues while the crowd cheers them on. With flags already hung and streets painted, Saint [...]",
-      "content_distilled": "JESSUP, LACKAWANNA COUNTY  \u2014 Preparations are officially underway for the annual race of the saints in Jessup this weekend.",
-      "graph": {
-        "entities": [
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-19T01:16:55",
-      "url": "https://www.2822news.com/news/local-news/preparations-underway-for-upcoming-race-of-saints/",
+      "publishedAt": "2026-05-19T18:22:55",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-investigating-after-car-crashes-into-university-of-scranton-gateway-linden-monroe/523-e1dfab51-907f-4847-a1f7-a7c1e9767c86",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -962,33 +958,33 @@
     },
     {
       "id": "short_14",
-      "title": "Mother in court for neglect of teen son",
-      "title_distilled": "Mother in court for neglect of teen son.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A mother is going to trial and facing charges of aggravated assault and endangering the welfare of a child. Several times over the 17-year-old boy's life, he has been malnourished and diagnosed with a failure to thrive. \"Because it was preliminary, only one side was heard,\" 50-year-old Zakia Patterson said. [...]",
+      "title": "What warming waters mean for NEPA anglers, environment",
+      "title_distilled": "What warming waters mean for NEPA anglers, environment.",
+      "description": "PARADISE TOWNSHIP, MONROE COUNTY (WBRE/WYOU) \u2014 Species like trout need cold water to survive, and across Pennsylvania, that water is getting harder to find. Warming temperatures are stressing fish, shrinking habitats, and threatening an industry that drives tourism across this state. 28/22 News Reporter Heidi Martens took a closer look at what this means for [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A mother is going to trial and facing charges of aggravated assault and endangering the welfare of a child. Several times over the 17-year-old boy's life, he has been malnourished and diagnosed with a failure to thrive. \"Because it was preliminary, only one side was heard,\" 50-year-old Zakia Patterson said. [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A mother is going to trial and facing charges of aggravated assault and endangering the welfare of a child.",
+      "content": "PARADISE TOWNSHIP, MONROE COUNTY (WBRE/WYOU) \u2014 Species like trout need cold water to survive, and across Pennsylvania, that water is getting harder to find. Warming temperatures are stressing fish, shrinking habitats, and threatening an industry that drives tourism across this state. 28/22 News Reporter Heidi Martens took a closer look at what this means for [...]",
+      "content_distilled": "PARADISE TOWNSHIP, MONROE COUNTY  \u2014 Species like trout need cold water to survive, and across Pennsylvania, that water is getting harder to find.",
       "graph": {
         "entities": [
           {
-            "name": "Zakia Patterson",
+            "name": "News Reporter",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/zakia-patterson.md",
+            "file_path": "../entities/people/news-reporter.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "SCRANTON",
-            "type": "LOCATION",
+            "name": "Heidi Martens",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/heidi-martens.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1007,7 +1003,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Zakia Pa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heidi Ma</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1018,16 +1014,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Zakia Patterson": "../entities/people/zakia-patterson.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Heidi Martens": "../entities/people/heidi-martens.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-18T22:30:41",
-      "url": "https://www.2822news.com/news/crime-courts/mother-in-court-for-neglect-of-teen-son/",
+      "publishedAt": "2026-05-20T03:28:41",
+      "url": "https://www.2822news.com/news/local-news/what-warming-waters-mean-for-nepa-anglers-environment/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
