@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T11:56:20.635234",
-  "source_file": "../data/daily/scranton_news_2026-05-22.json",
+  "generated_at": "2026-05-23T11:27:18.203714",
+  "source_file": "../data/daily/scranton_news_2026-05-23.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -813,12 +813,69 @@
     },
     {
       "id": "short_11",
-      "title": "34th year of Jessup Hose Company No. 2 Carnival",
-      "title_distilled": "34th year of Jessup Hose Company No.",
-      "description": "The carnival's almost a prelude to one of the biggest events of the year in Jessup, the Race of the Saints on St. Ubaldo Day.",
+      "title": "First night of Banana Ball in northeastern Pennsylvania",
+      "title_distilled": "First night of Banana Ball in northeastern Pennsylvania.",
+      "description": "Banana Ball's stop at PNC Field marks the first time the national sensation has come to the region. About 10,000 people were in attendance.",
       "description_distilled": "",
-      "content": "The carnival's almost a prelude to one of the biggest events of the year in Jessup, the Race of the Saints on St. Ubaldo Day.",
-      "content_distilled": "carnival's almost a prelude to one of the biggest events of the year in Jessup, the Race of the Saints on St.",
+      "content": "Banana Ball's stop at PNC Field marks the first time the national sensation has come to the region. About 10,000 people were in attendance.",
+      "content_distilled": "Banana Ball's stop at PNC Field marks the first time the national sensation has come to the region.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Banana Ball",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/banana-ball.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania Banana",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-banana.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Banana B</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Banana Ball": "../entities/people/banana-ball.md",
+          "Pennsylvania Banana": "../entities/people/pennsylvania-banana.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-23T02:55:01",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/first-night-of-banana-ball-in-northeastern-pennsylvania-lackawanna-county/523-656bd7f5-f81d-4b97-823a-686cfe7540fc",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Jessup Hose Co. No. 2 Carnival continues for 3rd night",
+      "title_distilled": "Jessup Hose Co.",
+      "description": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Jessup Hose Co. No. 2 fire Carnival continued for its third night, featuring rides, food, live music, and a cause worth showing up for. Even after the sun had gone down, the party was far from over in Jessup, all part of a weekend people we spoke to say, [...]",
+      "description_distilled": "",
+      "content": "JESSUP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Jessup Hose Co. No. 2 fire Carnival continued for its third night, featuring rides, food, live music, and a cause worth showing up for. Even after the sun had gone down, the party was far from over in Jessup, all part of a weekend people we spoke to say, [...]",
+      "content_distilled": "JESSUP, LACKAWANNA COUNTY  \u2014 The Jessup Hose Co.",
       "graph": {
         "entities": [
           {
@@ -829,215 +886,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Carnival The",
+            "name": "The Jessup",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/carnival-the.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ubaldo Day",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ubaldo-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jessup Hose Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/jessup-hose-company.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carnival</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ubaldo D</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup H</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Jessup Hose": "../entities/people/jessup-hose.md",
-          "Carnival The": "../entities/people/carnival-the.md",
-          "Ubaldo Day": "../entities/people/ubaldo-day.md",
-          "Jessup Hose Company": "../entities/organizations/jessup-hose-company.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-22T07:46:38",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/34th-year-of-jessup-hose-company-no-2-carnival-lackawanna-county/523-bd09e5d0-273f-4bbe-a93e-1ff17093bccf",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Two people face charges in connection with shooting in Scranton",
-      "title_distilled": "Two people face charges in connection with shooting in Scranton.",
-      "description": "Elijah Barcola and Konstinse Wyman face charges in connection with a shooting that left two injured at Big Daddy's Bar back in March.",
-      "description_distilled": "",
-      "content": "Elijah Barcola and Konstinse Wyman face charges in connection with a shooting that left two injured at Big Daddy's Bar back in March.",
-      "content_distilled": "Elijah Barcola and Konstinse Wyman face charges in connection with a shooting that left two injured at Big Daddy's Bar back in March.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Elijah",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-elijah.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Konstinse Wyman",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/konstinse-wyman.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Big Daddy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/big-daddy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Scranton Elijah",
-            "to": "Big Daddy",
-            "type": "LEFT",
-            "verb": "left"
-          },
-          {
-            "from": "Konstinse Wyman",
-            "to": "Big Daddy",
-            "type": "LEFT",
-            "verb": "left"
-          },
-          {
-            "from": "Scranton",
-            "to": "Big Daddy",
-            "type": "LEFT",
-            "verb": "left"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Konstins</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Dadd</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LEFT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Elijah": "../entities/people/scranton-elijah.md",
-          "Konstinse Wyman": "../entities/people/konstinse-wyman.md",
-          "Big Daddy": "../entities/people/big-daddy.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-21T21:22:26",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/two-people-charged-in-connection-with-shooting-in-scranton-lackawanna-county/523-ed3ed232-7b67-4f18-9908-9a0bb847c986",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Yet another cold and rainy Memorial Day weekend",
-      "title_distilled": "Yet another cold and rainy Memorial Day weekend.",
-      "description": "Earlier this week, we hit 90 for the first time this year in the Scranton area, but we are going to see some big changes for the holiday weekend.",
-      "description_distilled": "",
-      "content": "Earlier this week, we hit 90 for the first time this year in the Scranton area, but we are going to see some big changes for the holiday weekend.",
-      "content_distilled": "Earlier this week, we hit 90 for the first time this year in the Scranton area, but we are going to see some big changes for the holiday weekend.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Memorial Day",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/memorial-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Memorial</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Memorial Day": "../entities/people/memorial-day.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-21T19:51:32",
-      "url": "https://www.wnep.com/article/weather/weather-ott/yet-another-cold-rainy-memorial-day-weekend-pennsylvania-weather-northeastern-central-ally-gallo/523-76e34f4c-94ce-4561-b573-6ae9154abfde",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Concerns grow over proposed gas plant near park",
-      "title_distilled": "Concerns grow over proposed gas plant near park.",
-      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Dozens of people packed Valley View Highschool auditorium Thursday to fight plans for a proposed natural gas plant. The site is a former junkyard along Eynon Jermyn road in Archbald. The 400-megawatt plant, proposed by Essential Energy LLC, consists of four industrial turbines which would run around the clock. An air [...]",
-      "description_distilled": "",
-      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Dozens of people packed Valley View Highschool auditorium Thursday to fight plans for a proposed natural gas plant. The site is a former junkyard along Eynon Jermyn road in Archbald. The 400-megawatt plant, proposed by Essential Energy LLC, consists of four industrial turbines which would run around the clock. An air [...]",
-      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY \u2014 Dozens of people packed Valley View Highschool auditorium Thursday to fight plans for a proposed natural gas plant.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Valley View",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/valley-view.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Eynon Jermyn",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/eynon-jermyn.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Essential Energy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/essential-energy.md",
+            "file_path": "../entities/people/the-jessup.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1045,27 +897,6 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "along Eynon Jermyn road",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/along-eynon-jermyn-road.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "near park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/near-park.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Essential Energy LLC",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/essential-energy-llc.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1084,7 +915,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valley V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eynon Je</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Essentia</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along Ey</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">near par</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Jess</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1095,20 +926,162 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Valley View": "../entities/people/valley-view.md",
-          "Eynon Jermyn": "../entities/people/eynon-jermyn.md",
-          "Essential Energy": "../entities/people/essential-energy.md",
+          "Jessup Hose": "../entities/people/jessup-hose.md",
+          "The Jessup": "../entities/people/the-jessup.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "along Eynon Jermyn road": "../entities/locations/along-eynon-jermyn-road.md",
-          "near park": "../entities/locations/near-park.md",
-          "Essential Energy LLC": "../entities/organizations/essential-energy-llc.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-22T03:14:09",
-      "url": "https://www.2822news.com/news/concerns-grow-over-proposed-gas-plant-near-park/",
+      "publishedAt": "2026-05-23T03:11:10",
+      "url": "https://www.2822news.com/news/jessup-hose-co-no-2-carnival-continues-for-3rd-night/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Fire company fundraises with food truck",
+      "title_distilled": "Fire company fundraises with food truck.",
+      "description": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A week-long fundraiser is bringing people to a local volunteer fire company to support their firefighters. Pizza, salads, soups, and more are on the menu at Throop Volunteer Fire Company. \"Hometown Heroes\" brings the delicious food, and a portion of the proceeds goes right back to benefit the fire company. [...]",
+      "description_distilled": "",
+      "content": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A week-long fundraiser is bringing people to a local volunteer fire company to support their firefighters. Pizza, salads, soups, and more are on the menu at Throop Volunteer Fire Company. \"Hometown Heroes\" brings the delicious food, and a portion of the proceeds goes right back to benefit the fire company. [...]",
+      "content_distilled": "THROOP, LACKAWANNA COUNTY  \u2014 A week-long fundraiser is bringing people to a local volunteer fire company to support their firefighters.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Hometown Heroes",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/hometown-heroes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Throop Volunteer",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/throop-volunteer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fire Company",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fire-company.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Throop Volunteer Fire Company",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/throop-volunteer-fire-company.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hometown</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Throop V</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fire Com</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Throop V</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Hometown Heroes": "../entities/works/movies/hometown-heroes.md",
+          "Throop Volunteer": "../entities/people/throop-volunteer.md",
+          "Fire Company": "../entities/people/fire-company.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Throop Volunteer Fire Company": "../entities/organizations/throop-volunteer-fire-company.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-23T01:53:55",
+      "url": "https://www.2822news.com/news/fire-company-fundraises-with-food-truck/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Non-profit helping heroes heal, looks for help",
+      "title_distilled": "Non-profit helping heroes heal, looks for help.",
+      "description": "NEWTON TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local non-profit that uses horses to provide trauma therapy to veterans and first responders expressed that they are looking for some help. With more people to spread the word, their impact can grow even bigger. Equines for Freedom gives veterans and first responders a chance to heal outside [...]",
+      "description_distilled": "",
+      "content": "NEWTON TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local non-profit that uses horses to provide trauma therapy to veterans and first responders expressed that they are looking for some help. With more people to spread the word, their impact can grow even bigger. Equines for Freedom gives veterans and first responders a chance to heal outside [...]",
+      "content_distilled": "NEWTON TWP.",
+      "graph": {
+        "entities": [
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-05-22T23:47:03",
+      "url": "https://www.2822news.com/news/local-news/non-profit-helping-heroes-heal-looks-for-help/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
