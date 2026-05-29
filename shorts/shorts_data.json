@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-28T12:09:57.544810",
-  "source_file": "../data/daily/scranton_news_2026-05-28.json",
+  "generated_at": "2026-05-29T12:03:52.391529",
+  "source_file": "../data/daily/scranton_news_2026-05-29.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -820,6 +820,69 @@
     },
     {
       "id": "short_10",
+      "title": "Scranton prepares for FIFA Fan Zone excitement",
+      "title_distilled": "Scranton prepares for FIFA Fan Zone excitement.",
+      "description": "Scranton is set to be center stage when it comes to this summer's 2026 FIFA World Cup.",
+      "description_distilled": "",
+      "content": "Scranton is set to be center stage when it comes to this summer's 2026 FIFA World Cup.",
+      "content_distilled": "Scranton is set to be center stage when it comes to this summer's 2026 FIFA World Cup.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Fan Zone",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fan-zone.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "World Cup",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/world-cup.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton",
+            "to": "Fan Zone",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fan Zone</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Fan Zone": "../entities/people/fan-zone.md",
+          "World Cup": "../entities/people/world-cup.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-05-28T20:44:28",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-prepares-for-fifa-fan-zone-excitement-electric-city-world-cup-sports-free-spectacular-fourth-of-july/523-6072a811-6ae0-4270-bfd2-aaaac38abde9",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
       "title": "Bluegrass lovers flock to Lazy Brook Park for NEPA's Bluegrass Festival",
       "title_distilled": "Bluegrass lovers flock to Lazy Brook Park for NEPA's Bluegrass Festival.",
       "description": "The NEPA Bluegrass Festival returns to Lazy Brook Park, Tunkhannock, drawing thousands to enjoy three days of traditional and progressive bluegrass music.",
@@ -882,49 +945,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-28T09:29:59",
+      "publishedAt": "2026-05-28T12:06:36",
       "url": "https://www.wnep.com/article/news/local/wyoming-county/bluegrass-lovers-flock-lazy-brook-park-nepas-bluegrass-festival-tunkhannock-wyoming-county-nikki-krize/523-f993e2a6-970d-4574-a803-74933faae8b3",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Governor Shapiro addresses community concerns over Archbald data center zoning",
-      "title_distilled": "Governor Shapiro addresses community concerns over Archbald data center zoning.",
-      "description": "Governor Shapiro came face-to-face with some Archbald residents who turned out to share their concerns about the many data centers planned for their community.",
-      "description_distilled": "",
-      "content": "Governor Shapiro came face-to-face with some Archbald residents who turned out to share their concerns about the many data centers planned for their community.",
-      "content_distilled": "Governor Shapiro came face-to-face with some Archbald residents who turned out to share their concerns about the many data centers planned for their community.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Governor Shapiro",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/governor-shapiro.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Governor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Governor Shapiro": "../entities/people/governor-shapiro.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-28T02:20:29",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/governor-shapiro-addresses-residents-concerns-over-data-center-zoning-archbald-lackawanna-county/523-0248d4ea-fdf6-49e8-8891-fa73f9270109",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -932,31 +954,59 @@
     },
     {
       "id": "short_12",
-      "title": "Everhart Museum draws in visitors from around the world",
-      "title_distilled": "Everhart Museum draws in visitors from around the world.",
-      "description": "A museum in Lackawanna County is seeing a resurgence as new exhibits are bringing in visitors from across the world.",
+      "title": "Man to spend decades in prison for child porn charges",
+      "title_distilled": "Man to spend decades in prison for child porn charges.",
+      "description": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It'll be decades in prison for a former Old Forge man after he was sentenced in a child sexual abuse material case. Prosecutors say Sterling Barnes was hit with 18-and-a-half to 45 years in prison today on 45 felony counts. The Lackawanna County District Attorney's Office says the case [...]",
       "description_distilled": "",
-      "content": "A museum in Lackawanna County is seeing a resurgence as new exhibits are bringing in visitors from across the world.",
-      "content_distilled": "museum in Lackawanna County is seeing a resurgence as new exhibits are bringing in visitors from across the world.",
+      "content": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It'll be decades in prison for a former Old Forge man after he was sentenced in a child sexual abuse material case. Prosecutors say Sterling Barnes was hit with 18-and-a-half to 45 years in prison today on 45 felony counts. The Lackawanna County District Attorney's Office says the case [...]",
+      "content_distilled": "OLD FORGE, LACKAWANNA COUNTY  \u2014 It'll be decades in prison for a former Old Forge man after he was sentenced in a child sexual abuse material case.",
       "graph": {
         "entities": [
           {
-            "name": "Everhart Museum",
+            "name": "Old Forge",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/everhart-museum.md",
+            "file_path": "../entities/people/old-forge.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "Sterling Barnes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sterling-barnes.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Lackawanna",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-lackawanna.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sterling</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -967,13 +1017,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Everhart Museum": "../entities/people/everhart-museum.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Old Forge": "../entities/people/old-forge.md",
+          "Sterling Barnes": "../entities/people/sterling-barnes.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-05-27T21:05:06",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/everhart-museum-draws-in-visitors-from-around-the-world-scranton-mulberry-street-lackawanna-county-exhibits-art/523-000c780d-c4d9-46f5-9542-14ef210fa618",
+      "source": "Wbre",
+      "publishedAt": "2026-05-29T03:12:25",
+      "url": "https://www.2822news.com/news/man-to-spend-decades-in-prison-for-child-porn-charges/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -981,47 +1035,33 @@
     },
     {
       "id": "short_13",
-      "title": "Governor Shapiro joins Great Data Center Debate",
-      "title_distilled": "Governor Shapiro joins Great Data Center Debate.",
-      "description": "BLAKELY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A major development in the data center fight: Governor Josh Shapiro traveled from Blakely to Archbald on Wednesday, meeting with local leaders and residents, and unveiled a new state initiative. It would force developers to meet strict standards on energy, environmental protection, local job creation, and transparency before qualifying for [...]",
+      "title": "Repurposing religious relics after church closures",
+      "title_distilled": "Repurposing religious relics after church closures.",
+      "description": "(WBRE/WYOU) \u2014 The closure of catholic churches is becoming a reality for more communities. But after the final mass, there is another question. What happens to the sacred items inside? The final mass at Nativity Church is Scranton is a day Father Johnathan Kuhar remembers with bitter sweetness. \"It was a sad but beautiful experience. [...]",
       "description_distilled": "",
-      "content": "BLAKELY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A major development in the data center fight: Governor Josh Shapiro traveled from Blakely to Archbald on Wednesday, meeting with local leaders and residents, and unveiled a new state initiative. It would force developers to meet strict standards on energy, environmental protection, local job creation, and transparency before qualifying for [...]",
-      "content_distilled": "BLAKELY, LACKAWANNA COUNTY  \u2014 A major development in the data center fight: Governor Josh Shapiro traveled from Blakely to Archbald on Wednesday, meeting with local leaders and residents, and unveiled a new state initiative.",
+      "content": "(WBRE/WYOU) \u2014 The closure of catholic churches is becoming a reality for more communities. But after the final mass, there is another question. What happens to the sacred items inside? The final mass at Nativity Church is Scranton is a day Father Johnathan Kuhar remembers with bitter sweetness. \"It was a sad but beautiful experience. [...]",
+      "content_distilled": " \u2014 The closure of catholic churches is becoming a reality for more communities.",
       "graph": {
         "entities": [
           {
-            "name": "Governor Shapiro",
+            "name": "Nativity Church",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/governor-shapiro.md",
+            "file_path": "../entities/people/nativity-church.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Great Data",
+            "name": "Father Johnathan",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/great-data.md",
+            "file_path": "../entities/people/father-johnathan.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Center Debate",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/center-debate.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Governor Josh",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/governor-josh.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1039,8 +1079,19 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Governor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Great Da</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Center D</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Governor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nativity</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Father J</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1051,18 +1102,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Governor Shapiro": "../entities/people/governor-shapiro.md",
-          "Great Data": "../entities/people/great-data.md",
-          "Center Debate": "../entities/people/center-debate.md",
-          "Governor Josh": "../entities/people/governor-josh.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Nativity Church": "../entities/people/nativity-church.md",
+          "Father Johnathan": "../entities/people/father-johnathan.md",
+          "Scranton": "../entities/locations/scranton.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-28T03:12:15",
-      "url": "https://www.2822news.com/news/data-centers/governor-shapiro-joins-great-data-center-debate/",
+      "publishedAt": "2026-05-29T03:09:48",
+      "url": "https://www.2822news.com/news/repurposing-religious-relics-after-church-closures/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1070,26 +1119,33 @@
     },
     {
       "id": "short_14",
-      "title": "Experts remind residents how to properly handle fireworks",
-      "title_distilled": "Experts remind residents how to properly handle fireworks.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Fireworks are a big part of summer celebrations: With the United States of America's 250th birthday and warmer temperatures ahead, experts are reminding people how to properly handle and dispose of fireworks. \"You have to use good judgment,\" Bulldog Fireworks owner Charles Karam said. Karam has been selling fireworks since 2011. [...]",
+      "title": "Police seize gun, drugs, search for wanted man",
+      "title_distilled": "Police seize gun, drugs, search for wanted man.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 An arrest warrant is now out after investigators say they seized drugs and an AR style shotgun from a south Scranton home. Investigators shared this photo of the haul today. The Lackawanna County District Attorney's Office says the search happened Wednesday night on Cedar Avenue. Police were looking for Benjamin [...]",
       "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Fireworks are a big part of summer celebrations: With the United States of America's 250th birthday and warmer temperatures ahead, experts are reminding people how to properly handle and dispose of fireworks. \"You have to use good judgment,\" Bulldog Fireworks owner Charles Karam said. Karam has been selling fireworks since 2011. [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 Fireworks are a big part of summer celebrations: With the United States of America's 250th birthday and warmer temperatures ahead, experts are reminding people how to properly handle and dispose of fireworks.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 An arrest warrant is now out after investigators say they seized drugs and an AR style shotgun from a south Scranton home. Investigators shared this photo of the haul today. The Lackawanna County District Attorney's Office says the search happened Wednesday night on Cedar Avenue. Police were looking for Benjamin [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 An arrest warrant is now out after investigators say they seized drugs and an AR style shotgun from a south Scranton home.",
       "graph": {
         "entities": [
           {
-            "name": "Bulldog Fireworks",
+            "name": "The Lackawanna",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bulldog-fireworks.md",
+            "file_path": "../entities/people/the-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Charles Karam",
+            "name": "Cedar Avenue",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/charles-karam.md",
+            "file_path": "../entities/people/cedar-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1115,7 +1171,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bulldog </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Charles </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cedar Av</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1126,16 +1182,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Bulldog Fireworks": "../entities/people/bulldog-fireworks.md",
-          "Charles Karam": "../entities/people/charles-karam.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "Cedar Avenue": "../entities/people/cedar-avenue.md",
+          "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-28T00:22:07",
-      "url": "https://www.2822news.com/news/local-news/experts-remind-residents-how-to-properly-handle-fireworks/",
+      "publishedAt": "2026-05-29T02:14:45",
+      "url": "https://www.2822news.com/news/police-seize-gun-drugs-search-for-wanted-man/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
