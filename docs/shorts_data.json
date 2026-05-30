@@ -1,12 +1,114 @@
 {
-  "generated_at": "2026-05-29T12:03:52.391529",
-  "source_file": "../data/daily/scranton_news_2026-05-29.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2026-05-30T11:30:37.674434",
+  "source_file": "../data/daily/scranton_news_2026-05-30.json",
+  "total_shorts": 13,
+  "total_duration": 104,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "BAZOOKA TEAMSTERS AUTHORIZE STRIKE",
+      "title_distilled": "BAZOOKA TEAMSTERS AUTHORIZE STRIKE.",
+      "description": "Workers at Nation's Sole Ring Pop Plant Fight for Fair Contract SCRANTON, Pa., May 28, 2026 /PRNewswire/ -- More than 60 members of Teamsters Local 229 at Bazooka Inc. in Moosic, Pa., have overwhelmingly voted to authorize a strike after the candy company fai\u2026",
+      "description_distilled": "",
+      "content": "Workers at Nation's Sole Ring Pop Plant Fight for Fair Contract SCRANTON, Pa., May 28, 2026 /PRNewswire/ -- More than 60 members of Teamsters Local 229 at Bazooka Inc. in Moosic, Pa., have overwhelmingly voted to authorize a strike after the candy company fai\u2026",
+      "content_distilled": "Workers at Nation's Sole Ring Pop Plant Fight for Fair Contract SCRANTON, Pa.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Sole Ring",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sole-ring.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pop Plant",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pop-plant.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fair Contract",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fair-contract.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Teamsters Local",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/teamsters-local.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Bazooka Inc",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bazooka-inc.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Sole Ring",
+            "to": "Fair Contract",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sole Rin</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pop Plan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fair Con</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Teamster</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bazooka </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Sole Ring": "../entities/people/sole-ring.md",
+          "Pop Plant": "../entities/people/pop-plant.md",
+          "Fair Contract": "../entities/people/fair-contract.md",
+          "Teamsters Local": "../entities/people/teamsters-local.md",
+          "Bazooka Inc": "../entities/people/bazooka-inc.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "PRNewswire",
+      "publishedAt": "2026-05-28T19:40:00Z",
+      "url": "https://www.prnewswire.com/news-releases/bazooka-teamsters-authorize-strike-302784959.html",
+      "urlToImage": "https://mma.prnewswire.com/media/2655485/Teamsters_Logo_v1.jpg?p=facebook",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "In HelloNation, Insulation Expert Mike Mancuso Explains the Benefits of Choosing the Right Insulation",
       "title_distilled": "In HelloNation, Insulation Expert Mike Mancuso Explains the Benefits of Choosing the Right Insulation.",
       "description": "SCRANTON, Pa., May 20, 2026 /PRNewswire/ -- The article outlines how proper insulation improves comfort, lowers energy costs, and protects buildings from moisture and temperature extremes. What are...",
@@ -81,11 +183,11 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-insulation-expert-mike-mancuso-explains-the-benefits-of-choosing-the-right-insulation-302777802.html",
       "urlToImage": "https://mma.prnewswire.com/media/2984399/pascranthn25_1_vid4_iwd_xtlrg_univ_Insulation_Expert_Mike_Mancuso.mp4?p=medium",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Just 28 Fun Products From Etsy To Buy Yourself Cause You Had A V Stressful Day",
       "title_distilled": "Just 28 Fun Products From Etsy To Buy Yourself Cause You Had A V Stressful Day.",
       "description": "A bunch of unique, quirky, fun finds under $50 \u2014 just what the doctor (PhD in little treats) ordered.View Entire Post \u203a",
@@ -160,11 +262,11 @@
       "url": "https://www.buzzfeed.com/katyherman/fun-etsy-products-treat-yourself",
       "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2026-04/24/18/thumb/zA85yniQ5.jpg?crop=3000:1571;0,3%26downsize=1250:*",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Zakk Wylde Announces 2026 \u201cBerzerkus\u201d Concerts Featuring Lamb of God, Black Label Society, and Down",
       "title_distilled": "Zakk Wylde Announces 2026 \u201cBerzerkus\u201d Concerts Featuring Lamb of God, Black Label Society, and Down.",
       "description": "The special concerts will take place in Scranton, Pennsylvania, and Wantagh, New York. Zakk Wylde Announces 2026 \u201cBerzerkus\u201d Concerts Featuring Lamb of God, Black Label Society, and Down Spencer Kaufman",
@@ -268,11 +370,111 @@
       "url": "https://consequence.net/2026/05/zakk-wylde-berzerkus-concerts-2025/",
       "urlToImage": "https://consequence.net/wp-content/uploads/2026/05/Lamb-of-God-Zakk-Wylde.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
+      "title": "World Cup fan zone in Scranton promises four days of free, family-friendly fun",
+      "title_distilled": "World Cup fan zone in Scranton promises four days of free, family-friendly fun.",
+      "description": "SCRANTON \u2014 The FIFA World Cup Soccer Tournament Fan Zone at Lackawanna County Courthouse Square downtown on four days in July will feature a full slate of fun, family-friendly, free activities, organizers said Thursday. Representatives of the county, city, La\u2026",
+      "description_distilled": "",
+      "content": "SCRANTON \u2014 The FIFA World Cup Soccer Tournament Fan Zone at Lackawanna County Courthouse Square downtown on four days in July will feature a full slate of fun, family-friendly, free activities, organizers said Thursday. Representatives of the county, city, La\u2026",
+      "content_distilled": "SCRANTON \u2014 The FIFA World Cup Soccer Tournament Fan Zone at Lackawanna County Courthouse Square downtown on four days in July will feature a full slate of fun, family-friendly, free activities, organizers said Thursday.",
+      "graph": {
+        "entities": [
+          {
+            "name": "World Cup",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/world-cup.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "World Cup Soccer",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/world-cup-soccer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Tournament Fan Zone",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/tournament-fan-zone.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Courthouse Square",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/courthouse-square.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The FIFA World Cup Soccer Tournament",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/the-fifa-world-cup-soccer-tournament.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "World Cup",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tourname</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Courthou</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "World Cup": "../entities/people/world-cup.md",
+          "World Cup Soccer": "../entities/people/world-cup-soccer.md",
+          "Tournament Fan Zone": "../entities/people/tournament-fan-zone.md",
+          "Courthouse Square": "../entities/people/courthouse-square.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "The FIFA World Cup Soccer Tournament": "../entities/events/the-fifa-world-cup-soccer-tournament.md"
+        }
+      },
+      "source": "Thetimes-tribune.com",
+      "publishedAt": "2026-05-29T00:01:00Z",
+      "url": "https://www.thetimes-tribune.com/2026/05/28/world-cup-fan-zone-in-scranton-promises-four-days-of-free-family-friendly-fun/",
+      "urlToImage": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
+    },
+    {
+      "id": "short_5",
       "title": "Gerrit Cole Tosses Six Strikeouts in Rehab Assignment with SWB Railriders",
       "title_distilled": "Gerrit Cole Tosses Six Strikeouts in Rehab Assignment with SWB Railriders.",
       "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 New York Yankees ace Gerrit Cole made an appearance Saturday night in NEPA for another minor league rehab assignment, throwing 5.1 innings, striking out six batters and allowing just one run, in a 6-2 loss to the Syracu\u2026",
@@ -363,11 +565,11 @@
       "url": "https://www.2822news.com/sports/local-sports/gerrit-cole-tosses-six-strikeouts-in-rehab-assignment-with-swb-railriders/",
       "urlToImage": "https://s.yimg.com/os/en/wbre_articles_217/01b6cb60c736ec557524dfb95617f3b8",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_4",
+      "id": "short_6",
       "title": "Ruth Turkington promoted to Executive Vice President, Chief Banking Officer at Fidelity Bank",
       "title_distilled": "Ruth Turkington promoted to Executive Vice President, Chief Banking Officer at Fidelity Bank.",
       "description": "DUNMORE, Pa., May 13, 2026 (GLOBE NEWSWIRE) -- Daniel J. Santaniello, President and CEO of Fidelity Bank, is pleased to announce that Ruth Turkington has been promoted to Chief Banking Officer.",
@@ -461,11 +663,11 @@
       "url": "https://www.globenewswire.com/news-release/2026/05/13/3294113/0/en/Ruth-Turkington-promoted-to-Executive-Vice-President-Chief-Banking-Officer-at-Fidelity-Bank.html",
       "urlToImage": "https://ml.globenewswire.com/Resource/Download/707ac25e-570e-4add-acc9-d40633e56829",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_5",
+      "id": "short_7",
       "title": "An InventHelp 123Invent Client Develops Improved Kit for Mending a Bra (LBT-9771)",
       "title_distilled": "InventHelp 123Invent Client Develops Improved Kit for Mending a Bra .",
       "description": "PITTSBURGH, May 14, 2026 /PRNewswire/ -- \"I have Parkinson's, and I needed a better way to mend my bras where the wire comes through and makes a hole,\" said an inventor from Dickson City, Pennsylvania. As a result, they developed the MEND - A - BRA, designed \u2026",
@@ -570,104 +772,6 @@
       "publishedAt": "2026-05-14T14:45:00Z",
       "url": "https://www.prnewswire.com/news-releases/an-inventhelp-123invent-client-develops-improved-kit-for-mending-a-bra-lbt-9771-302767828.html",
       "urlToImage": "https://mma.prnewswire.com/media/2099578/InventHelp_Logo_jpg_Logo.jpg?p=facebook",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
-    },
-    {
-      "id": "short_6",
-      "title": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council mem",
-      "title_distilled": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council mem.",
-      "description": "The residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area. \u2026",
-      "description_distilled": "",
-      "content": "The residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area. \u2026",
-      "content_distilled": "residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Walmart Supercenters",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/walmart-supercenters.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Walmart </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Walmart Supercenters": "../entities/people/walmart-supercenters.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Slashdot.org",
-      "publishedAt": "2026-04-28T13:32:30Z",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183026298",
-      "urlToImage": null,
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
-    },
-    {
-      "id": "short_7",
-      "title": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council members have resigned from their positions as town fights back",
-      "title_distilled": "Six AI data centers proposed for a small town of 7,000, equal to 51 Walmart Supercenters in 17 square mile area \u2014 four out of the seven town council members have resigned from their positions as town fights back.",
-      "description": "The residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area.",
-      "description_distilled": "",
-      "content": "The residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area.",
-      "content_distilled": "residents of Archbald, Pennsylvania have started pushing back against the six planned data centers in the town, which will take up about 14% of its land area.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Walmart Supercenters",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/walmart-supercenters.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Walmart </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Walmart Supercenters": "../entities/people/walmart-supercenters.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Tom's Hardware UK",
-      "publishedAt": "2026-04-28T13:15:29Z",
-      "url": "https://www.tomshardware.com/desktops/servers/six-ai-data-centers-proposed-for-a-small-town-of-7-000-equal-to-51-walmart-supercenters-in-17-square-mile-area-four-out-of-the-seven-town-council-members-have-resigned-from-their-positions-as-town-fights-back",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/cAkbprtpxDB6ChwJfP7Thg-1920-80.png",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
       "animation_delay": 0.7000000000000001
@@ -820,84 +924,14 @@
     },
     {
       "id": "short_10",
-      "title": "Scranton prepares for FIFA Fan Zone excitement",
-      "title_distilled": "Scranton prepares for FIFA Fan Zone excitement.",
-      "description": "Scranton is set to be center stage when it comes to this summer's 2026 FIFA World Cup.",
+      "title": "19th annual NEPA Bluegrass Festival returns to Tunkhannock",
+      "title_distilled": "19th annual NEPA Bluegrass Festival returns to Tunkhannock.",
+      "description": "A local husband and wife started the festival in 2008 in hopes of bringing bluegrass music home.",
       "description_distilled": "",
-      "content": "Scranton is set to be center stage when it comes to this summer's 2026 FIFA World Cup.",
-      "content_distilled": "Scranton is set to be center stage when it comes to this summer's 2026 FIFA World Cup.",
+      "content": "A local husband and wife started the festival in 2008 in hopes of bringing bluegrass music home.",
+      "content_distilled": "local husband and wife started the festival in 2008 in hopes of bringing bluegrass music home.",
       "graph": {
         "entities": [
-          {
-            "name": "Fan Zone",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fan-zone.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "World Cup",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/world-cup.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Scranton",
-            "to": "Fan Zone",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fan Zone</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Fan Zone": "../entities/people/fan-zone.md",
-          "World Cup": "../entities/people/world-cup.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-28T20:44:28",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-prepares-for-fifa-fan-zone-excitement-electric-city-world-cup-sports-free-spectacular-fourth-of-july/523-6072a811-6ae0-4270-bfd2-aaaac38abde9",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Bluegrass lovers flock to Lazy Brook Park for NEPA's Bluegrass Festival",
-      "title_distilled": "Bluegrass lovers flock to Lazy Brook Park for NEPA's Bluegrass Festival.",
-      "description": "The NEPA Bluegrass Festival returns to Lazy Brook Park, Tunkhannock, drawing thousands to enjoy three days of traditional and progressive bluegrass music.",
-      "description_distilled": "",
-      "content": "The NEPA Bluegrass Festival returns to Lazy Brook Park, Tunkhannock, drawing thousands to enjoy three days of traditional and progressive bluegrass music.",
-      "content_distilled": "NEPA Bluegrass Festival returns to Lazy Brook Park, Tunkhannock, drawing thousands to enjoy three days of traditional and progressive bluegrass music.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Lazy Brook",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lazy-brook.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "Bluegrass Festival",
             "type": "PERSON",
@@ -906,28 +940,22 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Brook Park",
-            "type": "LOCATION",
+            "name": "annual NEPA Bluegrass Festival",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/locations/brook-park.md",
+            "file_path": "../entities/events/annual-nepa-bluegrass-festival.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Bluegrass Festival The NEPA Bluegrass Festival",
+            "name": "local husband and wife started the festival",
             "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/events/bluegrass-festival-the-nepa-bluegrass-festival.md",
+            "file_path": "../entities/events/local-husband-and-wife-started-the-festival.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lazy Brook",
-            "to": "Bluegrass Festival The NEPA Bluegrass Festival",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lazy Bro</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bluegras</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brook Pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bluegras</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bluegras</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">annual N</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">local hu</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -938,28 +966,27 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lazy Brook": "../entities/people/lazy-brook.md",
           "Bluegrass Festival": "../entities/people/bluegrass-festival.md",
-          "Brook Park": "../entities/locations/brook-park.md",
-          "Bluegrass Festival The NEPA Bluegrass Festival": "../entities/events/bluegrass-festival-the-nepa-bluegrass-festival.md"
+          "annual NEPA Bluegrass Festival": "../entities/events/annual-nepa-bluegrass-festival.md",
+          "local husband and wife started the festival": "../entities/events/local-husband-and-wife-started-the-festival.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-28T12:06:36",
-      "url": "https://www.wnep.com/article/news/local/wyoming-county/bluegrass-lovers-flock-lazy-brook-park-nepas-bluegrass-festival-tunkhannock-wyoming-county-nikki-krize/523-f993e2a6-970d-4574-a803-74933faae8b3",
+      "publishedAt": "2026-05-29T21:47:06",
+      "url": "https://www.wnep.com/article/news/local/wyoming-county/19th-annual-nepa-bluegrass-festival-returns-to-tunkhannock-wyoming-county-music-live-group/523-066d5526-681f-4157-bf29-522a71fc1fd8",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
-      "title": "Man to spend decades in prison for child porn charges",
-      "title_distilled": "Man to spend decades in prison for child porn charges.",
-      "description": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It'll be decades in prison for a former Old Forge man after he was sentenced in a child sexual abuse material case. Prosecutors say Sterling Barnes was hit with 18-and-a-half to 45 years in prison today on 45 felony counts. The Lackawanna County District Attorney's Office says the case [...]",
+      "id": "short_11",
+      "title": "'Run for the Pizza' supports Old Forge Fire Department",
+      "title_distilled": "'Run for the Pizza' supports Old Forge Fire Department.",
+      "description": "This weekend, the pizza capital of the world is coming together for a fundraiser and a feast.",
       "description_distilled": "",
-      "content": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It'll be decades in prison for a former Old Forge man after he was sentenced in a child sexual abuse material case. Prosecutors say Sterling Barnes was hit with 18-and-a-half to 45 years in prison today on 45 felony counts. The Lackawanna County District Attorney's Office says the case [...]",
-      "content_distilled": "OLD FORGE, LACKAWANNA COUNTY  \u2014 It'll be decades in prison for a former Old Forge man after he was sentenced in a child sexual abuse material case.",
+      "content": "This weekend, the pizza capital of the world is coming together for a fundraiser and a feast.",
+      "content_distilled": "This weekend, the pizza capital of the world is coming together for a fundraiser and a feast.",
       "graph": {
         "entities": [
           {
@@ -970,43 +997,15 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Sterling Barnes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sterling-barnes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Lackawanna",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-lackawanna.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
+            "name": "Old Forge Fire Department",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/organizations/old-forge-fire-department.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sterling</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1018,131 +1017,36 @@
         },
         "entity_files": {
           "Old Forge": "../entities/people/old-forge.md",
-          "Sterling Barnes": "../entities/people/sterling-barnes.md",
-          "The Lackawanna": "../entities/people/the-lackawanna.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Old Forge Fire Department": "../entities/organizations/old-forge-fire-department.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-05-29T03:12:25",
-      "url": "https://www.2822news.com/news/man-to-spend-decades-in-prison-for-child-porn-charges/",
+      "source": "Wnep",
+      "publishedAt": "2026-05-29T21:05:43",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/run-for-the-pizza-supports-old-forge-fire-department-lackawanna-county-volunteer-training-community-race/523-279ab919-b0c5-4b4a-b853-3d01a018b02c",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_13",
-      "title": "Repurposing religious relics after church closures",
-      "title_distilled": "Repurposing religious relics after church closures.",
-      "description": "(WBRE/WYOU) \u2014 The closure of catholic churches is becoming a reality for more communities. But after the final mass, there is another question. What happens to the sacred items inside? The final mass at Nativity Church is Scranton is a day Father Johnathan Kuhar remembers with bitter sweetness. \"It was a sad but beautiful experience. [...]",
+      "id": "short_12",
+      "title": "Scranton pools, splashpads will be fully staffed this summer",
+      "title_distilled": "Scranton pools, splashpads will be fully staffed this summer.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 City officials in Scranton have successfully filled every lifeguard position for pools and splash pads, clearing the way for a full season of safe swimming for residents. This staffing achievement ensures that the city's aquatic facilities will be fully supervised throughout the summer months. The City of Scranton needed to [...]",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 The closure of catholic churches is becoming a reality for more communities. But after the final mass, there is another question. What happens to the sacred items inside? The final mass at Nativity Church is Scranton is a day Father Johnathan Kuhar remembers with bitter sweetness. \"It was a sad but beautiful experience. [...]",
-      "content_distilled": " \u2014 The closure of catholic churches is becoming a reality for more communities.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 City officials in Scranton have successfully filled every lifeguard position for pools and splash pads, clearing the way for a full season of safe swimming for residents. This staffing achievement ensures that the city's aquatic facilities will be fully supervised throughout the summer months. The City of Scranton needed to [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 City officials in Scranton have successfully filled every lifeguard position for pools and splash pads, clearing the way for a full season of safe swimming for residents.",
       "graph": {
         "entities": [
           {
-            "name": "Nativity Church",
+            "name": "The City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/nativity-church.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Father Johnathan",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/father-johnathan.md",
+            "file_path": "../entities/people/the-city.md",
             "resolution_method": "new_entity"
           },
           {
             "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nativity</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Father J</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Nativity Church": "../entities/people/nativity-church.md",
-          "Father Johnathan": "../entities/people/father-johnathan.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-05-29T03:09:48",
-      "url": "https://www.2822news.com/news/repurposing-religious-relics-after-church-closures/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Police seize gun, drugs, search for wanted man",
-      "title_distilled": "Police seize gun, drugs, search for wanted man.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 An arrest warrant is now out after investigators say they seized drugs and an AR style shotgun from a south Scranton home. Investigators shared this photo of the haul today. The Lackawanna County District Attorney's Office says the search happened Wednesday night on Cedar Avenue. Police were looking for Benjamin [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 An arrest warrant is now out after investigators say they seized drugs and an AR style shotgun from a south Scranton home. Investigators shared this photo of the haul today. The Lackawanna County District Attorney's Office says the search happened Wednesday night on Cedar Avenue. Police were looking for Benjamin [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 An arrest warrant is now out after investigators say they seized drugs and an AR style shotgun from a south Scranton home.",
-      "graph": {
-        "entities": [
-          {
-            "name": "The Lackawanna",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-lackawanna.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Cedar Avenue",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/cedar-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
@@ -1170,8 +1074,34 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cedar Av</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "The City",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "The City",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The City</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1182,20 +1112,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Lackawanna": "../entities/people/the-lackawanna.md",
-          "Cedar Avenue": "../entities/people/cedar-avenue.md",
-          "SCRANTON": "../entities/locations/scranton.md",
+          "The City": "../entities/people/the-city.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-05-29T02:14:45",
-      "url": "https://www.2822news.com/news/police-seize-gun-drugs-search-for-wanted-man/",
+      "publishedAt": "2026-05-29T23:35:07",
+      "url": "https://www.2822news.com/news/scranton-pools-splashpads-will-be-fully-staffed-this-summer/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     }
   ]
