@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-31T11:32:41.522364",
-  "source_file": "../data/daily/scranton_news_2026-05-31.json",
+  "generated_at": "2026-06-01T12:52:22.117593",
+  "source_file": "../data/daily/scranton_news_2026-06-01.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -924,19 +924,147 @@
     },
     {
       "id": "short_10",
-      "title": "15th annual Blue Ribbon Gala fundraiser for Marley's Mission takes place in Lackawanna County",
-      "title_distilled": "15th annual Blue Ribbon Gala fundraiser for Marley's Mission takes place in Lackawanna County.",
-      "description": "The 15th annual Blue Ribbon Gala in Scranton celebrates Marley's Mission's 15 years of providing equine-assisted therapy for children, aiming to raise $20,000.",
+      "title": "Strawberry festival brings month of berry picking to Lackawanna County",
+      "title_distilled": "Strawberry festival brings month of berry picking to Lackawanna County.",
+      "description": "Head to Lakeland Orchard's Strawberry Festival in Scott Township for a month of berry picking, live music, and more every Thursday through Sunday until June 28th.",
       "description_distilled": "",
-      "content": "The 15th annual Blue Ribbon Gala in Scranton celebrates Marley's Mission's 15 years of providing equine-assisted therapy for children, aiming to raise $20,000.",
-      "content_distilled": "15th annual Blue Ribbon Gala in Scranton celebrates Marley's Mission's 15 years of providing equine-assisted therapy for children, aiming to raise $20,000.",
+      "content": "Head to Lakeland Orchard's Strawberry Festival in Scott Township for a month of berry picking, live music, and more every Thursday through Sunday until June 28th.",
+      "content_distilled": "Head to Lakeland Orchard's Strawberry Festival in Scott Township for a month of berry picking, live music, and more every Thursday through Sunday until June 28th.",
       "graph": {
         "entities": [
           {
-            "name": "Blue Ribbon",
+            "name": "Lakeland Orchard",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/blue-ribbon.md",
+            "file_path": "../entities/people/lakeland-orchard.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Strawberry Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/strawberry-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scott Township",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scott-township.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Strawberry Festival",
+            "to": "Lakeland Orchard",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lakeland</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Strawber</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scott To</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lakeland Orchard": "../entities/people/lakeland-orchard.md",
+          "Strawberry Festival": "../entities/people/strawberry-festival.md",
+          "Scott Township": "../entities/people/scott-township.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-06-01T11:13:10",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/strawberry-festival-brings-month-of-berry-picking-to-lackawanna-county-lakeland-orchard/523-2a04db20-e1bc-47a0-9605-0cd1906e5b67",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Prom focused on inclusion takes place in Lackawanna County",
+      "title_distilled": "Prom focused on inclusion takes place in Lackawanna County.",
+      "description": "A prom in Lackawanna County celebrated inclusion, drawing 350 attendees from \"Beacon Specialized Living\" and beyond to foster community and friendship.",
+      "description_distilled": "",
+      "content": "A prom in Lackawanna County celebrated inclusion, drawing 350 attendees from \"Beacon Specialized Living\" and beyond to foster community and friendship.",
+      "content_distilled": "prom in Lackawanna County celebrated inclusion, drawing 350 attendees from \"Beacon Specialized Living\" and beyond to foster community and friendship.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Beacon Specialized Living",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/beacon-specialized-living.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Beacon Specialized",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/beacon-specialized.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Beacon S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Beacon S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Beacon Specialized Living": "../entities/works/movies/beacon-specialized-living.md",
+          "Beacon Specialized": "../entities/people/beacon-specialized.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-06-01T02:57:11",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/prom-focused-inclusion-takes-place-lackawanna-county-fiorellis/523-a8826263-f54f-4160-84ea-092061341e99",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Pride flag raising takes place in Scranton",
+      "title_distilled": "Pride flag raising takes place in Scranton.",
+      "description": "As Pride Month kicks off, Scranton's 8th annual Pride flag-raising attracts its largest crowd yet, featuring community speakers, live entertainment and more.",
+      "description_distilled": "",
+      "content": "As Pride Month kicks off, Scranton's 8th annual Pride flag-raising attracts its largest crowd yet, featuring community speakers, live entertainment and more.",
+      "content_distilled": "As Pride Month kicks off, Scranton's 8th annual Pride flag-raising attracts its largest crowd yet, featuring community speakers, live entertainment and more.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton As Pride",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-as-pride.md",
             "resolution_method": "new_entity"
           },
           {
@@ -947,26 +1075,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "Pride Month",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/events/pride-month.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Blue Ribbon",
+            "from": "Pride Month",
             "to": "Scranton",
             "type": "LOCATED_IN"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blue Rib</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pride Mo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -977,128 +1100,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Blue Ribbon": "../entities/people/blue-ribbon.md",
+          "Scranton As Pride": "../entities/people/scranton-as-pride.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Pride Month": "../entities/events/pride-month.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-31T03:22:42",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/15th-annual-blue-ribbon-gala-fundraiser-for-marleys-mission-takes-place-in-lackawanna-county/523-a0f09c46-b13e-4ee3-97de-72a1fd88c750",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Leveling up at the Lackawanna County Amateur Golf Championship",
-      "title_distilled": "Leveling up at the Lackawanna County Amateur Golf Championship.",
-      "description": "Lackawanna County's Amateur Golf Championship at Pine Hills Country Club offers golfers of all ages a chance to improve their skills and enjoy friendly competition.",
-      "description_distilled": "",
-      "content": "Lackawanna County's Amateur Golf Championship at Pine Hills Country Club offers golfers of all ages a chance to improve their skills and enjoy friendly competition.",
-      "content_distilled": "Lackawanna County's Amateur Golf Championship at Pine Hills Country Club offers golfers of all ages a chance to improve their skills and enjoy friendly competition.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Amateur Golf",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/amateur-golf.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Championship Lackawanna",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/championship-lackawanna.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pine Hills",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pine-hills.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Country Club",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/country-club.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Amateur </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Champion</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pine Hil</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Country </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Amateur Golf": "../entities/people/amateur-golf.md",
-          "Championship Lackawanna": "../entities/people/championship-lackawanna.md",
-          "Pine Hills": "../entities/people/pine-hills.md",
-          "Country Club": "../entities/people/country-club.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-31T02:32:49",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/leveling-up-lackawanna-county-amateur-golf-championship-taylor/523-9804abb8-ee78-4af6-8e98-cd1f42fde77a",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Head-on crash injures four in Lackawanna County",
-      "title_distilled": "Head-on crash injures four in Lackawanna County.",
-      "description": "Police say the crash happened after a car was swerving in between lanes before crashing with another car head on. The injuries are said to be non-life-threatening.",
-      "description_distilled": "",
-      "content": "Police say the crash happened after a car was swerving in between lanes before crashing with another car head on. The injuries are said to be non-life-threatening.",
-      "content_distilled": "Police say the crash happened after a car was swerving in between lanes before crashing with another car head on.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-31T02:06:03",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/head-on-crash-injures-four-lackawanna-county/523-a077d0d4-77ef-48f3-98ea-3e8e877c224d",
+      "publishedAt": "2026-05-31T23:20:58",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pride-flag-raising-takes-place-scranton-lackawanna-county/523-74a23243-1fe7-4a83-b6f4-db550f923199",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1106,77 +1115,42 @@
     },
     {
       "id": "short_13",
-      "title": "Diesel Jam supports trade students in honor of Andrew Mazza",
-      "title_distilled": "Diesel Jam supports trade students in honor of Andrew Mazza.",
-      "description": "The Andrew Mazza Diesel Jam 2026 in Dickson City celebrates the diesel community while supporting trade students with scholarships.",
+      "title": "Vandalism damages community park in Scranton once again",
+      "title_distilled": "Vandalism damages community park in Scranton once again.",
+      "description": "Newswatch 16's Valeria Qui\u00f1ones spoke with the president of the community's neighborhood association about what they're doing to combat this.",
       "description_distilled": "",
-      "content": "The Andrew Mazza Diesel Jam 2026 in Dickson City celebrates the diesel community while supporting trade students with scholarships.",
-      "content_distilled": "Andrew Mazza Diesel Jam 2026 in Dickson City celebrates the diesel community while supporting trade students with scholarships.",
+      "content": "Newswatch 16's Valeria Qui\u00f1ones spoke with the president of the community's neighborhood association about what they're doing to combat this.",
+      "content_distilled": "Newswatch 16's Valeria Qui\u00f1ones spoke with the president of the community's neighborhood association about what they're doing to combat this.",
       "graph": {
         "entities": [
           {
-            "name": "Diesel Jam",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/diesel-jam.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Andrew Mazza",
-            "type": "PERSON",
+            "name": "community park",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/andrew-mazza.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Andrew",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-andrew.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mazza Diesel",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mazza-diesel.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dickson City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
+            "file_path": "../entities/locations/community-park.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Diesel Jam",
-            "to": "Andrew Mazza",
-            "type": "SUPPORTS",
-            "verb": "supports"
+            "from": "community park",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           },
           {
-            "from": "Diesel Jam",
-            "to": "The Andrew",
-            "type": "SUPPORTS",
-            "verb": "supports"
-          },
-          {
-            "from": "Diesel Jam",
-            "to": "Mazza Diesel",
-            "type": "SUPPORTS",
-            "verb": "supports"
-          },
-          {
-            "from": "Diesel Jam",
-            "to": "Dickson City",
-            "type": "SUPPORTS",
-            "verb": "supports"
+            "from": "community park",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Diesel J</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Andrew M</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Andr</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mazza Di</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">communit</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1187,16 +1161,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Diesel Jam": "../entities/people/diesel-jam.md",
-          "Andrew Mazza": "../entities/people/andrew-mazza.md",
-          "The Andrew": "../entities/people/the-andrew.md",
-          "Mazza Diesel": "../entities/people/mazza-diesel.md",
-          "Dickson City": "../entities/people/dickson-city.md"
+          "Scranton": "../entities/locations/scranton.md",
+          "community park": "../entities/locations/community-park.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-05-31T01:09:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/diesel-jam-supports-trade-students-honor-andrew-mazza-lackawanna-county/523-b7c05e24-185b-4904-802c-442b8f3e3892",
+      "publishedAt": "2026-05-31T22:12:42",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/vandalism-damages-community-park-in-scranton-once-again-lackawanna-county/523-ed1aa9ba-fcf4-4dc2-8e27-c070bf665ad4",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1204,38 +1175,59 @@
     },
     {
       "id": "short_14",
-      "title": "One person's trash is another's trophy at the 'Garbage Olympics' in Lackawanna County",
-      "title_distilled": "One person's trash is another's trophy at the 'Garbage Olympics' in Lackawanna County.",
-      "description": "At the \"Garbage Olympics\" groups competed in a contest to clean various areas throughout the city. Those who collected the most trash would take home an award.",
+      "title": "A night to remember for hundreds of people",
+      "title_distilled": "night to remember for hundreds of people.",
+      "description": "PECKVILLE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a time to shine for hundreds of people at a community event in northeastern Pennsylvania. A prom brought them out for a night to remember. 28/22 News Reporter Colby Hughes explained the fun and meaningful event. A night most people remember for life: prom night. This prom in [...]",
       "description_distilled": "",
-      "content": "At the \"Garbage Olympics\" groups competed in a contest to clean various areas throughout the city. Those who collected the most trash would take home an award.",
-      "content_distilled": "At the \"Garbage Olympics\" groups competed in a contest to clean various areas throughout the city.",
+      "content": "PECKVILLE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a time to shine for hundreds of people at a community event in northeastern Pennsylvania. A prom brought them out for a night to remember. 28/22 News Reporter Colby Hughes explained the fun and meaningful event. A night most people remember for life: prom night. This prom in [...]",
+      "content_distilled": "PECKVILLE, LACKAWANNA COUNTY  \u2014 It was a time to shine for hundreds of people at a community event in northeastern Pennsylvania.",
       "graph": {
         "entities": [
           {
-            "name": "s trash is another",
-            "type": "WORK",
+            "name": "News Reporter",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/s-trash-is-another.md",
+            "file_path": "../entities/people/news-reporter.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Garbage Olympics",
-            "type": "WORK",
+            "name": "Colby Hughes",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/garbage-olympics.md",
+            "file_path": "../entities/people/colby-hughes.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">s trash </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Garbage </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1246,14 +1238,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "s trash is another": "../entities/works/movies/s-trash-is-another.md",
-          "Garbage Olympics": "../entities/works/movies/garbage-olympics.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Colby Hughes": "../entities/people/colby-hughes.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-05-31T01:09:12",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/one-persons-trash-anothers-trophy-the-garbage-olympics-lackawanna-county/523-4030f099-56d9-488b-8be3-10871c03562c",
+      "source": "Wbre",
+      "publishedAt": "2026-06-01T03:08:55",
+      "url": "https://www.2822news.com/news/local-news/a-night-to-remember-for-hundreds-of-people/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
