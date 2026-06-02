@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-01T12:52:22.117593",
-  "source_file": "../data/daily/scranton_news_2026-06-01.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2026-06-02T12:19:15.760375",
+  "source_file": "../data/daily/scranton_news_2026-06-02.json",
+  "total_shorts": 14,
+  "total_duration": 112,
   "has_svo": false,
   "shorts": [
     {
@@ -924,51 +924,38 @@
     },
     {
       "id": "short_10",
-      "title": "Strawberry festival brings month of berry picking to Lackawanna County",
-      "title_distilled": "Strawberry festival brings month of berry picking to Lackawanna County.",
-      "description": "Head to Lakeland Orchard's Strawberry Festival in Scott Township for a month of berry picking, live music, and more every Thursday through Sunday until June 28th.",
+      "title": "Former restaurant catches fire in Archbald",
+      "title_distilled": "Former restaurant catches fire in Archbald.",
+      "description": "The former Tomaino's Lounge along North Main Street caught fire just before 9 a.m. Monday.",
       "description_distilled": "",
-      "content": "Head to Lakeland Orchard's Strawberry Festival in Scott Township for a month of berry picking, live music, and more every Thursday through Sunday until June 28th.",
-      "content_distilled": "Head to Lakeland Orchard's Strawberry Festival in Scott Township for a month of berry picking, live music, and more every Thursday through Sunday until June 28th.",
+      "content": "The former Tomaino's Lounge along North Main Street caught fire just before 9 a.m. Monday.",
+      "content_distilled": "former Tomaino's Lounge along North Main Street caught fire just before 9 a.",
       "graph": {
         "entities": [
           {
-            "name": "Lakeland Orchard",
+            "name": "Archbald The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/lakeland-orchard.md",
+            "file_path": "../entities/people/archbald-the.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Strawberry Festival",
+            "name": "North Main",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/strawberry-festival.md",
+            "file_path": "../entities/people/north-main.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scott Township",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scott-township.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
+            "name": "along North Main Street",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/along-north-main-street.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Strawberry Festival",
-            "to": "Lakeland Orchard",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lakeland</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Strawber</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scott To</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along No</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -979,15 +966,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lakeland Orchard": "../entities/people/lakeland-orchard.md",
-          "Strawberry Festival": "../entities/people/strawberry-festival.md",
-          "Scott Township": "../entities/people/scott-township.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Archbald The": "../entities/people/archbald-the.md",
+          "North Main": "../entities/people/north-main.md",
+          "along North Main Street": "../entities/locations/along-north-main-street.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-01T11:13:10",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/strawberry-festival-brings-month-of-berry-picking-to-lackawanna-county-lakeland-orchard/523-2a04db20-e1bc-47a0-9605-0cd1906e5b67",
+      "publishedAt": "2026-06-01T15:23:01",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/former-restaurant-catches-fire-in-archbald-lackawanna-county-north-main-street/523-592f1566-7954-4e9d-a3cc-1c1e9f11aa11",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -995,38 +981,75 @@
     },
     {
       "id": "short_11",
-      "title": "Prom focused on inclusion takes place in Lackawanna County",
-      "title_distilled": "Prom focused on inclusion takes place in Lackawanna County.",
-      "description": "A prom in Lackawanna County celebrated inclusion, drawing 350 attendees from \"Beacon Specialized Living\" and beyond to foster community and friendship.",
+      "title": "Toyota of Scranton celebrates Community Day",
+      "title_distilled": "Toyota of Scranton celebrates Community Day.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local car dealership is giving back to the community in a big way. Toyota of Scranton is donating $25,000 to 10 nonprofits. The donation is part of the dealership's Community Day and NEPA Gives Day of Giving. Representatives of 10 organizations, listed below, each received a check on Monday [...]",
       "description_distilled": "",
-      "content": "A prom in Lackawanna County celebrated inclusion, drawing 350 attendees from \"Beacon Specialized Living\" and beyond to foster community and friendship.",
-      "content_distilled": "prom in Lackawanna County celebrated inclusion, drawing 350 attendees from \"Beacon Specialized Living\" and beyond to foster community and friendship.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local car dealership is giving back to the community in a big way. Toyota of Scranton is donating $25,000 to 10 nonprofits. The donation is part of the dealership's Community Day and NEPA Gives Day of Giving. Representatives of 10 organizations, listed below, each received a check on Monday [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A local car dealership is giving back to the community in a big way.",
       "graph": {
         "entities": [
           {
-            "name": "Beacon Specialized Living",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/beacon-specialized-living.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Beacon Specialized",
+            "name": "Community Day",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/beacon-specialized.md",
+            "file_path": "../entities/people/community-day.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "Gives Day",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/gives-day.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Beacon S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Beacon S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Gives Da</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1037,14 +1060,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Beacon Specialized Living": "../entities/works/movies/beacon-specialized-living.md",
-          "Beacon Specialized": "../entities/people/beacon-specialized.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Community Day": "../entities/people/community-day.md",
+          "Gives Day": "../entities/people/gives-day.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-06-01T02:57:11",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/prom-focused-inclusion-takes-place-lackawanna-county-fiorellis/523-a8826263-f54f-4160-84ea-092061341e99",
+      "source": "Wbre",
+      "publishedAt": "2026-06-02T02:13:57",
+      "url": "https://www.2822news.com/news/local-news/toyota-of-scranton-celebrates-community-day/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1052,156 +1078,19 @@
     },
     {
       "id": "short_12",
-      "title": "Pride flag raising takes place in Scranton",
-      "title_distilled": "Pride flag raising takes place in Scranton.",
-      "description": "As Pride Month kicks off, Scranton's 8th annual Pride flag-raising attracts its largest crowd yet, featuring community speakers, live entertainment and more.",
+      "title": "Investigation underway after Tomaino's Lounge catches fire",
+      "title_distilled": "Investigation underway after Tomaino's Lounge catches fire.",
+      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Investigators are trying to figure out what caused an Archbald lounge to catch fire Monday morning. Crews responded to the flames just after 9:00 a.m. Monday morning at Tomaino's Lounge on the corner of Harrison and North Main Streets. When they got there, they found smoke coming from the second [...]",
       "description_distilled": "",
-      "content": "As Pride Month kicks off, Scranton's 8th annual Pride flag-raising attracts its largest crowd yet, featuring community speakers, live entertainment and more.",
-      "content_distilled": "As Pride Month kicks off, Scranton's 8th annual Pride flag-raising attracts its largest crowd yet, featuring community speakers, live entertainment and more.",
+      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Investigators are trying to figure out what caused an Archbald lounge to catch fire Monday morning. Crews responded to the flames just after 9:00 a.m. Monday morning at Tomaino's Lounge on the corner of Harrison and North Main Streets. When they got there, they found smoke coming from the second [...]",
+      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 Investigators are trying to figure out what caused an Archbald lounge to catch fire Monday morning.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton As Pride",
+            "name": "North Main",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-as-pride.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pride Month",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/pride-month.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Pride Month",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pride Mo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton As Pride": "../entities/people/scranton-as-pride.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pride Month": "../entities/events/pride-month.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-31T23:20:58",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pride-flag-raising-takes-place-scranton-lackawanna-county/523-74a23243-1fe7-4a83-b6f4-db550f923199",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Vandalism damages community park in Scranton once again",
-      "title_distilled": "Vandalism damages community park in Scranton once again.",
-      "description": "Newswatch 16's Valeria Qui\u00f1ones spoke with the president of the community's neighborhood association about what they're doing to combat this.",
-      "description_distilled": "",
-      "content": "Newswatch 16's Valeria Qui\u00f1ones spoke with the president of the community's neighborhood association about what they're doing to combat this.",
-      "content_distilled": "Newswatch 16's Valeria Qui\u00f1ones spoke with the president of the community's neighborhood association about what they're doing to combat this.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "community park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/community-park.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "community park",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "community park",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">communit</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md",
-          "community park": "../entities/locations/community-park.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-05-31T22:12:42",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/vandalism-damages-community-park-in-scranton-once-again-lackawanna-county/523-ed1aa9ba-fcf4-4dc2-8e27-c070bf665ad4",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "A night to remember for hundreds of people",
-      "title_distilled": "night to remember for hundreds of people.",
-      "description": "PECKVILLE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a time to shine for hundreds of people at a community event in northeastern Pennsylvania. A prom brought them out for a night to remember. 28/22 News Reporter Colby Hughes explained the fun and meaningful event. A night most people remember for life: prom night. This prom in [...]",
-      "description_distilled": "",
-      "content": "PECKVILLE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It was a time to shine for hundreds of people at a community event in northeastern Pennsylvania. A prom brought them out for a night to remember. 28/22 News Reporter Colby Hughes explained the fun and meaningful event. A night most people remember for life: prom night. This prom in [...]",
-      "content_distilled": "PECKVILLE, LACKAWANNA COUNTY  \u2014 It was a time to shine for hundreds of people at a community event in northeastern Pennsylvania.",
-      "graph": {
-        "entities": [
-          {
-            "name": "News Reporter",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/news-reporter.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Colby Hughes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/colby-hughes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/people/north-main.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1227,7 +1116,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1238,20 +1127,134 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "News Reporter": "../entities/people/news-reporter.md",
-          "Colby Hughes": "../entities/people/colby-hughes.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "North Main": "../entities/people/north-main.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-01T03:08:55",
-      "url": "https://www.2822news.com/news/local-news/a-night-to-remember-for-hundreds-of-people/",
+      "publishedAt": "2026-06-02T01:34:07",
+      "url": "https://www.2822news.com/news/local-news/investigation-underway-after-tomainos-lounge-catches-fire/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "First project complete in cities streetscape investment",
+      "title_distilled": "First project complete in cities streetscape investment.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The first project, a part of Scranton's streetscape project, has officially been announced. Mayor Paige Cognetti and other members of her administration, including local leaders, were at the ribbon-cutting along Cedar Avenue in Scranton. The four blocks from Alder Street to Orchard Street received new sidewalks and trees installed on [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The first project, a part of Scranton's streetscape project, has officially been announced. Mayor Paige Cognetti and other members of her administration, including local leaders, were at the ribbon-cutting along Cedar Avenue in Scranton. The four blocks from Alder Street to Orchard Street received new sidewalks and trees installed on [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The first project, a part of Scranton's streetscape project, has officially been announced.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Mayor Paige",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mayor-paige.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Cedar Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cedar-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "cutting along Cedar Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/cutting-along-cedar-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "to Orchard Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/to-orchard-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Mayor Paige",
+            "to": "Paige Cognetti",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "cutting along Cedar Avenue",
+            "to": "SCRANTON",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mayor Pa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cedar Av</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">cutting </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Mayor Paige": "../entities/people/mayor-paige.md",
+          "Cedar Avenue": "../entities/people/cedar-avenue.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "cutting along Cedar Avenue": "../entities/locations/cutting-along-cedar-avenue.md",
+          "to Orchard Street": "../entities/locations/to-orchard-street.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-06-02T00:23:10",
+      "url": "https://www.2822news.com/news/local-news/first-project-complete-in-cities-streetscape-investment/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     }
   ]
