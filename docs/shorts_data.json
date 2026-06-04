@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-03T12:34:07.287228",
-  "source_file": "../data/daily/scranton_news_2026-06-03.json",
+  "generated_at": "2026-06-04T12:00:21.232568",
+  "source_file": "../data/daily/scranton_news_2026-06-04.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -924,6 +924,144 @@
     },
     {
       "id": "short_10",
+      "title": "Man in custody after shooting in West Scranton",
+      "title_distilled": "Man in custody after shooting in West Scranton.",
+      "description": "Police to the 510-514 blocks of 3rd Avenue in the city's west side around 2:15 p.m.",
+      "description_distilled": "",
+      "content": "Police to the 510-514 blocks of 3rd Avenue in the city's west side around 2:15 p.m.",
+      "content_distilled": "Police to the 510-514 blocks of 3rd Avenue in the city's west side around 2:15 p.",
+      "graph": {
+        "entities": [
+          {
+            "name": "West Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/west-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "West Scranton": "../entities/people/west-scranton.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-06-04T02:57:07",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/one-hurt-in-west-scranton-shooting-fellows-street-3rd-avenue-lackawanna-county-police/523-88e3b9da-3fa9-457b-b64e-b9d8349947ca",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Statue honors late West Scranton High School student",
+      "title_distilled": "Statue honors late West Scranton High School student.",
+      "description": "Friends and family came together in a school courtyard in Scranton to honor the life of a student taken too soon.",
+      "description_distilled": "",
+      "content": "Friends and family came together in a school courtyard in Scranton to honor the life of a student taken too soon.",
+      "content_distilled": "Friends and family came together in a school courtyard in Scranton to honor the life of a student taken too soon.",
+      "graph": {
+        "entities": [
+          {
+            "name": "West Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/west-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "High School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "West Scranton High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/west-scranton-high-school.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "West Scranton",
+            "to": "Scranton",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "High School",
+            "to": "Scranton",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "Scranton",
+            "to": "West Scranton High School",
+            "type": "CAME",
+            "verb": "came"
+          },
+          {
+            "from": "West Scranton High School",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "West Scranton": "../entities/people/west-scranton.md",
+          "High School": "../entities/people/high-school.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "West Scranton High School": "../entities/organizations/west-scranton-high-school.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-06-03T20:59:52",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/statue-honors-late-west-scranton-high-school-student-rose-hernandez-lackawanna-county/523-7422d9ed-c016-429f-a490-3ae8530fbedb",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
       "title": "NEPA Gives, area's largest fundraiser, kicks off Thursday",
       "title_distilled": "NEPA Gives, area's largest fundraiser, kicks off Thursday.",
       "description": "More than 250 nonprofits will benefit from NEPA Gives, a 24-hour fundraising campaign.",
@@ -956,118 +1094,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-03T11:16:05",
+      "publishedAt": "2026-06-03T13:56:55",
       "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepa-gives-areas-largest-fundraiser-kicks-off-thursday/523-3b7ec2fd-f709-45d8-958f-f36cd2b682a1",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Congolese Community of Scranton unveils new wheels",
-      "title_distilled": "Congolese Community of Scranton unveils new wheels.",
-      "description": "A transportation project started by a nonprofit in Scranton is one of the driving forces behind the city's growing Congolese community.",
-      "description_distilled": "",
-      "content": "A transportation project started by a nonprofit in Scranton is one of the driving forces behind the city's growing Congolese community.",
-      "content_distilled": "transportation project started by a nonprofit in Scranton is one of the driving forces behind the city's growing Congolese community.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Congolese Community",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/congolese-community.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Congolese Community",
-            "to": "Scranton",
-            "type": "STARTED",
-            "verb": "started"
-          },
-          {
-            "from": "Congolese Community",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congoles</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARTED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Congolese Community": "../entities/people/congolese-community.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-02T21:29:24",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/congolese-community-of-scranton-unveils-new-wheels-lackawanna-county-immigration/523-cfe4b5e1-19cc-45d4-8bcf-a744df4eeba5",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Man faces charges after police chase in Lackawanna County",
-      "title_distilled": "Man faces charges after police chase in Lackawanna County.",
-      "description": "Tylor Graham is charged with evading arrest, fleeing or eluding an officer, and receiving stolen property after the chase Tuesday morning.",
-      "description_distilled": "",
-      "content": "Tylor Graham is charged with evading arrest, fleeing or eluding an officer, and receiving stolen property after the chase Tuesday morning.",
-      "content_distilled": "Tylor Graham is charged with evading arrest, fleeing or eluding an officer, and receiving stolen property after the chase Tuesday morning.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Tylor Graham",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/tylor-graham.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tylor Gr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Tylor Graham": "../entities/people/tylor-graham.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-02T19:08:08",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/man-faces-charges-after-police-chase-in-lackawanna-county-blakely-olyphant-throop/523-bb45b9b7-6bb4-4ec9-84eb-8ef56402228e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1075,26 +1103,61 @@
     },
     {
       "id": "short_13",
-      "title": "State officials warning: eyes up, phones down",
-      "title_distilled": "State officials warning: eyes up, phones down.",
-      "description": "(WBRE/WYOU) \u2014 Starting Friday, drivers can be fined under Paul Miller's Law, named for a Scranton man killed by a distracted driver in Monroe County. The law targets drivers holding or using a hand-held device behind the wheel, even while stopped in traffic. PennDOT says distracted driving killed 54 people on Pennsylvania roads last year. [...]",
+      "title": "Fans rally around Wilkes-Barre/Scranton Penguins",
+      "title_distilled": "Fans rally around Wilkes-Barre/Scranton Penguins.",
+      "description": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 The Penguins are fighting for a spot in the Calder Cup finals, and on Wednesday night, fans in Wilkes-Barre Township treated a road game like a home game. Fans packed Miller's Ale House for Game 4 of the Eastern Conference Finals. The Wilkes-Barre/Scranton Penguins were in Canada, taking on [...]",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 Starting Friday, drivers can be fined under Paul Miller's Law, named for a Scranton man killed by a distracted driver in Monroe County. The law targets drivers holding or using a hand-held device behind the wheel, even while stopped in traffic. PennDOT says distracted driving killed 54 people on Pennsylvania roads last year. [...]",
-      "content_distilled": " \u2014 Starting Friday, drivers can be fined under Paul Miller's Law, named for a Scranton man killed by a distracted driver in Monroe County.",
+      "content": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 The Penguins are fighting for a spot in the Calder Cup finals, and on Wednesday night, fans in Wilkes-Barre Township treated a road game like a home game. Fans packed Miller's Ale House for Game 4 of the Eastern Conference Finals. The Wilkes-Barre/Scranton Penguins were in Canada, taking on [...]",
+      "content_distilled": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY  \u2014 The Penguins are fighting for a spot in the Calder Cup finals, and on Wednesday night, fans in Wilkes-Barre Township treated a road game like a home game.",
       "graph": {
         "entities": [
           {
-            "name": "Starting Friday",
+            "name": "Scranton Penguins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/starting-friday.md",
+            "file_path": "../entities/people/scranton-penguins.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Paul Miller",
+            "name": "The Penguins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paul-miller.md",
+            "file_path": "../entities/people/the-penguins.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Calder Cup",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/calder-cup.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barre Township",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-township.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Ale House",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ale-house.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Eastern Conference",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/eastern-conference.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Wilkes",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-wilkes.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1102,13 +1165,6 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1124,21 +1180,9 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "State officials warning",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/state-officials-warning.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
           {
             "from": "WBRE",
             "to": "Scranton",
@@ -1150,7 +1194,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Starting</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paul Mil</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Peng</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Calder C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre To</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ale Hous</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eastern </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1161,18 +1205,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Starting Friday": "../entities/people/starting-friday.md",
-          "Paul Miller": "../entities/people/paul-miller.md",
+          "Scranton Penguins": "../entities/people/scranton-penguins.md",
+          "The Penguins": "../entities/people/the-penguins.md",
+          "Calder Cup": "../entities/people/calder-cup.md",
+          "Barre Township": "../entities/people/barre-township.md",
+          "Ale House": "../entities/people/ale-house.md",
+          "Eastern Conference": "../entities/people/eastern-conference.md",
+          "The Wilkes": "../entities/people/the-wilkes.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "State officials warning": "../entities/events/state-officials-warning.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-03T03:29:10",
-      "url": "https://www.2822news.com/top-news/state-officials-warning-eyes-up-phones-down/",
+      "publishedAt": "2026-06-04T03:20:56",
+      "url": "https://www.2822news.com/sports/fans-rally-around-wilkes-barre-scranton-penguins/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1180,33 +1227,19 @@
     },
     {
       "id": "short_14",
-      "title": "Electrical load transport expected to cause traffic delays",
-      "title_distilled": "Electrical load transport expected to cause traffic delays.",
-      "description": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A heads-up for drivers traveling through Dickson City Wednesday morning: Police say the move of an electrical transport is expected to cause traffic headaches. Dickson City Police announced on Facebook Tuesday night that a large electrical load is planned to be transported from the railroad tracks on Boulevard Avenue [...]",
+      "title": "Memorial revealed honoring passed student",
+      "title_distilled": "Memorial revealed honoring passed student.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A school community came together to honor one of its own after a deadly incident involving her boyfriend last December. Wednesday, her family was presented with her high school diploma during an emotional ceremony. To say the start of 2026 has been difficult for the Hernandez family would be an [...]",
       "description_distilled": "",
-      "content": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A heads-up for drivers traveling through Dickson City Wednesday morning: Police say the move of an electrical transport is expected to cause traffic headaches. Dickson City Police announced on Facebook Tuesday night that a large electrical load is planned to be transported from the railroad tracks on Boulevard Avenue [...]",
-      "content_distilled": "DICKSON CITY, LACKAWANNA COUNTY  \u2014 A heads-up for drivers traveling through Dickson City Wednesday morning: Police say the move of an electrical transport is expected to cause traffic headaches.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A school community came together to honor one of its own after a deadly incident involving her boyfriend last December. Wednesday, her family was presented with her high school diploma during an emotional ceremony. To say the start of 2026 has been difficult for the Hernandez family would be an [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A school community came together to honor one of its own after a deadly incident involving her boyfriend last December.",
       "graph": {
         "entities": [
           {
-            "name": "Dickson City",
-            "type": "PERSON",
+            "name": "SCRANTON",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Facebook Tuesday",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/facebook-tuesday.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Boulevard Avenue",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/boulevard-avenue.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1231,39 +1264,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Dickson City",
-            "to": "Facebook Tuesday",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Dickson City",
-            "to": "Boulevard Avenue",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Dickson City",
-            "to": "LACKAWANNA COUNTY",
-            "type": "HEADS",
-            "verb": "heads"
-          },
-          {
-            "from": "Dickson City",
-            "to": "WBRE",
-            "type": "HEADS",
-            "verb": "heads"
-          },
-          {
-            "from": "Dickson City",
-            "to": "WYOU",
-            "type": "HEADS",
-            "verb": "heads"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Facebook</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Boulevar</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HEADS</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HEADS</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HEADS</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1274,17 +1276,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dickson City": "../entities/people/dickson-city.md",
-          "Facebook Tuesday": "../entities/people/facebook-tuesday.md",
-          "Boulevard Avenue": "../entities/people/boulevard-avenue.md",
+          "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-03T01:27:15",
-      "url": "https://www.2822news.com/traffic/electrical-load-transport-expected-to-cause-traffic-delays/",
+      "publishedAt": "2026-06-04T01:21:21",
+      "url": "https://www.2822news.com/news/memorial-revealed-honoring-passed-student/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
