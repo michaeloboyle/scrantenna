@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T12:00:21.232568",
-  "source_file": "../data/daily/scranton_news_2026-06-04.json",
+  "generated_at": "2026-06-05T12:02:06.765138",
+  "source_file": "../data/daily/scranton_news_2026-06-05.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -924,31 +924,38 @@
     },
     {
       "id": "short_10",
-      "title": "Man in custody after shooting in West Scranton",
-      "title_distilled": "Man in custody after shooting in West Scranton.",
-      "description": "Police to the 510-514 blocks of 3rd Avenue in the city's west side around 2:15 p.m.",
+      "title": "NEPA fair season begins with the Lackawanna County Heritage Fair on Montage Mountain",
+      "title_distilled": "NEPA fair season begins with the Lackawanna County Heritage Fair on Montage Mountain.",
+      "description": "Experience the excitement of the Lackawanna County Heritage Fair at Montage Mountain with rides, food, and entertainment through Sunday.",
       "description_distilled": "",
-      "content": "Police to the 510-514 blocks of 3rd Avenue in the city's west side around 2:15 p.m.",
-      "content_distilled": "Police to the 510-514 blocks of 3rd Avenue in the city's west side around 2:15 p.",
+      "content": "Experience the excitement of the Lackawanna County Heritage Fair at Montage Mountain with rides, food, and entertainment through Sunday.",
+      "content_distilled": "Experience the excitement of the Lackawanna County Heritage Fair at Montage Mountain with rides, food, and entertainment through Sunday.",
       "graph": {
         "entities": [
           {
-            "name": "West Scranton",
+            "name": "Heritage Fair",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/west-scranton.md",
+            "file_path": "../entities/people/heritage-fair.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "Montage Mountain",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/montage-mountain.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heritage</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Montage </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -959,13 +966,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "West Scranton": "../entities/people/west-scranton.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Heritage Fair": "../entities/people/heritage-fair.md",
+          "Montage Mountain": "../entities/people/montage-mountain.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-04T02:57:07",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/one-hurt-in-west-scranton-shooting-fellows-street-3rd-avenue-lackawanna-county-police/523-88e3b9da-3fa9-457b-b64e-b9d8349947ca",
+      "publishedAt": "2026-06-05T11:43:09",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepa-fair-season-begins-lackawanna-county-heritage-fair-montage-mountain-moosic-nikki-krize/523-5b8abf1a-751f-4c12-a6be-a343694265a3",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -973,28 +981,14 @@
     },
     {
       "id": "short_11",
-      "title": "Statue honors late West Scranton High School student",
-      "title_distilled": "Statue honors late West Scranton High School student.",
-      "description": "Friends and family came together in a school courtyard in Scranton to honor the life of a student taken too soon.",
+      "title": "Police: Scranton police K-9 unit involved in crash on I-380 in Lackawanna County",
+      "title_distilled": "Police: Scranton police K-9 unit involved in crash on I-380 in Lackawanna County.",
+      "description": "A crash on I-380 northbound near Exit 20 prompted a lane restriction.",
       "description_distilled": "",
-      "content": "Friends and family came together in a school courtyard in Scranton to honor the life of a student taken too soon.",
-      "content_distilled": "Friends and family came together in a school courtyard in Scranton to honor the life of a student taken too soon.",
+      "content": "A crash on I-380 northbound near Exit 20 prompted a lane restriction.",
+      "content_distilled": "crash on I-380 northbound near Exit 20 prompted a lane restriction.",
       "graph": {
         "entities": [
-          {
-            "name": "West Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/west-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "High School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/high-school.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -1003,39 +997,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "West Scranton High School",
-            "type": "ORGANIZATION",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/west-scranton-high-school.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "West Scranton",
+            "from": "Lackawanna County",
             "to": "Scranton",
-            "type": "CAME",
-            "verb": "came"
-          },
-          {
-            "from": "High School",
-            "to": "Scranton",
-            "type": "CAME",
-            "verb": "came"
-          },
-          {
-            "from": "Scranton",
-            "to": "West Scranton High School",
-            "type": "CAME",
-            "verb": "came"
-          },
-          {
-            "from": "West Scranton High School",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CAME</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1046,15 +1022,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "West Scranton": "../entities/people/west-scranton.md",
-          "High School": "../entities/people/high-school.md",
           "Scranton": "../entities/locations/scranton.md",
-          "West Scranton High School": "../entities/organizations/west-scranton-high-school.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-03T20:59:52",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/statue-honors-late-west-scranton-high-school-student-rose-hernandez-lackawanna-county/523-7422d9ed-c016-429f-a490-3ae8530fbedb",
+      "publishedAt": "2026-06-05T02:57:21",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lane-restriction-placed-after-crash-in-lackawanna-county-daleville-moscow/523-edd826fb-6d9b-4702-82fc-cc363883bceb",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1062,24 +1036,45 @@
     },
     {
       "id": "short_12",
-      "title": "NEPA Gives, area's largest fundraiser, kicks off Thursday",
-      "title_distilled": "NEPA Gives, area's largest fundraiser, kicks off Thursday.",
-      "description": "More than 250 nonprofits will benefit from NEPA Gives, a 24-hour fundraising campaign.",
+      "title": "A sweet experiment at the Lackawanna County Heritage Fair",
+      "title_distilled": "sweet experiment at the Lackawanna County Heritage Fair.",
+      "description": "The Heritage Fair is officially underway, and Newswatch 16's Anthony Bordanaro stopped by to test out a sweet experiment.",
       "description_distilled": "",
-      "content": "More than 250 nonprofits will benefit from NEPA Gives, a 24-hour fundraising campaign.",
-      "content_distilled": "More than 250 nonprofits will benefit from NEPA Gives, a 24-hour fundraising campaign.",
+      "content": "The Heritage Fair is officially underway, and Newswatch 16's Anthony Bordanaro stopped by to test out a sweet experiment.",
+      "content_distilled": "Heritage Fair is officially underway, and Newswatch 16's Anthony Bordanaro stopped by to test out a sweet experiment.",
       "graph": {
         "entities": [
           {
-            "name": "Thursday More",
+            "name": "Heritage Fair",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/thursday-more.md",
+            "file_path": "../entities/people/heritage-fair.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Heritage",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-heritage.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Anthony Bordanaro",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/anthony-bordanaro.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Thursday</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heritage</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Heri</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Anthony </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1090,12 +1085,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Thursday More": "../entities/people/thursday-more.md"
+          "Heritage Fair": "../entities/people/heritage-fair.md",
+          "The Heritage": "../entities/people/the-heritage.md",
+          "Anthony Bordanaro": "../entities/people/anthony-bordanaro.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-03T13:56:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepa-gives-areas-largest-fundraiser-kicks-off-thursday/523-3b7ec2fd-f709-45d8-958f-f36cd2b682a1",
+      "publishedAt": "2026-06-04T20:58:18",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/a-sweet-experiment-at-the-lackawanna-county-heritage-fair-montage-mountain-ice-cream-vendors-attractions/523-fc10c21d-6435-4709-bd43-43565c98353f",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1103,61 +1101,19 @@
     },
     {
       "id": "short_13",
-      "title": "Fans rally around Wilkes-Barre/Scranton Penguins",
-      "title_distilled": "Fans rally around Wilkes-Barre/Scranton Penguins.",
-      "description": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 The Penguins are fighting for a spot in the Calder Cup finals, and on Wednesday night, fans in Wilkes-Barre Township treated a road game like a home game. Fans packed Miller's Ale House for Game 4 of the Eastern Conference Finals. The Wilkes-Barre/Scranton Penguins were in Canada, taking on [...]",
+      "title": "Friendship House unveils new autism center in Scranton",
+      "title_distilled": "Friendship House unveils new autism center in Scranton.",
+      "description": "A partnership between two nonprofits in Lackawanna County looks to offer a new place of learning for those who need a little extra help in the classroom.",
       "description_distilled": "",
-      "content": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 The Penguins are fighting for a spot in the Calder Cup finals, and on Wednesday night, fans in Wilkes-Barre Township treated a road game like a home game. Fans packed Miller's Ale House for Game 4 of the Eastern Conference Finals. The Wilkes-Barre/Scranton Penguins were in Canada, taking on [...]",
-      "content_distilled": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY  \u2014 The Penguins are fighting for a spot in the Calder Cup finals, and on Wednesday night, fans in Wilkes-Barre Township treated a road game like a home game.",
+      "content": "A partnership between two nonprofits in Lackawanna County looks to offer a new place of learning for those who need a little extra help in the classroom.",
+      "content_distilled": "partnership between two nonprofits in Lackawanna County looks to offer a new place of learning for those who need a little extra help in the classroom.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Penguins",
+            "name": "Friendship House",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-penguins.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Penguins",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-penguins.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Calder Cup",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/calder-cup.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Barre Township",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/barre-township.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Ale House",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ale-house.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Eastern Conference",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/eastern-conference.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Wilkes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-wilkes.md",
+            "file_path": "../entities/people/friendship-house.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1168,33 +1124,26 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "WBRE",
+            "from": "Friendship House",
             "to": "Scranton",
-            "type": "OPERATES_IN"
+            "type": "LOCATED_IN"
           },
           {
-            "from": "WYOU",
+            "from": "Lackawanna County",
             "to": "Scranton",
-            "type": "OPERATES_IN"
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Peng</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Calder C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre To</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ale Hous</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eastern </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Friendsh</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1205,21 +1154,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Penguins": "../entities/people/scranton-penguins.md",
-          "The Penguins": "../entities/people/the-penguins.md",
-          "Calder Cup": "../entities/people/calder-cup.md",
-          "Barre Township": "../entities/people/barre-township.md",
-          "Ale House": "../entities/people/ale-house.md",
-          "Eastern Conference": "../entities/people/eastern-conference.md",
-          "The Wilkes": "../entities/people/the-wilkes.md",
+          "Friendship House": "../entities/people/friendship-house.md",
           "Scranton": "../entities/locations/scranton.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-06-04T03:20:56",
-      "url": "https://www.2822news.com/sports/fans-rally-around-wilkes-barre-scranton-penguins/",
+      "source": "Wnep",
+      "publishedAt": "2026-06-04T20:14:02",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-autism-center-unveiled-in-scranton-friendship-house-leadership-lackawanna/523-1935a951-45a3-4cc3-922b-84a3389d048f",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1227,45 +1169,59 @@
     },
     {
       "id": "short_14",
-      "title": "Memorial revealed honoring passed student",
-      "title_distilled": "Memorial revealed honoring passed student.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A school community came together to honor one of its own after a deadly incident involving her boyfriend last December. Wednesday, her family was presented with her high school diploma during an emotional ceremony. To say the start of 2026 has been difficult for the Hernandez family would be an [...]",
+      "title": "Fire damages business near Clarks Summit",
+      "title_distilled": "Fire damages business near Clarks Summit.",
+      "description": "Crews were called to the Shiraz Alteration Center along Parkwood Avenue in South Abington Township around 7 a.m. Thursday.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A school community came together to honor one of its own after a deadly incident involving her boyfriend last December. Wednesday, her family was presented with her high school diploma during an emotional ceremony. To say the start of 2026 has been difficult for the Hernandez family would be an [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A school community came together to honor one of its own after a deadly incident involving her boyfriend last December.",
+      "content": "Crews were called to the Shiraz Alteration Center along Parkwood Avenue in South Abington Township around 7 a.m. Thursday.",
+      "content_distilled": "Crews were called to the Shiraz Alteration Center along Parkwood Avenue in South Abington Township around 7 a.",
       "graph": {
         "entities": [
           {
-            "name": "SCRANTON",
+            "name": "Clarks Summit",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/clarks-summit.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Shiraz Alteration",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/shiraz-alteration.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Parkwood Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/parkwood-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "South Abington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/south-abington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Center along Parkwood Avenue",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/center-along-parkwood-avenue.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
+            "name": "Fire damages business near Clarks Summit",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/events/fire-damages-business-near-clarks-summit.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Shiraz A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Parkwood</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Center a</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fire dam</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1276,15 +1232,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Clarks Summit": "../entities/people/clarks-summit.md",
+          "Shiraz Alteration": "../entities/people/shiraz-alteration.md",
+          "Parkwood Avenue": "../entities/people/parkwood-avenue.md",
+          "South Abington": "../entities/people/south-abington.md",
+          "Center along Parkwood Avenue": "../entities/locations/center-along-parkwood-avenue.md",
+          "Fire damages business near Clarks Summit": "../entities/events/fire-damages-business-near-clarks-summit.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-06-04T01:21:21",
-      "url": "https://www.2822news.com/news/memorial-revealed-honoring-passed-student/",
+      "source": "Wnep",
+      "publishedAt": "2026-06-04T14:49:20",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-damages-business-near-clarks-summit-south-abington-township-lackawanna-county/523-a98c772f-95f4-48af-b219-b6d863be8617",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
