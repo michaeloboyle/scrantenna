@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-05T12:02:06.765138",
-  "source_file": "../data/daily/scranton_news_2026-06-05.json",
+  "generated_at": "2026-06-06T11:32:12.653379",
+  "source_file": "../data/daily/scranton_news_2026-06-06.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -924,6 +924,118 @@
     },
     {
       "id": "short_10",
+      "title": "First responders rescue baby fawn in Dickson City",
+      "title_distilled": "First responders rescue baby fawn in Dickson City.",
+      "description": "It was an unusual call for first responders in Lackawanna County, as they had to rescue a baby fawn stuck for days under a rock.",
+      "description_distilled": "",
+      "content": "It was an unusual call for first responders in Lackawanna County, as they had to rescue a baby fawn stuck for days under a rock.",
+      "content_distilled": "It was an unusual call for first responders in Lackawanna County, as they had to rescue a baby fawn stuck for days under a rock.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dickson City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dickson-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Dickson City",
+            "to": "Lackawanna County",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-06-05T21:40:54",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/first-responders-rescue-baby-fawn-in-dickson-city-lackawanna-county-chief-william-bilinski/523-924d245b-09c2-4fc5-ab25-fc4944d0e3d8",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Lakes in Lackawanna County open for the summer",
+      "title_distilled": "Lakes in Lackawanna County open for the summer.",
+      "description": "Aylesworth Lake and Covington Lake are now open for swimmers.",
+      "description_distilled": "",
+      "content": "Aylesworth Lake and Covington Lake are now open for swimmers.",
+      "content_distilled": "Aylesworth Lake and Covington Lake are now open for swimmers.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Aylesworth Lake",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/aylesworth-lake.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Covington Lake",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/covington-lake.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ayleswor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Covingto</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Aylesworth Lake": "../entities/people/aylesworth-lake.md",
+          "Covington Lake": "../entities/people/covington-lake.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-06-05T21:12:28",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-lakes-open-for-the-summer-county-northeast-pennsylvania-daleville-jermyn/523-fdbf2da5-79c6-4714-b6d7-18f0b8746cad",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
       "title": "NEPA fair season begins with the Lackawanna County Heritage Fair on Montage Mountain",
       "title_distilled": "NEPA fair season begins with the Lackawanna County Heritage Fair on Montage Mountain.",
       "description": "Experience the excitement of the Lackawanna County Heritage Fair at Montage Mountain with rides, food, and entertainment through Sunday.",
@@ -976,144 +1088,73 @@
       "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepa-fair-season-begins-lackawanna-county-heritage-fair-montage-mountain-moosic-nikki-krize/523-5b8abf1a-751f-4c12-a6be-a343694265a3",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Police: Scranton police K-9 unit involved in crash on I-380 in Lackawanna County",
-      "title_distilled": "Police: Scranton police K-9 unit involved in crash on I-380 in Lackawanna County.",
-      "description": "A crash on I-380 northbound near Exit 20 prompted a lane restriction.",
-      "description_distilled": "",
-      "content": "A crash on I-380 northbound near Exit 20 prompted a lane restriction.",
-      "content_distilled": "crash on I-380 northbound near Exit 20 prompted a lane restriction.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-05T02:57:21",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lane-restriction-placed-after-crash-in-lackawanna-county-daleville-moscow/523-edd826fb-6d9b-4702-82fc-cc363883bceb",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "A sweet experiment at the Lackawanna County Heritage Fair",
-      "title_distilled": "sweet experiment at the Lackawanna County Heritage Fair.",
-      "description": "The Heritage Fair is officially underway, and Newswatch 16's Anthony Bordanaro stopped by to test out a sweet experiment.",
-      "description_distilled": "",
-      "content": "The Heritage Fair is officially underway, and Newswatch 16's Anthony Bordanaro stopped by to test out a sweet experiment.",
-      "content_distilled": "Heritage Fair is officially underway, and Newswatch 16's Anthony Bordanaro stopped by to test out a sweet experiment.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Heritage Fair",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/heritage-fair.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Heritage",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-heritage.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Anthony Bordanaro",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/anthony-bordanaro.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heritage</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Heri</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Anthony </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Heritage Fair": "../entities/people/heritage-fair.md",
-          "The Heritage": "../entities/people/the-heritage.md",
-          "Anthony Bordanaro": "../entities/people/anthony-bordanaro.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-04T20:58:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/a-sweet-experiment-at-the-lackawanna-county-heritage-fair-montage-mountain-ice-cream-vendors-attractions/523-fc10c21d-6435-4709-bd43-43565c98353f",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Friendship House unveils new autism center in Scranton",
-      "title_distilled": "Friendship House unveils new autism center in Scranton.",
-      "description": "A partnership between two nonprofits in Lackawanna County looks to offer a new place of learning for those who need a little extra help in the classroom.",
+      "title": "Railriders blank Mets 4-0 behind no-hitter from pitching staff",
+      "title_distilled": "Railriders blank Mets 4-0 behind no-hitter from pitching staff.",
+      "description": "(WBRE/WYOU) \u2013 The Scranton/Wilkes-Barre Railriders played the Syracuse Mets Friday Night on the road at NBT Bank Stadium. The Railriders won the game 2-0 and pitched a no-hitter. Brendan Beck and Carson Coleman combined for nine shutout innings. Beck pitched the first seven innings, which tied a career high, and struck out six batters and [...]",
       "description_distilled": "",
-      "content": "A partnership between two nonprofits in Lackawanna County looks to offer a new place of learning for those who need a little extra help in the classroom.",
-      "content_distilled": "partnership between two nonprofits in Lackawanna County looks to offer a new place of learning for those who need a little extra help in the classroom.",
+      "content": "(WBRE/WYOU) \u2013 The Scranton/Wilkes-Barre Railriders played the Syracuse Mets Friday Night on the road at NBT Bank Stadium. The Railriders won the game 2-0 and pitched a no-hitter. Brendan Beck and Carson Coleman combined for nine shutout innings. Beck pitched the first seven innings, which tied a career high, and struck out six batters and [...]",
+      "content_distilled": " \u2013 The Scranton/Wilkes-Barre Railriders played the Syracuse Mets Friday Night on the road at NBT Bank Stadium.",
       "graph": {
         "entities": [
           {
-            "name": "Friendship House",
+            "name": "The Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/friendship-house.md",
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barre Railriders",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-railriders.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Syracuse Mets",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/syracuse-mets.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Friday Night",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/friday-night.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Bank Stadium",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bank-stadium.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Railriders",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-railriders.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Brendan Beck",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/brendan-beck.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Carson Coleman",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/carson-coleman.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1124,26 +1165,64 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Friendship House",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "The Scranton",
+            "to": "Friday Night",
+            "type": "MET",
+            "verb": "met"
           },
           {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "The Scranton",
+            "to": "Bank Stadium",
+            "type": "MET",
+            "verb": "met"
+          },
+          {
+            "from": "Barre Railriders",
+            "to": "Friday Night",
+            "type": "MET",
+            "verb": "met"
+          },
+          {
+            "from": "Barre Railriders",
+            "to": "Bank Stadium",
+            "type": "MET",
+            "verb": "met"
+          },
+          {
+            "from": "Scranton",
+            "to": "Friday Night",
+            "type": "MET",
+            "verb": "met"
+          },
+          {
+            "from": "WBRE",
+            "to": "Friday Night",
+            "type": "MET",
+            "verb": "met"
+          },
+          {
+            "from": "Scranton",
+            "to": "Bank Stadium",
+            "type": "MET",
+            "verb": "met"
+          },
+          {
+            "from": "WBRE",
+            "to": "Bank Stadium",
+            "type": "MET",
+            "verb": "met"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Friendsh</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Ra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Syracuse</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Friday N</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bank Sta</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Rail</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1154,14 +1233,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Friendship House": "../entities/people/friendship-house.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Barre Railriders": "../entities/people/barre-railriders.md",
+          "Syracuse Mets": "../entities/people/syracuse-mets.md",
+          "Friday Night": "../entities/people/friday-night.md",
+          "Bank Stadium": "../entities/people/bank-stadium.md",
+          "The Railriders": "../entities/people/the-railriders.md",
+          "Brendan Beck": "../entities/people/brendan-beck.md",
+          "Carson Coleman": "../entities/people/carson-coleman.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "WBRE": "../entities/organizations/wbre.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-06-04T20:14:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-autism-center-unveiled-in-scranton-friendship-house-leadership-lackawanna/523-1935a951-45a3-4cc3-922b-84a3389d048f",
+      "source": "Wbre",
+      "publishedAt": "2026-06-06T01:58:43",
+      "url": "https://www.2822news.com/news/railriders-blank-mets-4-0-behind-no-hitter-from-pitching-staff/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1169,59 +1255,98 @@
     },
     {
       "id": "short_14",
-      "title": "Fire damages business near Clarks Summit",
-      "title_distilled": "Fire damages business near Clarks Summit.",
-      "description": "Crews were called to the Shiraz Alteration Center along Parkwood Avenue in South Abington Township around 7 a.m. Thursday.",
+      "title": "Penguins fall to Marlies 5-1, 3-2 series deficit",
+      "title_distilled": "Penguins fall to Marlies 5-1, 3-2 series deficit.",
+      "description": "(WBRE/WYOU)\u2014 The Wilkes-Barre/Scranton Penguins fall in Game 5 to the Toronto Marlies 5-1, as the team now sits on the brink of elimination ahead of Game 6 at Mohegan Arena. The Penguins struck first on the power play as Mikhail Ilyin tucked it under the top post with just under 15 minutes to go in [...]",
       "description_distilled": "",
-      "content": "Crews were called to the Shiraz Alteration Center along Parkwood Avenue in South Abington Township around 7 a.m. Thursday.",
-      "content_distilled": "Crews were called to the Shiraz Alteration Center along Parkwood Avenue in South Abington Township around 7 a.",
+      "content": "(WBRE/WYOU)\u2014 The Wilkes-Barre/Scranton Penguins fall in Game 5 to the Toronto Marlies 5-1, as the team now sits on the brink of elimination ahead of Game 6 at Mohegan Arena. The Penguins struck first on the power play as Mikhail Ilyin tucked it under the top post with just under 15 minutes to go in [...]",
+      "content_distilled": "\u2014 The Wilkes-Barre/Scranton Penguins fall in Game 5 to the Toronto Marlies 5-1, as the team now sits on the brink of elimination ahead of Game 6 at Mohegan Arena.",
       "graph": {
         "entities": [
           {
-            "name": "Clarks Summit",
+            "name": "The Wilkes",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/the-wilkes.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Shiraz Alteration",
+            "name": "Scranton Penguins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/shiraz-alteration.md",
+            "file_path": "../entities/people/scranton-penguins.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Parkwood Avenue",
+            "name": "Toronto Marlies",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/parkwood-avenue.md",
+            "file_path": "../entities/people/toronto-marlies.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "South Abington",
+            "name": "Mohegan Arena",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/south-abington.md",
+            "file_path": "../entities/people/mohegan-arena.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Center along Parkwood Avenue",
+            "name": "The Penguins",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-penguins.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mikhail Ilyin",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mikhail-ilyin.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/center-along-parkwood-avenue.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Fire damages business near Clarks Summit",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Penguins fall in Game",
             "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/events/fire-damages-business-near-clarks-summit.md",
+            "file_path": "../entities/events/scranton-penguins-fall-in-game.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Shiraz A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Parkwood</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Center a</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fire dam</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "relationships": [
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wilk</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Toronto </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mohegan </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Peng</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mikhail </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1232,17 +1357,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Shiraz Alteration": "../entities/people/shiraz-alteration.md",
-          "Parkwood Avenue": "../entities/people/parkwood-avenue.md",
-          "South Abington": "../entities/people/south-abington.md",
-          "Center along Parkwood Avenue": "../entities/locations/center-along-parkwood-avenue.md",
-          "Fire damages business near Clarks Summit": "../entities/events/fire-damages-business-near-clarks-summit.md"
+          "The Wilkes": "../entities/people/the-wilkes.md",
+          "Scranton Penguins": "../entities/people/scranton-penguins.md",
+          "Toronto Marlies": "../entities/people/toronto-marlies.md",
+          "Mohegan Arena": "../entities/people/mohegan-arena.md",
+          "The Penguins": "../entities/people/the-penguins.md",
+          "Mikhail Ilyin": "../entities/people/mikhail-ilyin.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "Scranton Penguins fall in Game": "../entities/events/scranton-penguins-fall-in-game.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-06-04T14:49:20",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-damages-business-near-clarks-summit-south-abington-township-lackawanna-county/523-a98c772f-95f4-48af-b219-b6d863be8617",
+      "source": "Wbre",
+      "publishedAt": "2026-06-06T01:49:09",
+      "url": "https://www.2822news.com/news/penguins-fall-to-marlies-5-1-3-2-series-deficit/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
