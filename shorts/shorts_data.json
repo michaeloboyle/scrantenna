@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-07T11:34:33.545578",
-  "source_file": "../data/daily/scranton_news_2026-06-07.json",
-  "total_shorts": 13,
-  "total_duration": 104,
+  "generated_at": "2026-06-08T12:30:59.409598",
+  "source_file": "../data/daily/scranton_news_2026-06-08.json",
+  "total_shorts": 11,
+  "total_duration": 88,
   "has_svo": false,
   "shorts": [
     {
@@ -737,45 +737,51 @@
     },
     {
       "id": "short_8",
-      "title": "Arts on Fire Festival returns to Scranton",
-      "title_distilled": "Arts on Fire Festival returns to Scranton.",
-      "description": "The Arts on Fire Festival revives Scranton's Iron Furnaces with live music, crafts, and a youth arts showcase.",
+      "title": "Bucktown Musicfest Returns to Dunmore for Summer Concert Series",
+      "title_distilled": "Bucktown Musicfest Returns to Dunmore for Summer Concert Series.",
+      "description": "Dunmore's Bucktown Musicfest returns for its sixth year, transforming Drinker Street into a vibrant concert venue.",
       "description_distilled": "",
-      "content": "The Arts on Fire Festival revives Scranton's Iron Furnaces with live music, crafts, and a youth arts showcase.",
-      "content_distilled": "Arts on Fire Festival revives Scranton's Iron Furnaces with live music, crafts, and a youth arts showcase.",
+      "content": "Dunmore's Bucktown Musicfest returns for its sixth year, transforming Drinker Street into a vibrant concert venue.",
+      "content_distilled": "Dunmore's Bucktown Musicfest returns for its sixth year, transforming Drinker Street into a vibrant concert venue.",
       "graph": {
         "entities": [
           {
-            "name": "Fire Festival",
+            "name": "Bucktown Musicfest",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/fire-festival.md",
+            "file_path": "../entities/people/bucktown-musicfest.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Iron Furnaces",
+            "name": "Summer Concert",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/iron-furnaces.md",
+            "file_path": "../entities/people/summer-concert.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "Series Dunmore",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/series-dunmore.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "transforming Drinker Street",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Arts on Fire Festival returns to Scranton The Arts on Fire Festival",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/arts-on-fire-festival-returns-to-scranton-the-arts-on-fire-festival.md",
+            "file_path": "../entities/locations/transforming-drinker-street.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fire Fes</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Iron Fur</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Arts on </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "relationships": [
+          {
+            "from": "Bucktown Musicfest",
+            "to": "Summer Concert",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bucktown</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Summer C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Series D</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">transfor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -786,15 +792,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Fire Festival": "../entities/people/fire-festival.md",
-          "Iron Furnaces": "../entities/people/iron-furnaces.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Arts on Fire Festival returns to Scranton The Arts on Fire Festival": "../entities/events/arts-on-fire-festival-returns-to-scranton-the-arts-on-fire-festival.md"
+          "Bucktown Musicfest": "../entities/people/bucktown-musicfest.md",
+          "Summer Concert": "../entities/people/summer-concert.md",
+          "Series Dunmore": "../entities/people/series-dunmore.md",
+          "transforming Drinker Street": "../entities/locations/transforming-drinker-street.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-07T03:31:26",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/arts-on-fire-festival-returns-scranton-lackawanna-county/523-f26c8b23-b441-4b94-9157-f6be2cb2a9f6",
+      "publishedAt": "2026-06-08T11:01:35",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/bucktown-musicfest-returns-to-dunmore-for-summer-concert-series-lackawanna-nikki-krize/523-530b9cb3-b649-4192-b017-2c5601610f24",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -802,40 +808,33 @@
     },
     {
       "id": "short_9",
-      "title": "Former University of Scranton President honored with sculpture unveiling",
-      "title_distilled": "Former University of Scranton President honored with sculpture unveiling.",
-      "description": "The University of Scranton honored Reverend Joseph A. Panuska, its longest-serving president, with a sculpture unveiling and a building dedication in his name.",
+      "title": "Scranton Region 55th Car Show excites motor enthusiasts",
+      "title_distilled": "Scranton Region 55th Car Show excites motor enthusiasts.",
+      "description": "Over 200 cars dazzled crowds at Lackawanna County's 55th anniversary show, raising funds for local families, Allied Services, and Pennsylvania Wounded Warriors.",
       "description_distilled": "",
-      "content": "The University of Scranton honored Reverend Joseph A. Panuska, its longest-serving president, with a sculpture unveiling and a building dedication in his name.",
-      "content_distilled": "University of Scranton honored Reverend Joseph A.",
+      "content": "Over 200 cars dazzled crowds at Lackawanna County's 55th anniversary show, raising funds for local families, Allied Services, and Pennsylvania Wounded Warriors.",
+      "content_distilled": "Over 200 cars dazzled crowds at Lackawanna County's 55th anniversary show, raising funds for local families, Allied Services, and Pennsylvania Wounded Warriors.",
       "graph": {
         "entities": [
           {
-            "name": "Former University",
+            "name": "Scranton Region",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/former-university.md",
+            "file_path": "../entities/people/scranton-region.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton President",
+            "name": "Car Show",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-president.md",
+            "file_path": "../entities/people/car-show.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The University",
+            "name": "Pennsylvania Wounded",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-university.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Reverend Joseph",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/reverend-joseph.md",
+            "file_path": "../entities/people/pennsylvania-wounded.md",
             "resolution_method": "new_entity"
           },
           {
@@ -844,21 +843,35 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton President",
-            "to": "The University",
-            "type": "HAS_TITLE"
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           },
           {
-            "from": "Former University",
+            "from": "Lackawanna County",
             "to": "Scranton",
-            "type": "MEMBER_OF"
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Former U</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Univ</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Reverend</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Car Show</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -869,16 +882,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Former University": "../entities/people/former-university.md",
-          "Scranton President": "../entities/people/scranton-president.md",
-          "The University": "../entities/people/the-university.md",
-          "Reverend Joseph": "../entities/people/reverend-joseph.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Scranton Region": "../entities/people/scranton-region.md",
+          "Car Show": "../entities/people/car-show.md",
+          "Pennsylvania Wounded": "../entities/people/pennsylvania-wounded.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-06T23:28:07",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/former-university-scranton-president-honored-sculpture-unveiling-lackawanna-county/523-77cc5822-8798-4122-bfa1-82b4423528f3",
+      "publishedAt": "2026-06-08T01:33:29",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-region-55th-car-show-excites-motor-enthusiasts-lackawanna-county/523-f54ecbda-22f1-4344-be17-aee739597470",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -886,26 +900,26 @@
     },
     {
       "id": "short_10",
-      "title": "Thousands without power across NEPA amid thunderstorms",
-      "title_distilled": "Thousands without power across NEPA amid thunderstorms.",
-      "description": "(WBRE/WYOU) \u2014 As thunderstorms and showers make their way across the Keystone State, several communities are experiencing power outages Saturday evening. PPL is reporting that as many as nearly 23,300 of their customers were experiencing power outages. Of that number, over 2,800 customers were without power in Luzerne County. In Hickory Hills outside of White [...]",
+      "title": "Pennsylvania Weather: Stray showers possible for NEPA",
+      "title_distilled": "Pennsylvania Weather: Stray showers possible for NEPA.",
+      "description": "(WBRE/WYOU) \u2014 It'll be a quiet start to the work week, but it becomes unsettled for the second half of the week. On Sunday night, we'll have a few clouds around. It'll be seasonal with a low in the mid 50s. Monday and Tuesday will feature sunny skies and temperatures in the low to mid [...]",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 As thunderstorms and showers make their way across the Keystone State, several communities are experiencing power outages Saturday evening. PPL is reporting that as many as nearly 23,300 of their customers were experiencing power outages. Of that number, over 2,800 customers were without power in Luzerne County. In Hickory Hills outside of White [...]",
-      "content_distilled": " \u2014 As thunderstorms and showers make their way across the Keystone State, several communities are experiencing power outages Saturday evening.",
+      "content": "(WBRE/WYOU) \u2014 It'll be a quiet start to the work week, but it becomes unsettled for the second half of the week. On Sunday night, we'll have a few clouds around. It'll be seasonal with a low in the mid 50s. Monday and Tuesday will feature sunny skies and temperatures in the low to mid [...]",
+      "content_distilled": " \u2014 It'll be a quiet start to the work week, but it becomes unsettled for the second half of the week.",
       "graph": {
         "entities": [
           {
-            "name": "Keystone State",
+            "name": "Pennsylvania Weather",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/keystone-state.md",
+            "file_path": "../entities/people/pennsylvania-weather.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Hickory Hills",
-            "type": "PERSON",
+            "name": "Pennsylvania",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/hickory-hills.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -924,7 +938,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keystone</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hickory </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -935,208 +949,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Keystone State": "../entities/people/keystone-state.md",
-          "Hickory Hills": "../entities/people/hickory-hills.md",
+          "Pennsylvania Weather": "../entities/people/pennsylvania-weather.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-06T22:10:51",
-      "url": "https://www.2822news.com/top-news/thousands-without-power-across-nepa-amid-thunderstorms/",
+      "publishedAt": "2026-06-07T17:40:57",
+      "url": "https://www.2822news.com/weather/pennsylvania-weather-stray-showers-possible-for-nepa/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Basketball legend Bobby Sura returns to NEPA",
-      "title_distilled": "Basketball legend Bobby Sura returns to NEPA.",
-      "description": "PLAINS TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 It's a big honor for a Wilkes-Barre native who made his mark in high school, college, and the NBA. Bobby Sura is back in the Wilkes-Barre area for his induction into the Luzerne County Sports Hall of Fame. But before that, he visited with Wilkes-Barre Area Basketball Players and [...]",
-      "description_distilled": "",
-      "content": "PLAINS TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 It's a big honor for a Wilkes-Barre native who made his mark in high school, college, and the NBA. Bobby Sura is back in the Wilkes-Barre area for his induction into the Luzerne County Sports Hall of Fame. But before that, he visited with Wilkes-Barre Area Basketball Players and [...]",
-      "content_distilled": "PLAINS TOWNSHIP, LUZERNE COUNTY  \u2014 It's a big honor for a Wilkes-Barre native who made his mark in high school, college, and the NBA.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Bobby Sura",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bobby-sura.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sports Hall",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sports-hall.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Barre Area",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/barre-area.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Basketball Players",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/basketball-players.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Barre Area",
-            "to": "Sports Hall",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bobby Su</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sports H</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Ar</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Basketba</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Bobby Sura": "../entities/people/bobby-sura.md",
-          "Sports Hall": "../entities/people/sports-hall.md",
-          "Barre Area": "../entities/people/barre-area.md",
-          "Basketball Players": "../entities/people/basketball-players.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-06-06T22:57:06",
-      "url": "https://www.2822news.com/news/local-news/basketball-legend-bobby-sura-returns-to-nepa/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Turning history into crafts at Arts on Fire Festival",
-      "title_distilled": "Turning history into crafts at Arts on Fire Festival.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It's a chance to turn local history into something you can take home: Crowds are filling the Scranton Iron Furnaces this weekend for the annual Arts on Fire Festival. The event features live music, craft vendors, and demonstrations celebrating the city's industrial past. One of the biggest attractions is the [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It's a chance to turn local history into something you can take home: Crowds are filling the Scranton Iron Furnaces this weekend for the annual Arts on Fire Festival. The event features live music, craft vendors, and demonstrations celebrating the city's industrial past. One of the biggest attractions is the [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 It's a chance to turn local history into something you can take home: Crowds are filling the Scranton Iron Furnaces this weekend for the annual Arts on Fire Festival.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Fire Festival",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fire-festival.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Iron",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-iron.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Turning history into crafts at Arts on Fire Festival",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/turning-history-into-crafts-at-arts-on-fire-festival.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Crowds are filling the Scranton Iron Furnaces this weekend for the annual Arts on Fire Festival",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/crowds-are-filling-the-scranton-iron-furnaces-this-weekend-for-the-annual-arts-on-fire-festival.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Scranton Iron",
-            "to": "Fire Festival",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fire Fes</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Fire Festival": "../entities/people/fire-festival.md",
-          "Scranton Iron": "../entities/people/scranton-iron.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Turning history into crafts at Arts on Fire Festival": "../entities/events/turning-history-into-crafts-at-arts-on-fire-festival.md",
-          "Crowds are filling the Scranton Iron Furnaces this weekend for the annual Arts on Fire Festival": "../entities/events/crowds-are-filling-the-scranton-iron-furnaces-this-weekend-for-the-annual-arts-on-fire-festival.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-06-06T22:27:11",
-      "url": "https://www.2822news.com/news/local-news/turning-history-into-crafts-at-arts-on-fire-festival/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     }
   ]
