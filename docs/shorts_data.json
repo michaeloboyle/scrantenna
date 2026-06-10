@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-09T12:01:21.027323",
-  "source_file": "../data/daily/scranton_news_2026-06-09.json",
+  "generated_at": "2026-06-10T12:06:06.513515",
+  "source_file": "../data/daily/scranton_news_2026-06-10.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -786,31 +786,37 @@
     },
     {
       "id": "short_9",
-      "title": "NEPA Yoga Fest returns to Montage Mountain",
-      "title_distilled": "NEPA Yoga Fest returns to Montage Mountain.",
-      "description": "Discover your zen at NEPA Yoga Fest this weekend with over 90 classes all set against the serene backdrop of Montage Mountain.",
+      "title": "Red, White, and You! | America250 exhibit at the Everhart Museum",
+      "title_distilled": "Red, White, and You! | America250 exhibit at the Everhart Museum.",
+      "description": "A new exhibit at the Everhart Museum in Scranton highlights the history of the nation and the role our area played.",
       "description_distilled": "",
-      "content": "Discover your zen at NEPA Yoga Fest this weekend with over 90 classes all set against the serene backdrop of Montage Mountain.",
-      "content_distilled": "Discover your zen at NEPA Yoga Fest this weekend with over 90 classes all set against the serene backdrop of Montage Mountain.",
+      "content": "A new exhibit at the Everhart Museum in Scranton highlights the history of the nation and the role our area played.",
+      "content_distilled": "new exhibit at the Everhart Museum in Scranton highlights the history of the nation and the role our area played.",
       "graph": {
         "entities": [
           {
-            "name": "Yoga Fest",
+            "name": "Everhart Museum",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/yoga-fest.md",
+            "file_path": "../entities/people/everhart-museum.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Montage Mountain",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/montage-mountain.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Yoga Fes</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Montage </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Everhart Museum",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Everhart</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -821,13 +827,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Yoga Fest": "../entities/people/yoga-fest.md",
-          "Montage Mountain": "../entities/people/montage-mountain.md"
+          "Everhart Museum": "../entities/people/everhart-museum.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-09T10:14:17",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepa-yoga-fest-returns-to-montage-mountain-moosic-lackawanna-county-nikki-krize/523-8bdf5e52-d9d4-4210-9689-2129f352c691",
+      "publishedAt": "2026-06-09T21:22:20",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/red-white-and-you-america250-exhibit-at-the-everhart-museum-scranton-lackawanna-county-nations-history/523-d7352ed4-889f-419e-b162-c940d025e9f3",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -835,38 +841,44 @@
     },
     {
       "id": "short_10",
-      "title": "New seminary to open in Scranton",
-      "title_distilled": "New seminary to open in Scranton.",
-      "description": "Diocese officials say a growth in potential priests comes as they plan to open a 'propaedeutic year' seminary.",
+      "title": "Meals on Wheels NEPA prepares to move into new location along Cherry Street",
+      "title_distilled": "Meals on Wheels NEPA prepares to move into new location along Cherry Street.",
+      "description": "Officials say the nonprofit has been at capacity for years at its current location along Wyoming Avenue.",
       "description_distilled": "",
-      "content": "Diocese officials say a growth in potential priests comes as they plan to open a 'propaedeutic year' seminary.",
-      "content_distilled": "Diocese officials say a growth in potential priests comes as they plan to open a 'propaedeutic year' seminary.",
+      "content": "Officials say the nonprofit has been at capacity for years at its current location along Wyoming Avenue.",
+      "content_distilled": "Officials say the nonprofit has been at capacity for years at its current location along Wyoming Avenue.",
       "graph": {
         "entities": [
           {
-            "name": "propaedeutic year",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/propaedeutic-year.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Diocese",
+            "name": "Wyoming Avenue",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-diocese.md",
+            "file_path": "../entities/people/wyoming-avenue.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "location along Cherry Street",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/location-along-cherry-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "location along Wyoming Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/location-along-wyoming-avenue.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">propaede</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "location along Cherry Street",
+            "to": "Wyoming Avenue",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wyoming </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">location</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">location</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -877,14 +889,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "propaedeutic year": "../entities/works/movies/propaedeutic-year.md",
-          "Scranton Diocese": "../entities/people/scranton-diocese.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Wyoming Avenue": "../entities/people/wyoming-avenue.md",
+          "location along Cherry Street": "../entities/locations/location-along-cherry-street.md",
+          "location along Wyoming Avenue": "../entities/locations/location-along-wyoming-avenue.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-08T21:58:53",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-seminary-to-open-in-scranton-bishop-bambera-priests-faith/523-2ccb0cf0-3e41-4d8d-9a87-4782f53070f4",
+      "publishedAt": "2026-06-09T20:34:28",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/meals-on-wheels-nepa-prepares-to-move-into-new-location-along-cherry-street-scranton-lackawanna-county/523-8ff16c2f-2cbb-4946-9765-90f31609a33b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -892,38 +904,56 @@
     },
     {
       "id": "short_11",
-      "title": "Local business steps up to help bride in need after fire damages alteration shop near Clarks Summit",
-      "title_distilled": "Local business steps up to help bride in need after fire damages alteration shop near Clarks Summit.",
-      "description": "A local shop is stepping in to help after a fire damaged several dresses at Shiraz Alteration Center last week.",
+      "title": "Right lane closures planned for I-81 between Scranton and Wilkes-Barre",
+      "title_distilled": "Right lane closures planned for I-81 between Scranton and Wilkes-Barre.",
+      "description": "There will be right lane closures on I-81 north and south between Scranton and Wilkes-Barre on Tuesday and Thursday from 9 a.m. to 3 p.m., according to PennDOT.",
       "description_distilled": "",
-      "content": "A local shop is stepping in to help after a fire damaged several dresses at Shiraz Alteration Center last week.",
-      "content_distilled": "local shop is stepping in to help after a fire damaged several dresses at Shiraz Alteration Center last week.",
+      "content": "There will be right lane closures on I-81 north and south between Scranton and Wilkes-Barre on Tuesday and Thursday from 9 a.m. to 3 p.m., according to PennDOT.",
+      "content_distilled": "There will be right lane closures on I-81 north and south between Scranton and Wilkes-Barre on Tuesday and Thursday from 9 a.",
       "graph": {
         "entities": [
           {
-            "name": "Clarks Summit",
+            "name": "Barre There",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/barre-there.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Shiraz Alteration",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/shiraz-alteration.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Local business steps up to help bride in need after fire damages alteration shop near Clarks Summit",
-            "type": "EVENT",
+            "name": "Right lane",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/events/local-business-steps-up-to-help-bride-in-need-after-fire-damages-alteration-shop-near-clarks-summit.md",
+            "file_path": "../entities/locations/right-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "will be right lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/will-be-right-lane.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Shiraz A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Local bu</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "relationships": [
+          {
+            "from": "Right lane",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "will be right lane",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Th</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Right la</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">will be </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -934,14 +964,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Shiraz Alteration": "../entities/people/shiraz-alteration.md",
-          "Local business steps up to help bride in need after fire damages alteration shop near Clarks Summit": "../entities/events/local-business-steps-up-to-help-bride-in-need-after-fire-damages-alteration-shop-near-clarks-summit.md"
+          "Barre There": "../entities/people/barre-there.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Right lane": "../entities/locations/right-lane.md",
+          "will be right lane": "../entities/locations/will-be-right-lane.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-08T21:53:21",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/local-businesses-step-up-to-help-brides-in-need-after-fire-damages-alteration-shop-near-clarks-summit-south-abington-township/523-fefb2b9a-9643-4c48-9770-a6ee48e14acc",
+      "publishedAt": "2026-06-09T14:44:49",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/right-lane-closures-planned-for-i-81-between-scranton-and-wilkes-barre-lackawanna-county-luzerne/523-aa4d83a2-af15-4162-acb9-2fabcd3ae1ae",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -949,178 +980,26 @@
     },
     {
       "id": "short_12",
-      "title": "Bucktown Musicfest returns to Dunmore for Summer Concert Series",
-      "title_distilled": "Bucktown Musicfest returns to Dunmore for Summer Concert Series.",
-      "description": "Dunmore's Bucktown Musicfest returns for its sixth year, transforming Drinker Street into a vibrant concert venue.",
+      "title": "Three people sent to hospital, home condemned after Scranton fire",
+      "title_distilled": "Three people sent to hospital, home condemned after Scranton fire.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Authorities say three people were sent to a nearby hospital, and a home is condemned after a fire in Scranton. Assistant Chief of the Scranton Fire Department Brian Scott told 28/22 News they were called to the 1700 block of Price Street for a reported residential structure fire Tuesday evening [...]",
       "description_distilled": "",
-      "content": "Dunmore's Bucktown Musicfest returns for its sixth year, transforming Drinker Street into a vibrant concert venue.",
-      "content_distilled": "Dunmore's Bucktown Musicfest returns for its sixth year, transforming Drinker Street into a vibrant concert venue.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Authorities say three people were sent to a nearby hospital, and a home is condemned after a fire in Scranton. Assistant Chief of the Scranton Fire Department Brian Scott told 28/22 News they were called to the 1700 block of Price Street for a reported residential structure fire Tuesday evening [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Authorities say three people were sent to a nearby hospital, and a home is condemned after a fire in Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Bucktown Musicfest",
+            "name": "Assistant Chief",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bucktown-musicfest.md",
+            "file_path": "../entities/people/assistant-chief.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Summer Concert",
+            "name": "Scranton Fire",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/summer-concert.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Series Dunmore",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/series-dunmore.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "transforming Drinker Street",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/transforming-drinker-street.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Bucktown Musicfest",
-            "to": "Summer Concert",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bucktown</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Summer C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Series D</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">transfor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Bucktown Musicfest": "../entities/people/bucktown-musicfest.md",
-          "Summer Concert": "../entities/people/summer-concert.md",
-          "Series Dunmore": "../entities/people/series-dunmore.md",
-          "transforming Drinker Street": "../entities/locations/transforming-drinker-street.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-08T15:09:08",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/bucktown-musicfest-returns-to-dunmore-for-summer-concert-series-lackawanna-nikki-krize/523-530b9cb3-b649-4192-b017-2c5601610f24",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Justice Bell story highlights suffrage history",
-      "title_distilled": "Justice Bell story highlights suffrage history.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A powerful symbol of the fight for women's rights is taking center stage in Scranton, bringing history back to life. More than two dozen people gathered to...",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A powerful symbol of the fight for women's rights is taking center stage in Scranton, bringing history back to life. More than two dozen people gathered to...",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A powerful symbol of the fight for women's rights is taking center stage in Scranton, bringing history back to life.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Justice Bell",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/justice-bell.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Liberty Bell",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/liberty-bell.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Justice </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Liberty </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Justice Bell": "../entities/people/justice-bell.md",
-          "Liberty Bell": "../entities/people/liberty-bell.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-06-09T03:15:25",
-      "url": "https://www.2822news.com/news/local-news/justice-bell-story-highlights-suffrage-history/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Renovations underway for Scranton seminary",
-      "title_distilled": "Renovations underway for Scranton seminary.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A new chapter for future priests in the Diocese of Scranton is in the works. Renovations are underway on the future Saint Pius X Seminary in downtown Scranton. The former Cathedral Convent building will serve as a home for men beginning their journey toward the priesthood. The future seminary is [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A new chapter for future priests in the Diocese of Scranton is in the works. Renovations are underway on the future Saint Pius X Seminary in downtown Scranton. The former Cathedral Convent building will serve as a home for men beginning their journey toward the priesthood. The future seminary is [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A new chapter for future priests in the Diocese of Scranton is in the works.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Saint Pius",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/saint-pius.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Cathedral Convent",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/cathedral-convent.md",
+            "file_path": "../entities/people/scranton-fire.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1138,6 +1017,20 @@
             "resolution_method": "new_entity"
           },
           {
+            "name": "block of Price Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/block-of-price-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Fire Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/scranton-fire-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
             "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
@@ -1154,9 +1047,24 @@
         ],
         "relationships": [
           {
+            "from": "Assistant Chief",
+            "to": "Scranton Fire",
+            "type": "MEMBER_OF"
+          },
+          {
             "from": "LACKAWANNA COUNTY",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "block of Price Street",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Scranton Fire Department",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           },
           {
             "from": "WBRE",
@@ -1169,7 +1077,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saint Pi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cathedra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Assistan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">block of</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1180,17 +1088,173 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Saint Pius": "../entities/people/saint-pius.md",
-          "Cathedral Convent": "../entities/people/cathedral-convent.md",
+          "Assistant Chief": "../entities/people/assistant-chief.md",
+          "Scranton Fire": "../entities/people/scranton-fire.md",
           "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "block of Price Street": "../entities/locations/block-of-price-street.md",
+          "Scranton Fire Department": "../entities/organizations/scranton-fire-department.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-06-10T03:24:42",
+      "url": "https://www.2822news.com/news/local-news/three-people-sent-to-hospital-home-condemned-after-scranton-fire/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Lackawanna County announces farmers market senior vouchers",
+      "title_distilled": "Lackawanna County announces farmers market senior vouchers.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Farmers Market Nutritional Program vouchers will once again be available to seniors in Lackawanna County. The vouchers are being made available through Lackawanna County\u2019s Area Agency on Aging, along with the State Department of Agriculture. Eligible seniors can receive up to five $5 vouchers, which can be redeemed at participating [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Farmers Market Nutritional Program vouchers will once again be available to seniors in Lackawanna County. The vouchers are being made available through Lackawanna County\u2019s Area Agency on Aging, along with the State Department of Agriculture. Eligible seniors can receive up to five $5 vouchers, which can be redeemed at participating [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Farmers Market Nutritional Program vouchers will once again be available to seniors in Lackawanna County.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Farmers Market",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/farmers-market.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nutritional Program",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nutritional-program.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Area Agency",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/area-agency.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "State Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/state-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Farmers </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nutritio</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Area Age</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State De</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Farmers Market": "../entities/people/farmers-market.md",
+          "Nutritional Program": "../entities/people/nutritional-program.md",
+          "Area Agency": "../entities/people/area-agency.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "State Department": "../entities/organizations/state-department.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-06-09T19:41:01",
+      "url": "https://www.2822news.com/news/lackawanna-county-announces-farmers-market-senior-vouchers/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Woman lost $10,000 in Bitcoin scam",
+      "title_distilled": "Woman lost $10,000 in Bitcoin scam.",
+      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 State police are investigating a reported scam in which a woman lost $10,000 to a Microsoft support scam. The scam occurred when the victim, a 79-year-old woman, encountered what appears to be a fraudulent pop-up message on a computer or phone. Police say the message claims to be from Microsoft [...]",
+      "description_distilled": "",
+      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 State police are investigating a reported scam in which a woman lost $10,000 to a Microsoft support scam. The scam occurred when the victim, a 79-year-old woman, encountered what appears to be a fraudulent pop-up message on a computer or phone. Police say the message claims to be from Microsoft [...]",
+      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 State police are investigating a reported scam in which a woman lost $10,000 to a Microsoft support scam.",
+      "graph": {
+        "entities": [
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-08T23:13:34",
-      "url": "https://www.2822news.com/news/renovations-underway-for-scranton-seminary/",
+      "publishedAt": "2026-06-09T17:15:29",
+      "url": "https://www.2822news.com/news/woman-lost-10000-in-bitcoin-scam/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
