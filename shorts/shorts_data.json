@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T12:21:35.408494",
-  "source_file": "../data/daily/scranton_news_2026-06-11.json",
+  "generated_at": "2026-06-12T12:05:36.605926",
+  "source_file": "../data/daily/scranton_news_2026-06-12.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -786,38 +786,31 @@
     },
     {
       "id": "short_9",
-      "title": "Update: Interstate 81 reopened after multi-vehicle crash",
-      "title_distilled": "Update: Interstate 81 reopened after multi-vehicle crash.",
-      "description": "A crash involving nearly a dozen vehicles has one lane closed on Interstate 81 in Lackawanna County.",
+      "title": "Lackawanna County school damaged after being struck by lightning",
+      "title_distilled": "Lackawanna County school damaged after being struck by lightning.",
+      "description": "Crews battled flames Thursday evening after lightning struck the Abington Christian Academy.",
       "description_distilled": "",
-      "content": "A crash involving nearly a dozen vehicles has one lane closed on Interstate 81 in Lackawanna County.",
-      "content_distilled": "crash involving nearly a dozen vehicles has one lane closed on Interstate 81 in Lackawanna County.",
+      "content": "Crews battled flames Thursday evening after lightning struck the Abington Christian Academy.",
+      "content_distilled": "Crews battled flames Thursday evening after lightning struck the Abington Christian Academy.",
       "graph": {
         "entities": [
+          {
+            "name": "Abington Christian",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/abington-christian.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "vehicles has one lane",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/vehicles-has-one-lane.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "vehicles has one lane",
-            "to": "Lackawanna County",
-            "type": "CLOSED",
-            "verb": "closed"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">vehicles</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -828,13 +821,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "vehicles has one lane": "../entities/locations/vehicles-has-one-lane.md"
+          "Abington Christian": "../entities/people/abington-christian.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-11T11:02:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/multi-vehicle-crash-causes-traffic-problems-on-interstate-81/523-dbb7c001-3e80-421b-8478-ca68fb75463f",
+      "publishedAt": "2026-06-12T02:57:23",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-school-damaged-after-being-struck-by-lightning-peckville/523-ed58fce4-de72-4dda-82ea-4fa37f72a30c",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -842,38 +835,38 @@
     },
     {
       "id": "short_10",
-      "title": "People of Hope Museum makes a stop in Scranton",
-      "title_distilled": "People of Hope Museum makes a stop in Scranton.",
-      "description": "A traveling exhibit by Catholic Charities USA looks to inspire visitors with stories of poverty and compassion as it tours the U.S.",
+      "title": "New Jersey homicide suspect found in Dickson City",
+      "title_distilled": "New Jersey homicide suspect found in Dickson City.",
+      "description": "Dion Johnson was taken into custody at a home on Carmalt Street in Dickson City on Thursday, according to police.",
       "description_distilled": "",
-      "content": "A traveling exhibit by Catholic Charities USA looks to inspire visitors with stories of poverty and compassion as it tours the U.S.",
-      "content_distilled": "traveling exhibit by Catholic Charities USA looks to inspire visitors with stories of poverty and compassion as it tours the U.",
+      "content": "Dion Johnson was taken into custody at a home on Carmalt Street in Dickson City on Thursday, according to police.",
+      "content_distilled": "Dion Johnson was taken into custody at a home on Carmalt Street in Dickson City on Thursday, according to police.",
       "graph": {
         "entities": [
           {
-            "name": "Hope Museum",
+            "name": "New Jersey",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/hope-museum.md",
+            "file_path": "../entities/people/new-jersey.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Catholic Charities",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/catholic-charities.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Dion Johnson",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/dion-johnson.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hope Mus</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Catholic</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Jers</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dion Joh</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -884,14 +877,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Hope Museum": "../entities/people/hope-museum.md",
-          "Catholic Charities": "../entities/people/catholic-charities.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "New Jersey": "../entities/people/new-jersey.md",
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Dion Johnson": "../entities/people/dion-johnson.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-11T00:45:47",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/people-of-hope-museum-makes-a-stop-in-scranton-everhart-museum-nay-aug-park-diocese-of-scranton/523-ce7de366-c982-43b2-81c1-001421ea0305",
+      "publishedAt": "2026-06-11T20:31:02",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-jersey-homicide-suspect-found-in-dickson-city-lackawanna-county/523-a7b6d959-57ab-4df9-836f-b51285021df1",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -899,31 +892,52 @@
     },
     {
       "id": "short_11",
-      "title": "Pick your own strawberries season begins in Lackawanna County",
-      "title_distilled": "Pick your own strawberries season begins in Lackawanna County.",
-      "description": "Pallman Farms is expected to be open for three to four weeks.",
+      "title": "Old Forge man killed in officer-involved shooting in Tioga County",
+      "title_distilled": "Old Forge man killed in officer-involved shooting in Tioga County.",
+      "description": "State police say 34-year-old Charles Costanzo was killed in the officer-involved shooting along Wilson Avenue in Mansfield Thursday morning.",
       "description_distilled": "",
-      "content": "Pallman Farms is expected to be open for three to four weeks.",
-      "content_distilled": "Pallman Farms is expected to be open for three to four weeks.",
+      "content": "State police say 34-year-old Charles Costanzo was killed in the officer-involved shooting along Wilson Avenue in Mansfield Thursday morning.",
+      "content_distilled": "State police say 34-year-old Charles Costanzo was killed in the officer-involved shooting along Wilson Avenue in Mansfield Thursday morning.",
       "graph": {
         "entities": [
           {
-            "name": "Pallman Farms",
+            "name": "Old Forge",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pallman-farms.md",
+            "file_path": "../entities/people/old-forge.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "Charles Costanzo",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/charles-costanzo.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Wilson Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wilson-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mansfield Thursday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mansfield-thursday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "shooting along Wilson Avenue",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/shooting-along-wilson-avenue.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pallman </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Charles </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wilson A</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mansfiel</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">shooting</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -934,13 +948,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pallman Farms": "../entities/people/pallman-farms.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Old Forge": "../entities/people/old-forge.md",
+          "Charles Costanzo": "../entities/people/charles-costanzo.md",
+          "Wilson Avenue": "../entities/people/wilson-avenue.md",
+          "Mansfield Thursday": "../entities/people/mansfield-thursday.md",
+          "shooting along Wilson Avenue": "../entities/locations/shooting-along-wilson-avenue.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-10T21:22:15",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pick-your-own-strawberries-season-begins-in-lackawanna-county-pallman-farms-clarks-summit-craig-pallman-fruit-crops/523-25af1c37-a0e1-4b14-ae83-dffb4897ce02",
+      "publishedAt": "2026-06-11T19:55:12",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/old-forge-man-killed-in-officer-involved-shooting-in-tioga-county-mansfield-lackawanna-county/523-ac65727a-4a27-4b68-b3c5-255c8716a1a7",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -948,129 +965,33 @@
     },
     {
       "id": "short_12",
-      "title": "St. Cats and Dogs prepares for Kitten Shower",
-      "title_distilled": "St.",
-      "description": "A group caring for kittens in Scranton is gearing up for one of its biggest fundraisers while trying to keep stray populations under control.",
+      "title": "School catches fire during thunderstorm in Lackawanna County",
+      "title_distilled": "School catches fire during thunderstorm in Lackawanna County.",
+      "description": "PECKVILLE, LACKAWANNA COUNTY (WBRE/WYOU) - A lightning strike forced fire crews to battle a blaze and the elements after it struck a school in Peckville Thursday evening. Video sent to us by Angela Powell showed the school burning before crews arrived. The call came at 8:31 p.m. in the 500 block of Keystone Avenue. 28/22 [...]",
       "description_distilled": "",
-      "content": "A group caring for kittens in Scranton is gearing up for one of its biggest fundraisers while trying to keep stray populations under control.",
-      "content_distilled": "group caring for kittens in Scranton is gearing up for one of its biggest fundraisers while trying to keep stray populations under control.",
+      "content": "PECKVILLE, LACKAWANNA COUNTY (WBRE/WYOU) - A lightning strike forced fire crews to battle a blaze and the elements after it struck a school in Peckville Thursday evening. Video sent to us by Angela Powell showed the school burning before crews arrived. The call came at 8:31 p.m. in the 500 block of Keystone Avenue. 28/22 [...]",
+      "content_distilled": "PECKVILLE, LACKAWANNA COUNTY  - A lightning strike forced fire crews to battle a blaze and the elements after it struck a school in Peckville Thursday evening.",
       "graph": {
         "entities": [
           {
-            "name": "Kitten Shower",
+            "name": "Peckville Thursday",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/kitten-shower.md",
+            "file_path": "../entities/people/peckville-thursday.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Kitten Shower",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kitten S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Kitten Shower": "../entities/people/kitten-shower.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-10T20:53:56",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/st-cats-and-dogs-prepares-for-kitten-shower-nay-aug-zoo-scranton-lackawanna-county-joanne-davis/523-7d63c729-a134-4352-9a93-a67084140213",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Two high-ranking Lackawanna County sheriff's officials under investigation for roughly $120,000 in 'unauthorized overtime,' records show",
-      "title_distilled": "Two high-ranking Lackawanna County sheriff's officials under investigation for roughly $120,000 in 'unauthorized overtime,' records show.",
-      "description": "A criminal referral was made to the state attorney general's office for investigation",
-      "description_distilled": "",
-      "content": "A criminal referral was made to the state attorney general's office for investigation",
-      "content_distilled": "criminal referral was made to the state attorney general's office for investigation.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-10T19:40:32",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-sheriff-criminal-investigation-overtime-attorney-general/523-a2073d62-c693-4945-a551-fa49ebed6726",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Sheriff calls for overtime theft investigation in Lackawanna County",
-      "title_distilled": "Sheriff calls for overtime theft investigation in Lackawanna County.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County Sheriff Mark McAndrew is calling on the district attorney's office to open an investigation into two deputies who he says are suspected of receiving tens of thousands of dollars in unauthorized overtime. In the letter to Lackawanna County District Attorney Brian Gallagher, McAndrew alleges that the deputies \"knowingly received [...]",
-      "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County Sheriff Mark McAndrew is calling on the district attorney's office to open an investigation into two deputies who he says are suspected of receiving tens of thousands of dollars in unauthorized overtime. In the letter to Lackawanna County District Attorney Brian Gallagher, McAndrew alleges that the deputies \"knowingly received [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 Lackawanna County Sheriff Mark McAndrew is calling on the district attorney's office to open an investigation into two deputies who he says are suspected of receiving tens of thousands of dollars in unauthorized overtime.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Sheriff Mark",
+            "name": "Angela Powell",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/sheriff-mark.md",
+            "file_path": "../entities/people/angela-powell.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "District Attorney",
+            "name": "Keystone Avenue",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/district-attorney.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Brian Gallagher",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/brian-gallagher.md",
+            "file_path": "../entities/people/keystone-avenue.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1078,6 +999,13 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "block of Keystone Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/block-of-keystone-avenue.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1097,12 +1025,12 @@
         ],
         "relationships": [
           {
-            "from": "Sheriff Mark",
-            "to": "Lackawanna County",
-            "type": "OCCURS_DURING"
+            "from": "block of Keystone Avenue",
+            "to": "Keystone Avenue",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sheriff </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">District</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brian Ga</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Peckvill</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Angela P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keystone</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">block of</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1113,17 +1041,192 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Sheriff Mark": "../entities/people/sheriff-mark.md",
-          "District Attorney": "../entities/people/district-attorney.md",
-          "Brian Gallagher": "../entities/people/brian-gallagher.md",
+          "Peckville Thursday": "../entities/people/peckville-thursday.md",
+          "Angela Powell": "../entities/people/angela-powell.md",
+          "Keystone Avenue": "../entities/people/keystone-avenue.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "block of Keystone Avenue": "../entities/locations/block-of-keystone-avenue.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-10T19:47:36",
-      "url": "https://www.2822news.com/news/sheriff-calls-for-overtime-theft-investigation-in-lackawanna-county/",
+      "publishedAt": "2026-06-12T02:04:26",
+      "url": "https://www.2822news.com/news/school-catches-fire-during-thunderstorm-in-lackawanna-county/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "NJ homicide suspect arrested in Dickson City",
+      "title_distilled": "NJ homicide suspect arrested in Dickson City.",
+      "description": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Police in Dickson City assisted in a New Jersey homicide investigation after arresting a potential suspect. Around 6:30 a.m. Thursday, multiple agencies, including the United States Marshals Service Fugitive Task Force and investigators from New Jersey, executed an arrest warrant at a home on 1050 Carmalt Street in Dickson [...]",
+      "description_distilled": "",
+      "content": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Police in Dickson City assisted in a New Jersey homicide investigation after arresting a potential suspect. Around 6:30 a.m. Thursday, multiple agencies, including the United States Marshals Service Fugitive Task Force and investigators from New Jersey, executed an arrest warrant at a home on 1050 Carmalt Street in Dickson [...]",
+      "content_distilled": "DICKSON CITY, LACKAWANNA COUNTY  \u2014 Police in Dickson City assisted in a New Jersey homicide investigation after arresting a potential suspect.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dickson City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dickson-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "New Jersey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/new-jersey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fugitive Task",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fugitive-task.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Carmalt Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/carmalt-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "United States Marshals Service",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/united-states-marshals-service.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Fugitive Task",
+            "to": "New Jersey",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Jers</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fugitive</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carmalt </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">United S</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dickson City": "../entities/people/dickson-city.md",
+          "New Jersey": "../entities/people/new-jersey.md",
+          "Fugitive Task": "../entities/people/fugitive-task.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Carmalt Street": "../entities/locations/carmalt-street.md",
+          "United States Marshals Service": "../entities/organizations/united-states-marshals-service.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-06-11T15:55:35",
+      "url": "https://www.2822news.com/news/crime-courts/nj-homicide-suspect-arrested-in-dickson-city/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Robbery suspect dead after police chase",
+      "title_distilled": "Robbery suspect dead after police chase.",
+      "description": "RICHMOND TWP., TIOGA COUNTY (WBRE/WYOU) \u2014 A suspect in several robberies who was wanted by state police is dead after a confrontation with police. Troopers were searching for the man pictured below, later identified as 34-year-old Charles Brandon Costanzo of Old Forge. Police say the suspect was confirmed to have committed several robberies in New [...]",
+      "description_distilled": "",
+      "content": "RICHMOND TWP., TIOGA COUNTY (WBRE/WYOU) \u2014 A suspect in several robberies who was wanted by state police is dead after a confrontation with police. Troopers were searching for the man pictured below, later identified as 34-year-old Charles Brandon Costanzo of Old Forge. Police say the suspect was confirmed to have committed several robberies in New [...]",
+      "content_distilled": "RICHMOND TWP.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Charles Brandon",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/charles-brandon.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Old Forge",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/old-forge.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Charles Brandon",
+            "to": "Old Forge",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Charles </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Charles Brandon": "../entities/people/charles-brandon.md",
+          "Old Forge": "../entities/people/old-forge.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-06-11T12:28:41",
+      "url": "https://www.2822news.com/news/crime-courts/suspect-wanted-for-several-robberies-psp-reports/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
