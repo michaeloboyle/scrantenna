@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T11:36:33.446613",
-  "source_file": "../data/daily/scranton_news_2026-06-13.json",
+  "generated_at": "2026-06-14T11:42:35.569068",
+  "source_file": "../data/daily/scranton_news_2026-06-14.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -851,38 +851,63 @@
     },
     {
       "id": "short_10",
-      "title": "Businesses ready for Big Boy to roll into the Electric City",
-      "title_distilled": "Businesses ready for Big Boy to roll into the Electric City.",
-      "description": "As Scranton prepares for the Big Boy No. 4014 to roll into Steamtown this weekend. Along the tracks in Luzerne County, businesses are ready to welcome the crowds.",
+      "title": "'You are enough, you matter' | Party for Perri raises funds for suicide prevention",
+      "title_distilled": "'You are enough, you matter' | Party for Perri raises funds for suicide prevention.",
+      "description": "The event at the Dickson City Fire Department honored the life of 22-year-old Michael Perri while raising money for the American Foundation for Suicide Prevention.",
       "description_distilled": "",
-      "content": "As Scranton prepares for the Big Boy No. 4014 to roll into Steamtown this weekend. Along the tracks in Luzerne County, businesses are ready to welcome the crowds.",
-      "content_distilled": "As Scranton prepares for the Big Boy No.",
+      "content": "The event at the Dickson City Fire Department honored the life of 22-year-old Michael Perri while raising money for the American Foundation for Suicide Prevention.",
+      "content_distilled": "event at the Dickson City Fire Department honored the life of 22-year-old Michael Perri while raising money for the American Foundation for Suicide Prevention.",
       "graph": {
         "entities": [
           {
-            "name": "Big Boy",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/big-boy.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Electric City",
+            "name": "Michael Perri",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
+            "file_path": "../entities/people/michael-perri.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "American Foundation",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/american-foundation.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Suicide Prevention",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/suicide-prevention.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Dickson City Fire Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/dickson-city-fire-department.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Boy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Michael Perri",
+            "to": "Dickson City",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Michael Perri",
+            "to": "Suicide Prevention",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Michael </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">American</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Suicide </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -893,14 +918,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Big Boy": "../entities/people/big-boy.md",
-          "Electric City": "../entities/people/electric-city.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Michael Perri": "../entities/people/michael-perri.md",
+          "American Foundation": "../entities/people/american-foundation.md",
+          "Suicide Prevention": "../entities/people/suicide-prevention.md",
+          "Dickson City Fire Department": "../entities/organizations/dickson-city-fire-department.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-12T22:03:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/luzerne-county-businesses-ready-for-big-boy-to-roll-into-town-lackawanna-luzerne-county/523-3671d2e4-078b-45fe-8cc9-329fe7a2fbdd",
+      "publishedAt": "2026-06-14T01:06:52",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/you-are-enough-you-matter-party-for-perri-raises-funds-for-suicide-prevention-awareness-michael-dickson-city/523-f53da672-1000-4d41-b8df-eb30226ef22b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -908,24 +935,38 @@
     },
     {
       "id": "short_11",
-      "title": "Looking back at the Wilkes-Barre Township tornado",
-      "title_distilled": "Looking back at the Wilkes-Barre Township tornado.",
-      "description": "This weekend marks eight years since an EF-2 tornado hit one of the busiest shopping centers in NEPA.",
+      "title": "America250 Freedom Fest held in Dickson City",
+      "title_distilled": "America250 Freedom Fest held in Dickson City.",
+      "description": "The free event held at the Circle Drive-In offered fun for the whole family with a car show, live music, and dozens of vendors.",
       "description_distilled": "",
-      "content": "This weekend marks eight years since an EF-2 tornado hit one of the busiest shopping centers in NEPA.",
-      "content_distilled": "This weekend marks eight years since an EF-2 tornado hit one of the busiest shopping centers in NEPA.",
+      "content": "The free event held at the Circle Drive-In offered fun for the whole family with a car show, live music, and dozens of vendors.",
+      "content_distilled": "free event held at the Circle Drive-In offered fun for the whole family with a car show, live music, and dozens of vendors.",
       "graph": {
         "entities": [
           {
-            "name": "Barre Township",
+            "name": "Freedom Fest",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/barre-township.md",
+            "file_path": "../entities/people/freedom-fest.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Dickson City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dickson-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Circle Drive",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/circle-drive.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre To</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Freedom </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Circle D</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -936,12 +977,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Barre Township": "../entities/people/barre-township.md"
+          "Freedom Fest": "../entities/people/freedom-fest.md",
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Circle Drive": "../entities/people/circle-drive.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-12T19:16:12",
-      "url": "https://www.wnep.com/article/weather/weather-ott/looking-back-at-the-wilkes-barre-township-tornado-luzerne-county-nepa-weather-cloud-to-ground-ally-gallo/523-4c6a3e6e-29c0-4d7c-a1ba-d91cb418bdcd",
+      "publishedAt": "2026-06-13T22:19:50",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/america250-freedom-fest-held-in-dickson-city-lackawanna-county-circle-drive-in/523-f6898b67-60bc-45ce-9ec8-6841279cfb48",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -949,35 +992,14 @@
     },
     {
       "id": "short_12",
-      "title": "Community reacts to new bill on data centers",
-      "title_distilled": "Community reacts to new bill on data centers.",
-      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A bill that could put decision-making power back into local leaders' hands on the topic of data centers, that was what Congressman Rob Bresnahan introduced Thursday. It's called the Local Control Protection Act. 28/22 News Reporter Colby Hughes explained the potential legislation and how communities reacted to it. A new [...]",
+      "title": "Fire department builds new training center",
+      "title_distilled": "Fire department builds new training center.",
+      "description": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local fire department saw a fresh upgrade made out of something old and used. Shipping containers called Conex boxes were being transformed into a new training center for firefighters. 28/22 News Reporter Colby Hughes stopped by the fire department to explain how this will help keep firefighters' skills [...]",
       "description_distilled": "",
-      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A bill that could put decision-making power back into local leaders' hands on the topic of data centers, that was what Congressman Rob Bresnahan introduced Thursday. It's called the Local Control Protection Act. 28/22 News Reporter Colby Hughes explained the potential legislation and how communities reacted to it. A new [...]",
-      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 A bill that could put decision-making power back into local leaders' hands on the topic of data centers, that was what Congressman Rob Bresnahan introduced Thursday.",
+      "content": "OLD FORGE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local fire department saw a fresh upgrade made out of something old and used. Shipping containers called Conex boxes were being transformed into a new training center for firefighters. 28/22 News Reporter Colby Hughes stopped by the fire department to explain how this will help keep firefighters' skills [...]",
+      "content_distilled": "OLD FORGE, LACKAWANNA COUNTY  \u2014 A local fire department saw a fresh upgrade made out of something old and used.",
       "graph": {
         "entities": [
-          {
-            "name": "Congressman Rob Bresnahan",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/congressman-rob-bresnahan.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Local Control",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/local-control.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Protection Act",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/protection-act.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "News Reporter",
             "type": "PERSON",
@@ -1015,7 +1037,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Local Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Protecti</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1026,9 +1048,6 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Congressman Rob Bresnahan": "../entities/people/congressman-rob-bresnahan.md",
-          "Local Control": "../entities/people/local-control.md",
-          "Protection Act": "../entities/people/protection-act.md",
           "News Reporter": "../entities/people/news-reporter.md",
           "Colby Hughes": "../entities/people/colby-hughes.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
@@ -1037,8 +1056,8 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-13T03:30:00",
-      "url": "https://www.2822news.com/news/local-news/community-reacts-to-new-bill-on-data-centers/",
+      "publishedAt": "2026-06-14T03:30:00",
+      "url": "https://www.2822news.com/news/local-news/fire-department-builds-new-training-center/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1046,40 +1065,19 @@
     },
     {
       "id": "short_13",
-      "title": "Traffic plan for RailRiders, Machine Gun Kelly concert",
-      "title_distilled": "Traffic plan for RailRiders, Machine Gun Kelly concert.",
-      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Police have placed a traffic plan ahead of the Scranton/Wilkes-Barre RailRiders game and the Machine Gun Kelly concert at The Pavilion at Montage Mountain. On Friday, June 12th, drivers should expect delays in and around Montage Mountain Road and Glenmaura National Boulevard due to the Scranton/Wilkes-Barre RailRiders doubleheader and the [...]",
+      "title": "Jumping into summertime in Scranton",
+      "title_distilled": "Jumping into summertime in Scranton.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some exciting news for kids and families in and around the Scranton area: the city's public pools are open. Hundreds of people headed to Connell Park Saturday afternoon for a dip in the pool. Kids splashed around, teens dove in at the deep end, and others found a spot in [...]",
       "description_distilled": "",
-      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Police have placed a traffic plan ahead of the Scranton/Wilkes-Barre RailRiders game and the Machine Gun Kelly concert at The Pavilion at Montage Mountain. On Friday, June 12th, drivers should expect delays in and around Montage Mountain Road and Glenmaura National Boulevard due to the Scranton/Wilkes-Barre RailRiders doubleheader and the [...]",
-      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 Police have placed a traffic plan ahead of the Scranton/Wilkes-Barre RailRiders game and the Machine Gun Kelly concert at The Pavilion at Montage Mountain.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some exciting news for kids and families in and around the Scranton area: the city's public pools are open. Hundreds of people headed to Connell Park Saturday afternoon for a dip in the pool. Kids splashed around, teens dove in at the deep end, and others found a spot in [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Some exciting news for kids and families in and around the Scranton area: the city's public pools are open.",
       "graph": {
         "entities": [
           {
-            "name": "Machine Gun Kelly",
+            "name": "Connell Park",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/machine-gun-kelly.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Pavilion",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-pavilion.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Montage Mountain",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/montage-mountain.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Glenmaura National",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/glenmaura-national.md",
+            "file_path": "../entities/people/connell-park.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1097,13 +1095,6 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "around Montage Mountain Road",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/around-montage-mountain-road.md",
-            "resolution_method": "new_entity"
-          },
-          {
             "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
@@ -1116,23 +1107,11 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Barre RailRiders game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/barre-railriders-game.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
             "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "around Montage Mountain Road",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
           },
@@ -1147,7 +1126,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Machine </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Pavi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Montage </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Glenmaur</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Connell </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1158,21 +1137,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Machine Gun Kelly": "../entities/people/machine-gun-kelly.md",
-          "The Pavilion": "../entities/people/the-pavilion.md",
-          "Montage Mountain": "../entities/people/montage-mountain.md",
-          "Glenmaura National": "../entities/people/glenmaura-national.md",
+          "Connell Park": "../entities/people/connell-park.md",
           "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "around Montage Mountain Road": "../entities/locations/around-montage-mountain-road.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Barre RailRiders game": "../entities/events/barre-railriders-game.md"
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-12T17:11:10",
-      "url": "https://www.2822news.com/traffic/traffic-plan-for-railriders-machine-gun-kelly-concert/",
+      "publishedAt": "2026-06-13T23:40:54",
+      "url": "https://www.2822news.com/news/local-news/jumping-into-summertime-in-scranton/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1180,26 +1154,33 @@
     },
     {
       "id": "short_14",
-      "title": "Unlawful contact with child led to wanted murder suspect",
-      "title_distilled": "Unlawful contact with child led to wanted murder suspect.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man who was seen having inappropriate contact with a child was found wanted for a second-degree murder, police say. On June 11, officers said they began an investigation after they saw a man engaging in inappropriate contact with a young girl near the intersection of Cedar Avenue and Birch [...]",
+      "title": "Annual Carnival on the Mountain brings locals out for fun",
+      "title_distilled": "Annual Carnival on the Mountain brings locals out for fun.",
+      "description": "JEFFERSON TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The carnival is in town for families in Lackawanna County's Jefferson Township. Rides, games, and delicious fair food are bringing people to the Carnival on the Mountain. Jefferson Township Volunteer Fire Company is hosting the carnival. Festivities have been going on since Tuesday, and people turned out on Saturday [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man who was seen having inappropriate contact with a child was found wanted for a second-degree murder, police say. On June 11, officers said they began an investigation after they saw a man engaging in inappropriate contact with a young girl near the intersection of Cedar Avenue and Birch [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A man who was seen having inappropriate contact with a child was found wanted for a second-degree murder, police say.",
+      "content": "JEFFERSON TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The carnival is in town for families in Lackawanna County's Jefferson Township. Rides, games, and delicious fair food are bringing people to the Carnival on the Mountain. Jefferson Township Volunteer Fire Company is hosting the carnival. Festivities have been going on since Tuesday, and people turned out on Saturday [...]",
+      "content_distilled": "JEFFERSON TOWNSHIP, LACKAWANNA COUNTY  \u2014 The carnival is in town for families in Lackawanna County's Jefferson Township.",
       "graph": {
         "entities": [
           {
-            "name": "Cedar Avenue",
+            "name": "Annual Carnival",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/cedar-avenue.md",
+            "file_path": "../entities/people/annual-carnival.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "SCRANTON",
-            "type": "LOCATION",
+            "name": "Jefferson Township",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/jefferson-township.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Volunteer Fire",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/volunteer-fire.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1210,10 +1191,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "intersection of Cedar Avenue",
-            "type": "LOCATION",
+            "name": "Jefferson Township Volunteer Fire Company",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/intersection-of-cedar-avenue.md",
+            "file_path": "../entities/organizations/jefferson-township-volunteer-fire-company.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1233,12 +1214,17 @@
         ],
         "relationships": [
           {
-            "from": "intersection of Cedar Avenue",
-            "to": "Cedar Avenue",
-            "type": "MEMBER_OF"
+            "from": "Annual Carnival",
+            "to": "Jefferson Township",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Annual Carnival",
+            "to": "LACKAWANNA COUNTY",
+            "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cedar Av</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">intersec</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jefferso</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Voluntee</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jefferso</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1249,17 +1235,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Cedar Avenue": "../entities/people/cedar-avenue.md",
-          "SCRANTON": "../entities/locations/scranton.md",
+          "Annual Carnival": "../entities/people/annual-carnival.md",
+          "Jefferson Township": "../entities/people/jefferson-township.md",
+          "Volunteer Fire": "../entities/people/volunteer-fire.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "intersection of Cedar Avenue": "../entities/locations/intersection-of-cedar-avenue.md",
+          "Jefferson Township Volunteer Fire Company": "../entities/organizations/jefferson-township-volunteer-fire-company.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-12T15:05:55",
-      "url": "https://www.2822news.com/news/crime-courts/unlawful-contact-with-child-led-to-wanted-murder-suspect/",
+      "publishedAt": "2026-06-13T23:19:29",
+      "url": "https://www.2822news.com/news/local-news/annual-carnival-on-the-mountain-brings-locals-out-for-fun/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
