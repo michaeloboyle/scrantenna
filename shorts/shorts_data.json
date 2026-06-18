@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-17T12:25:46.729679",
-  "source_file": "../data/daily/scranton_news_2026-06-17.json",
+  "generated_at": "2026-06-18T12:09:05.994719",
+  "source_file": "../data/daily/scranton_news_2026-06-18.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -891,26 +891,19 @@
     },
     {
       "id": "short_12",
-      "title": "University of Scranton faculty and staff receive blessing from Pope Leo XIV",
-      "title_distilled": "University of Scranton faculty and staff receive blessing from Pope Leo XIV.",
-      "description": "Now back home in Scranton, Professor Dan Cosacchi and others plan to carry on the message of the blessing at the University.",
+      "title": "The Roof at Oppenheim reopens for summer season in downtown Scranton",
+      "title_distilled": "Roof at Oppenheim reopens for summer season in downtown Scranton.",
+      "description": "The Roof at Oppenheim in Scranton offers stunning sunset views as it expands from a pop-up into a full bar/restaurant.",
       "description_distilled": "",
-      "content": "Now back home in Scranton, Professor Dan Cosacchi and others plan to carry on the message of the blessing at the University.",
-      "content_distilled": "Now back home in Scranton, Professor Dan Cosacchi and others plan to carry on the message of the blessing at the University.",
+      "content": "The Roof at Oppenheim in Scranton offers stunning sunset views as it expands from a pop-up into a full bar/restaurant.",
+      "content_distilled": "Roof at Oppenheim in Scranton offers stunning sunset views as it expands from a pop-up into a full bar/restaurant.",
       "graph": {
         "entities": [
           {
-            "name": "Pope Leo",
+            "name": "The Roof",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pope-leo.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Professor Dan Cosacchi",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/professor-dan-cosacchi.md",
+            "file_path": "../entities/people/the-roof.md",
             "resolution_method": "new_entity"
           },
           {
@@ -923,17 +916,12 @@
         ],
         "relationships": [
           {
-            "from": "Scranton",
-            "to": "Pope Leo",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Pope Leo",
+            "from": "The Roof",
             "to": "Scranton",
             "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pope Leo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Professo</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Roof</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -944,14 +932,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pope Leo": "../entities/people/pope-leo.md",
-          "Professor Dan Cosacchi": "../entities/people/professor-dan-cosacchi.md",
+          "The Roof": "../entities/people/the-roof.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-16T20:56:22",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/university-scranton-faculty-staff-receive-blessing-pope-leo-xiv-lackawanna-county-jack-culkin-wnep/523-b8962f23-1b6a-4cc5-aafd-3031ec08118c",
+      "publishedAt": "2026-06-18T11:16:37",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/the-roof-at-oppenheim-reopens-for-summer-season-in-downtown-scranton-bar-lackawanna-county-nikki-krize/523-4afe857d-d972-42c2-8991-59b004a42522",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -959,38 +946,45 @@
     },
     {
       "id": "short_13",
-      "title": "Lackawanna County man accused in more than $2 million theft from telecommunications company",
-      "title_distilled": "Lackawanna County man accused in more than $2 million theft from telecommunications company.",
-      "description": "John Festino collected hundreds of thousands of dollars from the thefts, federal prosecutors said",
+      "title": "Big Boy No. 4014 | The history behind the world's largest steam locomotive",
+      "title_distilled": "Big Boy No.",
+      "description": "Newswatch 16's Jack Culkin stopped by the Steamtown National Historic Site to learn more about the history behind the Big Boy 4014.",
       "description_distilled": "",
-      "content": "John Festino collected hundreds of thousands of dollars from the thefts, federal prosecutors said",
-      "content_distilled": "John Festino collected hundreds of thousands of dollars from the thefts, federal prosecutors said.",
+      "content": "Newswatch 16's Jack Culkin stopped by the Steamtown National Historic Site to learn more about the history behind the Big Boy 4014.",
+      "content_distilled": "Newswatch 16's Jack Culkin stopped by the Steamtown National Historic Site to learn more about the history behind the Big Boy 4014.",
       "graph": {
         "entities": [
           {
-            "name": "John Festino",
+            "name": "Big Boy",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/john-festino.md",
+            "file_path": "../entities/people/big-boy.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "Jack Culkin",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/jack-culkin.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Steamtown National",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/steamtown-national.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Historic Site",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/historic-site.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "John Festino",
-            "type": "ACCUSED",
-            "verb": "accused"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Fes</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Boy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jack Cul</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Historic</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1001,13 +995,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "John Festino": "../entities/people/john-festino.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Big Boy": "../entities/people/big-boy.md",
+          "Jack Culkin": "../entities/people/jack-culkin.md",
+          "Steamtown National": "../entities/people/steamtown-national.md",
+          "Historic Site": "../entities/people/historic-site.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-16T19:19:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-theft-telecommunications-federal-court-cogent-communications-john-festino-old-forge/523-ffd9fad0-775b-4cc2-bb8c-8a70946c27ea",
+      "publishedAt": "2026-06-17T21:35:08",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/big-boy-4014-the-history-behind-the-worlds-largest-steam-locomotive-scranton-steamtown-national-historic-site/523-dabe6bc8-21fa-48cd-a671-d98db6d20105",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1015,52 +1011,52 @@
     },
     {
       "id": "short_14",
-      "title": "High school gym getting new look with renovation project",
-      "title_distilled": "High school gym getting new look with renovation project.",
-      "description": "TAYLOR, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Lackawanna County high school gymnasium is getting a new look. 28/22 News got a look inside Riverside High School in Taylor as crews work to renovate the gym. The project includes a new floor, updated lighting, new baskets, shot clocks, and other upgrades. The floor was the original from [...]",
+      "title": "Air Power History Tour takes over Wilkes-Barre/Scranton International Airport",
+      "title_distilled": "Air Power History Tour takes over Wilkes-Barre/Scranton International Airport.",
+      "description": "Several retired military aircraft are now stationed at the airport near Avoca, offering an experience and education not found in the classroom.",
       "description_distilled": "",
-      "content": "TAYLOR, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A Lackawanna County high school gymnasium is getting a new look. 28/22 News got a look inside Riverside High School in Taylor as crews work to renovate the gym. The project includes a new floor, updated lighting, new baskets, shot clocks, and other upgrades. The floor was the original from [...]",
-      "content_distilled": "TAYLOR, LACKAWANNA COUNTY  \u2014 A Lackawanna County high school gymnasium is getting a new look.",
+      "content": "Several retired military aircraft are now stationed at the airport near Avoca, offering an experience and education not found in the classroom.",
+      "content_distilled": "Several retired military aircraft are now stationed at the airport near Avoca, offering an experience and education not found in the classroom.",
       "graph": {
         "entities": [
           {
-            "name": "Riverside High",
+            "name": "Air Power",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/riverside-high.md",
+            "file_path": "../entities/people/air-power.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
+            "name": "History Tour",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/history-tour.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton International",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-international.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Airport Several",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/airport-several.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Riverside High School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/riverside-high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Riversid</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Riversid</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Air Powe</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">History </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Airport </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1071,16 +1067,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Riverside High": "../entities/people/riverside-high.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Riverside High School": "../entities/organizations/riverside-high-school.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Air Power": "../entities/people/air-power.md",
+          "History Tour": "../entities/people/history-tour.md",
+          "Scranton International": "../entities/people/scranton-international.md",
+          "Airport Several": "../entities/people/airport-several.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-06-16T22:15:55",
-      "url": "https://www.2822news.com/news/high-school-gym-getting-new-look-with-renovation-project/",
+      "source": "Wnep",
+      "publishedAt": "2026-06-17T20:35:11",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/air-power-history-tour-takes-over-wilkes-barrescranton-international-airport-luzerne-county-avoca-military-history/523-fbe08f29-7b03-4a3c-b929-8bea59861d61",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
