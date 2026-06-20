@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-19T12:20:50.976201",
-  "source_file": "../data/daily/scranton_news_2026-06-19.json",
+  "generated_at": "2026-06-20T11:38:26.222149",
+  "source_file": "../data/daily/scranton_news_2026-06-20.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -229,6 +229,130 @@
     },
     {
       "id": "short_3",
+      "title": "Dem Mayor Running for Congress Posed with Crips-Linked Lounge Operators Months After Scranton Detective Shooting",
+      "title_distilled": "Dem Mayor Running for Congress Posed with Crips-Linked Lounge Operators Months After Scranton Detective Shooting.",
+      "description": "Scranton Mayor and congressional candidate Paige Cognetti (D-PA) promoted a violence intervention program involving a \u201csafe space\u201d for people who had entered the justice system or were recently coming out of it after a gang-related shooting wounded a city det\u2026",
+      "description_distilled": "",
+      "content": "Scranton Mayor and congressional candidate Paige Cognetti (D-PA) promoted a violence intervention program involving a \u201csafe space\u201d for people who had entered the justice system or were recently coming out of it after a gang-related shooting wounded a city det\u2026",
+      "content_distilled": "Scranton Mayor and congressional candidate Paige Cognetti  promoted a violence intervention program involving a \u201csafe space\u201d for people who had entered the justice system or were recently coming out of it after a gang-related shooting wounded a city det\u2026.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dem Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dem-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Congress Posed",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/congress-posed.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Linked Lounge",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/linked-lounge.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Operators Months",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/operators-months.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "After Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/after-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Detective Shooting",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/detective-shooting.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Running",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/running.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton Mayor",
+            "to": "Congress Posed",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "Dem Mayor",
+            "to": "Congress Posed",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dem Mayo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Linked L</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Operator</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">After Sc</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Detectiv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dem Mayor": "../entities/people/dem-mayor.md",
+          "Congress Posed": "../entities/people/congress-posed.md",
+          "Linked Lounge": "../entities/people/linked-lounge.md",
+          "Operators Months": "../entities/people/operators-months.md",
+          "After Scranton": "../entities/people/after-scranton.md",
+          "Detective Shooting": "../entities/people/detective-shooting.md",
+          "Scranton Mayor": "../entities/people/scranton-mayor.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Running": "../entities/people/running.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Breitbart News",
+      "publishedAt": "2026-06-18T20:43:49Z",
+      "url": "https://www.breitbart.com/politics/2026/06/18/dem-mayor-running-for-congress-posed-with-crips-linked-lounge-operators-months-after-scranton-detective-shooting/",
+      "urlToImage": "https://media.breitbart.com/media/2026/06/Paige-Cognetti-for-Congress-640x335.jpeg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
+    },
+    {
+      "id": "short_4",
       "title": "The data center showdown in Lackawanna County",
       "title_distilled": "data center showdown in Lackawanna County.",
       "description": "As AI drives a boom in massive, power-hungry data centers, tech companies are targeting small, vulnerable communities for sprawling \u201chyperscale\u201d complexes. In Pennsylvania\u2019s Lackawanna County, the tiny borough of Archbald, facing five proposed facilities, has\u2026",
@@ -273,11 +397,11 @@
       "url": "https://www.resilience.org/stories/2026-06-16/the-data-center-showdown-in-lackawanna-county/",
       "urlToImage": "https://www.resilience.org/wp-content/uploads/2026/06/669559379_10239581257177142_1128632911367049029_n-1024x683.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "HS FOOTBALL: Cordelli to host seminar for parents, coaches and players; LFC athletes receiving offers",
       "title_distilled": "HS FOOTBALL: Cordelli to host seminar for parents, coaches and players; LFC athletes receiving offers.",
       "description": "Pete Cordelli Jr., along with the Lackawanna County Commissioners, is hosting a coaching seminar this week as part of its youth sports initiative. The former assistant coach to the late Lou Holtz at the University of Arkansas, the University of Minnesota, and\u2026",
@@ -330,11 +454,11 @@
       "url": "https://www.thetimes-tribune.com/2026/06/15/hs-football-cordelli-to-host-seminar-for-parents-coaches-and-players-lfc-athletes-receiving-offers/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "Scranton/Wilkes Barre RailRiders no-hitter history",
       "title_distilled": "Scranton/Wilkes Barre RailRiders no-hitter history.",
       "description": "A look back at Scranton/Wilkes-Barre\u2019s no-hitters after duo combines to throw seventh in franchise history",
@@ -379,11 +503,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/191721/yankees-scranton-railriders-no-hit-history-all-time-no-hitters-beck-coleman-boyle-gil-ridings",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/WY2rIlFw2_lDlxDvTbEYag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/0ec8a3b1cb42df3b53808f302233ea04",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "World Cup fan zone in Scranton promises four days of free, family-friendly fun",
       "title_distilled": "World Cup fan zone in Scranton promises four days of free, family-friendly fun.",
       "description": "SCRANTON \u2014 The FIFA World Cup Soccer Tournament Fan Zone at Lackawanna County Courthouse Square downtown on four days in July will feature a full slate of fun, family-friendly, free activities, organizers said Thursday. Representatives of the county, city, La\u2026",
@@ -479,11 +603,11 @@
       "url": "https://www.thetimes-tribune.com/2026/05/28/world-cup-fan-zone-in-scranton-promises-four-days-of-free-family-friendly-fun/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from",
       "title_distilled": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from.",
       "description": "Rep. Rob Bresnahan (R-PA) was an outspoken defender of AI data centers \u2014 until he realized it was political poison with voters.According to Axios' Andrew Solender, Bresnahan, who represents a compe...",
@@ -536,11 +660,11 @@
       "url": "https://www.rawstory.com/rob-bresnahan-2677027069/",
       "urlToImage": "https://www.rawstory.com/media-library/rob-bresnahan.jpg?id=61143463&width=1200&height=600&coordinates=0%2C40%2C0%2C40",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers",
       "title_distilled": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers.",
       "description": "Communities across the state are demanding to know how proposed data centers would affect their electric and water bills, landscapes and quality of life.",
@@ -585,11 +709,11 @@
       "url": "https://theconversation.com/how-pennsylvania-towns-are-protecting-themselves-from-the-noise-heat-and-utility-costs-of-massive-data-centers-282126",
       "urlToImage": "https://images.theconversation.com/files/739199/original/file-20260601-57-w67p1m.jpg?ixlib=rb-4.1.0&rect=0%2C685%2C4383%2C2191&q=45&auto=format&w=1356&h=668&fit=crop",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Eastern Conference Finals Preview",
       "title_distilled": "Eastern Conference Finals Preview.",
       "description": "The Calder Cup Playoffs are down to four teams. None of the regular season\u2019s four division champions remain as the Laval Rocket also went home early. Now the Wilkes-Barre/Scranton Penguins and Toronto Marlies both move on to the best-of-seven Eastern Conferen\u2026",
@@ -690,11 +814,11 @@
       "url": "https://www.flohockey.tv/articles/15949614-eastern-conference-finals-preview?utm_medium=rss",
       "urlToImage": "https://s.yimg.com/os/en/flosports_articles_736/554dfd290926b7d2a0940b449c1f21b9",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "Scranton mayor vying for Congress once hired a known criminal for key commission",
       "title_distilled": "Scranton mayor vying for Congress once hired a known criminal for key commission.",
       "description": "Scranton Mayor Paige Cognetti, who is vying for Congress, put a criminal on the city's Human Relations Commission that later committed crimes while serving in that post.",
@@ -791,103 +915,38 @@
       "url": "https://nypost.com/2026/06/14/us-news/scranton-mayor-vying-for-congress-once-hired-a-known-criminal-for-key-commission/",
       "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/06/newspress-collage-ouzqmvkse-1781463100452.jpg?quality=75&strip=all&1781448734&w=600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Divine Mercy Parish picnic kicks off weekend celebration in Scranton",
-      "title_distilled": "Divine Mercy Parish picnic kicks off weekend celebration in Scranton.",
-      "description": "Enjoy three days of food, music, and fun at Scranton's Divine Mercy Parish Picnic this weekend, featuring games, raffles, and an outdoor mass on Sunday.",
-      "description_distilled": "",
-      "content": "Enjoy three days of food, music, and fun at Scranton's Divine Mercy Parish Picnic this weekend, featuring games, raffles, and an outdoor mass on Sunday.",
-      "content_distilled": "Enjoy three days of food, music, and fun at Scranton's Divine Mercy Parish Picnic this weekend, featuring games, raffles, and an outdoor mass on Sunday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Divine Mercy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/divine-mercy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Enjoy",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-enjoy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Parish Picnic",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/parish-picnic.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Divine Mercy Parish picnic kicks off weekend celebration",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/divine-mercy-parish-picnic-kicks-off-weekend-celebration.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Divine Mercy Parish picnic kicks off weekend celebration",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Divine M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Parish P</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Divine M</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Divine Mercy": "../entities/people/divine-mercy.md",
-          "Scranton Enjoy": "../entities/people/scranton-enjoy.md",
-          "Parish Picnic": "../entities/people/parish-picnic.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Divine Mercy Parish picnic kicks off weekend celebration": "../entities/events/divine-mercy-parish-picnic-kicks-off-weekend-celebration.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-19T10:54:12",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/divine-mercy-parish-picnic-kicks-off-weekend-celebration-in-scranton-lackawanna-county-nikki-krize/523-a5f661c7-58f9-458a-839a-6fd5186f5043",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "A senior prom for seniors held in Lackawanna County",
-      "title_distilled": "senior prom for seniors held in Lackawanna County.",
-      "description": "Residents at Glenmaura Senior Living got a chance to relive an old memory and create new ones. With a second prom, new and old couples got another chance at a dance.",
+      "title": "Local soccer fans head to the bars to watch U.S. team play in World Cup",
+      "title_distilled": "Local soccer fans head to the bars to watch U.",
+      "description": "Bars around Lackawanna County are hosting watch parties for every game of the 2026 FIFA World Cup. One player on the U.S. team is from Pennsylvania.",
       "description_distilled": "",
-      "content": "Residents at Glenmaura Senior Living got a chance to relive an old memory and create new ones. With a second prom, new and old couples got another chance at a dance.",
-      "content_distilled": "Residents at Glenmaura Senior Living got a chance to relive an old memory and create new ones.",
+      "content": "Bars around Lackawanna County are hosting watch parties for every game of the 2026 FIFA World Cup. One player on the U.S. team is from Pennsylvania.",
+      "content_distilled": "Bars around Lackawanna County are hosting watch parties for every game of the 2026 FIFA World Cup.",
       "graph": {
         "entities": [
           {
-            "name": "Glenmaura Senior",
+            "name": "World Cup Bars",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/glenmaura-senior.md",
+            "file_path": "../entities/people/world-cup-bars.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "World Cup. One",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/world-cup-one.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -896,10 +955,28 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "team play in World Cup Bars around Lackawanna County are hosting watch parties for every game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/team-play-in-world-cup-bars-around-lackawanna-county-are-hosting-watch-parties-for-every-game.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Glenmaur</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "team play in World Cup Bars around Lackawanna County are hosting watch parties for every game",
+            "to": "Pennsylvania",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "World Cup Bars",
+            "to": "team play in World Cup Bars around Lackawanna County are hosting watch parties for every game",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">team pla</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -910,13 +987,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Glenmaura Senior": "../entities/people/glenmaura-senior.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "World Cup Bars": "../entities/people/world-cup-bars.md",
+          "World Cup. One": "../entities/people/world-cup-one.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "team play in World Cup Bars around Lackawanna County are hosting watch parties for every game": "../entities/events/team-play-in-world-cup-bars-around-lackawanna-county-are-hosting-watch-parties-for-every-game.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-19T02:48:20",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/a-senior-prom-for-seniors-held-in-lackawanna-county-moosic/523-60c3ed27-1df8-4eba-91ee-aabc9a8527bd",
+      "publishedAt": "2026-06-20T02:50:13",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/local-soccer-fans-head-to-the-bars-to-watch-us-team-play-in-world-cup-lackawanna-county/523-1f534df8-618e-4bbe-81a4-58254dbac0bc",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -924,44 +1004,31 @@
     },
     {
       "id": "short_13",
-      "title": "Child seriously injured in e-bike crash in Lackawanna County",
-      "title_distilled": "Child seriously injured in e-bike crash in Lackawanna County.",
-      "description": "The crash happened at the intersection of Harwood Avenue and Earl Street just after 10 a.m. Thursday.",
+      "title": "Police highlight risks of riding motorized bikes after crash leaves boy hospitalized",
+      "title_distilled": "Police highlight risks of riding motorized bikes after crash leaves boy hospitalized.",
+      "description": "Newswatch 16's Valeria Qui\u00f1ones spoke with police in Clarks Summit about the dangers of motorized bikes on public roads.",
       "description_distilled": "",
-      "content": "The crash happened at the intersection of Harwood Avenue and Earl Street just after 10 a.m. Thursday.",
-      "content_distilled": "crash happened at the intersection of Harwood Avenue and Earl Street just after 10 a.",
+      "content": "Newswatch 16's Valeria Qui\u00f1ones spoke with police in Clarks Summit about the dangers of motorized bikes on public roads.",
+      "content_distilled": "Newswatch 16's Valeria Qui\u00f1ones spoke with police in Clarks Summit about the dangers of motorized bikes on public roads.",
       "graph": {
         "entities": [
           {
-            "name": "Harwood Avenue",
+            "name": "Clarks Summit",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/harwood-avenue.md",
+            "file_path": "../entities/people/clarks-summit.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "spoke with police in Clarks Summit",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "intersection of Harwood Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/intersection-of-harwood-avenue.md",
+            "file_path": "../entities/events/spoke-with-police-in-clarks-summit.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "Harwood Avenue",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Harwood </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">intersec</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">spoke wi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -972,14 +1039,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Harwood Avenue": "../entities/people/harwood-avenue.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "intersection of Harwood Avenue": "../entities/locations/intersection-of-harwood-avenue.md"
+          "Clarks Summit": "../entities/people/clarks-summit.md",
+          "spoke with police in Clarks Summit": "../entities/events/spoke-with-police-in-clarks-summit.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-06-18T19:58:48",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/child-seriously-injured-in-e-bike-crash-in-lackawanna-county-clarks-summit/523-63b71b9d-e456-4653-a547-6fb40c3946cf",
+      "publishedAt": "2026-06-19T21:51:46",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-highlight-risks-of-riding-motorized-bikes-after-crash-leaves-boy-hospitalized-lackawanna-county-clarks-summit/523-700d633d-10a7-4828-9c69-a78af0f91c90",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -987,19 +1053,19 @@
     },
     {
       "id": "short_14",
-      "title": "Man found guilty of domestic sexual assault",
-      "title_distilled": "Man found guilty of domestic sexual assault.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It only took a Lackawanna County jury 25 minutes to convict a man of sexually assaulting woman in their own home. Prosecutors say Evan Quinnan, 35, beat her, left bruises across her body, gave her a black eye, and broke down a bathroom door to keep going. Quinnan's bail has been [...]",
+      "title": "Scranton firefighters honored in ceremony",
+      "title_distilled": "Scranton firefighters honored in ceremony.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Friday night, Scranton firefighters took center stage for a night of service, sacrifice, and recognition. The department brought its swearings-in, promotions, and awards together for one major ceremony, honoring six new firefighters and acts of bravery. Service, dedication, and honor were highlighted at the ceremony. \"It's a great opportunity to [...]",
       "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 It only took a Lackawanna County jury 25 minutes to convict a man of sexually assaulting woman in their own home. Prosecutors say Evan Quinnan, 35, beat her, left bruises across her body, gave her a black eye, and broke down a bathroom door to keep going. Quinnan's bail has been [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 It only took a Lackawanna County jury 25 minutes to convict a man of sexually assaulting woman in their own home.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Friday night, Scranton firefighters took center stage for a night of service, sacrifice, and recognition. The department brought its swearings-in, promotions, and awards together for one major ceremony, honoring six new firefighters and acts of bravery. Service, dedication, and honor were highlighted at the ceremony. \"It's a great opportunity to [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Friday night, Scranton firefighters took center stage for a night of service, sacrifice, and recognition.",
       "graph": {
         "entities": [
           {
-            "name": "Evan Quinnan",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/evan-quinnan.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1024,8 +1090,24 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Evan Qui</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1036,15 +1118,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Evan Quinnan": "../entities/people/evan-quinnan.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-06-19T01:09:59",
-      "url": "https://www.2822news.com/news/man-found-guilty-of-domestic-sexual-assault/",
+      "publishedAt": "2026-06-20T03:12:13",
+      "url": "https://www.2822news.com/news/scranton-firefighters-honored-in-ceremony/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
