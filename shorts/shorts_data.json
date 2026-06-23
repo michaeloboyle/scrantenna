@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-22T12:58:20.185964",
-  "source_file": "../data/daily/scranton_news_2026-06-22.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2026-06-23T12:01:36.099427",
+  "source_file": "../data/daily/scranton_news_2026-06-23.json",
+  "total_shorts": 14,
+  "total_duration": 112,
   "has_svo": false,
   "shorts": [
     {
@@ -872,24 +872,52 @@
     },
     {
       "id": "short_12",
-      "title": "ATV crash leaves one injured in Lackawanna County",
-      "title_distilled": "ATV crash leaves one injured in Lackawanna County.",
-      "description": "An ATV crash in Lackawanna County left one person injured and airlifted to a hospital in Allentown.",
+      "title": "Hearings continue over proposed gas plant",
+      "title_distilled": "Hearings continue over proposed gas plant.",
+      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 On one side of the data center debate, you have the people, passionate about their community and keeping big business out. On the other side stand developers, in this case, Essential Energy LLC, looking for Archbald council's approval to build a 400-megawatt gas power plant. The facility would produce enough [...]",
       "description_distilled": "",
-      "content": "An ATV crash in Lackawanna County left one person injured and airlifted to a hospital in Allentown.",
-      "content_distilled": "ATV crash in Lackawanna County left one person injured and airlifted to a hospital in Allentown.",
+      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 On one side of the data center debate, you have the people, passionate about their community and keeping big business out. On the other side stand developers, in this case, Essential Energy LLC, looking for Archbald council's approval to build a 400-megawatt gas power plant. The facility would produce enough [...]",
+      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 On one side of the data center debate, you have the people, passionate about their community and keeping big business out.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna County",
+            "name": "Essential Energy",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/essential-energy.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Essential Energy LLC",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/essential-energy-llc.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Essentia</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Essentia</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -900,12 +928,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Essential Energy": "../entities/people/essential-energy.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Essential Energy LLC": "../entities/organizations/essential-energy-llc.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-06-22T03:05:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/atv-crash-leaves-one-injured-lackawanna-county/523-a846d878-e3cd-43c9-888f-2974ab97974b",
+      "source": "Wbre",
+      "publishedAt": "2026-06-23T03:23:26",
+      "url": "https://www.2822news.com/news/data-centers/hearings-continue-over-proposed-gas-plant/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -913,38 +945,73 @@
     },
     {
       "id": "short_13",
-      "title": "Steamtown celebrates Father's Day with sold-out steam train journey to Jessup",
-      "title_distilled": "Steamtown celebrates Father's Day with sold-out steam train journey to Jessup.",
-      "description": "Families flocked to Steamtown National Historic Site for a sold-out Father's Day train ride, helping support preservation efforts for historic steam engines.",
+      "title": "Rain not stopping fans from seeing Big Boy at Steamtown",
+      "title_distilled": "Rain not stopping fans from seeing Big Boy at Steamtown.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Train enthusiasts are still coming into Lackawanna County to see the Big Boy 4014 at the Steamtown Historical Site. While Monday's crowd is smaller, folks from all parts of the country descended upon the Electric City. It has been a wet start to the week in our area, but it [...]",
       "description_distilled": "",
-      "content": "Families flocked to Steamtown National Historic Site for a sold-out Father's Day train ride, helping support preservation efforts for historic steam engines.",
-      "content_distilled": "Families flocked to Steamtown National Historic Site for a sold-out Father's Day train ride, helping support preservation efforts for historic steam engines.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Train enthusiasts are still coming into Lackawanna County to see the Big Boy 4014 at the Steamtown Historical Site. While Monday's crowd is smaller, folks from all parts of the country descended upon the Electric City. It has been a wet start to the week in our area, but it [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Train enthusiasts are still coming into Lackawanna County to see the Big Boy 4014 at the Steamtown Historical Site.",
       "graph": {
         "entities": [
           {
-            "name": "Jessup Families",
+            "name": "Big Boy",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jessup-families.md",
+            "file_path": "../entities/people/big-boy.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Steamtown National",
+            "name": "Steamtown Historical",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/steamtown-national.md",
+            "file_path": "../entities/people/steamtown-historical.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Historic Site",
+            "name": "While Monday",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/historic-site.md",
+            "file_path": "../entities/people/while-monday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Electric City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/electric-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup F</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Historic</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Boy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">While Mo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -955,66 +1022,22 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Jessup Families": "../entities/people/jessup-families.md",
-          "Steamtown National": "../entities/people/steamtown-national.md",
-          "Historic Site": "../entities/people/historic-site.md"
+          "Big Boy": "../entities/people/big-boy.md",
+          "Steamtown Historical": "../entities/people/steamtown-historical.md",
+          "While Monday": "../entities/people/while-monday.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-06-21T23:09:37",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/steamtowns-sold-out-fathers-day-train-jessup-helps-preserve-historic-engines-lackawanna-county/523-b08fa01f-e9c0-4a4a-8fbd-556268f2e773",
+      "source": "Wbre",
+      "publishedAt": "2026-06-22T22:36:04",
+      "url": "https://www.2822news.com/news/local-news/rain-not-stopping-fans-from-seeing-big-boy-at-steamtown/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Father's Day car shows bring families together across Northeastern Pennsylvania",
-      "title_distilled": "Father's Day car shows bring families together across Northeastern Pennsylvania.",
-      "description": "For many, polishing chrome, opening the hood, and spending the day together among classic cars are memories that will last a lifetime.",
-      "description_distilled": "",
-      "content": "For many, polishing chrome, opening the hood, and spending the day together among classic cars are memories that will last a lifetime.",
-      "content_distilled": "For many, polishing chrome, opening the hood, and spending the day together among classic cars are memories that will last a lifetime.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-21T23:03:16",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fathers-day-car-shows-bring-families-together-across-northeastern-pennsylvania-lackawanna-county-susquehanna/523-300a5263-f823-4dac-8f50-2297e713c8c0",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
