@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-23T12:01:36.099427",
-  "source_file": "../data/daily/scranton_news_2026-06-23.json",
-  "total_shorts": 14,
-  "total_duration": 112,
+  "generated_at": "2026-06-24T11:55:41.355845",
+  "source_file": "../data/daily/scranton_news_2026-06-24.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -872,52 +872,31 @@
     },
     {
       "id": "short_12",
-      "title": "Hearings continue over proposed gas plant",
-      "title_distilled": "Hearings continue over proposed gas plant.",
-      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 On one side of the data center debate, you have the people, passionate about their community and keeping big business out. On the other side stand developers, in this case, Essential Energy LLC, looking for Archbald council's approval to build a 400-megawatt gas power plant. The facility would produce enough [...]",
+      "title": "Local tavern scores big with World Cup-Themed food and drinks",
+      "title_distilled": "Local tavern scores big with World Cup-Themed food and drinks.",
+      "description": "Buddy Clarke\u2019s Tavern in Dunmore celebrates the World Cup with themed drinks and a special menu.",
       "description_distilled": "",
-      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 On one side of the data center debate, you have the people, passionate about their community and keeping big business out. On the other side stand developers, in this case, Essential Energy LLC, looking for Archbald council's approval to build a 400-megawatt gas power plant. The facility would produce enough [...]",
-      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 On one side of the data center debate, you have the people, passionate about their community and keeping big business out.",
+      "content": "Buddy Clarke\u2019s Tavern in Dunmore celebrates the World Cup with themed drinks and a special menu.",
+      "content_distilled": "Buddy Clarke\u2019s Tavern in Dunmore celebrates the World Cup with themed drinks and a special menu.",
       "graph": {
         "entities": [
           {
-            "name": "Essential Energy",
+            "name": "World Cup",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/essential-energy.md",
+            "file_path": "../entities/people/world-cup.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
+            "name": "Buddy Clarke",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Essential Energy LLC",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/essential-energy-llc.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/buddy-clarke.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Essentia</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Essentia</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Buddy Cl</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -928,16 +907,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Essential Energy": "../entities/people/essential-energy.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Essential Energy LLC": "../entities/organizations/essential-energy-llc.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "World Cup": "../entities/people/world-cup.md",
+          "Buddy Clarke": "../entities/people/buddy-clarke.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-06-23T03:23:26",
-      "url": "https://www.2822news.com/news/data-centers/hearings-continue-over-proposed-gas-plant/",
+      "source": "Wnep",
+      "publishedAt": "2026-06-24T11:13:27",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/local-tavern-scores-big-with-world-cup-themed-food-and-drinks/523-10cbc1e1-2d6b-4309-b853-fa391f47a9c7",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -945,73 +921,51 @@
     },
     {
       "id": "short_13",
-      "title": "Rain not stopping fans from seeing Big Boy at Steamtown",
-      "title_distilled": "Rain not stopping fans from seeing Big Boy at Steamtown.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Train enthusiasts are still coming into Lackawanna County to see the Big Boy 4014 at the Steamtown Historical Site. While Monday's crowd is smaller, folks from all parts of the country descended upon the Electric City. It has been a wet start to the week in our area, but it [...]",
+      "title": "Two injured and couple in custody after stabbing in Scranton",
+      "title_distilled": "Two injured and couple in custody after stabbing in Scranton.",
+      "description": "Police were called to the home along Edna Avenue around noon on Tuesday.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Train enthusiasts are still coming into Lackawanna County to see the Big Boy 4014 at the Steamtown Historical Site. While Monday's crowd is smaller, folks from all parts of the country descended upon the Electric City. It has been a wet start to the week in our area, but it [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Train enthusiasts are still coming into Lackawanna County to see the Big Boy 4014 at the Steamtown Historical Site.",
+      "content": "Police were called to the home along Edna Avenue around noon on Tuesday.",
+      "content_distilled": "Police were called to the home along Edna Avenue around noon on Tuesday.",
       "graph": {
         "entities": [
           {
-            "name": "Big Boy",
+            "name": "Scranton Police",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/big-boy.md",
+            "file_path": "../entities/people/scranton-police.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Steamtown Historical",
+            "name": "Edna Avenue",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/steamtown-historical.md",
+            "file_path": "../entities/people/edna-avenue.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "While Monday",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/while-monday.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Electric City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
+            "name": "home along Edna Avenue",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/home-along-edna-avenue.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Big Boy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">While Mo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "home along Edna Avenue",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Edna Ave</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">home alo</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1022,22 +976,67 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Big Boy": "../entities/people/big-boy.md",
-          "Steamtown Historical": "../entities/people/steamtown-historical.md",
-          "While Monday": "../entities/people/while-monday.md",
-          "Electric City": "../entities/people/electric-city.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Scranton Police": "../entities/people/scranton-police.md",
+          "Edna Avenue": "../entities/people/edna-avenue.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "home along Edna Avenue": "../entities/locations/home-along-edna-avenue.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-06-22T22:36:04",
-      "url": "https://www.2822news.com/news/local-news/rain-not-stopping-fans-from-seeing-big-boy-at-steamtown/",
+      "source": "Wnep",
+      "publishedAt": "2026-06-24T02:47:44",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/two-in-custody-one-injured-after-knife-attack-in-scranton-lackawanna-county-edna-avenue/523-187b3157-3347-4516-863b-336072591510",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Police incident leads to head-on crash near Carbondale",
+      "title_distilled": "Police incident leads to head-on crash near Carbondale.",
+      "description": "State and local police responded to the head-on crash in Greenfield Township that injured multiple people on Tuesday.",
+      "description_distilled": "",
+      "content": "State and local police responded to the head-on crash in Greenfield Township that injured multiple people on Tuesday.",
+      "content_distilled": "State and local police responded to the head-on crash in Greenfield Township that injured multiple people on Tuesday.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Carbondale State",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/carbondale-state.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Greenfield Township",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/greenfield-township.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greenfie</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Carbondale State": "../entities/people/carbondale-state.md",
+          "Greenfield Township": "../entities/people/greenfield-township.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-06-24T00:20:02",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/multiple-injured-one-custody-police-incident-and-head-on-crash-lackawanna-county-greenfield-township-carbondale/523-4cca1ae4-89ee-40c6-9ddb-2787351c263c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
