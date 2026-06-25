@@ -1,12 +1,138 @@
 {
-  "generated_at": "2026-06-24T11:55:41.355845",
-  "source_file": "../data/daily/scranton_news_2026-06-24.json",
+  "generated_at": "2026-06-25T11:54:13.882721",
+  "source_file": "../data/daily/scranton_news_2026-06-25.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "\u2018Far Left\u2019 Dem Campaigns on Green Tax Policies With Obama Officials",
+      "title_distilled": "\u2018Far Left\u2019 Dem Campaigns on Green Tax Policies With Obama Officials.",
+      "description": "The mayor of Scranton, Pennsylvania, has been campaigning with former officials from President Barack Obama\u2019s administration to champion green tax policies. Earlier this month, Paige Cognetti, the congressional candidate for Pennsylvania\u2019s 8th Congressional D\u2026",
+      "description_distilled": "",
+      "content": "The mayor of Scranton, Pennsylvania, has been campaigning with former officials from President Barack Obama\u2019s administration to champion green tax policies. Earlier this month, Paige Cognetti, the congressional candidate for Pennsylvania\u2019s 8th Congressional D\u2026",
+      "content_distilled": "mayor of Scranton, Pennsylvania, has been campaigning with former officials from President Barack Obama\u2019s administration to champion green tax policies.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Far Left",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/far-left.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Dem Campaigns",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dem-campaigns.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Green Tax Policies",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/green-tax-policies.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Officials The",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/officials-the.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "President Barack",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/president-barack.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barack Obama",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barack-obama.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "President Barack",
+            "to": "Barack Obama",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "Dem Campaigns",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Officials The",
+            "to": "President Barack",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Far Left</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dem Camp</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Green Ta</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Official</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Presiden</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Far Left": "../entities/people/far-left.md",
+          "Dem Campaigns": "../entities/people/dem-campaigns.md",
+          "Green Tax Policies": "../entities/people/green-tax-policies.md",
+          "Officials The": "../entities/people/officials-the.md",
+          "President Barack": "../entities/people/president-barack.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Barack Obama": "../entities/people/barack-obama.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Daily Signal",
+      "publishedAt": "2026-06-23T19:05:00Z",
+      "url": "https://www.dailysignal.com/2026/06/23/far-left-dem-campaigns-on-green-tax-policies-with-obama-officials/",
+      "urlToImage": "https://static.dailysignalmedia.org/Cognetti-and-Shapiro.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Nexstar CEO: big tech swallowed local newspapers. Local TV could be next",
       "title_distilled": "Nexstar CEO: big tech swallowed local newspapers.",
       "description": "I started with one television station in Scranton over 30 years ago, now I employ nearly thousands of journalists coast to coast.",
@@ -43,11 +169,11 @@
       "url": "https://fortune.com/2026/06/14/nexstar-tegna-local-tv-big-tech-advertising-perry-sook/",
       "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/06/nexstar.png?resize=1200,600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "BAZOOKA TEAMSTERS AUTHORIZE STRIKE",
       "title_distilled": "BAZOOKA TEAMSTERS AUTHORIZE STRIKE.",
       "description": "Workers at Nation's Sole Ring Pop Plant Fight for Fair Contract SCRANTON, Pa., May 28, 2026 /PRNewswire/ -- More than 60 members of Teamsters Local 229 at Bazooka Inc. in Moosic, Pa., have overwhelmingly voted to authorize a strike after the candy company fai\u2026",
@@ -145,11 +271,11 @@
       "url": "https://www.prnewswire.com/news-releases/bazooka-teamsters-authorize-strike-302784959.html",
       "urlToImage": "https://mma.prnewswire.com/media/2655485/Teamsters_Logo_v1.jpg?p=facebook",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "RailRiders\u2019 series in Columbus is return to Yankees\u2019 Triple-A roots",
       "title_distilled": "RailRiders\u2019 series in Columbus is return to Yankees\u2019 Triple-A roots.",
       "description": "For 28 years, the Yankees had their Triple-A team in the capital of Ohio.",
@@ -176,11 +302,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/24481007/yankees-aaa-columbus-history-scranton-return-railriders-clippers-cleveland",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ypfkTyBLBDcv5ibxT5DGTQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NDU7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/fa2ed4d4ef997b2568056fa52b74875e",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Dem Mayor Running for Congress Posed with Crips-Linked Lounge Operators Months After Scranton Detective Shooting",
       "title_distilled": "Dem Mayor Running for Congress Posed with Crips-Linked Lounge Operators Months After Scranton Detective Shooting.",
       "description": "Scranton Mayor and congressional candidate Paige Cognetti (D-PA) promoted a violence intervention program involving a \u201csafe space\u201d for people who had entered the justice system or were recently coming out of it after a gang-related shooting wounded a city det\u2026",
@@ -300,11 +426,11 @@
       "url": "https://www.breitbart.com/politics/2026/06/18/dem-mayor-running-for-congress-posed-with-crips-linked-lounge-operators-months-after-scranton-detective-shooting/",
       "urlToImage": "https://media.breitbart.com/media/2026/06/Paige-Cognetti-for-Congress-640x335.jpeg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "The data center showdown in Lackawanna County",
       "title_distilled": "data center showdown in Lackawanna County.",
       "description": "As AI drives a boom in massive, power-hungry data centers, tech companies are targeting small, vulnerable communities for sprawling \u201chyperscale\u201d complexes. In Pennsylvania\u2019s Lackawanna County, the tiny borough of Archbald, facing five proposed facilities, has\u2026",
@@ -349,11 +475,11 @@
       "url": "https://www.resilience.org/stories/2026-06-16/the-data-center-showdown-in-lackawanna-county/",
       "urlToImage": "https://www.resilience.org/wp-content/uploads/2026/06/669559379_10239581257177142_1128632911367049029_n-1024x683.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "HS FOOTBALL: Cordelli to host seminar for parents, coaches and players; LFC athletes receiving offers",
       "title_distilled": "HS FOOTBALL: Cordelli to host seminar for parents, coaches and players; LFC athletes receiving offers.",
       "description": "Pete Cordelli Jr., along with the Lackawanna County Commissioners, is hosting a coaching seminar this week as part of its youth sports initiative. The former assistant coach to the late Lou Holtz at the University of Arkansas, the University of Minnesota, and\u2026",
@@ -406,11 +532,11 @@
       "url": "https://www.thetimes-tribune.com/2026/06/15/hs-football-cordelli-to-host-seminar-for-parents-coaches-and-players-lfc-athletes-receiving-offers/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "Scranton/Wilkes Barre RailRiders no-hitter history",
       "title_distilled": "Scranton/Wilkes Barre RailRiders no-hitter history.",
       "description": "A look back at Scranton/Wilkes-Barre\u2019s no-hitters after duo combines to throw seventh in franchise history",
@@ -455,11 +581,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/191721/yankees-scranton-railriders-no-hit-history-all-time-no-hitters-beck-coleman-boyle-gil-ridings",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/WY2rIlFw2_lDlxDvTbEYag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/0ec8a3b1cb42df3b53808f302233ea04",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "World Cup fan zone in Scranton promises four days of free, family-friendly fun",
       "title_distilled": "World Cup fan zone in Scranton promises four days of free, family-friendly fun.",
       "description": "SCRANTON \u2014 The FIFA World Cup Soccer Tournament Fan Zone at Lackawanna County Courthouse Square downtown on four days in July will feature a full slate of fun, family-friendly, free activities, organizers said Thursday. Representatives of the county, city, La\u2026",
@@ -555,11 +681,11 @@
       "url": "https://www.thetimes-tribune.com/2026/05/28/world-cup-fan-zone-in-scranton-promises-four-days-of-free-family-friendly-fun/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from",
       "title_distilled": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from.",
       "description": "Rep. Rob Bresnahan (R-PA) was an outspoken defender of AI data centers \u2014 until he realized it was political poison with voters.According to Axios' Andrew Solender, Bresnahan, who represents a compe...",
@@ -612,11 +738,11 @@
       "url": "https://www.rawstory.com/rob-bresnahan-2677027069/",
       "urlToImage": "https://www.rawstory.com/media-library/rob-bresnahan.jpg?id=61143463&width=1200&height=600&coordinates=0%2C40%2C0%2C40",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers",
       "title_distilled": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers.",
       "description": "Communities across the state are demanding to know how proposed data centers would affect their electric and water bills, landscapes and quality of life.",
@@ -661,11 +787,11 @@
       "url": "https://theconversation.com/how-pennsylvania-towns-are-protecting-themselves-from-the-noise-heat-and-utility-costs-of-massive-data-centers-282126",
       "urlToImage": "https://images.theconversation.com/files/739199/original/file-20260601-57-w67p1m.jpg?ixlib=rb-4.1.0&rect=0%2C685%2C4383%2C2191&q=45&auto=format&w=1356&h=668&fit=crop",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "Eastern Conference Finals Preview",
       "title_distilled": "Eastern Conference Finals Preview.",
       "description": "The Calder Cup Playoffs are down to four teams. None of the regular season\u2019s four division champions remain as the Laval Rocket also went home early. Now the Wilkes-Barre/Scranton Penguins and Toronto Marlies both move on to the best-of-seven Eastern Conferen\u2026",
@@ -766,11 +892,206 @@
       "url": "https://www.flohockey.tv/articles/15949614-eastern-conference-finals-preview?utm_medium=rss",
       "urlToImage": "https://s.yimg.com/os/en/flosports_articles_736/554dfd290926b7d2a0940b449c1f21b9",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
+      "title": "Dem Mayor Seeking To Flip Red Seat Blue Fantasized About Disarming Police, Citizens In Resurfaced Video",
+      "title_distilled": "Dem Mayor Seeking To Flip Red Seat Blue Fantasized About Disarming Police, Citizens In Resurfaced Video.",
+      "description": "Democratic Scranton Mayor Paige Cognetti said she supported disarming police officers and wanted to emulate Japan\u2019s gun-control laws in a resurfaced video from 2020. Cognetti, who is seeking to unseat Republican Pennsylvania Rep. Rob Bresnahan in the Eighth C\u2026",
+      "description_distilled": "",
+      "content": "Democratic Scranton Mayor Paige Cognetti said she supported disarming police officers and wanted to emulate Japan\u2019s gun-control laws in a resurfaced video from 2020. Cognetti, who is seeking to unseat Republican Pennsylvania Rep. Rob Bresnahan in the Eighth C\u2026",
+      "content_distilled": "Democratic Scranton Mayor Paige Cognetti said she supported disarming police officers and wanted to emulate Japan\u2019s gun-control laws in a resurfaced video from 2020.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Dem Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dem-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Seeking To Flip",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/seeking-to-flip.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Red Seat",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/red-seat.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Blue Fantasized",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/blue-fantasized.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "About Disarming",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/about-disarming.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Video Democratic",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/video-democratic.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Republican Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/republican-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Rob Bresnahan",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rob-bresnahan.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton Mayor",
+            "to": "Seeking To Flip",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "Scranton Mayor",
+            "to": "About Disarming",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dem Mayo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Seeking </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Red Seat</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blue Fan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">About Di</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Video De</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Dem Mayor": "../entities/people/dem-mayor.md",
+          "Seeking To Flip": "../entities/people/seeking-to-flip.md",
+          "Red Seat": "../entities/people/red-seat.md",
+          "Blue Fantasized": "../entities/people/blue-fantasized.md",
+          "About Disarming": "../entities/people/about-disarming.md",
+          "Video Democratic": "../entities/people/video-democratic.md",
+          "Scranton Mayor": "../entities/people/scranton-mayor.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Republican Pennsylvania": "../entities/people/republican-pennsylvania.md",
+          "Rob Bresnahan": "../entities/people/rob-bresnahan.md"
+        }
+      },
+      "source": "Freerepublic.com",
+      "publishedAt": "2026-06-24T00:48:12Z",
+      "url": "https://freerepublic.com/focus/f-bloggers/4385158/posts",
+      "urlToImage": null,
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Democrat Mayor Paige Cognetti Fantasized About Disarming Police, Citizens In Resurfaced Video",
+      "title_distilled": "Democrat Mayor Paige Cognetti Fantasized About Disarming Police, Citizens In Resurfaced Video.",
+      "description": "A Democrat seeking to unseat the Republican congressman holding a key swing district expressed admiration for Japan\u2019s gun control laws.",
+      "description_distilled": "",
+      "content": "A Democrat seeking to unseat the Republican congressman holding a key swing district expressed admiration for Japan\u2019s gun control laws.",
+      "content_distilled": "Democrat seeking to unseat the Republican congressman holding a key swing district expressed admiration for Japan\u2019s gun control laws.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Democrat Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/democrat-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fantasized About",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fantasized-about.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Disarming Police",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/disarming-police.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Democrat Mayor",
+            "to": "Paige Cognetti",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fantasiz</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Disarmin</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Democrat Mayor": "../entities/people/democrat-mayor.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Fantasized About": "../entities/people/fantasized-about.md",
+          "Disarming Police": "../entities/people/disarming-police.md"
+        }
+      },
+      "source": "The Daily Caller",
+      "publishedAt": "2026-06-23T20:12:13Z",
+      "url": "https://dailycaller.com/2026/06/23/democrat-mayor-paige-cognetti-fantasized-disarming-police-citizens/",
+      "urlToImage": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/06/DCNF-Cognetti-Guns-Japan-Everytown-Featured.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
       "title": "Scranton mayor vying for Congress once hired a known criminal for key commission",
       "title_distilled": "Scranton mayor vying for Congress once hired a known criminal for key commission.",
       "description": "Scranton Mayor Paige Cognetti, who is vying for Congress, put a criminal on the city's Human Relations Commission that later committed crimes while serving in that post.",
@@ -866,175 +1187,6 @@
       "publishedAt": "2026-06-14T21:13:29Z",
       "url": "https://nypost.com/2026/06/14/us-news/scranton-mayor-vying-for-congress-once-hired-a-known-criminal-for-key-commission/",
       "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/06/newspress-collage-ouzqmvkse-1781463100452.jpg?quality=75&strip=all&1781448734&w=600",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Local tavern scores big with World Cup-Themed food and drinks",
-      "title_distilled": "Local tavern scores big with World Cup-Themed food and drinks.",
-      "description": "Buddy Clarke\u2019s Tavern in Dunmore celebrates the World Cup with themed drinks and a special menu.",
-      "description_distilled": "",
-      "content": "Buddy Clarke\u2019s Tavern in Dunmore celebrates the World Cup with themed drinks and a special menu.",
-      "content_distilled": "Buddy Clarke\u2019s Tavern in Dunmore celebrates the World Cup with themed drinks and a special menu.",
-      "graph": {
-        "entities": [
-          {
-            "name": "World Cup",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/world-cup.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Buddy Clarke",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/buddy-clarke.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Buddy Cl</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "World Cup": "../entities/people/world-cup.md",
-          "Buddy Clarke": "../entities/people/buddy-clarke.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-24T11:13:27",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/local-tavern-scores-big-with-world-cup-themed-food-and-drinks/523-10cbc1e1-2d6b-4309-b853-fa391f47a9c7",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Two injured and couple in custody after stabbing in Scranton",
-      "title_distilled": "Two injured and couple in custody after stabbing in Scranton.",
-      "description": "Police were called to the home along Edna Avenue around noon on Tuesday.",
-      "description_distilled": "",
-      "content": "Police were called to the home along Edna Avenue around noon on Tuesday.",
-      "content_distilled": "Police were called to the home along Edna Avenue around noon on Tuesday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Police",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Edna Avenue",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/edna-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "home along Edna Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/home-along-edna-avenue.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "home along Edna Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Edna Ave</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">home alo</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
-          "Edna Avenue": "../entities/people/edna-avenue.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "home along Edna Avenue": "../entities/locations/home-along-edna-avenue.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-24T02:47:44",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/two-in-custody-one-injured-after-knife-attack-in-scranton-lackawanna-county-edna-avenue/523-187b3157-3347-4516-863b-336072591510",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Police incident leads to head-on crash near Carbondale",
-      "title_distilled": "Police incident leads to head-on crash near Carbondale.",
-      "description": "State and local police responded to the head-on crash in Greenfield Township that injured multiple people on Tuesday.",
-      "description_distilled": "",
-      "content": "State and local police responded to the head-on crash in Greenfield Township that injured multiple people on Tuesday.",
-      "content_distilled": "State and local police responded to the head-on crash in Greenfield Township that injured multiple people on Tuesday.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Carbondale State",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/carbondale-state.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Greenfield Township",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/greenfield-township.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greenfie</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Carbondale State": "../entities/people/carbondale-state.md",
-          "Greenfield Township": "../entities/people/greenfield-township.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-06-24T00:20:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/multiple-injured-one-custody-police-incident-and-head-on-crash-lackawanna-county-greenfield-township-carbondale/523-4cca1ae4-89ee-40c6-9ddb-2787351c263c",
-      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
