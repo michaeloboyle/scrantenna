@@ -1,12 +1,90 @@
 {
-  "generated_at": "2026-06-27T11:31:26.771155",
-  "source_file": "../data/daily/scranton_news_2026-06-27.json",
+  "generated_at": "2026-06-28T11:34:18.206408",
+  "source_file": "../data/daily/scranton_news_2026-06-28.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "The 5 Most Alluring Hotels Built Into Train Stations",
+      "title_distilled": "5 Most Alluring Hotels Built Into Train Stations.",
+      "description": "From Tokyo\u2019s hushed luxury to a cinematic station in the Spanish Pyrenees, these five train station hotels around the world turn the journey itself into part of the stay.",
+      "description_distilled": "",
+      "content": "From Tokyo\u2019s hushed luxury to a cinematic station in the Spanish Pyrenees, these five train station hotels around the world turn the journey itself into part of the stay.",
+      "content_distilled": "From Tokyo\u2019s hushed luxury to a cinematic station in the Spanish Pyrenees, these five train station hotels around the world turn the journey itself into part of the stay.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Most Alluring",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/most-alluring.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Hotels Built",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/hotels-built.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Into Train",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/into-train.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Spanish Pyrenees",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/spanish-pyrenees.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Most Alluring",
+            "to": "Into Train",
+            "type": "BUILT",
+            "verb": "built"
+          },
+          {
+            "from": "Most Alluring",
+            "to": "Spanish Pyrenees",
+            "type": "BUILT",
+            "verb": "built"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Most All</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hotels B</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Into Tra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Spanish </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BUILT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">BUILT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Most Alluring": "../entities/people/most-alluring.md",
+          "Hotels Built": "../entities/people/hotels-built.md",
+          "Into Train": "../entities/people/into-train.md",
+          "Spanish Pyrenees": "../entities/people/spanish-pyrenees.md"
+        }
+      },
+      "source": "Forbes",
+      "publishedAt": "2026-06-26T16:19:22Z",
+      "url": "https://www.forbes.com/sites/davidhochman/2026/06/26/the-5-most-alluring-hotels-built-into-train-stations/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6a3ea4749ef192cdd8930b4e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "\u2018Far Left\u2019 Dem Campaigns on Green Tax Policies With Obama Officials",
       "title_distilled": "\u2018Far Left\u2019 Dem Campaigns on Green Tax Policies With Obama Officials.",
       "description": "The mayor of Scranton, Pennsylvania, has been campaigning with former officials from President Barack Obama\u2019s administration to champion green tax policies. Earlier this month, Paige Cognetti, the congressional candidate for Pennsylvania\u2019s 8th Congressional D\u2026",
@@ -128,11 +206,11 @@
       "url": "https://www.dailysignal.com/2026/06/23/far-left-dem-campaigns-on-green-tax-policies-with-obama-officials/",
       "urlToImage": "https://static.dailysignalmedia.org/Cognetti-and-Shapiro.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Nexstar CEO: big tech swallowed local newspapers. Local TV could be next",
       "title_distilled": "Nexstar CEO: big tech swallowed local newspapers.",
       "description": "I started with one television station in Scranton over 30 years ago, now I employ nearly thousands of journalists coast to coast.",
@@ -169,11 +247,11 @@
       "url": "https://fortune.com/2026/06/14/nexstar-tegna-local-tv-big-tech-advertising-perry-sook/",
       "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/06/nexstar.png?resize=1200,600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "BAZOOKA TEAMSTERS AUTHORIZE STRIKE",
       "title_distilled": "BAZOOKA TEAMSTERS AUTHORIZE STRIKE.",
       "description": "Workers at Nation's Sole Ring Pop Plant Fight for Fair Contract SCRANTON, Pa., May 28, 2026 /PRNewswire/ -- More than 60 members of Teamsters Local 229 at Bazooka Inc. in Moosic, Pa., have overwhelmingly voted to authorize a strike after the candy company fai\u2026",
@@ -271,11 +349,11 @@
       "url": "https://www.prnewswire.com/news-releases/bazooka-teamsters-authorize-strike-302784959.html",
       "urlToImage": "https://mma.prnewswire.com/media/2655485/Teamsters_Logo_v1.jpg?p=facebook",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "RailRiders\u2019 series in Columbus is return to Yankees\u2019 Triple-A roots",
       "title_distilled": "RailRiders\u2019 series in Columbus is return to Yankees\u2019 Triple-A roots.",
       "description": "For 28 years, the Yankees had their Triple-A team in the capital of Ohio.",
@@ -302,11 +380,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/24481007/yankees-aaa-columbus-history-scranton-return-railriders-clippers-cleveland",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ypfkTyBLBDcv5ibxT5DGTQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NDU7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/fa2ed4d4ef997b2568056fa52b74875e",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Dem Mayor Running for Congress Posed with Crips-Linked Lounge Operators Months After Scranton Detective Shooting",
       "title_distilled": "Dem Mayor Running for Congress Posed with Crips-Linked Lounge Operators Months After Scranton Detective Shooting.",
       "description": "Scranton Mayor and congressional candidate Paige Cognetti (D-PA) promoted a violence intervention program involving a \u201csafe space\u201d for people who had entered the justice system or were recently coming out of it after a gang-related shooting wounded a city det\u2026",
@@ -426,11 +504,11 @@
       "url": "https://www.breitbart.com/politics/2026/06/18/dem-mayor-running-for-congress-posed-with-crips-linked-lounge-operators-months-after-scranton-detective-shooting/",
       "urlToImage": "https://media.breitbart.com/media/2026/06/Paige-Cognetti-for-Congress-640x335.jpeg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "The data center showdown in Lackawanna County",
       "title_distilled": "data center showdown in Lackawanna County.",
       "description": "As AI drives a boom in massive, power-hungry data centers, tech companies are targeting small, vulnerable communities for sprawling \u201chyperscale\u201d complexes. In Pennsylvania\u2019s Lackawanna County, the tiny borough of Archbald, facing five proposed facilities, has\u2026",
@@ -475,11 +553,11 @@
       "url": "https://www.resilience.org/stories/2026-06-16/the-data-center-showdown-in-lackawanna-county/",
       "urlToImage": "https://www.resilience.org/wp-content/uploads/2026/06/669559379_10239581257177142_1128632911367049029_n-1024x683.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "HS FOOTBALL: Cordelli to host seminar for parents, coaches and players; LFC athletes receiving offers",
       "title_distilled": "HS FOOTBALL: Cordelli to host seminar for parents, coaches and players; LFC athletes receiving offers.",
       "description": "Pete Cordelli Jr., along with the Lackawanna County Commissioners, is hosting a coaching seminar this week as part of its youth sports initiative. The former assistant coach to the late Lou Holtz at the University of Arkansas, the University of Minnesota, and\u2026",
@@ -532,11 +610,11 @@
       "url": "https://www.thetimes-tribune.com/2026/06/15/hs-football-cordelli-to-host-seminar-for-parents-coaches-and-players-lfc-athletes-receiving-offers/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Scranton/Wilkes Barre RailRiders no-hitter history",
       "title_distilled": "Scranton/Wilkes Barre RailRiders no-hitter history.",
       "description": "A look back at Scranton/Wilkes-Barre\u2019s no-hitters after duo combines to throw seventh in franchise history",
@@ -581,11 +659,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/191721/yankees-scranton-railriders-no-hit-history-all-time-no-hitters-beck-coleman-boyle-gil-ridings",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/WY2rIlFw2_lDlxDvTbEYag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/0ec8a3b1cb42df3b53808f302233ea04",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "World Cup fan zone in Scranton promises four days of free, family-friendly fun",
       "title_distilled": "World Cup fan zone in Scranton promises four days of free, family-friendly fun.",
       "description": "SCRANTON \u2014 The FIFA World Cup Soccer Tournament Fan Zone at Lackawanna County Courthouse Square downtown on four days in July will feature a full slate of fun, family-friendly, free activities, organizers said Thursday. Representatives of the county, city, La\u2026",
@@ -681,11 +759,11 @@
       "url": "https://www.thetimes-tribune.com/2026/05/28/world-cup-fan-zone-in-scranton-promises-four-days-of-free-family-friendly-fun/",
       "urlToImage": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from",
       "title_distilled": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from.",
       "description": "Rep. Rob Bresnahan (R-PA) was an outspoken defender of AI data centers \u2014 until he realized it was political poison with voters.According to Axios' Andrew Solender, Bresnahan, who represents a compe...",
@@ -738,11 +816,11 @@
       "url": "https://www.rawstory.com/rob-bresnahan-2677027069/",
       "urlToImage": "https://www.rawstory.com/media-library/rob-bresnahan.jpg?id=61143463&width=1200&height=600&coordinates=0%2C40%2C0%2C40",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers",
       "title_distilled": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers.",
       "description": "Communities across the state are demanding to know how proposed data centers would affect their electric and water bills, landscapes and quality of life.",
@@ -786,111 +864,6 @@
       "publishedAt": "2026-06-11T12:25:48Z",
       "url": "https://theconversation.com/how-pennsylvania-towns-are-protecting-themselves-from-the-noise-heat-and-utility-costs-of-massive-data-centers-282126",
       "urlToImage": "https://images.theconversation.com/files/739199/original/file-20260601-57-w67p1m.jpg?ixlib=rb-4.1.0&rect=0%2C685%2C4383%2C2191&q=45&auto=format&w=1356&h=668&fit=crop",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Eastern Conference Finals Preview",
-      "title_distilled": "Eastern Conference Finals Preview.",
-      "description": "The Calder Cup Playoffs are down to four teams. None of the regular season\u2019s four division champions remain as the Laval Rocket also went home early. Now the Wilkes-Barre/Scranton Penguins and Toronto Marlies both move on to the best-of-seven Eastern Conferen\u2026",
-      "description_distilled": "",
-      "content": "The Calder Cup Playoffs are down to four teams. None of the regular season\u2019s four division champions remain as the Laval Rocket also went home early. Now the Wilkes-Barre/Scranton Penguins and Toronto Marlies both move on to the best-of-seven Eastern Conferen\u2026",
-      "content_distilled": "Calder Cup Playoffs are down to four teams.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Eastern Conference",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/eastern-conference.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Finals Preview",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/finals-preview.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Calder",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-calder.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Cup Playoffs",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/cup-playoffs.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Laval Rocket",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/laval-rocket.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Penguins",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-penguins.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Toronto Marlies",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/toronto-marlies.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Eastern Conferen",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/eastern-conferen.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eastern </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Finals P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Cald</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cup Play</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Laval Ro</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Eastern Conference": "../entities/people/eastern-conference.md",
-          "Finals Preview": "../entities/people/finals-preview.md",
-          "The Calder": "../entities/people/the-calder.md",
-          "Cup Playoffs": "../entities/people/cup-playoffs.md",
-          "Laval Rocket": "../entities/people/laval-rocket.md",
-          "Scranton Penguins": "../entities/people/scranton-penguins.md",
-          "Toronto Marlies": "../entities/people/toronto-marlies.md",
-          "Eastern Conferen": "../entities/people/eastern-conferen.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Flohockey.tv",
-      "publishedAt": "2026-05-27T11:01:01Z",
-      "url": "https://www.flohockey.tv/articles/15949614-eastern-conference-finals-preview?utm_medium=rss",
-      "urlToImage": "https://s.yimg.com/os/en/flosports_articles_736/554dfd290926b7d2a0940b449c1f21b9",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
