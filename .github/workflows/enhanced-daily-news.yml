@@ -22,16 +22,16 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: '3.11'
         cache: 'pip'
     
     - name: Cache pip dependencies
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-enhanced-${{ hashFiles('**/requirements.txt') }}
@@ -40,7 +40,7 @@ jobs:
           ${{ runner.os }}-pip-
     
     - name: Cache Ollama models
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       with:
         path: ~/.ollama
         key: ${{ runner.os }}-ollama-phi3-mini
@@ -115,7 +115,7 @@ jobs:
         fi
         
     - name: Setup Pages
-      uses: actions/configure-pages@v4
+      uses: actions/configure-pages@v6
     
     - name: Upload to GitHub Pages
       uses: actions/upload-pages-artifact@v3
@@ -124,7 +124,7 @@ jobs:
     
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v5
         
     - name: Deployment status
       run: |
