@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T12:00:32.976889",
-  "source_file": "../data/daily/scranton_news_2026-07-07.json",
+  "generated_at": "2026-07-08T11:36:39.653906",
+  "source_file": "../data/daily/scranton_news_2026-07-08.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -700,6 +700,125 @@
     },
     {
       "id": "short_10",
+      "title": "Leffler named Player of the Year, NEPA Softball Stars Headline All-State Teams",
+      "title_distilled": "Leffler named Player of the Year, NEPA Softball Stars Headline All-State Teams.",
+      "description": "(WBRE/WYOU)-The Pennsylvania High School Softball Coaches Association released its All-State teams for the 2026 season. Pine Grove Area\u2019s Callee Leffler was named the state\u2019s Player of the Year after leading the Cardinals to back-to-back state championships. \u2026",
+      "description_distilled": "",
+      "content": "(WBRE/WYOU)-The Pennsylvania High School Softball Coaches Association released its All-State teams for the 2026 season. Pine Grove Area\u2019s Callee Leffler was named the state\u2019s Player of the Year after leading the Cardinals to back-to-back state championships. \u2026",
+      "content_distilled": "-The Pennsylvania High School Softball Coaches Association released its All-State teams for the 2026 season.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Headline All",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/headline-all.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "State Teams",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/state-teams.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "High School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Softball Coaches",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/softball-coaches.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pine Grove",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pine-grove.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Callee Leffler",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/callee-leffler.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Pennsylvania High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/the-pennsylvania-high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "State Teams",
+            "to": "The Pennsylvania",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Headline</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State Te</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Penn</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Softball</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pine Gro</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Headline All": "../entities/people/headline-all.md",
+          "State Teams": "../entities/people/state-teams.md",
+          "The Pennsylvania": "../entities/people/the-pennsylvania.md",
+          "High School": "../entities/people/high-school.md",
+          "Softball Coaches": "../entities/people/softball-coaches.md",
+          "Pine Grove": "../entities/people/pine-grove.md",
+          "Callee Leffler": "../entities/people/callee-leffler.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "The Pennsylvania High School": "../entities/organizations/the-pennsylvania-high-school.md",
+          "WBRE": "../entities/organizations/wbre.md"
+        }
+      },
+      "source": "2822news.com",
+      "publishedAt": "2026-07-06T23:19:13Z",
+      "url": "https://www.2822news.com/news/leffler-named-player-of-the-year-nepa-softball-stars-headline-all-state-teams/",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/3e08a9c1ef28c5765405502d18119661e63e30585f825bf7878534d6d464c0c0/lightyear_networkapi/resizefill_w900_h506;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fb6940eb443b68dcbb99d22255cf11d21",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
       "title": "RailRiders notes: Team ranks among attendance risers in first half",
       "title_distilled": "RailRiders notes: Team ranks among attendance risers in first half.",
       "description": "The fans have been loving the RailRiders in 2026.",
@@ -726,11 +845,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/194590/yankees-top-prospects-scranton-railriders-team-notes-attendance",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/rET2iRfo5FSQTlZizM7HEQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/2b735f2dcf9428ad25df7d2de487c987",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
       "title": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from",
       "title_distilled": "Scandal-mired GOP rep backtracks on advocating for controversial projects he profited from.",
       "description": "Rep. Rob Bresnahan (R-PA) was an outspoken defender of AI data centers \u2014 until he realized it was political poison with voters.According to Axios' Andrew Solender, Bresnahan, who represents a compe...",
@@ -783,11 +902,11 @@
       "url": "https://www.rawstory.com/rob-bresnahan-2677027069/",
       "urlToImage": "https://www.rawstory.com/media-library/rob-bresnahan.jpg?id=61143463&width=1200&height=600&coordinates=0%2C40%2C0%2C40",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers",
       "title_distilled": "How Pennsylvania towns are protecting themselves from the noise, heat and utility costs of massive data centers.",
       "description": "Communities across the state are demanding to know how proposed data centers would affect their electric and water bills, landscapes and quality of life.",
@@ -832,11 +951,11 @@
       "url": "https://theconversation.com/how-pennsylvania-towns-are-protecting-themselves-from-the-noise-heat-and-utility-costs-of-massive-data-centers-282126",
       "urlToImage": "https://images.theconversation.com/files/739199/original/file-20260601-57-w67p1m.jpg?ixlib=rb-4.1.0&rect=0%2C685%2C4383%2C2191&q=45&auto=format&w=1356&h=668&fit=crop",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_13",
+      "id": "short_14",
       "title": "Dem Mayor Seeking To Flip Red Seat Blue Fantasized About Disarming Police, Citizens In Resurfaced Video",
       "title_distilled": "Dem Mayor Seeking To Flip Red Seat Blue Fantasized About Disarming Police, Citizens In Resurfaced Video.",
       "description": "Democratic Scranton Mayor Paige Cognetti said she supported disarming police officers and wanted to emulate Japan\u2019s gun-control laws in a resurfaced video from 2020. Cognetti, who is seeking to unseat Republican Pennsylvania Rep. Rob Bresnahan in the Eighth C\u2026",
@@ -955,77 +1074,6 @@
       "publishedAt": "2026-06-24T00:48:12Z",
       "url": "https://freerepublic.com/focus/f-bloggers/4385158/posts",
       "urlToImage": null,
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Democrat Mayor Paige Cognetti Fantasized About Disarming Police, Citizens In Resurfaced Video",
-      "title_distilled": "Democrat Mayor Paige Cognetti Fantasized About Disarming Police, Citizens In Resurfaced Video.",
-      "description": "A Democrat seeking to unseat the Republican congressman holding a key swing district expressed admiration for Japan\u2019s gun control laws.",
-      "description_distilled": "",
-      "content": "A Democrat seeking to unseat the Republican congressman holding a key swing district expressed admiration for Japan\u2019s gun control laws.",
-      "content_distilled": "Democrat seeking to unseat the Republican congressman holding a key swing district expressed admiration for Japan\u2019s gun control laws.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Democrat Mayor",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/democrat-mayor.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Paige Cognetti",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Fantasized About",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fantasized-about.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Disarming Police",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/disarming-police.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Democrat Mayor",
-            "to": "Paige Cognetti",
-            "type": "HAS_TITLE"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fantasiz</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Disarmin</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Democrat Mayor": "../entities/people/democrat-mayor.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
-          "Fantasized About": "../entities/people/fantasized-about.md",
-          "Disarming Police": "../entities/people/disarming-police.md"
-        }
-      },
-      "source": "The Daily Caller",
-      "publishedAt": "2026-06-23T20:12:13Z",
-      "url": "https://dailycaller.com/2026/06/23/democrat-mayor-paige-cognetti-fantasized-disarming-police-citizens/",
-      "urlToImage": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/06/DCNF-Cognetti-Guns-Japan-Everytown-Featured.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
