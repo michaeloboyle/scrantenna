@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T11:21:54.519774",
-  "source_file": "../data/daily/scranton_news_2026-07-18.json",
+  "generated_at": "2026-07-19T11:24:40.278790",
+  "source_file": "../data/daily/scranton_news_2026-07-19.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1210,24 +1210,31 @@
     },
     {
       "id": "short_14",
-      "title": "Water main break in Scranton is impacting residents",
-      "title_distilled": "Water main break in Scranton is impacting residents.",
-      "description": "People affected by the downtown water main break are dealing with cloudy water",
+      "title": "Firefighters host 30th annual 'Corn and Clam Slam' in Lackawanna County",
+      "title_distilled": "Firefighters host 30th annual 'Corn and Clam Slam' in Lackawanna County.",
+      "description": "The 30th annual \"Corn and Clam Slam\" in Lackawanna County attracted hundreds for a day of food and fun.",
       "description_distilled": "",
-      "content": "People affected by the downtown water main break are dealing with cloudy water",
-      "content_distilled": "People affected by the downtown water main break are dealing with cloudy water.",
+      "content": "The 30th annual \"Corn and Clam Slam\" in Lackawanna County attracted hundreds for a day of food and fun.",
+      "content_distilled": "30th annual \"Corn and Clam Slam\" in Lackawanna County attracted hundreds for a day of food and fun.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
+            "name": "Clam Slam",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/clam-slam.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clam Sla</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1238,12 +1245,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Clam Slam": "../entities/people/clam-slam.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-07-18T01:37:35",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/water-main-break-in-scranton-is-impacting-residents/523-7dcb5057-4ae0-4020-9abd-b37a6829cba3",
+      "publishedAt": "2026-07-19T02:24:30",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/firefighters-host-30th-annual-corn-clam-slam-lackawanna-county/523-90e3ad85-d45c-441d-aa1e-656af3dbe122",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
