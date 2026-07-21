@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T11:57:12.496432",
-  "source_file": "../data/daily/scranton_news_2026-07-20.json",
+  "generated_at": "2026-07-21T11:35:23.613598",
+  "source_file": "../data/daily/scranton_news_2026-07-21.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1086,12 +1086,67 @@
     },
     {
       "id": "short_13",
-      "title": "UPDATE: Repairs complete on broken Scranton water main",
-      "title_distilled": "UPDATE: Repairs complete on broken Scranton water main.",
-      "description": "Water boil advisory is still in place while water service turns back on in downtown Scranton",
+      "title": "Water service returning in downtown Scranton",
+      "title_distilled": "Water service returning in downtown Scranton.",
+      "description": "Water is once again running for residents in downtown Scranton after a water main break left faucets dry throughout the weekend.",
       "description_distilled": "",
-      "content": "Water boil advisory is still in place while water service turns back on in downtown Scranton",
-      "content_distilled": "Water boil advisory is still in place while water service turns back on in downtown Scranton.",
+      "content": "Water is once again running for residents in downtown Scranton after a water main break left faucets dry throughout the weekend.",
+      "content_distilled": "Water is once again running for residents in downtown Scranton after a water main break left faucets dry throughout the weekend.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton Water",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-water.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton Water",
+            "to": "Scranton",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Water": "../entities/people/scranton-water.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-07-20T21:28:03",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/water-service-returning-in-downtown-scranton-lackawanna-county-mulberry-street/523-69a18fd8-490c-4139-82dd-83c479c23201",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Police investigating homicide in Scranton",
+      "title_distilled": "Police investigating homicide in Scranton.",
+      "description": "A 39-year-old man died at a city hospital Friday night, the Lackawanna County coroner says",
+      "description_distilled": "",
+      "content": "A 39-year-old man died at a city hospital Friday night, the Lackawanna County coroner says",
+      "content_distilled": "39-year-old man died at a city hospital Friday night, the Lackawanna County coroner says.",
       "graph": {
         "entities": [
           {
@@ -1102,15 +1157,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Repairs complete on broken Scranton water main Water boil advisory",
-            "type": "EVENT",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/events/repairs-complete-on-broken-scranton-water-main-water-boil-advisory.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Repairs </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "relationships": [
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1122,61 +1183,12 @@
         },
         "entity_files": {
           "Scranton": "../entities/locations/scranton.md",
-          "Repairs complete on broken Scranton water main Water boil advisory": "../entities/events/repairs-complete-on-broken-scranton-water-main-water-boil-advisory.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-07-20T11:07:28",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/water-boil-advisory-issued-scranton-after-main-break-lackawanna-county/523-14c72fd5-8bc0-40d9-a43d-99cc2c776396",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Scranton hosts final FIFA World Cup fan zone",
-      "title_distilled": "Scranton hosts final FIFA World Cup fan zone.",
-      "description": "Plenty of people showed up at the final FIFA World Cup fan zone to watch Spain vs Argentina.",
-      "description_distilled": "",
-      "content": "Plenty of people showed up at the final FIFA World Cup fan zone to watch Spain vs Argentina.",
-      "content_distilled": "Plenty of people showed up at the final FIFA World Cup fan zone to watch Spain vs Argentina.",
-      "graph": {
-        "entities": [
-          {
-            "name": "World Cup",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/world-cup.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "World Cup": "../entities/people/world-cup.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-07-20T02:38:09",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-hosts-final-fifa-world-cup-fan-zone-lackawanna-county/523-6092ad86-14c3-4659-af09-5c73438601ec",
+      "publishedAt": "2026-07-20T18:17:59",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-scranton-police-shooting-homicide-investigation/523-3cca37db-aaa1-4f0b-acb3-b6ae2af42df5",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
