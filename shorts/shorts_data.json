@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T11:40:14.252888",
-  "source_file": "../data/daily/scranton_news_2026-07-28.json",
+  "generated_at": "2026-07-29T11:44:27.208097",
+  "source_file": "../data/daily/scranton_news_2026-07-29.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -679,6 +679,98 @@
     },
     {
       "id": "short_7",
+      "title": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads",
+      "title_distilled": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads.",
+      "description": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
+      "description_distilled": "",
+      "content": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
+      "content_distilled": "race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Pennsylvania Democrat",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-democrat.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Rob Bresnahan",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rob-bresnahan.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Democratic Party",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/democratic-party.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Rob Bresnahan",
+            "to": "Pennsylvania Democrat",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rob Bres</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Pennsylvania Democrat": "../entities/people/pennsylvania-democrat.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Rob Bresnahan": "../entities/people/rob-bresnahan.md",
+          "Democratic Party": "../entities/people/democratic-party.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Fortune",
+      "publishedAt": "2026-07-28T11:31:09Z",
+      "url": "https://fortune.com/2026/07/28/cognetti-bresnahan-pennsylvania-data-centers-ad/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26208806478921-e1785238253858.jpg?resize=1200,600",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
+    },
+    {
+      "id": "short_8",
       "title": "Norwood Financial price target raised by $1 at Stephens, here's why",
       "title_distilled": "Norwood Financial price target raised by $1 at Stephens, here's why.",
       "description": "See the rest of the story here. thefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual inves...",
@@ -723,11 +815,11 @@
       "url": "https://www.thefly.com/NWFL",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Unearthed records reveal Dem mayor sought tax hike to fund DEI role ahead of key House race",
       "title_distilled": "Unearthed records reveal Dem mayor sought tax hike to fund DEI role ahead of key House race.",
       "description": "Scranton's mayor once proposed a 3% property tax increase to fund a DEI coordinator role, a budget her city council ultimately cut without fanfare.",
@@ -764,99 +856,29 @@
       "url": "https://www.foxnews.com/politics/unearthed-records-reveal-dem-mayor-sought-tax-hike-fund-dei-role-key-house-race",
       "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/04/paige-cognetti.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Community provides water for downtown Scranton residents impacted by water main break",
-      "title_distilled": "Community provides water for downtown Scranton residents impacted by water main break.",
-      "description": "A water main break along North Washington Avenue impacted over 700 Scranton residents, leaving many of them in need of outside resources to get clean water",
-      "description_distilled": "",
-      "content": "A water main break along North Washington Avenue impacted over 700 Scranton residents, leaving many of them in need of outside resources to get clean water",
-      "content_distilled": "water main break along North Washington Avenue impacted over 700 Scranton residents, leaving many of them in need of outside resources to get clean water.",
-      "graph": {
-        "entities": [
-          {
-            "name": "North Washington",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-washington.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "along North Washington Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/along-north-washington-avenue.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "along North Washington Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along No</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "North Washington": "../entities/people/north-washington.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "along North Washington Avenue": "../entities/locations/along-north-washington-avenue.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-07-28T03:32:57",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/community-provides-water-downtown-scranton-residents-impacted-water-main-break-lackawanna-county/523-89d5d113-4013-4d01-b3b7-9301bad98a45",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
-      "title": "Boil water advisory impacts nearly 800 water utility customers on 34 Scranton streets",
-      "title_distilled": "Boil water advisory impacts nearly 800 water utility customers on 34 Scranton streets.",
-      "description": "Break comes days after last large break in city's downtown",
+      "title": "Dunmore bringing back $150 Refuse Fee",
+      "title_distilled": "Dunmore bringing back $150 Refuse Fee.",
+      "description": "After years of no garbage fee in Dunmore, the borough council is bringing it back.",
       "description_distilled": "",
-      "content": "Break comes days after last large break in city's downtown",
-      "content_distilled": "Break comes days after last large break in city's downtown.",
+      "content": "After years of no garbage fee in Dunmore, the borough council is bringing it back.",
+      "content_distilled": "After years of no garbage fee in Dunmore, the borough council is bringing it back.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Refuse Fee After",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Boil water advisory",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/boil-water-advisory.md",
+            "file_path": "../entities/people/refuse-fee-after.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Boil wat</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Refuse F</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -867,13 +889,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md",
-          "Boil water advisory": "../entities/events/boil-water-advisory.md"
+          "Refuse Fee After": "../entities/people/refuse-fee-after.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-07-27T17:20:58",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-downtown-water-main-break/523-fa86e853-d90a-4866-a359-008050cedd4b",
+      "publishedAt": "2026-07-28T23:24:56",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/dunmore-bringing-back-150-refuse-fee-lackawanna-county-garbage/523-89f76920-294a-41f0-9741-f4864a91382b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -881,37 +902,24 @@
     },
     {
       "id": "short_11",
-      "title": "Benefit at Marywood University to support retired IHM Sisters",
-      "title_distilled": "Benefit at Marywood University to support retired IHM Sisters.",
-      "description": "The event will highlight their lifelong service and raise funds for the sisters' care.",
+      "title": "Businesses in Scranton rally to support one another while still reeling from effects of water main breaks",
+      "title_distilled": "Businesses in Scranton rally to support one another while still reeling from effects of water main breaks.",
+      "description": "The water main break in downtown Scranton was repaired Tuesday morning, but businesses are still hurting from the effects of two main breaks in less than two weeks.",
       "description_distilled": "",
-      "content": "The event will highlight their lifelong service and raise funds for the sisters' care.",
-      "content_distilled": "event will highlight their lifelong service and raise funds for the sisters' care.",
+      "content": "The water main break in downtown Scranton was repaired Tuesday morning, but businesses are still hurting from the effects of two main breaks in less than two weeks.",
+      "content_distilled": "water main break in downtown Scranton was repaired Tuesday morning, but businesses are still hurting from the effects of two main breaks in less than two weeks.",
       "graph": {
         "entities": [
           {
-            "name": "Marywood University",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/marywood-university.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sisters The",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sisters-the.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Marywood University",
-            "to": "Sisters The",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marywood</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sisters </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -922,13 +930,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Marywood University": "../entities/people/marywood-university.md",
-          "Sisters The": "../entities/people/sisters-the.md"
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-07-27T13:28:55",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/benefit-at-marywood-university-to-support-retired-ihm-sisters-sisters-servants-of-the-immaculate-heart-of-mary-dunmore-our-lady-of-peace/523-504f8956-a124-4e46-a2d2-f9c4a1f80c1f",
+      "publishedAt": "2026-07-28T22:29:51",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/businesses-in-downtown-scranton-rally-to-support-one-another-while-still-reeling-from-effects-of-water-main-breakslackawanna-county/523-9d727834-c604-4da2-acd6-33891a3a3b5b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -936,59 +943,31 @@
     },
     {
       "id": "short_12",
-      "title": "Hundreds without water after second downtown break",
-      "title_distilled": "Hundreds without water after second downtown break.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 On Monday, water flowed down North Washington Avenue as crews worked to fix a break in a 141-year-old water main. In the surrounding area, though, the only water flowing was from two tankers brought in to provide people living there with some relief. For some, getting water meant carrying jugs and [...]",
+      "title": "Service restored after crews repair water main break in downtown Scranton; boil advisory remains in place",
+      "title_distilled": "Service restored after crews repair water main break in downtown Scranton; boil advisory remains in place.",
+      "description": "The break happened days after another large break in the city's downtown.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 On Monday, water flowed down North Washington Avenue as crews worked to fix a break in a 141-year-old water main. In the surrounding area, though, the only water flowing was from two tankers brought in to provide people living there with some relief. For some, getting water meant carrying jugs and [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 On Monday, water flowed down North Washington Avenue as crews worked to fix a break in a 141-year-old water main.",
+      "content": "The break happened days after another large break in the city's downtown.",
+      "content_distilled": "break happened days after another large break in the city's downtown.",
       "graph": {
         "entities": [
           {
-            "name": "North Washington",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-washington.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
+            "name": "boil advisory",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "down North Washington Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/down-north-washington-avenue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/events/boil-advisory.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">down Nor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">boil adv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -999,17 +978,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "North Washington": "../entities/people/north-washington.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "down North Washington Avenue": "../entities/locations/down-north-washington-avenue.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Scranton": "../entities/locations/scranton.md",
+          "boil advisory": "../entities/events/boil-advisory.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-07-28T03:26:07",
-      "url": "https://www.2822news.com/news/hundreds-without-water-after-second-downtown-break/",
+      "source": "Wnep",
+      "publishedAt": "2026-07-28T13:25:35",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-downtown-water-main-break/523-fa86e853-d90a-4866-a359-008050cedd4b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1017,33 +992,26 @@
     },
     {
       "id": "short_13",
-      "title": "FIFA fan zone sees big success with large crowds",
-      "title_distilled": "FIFA fan zone sees big success with large crowds.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton's FIFA fan zone drew one of the largest crowds in Pennsylvania during the World Cup. Visit Pennsylvania says 19,300 people attended the event in the Electric City, slightly more than Pittsburgh's Fan Zone. Reading saw more than 13,500 fans, while Philadelphia's fan fest brought in an estimated 575,000 people. [...]",
+      "title": "City looks for answers as pipes crumble",
+      "title_distilled": "City looks for answers as pipes crumble.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 On Tuesday, all eyes were on Pennsylvania American Water Company (PAWC) after a 141-year-old water main broke twice in under two weeks; crippling businesses and leaving hundreds downtown without water. As another rate hike approaches in just over two weeks, city leaders say they want answers. The water is back [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton's FIFA fan zone drew one of the largest crowds in Pennsylvania during the World Cup. Visit Pennsylvania says 19,300 people attended the event in the Electric City, slightly more than Pittsburgh's Fan Zone. Reading saw more than 13,500 fans, while Philadelphia's fan fest brought in an estimated 575,000 people. [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Scranton's FIFA fan zone drew one of the largest crowds in Pennsylvania during the World Cup.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 On Tuesday, all eyes were on Pennsylvania American Water Company (PAWC) after a 141-year-old water main broke twice in under two weeks; crippling businesses and leaving hundreds downtown without water. As another rate hike approaches in just over two weeks, city leaders say they want answers. The water is back [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 On Tuesday, all eyes were on Pennsylvania American Water Company  after a 141-year-old water main broke twice in under two weeks; crippling businesses and leaving hundreds downtown without water.",
       "graph": {
         "entities": [
           {
-            "name": "World Cup. Visit",
+            "name": "Pennsylvania American",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/world-cup-visit.md",
+            "file_path": "../entities/people/pennsylvania-american.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Electric City",
+            "name": "Water Company",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Fan Zone",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fan-zone.md",
+            "file_path": "../entities/people/water-company.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1068,6 +1036,13 @@
             "resolution_method": "new_entity"
           },
           {
+            "name": "Pennsylvania American Water Company",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/pennsylvania-american-water-company.md",
+            "resolution_method": "new_entity"
+          },
+          {
             "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
@@ -1082,48 +1057,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "World Cup. Visit",
-            "to": "Electric City",
-            "type": "ATTENDED",
-            "verb": "attended"
-          },
-          {
-            "from": "World Cup. Visit",
-            "to": "Fan Zone",
-            "type": "ATTENDED",
-            "verb": "attended"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Electric City",
-            "type": "ATTENDED",
-            "verb": "attended"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Fan Zone",
-            "type": "ATTENDED",
-            "verb": "attended"
-          },
-          {
-            "from": "Fan Zone",
-            "to": "World Cup. Visit",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Fan Zone",
-            "to": "Pennsylvania",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Fan Zone",
-            "to": "World Cup. Visit",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Cu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fan Zone</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ATTENDED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ATTENDED</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ATTENDED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ATTENDED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Water Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1134,19 +1069,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "World Cup. Visit": "../entities/people/world-cup-visit.md",
-          "Electric City": "../entities/people/electric-city.md",
-          "Fan Zone": "../entities/people/fan-zone.md",
+          "Pennsylvania American": "../entities/people/pennsylvania-american.md",
+          "Water Company": "../entities/people/water-company.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Pennsylvania American Water Company": "../entities/organizations/pennsylvania-american-water-company.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-07-28T01:34:14",
-      "url": "https://www.2822news.com/news/local-news/fifa-fan-zone-sees-big-success-with-large-crowds/",
+      "publishedAt": "2026-07-29T03:29:02",
+      "url": "https://www.2822news.com/top-news/city-looks-for-answers-as-pipes-crumble/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1154,33 +1089,33 @@
     },
     {
       "id": "short_14",
-      "title": "Theatre camp fuels kids' passion for the arts",
-      "title_distilled": "Theatre camp fuels kids' passion for the arts.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local summer camp is bringing out the best in kids and teens passionate about the arts. The Scranton Cultural Center's Youth Theatre Program gives them the chance to chase their dreams and make lifelong bonds along the way. 28/22 News Reporter Colby Hughes explained how their hard work creates [...]",
+      "title": "Relief on the way after water main break",
+      "title_distilled": "Relief on the way after water main break.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Mayor Paige Cognetti has just wrapped up a press conference addressing the city's recent water main breaks. She outlined the city's response efforts and discussed potential relief for residents and businesses impacted by the disruptions. A news conference with Mayor Cognetti wrapped up Tuesday afternoon, and 28/22 News Reporter [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local summer camp is bringing out the best in kids and teens passionate about the arts. The Scranton Cultural Center's Youth Theatre Program gives them the chance to chase their dreams and make lifelong bonds along the way. 28/22 News Reporter Colby Hughes explained how their hard work creates [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A local summer camp is bringing out the best in kids and teens passionate about the arts.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Mayor Paige Cognetti has just wrapped up a press conference addressing the city's recent water main breaks. She outlined the city's response efforts and discussed potential relief for residents and businesses impacted by the disruptions. A news conference with Mayor Cognetti wrapped up Tuesday afternoon, and 28/22 News Reporter [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Scranton Mayor Paige Cognetti has just wrapped up a press conference addressing the city's recent water main breaks.",
       "graph": {
         "entities": [
           {
-            "name": "The Scranton",
+            "name": "Scranton Mayor",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
+            "file_path": "../entities/people/scranton-mayor.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Cultural Center",
+            "name": "Paige Cognetti",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/cultural-center.md",
+            "file_path": "../entities/people/paige-cognetti.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Youth Theatre",
+            "name": "Mayor Cognetti",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/youth-theatre.md",
+            "file_path": "../entities/people/mayor-cognetti.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1191,10 +1126,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Colby Hughes",
+            "name": "Cognetti",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/colby-hughes.md",
+            "file_path": "../entities/people/cognetti.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1224,10 +1159,28 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "press conference",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/press-conference.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cultural</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Youth Th</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Mayor Cognetti",
+            "to": "Paige Cognetti",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "Mayor Cognetti",
+            "to": "Cognetti",
+            "type": "HAS_TITLE"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mayor Co</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cognetti</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1238,20 +1191,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Scranton": "../entities/people/the-scranton.md",
-          "Cultural Center": "../entities/people/cultural-center.md",
-          "Youth Theatre": "../entities/people/youth-theatre.md",
+          "Scranton Mayor": "../entities/people/scranton-mayor.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Mayor Cognetti": "../entities/people/mayor-cognetti.md",
           "News Reporter": "../entities/people/news-reporter.md",
-          "Colby Hughes": "../entities/people/colby-hughes.md",
+          "Cognetti": "../entities/people/cognetti.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "press conference": "../entities/events/press-conference.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-07-28T01:24:12",
-      "url": "https://www.2822news.com/news/local-news/theatre-camp-fuels-kids-passion-for-the-arts/",
+      "publishedAt": "2026-07-29T01:41:45",
+      "url": "https://www.2822news.com/news/local-news/relief-on-the-way-after-water-main-break/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
