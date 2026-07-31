@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T11:40:08.739792",
-  "source_file": "../data/daily/scranton_news_2026-07-30.json",
+  "generated_at": "2026-07-31T11:42:31.119288",
+  "source_file": "../data/daily/scranton_news_2026-07-31.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -805,6 +805,105 @@
     },
     {
       "id": "short_8",
+      "title": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre",
+      "title_distilled": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre.",
+      "description": "Local physical therapist Vanessa Lanfrank brings personalized senior living guidance to families across northeastern Pennsylvania SCRANTON, Pa., July 29, 2026 /PRNewswire/ -- Trua Senior Living Locators, a service that helps seniors and their families find li\u2026",
+      "description_distilled": "",
+      "content": "Local physical therapist Vanessa Lanfrank brings personalized senior living guidance to families across northeastern Pennsylvania SCRANTON, Pa., July 29, 2026 /PRNewswire/ -- Trua Senior Living Locators, a service that helps seniors and their families find li\u2026",
+      "content_distilled": "Local physical therapist Vanessa Lanfrank brings personalized senior living guidance to families across northeastern Pennsylvania SCRANTON, Pa.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Trua Senior",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/trua-senior.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Living Locators",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/living-locators.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barre Local",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-local.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Vanessa Lanfrank",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/vanessa-lanfrank.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Trua Senior",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Trua Sen</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Living L</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Lo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vanessa </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Trua Senior": "../entities/people/trua-senior.md",
+          "Living Locators": "../entities/people/living-locators.md",
+          "Barre Local": "../entities/people/barre-local.md",
+          "Vanessa Lanfrank": "../entities/people/vanessa-lanfrank.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "PRNewswire",
+      "publishedAt": "2026-07-29T17:32:00Z",
+      "url": "https://www.prnewswire.com/news-releases/trua-senior-living-locators-launches-in-scranton-and-wilkes-barre-302838096.html",
+      "urlToImage": null,
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
       "title": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads",
       "title_distilled": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads.",
       "description": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
@@ -892,11 +991,11 @@
       "url": "https://fortune.com/2026/07/28/cognetti-bresnahan-pennsylvania-data-centers-ad/",
       "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26208806478921-e1785238253858.jpg?resize=1200,600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Norwood Financial price target raised by $1 at Stephens, here's why",
       "title_distilled": "Norwood Financial price target raised by $1 at Stephens, here's why.",
       "description": "See the rest of the story here. thefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual inves...",
@@ -941,11 +1040,11 @@
       "url": "https://www.thefly.com/NWFL",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "Unearthed records reveal Dem mayor sought tax hike to fund DEI role ahead of key House race",
       "title_distilled": "Unearthed records reveal Dem mayor sought tax hike to fund DEI role ahead of key House race.",
       "description": "Scranton's mayor once proposed a 3% property tax increase to fund a DEI coordinator role, a budget her city council ultimately cut without fanfare.",
@@ -982,121 +1081,36 @@
       "url": "https://www.foxnews.com/politics/unearthed-records-reveal-dem-mayor-sought-tax-hike-fund-dei-role-key-house-race",
       "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/04/paige-cognetti.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Boil advisory lifted in downtown Scranton",
-      "title_distilled": "Boil advisory lifted in downtown Scranton.",
-      "description": "The break happened days after another large break in the city's downtown.",
-      "description_distilled": "",
-      "content": "The break happened days after another large break in the city's downtown.",
-      "content_distilled": "break happened days after another large break in the city's downtown.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton The",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-the.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Boil advisory",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/boil-advisory.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Boil adv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton The": "../entities/people/scranton-the.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Boil advisory": "../entities/events/boil-advisory.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-07-29T23:19:19",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-downtown-water-main-break/523-fa86e853-d90a-4866-a359-008050cedd4b",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_12",
-      "title": "Helping beat hunger one donation at a time",
-      "title_distilled": "Helping beat hunger one donation at a time.",
-      "description": "(WBRE/WYOU)\u2014 In just four weeks, more than $3,600 in cash donations plus more than 1,000 pounds of food were collected with the help of Gerrity's the Fresh Grocer and CEO Weinberg Food Bank. The campaign's goal is to help ensure that no child in Northeastern Pennsylvania goes hungry this summer. \"It's been actually awesome to [...]",
+      "title": "Man dead after car crashes into pond near Mount Pocono",
+      "title_distilled": "Man dead after car crashes into pond near Mount Pocono.",
+      "description": "A man from Dickson City is dead after his car crashed into a pond near Mount Pocono Wednesday afternoon.",
       "description_distilled": "",
-      "content": "(WBRE/WYOU)\u2014 In just four weeks, more than $3,600 in cash donations plus more than 1,000 pounds of food were collected with the help of Gerrity's the Fresh Grocer and CEO Weinberg Food Bank. The campaign's goal is to help ensure that no child in Northeastern Pennsylvania goes hungry this summer. \"It's been actually awesome to [...]",
-      "content_distilled": "\u2014 In just four weeks, more than $3,600 in cash donations plus more than 1,000 pounds of food were collected with the help of Gerrity's the Fresh Grocer and CEO Weinberg Food Bank.",
+      "content": "A man from Dickson City is dead after his car crashed into a pond near Mount Pocono Wednesday afternoon.",
+      "content_distilled": "man from Dickson City is dead after his car crashed into a pond near Mount Pocono Wednesday afternoon.",
       "graph": {
         "entities": [
           {
-            "name": "Fresh Grocer",
+            "name": "Mount Pocono",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/fresh-grocer.md",
+            "file_path": "../entities/people/mount-pocono.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Weinberg Food",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/weinberg-food.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fresh Gr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Weinberg</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mount Po</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1107,17 +1121,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Fresh Grocer": "../entities/people/fresh-grocer.md",
-          "Weinberg Food": "../entities/people/weinberg-food.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Mount Pocono": "../entities/people/mount-pocono.md",
+          "Dickson City": "../entities/people/dickson-city.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-07-30T03:19:25",
-      "url": "https://www.2822news.com/hunger-free-summer/helping-beat-hunger-one-donation-at-a-time/",
+      "source": "Wnep",
+      "publishedAt": "2026-07-30T15:10:00",
+      "url": "https://www.wnep.com/article/news/local/monroe-county/man-dead-after-car-crashes-into-pond-near-mount-pocono-monroe-county-paradise-township/523-361c7baa-0aea-4804-bf30-88922fa585fa",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1125,28 +1135,14 @@
     },
     {
       "id": "short_13",
-      "title": "PA American Water addresses concerns after main breaks",
-      "title_distilled": "PA American Water addresses concerns after main breaks.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 In an exclusive interview, Pennsylvania American Water addressed growing concerns about Scranton's aging infrastructure after back-to-back major water main breaks. Two breaks within two weeks of each other in downtown Scranton left many businesses closed, people searching for clean water, and city administration asking questions about the aging infrastructure in [...]",
+      "title": "Business still feeling lingering effects of two water main breaks",
+      "title_distilled": "Business still feeling lingering effects of two water main breaks.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Businesses are still feeling the lingering effects of two water main breaks within 11 days of each other. Freedlove has been in operation in downtown Scranton for over a decade. The store lost a majority of its inventory after experiencing water damage as a result of the water main breaks [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 In an exclusive interview, Pennsylvania American Water addressed growing concerns about Scranton's aging infrastructure after back-to-back major water main breaks. Two breaks within two weeks of each other in downtown Scranton left many businesses closed, people searching for clean water, and city administration asking questions about the aging infrastructure in [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 In an exclusive interview, Pennsylvania American Water addressed growing concerns about Scranton's aging infrastructure after back-to-back major water main breaks.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Businesses are still feeling the lingering effects of two water main breaks within 11 days of each other. Freedlove has been in operation in downtown Scranton for over a decade. The store lost a majority of its inventory after experiencing water damage as a result of the water main breaks [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Businesses are still feeling the lingering effects of two water main breaks within 11 days of each other.",
       "graph": {
         "entities": [
-          {
-            "name": "American Water",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/american-water.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania American",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-american.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "SCRANTON",
             "type": "LOCATION",
@@ -1155,13 +1151,6 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
             "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
@@ -1184,7 +1173,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">American</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1195,18 +1184,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "American Water": "../entities/people/american-water.md",
-          "Pennsylvania American": "../entities/people/pennsylvania-american.md",
           "SCRANTON": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-07-30T02:23:04",
-      "url": "https://www.2822news.com/news/pa-american-water-addresses-concerns-after-main-breaks/",
+      "publishedAt": "2026-07-30T22:30:04",
+      "url": "https://www.2822news.com/news/business-still-feeling-lingering-effects-of-two-water-main-breaks/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1214,54 +1200,26 @@
     },
     {
       "id": "short_14",
-      "title": "Scranton basketball tournamnet raises $1K to fight cancer",
-      "title_distilled": "Scranton basketball tournamnet raises $1K to fight cancer.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A big donation is going towards the fight against cancer thanks to an annual basketball competition in Scranton. County officials presented a $1,000 check to the American Cancer Society Coaches vs. Cancer of Northeastern Pennsylvania. All proceeds were raised from the Lackawanna County Three-on-Three Basketball Tournament over the weekend. Medals [...]",
+      "title": "Art studio keeps kids inspired over summertime",
+      "title_distilled": "Art studio keeps kids inspired over summertime.",
+      "description": "CLARKS SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A number of programs this summer are getting kids out of the house, learning new skills, and exercising their creativity. Last week, a handful of kids were learning the basics of pottery at the Spin and Sculpt Camp at the Abington Art Studio. The weeklong camp teaches them how [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A big donation is going towards the fight against cancer thanks to an annual basketball competition in Scranton. County officials presented a $1,000 check to the American Cancer Society Coaches vs. Cancer of Northeastern Pennsylvania. All proceeds were raised from the Lackawanna County Three-on-Three Basketball Tournament over the weekend. Medals [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A big donation is going towards the fight against cancer thanks to an annual basketball competition in Scranton.",
+      "content": "CLARKS SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A number of programs this summer are getting kids out of the house, learning new skills, and exercising their creativity. Last week, a handful of kids were learning the basics of pottery at the Spin and Sculpt Camp at the Abington Art Studio. The weeklong camp teaches them how [...]",
+      "content_distilled": "CLARKS SUMMIT, LACKAWANNA COUNTY  \u2014 A number of programs this summer are getting kids out of the house, learning new skills, and exercising their creativity.",
       "graph": {
         "entities": [
           {
-            "name": "American Cancer",
+            "name": "Sculpt Camp",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/american-cancer.md",
+            "file_path": "../entities/people/sculpt-camp.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Society Coaches",
+            "name": "Abington Art Studio",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/society-coaches.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Three Basketball",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/three-basketball.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/people/abington-art-studio.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1286,46 +1244,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Three Basketball Tournament",
+            "name": "Art studio keeps kids inspired over summertime CLARKS SUMMIT",
             "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/events/three-basketball-tournament.md",
+            "file_path": "../entities/events/art-studio-keeps-kids-inspired-over-summertime-clarks-summit.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "American Cancer",
-            "to": "Northeastern Pennsylvania",
+            "from": "Art studio keeps kids inspired over summertime CLARKS SUMMIT",
+            "to": "Sculpt Camp",
             "type": "MEMBER_OF"
-          },
-          {
-            "from": "American Cancer",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">American</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Society </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Three Ba</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sculpt C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Abington</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Art stud</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1336,21 +1269,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "American Cancer": "../entities/people/american-cancer.md",
-          "Society Coaches": "../entities/people/society-coaches.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Three Basketball": "../entities/people/three-basketball.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Sculpt Camp": "../entities/people/sculpt-camp.md",
+          "Abington Art Studio": "../entities/people/abington-art-studio.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md",
-          "Three Basketball Tournament": "../entities/events/three-basketball-tournament.md"
+          "Art studio keeps kids inspired over summertime CLARKS SUMMIT": "../entities/events/art-studio-keeps-kids-inspired-over-summertime-clarks-summit.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-07-30T00:15:04",
-      "url": "https://www.2822news.com/news/local-news/scranton-basketball-tournamnet-raises-1k-to-fight-cancer/",
+      "publishedAt": "2026-07-30T21:56:00",
+      "url": "https://www.2822news.com/news/local-news/art-studio-keeps-kids-inspired-over-summertime/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
