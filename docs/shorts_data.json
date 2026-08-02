@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-01T11:28:20.997358",
-  "source_file": "../data/daily/scranton_news_2026-08-01.json",
-  "total_shorts": 13,
-  "total_duration": 104,
+  "generated_at": "2026-08-02T11:27:16.923298",
+  "source_file": "../data/daily/scranton_news_2026-08-02.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
@@ -989,14 +989,35 @@
     },
     {
       "id": "short_11",
-      "title": "Elm Street Bridge reopens in Scranton, easing more than a year's worth of traffic delays and detours",
-      "title_distilled": "Elm Street Bridge reopens in Scranton, easing more than a year's worth of traffic delays and detours.",
-      "description": "After a year and a half of detours and delays, a highly traveled bridge is back open in Scranton.",
+      "title": "Fourth annual Latino Festival celebrates rich heritage in Scranton's Nay Aug Park",
+      "title_distilled": "Fourth annual Latino Festival celebrates rich heritage in Scranton's Nay Aug Park.",
+      "description": "The Latino Festival brought together families to celebrate and showcase Latino heritage with delicious food, performances, and activities for all ages.",
       "description_distilled": "",
-      "content": "After a year and a half of detours and delays, a highly traveled bridge is back open in Scranton.",
-      "content_distilled": "After a year and a half of detours and delays, a highly traveled bridge is back open in Scranton.",
+      "content": "The Latino Festival brought together families to celebrate and showcase Latino heritage with delicious food, performances, and activities for all ages.",
+      "content_distilled": "Latino Festival brought together families to celebrate and showcase Latino heritage with delicious food, performances, and activities for all ages.",
       "graph": {
         "entities": [
+          {
+            "name": "Latino Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/latino-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nay Aug Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nay-aug-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Latino",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-latino.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -1005,32 +1026,40 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Elm Street",
+            "name": "Aug Park",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/elm-street.md",
+            "file_path": "../entities/locations/aug-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fourth annual Latino Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/fourth-annual-latino-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nay Aug Park The Latino Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/nay-aug-park-the-latino-festival.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton",
-            "to": "Elm Street",
-            "type": "TRAVELED_TO",
-            "verb": "traveled"
-          },
-          {
-            "from": "Elm Street",
+            "from": "Latino Festival",
             "to": "Scranton",
             "type": "LOCATED_IN"
           },
           {
-            "from": "Elm Street",
+            "from": "Aug Park",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elm Stre</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">TRAVELED_TO</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Latino F</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lati</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Aug Park</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fourth a</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1041,13 +1070,18 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Latino Festival": "../entities/people/latino-festival.md",
+          "Nay Aug Park": "../entities/people/nay-aug-park.md",
+          "The Latino": "../entities/people/the-latino.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Elm Street": "../entities/locations/elm-street.md"
+          "Aug Park": "../entities/locations/aug-park.md",
+          "Fourth annual Latino Festival": "../entities/events/fourth-annual-latino-festival.md",
+          "Nay Aug Park The Latino Festival": "../entities/events/nay-aug-park-the-latino-festival.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-07-31T20:00:20",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/elm-street-bridge-reopens-in-scranton-easing-more-than-a-years-worth-of-traffic-delays-and-detours-west-side-lackawanna-county/523-1eff18ae-0a7b-4e8e-b133-d4a881bc8dd0",
+      "publishedAt": "2026-08-02T01:51:15",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fourth-annual-latino-festival-celebrates-rich-heritage-scrantons-nay-aug-park-lackawanna-county/523-80cccd0e-73d4-4618-a52c-8e4ae9f3d69d",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1055,14 +1089,137 @@
     },
     {
       "id": "short_12",
-      "title": "$9.5 Million bridge re-opened for business on major road",
-      "title_distilled": "$9.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Elm Street Bridge, connecting the west and south parts of Scranton, is open after being closed since early 2025. The $9.5 million bridge is expected to...",
+      "title": "NEPA Philharmonic hosts sensory-friendly concert at Misericordia University",
+      "title_distilled": "NEPA Philharmonic hosts sensory-friendly concert at Misericordia University.",
+      "description": "Held at the university's Lemmond Theater, the concert was presented by Autism Awareness NEPA and featured sensory headphones and haptic vests.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Elm Street Bridge, connecting the west and south parts of Scranton, is open after being closed since early 2025. The $9.5 million bridge is expected to...",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The Elm Street Bridge, connecting the west and south parts of Scranton, is open after being closed since early 2025.",
+      "content": "Held at the university's Lemmond Theater, the concert was presented by Autism Awareness NEPA and featured sensory headphones and haptic vests.",
+      "content_distilled": "Held at the university's Lemmond Theater, the concert was presented by Autism Awareness NEPA and featured sensory headphones and haptic vests.",
       "graph": {
         "entities": [
+          {
+            "name": "Misericordia University",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/misericordia-university.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lemmond Theater",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lemmond-theater.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Autism Awareness",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/autism-awareness.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Miserico</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lemmond </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Autism A</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Misericordia University": "../entities/people/misericordia-university.md",
+          "Lemmond Theater": "../entities/people/lemmond-theater.md",
+          "Autism Awareness": "../entities/people/autism-awareness.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-08-02T00:56:08",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/nepa-philharmonic-hosts-sensory-friendly-concert-misericordia-university-luzerne-county/523-ca0dc63e-e947-4322-9725-5f8866314cf4",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Wilkes-Barre's NEPA Day 2026 brings community together for an evening of charity and fun",
+      "title_distilled": "Wilkes-Barre's NEPA Day 2026 brings community together for an evening of charity and fun.",
+      "description": "Wilkes-Barre's NEPA Day drew crowds for its 5k run and community events, raising funds for local organizations.",
+      "description_distilled": "",
+      "content": "Wilkes-Barre's NEPA Day drew crowds for its 5k run and community events, raising funds for local organizations.",
+      "content_distilled": "Wilkes-Barre's NEPA Day drew crowds for its 5k run and community events, raising funds for local organizations.",
+      "graph": {
+        "entities": [],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.0,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {}
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-08-01T23:32:31",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/wilkes-barres-nepa-day-2026-brings-community-together-evening-charity-fun-luzerne-county/523-ab238d73-f81d-4b7d-8111-0bf324ec5121",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Celebrating Latin American cultures in Electric City",
+      "title_distilled": "Celebrating Latin American cultures in Electric City.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Cultures from across Latin America are being celebrated this weekend in Scranton. The NEPA Latino Fiesta brought the community together at Nay Aug Park. The cultural celebration is filled with colorful performances of music and dance and authentic traditional food. Attendees got a taste of the rich cultures and traditions [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Cultures from across Latin America are being celebrated this weekend in Scranton. The NEPA Latino Fiesta brought the community together at Nay Aug Park. The cultural celebration is filled with colorful performances of music and dance and authentic traditional food. Attendees got a taste of the rich cultures and traditions [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Cultures from across Latin America are being celebrated this weekend in Scranton.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Celebrating Latin",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/celebrating-latin.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Electric City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/electric-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Latin America",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/latin-america.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Latino Fiesta",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/latino-fiesta.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nay Aug Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nay-aug-park.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "SCRANTON",
             "type": "LOCATION",
@@ -1075,6 +1232,13 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Aug Park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/aug-park.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1092,8 +1256,14 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Latin America",
+            "to": "SCRANTON",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Celebrat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Latin Am</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Latino F</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nay Aug </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1104,18 +1274,24 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Celebrating Latin": "../entities/people/celebrating-latin.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "Latin America": "../entities/people/latin-america.md",
+          "Latino Fiesta": "../entities/people/latino-fiesta.md",
+          "Nay Aug Park": "../entities/people/nay-aug-park.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Aug Park": "../entities/locations/aug-park.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-07-31T21:48:10",
-      "url": "https://www.2822news.com/news/9-5-million-bridge-re-opened-for-business-on-major-road/",
+      "publishedAt": "2026-08-01T22:45:59",
+      "url": "https://www.2822news.com/news/local-news/celebrating-latin-american-cultures-in-electric-city/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
