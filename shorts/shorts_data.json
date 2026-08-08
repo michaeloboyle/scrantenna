@@ -1,12 +1,166 @@
 {
-  "generated_at": "2026-08-07T11:16:52.493942",
-  "source_file": "../data/daily/scranton_news_2026-08-07.json",
-  "total_shorts": 12,
-  "total_duration": 96,
+  "generated_at": "2026-08-08T11:08:06.946108",
+  "source_file": "../data/daily/scranton_news_2026-08-08.json",
+  "total_shorts": 15,
+  "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money",
+      "title_distilled": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money.",
+      "description": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026",
+      "description_distilled": "",
+      "content": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026",
+      "content_distilled": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Candidate Who Promised",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/candidate-who-promised.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Not To Take",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/not-to-take.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Corporate Money",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/corporate-money.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Allegedly Took",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/allegedly-took.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pedro Rodriguez",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pedro-rodriguez.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Daily",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-daily.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Candidate Who Promised",
+            "to": "Paige Cognetti",
+            "type": "RECORDS",
+            "verb": "records"
+          },
+          {
+            "from": "Candidate Who Promised",
+            "to": "Scranton",
+            "type": "RECORDS",
+            "verb": "records"
+          },
+          {
+            "from": "Candidate Who Promised",
+            "to": "Pennsylvania",
+            "type": "RECORDS",
+            "verb": "records"
+          },
+          {
+            "from": "Not To Take",
+            "to": "Paige Cognetti",
+            "type": "RECORDS",
+            "verb": "records"
+          },
+          {
+            "from": "Not To Take",
+            "to": "Scranton",
+            "type": "RECORDS",
+            "verb": "records"
+          },
+          {
+            "from": "Not To Take",
+            "to": "Pennsylvania",
+            "type": "RECORDS",
+            "verb": "records"
+          },
+          {
+            "from": "Corporate Money",
+            "to": "Paige Cognetti",
+            "type": "RECORDS",
+            "verb": "records"
+          },
+          {
+            "from": "Corporate Money",
+            "to": "Scranton",
+            "type": "RECORDS",
+            "verb": "records"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Candidat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Not To T</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Corporat</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Allegedl</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pedro Ro</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Dail</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Candidate Who Promised": "../entities/people/candidate-who-promised.md",
+          "Not To Take": "../entities/people/not-to-take.md",
+          "Corporate Money": "../entities/people/corporate-money.md",
+          "Allegedly Took": "../entities/people/allegedly-took.md",
+          "Pedro Rodriguez": "../entities/people/pedro-rodriguez.md",
+          "The Daily": "../entities/people/the-daily.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Biztoc.com",
+      "publishedAt": "2026-08-06T15:08:56Z",
+      "url": "https://biztoc.com/x/31f004b3b962cbe2",
+      "urlToImage": "https://biztoc.com/cdn/31f004b3b962cbe2_s.webp",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "How Democrats learned to embrace Native American land acknowledgments",
       "title_distilled": "How Democrats learned to embrace Native American land acknowledgments.",
       "description": "The News Halfway through an academic discussion back in 2020, Paige Cognetti offered up a candid observation about US history. Cognetti \u2014 the mayor of Scranton, Pennsylvania \u2014 recalled university professor Adam Pratt\u2019s opening statement for the \u201cHumanities in\u2026",
@@ -97,11 +251,11 @@
       "url": "https://biztoc.com/x/ecb9d261c3cf70a1",
       "urlToImage": "https://biztoc.com/cdn/ecb9d261c3cf70a1_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "BAZOOKA TEAMSTERS RATIFY STRONG CONTRACT",
       "title_distilled": "BAZOOKA TEAMSTERS RATIFY STRONG CONTRACT.",
       "description": "Pennsylvania Workers Secure Better Wages and Benefits SCRANTON, Pa., July 7, 2026 /PRNewswire/ -- Over 60 workers at Bazooka's Ring Pop facility in Moosic, Pa., represented by Teamsters Local 229, have ratified a strong new contract. The three-year agreement \u2026",
@@ -192,11 +346,11 @@
       "url": "https://www.prnewswire.com/news-releases/bazooka-teamsters-ratify-strong-contract-302819810.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS685095/Teamsters-Logo-v1.jpg?id=OA2753875&p=facebook",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Scranton sweeps 2026 Riverfront High School Elite Tournament",
       "title_distilled": "Scranton sweeps 2026 Riverfront High School Elite Tournament.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Riverfront Sports hosted the 2026 Riverfront High School Elite Tournament, where teams from across NEPA compete in boys and girls brackets for the right to become champions. The girls\u2019 bracket had 10 teams, while the b\u2026",
@@ -318,11 +472,11 @@
       "url": "https://www.2822news.com/news/scranton-sweeps-2026-riverfront-high-school-elite-tournament/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/c92499eccea5ca78a4279d5f547cfcfe6d490f0cf7c550f518cabdc8194b33f3/lightyear_networkapi/resizefill_w900_h506;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fad8751e927dc06a2369ed281a5028e1e",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Paupack football team will be well-represented at 2026 Dream Game",
       "title_distilled": "Paupack football team will be well-represented at 2026 Dream Game.",
       "description": "Izael Rodriguez, Logan Caruso, Tyler Gallo, Mason Gonzalez and Jamie Stiner will represent Paupack at the 92nd Annual Scranton Lions Club Dream Game.",
@@ -431,11 +585,11 @@
       "url": "https://www.tricountyindependent.com/story/sports/high-school/football/2026/07/16/lackawanna-football-conference-2026-dream-game-wallenpaupack-area/90937614007/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/0f671fa9edb95d9f91d7984cda23a31fddbddb69af59a040f87beb7f061a731e/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftri-county-independent%2Fc711010a9fd629c0e9c9b410a577db2d",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Reworld\u00ae and Goodwill Industries of NEPA Announce Free Electronic Waste Recycling Program for Northeastern Pennsylvania",
       "title_distilled": "Reworld\u00ae and Goodwill Industries of NEPA Announce Free Electronic Waste Recycling Program for Northeastern Pennsylvania.",
       "description": "SCRANTON, Pa., July 16, 2026 /PRNewswire/ -- Reworld\u00ae, a leader in sustainable waste solutions, proudly announces the expansion of access to free electronic recycling locations across Pennsylvania through its new partnership with Goodwill Industries of Northe\u2026",
@@ -542,125 +696,6 @@
       "publishedAt": "2026-07-16T18:33:00Z",
       "url": "https://www.prnewswire.com/news-releases/reworld-and-goodwill-industries-of-nepa-announce-free-electronic-waste-recycling-program-for-northeastern-pennsylvania-302827904.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1884470/Reworld_x_Goodwill_Industries_NEPA_E_Waste_Recycling_Program_Scranton_PA.jpg?id=OA2767996&p=facebook",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
-    },
-    {
-      "id": "short_5",
-      "title": "Leffler named Player of the Year, NEPA Softball Stars Headline All-State Teams",
-      "title_distilled": "Leffler named Player of the Year, NEPA Softball Stars Headline All-State Teams.",
-      "description": "(WBRE/WYOU)-The Pennsylvania High School Softball Coaches Association released its All-State teams for the 2026 season. Pine Grove Area\u2019s Callee Leffler was named the state\u2019s Player of the Year after leading the Cardinals to back-to-back state championships. \u2026",
-      "description_distilled": "",
-      "content": "(WBRE/WYOU)-The Pennsylvania High School Softball Coaches Association released its All-State teams for the 2026 season. Pine Grove Area\u2019s Callee Leffler was named the state\u2019s Player of the Year after leading the Cardinals to back-to-back state championships. \u2026",
-      "content_distilled": "-The Pennsylvania High School Softball Coaches Association released its All-State teams for the 2026 season.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Headline All",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/headline-all.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "State Teams",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/state-teams.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "High School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Softball Coaches",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/softball-coaches.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pine Grove",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pine-grove.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Callee Leffler",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/callee-leffler.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Pennsylvania High School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-pennsylvania-high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "State Teams",
-            "to": "The Pennsylvania",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Headline</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State Te</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Penn</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Softball</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pine Gro</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Headline All": "../entities/people/headline-all.md",
-          "State Teams": "../entities/people/state-teams.md",
-          "The Pennsylvania": "../entities/people/the-pennsylvania.md",
-          "High School": "../entities/people/high-school.md",
-          "Softball Coaches": "../entities/people/softball-coaches.md",
-          "Pine Grove": "../entities/people/pine-grove.md",
-          "Callee Leffler": "../entities/people/callee-leffler.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "The Pennsylvania High School": "../entities/organizations/the-pennsylvania-high-school.md",
-          "WBRE": "../entities/organizations/wbre.md"
-        }
-      },
-      "source": "2822news.com",
-      "publishedAt": "2026-07-06T23:19:13Z",
-      "url": "https://www.2822news.com/news/leffler-named-player-of-the-year-nepa-softball-stars-headline-all-state-teams/",
-      "urlToImage": "https://s.yimg.com/lo/mysterio/api/3e08a9c1ef28c5765405502d18119661e63e30585f825bf7878534d6d464c0c0/lightyear_networkapi/resizefill_w900_h506;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fb6940eb443b68dcbb99d22255cf11d21",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
       "animation_delay": 0.5
@@ -1019,19 +1054,186 @@
     },
     {
       "id": "short_11",
-      "title": "Grief camp helps kids process loss",
-      "title_distilled": "Grief camp helps kids process loss.",
-      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Grief touches everyone at one point or another, but for young kids, it can be especially hard to process. That's why a unique summer camp is helping children navigate the loss of a loved one. 15-year-old Lucas Powell faced something unimaginable as a young kid: losing his father. That's when [...]",
+      "title": "The 21st Annual Scranton Jazz Festival takes over downtown Scranton",
+      "title_distilled": "21st Annual Scranton Jazz Festival takes over downtown Scranton.",
+      "description": "Musicians from across the area showcase their talents at opening night.",
       "description_distilled": "",
-      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Grief touches everyone at one point or another, but for young kids, it can be especially hard to process. That's why a unique summer camp is helping children navigate the loss of a loved one. 15-year-old Lucas Powell faced something unimaginable as a young kid: losing his father. That's when [...]",
-      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 Grief touches everyone at one point or another, but for young kids, it can be especially hard to process.",
+      "content": "Musicians from across the area showcase their talents at opening night.",
+      "content_distilled": "Musicians from across the area showcase their talents at opening night.",
       "graph": {
         "entities": [
           {
-            "name": "Lucas Powell",
+            "name": "Annual Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/lucas-powell.md",
+            "file_path": "../entities/people/annual-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jazz Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jazz-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Musicians",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-musicians.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Annual Scranton Jazz Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/annual-scranton-jazz-festival.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jazz Fes</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual S</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Annual Scranton": "../entities/people/annual-scranton.md",
+          "Jazz Festival": "../entities/people/jazz-festival.md",
+          "Scranton Musicians": "../entities/people/scranton-musicians.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Annual Scranton Jazz Festival": "../entities/events/annual-scranton-jazz-festival.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-08-08T03:12:22",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/the-21st-annual-scranton-jazz-festival-takes-over-downtown-scranton-lackawanna-county/523-0dd967d0-091d-490b-a2a3-94810d3ce08c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Jazz Fest set to dazzle downtown Scranton",
+      "title_distilled": "Jazz Fest set to dazzle downtown Scranton.",
+      "description": "Jazz Fest is lighting up downtown Scranton, celebrating 100 years of jazz icons Miles Davis and John Coltrane.",
+      "description_distilled": "",
+      "content": "Jazz Fest is lighting up downtown Scranton, celebrating 100 years of jazz icons Miles Davis and John Coltrane.",
+      "content_distilled": "Jazz Fest is lighting up downtown Scranton, celebrating 100 years of jazz icons Miles Davis and John Coltrane.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Jazz Fest",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jazz-fest.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Jazz",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-jazz.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Miles Davis",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/miles-davis.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "John Coltrane",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/john-coltrane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jazz Fes</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Miles Da</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">John Col</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Jazz Fest": "../entities/people/jazz-fest.md",
+          "Scranton Jazz": "../entities/people/scranton-jazz.md",
+          "Miles Davis": "../entities/people/miles-davis.md",
+          "John Coltrane": "../entities/people/john-coltrane.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-08-07T21:26:21",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/jazz-fest-set-to-dazzle-downtown-scranton-lackawanna-county-bands-live-music/523-79e81dc1-5305-4a69-8ad8-2b475ed74821",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Joey Chestnut visits SWB Railriders",
+      "title_distilled": "Joey Chestnut visits SWB Railriders.",
+      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The king of competitive eating brought his appetite to PNC Field Friday night. Competitive eating legend Joey Chestnut stopped by Friday's Scranton/Wilkes-Barre Railriders game, throwing out the ceremonial first pitch before taking on the Railriders pierogi challenge. Chestnut set a new field record in the eating contest at PNC Field, [...]",
+      "description_distilled": "",
+      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The king of competitive eating brought his appetite to PNC Field Friday night. Competitive eating legend Joey Chestnut stopped by Friday's Scranton/Wilkes-Barre Railriders game, throwing out the ceremonial first pitch before taking on the Railriders pierogi challenge. Chestnut set a new field record in the eating contest at PNC Field, [...]",
+      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 The king of competitive eating brought his appetite to PNC Field Friday night.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Joey Chestnut",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joey-chestnut.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Field Friday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/field-friday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barre Railriders",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-railriders.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1054,10 +1256,33 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Barre Railriders game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/barre-railriders-game.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lucas Po</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joey Che</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Field Fr</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Ra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1068,18 +1293,124 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lucas Powell": "../entities/people/lucas-powell.md",
+          "Joey Chestnut": "../entities/people/joey-chestnut.md",
+          "Field Friday": "../entities/people/field-friday.md",
+          "Barre Railriders": "../entities/people/barre-railriders.md",
+          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "Barre Railriders game": "../entities/events/barre-railriders-game.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-08-06T21:32:15",
-      "url": "https://www.2822news.com/news/local-news/grief-camp-helps-kids-process-loss/",
+      "publishedAt": "2026-08-08T03:17:53",
+      "url": "https://www.2822news.com/news/joey-chestnut-visits-swb-railriders/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Three days of brass, bass, baritones",
+      "title_distilled": "Three days of brass, bass, baritones.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 It's another year of bass, brass and baritones. The 21st annual Scranton Jazz Festival started tonight in downtown Scranton. They may call it the electric city, but for three days, it's transformed into the city of jazz. \"Very happy with the success of the festival over the years, it just gets [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 It's another year of bass, brass and baritones. The 21st annual Scranton Jazz Festival started tonight in downtown Scranton. They may call it the electric city, but for three days, it's transformed into the city of jazz. \"Very happy with the success of the festival over the years, it just gets [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 It's another year of bass, brass and baritones.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton Jazz",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-jazz.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "annual Scranton Jazz Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/annual-scranton-jazz-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Very happy with the success of the festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/very-happy-with-the-success-of-the-festival.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton Jazz",
+            "to": "SCRANTON",
+            "type": "STARTED",
+            "verb": "started"
+          },
+          {
+            "from": "SCRANTON",
+            "to": "annual Scranton Jazz Festival",
+            "type": "STARTED",
+            "verb": "started"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">annual S</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARTED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARTED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Jazz": "../entities/people/scranton-jazz.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "annual Scranton Jazz Festival": "../entities/events/annual-scranton-jazz-festival.md",
+          "Very happy with the success of the festival": "../entities/events/very-happy-with-the-success-of-the-festival.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-08-08T03:16:37",
+      "url": "https://www.2822news.com/news/three-days-of-brass-bass-and-baritones/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
