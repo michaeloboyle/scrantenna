@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T11:08:53.548289",
-  "source_file": "../data/daily/scranton_news_2026-08-09.json",
+  "generated_at": "2026-08-10T11:24:29.956089",
+  "source_file": "../data/daily/scranton_news_2026-08-10.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -959,38 +959,69 @@
     },
     {
       "id": "short_10",
-      "title": "Free laundry day in Archbald eases strain for local families amid rising costs",
-      "title_distilled": "Free laundry day in Archbald eases strain for local families amid rising costs.",
-      "description": "The free laundry day was made possible through a partnership with Northeast PA AHEC, Marywood University, and United Neighborhood Centers of NEPA",
+      "title": "'Bite Nite for Sonny' returns to Dunmore to honor local teen",
+      "title_distilled": "'Bite Nite for Sonny' returns to Dunmore to honor local teen.",
+      "description": "The third annual \"Bite Nite for Sonny\" in Dunmore raises funds in memory of Sonny Crotti and supports classmate Reagan Kearney in her fight against cancer.",
       "description_distilled": "",
-      "content": "The free laundry day was made possible through a partnership with Northeast PA AHEC, Marywood University, and United Neighborhood Centers of NEPA",
-      "content_distilled": "free laundry day was made possible through a partnership with Northeast PA AHEC, Marywood University, and United Neighborhood Centers of NEPA.",
+      "content": "The third annual \"Bite Nite for Sonny\" in Dunmore raises funds in memory of Sonny Crotti and supports classmate Reagan Kearney in her fight against cancer.",
+      "content_distilled": "third annual \"Bite Nite for Sonny\" in Dunmore raises funds in memory of Sonny Crotti and supports classmate Reagan Kearney in her fight against cancer.",
       "graph": {
         "entities": [
           {
-            "name": "Marywood University",
-            "type": "PERSON",
+            "name": "Bite Nite for Sonny",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/marywood-university.md",
+            "file_path": "../entities/works/movies/bite-nite-for-sonny.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "United Neighborhood",
+            "name": "Bite Nite",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/united-neighborhood.md",
+            "file_path": "../entities/people/bite-nite.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
+            "name": "Sonny Crotti",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/people/sonny-crotti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Reagan Kearney",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/reagan-kearney.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marywood</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">United N</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Bite Nite for Sonny",
+            "to": "Reagan Kearney",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Bite Nite",
+            "to": "Reagan Kearney",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Sonny Crotti",
+            "to": "Reagan Kearney",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Bite Nite",
+            "to": "Sonny Crotti",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bite Nit</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bite Nit</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sonny Cr</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Reagan K</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1001,14 +1032,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Marywood University": "../entities/people/marywood-university.md",
-          "United Neighborhood": "../entities/people/united-neighborhood.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Bite Nite for Sonny": "../entities/works/movies/bite-nite-for-sonny.md",
+          "Bite Nite": "../entities/people/bite-nite.md",
+          "Sonny Crotti": "../entities/people/sonny-crotti.md",
+          "Reagan Kearney": "../entities/people/reagan-kearney.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-09T03:37:14",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/free-laundry-day-archbald-eases-strain-local-families-amid-rising-costs-lackawanna-county/523-a7591114-6c01-4ab4-94c4-3ed36809a453",
+      "publishedAt": "2026-08-10T10:52:59",
+      "url": "https://www.wnep.com/article/entertainment/events/bite-nite-for-sonny-returns-to-dunmore-to-honor-local-teen/523-eeca267d-88d8-42b8-93ad-44c9c2d59eb1",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -1016,58 +1048,58 @@
     },
     {
       "id": "short_11",
-      "title": "A Late Autism Diagnosis Inspires Father to Spread Awareness",
-      "title_distilled": "Late Autism Diagnosis Inspires Father to Spread Awareness.",
-      "description": "For one Northeastern Pennsylvania father, an autism diagnosis changed the way he understood both his son and himself. Now, he's using softball to help others.",
+      "title": "Scranton hosts 5th annual African Heritage Festival",
+      "title_distilled": "Scranton hosts 5th annual African Heritage Festival.",
+      "description": "The African Heritage Festival in Lackawanna County celebrated diversity and featured an African traditional attire competition and other special performances.",
       "description_distilled": "",
-      "content": "For one Northeastern Pennsylvania father, an autism diagnosis changed the way he understood both his son and himself. Now, he's using softball to help others.",
-      "content_distilled": "For one Northeastern Pennsylvania father, an autism diagnosis changed the way he understood both his son and himself.",
+      "content": "The African Heritage Festival in Lackawanna County celebrated diversity and featured an African traditional attire competition and other special performances.",
+      "content_distilled": "African Heritage Festival in Lackawanna County celebrated diversity and featured an African traditional attire competition and other special performances.",
       "graph": {
         "entities": [
           {
-            "name": "Late Autism",
+            "name": "African Heritage",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/late-autism.md",
+            "file_path": "../entities/people/african-heritage.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Diagnosis Inspires",
+            "name": "Heritage Festival",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/diagnosis-inspires.md",
+            "file_path": "../entities/people/heritage-festival.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Spread Awareness",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/spread-awareness.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "annual African Heritage Festival The African Heritage Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/annual-african-heritage-festival-the-african-heritage-festival.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Late Autism",
-            "to": "Northeastern Pennsylvania",
-            "type": "OCCURS_DURING"
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Late Aut</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Diagnosi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Spread A</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">African </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Heritage</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">annual A</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1078,16 +1110,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Late Autism": "../entities/people/late-autism.md",
-          "Diagnosis Inspires": "../entities/people/diagnosis-inspires.md",
-          "Spread Awareness": "../entities/people/spread-awareness.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "African Heritage": "../entities/people/african-heritage.md",
+          "Heritage Festival": "../entities/people/heritage-festival.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "annual African Heritage Festival The African Heritage Festival": "../entities/events/annual-african-heritage-festival-the-african-heritage-festival.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-08T23:48:41",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/late-autism-diagnosis-inspires-father-spread-awareness-lackawanna-county/523-ce25f10a-e380-4613-b229-89b102de7e17",
+      "publishedAt": "2026-08-10T02:49:17",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/african-heritage-festival-celebrates-diversity-scranton-with-food-art-traditional-performances-lackawanna-county/523-619568c2-043c-45e9-8795-f4c1848efa97",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1095,26 +1127,26 @@
     },
     {
       "id": "short_12",
-      "title": "Native American culture celebrated at the Rhythms of the Land event in Scranton",
-      "title_distilled": "Native American culture celebrated at the Rhythms of the Land event in Scranton.",
-      "description": "Scranton's \"Rhythms of the Land\" celebration showcased Native American culture through music and dance while looking to pass down traditions.",
+      "title": "'Cuts for Kittens' raises funds for vulnerable rescue kittens in Scranton",
+      "title_distilled": "'Cuts for Kittens' raises funds for vulnerable rescue kittens in Scranton.",
+      "description": "A Scranton barber shop supports Barbuti Kitten Academy's one-year anniversary by donating proceeds from haircuts and beard trims to care for rescue kittens.",
       "description_distilled": "",
-      "content": "Scranton's \"Rhythms of the Land\" celebration showcased Native American culture through music and dance while looking to pass down traditions.",
-      "content_distilled": "Scranton's \"Rhythms of the Land\" celebration showcased Native American culture through music and dance while looking to pass down traditions.",
+      "content": "A Scranton barber shop supports Barbuti Kitten Academy's one-year anniversary by donating proceeds from haircuts and beard trims to care for rescue kittens.",
+      "content_distilled": "Scranton barber shop supports Barbuti Kitten Academy's one-year anniversary by donating proceeds from haircuts and beard trims to care for rescue kittens.",
       "graph": {
         "entities": [
           {
-            "name": "Native American",
-            "type": "PERSON",
+            "name": "Cuts for Kittens",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/native-american.md",
+            "file_path": "../entities/works/movies/cuts-for-kittens.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Scranton",
+            "name": "Barbuti Kitten",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-scranton.md",
+            "file_path": "../entities/people/barbuti-kitten.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1127,17 +1159,24 @@
         ],
         "relationships": [
           {
-            "from": "Native American",
-            "to": "Scranton Scranton",
-            "type": "MEMBER_OF"
+            "from": "Cuts for Kittens",
+            "to": "Barbuti Kitten",
+            "type": "SUPPORTS",
+            "verb": "supports"
           },
           {
-            "from": "Native American",
+            "from": "Scranton",
+            "to": "Barbuti Kitten",
+            "type": "SUPPORTS",
+            "verb": "supports"
+          },
+          {
+            "from": "Cuts for Kittens",
             "to": "Scranton",
             "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Native A</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cuts for</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barbuti </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1148,14 +1187,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Native American": "../entities/people/native-american.md",
-          "Scranton Scranton": "../entities/people/scranton-scranton.md",
+          "Cuts for Kittens": "../entities/works/movies/cuts-for-kittens.md",
+          "Barbuti Kitten": "../entities/people/barbuti-kitten.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-08T23:10:36",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/native-american-culture-celebrated-rhythms-of-the-land-event-scranton-lackawanna-county/523-8c5a1dc7-1a07-4478-974c-783c137361c2",
+      "publishedAt": "2026-08-10T02:39:44",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fundraiser-cuts-kittens-trims-vulnerable-rescues-scranton-lackawanna-county/523-2c09228a-c3d2-43ba-9213-f9e53c98c2ac",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1163,90 +1202,26 @@
     },
     {
       "id": "short_13",
-      "title": "Young entrepreneurs showcase skills at 'Kidpreneur' event in Clarks Summit",
-      "title_distilled": "Young entrepreneurs showcase skills at 'Kidpreneur' event in Clarks Summit.",
-      "description": "Organizers say the idea for the 'Kidpreneur' event came after their own kids found themselves bored after school ended for the summer.",
+      "title": "Folks flock to the final day of the Lebanese American Food Festival",
+      "title_distilled": "Folks flock to the final day of the Lebanese American Food Festival.",
+      "description": "The 25th annual Lebanese American Food Festival in Scranton celebrated culture and community while raising funds to support the parish.",
       "description_distilled": "",
-      "content": "Organizers say the idea for the 'Kidpreneur' event came after their own kids found themselves bored after school ended for the summer.",
-      "content_distilled": "Organizers say the idea for the 'Kidpreneur' event came after their own kids found themselves bored after school ended for the summer.",
+      "content": "The 25th annual Lebanese American Food Festival in Scranton celebrated culture and community while raising funds to support the parish.",
+      "content_distilled": "25th annual Lebanese American Food Festival in Scranton celebrated culture and community while raising funds to support the parish.",
       "graph": {
         "entities": [
           {
-            "name": "Kidpreneur",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/kidpreneur.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clarks Summit",
+            "name": "Lebanese American",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/lebanese-american.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "event in Clarks Summit",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/event-in-clarks-summit.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kidprene</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">event in</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Kidpreneur": "../entities/works/movies/kidpreneur.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "event in Clarks Summit": "../entities/events/event-in-clarks-summit.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-08-08T22:49:47",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/young-entrepreneurs-showcase-skills-at-kidpreneur-event-clarks-summit-lackawanna-county/523-9562c0f8-b60f-4f12-b555-fc204dde2140",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Community honors late firefighter Kelly Hopkins with memorial ceremony in Scranton",
-      "title_distilled": "Community honors late firefighter Kelly Hopkins with memorial ceremony in Scranton.",
-      "description": "Community members gathered in Scranton to honor late firefighter Kelly 'Hoppy' Hopkins, who passed away in April of 2025 after a battle with esophageal cancer.",
-      "description_distilled": "",
-      "content": "Community members gathered in Scranton to honor late firefighter Kelly 'Hoppy' Hopkins, who passed away in April of 2025 after a battle with esophageal cancer.",
-      "content_distilled": "Community members gathered in Scranton to honor late firefighter Kelly 'Hoppy' Hopkins, who passed away in April of 2025 after a battle with esophageal cancer.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Hoppy",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/hoppy.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Kelly Hopkins",
+            "name": "Food Festival",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/kelly-hopkins.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Community",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-community.md",
+            "file_path": "../entities/people/food-festival.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1255,16 +1230,35 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Folks flock to the final day of the Lebanese American Food Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/folks-flock-to-the-final-day-of-the-lebanese-american-food-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "annual Lebanese American Food Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/annual-lebanese-american-food-festival.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Kelly Hopkins",
+            "from": "Folks flock to the final day of the Lebanese American Food Festival",
+            "to": "Lebanese American",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Lebanese American",
             "to": "Scranton",
             "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hoppy</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kelly Ho</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lebanese</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Food Fes</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Folks fl</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">annual L</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1275,15 +1269,129 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Hoppy": "../entities/works/movies/hoppy.md",
-          "Kelly Hopkins": "../entities/people/kelly-hopkins.md",
-          "Scranton Community": "../entities/people/scranton-community.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Lebanese American": "../entities/people/lebanese-american.md",
+          "Food Festival": "../entities/people/food-festival.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Folks flock to the final day of the Lebanese American Food Festival": "../entities/events/folks-flock-to-the-final-day-of-the-lebanese-american-food-festival.md",
+          "annual Lebanese American Food Festival": "../entities/events/annual-lebanese-american-food-festival.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-08T22:18:38",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/community-honors-late-firefighter-kelly-hopkins-with-memorial-ceremony-scranton-lackawanna-county/523-ec62dfbe-2c59-4eec-b736-ae2396e71523",
+      "publishedAt": "2026-08-10T01:03:27",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/folks-flock-final-day-lebanese-american-food-festival-scranton-lackawanna-county/523-fdfd6d2a-e151-4574-b8cd-ddcfc2cf41da",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Annual Lebanese American Food Festival celebrates food, family, heritage",
+      "title_distilled": "Annual Lebanese American Food Festival celebrates food, family, heritage.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The 25th annual Lebanese American Food Festival celebrates food, family and heritage in Scranton this weekend. The event was held at St. Joseph Melkite Greek Catholic Church. Located in Lackawanna County, the festival features a menu of homemade favorites including kibbeh, grape leaves and spinach pies. Organizers say the cultural [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The 25th annual Lebanese American Food Festival celebrates food, family and heritage in Scranton this weekend. The event was held at St. Joseph Melkite Greek Catholic Church. Located in Lackawanna County, the festival features a menu of homemade favorites including kibbeh, grape leaves and spinach pies. Organizers say the cultural [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The 25th annual Lebanese American Food Festival celebrates food, family and heritage in Scranton this weekend.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Annual Lebanese",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/annual-lebanese.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "American Food",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/american-food.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lebanese American",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lebanese-american.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Food Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/food-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Joseph Melkite",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/joseph-melkite.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Greek Catholic",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/greek-catholic.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual L</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">American</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lebanese</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Food Fes</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joseph M</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Greek Ca</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Annual Lebanese": "../entities/people/annual-lebanese.md",
+          "American Food": "../entities/people/american-food.md",
+          "Lebanese American": "../entities/people/lebanese-american.md",
+          "Food Festival": "../entities/people/food-festival.md",
+          "Joseph Melkite": "../entities/people/joseph-melkite.md",
+          "Greek Catholic": "../entities/people/greek-catholic.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-08-10T00:39:27",
+      "url": "https://www.2822news.com/news/local-news/annual-lebanese-american-food-festival-celebrates-food-family-heritage/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
