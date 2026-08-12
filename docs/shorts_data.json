@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T11:16:31.065573",
-  "source_file": "../data/daily/scranton_news_2026-08-11.json",
+  "generated_at": "2026-08-12T11:17:21.366873",
+  "source_file": "../data/daily/scranton_news_2026-08-12.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -918,24 +918,45 @@
     },
     {
       "id": "short_9",
-      "title": "Unearthed records reveal Dem mayor sought tax hike to fund DEI role ahead of key House race",
-      "title_distilled": "Unearthed records reveal Dem mayor sought tax hike to fund DEI role ahead of key House race.",
-      "description": "Scranton's mayor once proposed a 3% property tax increase to fund a DEI coordinator role, a budget her city council ultimately cut without fanfare.",
+      "title": "Kids shoot hoops and learn life skills at 'For the Love of the Game' basketball clinic",
+      "title_distilled": "Kids shoot hoops and learn life skills at 'For the Love of the Game' basketball clinic.",
+      "description": "Lackawanna County Commissioners' Youth Sports Initiative hosted the basketball clinic at McDade Park.",
       "description_distilled": "",
-      "content": "Scranton's mayor once proposed a 3% property tax increase to fund a DEI coordinator role, a budget her city council ultimately cut without fanfare.",
-      "content_distilled": "Scranton's mayor once proposed a 3% property tax increase to fund a DEI coordinator role, a budget her city council ultimately cut without fanfare.",
+      "content": "Lackawanna County Commissioners' Youth Sports Initiative hosted the basketball clinic at McDade Park.",
+      "content_distilled": "Lackawanna County Commissioners' Youth Sports Initiative hosted the basketball clinic at McDade Park.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
+            "name": "Youth Sports",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/youth-sports.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "McDade Park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/mcdade-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "For the Love of the Game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/for-the-love-of-the-game.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Youth Sp</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">McDade P</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">For the </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -946,65 +967,30 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Youth Sports": "../entities/people/youth-sports.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "McDade Park": "../entities/locations/mcdade-park.md",
+          "For the Love of the Game": "../entities/events/for-the-love-of-the-game.md"
         }
       },
-      "source": "Fox News",
-      "publishedAt": "2026-07-09T21:34:58Z",
-      "url": "https://www.foxnews.com/politics/unearthed-records-reveal-dem-mayor-sought-tax-hike-fund-dei-role-key-house-race",
-      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/04/paige-cognetti.jpg",
+      "source": "Wnep",
+      "publishedAt": "2026-08-12T02:57:17",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/kids-shoot-hoops-and-learn-life-skills-for-the-love-of-game-basketball-clinic-lackawanna-county/523-fb1b2e1a-19d7-40ad-860a-4560879bb40e",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
-      "title": "Police investigating murder-suicide in which a father & daughter were found deceased in Jessup home",
-      "title_distilled": "Police investigating murder-suicide in which a father & daughter were found deceased in Jessup home.",
-      "description": "Jessup residents are calling the incident that took place Monday morning strange as nothing similar usually ever happens in the borough.",
+      "title": "In second day of former Scranton cop's trial, testimony zooms in on drinking at his home",
+      "title_distilled": "In second day of former Scranton cop's trial, testimony zooms in on drinking at his home.",
+      "description": "Several men, now in their 30s, testified they drank as teenagers at Stephen Carroll's West Mountain home. One said he woke to the former police officer groping him",
       "description_distilled": "",
-      "content": "Jessup residents are calling the incident that took place Monday morning strange as nothing similar usually ever happens in the borough.",
-      "content_distilled": "Jessup residents are calling the incident that took place Monday morning strange as nothing similar usually ever happens in the borough.",
-      "graph": {
-        "entities": [],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.0,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {}
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-08-11T02:42:58",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/police-investigating-murder-suicide-father-daughter-found-deceased-jessup-home-lackawanna-county/523-28dd9cc2-9346-442d-aeb3-5aa642bfead6",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "'A cool cop:' Trial begins for former Scranton police officer accused of child sex abuse",
-      "title_distilled": "'A cool cop:' Trial begins for former Scranton police officer accused of child sex abuse.",
-      "description": "Stephen Carroll, of Scranton, was accused of sexual acts with children while working as a school resource officer at West Scranton High School",
-      "description_distilled": "",
-      "content": "Stephen Carroll, of Scranton, was accused of sexual acts with children while working as a school resource officer at West Scranton High School",
-      "content_distilled": "Stephen Carroll, of Scranton, was accused of sexual acts with children while working as a school resource officer at West Scranton High School.",
+      "content": "Several men, now in their 30s, testified they drank as teenagers at Stephen Carroll's West Mountain home. One said he woke to the former police officer groping him",
+      "content_distilled": "Several men, now in their 30s, testified they drank as teenagers at Stephen Carroll's West Mountain home.",
       "graph": {
         "entities": [
-          {
-            "name": "A cool cop:",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/a-cool-cop.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "Stephen Carroll",
             "type": "PERSON",
@@ -1013,17 +999,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "West Scranton",
+            "name": "West Mountain",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/west-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "High School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/high-school.md",
+            "file_path": "../entities/people/west-mountain.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1032,66 +1011,10 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "West Scranton High School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/west-scranton-high-school.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Stephen Carroll",
-            "to": "West Scranton",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Stephen Carroll",
-            "to": "West Scranton",
-            "type": "ACTS",
-            "verb": "acts"
-          },
-          {
-            "from": "Stephen Carroll",
-            "to": "High School",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Stephen Carroll",
-            "to": "High School",
-            "type": "ACTS",
-            "verb": "acts"
-          },
-          {
-            "from": "Stephen Carroll",
-            "to": "Scranton",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Stephen Carroll",
-            "to": "Scranton",
-            "type": "ACTS",
-            "verb": "acts"
-          },
-          {
-            "from": "Stephen Carroll",
-            "to": "West Scranton High School",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Stephen Carroll",
-            "to": "West Scranton High School",
-            "type": "ACTS",
-            "verb": "acts"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">A cool c</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stephen </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Scr</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACTS</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACTS</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACTS</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACTS</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stephen </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Mou</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1102,36 +1025,55 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "A cool cop:": "../entities/works/movies/a-cool-cop.md",
           "Stephen Carroll": "../entities/people/stephen-carroll.md",
-          "West Scranton": "../entities/people/west-scranton.md",
-          "High School": "../entities/people/high-school.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "West Scranton High School": "../entities/organizations/west-scranton-high-school.md"
+          "West Mountain": "../entities/people/west-mountain.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-10T22:51:36",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-police-stephen-carroll-trial-begins/523-94e71f44-90ad-48ed-84ee-244ad1ec6d96",
+      "publishedAt": "2026-08-11T22:45:49",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/stephen-carroll-trial-day-two-testimony-drinking-sex-abuse-case/523-ba5e8617-eb56-41b4-b90e-6ed2e471a756",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
-      "title": "Investigation underway after 2 found dead in Jessup home",
-      "title_distilled": "Investigation underway after 2 found dead in Jessup home.",
-      "description": "Two people were found dead inside a home in Jessup on Monday, according to police.",
+      "id": "short_11",
+      "title": "Scranton/Wilkes-Barre RailRiders to rebrand with new name",
+      "title_distilled": "Scranton/Wilkes-Barre RailRiders to rebrand with new name.",
+      "description": "The Triple-A affiliate of the New York Yankees will unveil a new identity ahead of the 2027 season.",
       "description_distilled": "",
-      "content": "Two people were found dead inside a home in Jessup on Monday, according to police.",
-      "content_distilled": "Two people were found dead inside a home in Jessup on Monday, according to police.",
+      "content": "The Triple-A affiliate of the New York Yankees will unveil a new identity ahead of the 2027 season.",
+      "content_distilled": "Triple-A affiliate of the New York Yankees will unveil a new identity ahead of the 2027 season.",
       "graph": {
-        "entities": [],
+        "entities": [
+          {
+            "name": "The Triple",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-triple.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "New York",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/new-york.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Trip</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New York</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
-        "confidence": 0.0,
+        "confidence": 0.5,
         "vault_statistics": {
           "total_entities": 0,
           "by_type": {},
@@ -1139,31 +1081,35 @@
           "low_confidence": 0,
           "total_relationships": 0
         },
-        "entity_files": {}
+        "entity_files": {
+          "The Triple": "../entities/people/the-triple.md",
+          "New York": "../entities/people/new-york.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-10T19:20:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/death-investigation-underway-in-jessup-lackawanna-county/523-bb8d98c2-d286-4db2-aa16-6c9c1bbd4dc5",
+      "publishedAt": "2026-08-11T15:51:51",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scrantonwilkes-barre-railriders-to-rebrand-with-new-name-in-2027-baseball-yankees/523-e6c9f12a-9706-426e-8bed-0dc47f552c7d",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_13",
-      "title": "Neighbors up in arms over garbage fees",
-      "title_distilled": "Neighbors up in arms over garbage fees.",
-      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 For the last 11 years, residents of Dunmore Borough have not paid a dime for garbage collection. The fee started at $40 in 1983 and last increased to $150 in 2002. Starting in 2015, council voted unanimously to waive the fee, but in December that changed. Unless they were at [...]",
+      "id": "short_12",
+      "title": "Residents raise questions over new police technology",
+      "title_distilled": "Residents raise questions over new police technology.",
+      "description": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A police camera under consideration in Olyphant is drawing questions over what it can see, store, and share. Some neighbors thought it was Flock, a type of camera that's been surrounded by privacy concerns: It isn't, and the differences are important. \"Consideration of the Olpyhant Borough council's approval for authorizing [...]",
       "description_distilled": "",
-      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 For the last 11 years, residents of Dunmore Borough have not paid a dime for garbage collection. The fee started at $40 in 1983 and last increased to $150 in 2002. Starting in 2015, council voted unanimously to waive the fee, but in December that changed. Unless they were at [...]",
-      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 For the last 11 years, residents of Dunmore Borough have not paid a dime for garbage collection.",
+      "content": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A police camera under consideration in Olyphant is drawing questions over what it can see, store, and share. Some neighbors thought it was Flock, a type of camera that's been surrounded by privacy concerns: It isn't, and the differences are important. \"Consideration of the Olpyhant Borough council's approval for authorizing [...]",
+      "content_distilled": "OLYPHANT, LACKAWANNA COUNTY  \u2014 A police camera under consideration in Olyphant is drawing questions over what it can see, store, and share.",
       "graph": {
         "entities": [
           {
-            "name": "Dunmore Borough",
+            "name": "Olpyhant Borough",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dunmore-borough.md",
+            "file_path": "../entities/people/olpyhant-borough.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1189,7 +1135,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olpyhant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1200,15 +1146,112 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dunmore Borough": "../entities/people/dunmore-borough.md",
+          "Olpyhant Borough": "../entities/people/olpyhant-borough.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-08-11T03:25:03",
-      "url": "https://www.2822news.com/news/neighbors-up-in-arms-over-garbage-fees/",
+      "publishedAt": "2026-08-12T03:14:30",
+      "url": "https://www.2822news.com/news/local-news/residents-raise-questions-over-new-police-technology/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Trial underway for officer accused of raping students",
+      "title_distilled": "Trial underway for officer accused of raping students.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The trial is now underway for a former Scranton Police officer and West Side High School resource officer who is accused of drugging and raping students. Multiple witnesses took the stand on Tuesday to testify, and our crew spent the day inside the courtroom with them. Eight people testified, including [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The trial is now underway for a former Scranton Police officer and West Side High School resource officer who is accused of drugging and raping students. Multiple witnesses took the stand on Tuesday to testify, and our crew spent the day inside the courtroom with them. Eight people testified, including [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The trial is now underway for a former Scranton Police officer and West Side High School resource officer who is accused of drugging and raping students.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton Police",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-police.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "West Side",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/west-side.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "High School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "West Side High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/west-side-high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Sid</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">West Sid</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Police": "../entities/people/scranton-police.md",
+          "West Side": "../entities/people/west-side.md",
+          "High School": "../entities/people/high-school.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "West Side High School": "../entities/organizations/west-side-high-school.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-08-11T22:28:47",
+      "url": "https://www.2822news.com/crime-court/trial-underway-for-officer-accused-of-raping-students/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1216,12 +1259,12 @@
     },
     {
       "id": "short_14",
-      "title": "Residents meet with elected officials, address affordability crisis",
-      "title_distilled": "Residents meet with elected officials, address affordability crisis.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton residents met with elected officials and community advocates in Lackawanna County to address an ongoing affordability crisis impacting local households. Discussions at the meeting centered on rising everyday living expenses, specifically targeting the costs of rent, groceries and health care. Organizers structured the event to give community members a [...]",
+      "title": "Local leaders, legends come together for youth basketball camp",
+      "title_distilled": "Local leaders, legends come together for youth basketball camp.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Local leaders and legends of the court are coming together for a two-day youth clinic in Scranton. Teaching and preaching the fundamentals: Just some of what these kids will be taking away over the next two days. \"I hope I get better at basketball. I'm very excited because there is [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton residents met with elected officials and community advocates in Lackawanna County to address an ongoing affordability crisis impacting local households. Discussions at the meeting centered on rising everyday living expenses, specifically targeting the costs of rent, groceries and health care. Organizers structured the event to give community members a [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Scranton residents met with elected officials and community advocates in Lackawanna County to address an ongoing affordability crisis impacting local households.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Local leaders and legends of the court are coming together for a two-day youth clinic in Scranton. Teaching and preaching the fundamentals: Just some of what these kids will be taking away over the next two days. \"I hope I get better at basketball. I'm very excited because there is [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Local leaders and legends of the court are coming together for a two-day youth clinic in Scranton.",
       "graph": {
         "entities": [
           {
@@ -1253,57 +1296,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "SCRANTON",
-            "to": "LACKAWANNA COUNTY",
-            "type": "ADVOCATES",
-            "verb": "advocates"
-          },
-          {
-            "from": "SCRANTON",
-            "to": "LACKAWANNA COUNTY",
-            "type": "ELECTED",
-            "verb": "elected"
-          },
-          {
-            "from": "SCRANTON",
-            "to": "LACKAWANNA COUNTY",
-            "type": "MET",
-            "verb": "met"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "WBRE",
-            "type": "ADVOCATES",
-            "verb": "advocates"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "WBRE",
-            "type": "ELECTED",
-            "verb": "elected"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "WBRE",
-            "type": "MET",
-            "verb": "met"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "WYOU",
-            "type": "ADVOCATES",
-            "verb": "advocates"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "WYOU",
-            "type": "ELECTED",
-            "verb": "elected"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ELECTED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ELECTED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MET</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ELECTED</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1321,8 +1315,8 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-08-11T03:13:36",
-      "url": "https://www.2822news.com/news/residents-meet-with-elected-officials-address-affordability-crisis/",
+      "publishedAt": "2026-08-11T20:57:26",
+      "url": "https://www.2822news.com/news/local-news/local-leaders-legends-come-together-for-youth-basketball-camp/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
