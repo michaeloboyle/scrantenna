@@ -1,12 +1,80 @@
 {
-  "generated_at": "2026-08-14T11:15:56.672047",
-  "source_file": "../data/daily/scranton_news_2026-08-14.json",
+  "generated_at": "2026-08-15T11:04:58.940495",
+  "source_file": "../data/daily/scranton_news_2026-08-15.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Tours: Evan Greer and Mirah announce US tour dates",
+      "title_distilled": "Tours: Evan Greer and Mirah announce US tour dates.",
+      "description": "Evan Greer and Mirah have announced tour dates for the Northeastern US. The tour begins on October 1 in Holyoke, Massachusetts and wraps up on October 11 in Scranton, Pennsylvania. Sad13 will be joining them on the last two dates of the tour. Check out the da\u2026",
+      "description_distilled": "",
+      "content": "Evan Greer and Mirah have announced tour dates for the Northeastern US. The tour begins on October 1 in Holyoke, Massachusetts and wraps up on October 11 in Scranton, Pennsylvania. Sad13 will be joining them on the last two dates of the tour. Check out the da\u2026",
+      "content_distilled": "Evan Greer and Mirah have announced tour dates for the Northeastern US.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Evan Greer",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/evan-greer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Evan Greer",
+            "to": "Scranton",
+            "type": "RELATES_TO"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Evan Gre</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Evan Greer": "../entities/people/evan-greer.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Punknews.org",
+      "publishedAt": "2026-08-13T14:30:02Z",
+      "url": "https://www.punknews.org/article/88881/tours-evan-greer-and-mirah-announce-us-tour-dates",
+      "urlToImage": "https://static.punknews.org/images/frontpage/fp-1786629720.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money",
       "title_distilled": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money.",
       "description": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026",
@@ -156,11 +224,11 @@
       "url": "https://biztoc.com/x/31f004b3b962cbe2",
       "urlToImage": "https://biztoc.com/cdn/31f004b3b962cbe2_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "How Democrats learned to embrace Native American land acknowledgments",
       "title_distilled": "How Democrats learned to embrace Native American land acknowledgments.",
       "description": "The News Halfway through an academic discussion back in 2020, Paige Cognetti offered up a candid observation about US history. Cognetti \u2014 the mayor of Scranton, Pennsylvania \u2014 recalled university professor Adam Pratt\u2019s opening statement for the \u201cHumanities in\u2026",
@@ -251,11 +319,11 @@
       "url": "https://biztoc.com/x/ecb9d261c3cf70a1",
       "urlToImage": "https://biztoc.com/cdn/ecb9d261c3cf70a1_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Scranton sweeps 2026 Riverfront High School Elite Tournament",
       "title_distilled": "Scranton sweeps 2026 Riverfront High School Elite Tournament.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Riverfront Sports hosted the 2026 Riverfront High School Elite Tournament, where teams from across NEPA compete in boys and girls brackets for the right to become champions. The girls\u2019 bracket had 10 teams, while the b\u2026",
@@ -377,11 +445,11 @@
       "url": "https://www.2822news.com/news/scranton-sweeps-2026-riverfront-high-school-elite-tournament/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/c92499eccea5ca78a4279d5f547cfcfe6d490f0cf7c550f518cabdc8194b33f3/lightyear_networkapi/resizefill_w900_h506;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fad8751e927dc06a2369ed281a5028e1e",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Paupack football team will be well-represented at 2026 Dream Game",
       "title_distilled": "Paupack football team will be well-represented at 2026 Dream Game.",
       "description": "Izael Rodriguez, Logan Caruso, Tyler Gallo, Mason Gonzalez and Jamie Stiner will represent Paupack at the 92nd Annual Scranton Lions Club Dream Game.",
@@ -490,11 +558,108 @@
       "url": "https://www.tricountyindependent.com/story/sports/high-school/football/2026/07/16/lackawanna-football-conference-2026-dream-game-wallenpaupack-area/90937614007/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/0f671fa9edb95d9f91d7984cda23a31fddbddb69af59a040f87beb7f061a731e/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Ftri-county-independent%2Fc711010a9fd629c0e9c9b410a577db2d",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
+      "title": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money",
+      "title_distilled": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money.",
+      "description": "The article explains how recognizing early insulation problems can improve comfort and support better energy efficiency. CLARKS SUMMIT, Pa., Aug. 13, 2026 /PRNewswire/ -- How do you know if your at...",
+      "description_distilled": "",
+      "content": "The article explains how recognizing early insulation problems can improve comfort and support better energy efficiency. CLARKS SUMMIT, Pa., Aug. 13, 2026 /PRNewswire/ -- How do you know if your at...",
+      "content_distilled": "article explains how recognizing early insulation problems can improve comfort and support better energy efficiency.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Insulation Expert",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/insulation-expert.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mike Mancuso",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mike-mancuso.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Explains Signs",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/explains-signs.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Your Attic",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/your-attic.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Insulation Is Costing",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/insulation-is-costing.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "You Money",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/you-money.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "CLARKS SUMMIT",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/clarks-summit.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Insulati</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mike Man</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Explains</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Your Att</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Insulati</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">You Mone</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Insulation Expert": "../entities/people/insulation-expert.md",
+          "Mike Mancuso": "../entities/people/mike-mancuso.md",
+          "Explains Signs": "../entities/people/explains-signs.md",
+          "Your Attic": "../entities/people/your-attic.md",
+          "Insulation Is Costing": "../entities/people/insulation-is-costing.md",
+          "You Money": "../entities/people/you-money.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "CLARKS SUMMIT": "../entities/events/clarks-summit.md"
+        }
+      },
+      "source": "PRNewswire",
+      "publishedAt": "2026-08-13T13:30:00Z",
+      "url": "https://www.prnewswire.com/news-releases/in-hellonation-insulation-expert-mike-mancuso-explains-signs-your-attic-insulation-is-costing-you-money-302850916.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS1969261/Mike-Mancuso-PR-1.mp4?id=OA2882147&p=thumbnail",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
+    },
+    {
+      "id": "short_6",
       "title": "Reworld\u00ae and Goodwill Industries of NEPA Announce Free Electronic Waste Recycling Program for Northeastern Pennsylvania",
       "title_distilled": "Reworld\u00ae and Goodwill Industries of NEPA Announce Free Electronic Waste Recycling Program for Northeastern Pennsylvania.",
       "description": "SCRANTON, Pa., July 16, 2026 /PRNewswire/ -- Reworld\u00ae, a leader in sustainable waste solutions, proudly announces the expansion of access to free electronic recycling locations across Pennsylvania through its new partnership with Goodwill Industries of Northe\u2026",
@@ -602,11 +767,11 @@
       "url": "https://www.prnewswire.com/news-releases/reworld-and-goodwill-industries-of-nepa-announce-free-electronic-waste-recycling-program-for-northeastern-pennsylvania-302827904.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1884470/Reworld_x_Goodwill_Industries_NEPA_E_Waste_Recycling_Program_Scranton_PA.jpg?id=OA2767996&p=facebook",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_5",
+      "id": "short_7",
       "title": "HS SPORTS: Mahon named athletic director at Scranton Prep",
       "title_distilled": "HS SPORTS: Mahon named athletic director at Scranton Prep.",
       "description": "Michael Mahon, Ph.D., is eager and excited about returning to his alma mater as the athletic director at Scranton Prep. Mahon, a former teacher, principal, superintendent, higher education administrator, and coach, replaces Grey Simpson, who resigned after th\u2026",
@@ -673,11 +838,11 @@
       "url": "https://www.thetimes-tribune.com/2026/08/03/hs-sports-mahon-named-athletic-director-at-scranton-prep/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_8",
       "title": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre",
       "title_distilled": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre.",
       "description": "Local physical therapist Vanessa Lanfrank brings personalized senior living guidance to families across northeastern Pennsylvania SCRANTON, Pa., July 29, 2026 /PRNewswire/ -- Trua Senior Living Locators, a service that helps seniors and their families find li\u2026",
@@ -772,11 +937,11 @@
       "url": "https://www.prnewswire.com/news-releases/trua-senior-living-locators-launches-in-scranton-and-wilkes-barre-302838096.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_7",
+      "id": "short_9",
       "title": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads",
       "title_distilled": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads.",
       "description": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
@@ -864,11 +1029,11 @@
       "url": "https://fortune.com/2026/07/28/cognetti-bresnahan-pennsylvania-data-centers-ad/",
       "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26208806478921-e1785238253858.jpg?resize=1200,600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_8",
+      "id": "short_10",
       "title": "Norwood Financial price target raised by $1 at Stephens, here's why",
       "title_distilled": "Norwood Financial price target raised by $1 at Stephens, here's why.",
       "description": "See the rest of the story here. thefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual inves...",
@@ -913,31 +1078,31 @@
       "url": "https://www.thefly.com/NWFL",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_9",
-      "title": "Defendant in Scranton trial for killing his coworker convicted of first-degree murder",
-      "title_distilled": "Defendant in Scranton trial for killing his coworker convicted of first-degree murder.",
-      "description": "A jury found defendant Christopher Wasnetsky guilty of first-degree murder in the killing of his coworker Jeffrey Moeller last year.",
+      "id": "short_11",
+      "title": "Community gathers to remember Gene 'Dempsey' Passarella",
+      "title_distilled": "Community gathers to remember Gene 'Dempsey' Passarella.",
+      "description": "A well-known World War II veteran and longtime big band leader in Scranton was laid to rest on Friday.",
       "description_distilled": "",
-      "content": "A jury found defendant Christopher Wasnetsky guilty of first-degree murder in the killing of his coworker Jeffrey Moeller last year.",
-      "content_distilled": "jury found defendant Christopher Wasnetsky guilty of first-degree murder in the killing of his coworker Jeffrey Moeller last year.",
+      "content": "A well-known World War II veteran and longtime big band leader in Scranton was laid to rest on Friday.",
+      "content_distilled": "well-known World War II veteran and longtime big band leader in Scranton was laid to rest on Friday.",
       "graph": {
         "entities": [
           {
-            "name": "Christopher Wasnetsky",
-            "type": "PERSON",
+            "name": "Dempsey",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/christopher-wasnetsky.md",
+            "file_path": "../entities/works/movies/dempsey.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Jeffrey Moeller",
+            "name": "World War",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jeffrey-moeller.md",
+            "file_path": "../entities/people/world-war.md",
             "resolution_method": "new_entity"
           },
           {
@@ -950,19 +1115,12 @@
         ],
         "relationships": [
           {
-            "from": "Scranton",
-            "to": "Christopher Wasnetsky",
-            "type": "CONVICTED",
-            "verb": "convicted"
-          },
-          {
-            "from": "Scranton",
-            "to": "Jeffrey Moeller",
-            "type": "CONVICTED",
-            "verb": "convicted"
+            "from": "World War",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christop</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jeffrey </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONVICTED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONVICTED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dempsey</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">World Wa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -973,112 +1131,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Christopher Wasnetsky": "../entities/people/christopher-wasnetsky.md",
-          "Jeffrey Moeller": "../entities/people/jeffrey-moeller.md",
+          "Dempsey": "../entities/works/movies/dempsey.md",
+          "World War": "../entities/people/world-war.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-14T03:52:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/defendant-scranton-trial-for-killing-his-coworker-convicted-first-degree-murder-lackawanna-county/523-b5071540-4fee-49c3-a8fd-5e1ee57ca565",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Splash pad opens in Scranton's Pinebrook section",
-      "title_distilled": "Splash pad opens in Scranton's Pinebrook section.",
-      "description": "A neighborhood in Scranton that saw its pool close long before many of the kids living there were born now has a new place to cool off.",
-      "description_distilled": "",
-      "content": "A neighborhood in Scranton that saw its pool close long before many of the kids living there were born now has a new place to cool off.",
-      "content_distilled": "neighborhood in Scranton that saw its pool close long before many of the kids living there were born now has a new place to cool off.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-08-13T22:34:27",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/splash-pad-opens-in-scrantons-pinebrook-section-lackawanna-county/523-6093c448-9584-4657-8afa-6e311c47b471",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Former Scranton police officer found guilty in sex abuse case",
-      "title_distilled": "Former Scranton police officer found guilty in sex abuse case.",
-      "description": "Stephen Carroll was found guilty of 29 of the 30 counts he faced, including the most serious charges.",
-      "description_distilled": "",
-      "content": "Stephen Carroll was found guilty of 29 of the 30 counts he faced, including the most serious charges.",
-      "content_distilled": "Stephen Carroll was found guilty of 29 of the 30 counts he faced, including the most serious charges.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Former Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/former-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Stephen Carroll",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/stephen-carroll.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Former S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stephen </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Former Scranton": "../entities/people/former-scranton.md",
-          "Stephen Carroll": "../entities/people/stephen-carroll.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-08-13T19:57:20",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/former-scranton-police-officer-found-guilty-in-child-sex-abuse-case-lackawanna-county/523-5fb961b8-8e52-45a8-813e-810ed9e9205c",
+      "publishedAt": "2026-08-14T22:56:38",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/community-gathers-to-remember-gene-dempsey-passarella-scranton-lackawanna-county-orchestra-band-leader-wwii-veteran/523-2e9b4b7f-8bc1-4cb0-beb6-b7eb2c0dc98a",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1086,77 +1146,52 @@
     },
     {
       "id": "short_12",
-      "title": "Clarks Summit Goes Pink to hold inaugural 5K Run/1 Mile Walk and Community Block Party",
-      "title_distilled": "Clarks Summit Goes Pink to hold inaugural 5K Run/1 Mile Walk and Community Block Party.",
-      "description": "A nonprofit organization that raises awareness about breast cancer and supports those affected is holding an event in Lackawanna County this weekend.",
+      "title": "Students with disabilities gain work experience",
+      "title_distilled": "Students with disabilities gain work experience.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Graduation day is an important day in any student's life. On Friday, six students celebrated their hard work done in an eight-week program designed to give them work experience. \"Others talk social change. We make it happen.\" Rhys Jones wore those words on his shirt as he accepted his award [...]",
       "description_distilled": "",
-      "content": "A nonprofit organization that raises awareness about breast cancer and supports those affected is holding an event in Lackawanna County this weekend.",
-      "content_distilled": "nonprofit organization that raises awareness about breast cancer and supports those affected is holding an event in Lackawanna County this weekend.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Graduation day is an important day in any student's life. On Friday, six students celebrated their hard work done in an eight-week program designed to give them work experience. \"Others talk social change. We make it happen.\" Rhys Jones wore those words on his shirt as he accepted his award [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Graduation day is an important day in any student's life.",
       "graph": {
         "entities": [
           {
-            "name": "Clarks Summit",
+            "name": "Rhys Jones",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/rhys-jones.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Goes Pink",
-            "type": "PERSON",
+            "name": "SCRANTON",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/goes-pink.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mile Walk",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mile-walk.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Community Block",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/community-block.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Clarks Summit",
-            "to": "Lackawanna County",
-            "type": "SUPPORTS",
-            "verb": "supports"
-          },
-          {
-            "from": "Goes Pink",
-            "to": "Lackawanna County",
-            "type": "SUPPORTS",
-            "verb": "supports"
-          },
-          {
-            "from": "Mile Walk",
-            "to": "Lackawanna County",
-            "type": "SUPPORTS",
-            "verb": "supports"
-          },
-          {
-            "from": "Community Block",
-            "to": "Lackawanna County",
-            "type": "SUPPORTS",
-            "verb": "supports"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Goes Pin</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mile Wal</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Communit</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"150\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SUPPORTS</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rhys Jon</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1167,16 +1202,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Goes Pink": "../entities/people/goes-pink.md",
-          "Mile Walk": "../entities/people/mile-walk.md",
-          "Community Block": "../entities/people/community-block.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Rhys Jones": "../entities/people/rhys-jones.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-08-13T13:53:56",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/clarks-summit-goes-pink-to-hold-inaugural-5k-run1-mile-walk-and-community-block-party-lackawanna-county/523-77ed45c1-65b0-47ce-a702-724c0a34bd95",
+      "source": "Wbre",
+      "publishedAt": "2026-08-15T00:58:57",
+      "url": "https://www.2822news.com/news/local-news/students-with-disabilities-gain-work-experience/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1184,21 +1219,136 @@
     },
     {
       "id": "short_13",
-      "title": "Former resource officer found guilty of drugging and raping students",
-      "title_distilled": "Former resource officer found guilty of drugging and raping students.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The courtroom was cleared after former Scranton Police Resource Officer Stephen Carroll suffered a medical emergency while a jury found him guilty of drugging and raping students. After a week of emotional testimony, jurors have found Stephen Carroll guilty on nearly every count he faced. The jury has found Carroll [...]",
+      "title": "Pa. contractor accused of failing to complete work, issue refunds",
+      "title_distilled": "Pa.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Attorney General Dave Sunday said the office has filed a complaint against a Lackawanna County-based contractor for failing to complete jobs or issue refunds. N. Stanley Paving, Inc. and its owner, Nicholas Stanley, \"used high-pressure sales tactics, increased contract prices without customers\u2019 knowledge, abandoned home improvement projects, failed to complete contracted [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The courtroom was cleared after former Scranton Police Resource Officer Stephen Carroll suffered a medical emergency while a jury found him guilty of drugging and raping students. After a week of emotional testimony, jurors have found Stephen Carroll guilty on nearly every count he faced. The jury has found Carroll [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The courtroom was cleared after former Scranton Police Resource Officer Stephen Carroll suffered a medical emergency while a jury found him guilty of drugging and raping students.",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Attorney General Dave Sunday said the office has filed a complaint against a Lackawanna County-based contractor for failing to complete jobs or issue refunds. N. Stanley Paving, Inc. and its owner, Nicholas Stanley, \"used high-pressure sales tactics, increased contract prices without customers\u2019 knowledge, abandoned home improvement projects, failed to complete contracted [...]",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 Attorney General Dave Sunday said the office has filed a complaint against a Lackawanna County-based contractor for failing to complete jobs or issue refunds.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Police",
+            "name": "Attorney General",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
+            "file_path": "../entities/people/attorney-general.md",
             "resolution_method": "new_entity"
           },
+          {
+            "name": "Dave Sunday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dave-sunday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Stanley Paving",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/stanley-paving.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nicholas Stanley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nicholas-stanley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Attorney General",
+            "to": "LACKAWANNA COUNTY",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "Dave Sunday",
+            "to": "LACKAWANNA COUNTY",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "WBRE",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "WYOU",
+            "type": "SAID",
+            "verb": "said"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Attorney</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dave Sun</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stanley </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nicholas</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Attorney General": "../entities/people/attorney-general.md",
+          "Dave Sunday": "../entities/people/dave-sunday.md",
+          "Stanley Paving": "../entities/people/stanley-paving.md",
+          "Nicholas Stanley": "../entities/people/nicholas-stanley.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-08-14T16:08:52",
+      "url": "https://www.2822news.com/news/crime-courts/pa-contractor-accused-of-failing-to-complete-work-issue-refunds/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Eight years of abuse: Stephen Carroll convicted",
+      "title_distilled": "Eight years of abuse: Stephen Carroll convicted.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 It was four days of emotional, gut-wrenching testimony inside the Lackawanna County Courthouse. Fifty-year-old Stephen Carroll is behind bars Thursday after a jury found him guilty on almost every charge; including multiple counts of rape, assault, and corruption of minors. Five victims took the stand, detailing not only the abuse they [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 It was four days of emotional, gut-wrenching testimony inside the Lackawanna County Courthouse. Fifty-year-old Stephen Carroll is behind bars Thursday after a jury found him guilty on almost every charge; including multiple counts of rape, assault, and corruption of minors. Five victims took the stand, detailing not only the abuse they [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 It was four days of emotional, gut-wrenching testimony inside the Lackawanna County Courthouse.",
+      "graph": {
+        "entities": [
           {
             "name": "Stephen Carroll",
             "type": "PERSON",
@@ -1233,17 +1383,35 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "medical emergency",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/medical-emergency.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stephen </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Stephen Carroll",
+            "to": "SCRANTON",
+            "type": "CONVICTED",
+            "verb": "convicted"
+          },
+          {
+            "from": "Stephen Carroll",
+            "to": "LACKAWANNA COUNTY",
+            "type": "CONVICTED",
+            "verb": "convicted"
+          },
+          {
+            "from": "Stephen Carroll",
+            "to": "WBRE",
+            "type": "CONVICTED",
+            "verb": "convicted"
+          },
+          {
+            "from": "Stephen Carroll",
+            "to": "WYOU",
+            "type": "CONVICTED",
+            "verb": "convicted"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stephen </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONVICTED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONVICTED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONVICTED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CONVICTED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1254,123 +1422,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
           "Stephen Carroll": "../entities/people/stephen-carroll.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "medical emergency": "../entities/events/medical-emergency.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-08-13T19:51:52",
-      "url": "https://www.2822news.com/news/former-resource-officer-found-guilty-of-drugging-and-raping-students/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Breaking barriers in Lackawanna County schools",
-      "title_distilled": "Breaking barriers in Lackawanna County schools.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A new state investment is helping students in the Scranton School District get free period products at school, with the goal of removing another barrier to education. Pennsylvania has invested $9 million over three years to provide free period products in schools across the Commonwealth. The Scranton School District received [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A new state investment is helping students in the Scranton School District get free period products at school, with the goal of removing another barrier to education. Pennsylvania has invested $9 million over three years to provide free period products in schools across the Commonwealth. The Scranton School District received [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A new state investment is helping students in the Scranton School District get free period products at school, with the goal of removing another barrier to education.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "School District",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/school-district.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Scranton School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-scranton-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School D</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton School": "../entities/people/scranton-school.md",
-          "The Scranton": "../entities/people/the-scranton.md",
-          "School District": "../entities/people/school-district.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "The Scranton School": "../entities/organizations/the-scranton-school.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-08-13T22:26:41",
-      "url": "https://www.2822news.com/news/breaking-barriers-in-lackawanna-county-schools/",
+      "publishedAt": "2026-08-14T14:03:29",
+      "url": "https://www.2822news.com/news/eight-years-of-abuse-stephen-carroll-convicted/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
