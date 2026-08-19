@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T11:07:17.563319",
-  "source_file": "../data/daily/scranton_news_2026-08-18.json",
+  "generated_at": "2026-08-19T11:06:52.888522",
+  "source_file": "../data/daily/scranton_news_2026-08-19.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -889,24 +889,66 @@
     },
     {
       "id": "short_10",
-      "title": "Coroner called to crash in Lackawanna County",
-      "title_distilled": "Coroner called to crash in Lackawanna County.",
-      "description": "No word on how many people have been affected.",
+      "title": "Wild Women NEPA Festival returns to Lazybrook Park",
+      "title_distilled": "Wild Women NEPA Festival returns to Lazybrook Park.",
+      "description": "PA's largest women's outdoor festival hits Lazybrook Park with yoga, arts, and nature walks. Kids under 12 are free; ticket sales support Wild Wellness NEPA.",
       "description_distilled": "",
-      "content": "No word on how many people have been affected.",
-      "content_distilled": "No word on how many people have been affected.",
+      "content": "PA's largest women's outdoor festival hits Lazybrook Park with yoga, arts, and nature walks. Kids under 12 are free; ticket sales support Wild Wellness NEPA.",
+      "content_distilled": "PA's largest women's outdoor festival hits Lazybrook Park with yoga, arts, and nature walks.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna County",
+            "name": "s largest women",
+            "type": "WORK",
+            "confidence": 0.5,
+            "file_path": "../entities/works/movies/s-largest-women.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Wild Women",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wild-women.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lazybrook Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lazybrook-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Wild Wellness",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wild-wellness.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Wild Women NEPA Festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/wild-women-nepa-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "outdoor festival",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/outdoor-festival.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">s larges</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wild Wom</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lazybroo</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wild Wel</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wild Wom</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -917,12 +959,18 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "s largest women": "../entities/works/movies/s-largest-women.md",
+          "Wild Women": "../entities/people/wild-women.md",
+          "Lazybrook Park": "../entities/people/lazybrook-park.md",
+          "Wild Wellness": "../entities/people/wild-wellness.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Wild Women NEPA Festival": "../entities/events/wild-women-nepa-festival.md",
+          "outdoor festival": "../entities/events/outdoor-festival.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-18T03:37:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/coroner-called-two-car-crash-lackawanna-county-scranton/523-b6c856a4-588c-4de0-ad70-dd311477f55f",
+      "publishedAt": "2026-08-19T10:51:39",
+      "url": "https://www.wnep.com/article/news/local/wyoming-county/wild-women-nepa-festival-returns-lazybrook-park/523-9e208284-4684-4ebf-9af4-921967bdbcc2",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -984,7 +1032,7 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-17T22:40:06",
+      "publishedAt": "2026-08-18T16:29:35",
       "url": "https://www.wnep.com/article/news/local/lackawanna-county/man-arrested-new-york-city-faces-charges-scranton-homicide-lackawanna-county/523-e7da09b3-b044-453a-aa5f-6c94a97d70ae",
       "urlToImage": "",
       "duration": 10000,
@@ -993,76 +1041,26 @@
     },
     {
       "id": "short_12",
-      "title": "Lackawanna County begins $1.6M renovation of Merli-Sarnoski Park",
-      "title_distilled": "Lackawanna County begins $1.",
-      "description": "The county-owned park will be getting a new recreation area, pavilion, and much more.",
+      "title": "Children's Career Fair in Scranton aims to inspire future aspirations",
+      "title_distilled": "Children's Career Fair in Scranton aims to inspire future aspirations.",
+      "description": "Families in Scranton can inspire their kids' future dreams at this weekend's free Children's Career Fair, featuring hands-on activities and local employers.",
       "description_distilled": "",
-      "content": "The county-owned park will be getting a new recreation area, pavilion, and much more.",
-      "content_distilled": "county-owned park will be getting a new recreation area, pavilion, and much more.",
+      "content": "Families in Scranton can inspire their kids' future dreams at this weekend's free Children's Career Fair, featuring hands-on activities and local employers.",
+      "content_distilled": "Families in Scranton can inspire their kids' future dreams at this weekend's free Children's Career Fair, featuring hands-on activities and local employers.",
       "graph": {
         "entities": [
           {
-            "name": "Sarnoski Park",
-            "type": "PERSON",
+            "name": "s free Children",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/people/sarnoski-park.md",
+            "file_path": "../entities/works/movies/s-free-children.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "owned park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/owned-park.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sarnoski</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">owned pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Sarnoski Park": "../entities/people/sarnoski-park.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "owned park": "../entities/locations/owned-park.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-08-17T21:25:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-begins-16m-renovation-of-merli-sarnoski-park-bill-gaughan-chris-chermak-thom-welby/523-a34c9822-b4e1-4137-b1c4-ac3c9aea4612",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Meals on Wheels NEPA opens new location in Scranton",
-      "title_distilled": "Meals on Wheels NEPA opens new location in Scranton.",
-      "description": "Meals on Wheels of NEPA cut the ribbon on a new facility that will help them prepare thousands of meals for seniors across the area.",
-      "description_distilled": "",
-      "content": "Meals on Wheels of NEPA cut the ribbon on a new facility that will help them prepare thousands of meals for seniors across the area.",
-      "content_distilled": "Meals on Wheels of NEPA cut the ribbon on a new facility that will help them prepare thousands of meals for seniors across the area.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Meals",
+            "name": "Career Fair",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-meals.md",
+            "file_path": "../entities/people/career-fair.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1075,12 +1073,12 @@
         ],
         "relationships": [
           {
-            "from": "Scranton Meals",
+            "from": "Career Fair",
             "to": "Scranton",
             "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">s free C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Career F</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1091,13 +1089,87 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Meals": "../entities/people/scranton-meals.md",
+          "s free Children": "../entities/works/movies/s-free-children.md",
+          "Career Fair": "../entities/people/career-fair.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-17T20:34:42",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/meals-on-wheels-nepa-opens-new-location-in-scranton-lackawanna-county-cherry-street/523-635a66a7-582a-475c-8347-dc27c4e719d2",
+      "publishedAt": "2026-08-18T15:21:34",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/career-fair-scranton-children-outreach-center-for-community-resources/523-bb0092be-a7a1-4341-b4dc-054b1ebd9696",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Fair over a century and a half old back in NEPA",
+      "title_distilled": "Fair over a century and a half old back in NEPA.",
+      "description": "HARFORD TOWNSHIP, SUSQUHANNA COUNTY(WBRE/WYOU) \u2014 The 168th annual Harford Fair in Harford Township kicked off Monday and, according to organizers, a little bad weather did not scare people off. Har...",
+      "description_distilled": "",
+      "content": "HARFORD TOWNSHIP, SUSQUHANNA COUNTY(WBRE/WYOU) \u2014 The 168th annual Harford Fair in Harford Township kicked off Monday and, according to organizers, a little bad weather did not scare people off. Har...",
+      "content_distilled": "HARFORD TOWNSHIP, SUSQUHANNA COUNTY \u2014 The 168th annual Harford Fair in Harford Township kicked off Monday and, according to organizers, a little bad weather did not scare people off.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Harford Fair",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/harford-fair.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Harford Township",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/harford-township.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Sawyer Herbert",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sawyer-herbert.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Harford </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Harford </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sawyer H</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Harford Fair": "../entities/people/harford-fair.md",
+          "Harford Township": "../entities/people/harford-township.md",
+          "Sawyer Herbert": "../entities/people/sawyer-herbert.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-08-18T23:05:25",
+      "url": "https://www.2822news.com/news/fair-over-a-century-and-a-half-old-back-in-nepa/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1105,24 +1177,104 @@
     },
     {
       "id": "short_14",
-      "title": "Clarks Summit clock tower to be refurbished, relocated",
-      "title_distilled": "Clarks Summit clock tower to be refurbished, relocated.",
-      "description": "The removal of the clock tower is the first step in plans to refurbish and move it to a new location.",
+      "title": "New tech coming to Scranton historic site",
+      "title_distilled": "New tech coming to Scranton historic site.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Steamtown National Historic Site in Scranton is receiving an innovation grant from the National Park Foundation to bring new technology to the historic location. The upgrade will offer park administrators and community partners a clearer view of how visitors interact with the site and surrounding area. The newly introduced [...]",
       "description_distilled": "",
-      "content": "The removal of the clock tower is the first step in plans to refurbish and move it to a new location.",
-      "content_distilled": "removal of the clock tower is the first step in plans to refurbish and move it to a new location.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Steamtown National Historic Site in Scranton is receiving an innovation grant from the National Park Foundation to bring new technology to the historic location. The upgrade will offer park administrators and community partners a clearer view of how visitors interact with the site and surrounding area. The newly introduced [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The Steamtown National Historic Site in Scranton is receiving an innovation grant from the National Park Foundation to bring new technology to the historic location.",
       "graph": {
         "entities": [
           {
-            "name": "Clarks Summit",
+            "name": "The Steamtown",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/the-steamtown.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "National Historic",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/national-historic.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "National Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/national-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "offer park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/offer-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "The Steamtown",
+            "to": "National Park",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "The Steamtown",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "offer park",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Stea</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">offer pa</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1133,12 +1285,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Clarks Summit": "../entities/people/clarks-summit.md"
+          "The Steamtown": "../entities/people/the-steamtown.md",
+          "National Historic": "../entities/people/national-historic.md",
+          "National Park": "../entities/people/national-park.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "offer park": "../entities/locations/offer-park.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-08-17T20:06:29",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/clarks-summit-clock-tower-to-be-refurbished-relocated-lackawanna-county-depot-street-route-11/523-4f5615ec-9316-47f6-9cd2-a6f4a3c4d376",
+      "source": "Wbre",
+      "publishedAt": "2026-08-18T22:32:45",
+      "url": "https://www.2822news.com/news/local-news/new-tech-coming-to-scranton-historic-site/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
