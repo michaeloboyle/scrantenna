@@ -1,12 +1,125 @@
 {
-  "generated_at": "2026-08-21T11:07:22.574684",
-  "source_file": "../data/daily/scranton_news_2026-08-21.json",
+  "generated_at": "2026-08-22T11:04:45.932370",
+  "source_file": "../data/daily/scranton_news_2026-08-22.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "In Pennsylvania House race, it\u2019s pink heels vs. drag queens",
+      "title_distilled": "In Pennsylvania House race, it\u2019s pink heels vs.",
+      "description": "The News A fight over drag has broken out in Scranton, Pennsylvania, where Democratic Mayor Paige Cognetti is running for Congress against Republican Rep. Rob Bresnahan. It began with a photo of the mayor and a drag queen at the city\u2019s 2025 Pride flag raising\u2026",
+      "description_distilled": "",
+      "content": "The News A fight over drag has broken out in Scranton, Pennsylvania, where Democratic Mayor Paige Cognetti is running for Congress against Republican Rep. Rob Bresnahan. It began with a photo of the mayor and a drag queen at the city\u2019s 2025 Pride flag raising\u2026",
+      "content_distilled": "News A fight over drag has broken out in Scranton, Pennsylvania, where Democratic Mayor Paige Cognetti is running for Congress against Republican Rep.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Pennsylvania House",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-house.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The News",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-news.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Democratic Mayor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/democratic-mayor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Paige Cognetti",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/paige-cognetti.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Republican Rep. Rob",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/republican-rep-rob.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Rob Bresnahan",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rob-bresnahan.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Democratic Mayor",
+            "to": "Paige Cognetti",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "Democratic Mayor",
+            "to": "Republican Rep. Rob",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The News</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Republic</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rob Bres</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Pennsylvania House": "../entities/people/pennsylvania-house.md",
+          "The News": "../entities/people/the-news.md",
+          "Democratic Mayor": "../entities/people/democratic-mayor.md",
+          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Republican Rep. Rob": "../entities/people/republican-rep-rob.md",
+          "Rob Bresnahan": "../entities/people/rob-bresnahan.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Biztoc.com",
+      "publishedAt": "2026-08-21T09:13:37Z",
+      "url": "https://biztoc.com/x/cb672098047b898a",
+      "urlToImage": "https://biztoc.com/cdn/cb672098047b898a_s.webp",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Tours: Evan Greer and Mirah announce US tour dates",
       "title_distilled": "Tours: Evan Greer and Mirah announce US tour dates.",
       "description": "Evan Greer and Mirah have announced tour dates for the Northeastern US. The tour begins on October 1 in Holyoke, Massachusetts and wraps up on October 11 in Scranton, Pennsylvania. Sad13 will be joining them on the last two dates of the tour. Check out the da\u2026",
@@ -70,11 +183,11 @@
       "url": "https://www.punknews.org/article/88881/tours-evan-greer-and-mirah-announce-us-tour-dates",
       "urlToImage": "https://static.punknews.org/images/frontpage/fp-1786629720.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money",
       "title_distilled": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money.",
       "description": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026",
@@ -224,11 +337,11 @@
       "url": "https://biztoc.com/x/31f004b3b962cbe2",
       "urlToImage": "https://biztoc.com/cdn/31f004b3b962cbe2_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "How Democrats learned to embrace Native American land acknowledgments",
       "title_distilled": "How Democrats learned to embrace Native American land acknowledgments.",
       "description": "The News Halfway through an academic discussion back in 2020, Paige Cognetti offered up a candid observation about US history. Cognetti \u2014 the mayor of Scranton, Pennsylvania \u2014 recalled university professor Adam Pratt\u2019s opening statement for the \u201cHumanities in\u2026",
@@ -319,11 +432,11 @@
       "url": "https://biztoc.com/x/ecb9d261c3cf70a1",
       "urlToImage": "https://biztoc.com/cdn/ecb9d261c3cf70a1_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Scranton sweeps 2026 Riverfront High School Elite Tournament",
       "title_distilled": "Scranton sweeps 2026 Riverfront High School Elite Tournament.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Riverfront Sports hosted the 2026 Riverfront High School Elite Tournament, where teams from across NEPA compete in boys and girls brackets for the right to become champions. The girls\u2019 bracket had 10 teams, while the b\u2026",
@@ -445,11 +558,11 @@
       "url": "https://www.2822news.com/news/scranton-sweeps-2026-riverfront-high-school-elite-tournament/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/c92499eccea5ca78a4279d5f547cfcfe6d490f0cf7c550f518cabdc8194b33f3/lightyear_networkapi/resizefill_w900_h506;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fad8751e927dc06a2369ed281a5028e1e",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money",
       "title_distilled": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money.",
       "description": "The article explains how recognizing early insulation problems can improve comfort and support better energy efficiency. CLARKS SUMMIT, Pa., Aug. 13, 2026 /PRNewswire/ -- How do you know if your at...",
@@ -542,11 +655,11 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-insulation-expert-mike-mancuso-explains-signs-your-attic-insulation-is-costing-you-money-302850916.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1969261/Mike-Mancuso-PR-1.mp4?id=OA2882147&p=thumbnail",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "America\u2019s broken permitting system is quietly raising your cost of living",
       "title_distilled": "America\u2019s broken permitting system is quietly raising your cost of living.",
       "description": "America's broken NEPA permitting system drives up housing costs, energy prices and manufacturing delays, but bipartisan reform bills offer a fix.",
@@ -573,11 +686,11 @@
       "url": "https://www.foxnews.com/opinion/americas-broken-permitting-system-quietly-raising-cost-living",
       "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/home-construction-building.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania",
       "title_distilled": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania.",
       "description": "The article explains how preventive maintenance, regular inspections, and timely repairs can help protect roofs from the region's snow, ice, rain, and seasonal weather. SAYLORSBURG, Pa., Aug. 19, 2...",
@@ -659,11 +772,11 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-roofing-expert-justin-bernard-of-saylorsburg-shares-how-to-extend-the-lifespan-of-a-roof-in-northeastern-pennsylvania-302855310.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1972296/Justin-Bernard-Owner-Bernard-and-Sons-Roofing.mp4?id=OA2897369&p=thumbnail",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "HS SPORTS: Mahon named athletic director at Scranton Prep",
       "title_distilled": "HS SPORTS: Mahon named athletic director at Scranton Prep.",
       "description": "Michael Mahon, Ph.D., is eager and excited about returning to his alma mater as the athletic director at Scranton Prep. Mahon, a former teacher, principal, superintendent, higher education administrator, and coach, replaces Grey Simpson, who resigned after th\u2026",
@@ -730,11 +843,11 @@
       "url": "https://www.thetimes-tribune.com/2026/08/03/hs-sports-mahon-named-athletic-director-at-scranton-prep/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre",
       "title_distilled": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre.",
       "description": "Local physical therapist Vanessa Lanfrank brings personalized senior living guidance to families across northeastern Pennsylvania SCRANTON, Pa., July 29, 2026 /PRNewswire/ -- Trua Senior Living Locators, a service that helps seniors and their families find li\u2026",
@@ -829,11 +942,11 @@
       "url": "https://www.prnewswire.com/news-releases/trua-senior-living-locators-launches-in-scranton-and-wilkes-barre-302838096.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads",
       "title_distilled": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads.",
       "description": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
@@ -921,11 +1034,11 @@
       "url": "https://fortune.com/2026/07/28/cognetti-bresnahan-pennsylvania-data-centers-ad/",
       "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26208806478921-e1785238253858.jpg?resize=1200,600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "Norwood Financial price target raised by $1 at Stephens, here's why",
       "title_distilled": "Norwood Financial price target raised by $1 at Stephens, here's why.",
       "description": "See the rest of the story here. thefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual inves...",
@@ -970,17 +1083,17 @@
       "url": "https://www.thefly.com/NWFL",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
-      "title": "Traffic flowing after multi-vehicle crash on I-81 North in Lackawanna County",
-      "title_distilled": "Traffic flowing after multi-vehicle crash on I-81 North in Lackawanna County.",
-      "description": "The crash involving seven vehicles happened on I-81 North in Dunmore around 6:45 a.m. Thursday.",
+      "id": "short_12",
+      "title": "Car catches fire on I-81 in Lackawanna County",
+      "title_distilled": "Car catches fire on I-81 in Lackawanna County.",
+      "description": "All passengers exited the vehicle before it caught fire.",
       "description_distilled": "",
-      "content": "The crash involving seven vehicles happened on I-81 North in Dunmore around 6:45 a.m. Thursday.",
-      "content_distilled": "crash involving seven vehicles happened on I-81 North in Dunmore around 6:45 a.",
+      "content": "All passengers exited the vehicle before it caught fire.",
+      "content_distilled": "All passengers exited the vehicle before it caught fire.",
       "graph": {
         "entities": [
           {
@@ -1007,105 +1120,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-20T13:48:33",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/traffic-flowing-after-multi-vehicle-crash-on-i-81-north-in-lackawanna-county-dunmore-moosic/523-f07a16f8-9d56-44b3-b7df-c414ccb29693",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Eureka Hose 4 mails out envelops for annual fund drive",
-      "title_distilled": "Eureka Hose 4 mails out envelops for annual fund drive.",
-      "description": "OLYPHANT, LACKWANNA COUNTY (WBRE/WYOU) \u2014 Eureka Hose Company Number 4 in Olyphant is holding its annual month-long envelope fund drive. The campaign collects donations from local residents to support the volunteer fire company's ongoing operations. The envelope drive stands as the fire department's largest annual fundraiser for operations. Residents living in parts of Lackawanna County will receive [...]",
-      "description_distilled": "",
-      "content": "OLYPHANT, LACKWANNA COUNTY (WBRE/WYOU) \u2014 Eureka Hose Company Number 4 in Olyphant is holding its annual month-long envelope fund drive. The campaign collects donations from local residents to support the volunteer fire company's ongoing operations. The envelope drive stands as the fire department's largest annual fundraiser for operations. Residents living in parts of Lackawanna County will receive [...]",
-      "content_distilled": "OLYPHANT, LACKWANNA COUNTY  \u2014 Eureka Hose Company Number 4 in Olyphant is holding its annual month-long envelope fund drive.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Eureka Hose",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/eureka-hose.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Company Number",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/company-number.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "for annual fund drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/for-annual-fund-drive.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "long envelope fund drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/long-envelope-fund-drive.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Eureka Hose Company",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/eureka-hose-company.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eureka H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Company </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">for annu</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">long env</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Eureka H</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Eureka Hose": "../entities/people/eureka-hose.md",
-          "Company Number": "../entities/people/company-number.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "for annual fund drive": "../entities/locations/for-annual-fund-drive.md",
-          "long envelope fund drive": "../entities/locations/long-envelope-fund-drive.md",
-          "Eureka Hose Company": "../entities/organizations/eureka-hose-company.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-08-21T03:08:21",
-      "url": "https://www.2822news.com/news/eureka-hose-4-mails-out-envelops-for-annual-fund-drive/",
+      "publishedAt": "2026-08-22T03:35:45",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/car-catches-fire-on-i-81-in-lackawanna-county/523-958b24b3-d6ce-4be6-b002-94ce5e972445",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1113,66 +1129,31 @@
     },
     {
       "id": "short_13",
-      "title": "New owner explores what's next for Rocky Glen Park",
-      "title_distilled": "New owner explores what's next for Rocky Glen Park.",
-      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local, legendary landmark: Rocky Glen Amusement Park is officially under new ownership. The park boomed in the 1900s, bringing thousands of people to the Moosic area for rides, live music, and more. What remains physically of Rocky Glen Amusement Park may only be old signs and photographs, but to [...]",
+      "title": "Father Joseph Adonizio reflects on seven decades of priesthood as he turns 100",
+      "title_distilled": "Father Joseph Adonizio reflects on seven decades of priesthood as he turns 100.",
+      "description": "Father Joseph Adonizio spoke about his life of faith and wisdom, which has touched nearly every corner of the Diocese of Scranton.",
       "description_distilled": "",
-      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local, legendary landmark: Rocky Glen Amusement Park is officially under new ownership. The park boomed in the 1900s, bringing thousands of people to the Moosic area for rides, live music, and more. What remains physically of Rocky Glen Amusement Park may only be old signs and photographs, but to [...]",
-      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 A local, legendary landmark: Rocky Glen Amusement Park is officially under new ownership.",
+      "content": "Father Joseph Adonizio spoke about his life of faith and wisdom, which has touched nearly every corner of the Diocese of Scranton.",
+      "content_distilled": "Father Joseph Adonizio spoke about his life of faith and wisdom, which has touched nearly every corner of the Diocese of Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Rocky Glen",
+            "name": "Father Joseph",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/rocky-glen.md",
+            "file_path": "../entities/people/father-joseph.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Amusement Park",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/amusement-park.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Glen Park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/glen-park.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The park",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/the-park.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rocky Gl</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Amusemen</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Glen Par</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The park</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Father J</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1183,18 +1164,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Rocky Glen": "../entities/people/rocky-glen.md",
-          "Amusement Park": "../entities/people/amusement-park.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Glen Park": "../entities/locations/glen-park.md",
-          "The park": "../entities/locations/the-park.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Father Joseph": "../entities/people/father-joseph.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-08-20T22:19:40",
-      "url": "https://www.2822news.com/news/local-news/new-owner-explores-whats-next-for-rocky-glen-park/",
+      "source": "Wnep",
+      "publishedAt": "2026-08-21T21:17:55",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/father-joseph-adonizio-reflects-on-seven-decades-of-priesthood-as-he-turns-100-hughestown-diocese-of-scranton/523-e78b8d07-f49f-4c7f-9f0d-bb29bf9f389b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1202,58 +1178,24 @@
     },
     {
       "id": "short_14",
-      "title": "NEPA data center opposition responds to executive order",
-      "title_distilled": "NEPA data center opposition responds to executive order.",
-      "description": "(WBRE/WYOU) \u2014 Following an executive order from the Pennsylvania governor's office to regulate data center projects, some community members talked about their takeaways from the order and what they feel still needs to happen. Executive Order 2026-05 was signed Tuesday by Gov. Josh Shapiro, enacting several requirements all data center proposals must meet before moving [...]",
+      "title": "Data center developer purchases land in Lackawanna County",
+      "title_distilled": "Data center developer purchases land in Lackawanna County.",
+      "description": "A company proposing a data center in Union County has purchased land in Archbald.",
       "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 Following an executive order from the Pennsylvania governor's office to regulate data center projects, some community members talked about their takeaways from the order and what they feel still needs to happen. Executive Order 2026-05 was signed Tuesday by Gov. Josh Shapiro, enacting several requirements all data center proposals must meet before moving [...]",
-      "content_distilled": " \u2014 Following an executive order from the Pennsylvania governor's office to regulate data center projects, some community members talked about their takeaways from the order and what they feel still needs to happen.",
+      "content": "A company proposing a data center in Union County has purchased land in Archbald.",
+      "content_distilled": "company proposing a data center in Union County has purchased land in Archbald.",
       "graph": {
         "entities": [
           {
-            "name": "Executive Order",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/executive-order.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Josh Shapiro",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/josh-shapiro.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Executive Order",
-            "to": "Pennsylvania",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Executiv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Josh Sha</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1264,16 +1206,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Executive Order": "../entities/people/executive-order.md",
-          "Josh Shapiro": "../entities/people/josh-shapiro.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-08-20T21:44:22",
-      "url": "https://www.2822news.com/news/data-centers/nepa-data-center-opposition-responds-to-executive-order/",
+      "source": "Wnep",
+      "publishedAt": "2026-08-21T20:11:39",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/data-center-developer-purchases-land-in-lackawanna-county-union-county-pnk-group-new-york-valley-view-business-park/523-ae322c41-692e-4e5f-b8b4-542d5c0454d5",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
