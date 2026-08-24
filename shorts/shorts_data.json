@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T11:05:33.238739",
-  "source_file": "../data/daily/scranton_news_2026-08-23.json",
+  "generated_at": "2026-08-24T11:08:43.151530",
+  "source_file": "../data/daily/scranton_news_2026-08-24.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -342,6 +342,142 @@
     },
     {
       "id": "short_3",
+      "title": "Knights defeat RailRiders, final game Sunday",
+      "title_distilled": "Knights defeat RailRiders, final game Sunday.",
+      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Scranton/Wilkes-Barre RailRiders had one inning of significant offensive production but still lost to the Charlotte Knights 9-6 Saturday night. Five of six runs came from the bottom of the third inning after trailin\u2026",
+      "description_distilled": "",
+      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Scranton/Wilkes-Barre RailRiders had one inning of significant offensive production but still lost to the Charlotte Knights 9-6 Saturday night. Five of six runs came from the bottom of the third inning after trailin\u2026",
+      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 The Scranton/Wilkes-Barre RailRiders had one inning of significant offensive production but still lost to the Charlotte Knights 9-6 Saturday night.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Charlotte Knights",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/charlotte-knights.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "final game",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/final-game.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Scranton",
+            "to": "Charlotte Knights",
+            "type": "LOST",
+            "verb": "lost"
+          },
+          {
+            "from": "Scranton",
+            "to": "Charlotte Knights",
+            "type": "LOST",
+            "verb": "lost"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Charlotte Knights",
+            "type": "LOST",
+            "verb": "lost"
+          },
+          {
+            "from": "WBRE",
+            "to": "Charlotte Knights",
+            "type": "LOST",
+            "verb": "lost"
+          },
+          {
+            "from": "WYOU",
+            "to": "Charlotte Knights",
+            "type": "LOST",
+            "verb": "lost"
+          },
+          {
+            "from": "final game",
+            "to": "Charlotte Knights",
+            "type": "LOST",
+            "verb": "lost"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Charlott</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOST</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOST</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOST</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOST</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOST</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Charlotte Knights": "../entities/people/charlotte-knights.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "final game": "../entities/events/final-game.md"
+        }
+      },
+      "source": "2822news.com",
+      "publishedAt": "2026-08-23T03:42:22Z",
+      "url": "https://www.2822news.com/sports/knights-defeat-railriders-final-game-sunday/",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/5c424698186644de0d65fcac1256b5faebe5fe44841291646bf4fdd07f442ccb/lightyear_networkapi/resizefill_w850_h650%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F3f66f67d24fef7704a1477ede22b5b0f.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
+    },
+    {
+      "id": "short_4",
       "title": "Scranton sweeps 2026 Riverfront High School Elite Tournament",
       "title_distilled": "Scranton sweeps 2026 Riverfront High School Elite Tournament.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Riverfront Sports hosted the 2026 Riverfront High School Elite Tournament, where teams from across NEPA compete in boys and girls brackets for the right to become champions. The girls\u2019 bracket had 10 teams, while the b\u2026",
@@ -463,11 +599,11 @@
       "url": "https://www.2822news.com/news/scranton-sweeps-2026-riverfront-high-school-elite-tournament/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/c92499eccea5ca78a4279d5f547cfcfe6d490f0cf7c550f518cabdc8194b33f3/lightyear_networkapi/resizefill_w900_h506;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fad8751e927dc06a2369ed281a5028e1e",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money",
       "title_distilled": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money.",
       "description": "The article explains how recognizing early insulation problems can improve comfort and support better energy efficiency. CLARKS SUMMIT, Pa., Aug. 13, 2026 /PRNewswire/ -- How do you know if your at...",
@@ -560,11 +696,11 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-insulation-expert-mike-mancuso-explains-signs-your-attic-insulation-is-costing-you-money-302850916.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1969261/Mike-Mancuso-PR-1.mp4?id=OA2882147&p=thumbnail",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "America\u2019s broken permitting system is quietly raising your cost of living",
       "title_distilled": "America\u2019s broken permitting system is quietly raising your cost of living.",
       "description": "America's broken NEPA permitting system drives up housing costs, energy prices and manufacturing delays, but bipartisan reform bills offer a fix.",
@@ -591,11 +727,11 @@
       "url": "https://www.foxnews.com/opinion/americas-broken-permitting-system-quietly-raising-cost-living",
       "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/home-construction-building.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "Why does it seem like food recalls are out of control this year?",
       "title_distilled": "Why does it seem like food recalls are out of control this year?.",
       "description": "Just weeks after Taylor Farms issued a recall of its iceberg lettuce amid a massive cyclospora outbreak, the Food and Drug Administration recalled more than one million eggs that may be contaminated with salmonella. The eggs, which come from Midwest Poultry S\u2026",
@@ -648,11 +784,11 @@
       "url": "https://www.theverge.com/science/983241/food-recalls-bigger-out-of-control",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2291059497.jpg?quality=90&strip=all&crop=0%2C10.6649069428%2C100%2C78.670186114399&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania",
       "title_distilled": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania.",
       "description": "The article explains how preventive maintenance, regular inspections, and timely repairs can help protect roofs from the region's snow, ice, rain, and seasonal weather. SAYLORSBURG, Pa., Aug. 19, 2...",
@@ -734,11 +870,11 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-roofing-expert-justin-bernard-of-saylorsburg-shares-how-to-extend-the-lifespan-of-a-roof-in-northeastern-pennsylvania-302855310.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1972296/Justin-Bernard-Owner-Bernard-and-Sons-Roofing.mp4?id=OA2897369&p=thumbnail",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "HS SPORTS: Mahon named athletic director at Scranton Prep",
       "title_distilled": "HS SPORTS: Mahon named athletic director at Scranton Prep.",
       "description": "Michael Mahon, Ph.D., is eager and excited about returning to his alma mater as the athletic director at Scranton Prep. Mahon, a former teacher, principal, superintendent, higher education administrator, and coach, replaces Grey Simpson, who resigned after th\u2026",
@@ -805,11 +941,11 @@
       "url": "https://www.thetimes-tribune.com/2026/08/03/hs-sports-mahon-named-athletic-director-at-scranton-prep/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre",
       "title_distilled": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre.",
       "description": "Local physical therapist Vanessa Lanfrank brings personalized senior living guidance to families across northeastern Pennsylvania SCRANTON, Pa., July 29, 2026 /PRNewswire/ -- Trua Senior Living Locators, a service that helps seniors and their families find li\u2026",
@@ -904,11 +1040,11 @@
       "url": "https://www.prnewswire.com/news-releases/trua-senior-living-locators-launches-in-scranton-and-wilkes-barre-302838096.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads",
       "title_distilled": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads.",
       "description": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
@@ -996,11 +1132,11 @@
       "url": "https://fortune.com/2026/07/28/cognetti-bresnahan-pennsylvania-data-centers-ad/",
       "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26208806478921-e1785238253858.jpg?resize=1200,600",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
       "title": "Norwood Financial price target raised by $1 at Stephens, here's why",
       "title_distilled": "Norwood Financial price target raised by $1 at Stephens, here's why.",
       "description": "See the rest of the story here. thefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual inves...",
@@ -1045,112 +1181,29 @@
       "url": "https://www.thefly.com/NWFL",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Kids explore future careers at community fair in Scranton",
-      "title_distilled": "Kids explore future careers at community fair in Scranton.",
-      "description": "Newswatch 16 was on hand to show kids what it's like to be apart of WNEP.",
-      "description_distilled": "",
-      "content": "Newswatch 16 was on hand to show kids what it's like to be apart of WNEP.",
-      "content_distilled": "Newswatch 16 was on hand to show kids what it's like to be apart of WNEP.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Newswatch",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-newswatch.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton Newswatch": "../entities/people/scranton-newswatch.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-08-22T22:21:39",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/kids-explore-future-careers-community-fair-scranton-lackawanna-county/523-46de6a12-1ea5-4c69-b417-f443097e3838",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Lackawanna County softball tournament raises funds for cancer support",
-      "title_distilled": "Lackawanna County softball tournament raises funds for cancer support.",
-      "description": "The Strong and Coura'Jess Foundation's annual softball tournament in Throop raises funds for holistic services for local people going through cancer treatment.",
+      "title": "Pasta dinner held to benefit family who lost their house after an explosion",
+      "title_distilled": "Pasta dinner held to benefit family who lost their house after an explosion.",
+      "description": "A community in Lackawanna County rallied to support a couple who lost their home in a June explosion, hosting a fundraiser to aid their recovery efforts.",
       "description_distilled": "",
-      "content": "The Strong and Coura'Jess Foundation's annual softball tournament in Throop raises funds for holistic services for local people going through cancer treatment.",
-      "content_distilled": "Strong and Coura'Jess Foundation's annual softball tournament in Throop raises funds for holistic services for local people going through cancer treatment.",
+      "content": "A community in Lackawanna County rallied to support a couple who lost their home in a June explosion, hosting a fundraiser to aid their recovery efforts.",
+      "content_distilled": "community in Lackawanna County rallied to support a couple who lost their home in a June explosion, hosting a fundraiser to aid their recovery efforts.",
       "graph": {
         "entities": [
-          {
-            "name": "Jess Foundation",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/jess-foundation.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Strong",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-strong.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County softball tournament",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/lackawanna-county-softball-tournament.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "annual softball tournament",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/annual-softball-tournament.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "The Strong",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jess Fou</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Stro</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">annual s</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1161,16 +1214,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Jess Foundation": "../entities/works/movies/jess-foundation.md",
-          "The Strong": "../entities/people/the-strong.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Lackawanna County softball tournament": "../entities/events/lackawanna-county-softball-tournament.md",
-          "annual softball tournament": "../entities/events/annual-softball-tournament.md"
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-22T22:17:14",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-softball-tournament-raises-funds-cancer-support-throop/523-88904240-7c33-4201-b30e-3a0acb2c6d1d",
+      "publishedAt": "2026-08-23T21:36:25",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pasta-dinner-held-benefit-family-who-lost-their-house-after-explosion-lackawanna-wayne-county/523-87b0f4ba-2fd6-4a8b-8389-897971adfd0b",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1178,38 +1227,45 @@
     },
     {
       "id": "short_14",
-      "title": "Scranton veteran whose esophageal cancer was thought linked to Afghanistan burn pits dies",
-      "title_distilled": "Scranton veteran whose esophageal cancer was thought linked to Afghanistan burn pits dies.",
-      "description": "Sergeant First Class Paul Welby, of Scranton, died Friday at the age of 43",
+      "title": "Community comes together for summer beach party",
+      "title_distilled": "Community comes together for summer beach party.",
+      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Families gathered at Aylesworth Park in Lackawanna County for a summer beach party designed to bring the local community together and offer a spot to cool off. The afternoon event featured outdoor recreation, including swimming, live music and a sandcastle building contest. Lackawanna County lifeguards also provided free rowboat rides [...]",
       "description_distilled": "",
-      "content": "Sergeant First Class Paul Welby, of Scranton, died Friday at the age of 43",
-      "content_distilled": "Sergeant First Class Paul Welby, of Scranton, died Friday at the age of 43.",
+      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Families gathered at Aylesworth Park in Lackawanna County for a summer beach party designed to bring the local community together and offer a spot to cool off. The afternoon event featured outdoor recreation, including swimming, live music and a sandcastle building contest. Lackawanna County lifeguards also provided free rowboat rides [...]",
+      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 Families gathered at Aylesworth Park in Lackawanna County for a summer beach party designed to bring the local community together and offer a spot to cool off.",
       "graph": {
         "entities": [
           {
-            "name": "Sergeant First",
+            "name": "Aylesworth Park",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/sergeant-first.md",
+            "file_path": "../entities/people/aylesworth-park.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Class Paul",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/class-paul.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sergeant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Class Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ayleswor</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1220,14 +1276,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Sergeant First": "../entities/people/sergeant-first.md",
-          "Class Paul": "../entities/people/class-paul.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Aylesworth Park": "../entities/people/aylesworth-park.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-08-22T21:50:15",
-      "url": "https://www.wnep.com/article/news/nation-world/scranton-veteran-paul-welby-cancer-afghanistan-burn-put-dies/523-92f9fdcf-e405-446f-a9b2-02c014247810",
+      "source": "Wbre",
+      "publishedAt": "2026-08-23T23:22:49",
+      "url": "https://www.2822news.com/news/local-news/community-comes-together-for-summer-beach-party/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
