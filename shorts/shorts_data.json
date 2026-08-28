@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T14:40:31.669617",
-  "source_file": "../data/daily/scranton_news_2026-08-27.json",
+  "generated_at": "2026-08-28T15:00:38.086481",
+  "source_file": "../data/daily/scranton_news_2026-08-28.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1267,24 +1267,58 @@
     },
     {
       "id": "short_14",
-      "title": "Fire breaks out at a home in Scranton",
-      "title_distilled": "Fire breaks out at a home in Scranton.",
-      "description": "It is unknown if anyone was injured.",
+      "title": "Sergeant First Class Paul Welby's passing is remembered in Scranton after nearly 20 years of military service",
+      "title_distilled": "Sergeant First Class Paul Welby's passing is remembered in Scranton after nearly 20 years of military service.",
+      "description": "Welby served in the Pennsylvania National Guard for 19 years before he passed away following a brave battle with cancer",
       "description_distilled": "",
-      "content": "It is unknown if anyone was injured.",
-      "content_distilled": "It is unknown if anyone was injured.",
+      "content": "Welby served in the Pennsylvania National Guard for 19 years before he passed away following a brave battle with cancer",
+      "content_distilled": "Welby served in the Pennsylvania National Guard for 19 years before he passed away following a brave battle with cancer.",
       "graph": {
         "entities": [
+          {
+            "name": "Sergeant First",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sergeant-first.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Class Paul",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/class-paul.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania National",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-national.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sergeant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Class Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1295,12 +1329,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Sergeant First": "../entities/people/sergeant-first.md",
+          "Class Paul": "../entities/people/class-paul.md",
+          "Pennsylvania National": "../entities/people/pennsylvania-national.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-27T03:22:06",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-breaks-out-home-scranton-lackawanna-county/523-445410be-8b9c-4591-a637-e50bdf2d26de",
+      "publishedAt": "2026-08-28T03:30:16",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/sergeant-first-class-paul-welbys-passing-is-remembered-in-scranton-after-nearly-20-years-of-military-service/523-2223eac5-1085-41ad-bddf-661008d88558",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
