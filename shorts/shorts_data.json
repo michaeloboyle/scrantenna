@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T15:00:38.086481",
-  "source_file": "../data/daily/scranton_news_2026-08-28.json",
+  "generated_at": "2026-08-29T11:04:50.392667",
+  "source_file": "../data/daily/scranton_news_2026-08-29.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -813,6 +813,77 @@
     },
     {
       "id": "short_8",
+      "title": "In 2022, researchers began work on a 3/4-mile Cherry Creek restoration in Pennsylvania. 4 years later, the stream has better habitat, cleaner water and healthier floodplains now",
+      "title_distilled": "In 2022, researchers began work on a 3/4-mile Cherry Creek restoration in Pennsylvania.",
+      "description": "A restoration project along a three-quarter-mile section of Cherry Creek at TNC\u2019s Blakeslee Preserve in northeastern Pennsylvania began in August 2022 after years of planning and COVID-related delays. TNC partnered with the U.S. Fish and Wildlife Service, Nat\u2026",
+      "description_distilled": "",
+      "content": "A restoration project along a three-quarter-mile section of Cherry Creek at TNC\u2019s Blakeslee Preserve in northeastern Pennsylvania began in August 2022 after years of planning and COVID-related delays. TNC partnered with the U.S. Fish and Wildlife Service, Nat\u2026",
+      "content_distilled": "restoration project along a three-quarter-mile section of Cherry Creek at TNC\u2019s Blakeslee Preserve in northeastern Pennsylvania began in August 2022 after years of planning and COVID-related delays.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Cherry Creek",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/cherry-creek.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Blakeslee Preserve",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/blakeslee-preserve.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Wildlife Service",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wildlife-service.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Cherry Creek",
+            "to": "Pennsylvania",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cherry C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blakesle</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wildlife</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Cherry Creek": "../entities/people/cherry-creek.md",
+          "Blakeslee Preserve": "../entities/people/blakeslee-preserve.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Wildlife Service": "../entities/organizations/wildlife-service.md"
+        }
+      },
+      "source": "The Times of India",
+      "publishedAt": "2026-08-27T17:11:56Z",
+      "url": "https://economictimes.indiatimes.com/news/international/us/in-2022-researchers-began-work-on-a-3/4-mile-cherry-creek-restoration-in-pennsylvania-4-years-later-the-stream-has-better-habitat-cleaner-water-and-healthier-floodplains-now/articleshow/133573746.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-133573746,width-1200,height-630,imgsize-375884,overlay-economictimes/articleshow.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
       "title": "Cody Bellinger discusses rehab assignment at Triple-A Scranton",
       "title_distilled": "Cody Bellinger discusses rehab assignment at Triple-A Scranton.",
       "description": "The Yankees\u2019 All-Star outfielder will return from a hamstring strain after two games with the RailRiders.",
@@ -857,11 +928,11 @@
       "url": "https://www.pinstripealley.com/yankees-injuries/203859/yankees-cody-bellinger-rehab-aaa-scranton-report-update-moosic",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/588c1849fa904d3f9c92db894427c48687e3e03f0de53378224429ab4fcbf029/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F4b7c22e971a601f43258023e9ef1173e.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Why does it seem like food recalls are out of control this year?",
       "title_distilled": "Why does it seem like food recalls are out of control this year?.",
       "description": "Just weeks after Taylor Farms issued a recall of its iceberg lettuce amid a massive cyclospora outbreak, the Food and Drug Administration recalled more than one million eggs that may be contaminated with salmonella. The eggs, which come from Midwest Poultry S\u2026",
@@ -914,11 +985,11 @@
       "url": "https://www.theverge.com/science/983241/food-recalls-bigger-out-of-control",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2291059497.jpg?quality=90&strip=all&crop=0%2C10.6649069428%2C100%2C78.670186114399&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania",
       "title_distilled": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania.",
       "description": "The article explains how preventive maintenance, regular inspections, and timely repairs can help protect roofs from the region's snow, ice, rain, and seasonal weather. SAYLORSBURG, Pa., Aug. 19, 2...",
@@ -1000,11 +1071,11 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-roofing-expert-justin-bernard-of-saylorsburg-shares-how-to-extend-the-lifespan-of-a-roof-in-northeastern-pennsylvania-302855310.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1972296/Justin-Bernard-Owner-Bernard-and-Sons-Roofing.mp4?id=OA2897369&p=thumbnail",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
       "title": "HS SPORTS: Mahon named athletic director at Scranton Prep",
       "title_distilled": "HS SPORTS: Mahon named athletic director at Scranton Prep.",
       "description": "Michael Mahon, Ph.D., is eager and excited about returning to his alma mater as the athletic director at Scranton Prep. Mahon, a former teacher, principal, superintendent, higher education administrator, and coach, replaces Grey Simpson, who resigned after th\u2026",
@@ -1071,11 +1142,11 @@
       "url": "https://www.thetimes-tribune.com/2026/08/03/hs-sports-mahon-named-athletic-director-at-scranton-prep/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre",
       "title_distilled": "Trua Senior Living Locators Launches in Scranton and Wilkes-Barre.",
       "description": "Local physical therapist Vanessa Lanfrank brings personalized senior living guidance to families across northeastern Pennsylvania SCRANTON, Pa., July 29, 2026 /PRNewswire/ -- Trua Senior Living Locators, a service that helps seniors and their families find li\u2026",
@@ -1170,11 +1241,11 @@
       "url": "https://www.prnewswire.com/news-releases/trua-senior-living-locators-launches-in-scranton-and-wilkes-barre-302838096.html",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_13",
+      "id": "short_14",
       "title": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads",
       "title_distilled": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads.",
       "description": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
@@ -1261,85 +1332,6 @@
       "publishedAt": "2026-07-28T11:31:09Z",
       "url": "https://fortune.com/2026/07/28/cognetti-bresnahan-pennsylvania-data-centers-ad/",
       "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26208806478921-e1785238253858.jpg?resize=1200,600",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Sergeant First Class Paul Welby's passing is remembered in Scranton after nearly 20 years of military service",
-      "title_distilled": "Sergeant First Class Paul Welby's passing is remembered in Scranton after nearly 20 years of military service.",
-      "description": "Welby served in the Pennsylvania National Guard for 19 years before he passed away following a brave battle with cancer",
-      "description_distilled": "",
-      "content": "Welby served in the Pennsylvania National Guard for 19 years before he passed away following a brave battle with cancer",
-      "content_distilled": "Welby served in the Pennsylvania National Guard for 19 years before he passed away following a brave battle with cancer.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Sergeant First",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sergeant-first.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Class Paul",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/class-paul.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania National",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-national.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sergeant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Class Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Sergeant First": "../entities/people/sergeant-first.md",
-          "Class Paul": "../entities/people/class-paul.md",
-          "Pennsylvania National": "../entities/people/pennsylvania-national.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-08-28T03:30:16",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/sergeant-first-class-paul-welbys-passing-is-remembered-in-scranton-after-nearly-20-years-of-military-service/523-2223eac5-1085-41ad-bddf-661008d88558",
-      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
