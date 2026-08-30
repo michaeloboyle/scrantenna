@@ -1,12 +1,82 @@
 {
-  "generated_at": "2026-08-29T11:04:50.392667",
-  "source_file": "../data/daily/scranton_news_2026-08-29.json",
+  "generated_at": "2026-08-30T11:06:06.668715",
+  "source_file": "../data/daily/scranton_news_2026-08-30.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Student asks Supreme Court to overturn ruling blocking public aid for religious studies",
+      "title_distilled": "Student asks Supreme Court to overturn ruling blocking public aid for religious studies.",
+      "description": "A student challenges a 2004 Supreme Court decision, the Diocese of Scranton reopens its seminary, and Benedictine College names a speaker for its library dedication in this week\u2019s education roundup.",
+      "description_distilled": "",
+      "content": "A student challenges a 2004 Supreme Court decision, the Diocese of Scranton reopens its seminary, and Benedictine College names a speaker for its library dedication in this week\u2019s education roundup.",
+      "content_distilled": "student challenges a 2004 Supreme Court decision, the Diocese of Scranton reopens its seminary, and Benedictine College names a speaker for its library dedication in this week\u2019s education roundup.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Supreme Court",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/supreme-court.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Benedictine College",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/benedictine-college.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Supreme Court",
+            "to": "Benedictine College",
+            "type": "STUDIES",
+            "verb": "studies"
+          },
+          {
+            "from": "Supreme Court",
+            "to": "Scranton",
+            "type": "STUDIES",
+            "verb": "studies"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Supreme </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Benedict</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STUDIES</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STUDIES</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Supreme Court": "../entities/people/supreme-court.md",
+          "Benedictine College": "../entities/people/benedictine-college.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Ewtnnews.com",
+      "publishedAt": "2026-08-28T21:25:34Z",
+      "url": "https://www.ewtnnews.com/world/us/student-asks-supreme-court-to-overturn-ruling-blocking-public-aid-for-religious-studies",
+      "urlToImage": "https://res.cloudinary.com/ewtn/image/upload/c_fill,g_auto,w_1200,h_630/v1777474298/shutterstock_2342942251_mnzutx.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "In Pennsylvania House race, it\u2019s pink heels vs. drag queens",
       "title_distilled": "In Pennsylvania House race, it\u2019s pink heels vs.",
       "description": "The News A fight over drag has broken out in Scranton, Pennsylvania, where Democratic Mayor Paige Cognetti is running for Congress against Republican Rep. Rob Bresnahan. It began with a photo of the mayor and a drag queen at the city\u2019s 2025 Pride flag raising\u2026",
@@ -115,11 +185,11 @@
       "url": "https://biztoc.com/x/cb672098047b898a",
       "urlToImage": "https://biztoc.com/cdn/cb672098047b898a_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Tours: Evan Greer and Mirah announce US tour dates",
       "title_distilled": "Tours: Evan Greer and Mirah announce US tour dates.",
       "description": "Evan Greer and Mirah have announced tour dates for the Northeastern US. The tour begins on October 1 in Holyoke, Massachusetts and wraps up on October 11 in Scranton, Pennsylvania. Sad13 will be joining them on the last two dates of the tour. Check out the da\u2026",
@@ -183,11 +253,11 @@
       "url": "https://www.punknews.org/article/88881/tours-evan-greer-and-mirah-announce-us-tour-dates",
       "urlToImage": "https://static.punknews.org/images/frontpage/fp-1786629720.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money",
       "title_distilled": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money.",
       "description": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026",
@@ -337,11 +407,11 @@
       "url": "https://biztoc.com/x/31f004b3b962cbe2",
       "urlToImage": "https://biztoc.com/cdn/31f004b3b962cbe2_s.webp",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "11 new members selected for NEPA Hall of Fame",
       "title_distilled": "11 new members selected for NEPA Hall of Fame.",
       "description": "(WBRE/WYOU)\u2014 There will be 11 new members of the Northeastern Pennsylvania Sports Hall of Fame after the induction ceremonies on Sunday, October 4th. The new class was announced ahead of enshrinement at Fiorelli\u2019s in Peckville come this fall. This year\u2019s clas\u2026",
@@ -418,11 +488,11 @@
       "url": "https://www.2822news.com/news/11-new-members-selected-for-nepa-hall-of-fame/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/d12694091503a338ca0dd9c18753a82f5838a41346f42680b61df6d3e0d830d9/lightyear_networkapi/resizefill_w664_h368%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fb8c86970d312ec446dabc11dbc961d4f.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Knights defeat RailRiders, final game Sunday",
       "title_distilled": "Knights defeat RailRiders, final game Sunday.",
       "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Scranton/Wilkes-Barre RailRiders had one inning of significant offensive production but still lost to the Charlotte Knights 9-6 Saturday night. Five of six runs came from the bottom of the third inning after trailin\u2026",
@@ -553,132 +623,6 @@
       "publishedAt": "2026-08-23T03:42:22Z",
       "url": "https://www.2822news.com/sports/knights-defeat-railriders-final-game-sunday/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/5c424698186644de0d65fcac1256b5faebe5fe44841291646bf4fdd07f442ccb/lightyear_networkapi/resizefill_w850_h650%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F3f66f67d24fef7704a1477ede22b5b0f.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
-    },
-    {
-      "id": "short_5",
-      "title": "Scranton sweeps 2026 Riverfront High School Elite Tournament",
-      "title_distilled": "Scranton sweeps 2026 Riverfront High School Elite Tournament.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Riverfront Sports hosted the 2026 Riverfront High School Elite Tournament, where teams from across NEPA compete in boys and girls brackets for the right to become champions. The girls\u2019 bracket had 10 teams, while the b\u2026",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Riverfront Sports hosted the 2026 Riverfront High School Elite Tournament, where teams from across NEPA compete in boys and girls brackets for the right to become champions. The girls\u2019 bracket had 10 teams, while the b\u2026",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 Riverfront Sports hosted the 2026 Riverfront High School Elite Tournament, where teams from across NEPA compete in boys and girls brackets for the right to become champions.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Riverfront High",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/riverfront-high.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "School Elite",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/school-elite.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Riverfront Sports",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/riverfront-sports.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Riverfront High School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/riverfront-high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Riverfront High School Elite Tournament",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/riverfront-high-school-elite-tournament.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "Riverfront High School",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Riverfro</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School E</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Riverfro</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Riverfro</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Riverfront High": "../entities/people/riverfront-high.md",
-          "School Elite": "../entities/people/school-elite.md",
-          "Riverfront Sports": "../entities/people/riverfront-sports.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Riverfront High School": "../entities/organizations/riverfront-high-school.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Riverfront High School Elite Tournament": "../entities/events/riverfront-high-school-elite-tournament.md"
-        }
-      },
-      "source": "2822news.com",
-      "publishedAt": "2026-07-29T03:12:44Z",
-      "url": "https://www.2822news.com/news/scranton-sweeps-2026-riverfront-high-school-elite-tournament/",
-      "urlToImage": "https://s.yimg.com/lo/mysterio/api/c92499eccea5ca78a4279d5f547cfcfe6d490f0cf7c550f518cabdc8194b33f3/lightyear_networkapi/resizefill_w900_h506;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fad8751e927dc06a2369ed281a5028e1e",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
       "animation_delay": 0.5
@@ -1246,70 +1190,45 @@
     },
     {
       "id": "short_14",
-      "title": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads",
-      "title_distilled": "\u2018We\u2019re not for sale\u2019: Pennsylvania Democrat spotlights data-center fury in campaign ads.",
-      "description": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
+      "title": "Archbald's Black Diamond Hose Co. fights to stay open amid consolidation talks",
+      "title_distilled": "Archbald's Black Diamond Hose Co.",
+      "description": "The Black Diamond Hose Company in Archbald has served the community for over 125 years.",
       "description_distilled": "",
-      "content": "The race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
-      "content_distilled": "race between Paige Cognetti, the mayor of Scranton, and Rob Bresnahan is considered one of the Democratic Party's best opportunities to pick up a seat.",
+      "content": "The Black Diamond Hose Company in Archbald has served the community for over 125 years.",
+      "content_distilled": "Black Diamond Hose Company in Archbald has served the community for over 125 years.",
       "graph": {
         "entities": [
           {
-            "name": "Pennsylvania Democrat",
+            "name": "Black Diamond",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-democrat.md",
+            "file_path": "../entities/people/black-diamond.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Paige Cognetti",
+            "name": "The Black",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
+            "file_path": "../entities/people/the-black.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Rob Bresnahan",
+            "name": "Diamond Hose",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/rob-bresnahan.md",
+            "file_path": "../entities/people/diamond-hose.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Democratic Party",
-            "type": "PERSON",
+            "name": "The Black Diamond Hose Company",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/democratic-party.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/organizations/the-black-diamond-hose-company.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Rob Bresnahan",
-            "to": "Pennsylvania Democrat",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rob Bres</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Democrat</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Black Di</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Blac</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Diamond </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Blac</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1320,18 +1239,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Pennsylvania Democrat": "../entities/people/pennsylvania-democrat.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
-          "Rob Bresnahan": "../entities/people/rob-bresnahan.md",
-          "Democratic Party": "../entities/people/democratic-party.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Black Diamond": "../entities/people/black-diamond.md",
+          "The Black": "../entities/people/the-black.md",
+          "Diamond Hose": "../entities/people/diamond-hose.md",
+          "The Black Diamond Hose Company": "../entities/organizations/the-black-diamond-hose-company.md"
         }
       },
-      "source": "Fortune",
-      "publishedAt": "2026-07-28T11:31:09Z",
-      "url": "https://fortune.com/2026/07/28/cognetti-bresnahan-pennsylvania-data-centers-ad/",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26208806478921-e1785238253858.jpg?resize=1200,600",
+      "source": "Wnep",
+      "publishedAt": "2026-08-30T02:22:09",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/archbalds-black-diamond-hose-co-fights-to-stay-open-amid-consolidation-talks-lackawanna-county/523-42302bb7-2b91-467c-9c4f-57658be93eff",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
