@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T11:05:59.358763",
-  "source_file": "../data/daily/scranton_news_2026-09-01.json",
+  "generated_at": "2026-09-02T11:05:46.955292",
+  "source_file": "../data/daily/scranton_news_2026-09-02.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1091,19 +1091,33 @@
     },
     {
       "id": "short_13",
-      "title": "Pedestrian hospitalized after being hit by car in Scranton",
-      "title_distilled": "Pedestrian hospitalized after being hit by car in Scranton.",
-      "description": "Crews responded to Route 307 in Scranton early Tuesday morning after a person was hit by a car.",
+      "title": "Isla Paraiso restaurant in Scranton ordered to be closed by Lackawanna County District Attorney's Office after disturbance complaints",
+      "title_distilled": "Isla Paraiso restaurant in Scranton ordered to be closed by Lackawanna County District Attorney's Office after disturbance complaints.",
+      "description": "The Scranton restaurant received a petition to be closed permanently after incidents of noise, fights, and gunshots outside the business.",
       "description_distilled": "",
-      "content": "Crews responded to Route 307 in Scranton early Tuesday morning after a person was hit by a car.",
-      "content_distilled": "Crews responded to Route 307 in Scranton early Tuesday morning after a person was hit by a car.",
+      "content": "The Scranton restaurant received a petition to be closed permanently after incidents of noise, fights, and gunshots outside the business.",
+      "content_distilled": "Scranton restaurant received a petition to be closed permanently after incidents of noise, fights, and gunshots outside the business.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Crews",
+            "name": "Isla Paraiso",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-crews.md",
+            "file_path": "../entities/people/isla-paraiso.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "District Attorney",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/district-attorney.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1112,10 +1126,65 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Isla Paraiso",
+            "to": "District Attorney",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Isla Paraiso",
+            "to": "The Scranton",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Isla Paraiso",
+            "to": "Scranton",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Isla Paraiso",
+            "to": "Lackawanna County",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "District Attorney",
+            "to": "Scranton",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "The Scranton",
+            "to": "Scranton",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Scranton",
+            "to": "Lackawanna County",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Isla Paraiso",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Isla Par</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">District</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1126,13 +1195,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Crews": "../entities/people/scranton-crews.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Isla Paraiso": "../entities/people/isla-paraiso.md",
+          "District Attorney": "../entities/people/district-attorney.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-09-01T10:06:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pedestrian-hospitalized-after-being-hit-by-car-in-scranton/523-2786dd37-53be-456f-81ce-66f693428801",
+      "publishedAt": "2026-09-02T03:09:38",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/isla-paraiso-restaurant-scranton-ordered-closed-lackawanna-county-district-attorneys-office-after-disturbance-complaints/523-ac677ee5-cd63-4ffa-8be2-8a040b0d90d3",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1140,24 +1212,45 @@
     },
     {
       "id": "short_14",
-      "title": "University of Scranton welcomes hundreds of students for fall semester",
-      "title_distilled": "University of Scranton welcomes hundreds of students for fall semester.",
-      "description": "Nearly 1,000 freshmen are starting classes this week, officials say.",
+      "title": "'Miracles could happen, right?' Read the interview with a Dunmore man praying for his brother's safety in Nepal",
+      "title_distilled": "'Miracles could happen, right?' Read the interview with a Dunmore man praying for his brother's safety in Nepal.",
+      "description": "Newswatch 16's Stacy Lange spoke with Saroj Shrestha, a Dunmore man who went to Nepal to care for his mother and who is now searching for his missing brother",
       "description_distilled": "",
-      "content": "Nearly 1,000 freshmen are starting classes this week, officials say.",
-      "content_distilled": "Nearly 1,000 freshmen are starting classes this week, officials say.",
+      "content": "Newswatch 16's Stacy Lange spoke with Saroj Shrestha, a Dunmore man who went to Nepal to care for his mother and who is now searching for his missing brother",
+      "content_distilled": "Newswatch 16's Stacy Lange spoke with Saroj Shrestha, a Dunmore man who went to Nepal to care for his mother and who is now searching for his missing brother.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Miracles could happen, right?",
+            "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/works/movies/miracles-could-happen-right.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nepal Newswatch",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nepal-newswatch.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Stacy Lange",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/stacy-lange.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Saroj Shrestha",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/saroj-shrestha.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Miracles</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nepal Ne</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stacy La</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saroj Sh</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1168,12 +1261,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
+          "Miracles could happen, right?": "../entities/works/movies/miracles-could-happen-right.md",
+          "Nepal Newswatch": "../entities/people/nepal-newswatch.md",
+          "Stacy Lange": "../entities/people/stacy-lange.md",
+          "Saroj Shrestha": "../entities/people/saroj-shrestha.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-08-31T14:48:02",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/university-of-scranton-welcomes-hundreds-of-students-for-fall-semester-downtown-lackawanna-county/523-caac573c-6409-407c-bc66-c55c7c62af47",
+      "publishedAt": "2026-09-01T23:20:34",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepal-flooding-interview-transcript-stacy-lange-saroj-niraj-shrestha-landslide/523-17f9f36b-9e22-4075-9922-3c1b33e5775a",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
