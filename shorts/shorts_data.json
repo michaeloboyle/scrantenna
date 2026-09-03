@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-02T11:05:46.955292",
-  "source_file": "../data/daily/scranton_news_2026-09-02.json",
+  "generated_at": "2026-09-03T11:06:13.807905",
+  "source_file": "../data/daily/scranton_news_2026-09-03.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1091,33 +1091,26 @@
     },
     {
       "id": "short_13",
-      "title": "Isla Paraiso restaurant in Scranton ordered to be closed by Lackawanna County District Attorney's Office after disturbance complaints",
-      "title_distilled": "Isla Paraiso restaurant in Scranton ordered to be closed by Lackawanna County District Attorney's Office after disturbance complaints.",
-      "description": "The Scranton restaurant received a petition to be closed permanently after incidents of noise, fights, and gunshots outside the business.",
+      "title": "La Festa Italiana marks 50 years of Italian heritage celebration in Scranton",
+      "title_distilled": "La Festa Italiana marks 50 years of Italian heritage celebration in Scranton.",
+      "description": "Join Scranton's La Festa Italiana for its 50th anniversary, featuring Italian foods, entertainment, and lots of fun.",
       "description_distilled": "",
-      "content": "The Scranton restaurant received a petition to be closed permanently after incidents of noise, fights, and gunshots outside the business.",
-      "content_distilled": "Scranton restaurant received a petition to be closed permanently after incidents of noise, fights, and gunshots outside the business.",
+      "content": "Join Scranton's La Festa Italiana for its 50th anniversary, featuring Italian foods, entertainment, and lots of fun.",
+      "content_distilled": "Join Scranton's La Festa Italiana for its 50th anniversary, featuring Italian foods, entertainment, and lots of fun.",
       "graph": {
         "entities": [
           {
-            "name": "Isla Paraiso",
+            "name": "Festa Italiana",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/isla-paraiso.md",
+            "file_path": "../entities/people/festa-italiana.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "District Attorney",
+            "name": "Scranton Join",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/district-attorney.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
+            "file_path": "../entities/people/scranton-join.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1128,63 +1121,26 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "years of Italian heritage celebration",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/events/years-of-italian-heritage-celebration.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Isla Paraiso",
-            "to": "District Attorney",
-            "type": "CLOSED",
-            "verb": "closed"
+            "from": "years of Italian heritage celebration",
+            "to": "Scranton Join",
+            "type": "MEMBER_OF"
           },
           {
-            "from": "Isla Paraiso",
-            "to": "The Scranton",
-            "type": "CLOSED",
-            "verb": "closed"
-          },
-          {
-            "from": "Isla Paraiso",
-            "to": "Scranton",
-            "type": "CLOSED",
-            "verb": "closed"
-          },
-          {
-            "from": "Isla Paraiso",
-            "to": "Lackawanna County",
-            "type": "CLOSED",
-            "verb": "closed"
-          },
-          {
-            "from": "District Attorney",
-            "to": "Scranton",
-            "type": "CLOSED",
-            "verb": "closed"
-          },
-          {
-            "from": "The Scranton",
-            "to": "Scranton",
-            "type": "CLOSED",
-            "verb": "closed"
-          },
-          {
-            "from": "Scranton",
-            "to": "Lackawanna County",
-            "type": "CLOSED",
-            "verb": "closed"
-          },
-          {
-            "from": "Isla Paraiso",
+            "from": "years of Italian heritage celebration",
             "to": "Scranton",
             "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Isla Par</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">District</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festa It</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">years of</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1195,16 +1151,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Isla Paraiso": "../entities/people/isla-paraiso.md",
-          "District Attorney": "../entities/people/district-attorney.md",
-          "The Scranton": "../entities/people/the-scranton.md",
+          "Festa Italiana": "../entities/people/festa-italiana.md",
+          "Scranton Join": "../entities/people/scranton-join.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "years of Italian heritage celebration": "../entities/events/years-of-italian-heritage-celebration.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-09-02T03:09:38",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/isla-paraiso-restaurant-scranton-ordered-closed-lackawanna-county-district-attorneys-office-after-disturbance-complaints/523-ac677ee5-cd63-4ffa-8be2-8a040b0d90d3",
+      "publishedAt": "2026-09-03T10:15:14",
+      "url": "https://www.wnep.com/article/entertainment/events/la-festa-italiana-marks-50-years-italian-heritage-celebration-scranton-courthouse-nikki-krize/523-d7306559-b32c-442c-a0e6-4c3ef6034a4f",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1212,45 +1167,58 @@
     },
     {
       "id": "short_14",
-      "title": "'Miracles could happen, right?' Read the interview with a Dunmore man praying for his brother's safety in Nepal",
-      "title_distilled": "'Miracles could happen, right?' Read the interview with a Dunmore man praying for his brother's safety in Nepal.",
-      "description": "Newswatch 16's Stacy Lange spoke with Saroj Shrestha, a Dunmore man who went to Nepal to care for his mother and who is now searching for his missing brother",
+      "title": "Pennsylvania Paper & Supply Company in early stages of planning to transform into modern apartments",
+      "title_distilled": "Pennsylvania Paper & Supply Company in early stages of planning to transform into modern apartments.",
+      "description": "The historic building known for being featured in \"The Office\" is planning to transition into new affordable housing for Scranton residents and beyond.",
       "description_distilled": "",
-      "content": "Newswatch 16's Stacy Lange spoke with Saroj Shrestha, a Dunmore man who went to Nepal to care for his mother and who is now searching for his missing brother",
-      "content_distilled": "Newswatch 16's Stacy Lange spoke with Saroj Shrestha, a Dunmore man who went to Nepal to care for his mother and who is now searching for his missing brother.",
+      "content": "The historic building known for being featured in \"The Office\" is planning to transition into new affordable housing for Scranton residents and beyond.",
+      "content_distilled": "historic building known for being featured in \"The Office\" is planning to transition into new affordable housing for Scranton residents and beyond.",
       "graph": {
         "entities": [
           {
-            "name": "Miracles could happen, right?",
+            "name": "The Office",
             "type": "WORK",
             "confidence": 0.5,
-            "file_path": "../entities/works/movies/miracles-could-happen-right.md",
+            "file_path": "../entities/works/movies/the-office.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Nepal Newswatch",
+            "name": "Pennsylvania Paper",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/nepal-newswatch.md",
+            "file_path": "../entities/people/pennsylvania-paper.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Stacy Lange",
+            "name": "Supply Company",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/stacy-lange.md",
+            "file_path": "../entities/people/supply-company.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Saroj Shrestha",
-            "type": "PERSON",
+            "name": "Scranton",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/saroj-shrestha.md",
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Miracles</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nepal Ne</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stacy La</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Saroj Sh</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Supply C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1261,15 +1229,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Miracles could happen, right?": "../entities/works/movies/miracles-could-happen-right.md",
-          "Nepal Newswatch": "../entities/people/nepal-newswatch.md",
-          "Stacy Lange": "../entities/people/stacy-lange.md",
-          "Saroj Shrestha": "../entities/people/saroj-shrestha.md"
+          "The Office": "../entities/works/movies/the-office.md",
+          "Pennsylvania Paper": "../entities/people/pennsylvania-paper.md",
+          "Supply Company": "../entities/people/supply-company.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-09-01T23:20:34",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/nepal-flooding-interview-transcript-stacy-lange-saroj-niraj-shrestha-landslide/523-17f9f36b-9e22-4075-9922-3c1b33e5775a",
+      "publishedAt": "2026-09-03T02:50:31",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pennsylvania-paper-supply-company-early-stages-planning-transform-into-modern-apartments-scranton-lackawanna-county/523-8f2549b0-d95f-4b64-be64-364e1b020e1f",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
