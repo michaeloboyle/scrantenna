@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T11:06:13.807905",
-  "source_file": "../data/daily/scranton_news_2026-09-03.json",
+  "generated_at": "2026-09-04T11:05:56.277494",
+  "source_file": "../data/daily/scranton_news_2026-09-04.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1091,12 +1091,12 @@
     },
     {
       "id": "short_13",
-      "title": "La Festa Italiana marks 50 years of Italian heritage celebration in Scranton",
-      "title_distilled": "La Festa Italiana marks 50 years of Italian heritage celebration in Scranton.",
-      "description": "Join Scranton's La Festa Italiana for its 50th anniversary, featuring Italian foods, entertainment, and lots of fun.",
+      "title": "A look back at La Festa Italiana weather as it marks 50 years in Scranton",
+      "title_distilled": "look back at La Festa Italiana weather as it marks 50 years in Scranton.",
+      "description": "If you are headed to downtown Scranton this holiday weekend for La Festa Italiana, the weather is looking nearly perfect. That's not necessarily always the case.",
       "description_distilled": "",
-      "content": "Join Scranton's La Festa Italiana for its 50th anniversary, featuring Italian foods, entertainment, and lots of fun.",
-      "content_distilled": "Join Scranton's La Festa Italiana for its 50th anniversary, featuring Italian foods, entertainment, and lots of fun.",
+      "content": "If you are headed to downtown Scranton this holiday weekend for La Festa Italiana, the weather is looking nearly perfect. That's not necessarily always the case.",
+      "content_distilled": "If you are headed to downtown Scranton this holiday weekend for La Festa Italiana, the weather is looking nearly perfect.",
       "graph": {
         "entities": [
           {
@@ -1107,40 +1107,21 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Join",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-join.md",
-            "resolution_method": "new_entity"
-          },
-          {
             "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "years of Italian heritage celebration",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/years-of-italian-heritage-celebration.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "years of Italian heritage celebration",
-            "to": "Scranton Join",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "years of Italian heritage celebration",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "Scranton",
+            "to": "Festa Italiana",
+            "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festa It</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">years of</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Festa It</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1152,14 +1133,12 @@
         },
         "entity_files": {
           "Festa Italiana": "../entities/people/festa-italiana.md",
-          "Scranton Join": "../entities/people/scranton-join.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "years of Italian heritage celebration": "../entities/events/years-of-italian-heritage-celebration.md"
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-09-03T10:15:14",
-      "url": "https://www.wnep.com/article/entertainment/events/la-festa-italiana-marks-50-years-italian-heritage-celebration-scranton-courthouse-nikki-krize/523-d7306559-b32c-442c-a0e6-4c3ef6034a4f",
+      "publishedAt": "2026-09-03T21:37:07",
+      "url": "https://www.wnep.com/article/weather/weather-ott/a-look-back-at-la-festa-italiana-weather-as-it-marks-50-years-in-scranton-lackawanna-county/523-a4786496-60b8-4b5f-819f-f8d3937e95ef",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1167,58 +1146,24 @@
     },
     {
       "id": "short_14",
-      "title": "Pennsylvania Paper & Supply Company in early stages of planning to transform into modern apartments",
-      "title_distilled": "Pennsylvania Paper & Supply Company in early stages of planning to transform into modern apartments.",
-      "description": "The historic building known for being featured in \"The Office\" is planning to transition into new affordable housing for Scranton residents and beyond.",
+      "title": "25 years later: Reflecting on the lingering memories of 9/11",
+      "title_distilled": "25 years later: Reflecting on the lingering memories of 9/11.",
+      "description": "In Scranton, echoes of September 11 resonate through memories and education, as locals recall personal connections to the tragedy and its enduring impact.",
       "description_distilled": "",
-      "content": "The historic building known for being featured in \"The Office\" is planning to transition into new affordable housing for Scranton residents and beyond.",
-      "content_distilled": "historic building known for being featured in \"The Office\" is planning to transition into new affordable housing for Scranton residents and beyond.",
+      "content": "In Scranton, echoes of September 11 resonate through memories and education, as locals recall personal connections to the tragedy and its enduring impact.",
+      "content_distilled": "In Scranton, echoes of September 11 resonate through memories and education, as locals recall personal connections to the tragedy and its enduring impact.",
       "graph": {
         "entities": [
-          {
-            "name": "The Office",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/the-office.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania Paper",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-paper.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Supply Company",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/supply-company.md",
-            "resolution_method": "new_entity"
-          },
           {
             "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Supply C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1229,16 +1174,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Office": "../entities/works/movies/the-office.md",
-          "Pennsylvania Paper": "../entities/people/pennsylvania-paper.md",
-          "Supply Company": "../entities/people/supply-company.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-09-03T02:50:31",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/pennsylvania-paper-supply-company-early-stages-planning-transform-into-modern-apartments-scranton-lackawanna-county/523-8f2549b0-d95f-4b64-be64-364e1b020e1f",
+      "publishedAt": "2026-09-03T20:42:23",
+      "url": "https://www.wnep.com/article/news/history/remembering-911/25-years-later-reflecting-on-the-lingering-memories-of-911/523-c8da8ea9-f347-4927-af73-d223d108a1fb",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
