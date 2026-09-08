@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T11:05:56.740629",
-  "source_file": "../data/daily/scranton_news_2026-09-07.json",
+  "generated_at": "2026-09-08T11:06:16.603432",
+  "source_file": "../data/daily/scranton_news_2026-09-08.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -258,61 +258,40 @@
     },
     {
       "id": "short_3",
-      "title": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money",
-      "title_distilled": "Candidate Who Promised Not To Take Corporate Money Allegedly Took Corporate Money.",
-      "description": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026",
+      "title": "RailRiders win, first series of season against Iron Pigs",
+      "title_distilled": "RailRiders win, first series of season against Iron Pigs.",
+      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Wilkes/Barre RailRiders win their first series of the year against the Lehigh Valley Iron Pigs, 7-3, scoring six runs in the first two innings. Yanquiel Fernandez brought in three runs with a home run to right \u2026",
       "description_distilled": "",
-      "content": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026",
-      "content_distilled": "By Pedro Rodriguez, The Daily Signal | August 04, 2026 A recent NOTUS review of financial records found that the congressional campaign of Paige Cognetti, the mayor of Scranton, Pennsylvania, accepted funding from political committees that have accepted large\u2026.",
+      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Wilkes/Barre RailRiders win their first series of the year against the Lehigh Valley Iron Pigs, 7-3, scoring six runs in the first two innings. Yanquiel Fernandez brought in three runs with a home run to right \u2026",
+      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 Scranton Wilkes/Barre RailRiders win their first series of the year against the Lehigh Valley Iron Pigs, 7-3, scoring six runs in the first two innings.",
       "graph": {
         "entities": [
           {
-            "name": "Candidate Who Promised",
+            "name": "Iron Pigs",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/candidate-who-promised.md",
+            "file_path": "../entities/people/iron-pigs.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Not To Take",
+            "name": "Scranton Wilkes",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/not-to-take.md",
+            "file_path": "../entities/people/scranton-wilkes.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Corporate Money",
+            "name": "Lehigh Valley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/corporate-money.md",
+            "file_path": "../entities/people/lehigh-valley.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Allegedly Took",
+            "name": "Yanquiel Fernandez",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/allegedly-took.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pedro Rodriguez",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pedro-rodriguez.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Daily",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-daily.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Paige Cognetti",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
+            "file_path": "../entities/people/yanquiel-fernandez.md",
             "resolution_method": "new_entity"
           },
           {
@@ -323,64 +302,45 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pennsylvania",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Candidate Who Promised",
-            "to": "Paige Cognetti",
-            "type": "RECORDS",
-            "verb": "records"
-          },
-          {
-            "from": "Candidate Who Promised",
+            "from": "LACKAWANNA COUNTY",
             "to": "Scranton",
-            "type": "RECORDS",
-            "verb": "records"
+            "type": "LOCATED_NEAR"
           },
           {
-            "from": "Candidate Who Promised",
-            "to": "Pennsylvania",
-            "type": "RECORDS",
-            "verb": "records"
-          },
-          {
-            "from": "Not To Take",
-            "to": "Paige Cognetti",
-            "type": "RECORDS",
-            "verb": "records"
-          },
-          {
-            "from": "Not To Take",
+            "from": "WBRE",
             "to": "Scranton",
-            "type": "RECORDS",
-            "verb": "records"
+            "type": "OPERATES_IN"
           },
           {
-            "from": "Not To Take",
-            "to": "Pennsylvania",
-            "type": "RECORDS",
-            "verb": "records"
-          },
-          {
-            "from": "Corporate Money",
-            "to": "Paige Cognetti",
-            "type": "RECORDS",
-            "verb": "records"
-          },
-          {
-            "from": "Corporate Money",
+            "from": "WYOU",
             "to": "Scranton",
-            "type": "RECORDS",
-            "verb": "records"
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Candidat</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Not To T</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Corporat</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Allegedl</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pedro Ro</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Dail</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Iron Pig</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Yanquiel</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -391,21 +351,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Candidate Who Promised": "../entities/people/candidate-who-promised.md",
-          "Not To Take": "../entities/people/not-to-take.md",
-          "Corporate Money": "../entities/people/corporate-money.md",
-          "Allegedly Took": "../entities/people/allegedly-took.md",
-          "Pedro Rodriguez": "../entities/people/pedro-rodriguez.md",
-          "The Daily": "../entities/people/the-daily.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
+          "Iron Pigs": "../entities/people/iron-pigs.md",
+          "Scranton Wilkes": "../entities/people/scranton-wilkes.md",
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
+          "Yanquiel Fernandez": "../entities/people/yanquiel-fernandez.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Biztoc.com",
-      "publishedAt": "2026-08-06T15:08:56Z",
-      "url": "https://biztoc.com/x/31f004b3b962cbe2",
-      "urlToImage": "https://biztoc.com/cdn/31f004b3b962cbe2_s.webp",
+      "source": "2822news.com",
+      "publishedAt": "2026-09-06T21:51:01Z",
+      "url": "https://www.2822news.com/sports/railriders-win-first-series-of-season-against-iron-pigs/",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/1a2911f627902ed5749265168c51a5dcb3cdfc1729c3f7ea451b11f6e4944f55/lightyear_networkapi/resizefill_w690_h460%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fe3d7b31b2718c6af487671923c205113.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 0.30000000000000004
@@ -757,6 +716,69 @@
     },
     {
       "id": "short_8",
+      "title": "Yankees\u2019 Triple-A Scranton/Wilkes-Barre RailRiders face huge series in Rochester",
+      "title_distilled": "Yankees\u2019 Triple-A Scranton/Wilkes-Barre RailRiders face huge series in Rochester.",
+      "description": "Both teams are battling for first place in the International League second-half standings",
+      "description_distilled": "",
+      "content": "Both teams are battling for first place in the International League second-half standings",
+      "content_distilled": "Both teams are battling for first place in the International League second-half standings.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Rochester Both",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rochester-both.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "International League",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/international-league.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Rochester Both",
+            "to": "International League",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rocheste</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Internat</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Rochester Both": "../entities/people/rochester-both.md",
+          "International League": "../entities/people/international-league.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Pinstripe Alley",
+      "publishedAt": "2026-09-06T16:30:00Z",
+      "url": "https://www.pinstripealley.com/yankees-prospects/206221/yankees-aaa-scranton-railriders-rochester-series-previewi-nternational-league",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/5b71694fc23afdb8caadbfb32ac0f34f25712299a79216c1994a62607d7ae05f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ff148bb80ed10f32b4ec3ba7e8ab58dfd.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
       "title": "Why aren\u2019t more kids playing sports? ESPN devotes $5M to get them back",
       "title_distilled": "Why aren\u2019t more kids playing sports? ESPN devotes $5M to get them back.",
       "description": "ESPN is investiing money and resources to help make playing sports possible for kids across the country. Parents also have a big role to play.",
@@ -783,11 +805,11 @@
       "url": "https://www.usatoday.com/story/sports/2026/09/05/espn-take-back-sports-youth-mental-health-coaching/91600535007/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/270428b6356ca03ceadd4500670fd482351a0862b786b1a6f37c308a72401b51/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F84fa542a3b6fcfa7b37fc0c08bfc3b35.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "In 2022, researchers began work on a 3/4-mile Cherry Creek restoration in Pennsylvania. 4 years later, the stream has better habitat, cleaner water and healthier floodplains now",
       "title_distilled": "In 2022, researchers began work on a 3/4-mile Cherry Creek restoration in Pennsylvania.",
       "description": "A restoration project along a three-quarter-mile section of Cherry Creek at TNC\u2019s Blakeslee Preserve in northeastern Pennsylvania began in August 2022 after years of planning and COVID-related delays. TNC partnered with the U.S. Fish and Wildlife Service, Nat\u2026",
@@ -854,11 +876,11 @@
       "url": "https://economictimes.indiatimes.com/news/international/us/in-2022-researchers-began-work-on-a-3/4-mile-cherry-creek-restoration-in-pennsylvania-4-years-later-the-stream-has-better-habitat-cleaner-water-and-healthier-floodplains-now/articleshow/133573746.cms",
       "urlToImage": "https://img.etimg.com/thumb/msid-133573746,width-1200,height-630,imgsize-375884,overlay-economictimes/articleshow.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "Cody Bellinger discusses rehab assignment at Triple-A Scranton",
       "title_distilled": "Cody Bellinger discusses rehab assignment at Triple-A Scranton.",
       "description": "The Yankees\u2019 All-Star outfielder will return from a hamstring strain after two games with the RailRiders.",
@@ -903,11 +925,11 @@
       "url": "https://www.pinstripealley.com/yankees-injuries/203859/yankees-cody-bellinger-rehab-aaa-scranton-report-update-moosic",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/588c1849fa904d3f9c92db894427c48687e3e03f0de53378224429ab4fcbf029/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F4b7c22e971a601f43258023e9ef1173e.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
       "title": "Why does it seem like food recalls are out of control this year?",
       "title_distilled": "Why does it seem like food recalls are out of control this year?.",
       "description": "Just weeks after Taylor Farms issued a recall of its iceberg lettuce amid a massive cyclospora outbreak, the Food and Drug Administration recalled more than one million eggs that may be contaminated with salmonella. The eggs, which come from Midwest Poultry S\u2026",
@@ -960,11 +982,11 @@
       "url": "https://www.theverge.com/science/983241/food-recalls-bigger-out-of-control",
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2291059497.jpg?quality=90&strip=all&crop=0%2C10.6649069428%2C100%2C78.670186114399&w=1200",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania",
       "title_distilled": "In HelloNation, Roofing Expert Justin Bernard of Saylorsburg Shares How to Extend the Lifespan of a Roof in Northeastern Pennsylvania.",
       "description": "The article explains how preventive maintenance, regular inspections, and timely repairs can help protect roofs from the region's snow, ice, rain, and seasonal weather. SAYLORSBURG, Pa., Aug. 19, 2...",
@@ -1046,83 +1068,64 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-roofing-expert-justin-bernard-of-saylorsburg-shares-how-to-extend-the-lifespan-of-a-roof-in-northeastern-pennsylvania-302855310.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1972296/Justin-Bernard-Owner-Bernard-and-Sons-Roofing.mp4?id=OA2897369&p=thumbnail",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Scranton police car involved in crash during overnight",
-      "title_distilled": "Scranton police car involved in crash during overnight.",
-      "description": "A Scranton police car collided with another vehicle early Monday, leading to a search in the hill section. The police have yet to comment on the incident.",
-      "description_distilled": "",
-      "content": "A Scranton police car collided with another vehicle early Monday, leading to a search in the hill section. The police have yet to comment on the incident.",
-      "content_distilled": "Scranton police car collided with another vehicle early Monday, leading to a search in the hill section.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-09-07T10:00:30",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-police-car-involved-crash-overnight-mulberry-taylor-downtown/523-26cc4cbb-9413-4afd-984a-36ff9510a5fc",
-      "urlToImage": "",
-      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_14",
-      "title": "17-year-old female arrested after alleged assault on police officers in Scranton",
-      "title_distilled": "17-year-old female arrested after alleged assault on police officers in Scranton.",
-      "description": "Police say she kicked, spat on, and head-butted officers.",
+      "title": "Families celebrate Labor Day at Lackawanna State Park",
+      "title_distilled": "Families celebrate Labor Day at Lackawanna State Park.",
+      "description": "NORTH ABINGTON TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Families filled Lackawanna State Park this Labor Day, making the most of one last summer afternoon close to home. Boats hit the water, grills fired up, and kids squeezed in everything from fishing to softball before school and work take over again tomorrow. \"We played softball, I love [...]",
       "description_distilled": "",
-      "content": "Police say she kicked, spat on, and head-butted officers.",
-      "content_distilled": "Police say she kicked, spat on, and head-butted officers.",
+      "content": "NORTH ABINGTON TWP., LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Families filled Lackawanna State Park this Labor Day, making the most of one last summer afternoon close to home. Boats hit the water, grills fired up, and kids squeezed in everything from fishing to softball before school and work take over again tomorrow. \"We played softball, I love [...]",
+      "content_distilled": "NORTH ABINGTON TWP.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Police",
+            "name": "Labor Day",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-police.md",
+            "file_path": "../entities/people/labor-day.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "Lackawanna State",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-state.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "State Park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/state-park.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Scranton Police",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Labor Da</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State Pa</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1133,13 +1136,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Police": "../entities/people/scranton-police.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Labor Day": "../entities/people/labor-day.md",
+          "Lackawanna State": "../entities/people/lackawanna-state.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "State Park": "../entities/locations/state-park.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-09-07T01:55:04",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/17-year-old-female-arrested-after-alleged-assault-police-officers-scranton-lackawanna-county/523-9180f551-23a0-4b90-bfac-154fcbbed842",
+      "source": "Wbre",
+      "publishedAt": "2026-09-08T03:16:36",
+      "url": "https://www.2822news.com/news/families-celebrate-labor-day-at-lackawanna-state-park/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
