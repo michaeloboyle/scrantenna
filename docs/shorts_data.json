@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T11:06:20.802498",
-  "source_file": "../data/daily/scranton_news_2026-09-10.json",
+  "generated_at": "2026-09-11T11:06:09.543206",
+  "source_file": "../data/daily/scranton_news_2026-09-11.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -970,6 +970,113 @@
     },
     {
       "id": "short_11",
+      "title": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA",
+      "title_distilled": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA.",
+      "description": "The article explains the ongoing legal and financial duties that come with property ownership in the region. HONESDALE, Pa., Sept. 9, 2026 /PRNewswire/ -- What rights and responsibilities come with...",
+      "description_distilled": "",
+      "content": "The article explains the ongoing legal and financial duties that come with property ownership in the region. HONESDALE, Pa., Sept. 9, 2026 /PRNewswire/ -- What rights and responsibilities come with...",
+      "content_distilled": "article explains the ongoing legal and financial duties that come with property ownership in the region.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Real Estate",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/real-estate.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Expert Brendan",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/expert-brendan.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Ellis Reviews",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/ellis-reviews.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Owning Real",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/owning-real.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Real Estate",
+            "to": "Expert Brendan",
+            "type": "REVIEWS",
+            "verb": "reviews"
+          },
+          {
+            "from": "Real Estate",
+            "to": "Owning Real",
+            "type": "REVIEWS",
+            "verb": "reviews"
+          },
+          {
+            "from": "Expert Brendan",
+            "to": "Owning Real",
+            "type": "REVIEWS",
+            "verb": "reviews"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Real Est</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Expert B</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ellis Re</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Owning R</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REVIEWS</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REVIEWS</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REVIEWS</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Real Estate": "../entities/people/real-estate.md",
+          "Expert Brendan": "../entities/people/expert-brendan.md",
+          "Ellis Reviews": "../entities/people/ellis-reviews.md",
+          "Owning Real": "../entities/people/owning-real.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "PRNewswire",
+      "publishedAt": "2026-09-09T18:00:00Z",
+      "url": "https://www.prnewswire.com/news-releases/in-hellonation-real-estate-expert-brendan-ellis-reviews-owning-real-estate-in-northeastern-pa-302874150.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS1984939/HelloNation-Brendan-R-Ellis-Attorney.mp4?id=OA2938956&p=thumbnail",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
       "title": "Fairfield Prep football ready for 162-mile journey for opener at Scranton Prep (Pa.)",
       "title_distilled": "Fairfield Prep football ready for 162-mile journey for opener at Scranton Prep (Pa.",
       "description": "Fairfield Prep's opener will be against Scranton Prep (Pa.), which has already played two games.",
@@ -1043,11 +1150,11 @@
       "url": "https://www.ctinsider.com/gametimect/football/article/fairfield-prep-ct-scranton-pa-prep-alliance-game-22418335.php?utm_medium=referral&amp;utm_campaign=yahoo_syndication",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/ea257000ab70472eefb6a2fd69206cf6d035b65900a4efd26808bcef368da6f2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fct_insider_187%2Fc0de64cf92447326fbe68d5982cbd80e.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "Yankees\u2019 Triple-A Scranton/Wilkes-Barre RailRiders face huge series in Rochester",
       "title_distilled": "Yankees\u2019 Triple-A Scranton/Wilkes-Barre RailRiders face huge series in Rochester.",
       "description": "Both teams are battling for first place in the International League second-half standings",
@@ -1106,11 +1213,11 @@
       "url": "https://www.pinstripealley.com/yankees-prospects/206221/yankees-aaa-scranton-railriders-rochester-series-previewi-nternational-league",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/5b71694fc23afdb8caadbfb32ac0f34f25712299a79216c1994a62607d7ae05f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ff148bb80ed10f32b4ec3ba7e8ab58dfd.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_13",
+      "id": "short_14",
       "title": "Why aren\u2019t more kids playing sports? ESPN devotes $5M to get them back",
       "title_distilled": "Why aren\u2019t more kids playing sports? ESPN devotes $5M to get them back.",
       "description": "ESPN is investiing money and resources to help make playing sports possible for kids across the country. Parents also have a big role to play.",
@@ -1136,77 +1243,6 @@
       "publishedAt": "2026-09-05T11:03:17Z",
       "url": "https://www.usatoday.com/story/sports/2026/09/05/espn-take-back-sports-youth-mental-health-coaching/91600535007/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/270428b6356ca03ceadd4500670fd482351a0862b786b1a6f37c308a72401b51/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F84fa542a3b6fcfa7b37fc0c08bfc3b35.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "In 2022, researchers began work on a 3/4-mile Cherry Creek restoration in Pennsylvania. 4 years later, the stream has better habitat, cleaner water and healthier floodplains now",
-      "title_distilled": "In 2022, researchers began work on a 3/4-mile Cherry Creek restoration in Pennsylvania.",
-      "description": "A restoration project along a three-quarter-mile section of Cherry Creek at TNC\u2019s Blakeslee Preserve in northeastern Pennsylvania began in August 2022 after years of planning and COVID-related delays. TNC partnered with the U.S. Fish and Wildlife Service, Nat\u2026",
-      "description_distilled": "",
-      "content": "A restoration project along a three-quarter-mile section of Cherry Creek at TNC\u2019s Blakeslee Preserve in northeastern Pennsylvania began in August 2022 after years of planning and COVID-related delays. TNC partnered with the U.S. Fish and Wildlife Service, Nat\u2026",
-      "content_distilled": "restoration project along a three-quarter-mile section of Cherry Creek at TNC\u2019s Blakeslee Preserve in northeastern Pennsylvania began in August 2022 after years of planning and COVID-related delays.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Cherry Creek",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/cherry-creek.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Blakeslee Preserve",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/blakeslee-preserve.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Wildlife Service",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wildlife-service.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Cherry Creek",
-            "to": "Pennsylvania",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cherry C</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blakesle</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wildlife</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Cherry Creek": "../entities/people/cherry-creek.md",
-          "Blakeslee Preserve": "../entities/people/blakeslee-preserve.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "Wildlife Service": "../entities/organizations/wildlife-service.md"
-        }
-      },
-      "source": "The Times of India",
-      "publishedAt": "2026-08-27T17:11:56Z",
-      "url": "https://economictimes.indiatimes.com/news/international/us/in-2022-researchers-began-work-on-a-3/4-mile-cherry-creek-restoration-in-pennsylvania-4-years-later-the-stream-has-better-habitat-cleaner-water-and-healthier-floodplains-now/articleshow/133573746.cms",
-      "urlToImage": "https://img.etimg.com/thumb/msid-133573746,width-1200,height-630,imgsize-375884,overlay-economictimes/articleshow.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
