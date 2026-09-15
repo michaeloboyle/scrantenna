@@ -1,12 +1,148 @@
 {
-  "generated_at": "2026-09-14T11:06:15.357937",
-  "source_file": "../data/daily/scranton_news_2026-09-14.json",
+  "generated_at": "2026-09-15T11:05:54.697237",
+  "source_file": "../data/daily/scranton_news_2026-09-15.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Single-Family-Owned 1975 Lincoln Continental Sedan",
+      "title_distilled": "Single-Family-Owned 1975 Lincoln Continental Sedan.",
+      "description": "This 1975 Lincoln Continental sedan was purchased new by the owner's uncle at Pioneer Lincoln Mercury of Scranton, Pennsylvania, and was later acquired by owner in 2017 following two decades with the owner's father. Finished in Bright Lime Diamond Fire over G\u2026",
+      "description_distilled": "",
+      "content": "This 1975 Lincoln Continental sedan was purchased new by the owner's uncle at Pioneer Lincoln Mercury of Scranton, Pennsylvania, and was later acquired by owner in 2017 following two decades with the owner's father. Finished in Bright Lime Diamond Fire over G\u2026",
+      "content_distilled": "This 1975 Lincoln Continental sedan was purchased new by the owner's uncle at Pioneer Lincoln Mercury of Scranton, Pennsylvania, and was later acquired by owner in 2017 following two decades with the owner's father.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Lincoln Continental",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lincoln-continental.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Sedan This",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sedan-this.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pioneer Lincoln",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pioneer-lincoln.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Bright Lime",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/bright-lime.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Diamond Fire",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/diamond-fire.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Lincoln Continental",
+            "to": "Pioneer Lincoln",
+            "type": "PURCHASED",
+            "verb": "purchased"
+          },
+          {
+            "from": "Lincoln Continental",
+            "to": "Scranton",
+            "type": "PURCHASED",
+            "verb": "purchased"
+          },
+          {
+            "from": "Lincoln Continental",
+            "to": "Pennsylvania",
+            "type": "PURCHASED",
+            "verb": "purchased"
+          },
+          {
+            "from": "Sedan This",
+            "to": "Pioneer Lincoln",
+            "type": "PURCHASED",
+            "verb": "purchased"
+          },
+          {
+            "from": "Sedan This",
+            "to": "Scranton",
+            "type": "PURCHASED",
+            "verb": "purchased"
+          },
+          {
+            "from": "Sedan This",
+            "to": "Pennsylvania",
+            "type": "PURCHASED",
+            "verb": "purchased"
+          },
+          {
+            "from": "Pioneer Lincoln",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lincoln </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sedan Th</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pioneer </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bright L</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Diamond </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lincoln Continental": "../entities/people/lincoln-continental.md",
+          "Sedan This": "../entities/people/sedan-this.md",
+          "Pioneer Lincoln": "../entities/people/pioneer-lincoln.md",
+          "Bright Lime": "../entities/people/bright-lime.md",
+          "Diamond Fire": "../entities/people/diamond-fire.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "Bringatrailer.com",
+      "publishedAt": "2026-09-13T18:30:04Z",
+      "url": "https://bringatrailer.com/listing/1975-lincoln-continental-sedan/",
+      "urlToImage": "https://bringatrailer.com/wp-content/uploads/2026/08/linc3-copy-2026-09-01-gel-99887.jpeg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "Why The Office Rarely Had Celebrities Play Themselves",
       "title_distilled": "Why The Office Rarely Had Celebrities Play Themselves.",
       "description": "Series creator Greg Daniels felt that it didn't make sense for celebrities to be in Scranton, Pennsylvania, and would make The Office feel less realistic.",
@@ -112,11 +248,11 @@
       "url": "https://www.tvline.com/2250556/why-the-office-rarely-had-celebrities-play-themselves/",
       "urlToImage": "https://www.tvline.com/img/gallery/why-the-office-rarely-had-celebrities-play-themselves/l-intro-1788458415.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Student asks Supreme Court to overturn ruling blocking public aid for religious studies",
       "title_distilled": "Student asks Supreme Court to overturn ruling blocking public aid for religious studies.",
       "description": "A student challenges a 2004 Supreme Court decision, the Diocese of Scranton reopens its seminary, and Benedictine College names a speaker for its library dedication in this week\u2019s education roundup.",
@@ -182,11 +318,11 @@
       "url": "https://www.ewtnnews.com/world/us/student-asks-supreme-court-to-overturn-ruling-blocking-public-aid-for-religious-studies",
       "urlToImage": "https://res.cloudinary.com/ewtn/image/upload/c_fill,g_auto,w_1200,h_630/v1777474298/shutterstock_2342942251_mnzutx.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "In Pennsylvania House race, it\u2019s pink heels vs. drag queens",
       "title_distilled": "In Pennsylvania House race, it\u2019s pink heels vs.",
       "description": "The News A fight over drag has broken out in Scranton, Pennsylvania, where Democratic Mayor Paige Cognetti is running for Congress against Republican Rep. Rob Bresnahan. It began with a photo of the mayor and a drag queen at the city\u2019s 2025 Pride flag raising\u2026",
@@ -294,74 +430,6 @@
       "publishedAt": "2026-08-21T09:13:37Z",
       "url": "https://biztoc.com/x/cb672098047b898a",
       "urlToImage": "https://biztoc.com/cdn/cb672098047b898a_s.webp",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
-    },
-    {
-      "id": "short_3",
-      "title": "Tours: Evan Greer and Mirah announce US tour dates",
-      "title_distilled": "Tours: Evan Greer and Mirah announce US tour dates.",
-      "description": "Evan Greer and Mirah have announced tour dates for the Northeastern US. The tour begins on October 1 in Holyoke, Massachusetts and wraps up on October 11 in Scranton, Pennsylvania. Sad13 will be joining them on the last two dates of the tour. Check out the da\u2026",
-      "description_distilled": "",
-      "content": "Evan Greer and Mirah have announced tour dates for the Northeastern US. The tour begins on October 1 in Holyoke, Massachusetts and wraps up on October 11 in Scranton, Pennsylvania. Sad13 will be joining them on the last two dates of the tour. Check out the da\u2026",
-      "content_distilled": "Evan Greer and Mirah have announced tour dates for the Northeastern US.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Evan Greer",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/evan-greer.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Evan Greer",
-            "to": "Scranton",
-            "type": "RELATES_TO"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Evan Gre</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Evan Greer": "../entities/people/evan-greer.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Punknews.org",
-      "publishedAt": "2026-08-13T14:30:02Z",
-      "url": "https://www.punknews.org/article/88881/tours-evan-greer-and-mirah-announce-us-tour-dates",
-      "urlToImage": "https://static.punknews.org/images/frontpage/fp-1786629720.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 0.30000000000000004
@@ -972,54 +1040,26 @@
     },
     {
       "id": "short_10",
-      "title": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money",
-      "title_distilled": "In HelloNation, Insulation Expert Mike Mancuso Explains Signs Your Attic Insulation Is Costing You Money.",
-      "description": "The article explains how recognizing early insulation problems can improve comfort and support better energy efficiency. CLARKS SUMMIT, Pa., Aug. 13, 2026 /PRNewswire/ -- How do you know if your at...",
+      "title": "1977 Chevrolet Camaro Z28",
+      "title_distilled": "1977 Chevrolet Camaro Z28.",
+      "description": "This 1977 Chevrolet Camaro Z28 was sold new from Hornbeck Chevrolet in Carbondale, Pennsylvania, and is powered by a 350ci V8 linked to a TH350 three-speed automatic transmission and a limited-slip differential. The body was repainted in black under prior own\u2026",
       "description_distilled": "",
-      "content": "The article explains how recognizing early insulation problems can improve comfort and support better energy efficiency. CLARKS SUMMIT, Pa., Aug. 13, 2026 /PRNewswire/ -- How do you know if your at...",
-      "content_distilled": "article explains how recognizing early insulation problems can improve comfort and support better energy efficiency.",
+      "content": "This 1977 Chevrolet Camaro Z28 was sold new from Hornbeck Chevrolet in Carbondale, Pennsylvania, and is powered by a 350ci V8 linked to a TH350 three-speed automatic transmission and a limited-slip differential. The body was repainted in black under prior own\u2026",
+      "content_distilled": "This 1977 Chevrolet Camaro Z28 was sold new from Hornbeck Chevrolet in Carbondale, Pennsylvania, and is powered by a 350ci V8 linked to a TH350 three-speed automatic transmission and a limited-slip differential.",
       "graph": {
         "entities": [
           {
-            "name": "Insulation Expert",
+            "name": "Chevrolet Camaro",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/insulation-expert.md",
+            "file_path": "../entities/people/chevrolet-camaro.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mike Mancuso",
+            "name": "Hornbeck Chevrolet",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mike-mancuso.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Explains Signs",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/explains-signs.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Your Attic",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/your-attic.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Insulation Is Costing",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/insulation-is-costing.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "You Money",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/you-money.md",
+            "file_path": "../entities/people/hornbeck-chevrolet.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1028,17 +1068,23 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "CLARKS SUMMIT",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/clarks-summit.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Insulati</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mike Man</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Explains</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Your Att</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Insulati</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">You Mone</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "Chevrolet Camaro",
+            "to": "Hornbeck Chevrolet",
+            "type": "SOLD",
+            "verb": "sold"
+          },
+          {
+            "from": "Chevrolet Camaro",
+            "to": "Pennsylvania",
+            "type": "SOLD",
+            "verb": "sold"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chevrole</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hornbeck</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1049,20 +1095,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Insulation Expert": "../entities/people/insulation-expert.md",
-          "Mike Mancuso": "../entities/people/mike-mancuso.md",
-          "Explains Signs": "../entities/people/explains-signs.md",
-          "Your Attic": "../entities/people/your-attic.md",
-          "Insulation Is Costing": "../entities/people/insulation-is-costing.md",
-          "You Money": "../entities/people/you-money.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "CLARKS SUMMIT": "../entities/events/clarks-summit.md"
+          "Chevrolet Camaro": "../entities/people/chevrolet-camaro.md",
+          "Hornbeck Chevrolet": "../entities/people/hornbeck-chevrolet.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
-      "source": "PRNewswire",
-      "publishedAt": "2026-08-13T13:30:00Z",
-      "url": "https://www.prnewswire.com/news-releases/in-hellonation-insulation-expert-mike-mancuso-explains-signs-your-attic-insulation-is-costing-you-money-302850916.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS1969261/Mike-Mancuso-PR-1.mp4?id=OA2882147&p=thumbnail",
+      "source": "Bringatrailer.com",
+      "publishedAt": "2026-09-13T16:10:14Z",
+      "url": "https://bringatrailer.com/listing/1977-chevrolet-camaro-z28-2/",
+      "urlToImage": "https://bringatrailer.com/wp-content/uploads/2026/08/1977_Chevrolet_Camaro_Z28-003-1-copy-2026-09-02-iig-17558.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
