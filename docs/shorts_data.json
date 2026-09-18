@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T11:05:54.785958",
-  "source_file": "../data/daily/scranton_news_2026-09-17.json",
+  "generated_at": "2026-09-18T11:05:57.285326",
+  "source_file": "../data/daily/scranton_news_2026-09-18.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1272,37 +1272,6 @@
     },
     {
       "id": "short_12",
-      "title": "America\u2019s broken permitting system is quietly raising your cost of living",
-      "title_distilled": "America\u2019s broken permitting system is quietly raising your cost of living.",
-      "description": "America's broken NEPA permitting system drives up housing costs, energy prices and manufacturing delays, but bipartisan reform bills offer a fix.",
-      "description_distilled": "",
-      "content": "America's broken NEPA permitting system drives up housing costs, energy prices and manufacturing delays, but bipartisan reform bills offer a fix.",
-      "content_distilled": "America's broken NEPA permitting system drives up housing costs, energy prices and manufacturing delays, but bipartisan reform bills offer a fix.",
-      "graph": {
-        "entities": [],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.0,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {}
-      },
-      "source": "Fox News",
-      "publishedAt": "2026-08-17T09:00:46Z",
-      "url": "https://www.foxnews.com/opinion/americas-broken-permitting-system-quietly-raising-cost-living",
-      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/home-construction-building.png",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
       "title": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA",
       "title_distilled": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA.",
       "description": "The article explains the ongoing legal and financial duties that come with property ownership in the region. HONESDALE, Pa., Sept. 9, 2026 /PRNewswire/ -- What rights and responsibilities come with...",
@@ -1405,11 +1374,11 @@
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-real-estate-expert-brendan-ellis-reviews-owning-real-estate-in-northeastern-pa-302874150.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1984939/HelloNation-Brendan-R-Ellis-Attorney.mp4?id=OA2938956&p=thumbnail",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_14",
+      "id": "short_13",
       "title": "Fairfield Prep football ready for 162-mile journey for opener at Scranton Prep (Pa.)",
       "title_distilled": "Fairfield Prep football ready for 162-mile journey for opener at Scranton Prep (Pa.",
       "description": "Fairfield Prep's opener will be against Scranton Prep (Pa.), which has already played two games.",
@@ -1482,6 +1451,69 @@
       "publishedAt": "2026-09-08T10:00:00Z",
       "url": "https://www.ctinsider.com/gametimect/football/article/fairfield-prep-ct-scranton-pa-prep-alliance-game-22418335.php?utm_medium=referral&amp;utm_campaign=yahoo_syndication",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/ea257000ab70472eefb6a2fd69206cf6d035b65900a4efd26808bcef368da6f2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fct_insider_187%2Fc0de64cf92447326fbe68d5982cbd80e.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Yankees\u2019 Triple-A Scranton/Wilkes-Barre RailRiders face huge series in Rochester",
+      "title_distilled": "Yankees\u2019 Triple-A Scranton/Wilkes-Barre RailRiders face huge series in Rochester.",
+      "description": "Both teams are battling for first place in the International League second-half standings",
+      "description_distilled": "",
+      "content": "Both teams are battling for first place in the International League second-half standings",
+      "content_distilled": "Both teams are battling for first place in the International League second-half standings.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Rochester Both",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/rochester-both.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "International League",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/international-league.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Rochester Both",
+            "to": "International League",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Rocheste</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Internat</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Rochester Both": "../entities/people/rochester-both.md",
+          "International League": "../entities/people/international-league.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Pinstripe Alley",
+      "publishedAt": "2026-09-06T16:30:00Z",
+      "url": "https://www.pinstripealley.com/yankees-prospects/206221/yankees-aaa-scranton-railriders-rochester-series-previewi-nternational-league",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/5b71694fc23afdb8caadbfb32ac0f34f25712299a79216c1994a62607d7ae05f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ff148bb80ed10f32b4ec3ba7e8ab58dfd.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
