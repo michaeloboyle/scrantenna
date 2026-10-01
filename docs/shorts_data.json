@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T11:06:58.647912",
-  "source_file": "../data/daily/scranton_news_2026-09-30.json",
+  "generated_at": "2026-10-01T11:06:38.677936",
+  "source_file": "../data/daily/scranton_news_2026-10-01.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1292,65 +1292,84 @@
     },
     {
       "id": "short_14",
-      "title": "Canines on Campus event gives students relief",
-      "title_distilled": "Canines on Campus event gives students relief.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Hundreds of University of Scranton students gathered on the Dionne Green Tuesday for the \u201cPet Therapy: Canines on Campus\u201d event, offering students relief from academic pressure at the start of the semester. More than 30 dogs took part in the event, giving students an opportunity to pet, play with and [...]",
+      "title": "Prospector\u2019s Giant Shopping Cart Rolls Back Into NEPA for Pantry Raid",
+      "title_distilled": "Prospector\u2019s Giant Shopping Cart Rolls Back Into NEPA for Pantry Raid.",
+      "description": "Two Days, One Giant Cart, and a Big Goal: Prospector\u2019s Pantry Raid returns to collect donations for Weinberg Food Bank.",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Hundreds of University of Scranton students gathered on the Dionne Green Tuesday for the \u201cPet Therapy: Canines on Campus\u201d event, offering students relief from academic pressure at the start of the semester. More than 30 dogs took part in the event, giving students an opportunity to pet, play with and [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Hundreds of University of Scranton students gathered on the Dionne Green Tuesday for the \u201cPet Therapy: Canines on Campus\u201d event, offering students relief from academic pressure at the start of the semester.",
+      "content": "Two Days, One Giant Cart, and a Big Goal: Prospector\u2019s Pantry Raid returns to collect donations for Weinberg Food Bank.",
+      "content_distilled": "Two Days, One Giant Cart, and a Big Goal: Prospector\u2019s Pantry Raid returns to collect donations for Weinberg Food Bank.",
       "graph": {
         "entities": [
           {
-            "name": "Dionne Green",
+            "name": "Giant Shopping",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dionne-green.md",
+            "file_path": "../entities/people/giant-shopping.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Pet Therapy",
+            "name": "Cart Rolls",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/pet-therapy.md",
+            "file_path": "../entities/people/cart-rolls.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "SCRANTON",
-            "type": "LOCATION",
+            "name": "Back Into",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/back-into.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
+            "name": "Pantry Raid",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/pantry-raid.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
+            "name": "Two Days",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
+            "file_path": "../entities/people/two-days.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
+            "name": "One Giant",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/one-giant.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Big Goal",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/big-goal.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Weinberg Food",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/weinberg-food.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Dionne Green",
-            "to": "Pet Therapy",
+            "from": "Giant Shopping",
+            "to": "Pantry Raid",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Pantry Raid",
+            "to": "Weinberg Food",
             "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dionne G</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pet Ther</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Giant Sh</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cart Rol</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Back Int</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pantry R</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Two Days</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">One Gian</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1361,17 +1380,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dionne Green": "../entities/people/dionne-green.md",
-          "Pet Therapy": "../entities/people/pet-therapy.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Giant Shopping": "../entities/people/giant-shopping.md",
+          "Cart Rolls": "../entities/people/cart-rolls.md",
+          "Back Into": "../entities/people/back-into.md",
+          "Pantry Raid": "../entities/people/pantry-raid.md",
+          "Two Days": "../entities/people/two-days.md",
+          "One Giant": "../entities/people/one-giant.md",
+          "Big Goal": "../entities/people/big-goal.md",
+          "Weinberg Food": "../entities/people/weinberg-food.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-09-29T22:01:27",
-      "url": "https://www.2822news.com/news/local-news/canines-on-campus-event-gives-students-relief/",
+      "source": "Wnep",
+      "publishedAt": "2026-10-01T09:51:43",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/prospectors-giant-shopping-cart-rolls-back-nepa-for-pantry-raid-nikki-krize/523-2dcff386-99e6-475b-a0e7-37b8369876ff",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
