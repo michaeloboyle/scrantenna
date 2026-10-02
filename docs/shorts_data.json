@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T11:06:38.677936",
-  "source_file": "../data/daily/scranton_news_2026-10-01.json",
+  "generated_at": "2026-10-02T11:06:59.106171",
+  "source_file": "../data/daily/scranton_news_2026-10-02.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1292,84 +1292,51 @@
     },
     {
       "id": "short_14",
-      "title": "Prospector\u2019s Giant Shopping Cart Rolls Back Into NEPA for Pantry Raid",
-      "title_distilled": "Prospector\u2019s Giant Shopping Cart Rolls Back Into NEPA for Pantry Raid.",
-      "description": "Two Days, One Giant Cart, and a Big Goal: Prospector\u2019s Pantry Raid returns to collect donations for Weinberg Food Bank.",
+      "title": "Hearing aid center gets new owners in Dickson City",
+      "title_distilled": "Hearing aid center gets new owners in Dickson City.",
+      "description": "The owners returned to Lackawanna County after living in North Carolina.",
       "description_distilled": "",
-      "content": "Two Days, One Giant Cart, and a Big Goal: Prospector\u2019s Pantry Raid returns to collect donations for Weinberg Food Bank.",
-      "content_distilled": "Two Days, One Giant Cart, and a Big Goal: Prospector\u2019s Pantry Raid returns to collect donations for Weinberg Food Bank.",
+      "content": "The owners returned to Lackawanna County after living in North Carolina.",
+      "content_distilled": "owners returned to Lackawanna County after living in North Carolina.",
       "graph": {
         "entities": [
           {
-            "name": "Giant Shopping",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/giant-shopping.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Cart Rolls",
+            "name": "North Carolina",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/cart-rolls.md",
+            "file_path": "../entities/people/north-carolina.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Back Into",
-            "type": "PERSON",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/back-into.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pantry Raid",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pantry-raid.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Two Days",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/two-days.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "One Giant",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/one-giant.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Big Goal",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/big-goal.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Weinberg Food",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/weinberg-food.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Giant Shopping",
-            "to": "Pantry Raid",
-            "type": "OCCURS_DURING"
+            "from": "Dickson City",
+            "to": "North Carolina",
+            "type": "RETURNED",
+            "verb": "returned"
           },
           {
-            "from": "Pantry Raid",
-            "to": "Weinberg Food",
-            "type": "OCCURS_DURING"
+            "from": "Dickson City",
+            "to": "Lackawanna County",
+            "type": "RETURNED",
+            "verb": "returned"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Giant Sh</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cart Rol</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Back Int</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pantry R</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Two Days</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">One Gian</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ca</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RETURNED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RETURNED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1380,19 +1347,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Giant Shopping": "../entities/people/giant-shopping.md",
-          "Cart Rolls": "../entities/people/cart-rolls.md",
-          "Back Into": "../entities/people/back-into.md",
-          "Pantry Raid": "../entities/people/pantry-raid.md",
-          "Two Days": "../entities/people/two-days.md",
-          "One Giant": "../entities/people/one-giant.md",
-          "Big Goal": "../entities/people/big-goal.md",
-          "Weinberg Food": "../entities/people/weinberg-food.md"
+          "Dickson City": "../entities/people/dickson-city.md",
+          "North Carolina": "../entities/people/north-carolina.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-01T09:51:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/prospectors-giant-shopping-cart-rolls-back-nepa-for-pantry-raid-nikki-krize/523-2dcff386-99e6-475b-a0e7-37b8369876ff",
+      "publishedAt": "2026-10-02T04:26:37",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/hearing-aid-center-gets-new-owners-dickson-city-lackawanna-county/523-ba77b382-529f-4628-9b7b-21c8eab41fd9",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
