@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T11:06:59.106171",
-  "source_file": "../data/daily/scranton_news_2026-10-02.json",
+  "generated_at": "2026-10-03T11:11:05.231427",
+  "source_file": "../data/daily/scranton_news_2026-10-03.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1292,51 +1292,58 @@
     },
     {
       "id": "short_14",
-      "title": "Hearing aid center gets new owners in Dickson City",
-      "title_distilled": "Hearing aid center gets new owners in Dickson City.",
-      "description": "The owners returned to Lackawanna County after living in North Carolina.",
+      "title": "The Arc of Northeastern Pennsylvania hosts Buddy Walk",
+      "title_distilled": "Arc of Northeastern Pennsylvania hosts Buddy Walk.",
+      "description": "Newswatch16's Jon Meyer will emcee the event.",
       "description_distilled": "",
-      "content": "The owners returned to Lackawanna County after living in North Carolina.",
-      "content_distilled": "owners returned to Lackawanna County after living in North Carolina.",
+      "content": "Newswatch16's Jon Meyer will emcee the event.",
+      "content_distilled": "Newswatch16's Jon Meyer will emcee the event.",
       "graph": {
         "entities": [
           {
-            "name": "Dickson City",
+            "name": "The Arc",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/dickson-city.md",
+            "file_path": "../entities/people/the-arc.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "North Carolina",
+            "name": "Northeastern Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-carolina.md",
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "Buddy Walk",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/buddy-walk.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jon Meyer",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jon-meyer.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Dickson City",
-            "to": "North Carolina",
-            "type": "RETURNED",
-            "verb": "returned"
-          },
-          {
-            "from": "Dickson City",
-            "to": "Lackawanna County",
-            "type": "RETURNED",
-            "verb": "returned"
+            "from": "The Arc",
+            "to": "Northeastern Pennsylvania",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ca</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RETURNED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RETURNED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Arc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Buddy Wa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jon Meye</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1347,14 +1354,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Dickson City": "../entities/people/dickson-city.md",
-          "North Carolina": "../entities/people/north-carolina.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "The Arc": "../entities/people/the-arc.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "Buddy Walk": "../entities/people/buddy-walk.md",
+          "Jon Meyer": "../entities/people/jon-meyer.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-02T04:26:37",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/hearing-aid-center-gets-new-owners-dickson-city-lackawanna-county/523-ba77b382-529f-4628-9b7b-21c8eab41fd9",
+      "publishedAt": "2026-10-03T03:23:33",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/arc-northeastern-pennsylvania-hosts-buddy-walk-scranton-lackawanna-county/523-2754c75a-7b6c-4cb8-b6f5-4cd31c8a3899",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
