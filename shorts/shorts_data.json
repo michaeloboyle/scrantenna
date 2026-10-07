@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T11:05:52.946124",
-  "source_file": "../data/daily/scranton_news_2026-10-06.json",
+  "generated_at": "2026-10-07T11:05:51.892644",
+  "source_file": "../data/daily/scranton_news_2026-10-07.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1032,6 +1032,82 @@
     },
     {
       "id": "short_10",
+      "title": "SAFEbuilt Expands Operations in Pennsylvania",
+      "title_distilled": "SAFEbuilt Expands Operations in Pennsylvania.",
+      "description": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania. LOVELAND, Colo., Oct. 6, 2026 /PRNewswire/ -- SAFEbuilt, a national provider of building department and community developmen\u2026",
+      "description_distilled": "",
+      "content": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania. LOVELAND, Colo., Oct. 6, 2026 /PRNewswire/ -- SAFEbuilt, a national provider of building department and community developmen\u2026",
+      "content_distilled": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Expands Operations",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/expands-operations.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania Acquisition",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-acquisition.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeast Inspection",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeast-inspection.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Expands Operations",
+            "to": "Northeast Inspection",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Expands Operations",
+            "to": "Pennsylvania",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Expands </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Expands Operations": "../entities/people/expands-operations.md",
+          "Pennsylvania Acquisition": "../entities/people/pennsylvania-acquisition.md",
+          "Northeast Inspection": "../entities/people/northeast-inspection.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
+        }
+      },
+      "source": "PRNewswire",
+      "publishedAt": "2026-10-06T10:00:00Z",
+      "url": "https://www.prnewswire.com/news-releases/safebuilt-expands-operations-in-pennsylvania-302898945.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS1171908/SAFEbuilt-Logo.jpg?id=OA2988390&p=facebook",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
       "title": "Pennsylvania Rep. Rob Bresnahan Calls Out Paige Cognetti for Firing Teachers, Pushing to Disarm Police: 'Cognetti and Her Allies Are Full of Baloney'",
       "title_distilled": "Pennsylvania Rep.",
       "description": "Rep. Rob Bresnahan (R-PA) released a campaign ad slamming Scranton mayor and Pennsylvania Democrat congressional candidate Paige Cognetti over her record, stating that she \"and her allies are full of baloney.\" The post Pennsylvania Rep. Rob Bresnahan Calls Ou\u2026",
@@ -1156,11 +1232,11 @@
       "url": "https://www.breitbart.com/politics/2026/10/04/pennsylvania-rep-rob-bresnahan-calls-out-paige-cognetti-for-firing-teachers-pushing-to-disarm-police-cognetti-and-her-allies-are-full-of-baloney/",
       "urlToImage": "https://media.breitbart.com/media/2026/10/Rob-Bresnahan-Paige-Cognetti-640x335.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
+      "id": "short_12",
       "title": "Despite team\u2019s rebrand, Clint Frazier will always be a \u2018RailRider for Life\u2019",
       "title_distilled": "Despite team\u2019s rebrand, Clint Frazier will always be a \u2018RailRider for Life\u2019.",
       "description": "A look back at Clint Frazier\u2019s career with the Triple-A Scranton/Wilkes-Barre RailRiders",
@@ -1205,11 +1281,11 @@
       "url": "https://www.pinstripealley.com/yankees-history-trivia/208918/yankees-clint-frazier-scranton-wilkes-barre-railriders-aaa",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/6db995603d0c8c71a34ac22ce15c7e22af4f750d2eb5291b440e5dc2a1ede24b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcb17cfe8de57d00c5c8b13c19aa758e6.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_12",
+      "id": "short_13",
       "title": "Pennsylvania 8: Paige Cognetti takes aim at a Republican seat in Trump country",
       "title_distilled": "Pennsylvania 8: Paige Cognetti takes aim at a Republican seat in Trump country.",
       "description": "Pennsylvania\u2019s 8th District is a Republican-held seat in northeastern Pennsylvania that Democrats hope to make competitive. Republican Rep. Rob Bresnahan is defending the district against Democrat Paige Cognetti, the mayor of Scranton. The race is closely tie\u2026",
@@ -1297,11 +1373,11 @@
       "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-midterm-elections-house-races-pennsylvania-8-paige-cognetti-takes-aim-at-a-republican-seat-in-trump-country/articleshow/134329969.cms",
       "urlToImage": "https://img.etimg.com/thumb/msid-134330046,width-1200,height-630,imgsize-969195,overlay-economictimes/articleshow.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_13",
+      "id": "short_14",
       "title": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA",
       "title_distilled": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA.",
       "description": "The article explains the ongoing legal and financial duties that come with property ownership in the region. HONESDALE, Pa., Sept. 9, 2026 /PRNewswire/ -- What rights and responsibilities come with...",
@@ -1403,84 +1479,6 @@
       "publishedAt": "2026-09-09T18:00:00Z",
       "url": "https://www.prnewswire.com/news-releases/in-hellonation-real-estate-expert-brendan-ellis-reviews-owning-real-estate-in-northeastern-pa-302874150.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1984939/HelloNation-Brendan-R-Ellis-Attorney.mp4?id=OA2938956&p=thumbnail",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Fairfield Prep football ready for 162-mile journey for opener at Scranton Prep (Pa.)",
-      "title_distilled": "Fairfield Prep football ready for 162-mile journey for opener at Scranton Prep (Pa.",
-      "description": "Fairfield Prep's opener will be against Scranton Prep (Pa.), which has already played two games.",
-      "description_distilled": "",
-      "content": "Fairfield Prep's opener will be against Scranton Prep (Pa.), which has already played two games.",
-      "content_distilled": "Fairfield Prep's opener will be against Scranton Prep (Pa.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Fairfield Prep",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/fairfield-prep.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Prep",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fairfiel</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Fairfield Prep": "../entities/people/fairfield-prep.md",
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Ctinsider.com",
-      "publishedAt": "2026-09-08T10:00:00Z",
-      "url": "https://www.ctinsider.com/gametimect/football/article/fairfield-prep-ct-scranton-pa-prep-alliance-game-22418335.php?utm_medium=referral&amp;utm_campaign=yahoo_syndication",
-      "urlToImage": "https://s.yimg.com/lo/mysterio/api/ea257000ab70472eefb6a2fd69206cf6d035b65900a4efd26808bcef368da6f2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fct_insider_187%2Fc0de64cf92447326fbe68d5982cbd80e.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
