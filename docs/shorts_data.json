@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T11:05:51.892644",
-  "source_file": "../data/daily/scranton_news_2026-10-07.json",
+  "generated_at": "2026-10-08T11:06:28.933519",
+  "source_file": "../data/daily/scranton_news_2026-10-08.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -253,6 +253,108 @@
     },
     {
       "id": "short_2",
+      "title": "Sports complex to open inside Scranton armory",
+      "title_distilled": "Sports complex to open inside Scranton armory.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex. While all kinds of sports are welcome, its focus is basketball. Flooring from the Orlando Magic\u2019s NBA practice\u2026",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex. While all kinds of sports are welcome, its focus is basketball. Flooring from the Orlando Magic\u2019s NBA practice\u2026",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Watres",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-watres.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Orlando Magic",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/orlando-magic.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Watres",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Watr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Orlando </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Watres": "../entities/people/the-watres.md",
+          "Orlando Magic": "../entities/people/orlando-magic.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "2822news.com",
+      "publishedAt": "2026-10-07T03:14:39Z",
+      "url": "https://www.2822news.com/news/sports-complex-to-open-inside-scranton-armory/",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/0629d5c35f10bfdbd29d6449a62ffc8affcd3ca7d42c284d4698c9190c14484f/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fd1982fddbe336e6ae2fbadd8dfc0d7fc.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
+    },
+    {
+      "id": "short_3",
       "title": "Old Forge\u2019s first individual girls\u2019 golfer in districts since 2001",
       "title_distilled": "Old Forge\u2019s first individual girls\u2019 golfer in districts since 2001.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Since 2001, Old Forge had not had a girl\u2019s participant in the district championship. During the 2026 District 2 Girl\u2019s Golf District Championship, Old Forge senior Mia Fox will break the streak for the school district\u2026",
@@ -343,11 +445,11 @@
       "url": "https://www.2822news.com/sports/local-sports/old-forges-first-individual-girls-golfer-in-districts-since-2001/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/706dc06ca1eb5031b6a33e1afd3816f870298e05569fd889609298839c664af7/lightyear_networkapi/resizefill_w720_h720%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F48aa8b19e0a12c496ab1ddbe6fc908fd.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "What goes into the Friday night experience",
       "title_distilled": "What goes into the Friday night experience.",
       "description": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Friday nights up at Lakeland Stadium are just different. I\u2019m not just talking about the play on the field either. Traditions like the timeless cheers, the ruffle of the pom-poms, and being selected as the 52nd Mi\u2026",
@@ -408,11 +510,11 @@
       "url": "https://www.2822news.com/sports/local-sports/what-goes-into-the-friday-night-experience/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/5d1354a15d81af1c66af814f1c5032888666db3115d3ecfb2f240189cf5ab409/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F6d21e2711a40a79a57b9b9d4d0b8896e.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Railriders scrape by Jumbo Shrimp 6-5, lead down to one game",
       "title_distilled": "Railriders scrape by Jumbo Shrimp 6-5, lead down to one game.",
       "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Scranton/Wilkes-Barre RailRiders beat the Jacksonville Jumbo Shrimp 6-5. They got some help as the Rochester Red Wings lost to the Buffalo Bisons, getting them a game closer to a playoff spot. The Jumbo Shrimp struck\u2026",
@@ -570,11 +672,11 @@
       "url": "https://www.2822news.com/news/railriders-scrape-by-jumbo-shrimp-6-5-lead-down-to-one-game/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/32fdda61b28e3fddda4ebd7c36977430c5cf1e0840e718f546b96b3237393a70/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fae19fbf920b6b8d5b93f48d576882e34.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "HS CROSS COUNTRY: Byrne, Davies win Lackawanna County Commissioners\u2019 races",
       "title_distilled": "HS CROSS COUNTRY: Byrne, Davies win Lackawanna County Commissioners\u2019 races.",
       "description": "Scranton Prep\u2019s Vella Byrne, and Riverside\u2019s Jack Davies won the girls and the boys varsity events Saturday at the Lackawanna County Commissioners\u2019 races at McDade Park. Byrne won the girls race with a time of 19:18.10, about 17 seconds before second-place fi\u2026",
@@ -700,11 +802,11 @@
       "url": "https://www.thetimes-tribune.com/2026/09/12/hs-cross-country-byrne-davies-win-lackawanna-county-commissioners-races/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "RailRiders fall to Red Wings 3-1, fall one back of one seed",
       "title_distilled": "RailRiders fall to Red Wings 3-1, fall one back of one seed.",
       "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Scranton/Wilkes-Barre RailRiders had the opportunity to take the lead in the second-half standings Monday afternoon, but fell 3-1 to the Rochester Red Wings. The RailRiders struck first in the second after Kenedy Cor\u2026",
@@ -813,11 +915,11 @@
       "url": "https://www.2822news.com/news/railriders-fall-to-red-wings-3-1-fall-one-back-of-one-seed/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/1a2911f627902ed5749265168c51a5dcb3cdfc1729c3f7ea451b11f6e4944f55/lightyear_networkapi/resizefill_w690_h460%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fe3d7b31b2718c6af487671923c205113.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "Data centers can bolster revenue, help local residents",
       "title_distilled": "Data centers can bolster revenue, help local residents.",
       "description": "'Officials are making difficult decisions about how to manage major projects that could bolster local tax bases for many years and create thousands of well-paying jobs'",
@@ -843,119 +945,6 @@
       "publishedAt": "2026-09-07T20:53:11Z",
       "url": "https://www.wnd.com/2026/09/data-centers-can-bolster-revenue-help-local-residents/",
       "urlToImage": "https://www.wnd.com/wp-content/uploads/2024/06/cash-money-dollars-currency-banks-accounting-financial-wad-wallets-purses-pixabay-1200x630.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
-    },
-    {
-      "id": "short_8",
-      "title": "RailRiders win, first series of season against Iron Pigs",
-      "title_distilled": "RailRiders win, first series of season against Iron Pigs.",
-      "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Wilkes/Barre RailRiders win their first series of the year against the Lehigh Valley Iron Pigs, 7-3, scoring six runs in the first two innings. Yanquiel Fernandez brought in three runs with a home run to right \u2026",
-      "description_distilled": "",
-      "content": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scranton Wilkes/Barre RailRiders win their first series of the year against the Lehigh Valley Iron Pigs, 7-3, scoring six runs in the first two innings. Yanquiel Fernandez brought in three runs with a home run to right \u2026",
-      "content_distilled": "MOOSIC, LACKAWANNA COUNTY  \u2014 Scranton Wilkes/Barre RailRiders win their first series of the year against the Lehigh Valley Iron Pigs, 7-3, scoring six runs in the first two innings.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Iron Pigs",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/iron-pigs.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Wilkes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-wilkes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lehigh Valley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lehigh-valley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Yanquiel Fernandez",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/yanquiel-fernandez.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Iron Pig</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Yanquiel</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Iron Pigs": "../entities/people/iron-pigs.md",
-          "Scranton Wilkes": "../entities/people/scranton-wilkes.md",
-          "Lehigh Valley": "../entities/people/lehigh-valley.md",
-          "Yanquiel Fernandez": "../entities/people/yanquiel-fernandez.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "2822news.com",
-      "publishedAt": "2026-09-06T21:51:01Z",
-      "url": "https://www.2822news.com/sports/railriders-win-first-series-of-season-against-iron-pigs/",
-      "urlToImage": "https://s.yimg.com/lo/mysterio/api/1a2911f627902ed5749265168c51a5dcb3cdfc1729c3f7ea451b11f6e4944f55/lightyear_networkapi/resizefill_w690_h460%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fe3d7b31b2718c6af487671923c205113.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
       "animation_delay": 0.8
@@ -1378,85 +1367,38 @@
     },
     {
       "id": "short_14",
-      "title": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA",
-      "title_distilled": "In HelloNation, Real Estate Expert Brendan Ellis Reviews Owning Real Estate in Northeastern PA.",
-      "description": "The article explains the ongoing legal and financial duties that come with property ownership in the region. HONESDALE, Pa., Sept. 9, 2026 /PRNewswire/ -- What rights and responsibilities come with...",
+      "title": "Lackawanna Avenue streetscape project wraps up in downtown Scranton",
+      "title_distilled": "Lackawanna Avenue streetscape project wraps up in downtown Scranton.",
+      "description": "The new section is part of a larger streetscape project that is focusing on the walkability of downtown Scranton.",
       "description_distilled": "",
-      "content": "The article explains the ongoing legal and financial duties that come with property ownership in the region. HONESDALE, Pa., Sept. 9, 2026 /PRNewswire/ -- What rights and responsibilities come with...",
-      "content_distilled": "article explains the ongoing legal and financial duties that come with property ownership in the region.",
+      "content": "The new section is part of a larger streetscape project that is focusing on the walkability of downtown Scranton.",
+      "content_distilled": "new section is part of a larger streetscape project that is focusing on the walkability of downtown Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Real Estate",
+            "name": "Lackawanna Avenue",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/real-estate.md",
+            "file_path": "../entities/people/lackawanna-avenue.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Expert Brendan",
+            "name": "Scranton The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/expert-brendan.md",
+            "file_path": "../entities/people/scranton-the.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Ellis Reviews",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/ellis-reviews.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Owning Real",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/owning-real.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Real Estate",
-            "to": "Expert Brendan",
-            "type": "REVIEWS",
-            "verb": "reviews"
-          },
-          {
-            "from": "Real Estate",
-            "to": "Owning Real",
-            "type": "REVIEWS",
-            "verb": "reviews"
-          },
-          {
-            "from": "Expert Brendan",
-            "to": "Owning Real",
-            "type": "REVIEWS",
-            "verb": "reviews"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Real Est</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Expert B</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ellis Re</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Owning R</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REVIEWS</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REVIEWS</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REVIEWS</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1467,18 +1409,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Real Estate": "../entities/people/real-estate.md",
-          "Expert Brendan": "../entities/people/expert-brendan.md",
-          "Ellis Reviews": "../entities/people/ellis-reviews.md",
-          "Owning Real": "../entities/people/owning-real.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Lackawanna Avenue": "../entities/people/lackawanna-avenue.md",
+          "Scranton The": "../entities/people/scranton-the.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
-      "source": "PRNewswire",
-      "publishedAt": "2026-09-09T18:00:00Z",
-      "url": "https://www.prnewswire.com/news-releases/in-hellonation-real-estate-expert-brendan-ellis-reviews-owning-real-estate-in-northeastern-pa-302874150.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS1984939/HelloNation-Brendan-R-Ellis-Attorney.mp4?id=OA2938956&p=thumbnail",
+      "source": "Wnep",
+      "publishedAt": "2026-10-07T23:45:11",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-avenue-streetscape-project-wraps-up-in-downtown-scranton-lackawanna-county-walkability/523-7ba3eccd-0b59-457d-a92b-828089abd9eb",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
