@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T11:06:24.875174",
-  "source_file": "../data/daily/scranton_news_2026-10-09.json",
+  "generated_at": "2026-10-10T11:06:31.287395",
+  "source_file": "../data/daily/scranton_news_2026-10-10.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -143,6 +143,62 @@
     },
     {
       "id": "short_1",
+      "title": "Neglectful mother let unvaccinated seven-year-old daughter's teeth decay to the point where she could no longer eat solid food, police claim",
+      "title_distilled": "Neglectful mother let unvaccinated seven-year-old daughter's teeth decay to the point where she could no longer eat solid food, police claim.",
+      "description": "Maria Lopez-Paz, 39, was charged with endangering the welfare of a child after police officers responded to reports of a child not being fed and possible drug use in the Scranton home in September.",
+      "description_distilled": "",
+      "content": "Maria Lopez-Paz, 39, was charged with endangering the welfare of a child after police officers responded to reports of a child not being fed and possible drug use in the Scranton home in September.",
+      "content_distilled": "Maria Lopez-Paz, 39, was charged with endangering the welfare of a child after police officers responded to reports of a child not being fed and possible drug use in the Scranton home in September.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Maria Lopez",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/maria-lopez.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Maria Lopez",
+            "to": "Scranton",
+            "type": "CHARGED",
+            "verb": "charged"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Maria Lo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CHARGED</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Maria Lopez": "../entities/people/maria-lopez.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Dailymail.com",
+      "publishedAt": "2026-10-08T16:37:41Z",
+      "url": "https://www.dailymail.com/news/article-16193059/Pennsylvania-mother-daughters-teeth-deca.html",
+      "urlToImage": "https://i.dailymail.com/1s/2026/10/08/17/111735883-0-image-m-18_1791475726002.jpg",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
+    },
+    {
+      "id": "short_2",
       "title": "Sports complex to open inside Scranton armory",
       "title_distilled": "Sports complex to open inside Scranton armory.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex. While all kinds of sports are welcome, its focus is basketball. Flooring from the Orlando Magic\u2019s NBA practice\u2026",
@@ -240,11 +296,11 @@
       "url": "https://www.2822news.com/news/sports-complex-to-open-inside-scranton-armory/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/0629d5c35f10bfdbd29d6449a62ffc8affcd3ca7d42c284d4698c9190c14484f/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fd1982fddbe336e6ae2fbadd8dfc0d7fc.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Old Forge\u2019s first individual girls\u2019 golfer in districts since 2001",
       "title_distilled": "Old Forge\u2019s first individual girls\u2019 golfer in districts since 2001.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Since 2001, Old Forge had not had a girl\u2019s participant in the district championship. During the 2026 District 2 Girl\u2019s Golf District Championship, Old Forge senior Mia Fox will break the streak for the school district\u2026",
@@ -335,11 +391,11 @@
       "url": "https://www.2822news.com/sports/local-sports/old-forges-first-individual-girls-golfer-in-districts-since-2001/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/706dc06ca1eb5031b6a33e1afd3816f870298e05569fd889609298839c664af7/lightyear_networkapi/resizefill_w720_h720%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F48aa8b19e0a12c496ab1ddbe6fc908fd.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "What goes into the Friday night experience",
       "title_distilled": "What goes into the Friday night experience.",
       "description": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Friday nights up at Lakeland Stadium are just different. I\u2019m not just talking about the play on the field either. Traditions like the timeless cheers, the ruffle of the pom-poms, and being selected as the 52nd Mi\u2026",
@@ -400,11 +456,11 @@
       "url": "https://www.2822news.com/sports/local-sports/what-goes-into-the-friday-night-experience/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/5d1354a15d81af1c66af814f1c5032888666db3115d3ecfb2f240189cf5ab409/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F6d21e2711a40a79a57b9b9d4d0b8896e.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Railriders scrape by Jumbo Shrimp 6-5, lead down to one game",
       "title_distilled": "Railriders scrape by Jumbo Shrimp 6-5, lead down to one game.",
       "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Scranton/Wilkes-Barre RailRiders beat the Jacksonville Jumbo Shrimp 6-5. They got some help as the Rochester Red Wings lost to the Buffalo Bisons, getting them a game closer to a playoff spot. The Jumbo Shrimp struck\u2026",
@@ -562,11 +618,11 @@
       "url": "https://www.2822news.com/news/railriders-scrape-by-jumbo-shrimp-6-5-lead-down-to-one-game/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/32fdda61b28e3fddda4ebd7c36977430c5cf1e0840e718f546b96b3237393a70/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fae19fbf920b6b8d5b93f48d576882e34.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_5",
+      "id": "short_6",
       "title": "HS CROSS COUNTRY: Byrne, Davies win Lackawanna County Commissioners\u2019 races",
       "title_distilled": "HS CROSS COUNTRY: Byrne, Davies win Lackawanna County Commissioners\u2019 races.",
       "description": "Scranton Prep\u2019s Vella Byrne, and Riverside\u2019s Jack Davies won the girls and the boys varsity events Saturday at the Lackawanna County Commissioners\u2019 races at McDade Park. Byrne won the girls race with a time of 19:18.10, about 17 seconds before second-place fi\u2026",
@@ -692,11 +748,11 @@
       "url": "https://www.thetimes-tribune.com/2026/09/12/hs-cross-country-byrne-davies-win-lackawanna-county-commissioners-races/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_6",
+      "id": "short_7",
       "title": "1977 Chevrolet Camaro Z28",
       "title_distilled": "1977 Chevrolet Camaro Z28.",
       "description": "This 1977 Chevrolet Camaro Z28 was sold new from Hornbeck Chevrolet in Carbondale, Pennsylvania, and is powered by a 350ci V8 linked to a TH350 three-speed automatic transmission and a limited-slip differential. The body was repainted in black under prior own\u2026",
@@ -762,11 +818,11 @@
       "url": "https://bringatrailer.com/listing/1977-chevrolet-camaro-z28-2/",
       "urlToImage": "https://bringatrailer.com/wp-content/uploads/2026/08/1977_Chevrolet_Camaro_Z28-003-1-copy-2026-09-02-iig-17558.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_7",
+      "id": "short_8",
       "title": "SAFEbuilt Expands Operations in Pennsylvania",
       "title_distilled": "SAFEbuilt Expands Operations in Pennsylvania.",
       "description": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania. LOVELAND, Colo., Oct. 6, 2026 /PRNewswire/ -- SAFEbuilt, a national provider of building department and community developmen\u2026",
@@ -838,11 +894,11 @@
       "url": "https://www.prnewswire.com/news-releases/safebuilt-expands-operations-in-pennsylvania-302898945.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1171908/SAFEbuilt-Logo.jpg?id=OA2988390&p=facebook",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_8",
+      "id": "short_9",
       "title": "Pennsylvania Rep. Rob Bresnahan Calls Out Paige Cognetti for Firing Teachers, Pushing to Disarm Police: 'Cognetti and Her Allies Are Full of Baloney'",
       "title_distilled": "Pennsylvania Rep.",
       "description": "Rep. Rob Bresnahan (R-PA) released a campaign ad slamming Scranton mayor and Pennsylvania Democrat congressional candidate Paige Cognetti over her record, stating that she \"and her allies are full of baloney.\" The post Pennsylvania Rep. Rob Bresnahan Calls Ou\u2026",
@@ -967,11 +1023,11 @@
       "url": "https://www.breitbart.com/politics/2026/10/04/pennsylvania-rep-rob-bresnahan-calls-out-paige-cognetti-for-firing-teachers-pushing-to-disarm-police-cognetti-and-her-allies-are-full-of-baloney/",
       "urlToImage": "https://media.breitbart.com/media/2026/10/Rob-Bresnahan-Paige-Cognetti-640x335.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_9",
+      "id": "short_10",
       "title": "Despite team\u2019s rebrand, Clint Frazier will always be a \u2018RailRider for Life\u2019",
       "title_distilled": "Despite team\u2019s rebrand, Clint Frazier will always be a \u2018RailRider for Life\u2019.",
       "description": "A look back at Clint Frazier\u2019s career with the Triple-A Scranton/Wilkes-Barre RailRiders",
@@ -1016,11 +1072,11 @@
       "url": "https://www.pinstripealley.com/yankees-history-trivia/208918/yankees-clint-frazier-scranton-wilkes-barre-railriders-aaa",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/6db995603d0c8c71a34ac22ce15c7e22af4f750d2eb5291b440e5dc2a1ede24b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcb17cfe8de57d00c5c8b13c19aa758e6.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
     },
     {
-      "id": "short_10",
+      "id": "short_11",
       "title": "Pennsylvania 8: Paige Cognetti takes aim at a Republican seat in Trump country",
       "title_distilled": "Pennsylvania 8: Paige Cognetti takes aim at a Republican seat in Trump country.",
       "description": "Pennsylvania\u2019s 8th District is a Republican-held seat in northeastern Pennsylvania that Democrats hope to make competitive. Republican Rep. Rob Bresnahan is defending the district against Democrat Paige Cognetti, the mayor of Scranton. The race is closely tie\u2026",
@@ -1108,17 +1164,17 @@
       "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-midterm-elections-house-races-pennsylvania-8-paige-cognetti-takes-aim-at-a-republican-seat-in-trump-country/articleshow/134329969.cms",
       "urlToImage": "https://img.etimg.com/thumb/msid-134330046,width-1200,height-630,imgsize-969195,overlay-economictimes/articleshow.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
       "animation_delay": 1.0
     },
     {
-      "id": "short_11",
-      "title": "Steamtown Marathon introduces additional 2.62-mile race and train ride experience",
-      "title_distilled": "Steamtown Marathon introduces additional 2.",
-      "description": "The 29th Steamtown Marathon is this Sunday, October 11.",
+      "id": "short_12",
+      "title": "How the weather has impacted the Steamtown Marathon",
+      "title_distilled": "How the weather has impacted the Steamtown Marathon.",
+      "description": "Thousands of runners and spectators will be in Northeastern PA this weekend for the Steamtown Marathon",
       "description_distilled": "",
-      "content": "The 29th Steamtown Marathon is this Sunday, October 11.",
-      "content_distilled": "29th Steamtown Marathon is this Sunday, October 11.",
+      "content": "Thousands of runners and spectators will be in Northeastern PA this weekend for the Steamtown Marathon",
+      "content_distilled": "Thousands of runners and spectators will be in Northeastern PA this weekend for the Steamtown Marathon.",
       "graph": {
         "entities": [
           {
@@ -1127,10 +1183,17 @@
             "confidence": 0.5,
             "file_path": "../entities/people/steamtown-marathon.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1141,77 +1204,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Steamtown Marathon": "../entities/people/steamtown-marathon.md"
+          "Steamtown Marathon": "../entities/people/steamtown-marathon.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-08T23:22:12",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/steamtown-marathon-introduces-additional-262-mile-race-and-train-ride-experience-downtown-scranton-lackawanna-county-runners/523-f60d1dd2-91ce-4daf-a809-70cb51b0c05f",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Local officials raise alarm about kratom use in minors",
-      "title_distilled": "Local officials raise alarm about kratom use in minors.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Following the deaths of two university of Mississippi students, investigators are trying to figure out what role kratom products may have played in the tragedy. Now, local officials are raising concern and awareness about the potential dangers of kratom, taking steps to keep it out of the hands of minors. [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Following the deaths of two university of Mississippi students, investigators are trying to figure out what role kratom products may have played in the tragedy. Now, local officials are raising concern and awareness about the potential dangers of kratom, taking steps to keep it out of the hands of minors. [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Following the deaths of two university of Mississippi students, investigators are trying to figure out what role kratom products may have played in the tragedy.",
-      "graph": {
-        "entities": [
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-10-09T01:52:36",
-      "url": "https://www.2822news.com/parenting-playbook/local-officials-raise-alarm-about-kratom-use-in-minors/",
+      "publishedAt": "2026-10-09T21:10:22",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/how-the-weather-has-impacted-the-steamtown-marathon-scranton-lackawanna-county/523-35569f4f-6859-4195-aed9-392b53ec0581",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1219,33 +1218,40 @@
     },
     {
       "id": "short_13",
-      "title": "28/22 News team honored with multiple Keystone Media awards",
-      "title_distilled": "28/22 News team honored with multiple Keystone Media awards.",
-      "description": "HARRISBURG, DAUPHIN COUNTY (WBRE/WYOU) \u2014 The 28/22 News team brought home multiple awards during the 2026 Keystone Media Awards, which took place Thursday afternoon in Harrisburg. First-place honors went to our exclusively produced shows at 28/22 News, including our public affairs show, Newsmakers, our NEPA'S Children First show, Here's to You Kid, and our Veterans [...]",
+      "title": "Group creates a space to feel understood",
+      "title_distilled": "Group creates a space to feel understood.",
+      "description": "CLARKS SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A group in Lackawanna County is creating a space where everyone can feel welcome. Twice a month, The Gathering Place in Clarks Summit hosts its Memory Cafe event, inviting people who are living with memory loss and their care partners for treats, crafts, and a chance to meet others. [...]",
       "description_distilled": "",
-      "content": "HARRISBURG, DAUPHIN COUNTY (WBRE/WYOU) \u2014 The 28/22 News team brought home multiple awards during the 2026 Keystone Media Awards, which took place Thursday afternoon in Harrisburg. First-place honors went to our exclusively produced shows at 28/22 News, including our public affairs show, Newsmakers, our NEPA'S Children First show, Here's to You Kid, and our Veterans [...]",
-      "content_distilled": "HARRISBURG, DAUPHIN COUNTY  \u2014 The 28/22 News team brought home multiple awards during the 2026 Keystone Media Awards, which took place Thursday afternoon in Harrisburg.",
+      "content": "CLARKS SUMMIT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A group in Lackawanna County is creating a space where everyone can feel welcome. Twice a month, The Gathering Place in Clarks Summit hosts its Memory Cafe event, inviting people who are living with memory loss and their care partners for treats, crafts, and a chance to meet others. [...]",
+      "content_distilled": "CLARKS SUMMIT, LACKAWANNA COUNTY  \u2014 A group in Lackawanna County is creating a space where everyone can feel welcome.",
       "graph": {
         "entities": [
           {
-            "name": "Keystone Media",
+            "name": "The Gathering",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/keystone-media.md",
+            "file_path": "../entities/people/the-gathering.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Children First",
+            "name": "Clarks Summit",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/children-first.md",
+            "file_path": "../entities/people/clarks-summit.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "You Kid",
+            "name": "Memory Cafe",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/you-kid.md",
+            "file_path": "../entities/people/memory-cafe.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1261,10 +1267,24 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "space to feel understood CLARKS SUMMIT",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/space-to-feel-understood-clarks-summit.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Gathering Place in Clarks Summit",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/the-gathering-place-in-clarks-summit.md",
+            "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keystone</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Children</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">You Kid</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Gath</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Memory C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1275,16 +1295,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Keystone Media": "../entities/people/keystone-media.md",
-          "Children First": "../entities/people/children-first.md",
-          "You Kid": "../entities/people/you-kid.md",
+          "The Gathering": "../entities/people/the-gathering.md",
+          "Clarks Summit": "../entities/people/clarks-summit.md",
+          "Memory Cafe": "../entities/people/memory-cafe.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "space to feel understood CLARKS SUMMIT": "../entities/events/space-to-feel-understood-clarks-summit.md",
+          "The Gathering Place in Clarks Summit": "../entities/events/the-gathering-place-in-clarks-summit.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-10-09T00:36:56",
-      "url": "https://www.2822news.com/news/28-22-news-team-honored-with-multiple-keystone-media-awards/",
+      "publishedAt": "2026-10-09T23:15:56",
+      "url": "https://www.2822news.com/news/local-news/group-creates-a-space-to-feel-understood/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1292,14 +1315,28 @@
     },
     {
       "id": "short_14",
-      "title": "Local school district looks back on progress",
-      "title_distilled": "Local school district looks back on progress.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local school district is looking back on two years' worth of accomplishments. From facility upgrades to curriculum changes, the district is looking to improve the lives of students, staff, and the surrounding community. \"It's really crazy how much we've accomplished in two and a half years, and it's not [...]",
+      "title": "Running for a reason",
+      "title_distilled": "Running for a reason.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The countdown to the region's biggest footrace is on, and the 29th annual Steamtown Marathon steps off in two days. This year, one dedicated runner is racing to honor one of the original founders. Downtown Scranton is preparing the finish line, volunteers are ready to work aid stations, and one [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local school district is looking back on two years' worth of accomplishments. From facility upgrades to curriculum changes, the district is looking to improve the lives of students, staff, and the surrounding community. \"It's really crazy how much we've accomplished in two and a half years, and it's not [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A local school district is looking back on two years' worth of accomplishments.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The countdown to the region's biggest footrace is on, and the 29th annual Steamtown Marathon steps off in two days. This year, one dedicated runner is racing to honor one of the original founders. Downtown Scranton is preparing the finish line, volunteers are ready to work aid stations, and one [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The countdown to the region's biggest footrace is on, and the 29th annual Steamtown Marathon steps off in two days.",
       "graph": {
         "entities": [
+          {
+            "name": "Steamtown Marathon",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/steamtown-marathon.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Downtown Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/downtown-scranton.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "SCRANTON",
             "type": "LOCATION",
@@ -1330,7 +1367,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1341,6 +1378,8 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Steamtown Marathon": "../entities/people/steamtown-marathon.md",
+          "Downtown Scranton": "../entities/people/downtown-scranton.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
@@ -1348,8 +1387,8 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-10-08T22:08:41",
-      "url": "https://www.2822news.com/news/local-news/local-school-district-looks-back-on-progress/",
+      "publishedAt": "2026-10-09T22:32:18",
+      "url": "https://www.2822news.com/news/local-news/running-for-a-reason/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
