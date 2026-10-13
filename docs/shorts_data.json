@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T11:08:19.274530",
-  "source_file": "../data/daily/scranton_news_2026-10-12.json",
+  "generated_at": "2026-10-13T11:08:30.792249",
+  "source_file": "../data/daily/scranton_news_2026-10-13.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1339,51 +1339,45 @@
     },
     {
       "id": "short_14",
-      "title": "29th Annual Steamtown Marathon makes it's way through Lackawanna County",
-      "title_distilled": "29th Annual Steamtown Marathon makes it's way through Lackawanna County.",
-      "description": "The 26.2 mile race started in Forest City and ended in downtown Scranton.",
+      "title": "New orthopedic center opens in Dunmore after fire damaged Lehigh Valley Hospital-Dickson City",
+      "title_distilled": "New orthopedic center opens in Dunmore after fire damaged Lehigh Valley Hospital-Dickson City.",
+      "description": "The LVHN Injury Center along O'Neill Highway in Dunmore is now accepting patients.",
       "description_distilled": "",
-      "content": "The 26.2 mile race started in Forest City and ended in downtown Scranton.",
-      "content_distilled": "26.",
+      "content": "The LVHN Injury Center along O'Neill Highway in Dunmore is now accepting patients.",
+      "content_distilled": "LVHN Injury Center along O'Neill Highway in Dunmore is now accepting patients.",
       "graph": {
         "entities": [
           {
-            "name": "Annual Steamtown",
+            "name": "Lehigh Valley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/annual-steamtown.md",
+            "file_path": "../entities/people/lehigh-valley.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Forest City",
+            "name": "Dickson City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/forest-city.md",
+            "file_path": "../entities/people/dickson-city.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Injury Center",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/injury-center.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
+            "name": "Neill Highway",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/people/neill-highway.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Forest C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Injury C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Neill Hi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1394,15 +1388,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Annual Steamtown": "../entities/people/annual-steamtown.md",
-          "Forest City": "../entities/people/forest-city.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
+          "Dickson City": "../entities/people/dickson-city.md",
+          "Injury Center": "../entities/people/injury-center.md",
+          "Neill Highway": "../entities/people/neill-highway.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-12T02:52:59",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/29th-annual-steamtown-marathon-makes-its-way-through-lackawanna-county/523-07d51c75-2008-44ba-8bf4-3d62dc281d1f",
+      "publishedAt": "2026-10-12T20:38:22",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-orthopedic-center-opens-in-dunmore-after-fire-damaged-lehigh-valley-hospital-dickson-city-lackawanna-county/523-18dc59ea-27e6-4978-b654-26f8af353cdf",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
