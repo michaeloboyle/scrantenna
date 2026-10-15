@@ -1,148 +1,12 @@
 {
-  "generated_at": "2026-10-14T11:06:02.559692",
-  "source_file": "../data/daily/scranton_news_2026-10-14.json",
+  "generated_at": "2026-10-15T11:05:48.404870",
+  "source_file": "../data/daily/scranton_news_2026-10-15.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
-      "title": "Single-Family-Owned 1975 Lincoln Continental Sedan",
-      "title_distilled": "Single-Family-Owned 1975 Lincoln Continental Sedan.",
-      "description": "This 1975 Lincoln Continental sedan was purchased new by the owner's uncle at Pioneer Lincoln Mercury of Scranton, Pennsylvania, and was later acquired by owner in 2017 following two decades with the owner's father. Finished in Bright Lime Diamond Fire over G\u2026",
-      "description_distilled": "",
-      "content": "This 1975 Lincoln Continental sedan was purchased new by the owner's uncle at Pioneer Lincoln Mercury of Scranton, Pennsylvania, and was later acquired by owner in 2017 following two decades with the owner's father. Finished in Bright Lime Diamond Fire over G\u2026",
-      "content_distilled": "This 1975 Lincoln Continental sedan was purchased new by the owner's uncle at Pioneer Lincoln Mercury of Scranton, Pennsylvania, and was later acquired by owner in 2017 following two decades with the owner's father.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Lincoln Continental",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lincoln-continental.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Sedan This",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/sedan-this.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pioneer Lincoln",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pioneer-lincoln.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bright Lime",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bright-lime.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Diamond Fire",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/diamond-fire.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Lincoln Continental",
-            "to": "Pioneer Lincoln",
-            "type": "PURCHASED",
-            "verb": "purchased"
-          },
-          {
-            "from": "Lincoln Continental",
-            "to": "Scranton",
-            "type": "PURCHASED",
-            "verb": "purchased"
-          },
-          {
-            "from": "Lincoln Continental",
-            "to": "Pennsylvania",
-            "type": "PURCHASED",
-            "verb": "purchased"
-          },
-          {
-            "from": "Sedan This",
-            "to": "Pioneer Lincoln",
-            "type": "PURCHASED",
-            "verb": "purchased"
-          },
-          {
-            "from": "Sedan This",
-            "to": "Scranton",
-            "type": "PURCHASED",
-            "verb": "purchased"
-          },
-          {
-            "from": "Sedan This",
-            "to": "Pennsylvania",
-            "type": "PURCHASED",
-            "verb": "purchased"
-          },
-          {
-            "from": "Pioneer Lincoln",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lincoln </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sedan Th</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pioneer </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bright L</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Diamond </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PURCHASED</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Lincoln Continental": "../entities/people/lincoln-continental.md",
-          "Sedan This": "../entities/people/sedan-this.md",
-          "Pioneer Lincoln": "../entities/people/pioneer-lincoln.md",
-          "Bright Lime": "../entities/people/bright-lime.md",
-          "Diamond Fire": "../entities/people/diamond-fire.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Bringatrailer.com",
-      "publishedAt": "2026-09-13T18:30:04Z",
-      "url": "https://bringatrailer.com/listing/1975-lincoln-continental-sedan/",
-      "urlToImage": "https://bringatrailer.com/wp-content/uploads/2026/08/linc3-copy-2026-09-01-gel-99887.jpeg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
-    },
-    {
-      "id": "short_1",
       "title": "Thousands prepare for Steamtown Marathon at annual expo",
       "title_distilled": "Thousands prepare for Steamtown Marathon at annual expo.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Thousands of runners are preparing to lace up their sneakers for a longtime Northeastern Pennsylvania tradition this weekend as the Steamtown Marathon returns. Participants stopped by the University of Scranton\u2019s Byro\u2026",
@@ -227,11 +91,11 @@
       "url": "https://www.2822news.com/news/local-news/thousands-prepare-for-steamtown-marathon-at-annual-expo/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/261cafae0b9a82445640b720b01a32987b89af95caee8aac8329a112be8c5fd2/lightyear_networkapi/resizefill_w900_h503%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F688a5ad799af04041c46b5ba6e51fce8.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
     },
     {
-      "id": "short_2",
+      "id": "short_1",
       "title": "Running for a reason",
       "title_distilled": "Running for a reason.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The countdown to the region\u2019s biggest footrace is on, and the 29th annual Steamtown Marathon steps off in two days. This year, one dedicated runner is racing to honor one of the original founders. Downtown Scranton is\u2026",
@@ -308,11 +172,11 @@
       "url": "https://www.2822news.com/news/local-news/running-for-a-reason/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/6aee70c3b71c2535108e4a52b751c40bf1d140e6477df8c87ef49543bae90dfe/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F1001a5e83ae81ec4dcfd8a56647c7870.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_3",
+      "id": "short_2",
       "title": "Neglectful mother let unvaccinated seven-year-old daughter's teeth decay to the point where she could no longer eat solid food, police claim",
       "title_distilled": "Neglectful mother let unvaccinated seven-year-old daughter's teeth decay to the point where she could no longer eat solid food, police claim.",
       "description": "Maria Lopez-Paz, 39, was charged with endangering the welfare of a child after police officers responded to reports of a child not being fed and possible drug use in the Scranton home in September.",
@@ -364,11 +228,11 @@
       "url": "https://www.dailymail.com/news/article-16193059/Pennsylvania-mother-daughters-teeth-deca.html",
       "urlToImage": "https://i.dailymail.com/1s/2026/10/08/17/111735883-0-image-m-18_1791475726002.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_4",
+      "id": "short_3",
       "title": "Sports complex to open inside Scranton armory",
       "title_distilled": "Sports complex to open inside Scranton armory.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex. While all kinds of sports are welcome, its focus is basketball. Flooring from the Orlando Magic\u2019s NBA practice\u2026",
@@ -466,11 +330,11 @@
       "url": "https://www.2822news.com/news/sports-complex-to-open-inside-scranton-armory/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/0629d5c35f10bfdbd29d6449a62ffc8affcd3ca7d42c284d4698c9190c14484f/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fd1982fddbe336e6ae2fbadd8dfc0d7fc.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_5",
+      "id": "short_4",
       "title": "Old Forge\u2019s first individual girls\u2019 golfer in districts since 2001",
       "title_distilled": "Old Forge\u2019s first individual girls\u2019 golfer in districts since 2001.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Since 2001, Old Forge had not had a girl\u2019s participant in the district championship. During the 2026 District 2 Girl\u2019s Golf District Championship, Old Forge senior Mia Fox will break the streak for the school district\u2026",
@@ -561,11 +425,11 @@
       "url": "https://www.2822news.com/sports/local-sports/old-forges-first-individual-girls-golfer-in-districts-since-2001/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/706dc06ca1eb5031b6a33e1afd3816f870298e05569fd889609298839c664af7/lightyear_networkapi/resizefill_w720_h720%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F48aa8b19e0a12c496ab1ddbe6fc908fd.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-      "animation_delay": 0.5
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_6",
+      "id": "short_5",
       "title": "What goes into the Friday night experience",
       "title_distilled": "What goes into the Friday night experience.",
       "description": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 Friday nights up at Lakeland Stadium are just different. I\u2019m not just talking about the play on the field either. Traditions like the timeless cheers, the ruffle of the pom-poms, and being selected as the 52nd Mi\u2026",
@@ -626,11 +490,11 @@
       "url": "https://www.2822news.com/sports/local-sports/what-goes-into-the-friday-night-experience/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/5d1354a15d81af1c66af814f1c5032888666db3115d3ecfb2f240189cf5ab409/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F6d21e2711a40a79a57b9b9d4d0b8896e.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
-      "animation_delay": 0.6000000000000001
+      "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "animation_delay": 0.5
     },
     {
-      "id": "short_7",
+      "id": "short_6",
       "title": "Railriders scrape by Jumbo Shrimp 6-5, lead down to one game",
       "title_distilled": "Railriders scrape by Jumbo Shrimp 6-5, lead down to one game.",
       "description": "MOOSIC, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Scranton/Wilkes-Barre RailRiders beat the Jacksonville Jumbo Shrimp 6-5. They got some help as the Rochester Red Wings lost to the Buffalo Bisons, getting them a game closer to a playoff spot. The Jumbo Shrimp struck\u2026",
@@ -788,81 +652,11 @@
       "url": "https://www.2822news.com/news/railriders-scrape-by-jumbo-shrimp-6-5-lead-down-to-one-game/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/32fdda61b28e3fddda4ebd7c36977430c5cf1e0840e718f546b96b3237393a70/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fae19fbf920b6b8d5b93f48d576882e34.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
-      "animation_delay": 0.7000000000000001
+      "background_gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "animation_delay": 0.6000000000000001
     },
     {
-      "id": "short_8",
-      "title": "1977 Chevrolet Camaro Z28",
-      "title_distilled": "1977 Chevrolet Camaro Z28.",
-      "description": "This 1977 Chevrolet Camaro Z28 was sold new from Hornbeck Chevrolet in Carbondale, Pennsylvania, and is powered by a 350ci V8 linked to a TH350 three-speed automatic transmission and a limited-slip differential. The body was repainted in black under prior own\u2026",
-      "description_distilled": "",
-      "content": "This 1977 Chevrolet Camaro Z28 was sold new from Hornbeck Chevrolet in Carbondale, Pennsylvania, and is powered by a 350ci V8 linked to a TH350 three-speed automatic transmission and a limited-slip differential. The body was repainted in black under prior own\u2026",
-      "content_distilled": "This 1977 Chevrolet Camaro Z28 was sold new from Hornbeck Chevrolet in Carbondale, Pennsylvania, and is powered by a 350ci V8 linked to a TH350 three-speed automatic transmission and a limited-slip differential.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Chevrolet Camaro",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/chevrolet-camaro.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Hornbeck Chevrolet",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/hornbeck-chevrolet.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Chevrolet Camaro",
-            "to": "Hornbeck Chevrolet",
-            "type": "SOLD",
-            "verb": "sold"
-          },
-          {
-            "from": "Chevrolet Camaro",
-            "to": "Pennsylvania",
-            "type": "SOLD",
-            "verb": "sold"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Chevrole</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hornbeck</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SOLD</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Chevrolet Camaro": "../entities/people/chevrolet-camaro.md",
-          "Hornbeck Chevrolet": "../entities/people/hornbeck-chevrolet.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
-        }
-      },
-      "source": "Bringatrailer.com",
-      "publishedAt": "2026-09-13T16:10:14Z",
-      "url": "https://bringatrailer.com/listing/1977-chevrolet-camaro-z28-2/",
-      "urlToImage": "https://bringatrailer.com/wp-content/uploads/2026/08/1977_Chevrolet_Camaro_Z28-003-1-copy-2026-09-02-iig-17558.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
+      "id": "short_7",
       "title": "SAFEbuilt Expands Operations in Pennsylvania",
       "title_distilled": "SAFEbuilt Expands Operations in Pennsylvania.",
       "description": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania. LOVELAND, Colo., Oct. 6, 2026 /PRNewswire/ -- SAFEbuilt, a national provider of building department and community developmen\u2026",
@@ -934,11 +728,11 @@
       "url": "https://www.prnewswire.com/news-releases/safebuilt-expands-operations-in-pennsylvania-302898945.html",
       "urlToImage": "https://mmx.prnewswire.com/media/MS1171908/SAFEbuilt-Logo.jpg?id=OA2988390&p=facebook",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
+      "animation_delay": 0.7000000000000001
     },
     {
-      "id": "short_10",
+      "id": "short_8",
       "title": "Pennsylvania Rep. Rob Bresnahan Calls Out Paige Cognetti for Firing Teachers, Pushing to Disarm Police: 'Cognetti and Her Allies Are Full of Baloney'",
       "title_distilled": "Pennsylvania Rep.",
       "description": "Rep. Rob Bresnahan (R-PA) released a campaign ad slamming Scranton mayor and Pennsylvania Democrat congressional candidate Paige Cognetti over her record, stating that she \"and her allies are full of baloney.\" The post Pennsylvania Rep. Rob Bresnahan Calls Ou\u2026",
@@ -1063,11 +857,11 @@
       "url": "https://www.breitbart.com/politics/2026/10/04/pennsylvania-rep-rob-bresnahan-calls-out-paige-cognetti-for-firing-teachers-pushing-to-disarm-police-cognetti-and-her-allies-are-full-of-baloney/",
       "urlToImage": "https://media.breitbart.com/media/2026/10/Rob-Bresnahan-Paige-Cognetti-640x335.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_11",
+      "id": "short_9",
       "title": "Despite team\u2019s rebrand, Clint Frazier will always be a \u2018RailRider for Life\u2019",
       "title_distilled": "Despite team\u2019s rebrand, Clint Frazier will always be a \u2018RailRider for Life\u2019.",
       "description": "A look back at Clint Frazier\u2019s career with the Triple-A Scranton/Wilkes-Barre RailRiders",
@@ -1112,11 +906,11 @@
       "url": "https://www.pinstripealley.com/yankees-history-trivia/208918/yankees-clint-frazier-scranton-wilkes-barre-railriders-aaa",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/6db995603d0c8c71a34ac22ce15c7e22af4f750d2eb5291b440e5dc2a1ede24b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcb17cfe8de57d00c5c8b13c19aa758e6.jpg",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_12",
+      "id": "short_10",
       "title": "Pennsylvania 8: Paige Cognetti takes aim at a Republican seat in Trump country",
       "title_distilled": "Pennsylvania 8: Paige Cognetti takes aim at a Republican seat in Trump country.",
       "description": "Pennsylvania\u2019s 8th District is a Republican-held seat in northeastern Pennsylvania that Democrats hope to make competitive. Republican Rep. Rob Bresnahan is defending the district against Democrat Paige Cognetti, the mayor of Scranton. The race is closely tie\u2026",
@@ -1204,31 +998,239 @@
       "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-midterm-elections-house-races-pennsylvania-8-paige-cognetti-takes-aim-at-a-republican-seat-in-trump-country/articleshow/134329969.cms",
       "urlToImage": "https://img.etimg.com/thumb/msid-134330046,width-1200,height-630,imgsize-969195,overlay-economictimes/articleshow.jpg",
       "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Traffic changes coming to Scranton starting Monday include stop signs replacing several traffic lights and later one-way streets changing to two-way",
+      "title_distilled": "Traffic changes coming to Scranton starting Monday include stop signs replacing several traffic lights and later one-way streets changing to two-way.",
+      "description": "The city will begin a 90-day plan on Monday to transform several intersections to increase traffic flow and protect drivers & pedestrians",
+      "description_distilled": "",
+      "content": "The city will begin a 90-day plan on Monday to transform several intersections to increase traffic flow and protect drivers & pedestrians",
+      "content_distilled": "city will begin a 90-day plan on Monday to transform several intersections to increase traffic flow and protect drivers & pedestrians.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-10-15T03:33:43",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/traffic-changes-coming-to-scranton-starting-monday-include-stop-signs-replacing-several-traffic-lights-and-later-one-way-streets-changing-to-two-way/523-09abd7b4-629b-47a6-9f49-fbd0b7fad82d",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Trial begins in Lackawanna County for man accused of killing wife",
+      "title_distilled": "Trial begins in Lackawanna County for man accused of killing wife.",
+      "description": "Nearly two years after Maxwell Hawkins was arrested and accused of killing Nicole Vega late one night in early January of 2025, his trial has begun.",
+      "description_distilled": "",
+      "content": "Nearly two years after Maxwell Hawkins was arrested and accused of killing Nicole Vega late one night in early January of 2025, his trial has begun.",
+      "content_distilled": "Nearly two years after Maxwell Hawkins was arrested and accused of killing Nicole Vega late one night in early January of 2025, his trial has begun.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Maxwell Hawkins",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/maxwell-hawkins.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nicole Vega",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nicole-vega.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Maxwell Hawkins",
+            "to": "Nicole Vega",
+            "type": "ARRESTED",
+            "verb": "arrested"
+          },
+          {
+            "from": "Maxwell Hawkins",
+            "to": "Nicole Vega",
+            "type": "ACCUSED",
+            "verb": "accused"
+          },
+          {
+            "from": "Maxwell Hawkins",
+            "to": "Lackawanna County",
+            "type": "ACCUSED",
+            "verb": "accused"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Nicole Vega",
+            "type": "ARRESTED",
+            "verb": "arrested"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Nicole Vega",
+            "type": "ACCUSED",
+            "verb": "accused"
+          },
+          {
+            "from": "Maxwell Hawkins",
+            "to": "Nicole Vega",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Maxwell Hawkins",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Maxwell </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nicole V</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRESTED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRESTED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Maxwell Hawkins": "../entities/people/maxwell-hawkins.md",
+          "Nicole Vega": "../entities/people/nicole-vega.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-10-14T22:22:24",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/trial-begins-in-lackawanna-county-for-man-accused-of-killing-wife-dunmore-maxwell-hawkins-court-nicole-vega/523-52297b77-daae-4e93-be9a-48a71da5d775",
+      "urlToImage": "",
+      "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     },
     {
       "id": "short_13",
-      "title": "Misericordia University to open new law school",
-      "title_distilled": "Misericordia University to open new law school.",
-      "description": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 Misericordia University announced Tuesday its intent to establish a new law program in part of the Penn State Wilkes-Barre campus, the first law program in northeastern Pennsylvania. After more than a year of preparation so far, the law school is expected to be open for enrollment in the second half [...]",
+      "title": "Delays expected on I-81 North in Lackawanna County",
+      "title_distilled": "Delays expected on I-81 North in Lackawanna County.",
+      "description": "Brush clearing near Dunmore will prompt a lane closure",
       "description_distilled": "",
-      "content": "WILKES-BARRE, LUZERNE COUNTY (WBRE/WYOU) \u2014 Misericordia University announced Tuesday its intent to establish a new law program in part of the Penn State Wilkes-Barre campus, the first law program in northeastern Pennsylvania. After more than a year of preparation so far, the law school is expected to be open for enrollment in the second half [...]",
-      "content_distilled": "WILKES-BARRE, LUZERNE COUNTY  \u2014 Misericordia University announced Tuesday its intent to establish a new law program in part of the Penn State Wilkes-Barre campus, the first law program in northeastern Pennsylvania.",
+      "content": "Brush clearing near Dunmore will prompt a lane closure",
+      "content_distilled": "Brush clearing near Dunmore will prompt a lane closure.",
       "graph": {
         "entities": [
           {
-            "name": "Misericordia University",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-10-14T16:27:14",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/dunmore-penndot-lane-closure-i-81-north-lackawanna-county/523-9bce47f9-465b-4ef6-a4fa-80a4f3a410fd",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Helping kids find careers in Columbia County",
+      "title_distilled": "Helping kids find careers in Columbia County.",
+      "description": "BERWICK, COLUMBIA COUNTY (WBRE/WYOU) \u2014 Hundreds of kids in Columbia County are getting the chance to explore different careers. 28/22 News Reporter Zach Paraway was with the kids as they considered their potential futures. The kids at Berwick Area High School are getting hands-on experience as part of Junior Achievement of Northeastern Pennsylvania's JA Inspire [...]",
+      "description_distilled": "",
+      "content": "BERWICK, COLUMBIA COUNTY (WBRE/WYOU) \u2014 Hundreds of kids in Columbia County are getting the chance to explore different careers. 28/22 News Reporter Zach Paraway was with the kids as they considered their potential futures. The kids at Berwick Area High School are getting hands-on experience as part of Junior Achievement of Northeastern Pennsylvania's JA Inspire [...]",
+      "content_distilled": "BERWICK, COLUMBIA COUNTY  \u2014 Hundreds of kids in Columbia County are getting the chance to explore different careers.",
+      "graph": {
+        "entities": [
+          {
+            "name": "News Reporter",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/misericordia-university.md",
+            "file_path": "../entities/people/news-reporter.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Penn State",
+            "name": "Zach Paraway",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/penn-state.md",
+            "file_path": "../entities/people/zach-paraway.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Berwick Area",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/berwick-area.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "High School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Junior Achievement",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/junior-achievement.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1239,6 +1241,13 @@
             "resolution_method": "new_entity"
           },
           {
+            "name": "Berwick Area High School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/berwick-area-high-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
             "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
@@ -1255,43 +1264,12 @@
         ],
         "relationships": [
           {
-            "from": "Misericordia University",
-            "to": "Penn State",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "Misericordia University",
-            "to": "Pennsylvania",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "WBRE",
-            "to": "Penn State",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "WYOU",
-            "to": "Penn State",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "WBRE",
-            "to": "Pennsylvania",
-            "type": "ANNOUNCED",
-            "verb": "announced"
-          },
-          {
-            "from": "WYOU",
-            "to": "Pennsylvania",
-            "type": "ANNOUNCED",
-            "verb": "announced"
+            "from": "Junior Achievement",
+            "to": "Northeastern Pennsylvania",
+            "type": "MEMBER_OF"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Miserico</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Penn Sta</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ANNOUNCED</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Zach Par</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Berwick </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Junior A</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1302,111 +1280,21 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Misericordia University": "../entities/people/misericordia-university.md",
-          "Penn State": "../entities/people/penn-state.md",
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Zach Paraway": "../entities/people/zach-paraway.md",
+          "Berwick Area": "../entities/people/berwick-area.md",
+          "High School": "../entities/people/high-school.md",
+          "Junior Achievement": "../entities/people/junior-achievement.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "Berwick Area High School": "../entities/organizations/berwick-area-high-school.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-10-13T23:57:23",
-      "url": "https://www.2822news.com/news/misericordia-university-to-open-new-law-school/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Bakery celebrates 80 years of business",
-      "title_distilled": "Bakery celebrates 80 years of business.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A beloved bakery in Lackawanna County is marking a milestone: 80 years of business. National Bakery in Scranton has been serving up pastries, pizza, and of course, bread for 80 years. Over the weekend, the bakery was highlighted at the annual Pine Brook Block Party, bringing the community together to [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A beloved bakery in Lackawanna County is marking a milestone: 80 years of business. National Bakery in Scranton has been serving up pastries, pizza, and of course, bread for 80 years. Over the weekend, the bakery was highlighted at the annual Pine Brook Block Party, bringing the community together to [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A beloved bakery in Lackawanna County is marking a milestone: 80 years of business.",
-      "graph": {
-        "entities": [
-          {
-            "name": "National Bakery",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/national-bakery.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pine Brook",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pine-brook.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Block Party",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/block-party.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "National Bakery",
-            "to": "SCRANTON",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">National</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pine Bro</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Block Pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "National Bakery": "../entities/people/national-bakery.md",
-          "Pine Brook": "../entities/people/pine-brook.md",
-          "Block Party": "../entities/people/block-party.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-10-13T21:57:21",
-      "url": "https://www.2822news.com/news/local-news/bakery-celebrates-80-years-of-business/",
+      "publishedAt": "2026-10-15T00:10:21",
+      "url": "https://www.2822news.com/news/local-news/helping-kids-find-careers-in-columbia-county/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
