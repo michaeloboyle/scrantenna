@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T11:05:48.404870",
-  "source_file": "../data/daily/scranton_news_2026-10-15.json",
+  "generated_at": "2026-10-16T11:06:25.046791",
+  "source_file": "../data/daily/scranton_news_2026-10-16.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1003,67 +1003,19 @@
     },
     {
       "id": "short_11",
-      "title": "Traffic changes coming to Scranton starting Monday include stop signs replacing several traffic lights and later one-way streets changing to two-way",
-      "title_distilled": "Traffic changes coming to Scranton starting Monday include stop signs replacing several traffic lights and later one-way streets changing to two-way.",
-      "description": "The city will begin a 90-day plan on Monday to transform several intersections to increase traffic flow and protect drivers & pedestrians",
+      "title": "Husband & wife in Lackawanna County arrested for arson and insurance fraud",
+      "title_distilled": "Husband & wife in Lackawanna County arrested for arson and insurance fraud.",
+      "description": "Salvatore and Holly Carovinci have been taken into custody by Carbondale police after being accused of setting fire to their own home in July.",
       "description_distilled": "",
-      "content": "The city will begin a 90-day plan on Monday to transform several intersections to increase traffic flow and protect drivers & pedestrians",
-      "content_distilled": "city will begin a 90-day plan on Monday to transform several intersections to increase traffic flow and protect drivers & pedestrians.",
+      "content": "Salvatore and Holly Carovinci have been taken into custody by Carbondale police after being accused of setting fire to their own home in July.",
+      "content_distilled": "Salvatore and Holly Carovinci have been taken into custody by Carbondale police after being accused of setting fire to their own home in July.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-10-15T03:33:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/traffic-changes-coming-to-scranton-starting-monday-include-stop-signs-replacing-several-traffic-lights-and-later-one-way-streets-changing-to-two-way/523-09abd7b4-629b-47a6-9f49-fbd0b7fad82d",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Trial begins in Lackawanna County for man accused of killing wife",
-      "title_distilled": "Trial begins in Lackawanna County for man accused of killing wife.",
-      "description": "Nearly two years after Maxwell Hawkins was arrested and accused of killing Nicole Vega late one night in early January of 2025, his trial has begun.",
-      "description_distilled": "",
-      "content": "Nearly two years after Maxwell Hawkins was arrested and accused of killing Nicole Vega late one night in early January of 2025, his trial has begun.",
-      "content_distilled": "Nearly two years after Maxwell Hawkins was arrested and accused of killing Nicole Vega late one night in early January of 2025, his trial has begun.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Maxwell Hawkins",
+            "name": "Holly Carovinci",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/maxwell-hawkins.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Nicole Vega",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nicole-vega.md",
+            "file_path": "../entities/people/holly-carovinci.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1076,47 +1028,18 @@
         ],
         "relationships": [
           {
-            "from": "Maxwell Hawkins",
-            "to": "Nicole Vega",
-            "type": "ARRESTED",
-            "verb": "arrested"
-          },
-          {
-            "from": "Maxwell Hawkins",
-            "to": "Nicole Vega",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Maxwell Hawkins",
-            "to": "Lackawanna County",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
             "from": "Lackawanna County",
-            "to": "Nicole Vega",
+            "to": "Holly Carovinci",
             "type": "ARRESTED",
             "verb": "arrested"
           },
           {
             "from": "Lackawanna County",
-            "to": "Nicole Vega",
-            "type": "ACCUSED",
-            "verb": "accused"
-          },
-          {
-            "from": "Maxwell Hawkins",
-            "to": "Nicole Vega",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Maxwell Hawkins",
+            "to": "Holly Carovinci",
             "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Maxwell </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nicole V</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRESTED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRESTED</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holly Ca</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRESTED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1127,14 +1050,62 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Maxwell Hawkins": "../entities/people/maxwell-hawkins.md",
-          "Nicole Vega": "../entities/people/nicole-vega.md",
+          "Holly Carovinci": "../entities/people/holly-carovinci.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-14T22:22:24",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/trial-begins-in-lackawanna-county-for-man-accused-of-killing-wife-dunmore-maxwell-hawkins-court-nicole-vega/523-52297b77-daae-4e93-be9a-48a71da5d775",
+      "publishedAt": "2026-10-16T03:37:27",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/husband-wife-in-lackawanna-county-arrested-for-arson-insurance-fraud/523-4bf3dc99-8617-4178-bf72-0e45d63314d0",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Johnson College hosts Trunk-or-Treat in Lackawanna County",
+      "title_distilled": "Johnson College hosts Trunk-or-Treat in Lackawanna County.",
+      "description": "The event featured lots of spooky decorations, creepy costumes, and plenty of treat-filled trucks.",
+      "description_distilled": "",
+      "content": "The event featured lots of spooky decorations, creepy costumes, and plenty of treat-filled trucks.",
+      "content_distilled": "event featured lots of spooky decorations, creepy costumes, and plenty of treat-filled trucks.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Johnson College",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/johnson-college.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Johnson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Johnson College": "../entities/people/johnson-college.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-10-16T00:25:50",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/johnson-college-hosts-trunk-or-treat-in-lackawanna-county/523-880ab399-8f64-41b0-a5c2-1beb68c37864",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1142,12 +1113,12 @@
     },
     {
       "id": "short_13",
-      "title": "Delays expected on I-81 North in Lackawanna County",
-      "title_distilled": "Delays expected on I-81 North in Lackawanna County.",
-      "description": "Brush clearing near Dunmore will prompt a lane closure",
+      "title": "Lackawanna County unveils 2027 budget proposal with no tax hike",
+      "title_distilled": "Lackawanna County unveils 2027 budget proposal with no tax hike.",
+      "description": "Commissioners in Lackawanna County released their proposed budget at a meeting Thursday, one that does not include a tax hike.",
       "description_distilled": "",
-      "content": "Brush clearing near Dunmore will prompt a lane closure",
-      "content_distilled": "Brush clearing near Dunmore will prompt a lane closure.",
+      "content": "Commissioners in Lackawanna County released their proposed budget at a meeting Thursday, one that does not include a tax hike.",
+      "content_distilled": "Commissioners in Lackawanna County released their proposed budget at a meeting Thursday, one that does not include a tax hike.",
       "graph": {
         "entities": [
           {
@@ -1174,8 +1145,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-14T16:27:14",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/dunmore-penndot-lane-closure-i-81-north-lackawanna-county/523-9bce47f9-465b-4ef6-a4fa-80a4f3a410fd",
+      "publishedAt": "2026-10-15T23:15:18",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-unveils-2027-budget-proposal-with-no-tax-hike/523-0fbce937-ee26-40eb-8d28-4890f8efb715",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1183,93 +1154,80 @@
     },
     {
       "id": "short_14",
-      "title": "Helping kids find careers in Columbia County",
-      "title_distilled": "Helping kids find careers in Columbia County.",
-      "description": "BERWICK, COLUMBIA COUNTY (WBRE/WYOU) \u2014 Hundreds of kids in Columbia County are getting the chance to explore different careers. 28/22 News Reporter Zach Paraway was with the kids as they considered their potential futures. The kids at Berwick Area High School are getting hands-on experience as part of Junior Achievement of Northeastern Pennsylvania's JA Inspire [...]",
+      "title": "Solstice Bar in Scranton closed following shutdown the week prior",
+      "title_distilled": "Solstice Bar in Scranton closed following shutdown the week prior.",
+      "description": "The Lackawanna County District Attorney's Office temporarily closed the bar last week due to public disruption.",
       "description_distilled": "",
-      "content": "BERWICK, COLUMBIA COUNTY (WBRE/WYOU) \u2014 Hundreds of kids in Columbia County are getting the chance to explore different careers. 28/22 News Reporter Zach Paraway was with the kids as they considered their potential futures. The kids at Berwick Area High School are getting hands-on experience as part of Junior Achievement of Northeastern Pennsylvania's JA Inspire [...]",
-      "content_distilled": "BERWICK, COLUMBIA COUNTY  \u2014 Hundreds of kids in Columbia County are getting the chance to explore different careers.",
+      "content": "The Lackawanna County District Attorney's Office temporarily closed the bar last week due to public disruption.",
+      "content_distilled": "Lackawanna County District Attorney's Office temporarily closed the bar last week due to public disruption.",
       "graph": {
         "entities": [
           {
-            "name": "News Reporter",
+            "name": "Solstice Bar",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/news-reporter.md",
+            "file_path": "../entities/people/solstice-bar.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Zach Paraway",
+            "name": "The Lackawanna",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/zach-paraway.md",
+            "file_path": "../entities/people/the-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Berwick Area",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/berwick-area.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "High School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Junior Achievement",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/junior-achievement.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeastern Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeastern-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Berwick Area High School",
-            "type": "ORGANIZATION",
+            "name": "Lackawanna County",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/berwick-area-high-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Junior Achievement",
-            "to": "Northeastern Pennsylvania",
-            "type": "MEMBER_OF"
+            "from": "Solstice Bar",
+            "to": "The Lackawanna",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Solstice Bar",
+            "to": "Lackawanna County",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "The Lackawanna",
+            "to": "Scranton",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Scranton",
+            "to": "Lackawanna County",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "Solstice Bar",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Zach Par</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Berwick </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">High Sch</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Junior A</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Solstice</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1280,21 +1238,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "News Reporter": "../entities/people/news-reporter.md",
-          "Zach Paraway": "../entities/people/zach-paraway.md",
-          "Berwick Area": "../entities/people/berwick-area.md",
-          "High School": "../entities/people/high-school.md",
-          "Junior Achievement": "../entities/people/junior-achievement.md",
-          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "Berwick Area High School": "../entities/organizations/berwick-area-high-school.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Solstice Bar": "../entities/people/solstice-bar.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-10-15T00:10:21",
-      "url": "https://www.2822news.com/news/local-news/helping-kids-find-careers-in-columbia-county/",
+      "source": "Wnep",
+      "publishedAt": "2026-10-15T21:04:08",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/solstice-bar-closed-shutdown-riot-scranton-lackawanna-county-district-attorney-brian-gallagher/523-5ccbe4c4-9176-4c38-868b-0fe14bd7c48d",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
