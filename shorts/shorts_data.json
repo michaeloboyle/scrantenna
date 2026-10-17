@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T11:06:25.046791",
-  "source_file": "../data/daily/scranton_news_2026-10-16.json",
+  "generated_at": "2026-10-17T11:05:44.070457",
+  "source_file": "../data/daily/scranton_news_2026-10-17.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -1003,19 +1003,26 @@
     },
     {
       "id": "short_11",
-      "title": "Husband & wife in Lackawanna County arrested for arson and insurance fraud",
-      "title_distilled": "Husband & wife in Lackawanna County arrested for arson and insurance fraud.",
-      "description": "Salvatore and Holly Carovinci have been taken into custody by Carbondale police after being accused of setting fire to their own home in July.",
+      "title": "Lackawanna County man found guilty in the murder of his wife",
+      "title_distilled": "Lackawanna County man found guilty in the murder of his wife.",
+      "description": "A jury has found Maxwell Hawkins guilty of first-degree murder in the killing of Nicole Vega",
       "description_distilled": "",
-      "content": "Salvatore and Holly Carovinci have been taken into custody by Carbondale police after being accused of setting fire to their own home in July.",
-      "content_distilled": "Salvatore and Holly Carovinci have been taken into custody by Carbondale police after being accused of setting fire to their own home in July.",
+      "content": "A jury has found Maxwell Hawkins guilty of first-degree murder in the killing of Nicole Vega",
+      "content_distilled": "jury has found Maxwell Hawkins guilty of first-degree murder in the killing of Nicole Vega.",
       "graph": {
         "entities": [
           {
-            "name": "Holly Carovinci",
+            "name": "Maxwell Hawkins",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/holly-carovinci.md",
+            "file_path": "../entities/people/maxwell-hawkins.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Nicole Vega",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/nicole-vega.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1026,20 +1033,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lackawanna County",
-            "to": "Holly Carovinci",
-            "type": "ARRESTED",
-            "verb": "arrested"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Holly Carovinci",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Holly Ca</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ARRESTED</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Maxwell </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nicole V</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1050,13 +1045,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Holly Carovinci": "../entities/people/holly-carovinci.md",
+          "Maxwell Hawkins": "../entities/people/maxwell-hawkins.md",
+          "Nicole Vega": "../entities/people/nicole-vega.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-16T03:37:27",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/husband-wife-in-lackawanna-county-arrested-for-arson-insurance-fraud/523-4bf3dc99-8617-4178-bf72-0e45d63314d0",
+      "publishedAt": "2026-10-17T03:10:08",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-man-found-guilty-murder-his-wife-scranton-dunmore/523-f3782b09-81a9-433a-8f29-78351de404a8",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1064,31 +1060,51 @@
     },
     {
       "id": "short_12",
-      "title": "Johnson College hosts Trunk-or-Treat in Lackawanna County",
-      "title_distilled": "Johnson College hosts Trunk-or-Treat in Lackawanna County.",
-      "description": "The event featured lots of spooky decorations, creepy costumes, and plenty of treat-filled trucks.",
+      "title": "Dunmore Driver's License Center set to close for renovations",
+      "title_distilled": "Dunmore Driver's License Center set to close for renovations.",
+      "description": "The driver's license center at the Keystone Industrial Park will close for renovations on Monday, October 26.",
       "description_distilled": "",
-      "content": "The event featured lots of spooky decorations, creepy costumes, and plenty of treat-filled trucks.",
-      "content_distilled": "event featured lots of spooky decorations, creepy costumes, and plenty of treat-filled trucks.",
+      "content": "The driver's license center at the Keystone Industrial Park will close for renovations on Monday, October 26.",
+      "content_distilled": "driver's license center at the Keystone Industrial Park will close for renovations on Monday, October 26.",
       "graph": {
         "entities": [
           {
-            "name": "Johnson College",
+            "name": "Dunmore Driver",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/johnson-college.md",
+            "file_path": "../entities/people/dunmore-driver.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "License Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/license-center.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Keystone Industrial",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/keystone-industrial.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Industrial Park",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/industrial-park.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Johnson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "License Center",
+            "to": "Dunmore Driver",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">License </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keystone</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Industri</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1099,13 +1115,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Johnson College": "../entities/people/johnson-college.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Dunmore Driver": "../entities/people/dunmore-driver.md",
+          "License Center": "../entities/people/license-center.md",
+          "Keystone Industrial": "../entities/people/keystone-industrial.md",
+          "Industrial Park": "../entities/locations/industrial-park.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-16T00:25:50",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/johnson-college-hosts-trunk-or-treat-in-lackawanna-county/523-880ab399-8f64-41b0-a5c2-1beb68c37864",
+      "publishedAt": "2026-10-16T19:52:08",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/drivers-license-center-in-dunmore-to-close-for-renovations-lackawanna-county-keystone-industrial-park/523-1564b7e1-9061-46fd-901e-feb12957064a",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1113,24 +1131,24 @@
     },
     {
       "id": "short_13",
-      "title": "Lackawanna County unveils 2027 budget proposal with no tax hike",
-      "title_distilled": "Lackawanna County unveils 2027 budget proposal with no tax hike.",
-      "description": "Commissioners in Lackawanna County released their proposed budget at a meeting Thursday, one that does not include a tax hike.",
+      "title": "Growing season to likely end this weekend",
+      "title_distilled": "Growing season to likely end this weekend.",
+      "description": "The forecast low Saturday night/Sunday morning for the Scranton area is 32 degrees; it would be the first time we hit the freezing mark this fall.",
       "description_distilled": "",
-      "content": "Commissioners in Lackawanna County released their proposed budget at a meeting Thursday, one that does not include a tax hike.",
-      "content_distilled": "Commissioners in Lackawanna County released their proposed budget at a meeting Thursday, one that does not include a tax hike.",
+      "content": "The forecast low Saturday night/Sunday morning for the Scranton area is 32 degrees; it would be the first time we hit the freezing mark this fall.",
+      "content_distilled": "forecast low Saturday night/Sunday morning for the Scranton area is 32 degrees; it would be the first time we hit the freezing mark this fall.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna County",
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1141,12 +1159,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-15T23:15:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-unveils-2027-budget-proposal-with-no-tax-hike/523-0fbce937-ee26-40eb-8d28-4890f8efb715",
+      "publishedAt": "2026-10-16T19:11:55",
+      "url": "https://www.wnep.com/article/weather/weather-ott/growing-season-to-likely-end-this-weekend-scranton-williamsport-northeast-pennsylvania/523-fed2501c-2f1e-4b99-865c-5fb927c55ba8",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1154,80 +1172,96 @@
     },
     {
       "id": "short_14",
-      "title": "Solstice Bar in Scranton closed following shutdown the week prior",
-      "title_distilled": "Solstice Bar in Scranton closed following shutdown the week prior.",
-      "description": "The Lackawanna County District Attorney's Office temporarily closed the bar last week due to public disruption.",
+      "title": "Man found guilty of killing wife, staging as a suicide",
+      "title_distilled": "Man found guilty of killing wife, staging as a suicide.",
+      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man accused of killing his wife after a shooting over an alleged affair has been found guilty following the conclusion of his murder trial Friday, accordi...",
       "description_distilled": "",
-      "content": "The Lackawanna County District Attorney's Office temporarily closed the bar last week due to public disruption.",
-      "content_distilled": "Lackawanna County District Attorney's Office temporarily closed the bar last week due to public disruption.",
+      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A man accused of killing his wife after a shooting over an alleged affair has been found guilty following the conclusion of his murder trial Friday, accordi...",
+      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 A man accused of killing his wife after a shooting over an alleged affair has been found guilty following the conclusion of his murder trial Friday, accordi.",
       "graph": {
         "entities": [
           {
-            "name": "Solstice Bar",
+            "name": "Lackawanna District",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/solstice-bar.md",
+            "file_path": "../entities/people/lackawanna-district.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Lackawanna",
+            "name": "Brian Gallagher",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-lackawanna.md",
+            "file_path": "../entities/people/brian-gallagher.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Maxwell Hawkins",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/maxwell-hawkins.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Solstice Bar",
-            "to": "The Lackawanna",
-            "type": "CLOSED",
-            "verb": "closed"
+            "from": "LACKAWANNA COUNTY",
+            "to": "Lackawanna District",
+            "type": "ACCUSED",
+            "verb": "accused"
           },
           {
-            "from": "Solstice Bar",
-            "to": "Lackawanna County",
-            "type": "CLOSED",
-            "verb": "closed"
+            "from": "WBRE",
+            "to": "Lackawanna District",
+            "type": "ACCUSED",
+            "verb": "accused"
           },
           {
-            "from": "The Lackawanna",
-            "to": "Scranton",
-            "type": "CLOSED",
-            "verb": "closed"
+            "from": "WYOU",
+            "to": "Lackawanna District",
+            "type": "ACCUSED",
+            "verb": "accused"
           },
           {
-            "from": "Scranton",
-            "to": "Lackawanna County",
-            "type": "CLOSED",
-            "verb": "closed"
+            "from": "LACKAWANNA COUNTY",
+            "to": "Brian Gallagher",
+            "type": "ACCUSED",
+            "verb": "accused"
           },
           {
-            "from": "Solstice Bar",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
+            "from": "WBRE",
+            "to": "Brian Gallagher",
+            "type": "ACCUSED",
+            "verb": "accused"
           },
           {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "WYOU",
+            "to": "Brian Gallagher",
+            "type": "ACCUSED",
+            "verb": "accused"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Solstice</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brian Ga</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Maxwell </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ACCUSED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1238,15 +1272,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Solstice Bar": "../entities/people/solstice-bar.md",
-          "The Lackawanna": "../entities/people/the-lackawanna.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Lackawanna District": "../entities/people/lackawanna-district.md",
+          "Brian Gallagher": "../entities/people/brian-gallagher.md",
+          "Maxwell Hawkins": "../entities/people/maxwell-hawkins.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-10-15T21:04:08",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/solstice-bar-closed-shutdown-riot-scranton-lackawanna-county-district-attorney-brian-gallagher/523-5ccbe4c4-9176-4c38-868b-0fe14bd7c48d",
+      "source": "Wbre",
+      "publishedAt": "2026-10-17T00:47:30",
+      "url": "https://www.2822news.com/news/man-found-guilty-of-killing-wife-staging-as-a-suicide/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
