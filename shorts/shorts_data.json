@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T11:05:57.666006",
-  "source_file": "../data/daily/scranton_news_2026-10-20.json",
+  "generated_at": "2026-10-21T11:05:58.438431",
+  "source_file": "../data/daily/scranton_news_2026-10-21.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -749,24 +749,31 @@
     },
     {
       "id": "short_9",
-      "title": "Juvenile arrested for fire at former grocery store in Old Forge",
-      "title_distilled": "Juvenile arrested for fire at former grocery store in Old Forge.",
-      "description": "The fire started around 6 pm Sunday at the vacant store.",
+      "title": "Man is rescued at Archbald Pothole State Park",
+      "title_distilled": "Man is rescued at Archbald Pothole State Park.",
+      "description": "Police say the man in his 60s fell after trying to pick up litter around the pothole.",
       "description_distilled": "",
-      "content": "The fire started around 6 pm Sunday at the vacant store.",
-      "content_distilled": "fire started around 6 pm Sunday at the vacant store.",
+      "content": "Police say the man in his 60s fell after trying to pick up litter around the pothole.",
+      "content_distilled": "Police say the man in his 60s fell after trying to pick up litter around the pothole.",
       "graph": {
         "entities": [
           {
-            "name": "Old Forge",
+            "name": "Archbald Pothole",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/old-forge.md",
+            "file_path": "../entities/people/archbald-pothole.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "State Park",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/state-park.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -777,12 +784,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Old Forge": "../entities/people/old-forge.md"
+          "Archbald Pothole": "../entities/people/archbald-pothole.md",
+          "State Park": "../entities/people/state-park.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-20T03:57:31",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fire-breaks-out-former-grocery-store-old-forge/523-378d67ce-31d7-41ea-8ceb-5d5cc32c5855",
+      "publishedAt": "2026-10-20T21:46:08",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-archbald-pothole-state-park-rope-rescue/523-49a017f8-b916-4922-a6f5-1c00799781e5",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -790,68 +798,24 @@
     },
     {
       "id": "short_10",
-      "title": "Eagles fans in Peckville react to Jalen Hurts being sidelined for the season after blood clot diagnosis",
-      "title_distilled": "Eagles fans in Peckville react to Jalen Hurts being sidelined for the season after blood clot diagnosis.",
-      "description": "Fans at the Scranton Prep Vs. Valley View Freshman game are hoping for the best after the Eagles announced that Hurts has blood clots in his lungs",
+      "title": "Hundreds impacted by broken gas main in Olyphant",
+      "title_distilled": "Hundreds impacted by broken gas main in Olyphant.",
+      "description": "Residents in Olyphant are facing detours and gas service disruptions as UGI crews repair a broken gas main.",
       "description_distilled": "",
-      "content": "Fans at the Scranton Prep Vs. Valley View Freshman game are hoping for the best after the Eagles announced that Hurts has blood clots in his lungs",
-      "content_distilled": "Fans at the Scranton Prep Vs.",
+      "content": "Residents in Olyphant are facing detours and gas service disruptions as UGI crews repair a broken gas main.",
+      "content_distilled": "Residents in Olyphant are facing detours and gas service disruptions as UGI crews repair a broken gas main.",
       "graph": {
         "entities": [
           {
-            "name": "Jalen Hurts",
+            "name": "Olyphant Residents",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/jalen-hurts.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Prep",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Valley View",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/valley-view.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Valley View Freshman game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/valley-view-freshman-game.md",
+            "file_path": "../entities/people/olyphant-residents.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Valley View",
-            "to": "Scranton",
-            "type": "RELATES_TO"
-          },
-          {
-            "from": "Jalen Hurts",
-            "to": "Scranton Prep",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "Valley View",
-            "to": "Jalen Hurts",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jalen Hu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valley V</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valley V</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">RELATES_TO</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -862,16 +826,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Jalen Hurts": "../entities/people/jalen-hurts.md",
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Valley View": "../entities/people/valley-view.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Valley View Freshman game": "../entities/events/valley-view-freshman-game.md"
+          "Olyphant Residents": "../entities/people/olyphant-residents.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-20T03:44:40",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/eagles-fans-peckville-react-jalen-hurts-being-sidelined-season-after-blood-clot-diagnosis/523-b2d3c5a3-fa7c-43d0-958a-6ae0dd8451c6",
+      "publishedAt": "2026-10-20T21:12:58",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/hundreds-impacted-by-broken-gas-main-in-olyphant-lackawanna-county-south-valley-avenue/523-4543c6aa-8e42-454b-af49-516be608b3c1",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -879,12 +839,150 @@
     },
     {
       "id": "short_11",
-      "title": "Olyphant residents evacuated from their homes following gas leak",
-      "title_distilled": "Olyphant residents evacuated from their homes following gas leak.",
-      "description": "Investigators said a contractor struck a gas line along South Valley Avenue in Olyphant Monday morning.",
+      "title": "Police: Man fell down Archbald Pothole trying to pick up litter",
+      "title_distilled": "Police: Man fell down Archbald Pothole trying to pick up litter.",
+      "description": "A man in his 60s was OK Tuesday after falling roughly half-way down the 38-foot-deep hole",
       "description_distilled": "",
-      "content": "Investigators said a contractor struck a gas line along South Valley Avenue in Olyphant Monday morning.",
-      "content_distilled": "Investigators said a contractor struck a gas line along South Valley Avenue in Olyphant Monday morning.",
+      "content": "A man in his 60s was OK Tuesday after falling roughly half-way down the 38-foot-deep hole",
+      "content_distilled": "man in his 60s was OK Tuesday after falling roughly half-way down the 38-foot-deep hole.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Archbald Pothole",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/archbald-pothole.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Archbald Pothole": "../entities/people/archbald-pothole.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-10-20T19:19:58",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/archbald-pothole-state-park-lackawanna-county-rescue/523-99610d8c-08ce-41c6-9c10-eec3ea9a984a",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Students design elementary school playground",
+      "title_distilled": "Students design elementary school playground.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 After three years in the making, a new playground designed with the help of students is now a reality. The new playground at John G. Whittier Elementary School was a team effort involving students, the Scranton School District, the city, Valley in Motion and Trust for Public Land. It features [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 After three years in the making, a new playground designed with the help of students is now a reality. The new playground at John G. Whittier Elementary School was a team effort involving students, the Scranton School District, the city, Valley in Motion and Trust for Public Land. It features [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 After three years in the making, a new playground designed with the help of students is now a reality.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Whittier Elementary",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/whittier-elementary.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton School",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Public Land",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/public-land.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Whittier Elementary School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/whittier-elementary-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Whittier</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Public L</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Whittier</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Whittier Elementary": "../entities/people/whittier-elementary.md",
+          "Scranton School": "../entities/people/scranton-school.md",
+          "Public Land": "../entities/people/public-land.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Whittier Elementary School": "../entities/organizations/whittier-elementary-school.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-10-21T00:44:51",
+      "url": "https://www.2822news.com/news/local-news/students-design-elementary-school-playground/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Olyphant gas leak impacts continue",
+      "title_distilled": "Olyphant gas leak impacts continue.",
+      "description": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A gas leak is still causing problems in Olyphant one day after it happened. The 500 block of South Valley Avenue in Olyphant remained closed during the day, while a section near the 700 block was down to one lane near the gas valves. UGI crews were back on scene [...]",
+      "description_distilled": "",
+      "content": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A gas leak is still causing problems in Olyphant one day after it happened. The 500 block of South Valley Avenue in Olyphant remained closed during the day, while a section near the 700 block was down to one lane near the gas valves. UGI crews were back on scene [...]",
+      "content_distilled": "OLYPHANT, LACKAWANNA COUNTY  \u2014 A gas leak is still causing problems in Olyphant one day after it happened.",
       "graph": {
         "entities": [
           {
@@ -895,22 +993,56 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Olyphant Monday",
-            "type": "PERSON",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/olyphant-monday.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "along South Valley Avenue",
+            "name": "of South Valley Avenue",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/along-south-valley-avenue.md",
+            "file_path": "../entities/locations/of-south-valley-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "down to one lane",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/down-to-one-lane.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Va</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">along So</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "South Valley",
+            "to": "down to one lane",
+            "type": "CLOSED",
+            "verb": "closed"
+          },
+          {
+            "from": "of South Valley Avenue",
+            "to": "down to one lane",
+            "type": "CLOSED",
+            "verb": "closed"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Va</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">of South</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">down to </text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -922,159 +1054,16 @@
         },
         "entity_files": {
           "South Valley": "../entities/people/south-valley.md",
-          "Olyphant Monday": "../entities/people/olyphant-monday.md",
-          "along South Valley Avenue": "../entities/locations/along-south-valley-avenue.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-10-19T22:59:28",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/gas-leak-forces-evacuations-olyphant/523-688010a2-3abd-4d7f-bad4-04791f68e874",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Man allegedly sells $151K in engines, doesn't deliver",
-      "title_distilled": "Man allegedly sells $151K in engines, doesn't deliver.",
-      "description": "TAYLOR BOROUGH, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The owner of a truck parts business in Lackawanna County is accused of making more than $151,000 in sales for engines to nine customers without ever completing the delivery. Nationwide Truck Parts owner 39-year-old Carl Graziano Jr. of Olyphant faces several charges, including theft and deceptive business practices. After [...]",
-      "description_distilled": "",
-      "content": "TAYLOR BOROUGH, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The owner of a truck parts business in Lackawanna County is accused of making more than $151,000 in sales for engines to nine customers without ever completing the delivery. Nationwide Truck Parts owner 39-year-old Carl Graziano Jr. of Olyphant faces several charges, including theft and deceptive business practices. After [...]",
-      "content_distilled": "TAYLOR BOROUGH, LACKAWANNA COUNTY  \u2014 The owner of a truck parts business in Lackawanna County is accused of making more than $151,000 in sales for engines to nine customers without ever completing the delivery.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Nationwide Truck",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/nationwide-truck.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Carl Graziano",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/carl-graziano.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Nationwi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carl Gra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Nationwide Truck": "../entities/people/nationwide-truck.md",
-          "Carl Graziano": "../entities/people/carl-graziano.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "of South Valley Avenue": "../entities/locations/of-south-valley-avenue.md",
+          "down to one lane": "../entities/locations/down-to-one-lane.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-10-20T03:23:44",
-      "url": "https://www.2822news.com/news/crime-courts/man-allegedly-sells-151k-in-engines-doesnt-deliver/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Traffic changes in effect across Electric City",
-      "title_distilled": "Traffic changes in effect across Electric City.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A 90-day traffic study began Monday in downtown Scranton, which includes the conversion of 13 traffic lights into stop signs. The city says the removal of those traffic signals is the next step in its ongoing driver and pedestrian safety project. Those streets include: The lights will remain on, flashing [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A 90-day traffic study began Monday in downtown Scranton, which includes the conversion of 13 traffic lights into stop signs. The city says the removal of those traffic signals is the next step in its ongoing driver and pedestrian safety project. Those streets include: The lights will remain on, flashing [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A 90-day traffic study began Monday in downtown Scranton, which includes the conversion of 13 traffic lights into stop signs.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Electric City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Electric City": "../entities/people/electric-city.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-10-20T03:06:46",
-      "url": "https://www.2822news.com/traffic/traffic-changes-in-effect-across-electric-city/",
+      "publishedAt": "2026-10-20T23:14:39",
+      "url": "https://www.2822news.com/news/local-news/olyphant-gas-leak-impacts-continue/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1082,40 +1071,33 @@
     },
     {
       "id": "short_14",
-      "title": "Local hospital opens retail pharmacy",
-      "title_distilled": "Local hospital opens retail pharmacy.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local hospital is marking an important investment for its patients and the surrounding community. Commonwealth Health officials cut the ribbon Monday morning on its new retail pharmacy inside of Moses Taylor Hospital. The Apothecary at Moses Taylor will offer services for patients, employees, and the community. It will also [...]",
+      "title": "Man rescued after falling into Archbald Pothole",
+      "title_distilled": "Man rescued after falling into Archbald Pothole.",
+      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 An intense rescue unfolded Tuesday in Lackawanna County at a popular state park. Volunteers and emergency crews were on the scene for two hours getting a man out of a dangerous situation. 28/22 News Reporter Colby Hughes was there and explained the situation. Around noon on Tuesday, emergency crews rushed [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A local hospital is marking an important investment for its patients and the surrounding community. Commonwealth Health officials cut the ribbon Monday morning on its new retail pharmacy inside of Moses Taylor Hospital. The Apothecary at Moses Taylor will offer services for patients, employees, and the community. It will also [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A local hospital is marking an important investment for its patients and the surrounding community.",
+      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 An intense rescue unfolded Tuesday in Lackawanna County at a popular state park. Volunteers and emergency crews were on the scene for two hours getting a man out of a dangerous situation. 28/22 News Reporter Colby Hughes was there and explained the situation. Around noon on Tuesday, emergency crews rushed [...]",
+      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 An intense rescue unfolded Tuesday in Lackawanna County at a popular state park.",
       "graph": {
         "entities": [
           {
-            "name": "Commonwealth Health",
+            "name": "Archbald Pothole",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/commonwealth-health.md",
+            "file_path": "../entities/people/archbald-pothole.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Moses Taylor",
+            "name": "News Reporter",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/moses-taylor.md",
+            "file_path": "../entities/people/news-reporter.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Apothecary",
+            "name": "Colby Hughes",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-apothecary.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/colby-hughes.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1123,6 +1105,13 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "state park",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/state-park.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1138,16 +1127,17 @@
             "confidence": 0.5,
             "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
+          },
           {
-            "from": "Commonwealth Health",
-            "to": "Moses Taylor",
-            "type": "MEMBER_OF"
+            "name": "Volunteers and emergency",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/volunteers-and-emergency.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Commonwe</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moses Ta</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Apot</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Rep</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Colby Hu</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">state pa</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1158,18 +1148,19 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Commonwealth Health": "../entities/people/commonwealth-health.md",
-          "Moses Taylor": "../entities/people/moses-taylor.md",
-          "The Apothecary": "../entities/people/the-apothecary.md",
-          "SCRANTON": "../entities/locations/scranton.md",
+          "Archbald Pothole": "../entities/people/archbald-pothole.md",
+          "News Reporter": "../entities/people/news-reporter.md",
+          "Colby Hughes": "../entities/people/colby-hughes.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "state park": "../entities/locations/state-park.md",
           "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "WYOU": "../entities/organizations/wyou.md",
+          "Volunteers and emergency": "../entities/events/volunteers-and-emergency.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-10-19T23:17:12",
-      "url": "https://www.2822news.com/news/local-news/local-hospital-opens-retail-pharmacy/",
+      "publishedAt": "2026-10-20T21:50:09",
+      "url": "https://www.2822news.com/news/local-news/man-rescued-after-falling-into-archbald-pothole/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
