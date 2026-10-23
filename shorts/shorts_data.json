@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T11:05:40.488774",
-  "source_file": "../data/daily/scranton_news_2026-10-22.json",
+  "generated_at": "2026-10-23T11:06:02.259705",
+  "source_file": "../data/daily/scranton_news_2026-10-23.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -749,76 +749,33 @@
     },
     {
       "id": "short_9",
-      "title": "Archbald Borough Council votes to reject Wildcat Ridge Data Center Proposal",
-      "title_distilled": "Archbald Borough Council votes to reject Wildcat Ridge Data Center Proposal.",
-      "description": "At the Wednesday night Archbald Borough Council meeting, members voted unanimously against the proposed data center campus.",
+      "title": "Women's Resource Center hosts Golden Jubilee in Scranton",
+      "title_distilled": "Women's Resource Center hosts Golden Jubilee in Scranton.",
+      "description": "The WRC celebrated its 50 years of service on Thursday.",
       "description_distilled": "",
-      "content": "At the Wednesday night Archbald Borough Council meeting, members voted unanimously against the proposed data center campus.",
-      "content_distilled": "At the Wednesday night Archbald Borough Council meeting, members voted unanimously against the proposed data center campus.",
+      "content": "The WRC celebrated its 50 years of service on Thursday.",
+      "content_distilled": "WRC celebrated its 50 years of service on Thursday.",
       "graph": {
         "entities": [
           {
-            "name": "Archbald Borough",
+            "name": "Resource Center",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/archbald-borough.md",
+            "file_path": "../entities/people/resource-center.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Wildcat Ridge",
+            "name": "Golden Jubilee",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/wildcat-ridge.md",
+            "file_path": "../entities/people/golden-jubilee.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Data Center",
+            "name": "Scranton The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/data-center.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Archbald</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wildcat </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Data Cen</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Archbald Borough": "../entities/people/archbald-borough.md",
-          "Wildcat Ridge": "../entities/people/wildcat-ridge.md",
-          "Data Center": "../entities/people/data-center.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-10-22T01:56:48",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/archbald-borough-council-votes-to-reject-wildcat-ridge-data-center-proposal-lackawanna-county/523-f14c2642-f6c7-4ace-a1b6-95aa44ed97ab",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "'It's a little chaotic,' Traffic changes continue in downtown Scranton",
-      "title_distilled": "'It's a little chaotic,' Traffic changes continue in downtown Scranton.",
-      "description": "Traffic changes are causing some concern and curiosity about the future of traveling through downtown Scranton.",
-      "description_distilled": "",
-      "content": "Traffic changes are causing some concern and curiosity about the future of traveling through downtown Scranton.",
-      "content_distilled": "Traffic changes are causing some concern and curiosity about the future of traveling through downtown Scranton.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton Traffic",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-traffic.md",
+            "file_path": "../entities/people/scranton-the.md",
             "resolution_method": "new_entity"
           },
           {
@@ -831,12 +788,12 @@
         ],
         "relationships": [
           {
-            "from": "Scranton Traffic",
+            "from": "Resource Center",
             "to": "Scranton",
-            "type": "MEMBER_OF"
+            "type": "LOCATED_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Resource</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Golden J</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -847,13 +804,56 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Traffic": "../entities/people/scranton-traffic.md",
+          "Resource Center": "../entities/people/resource-center.md",
+          "Golden Jubilee": "../entities/people/golden-jubilee.md",
+          "Scranton The": "../entities/people/scranton-the.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-21T22:13:18",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/its-a-little-chaotic-traffic-changes-continue-in-downtown-scranton-lackawanna-county-linden-street-adams-courthouse-square-one-way/523-22adaa7b-185b-4822-a32a-3b8134dc9766",
+      "publishedAt": "2026-10-23T03:41:54",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/womens-resource-center-hosts-golden-jubilee-scranton-lackawanna-county/523-d0803c0f-b635-4fae-8353-a895b2684edf",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "University of Scranton secures $5.5M NASA grant",
+      "title_distilled": "University of Scranton secures $5.",
+      "description": "It is a 5-year cooperative that ends in 2031.",
+      "description_distilled": "",
+      "content": "It is a 5-year cooperative that ends in 2031.",
+      "content_distilled": "It is a 5-year cooperative that ends in 2031.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-10-22T21:27:25",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/university-of-scranton-secures-55-million-nasa-grant-lackawanna-county-research/523-df33ad6c-198a-418a-b2d1-939ff82bc5eb",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -861,141 +861,54 @@
     },
     {
       "id": "short_11",
-      "title": "Archbald council denies Wildcat Ridge data center",
-      "title_distilled": "Archbald council denies Wildcat Ridge data center.",
-      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 After nine long hearings, hours of testimony and almost a year of fighting, residents of Archbald are now celebrating after borough council voted to deny the data center project known as Wildcat Ridge. \"I was crying, for sure. Just hearing the yes to deny, one after another, it just made all [...]",
+      "title": "Scranton Irish Boxing Club to host 5th annual fight",
+      "title_distilled": "Scranton Irish Boxing Club to host 5th annual fight.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Scranton Irish Boxing Club and Long Productions will host their fifth annual boxing event Saturday, Oct. 24, featuring an 18-fight card between local boxers and international contenders. Ahead of the bouts, organizers held their first press conference and face-off at the Steamtown Mall. An estimated crowd of nearly 700 [...]",
       "description_distilled": "",
-      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 After nine long hearings, hours of testimony and almost a year of fighting, residents of Archbald are now celebrating after borough council voted to deny the data center project known as Wildcat Ridge. \"I was crying, for sure. Just hearing the yes to deny, one after another, it just made all [...]",
-      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY \u2014 After nine long hearings, hours of testimony and almost a year of fighting, residents of Archbald are now celebrating after borough council voted to deny the data center project known as Wildcat Ridge.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Scranton Irish Boxing Club and Long Productions will host their fifth annual boxing event Saturday, Oct. 24, featuring an 18-fight card between local boxers and international contenders. Ahead of the bouts, organizers held their first press conference and face-off at the Steamtown Mall. An estimated crowd of nearly 700 [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The Scranton Irish Boxing Club and Long Productions will host their fifth annual boxing event Saturday, Oct.",
       "graph": {
         "entities": [
           {
-            "name": "Wildcat Ridge",
+            "name": "Scranton Irish",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/wildcat-ridge.md",
+            "file_path": "../entities/people/scranton-irish.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wildcat </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Wildcat Ridge": "../entities/people/wildcat-ridge.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-10-22T03:31:23",
-      "url": "https://www.2822news.com/news/data-centers/archbald-council-denies-wildcat-ridge-data-center/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Gas service nearly fully restored in Olyphant",
-      "title_distilled": "Gas service nearly fully restored in Olyphant.",
-      "description": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Gas service is nearly fully restored in Olyphant, Lackawanna County, after a gas leak on Monday forced a neighborhood evacuation. The leak occurred when a contractor struck a gas main, initially leaving nearly 150 UGI customers without gas service. Crews from the utility company have since restored service to most [...]",
-      "description_distilled": "",
-      "content": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Gas service is nearly fully restored in Olyphant, Lackawanna County, after a gas leak on Monday forced a neighborhood evacuation. The leak occurred when a contractor struck a gas main, initially leaving nearly 150 UGI customers without gas service. Crews from the utility company have since restored service to most [...]",
-      "content_distilled": "OLYPHANT, LACKAWANNA COUNTY  \u2014 Gas service is nearly fully restored in Olyphant, Lackawanna County, after a gas leak on Monday forced a neighborhood evacuation.",
-      "graph": {
-        "entities": [
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-10-22T00:09:58",
-      "url": "https://www.2822news.com/news/local-news/gas-service-nearly-fully-restored-in-olyphant/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Scranton's traffic changes draw safety concerns",
-      "title_distilled": "Scranton's traffic changes draw safety concerns.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some serious accessibility concerns are being raised in downtown Scranton. The sounds that signal pedestrians when it is safe to walk are now silenced. This comes as the Electric City undergoes a traffic study to potentially replace some of its traffic lights with stop signs. The goal of the study [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Some serious accessibility concerns are being raised in downtown Scranton. The sounds that signal pedestrians when it is safe to walk are now silenced. This comes as the Electric City undergoes a traffic study to potentially replace some of its traffic lights with stop signs. The goal of the study [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Some serious accessibility concerns are being raised in downtown Scranton.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Electric City",
+            "name": "Boxing Club",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
+            "file_path": "../entities/people/boxing-club.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Irish Boxing",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/irish-boxing.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Long Productions",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/long-productions.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Steamtown Mall",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/steamtown-mall.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1044,7 +957,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Boxing C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Irish Bo</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Long Pro</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1055,7 +968,12 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Electric City": "../entities/people/electric-city.md",
+          "Scranton Irish": "../entities/people/scranton-irish.md",
+          "Boxing Club": "../entities/people/boxing-club.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Irish Boxing": "../entities/people/irish-boxing.md",
+          "Long Productions": "../entities/people/long-productions.md",
+          "Steamtown Mall": "../entities/people/steamtown-mall.md",
           "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
@@ -1063,8 +981,197 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-10-21T22:19:02",
-      "url": "https://www.2822news.com/news/local-news/scrantons-traffic-changes-draw-safety-concerns/",
+      "publishedAt": "2026-10-23T03:15:30",
+      "url": "https://www.2822news.com/news/scranton-irish-boxing-club-to-host-5th-annual-fight/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Gas repairs complete in Olyphant, a few without service",
+      "title_distilled": "Gas repairs complete in Olyphant, a few without service.",
+      "description": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Utility crews have completed repairs on a broken gas line in Olyphant Thursday, restoring service to most affected homes in Lackawanna County. UGI reported that a contractor struck the line near South Valley Avenue on Monday. While main repairs are now complete, about a dozen homes remain without service. All [...]",
+      "description_distilled": "",
+      "content": "OLYPHANT, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Utility crews have completed repairs on a broken gas line in Olyphant Thursday, restoring service to most affected homes in Lackawanna County. UGI reported that a contractor struck the line near South Valley Avenue on Monday. While main repairs are now complete, about a dozen homes remain without service. All [...]",
+      "content_distilled": "OLYPHANT, LACKAWANNA COUNTY  \u2014 Utility crews have completed repairs on a broken gas line in Olyphant Thursday, restoring service to most affected homes in Lackawanna County.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Olyphant Thursday",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/olyphant-thursday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "South Valley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/south-valley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "near South Valley Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/near-south-valley-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Olyphant</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Va</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">near Sou</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Olyphant Thursday": "../entities/people/olyphant-thursday.md",
+          "South Valley": "../entities/people/south-valley.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "near South Valley Avenue": "../entities/locations/near-south-valley-avenue.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-10-23T00:27:11",
+      "url": "https://www.2822news.com/news/gas-repairs-complete-in-olyphant-a-few-without-service/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "State record Channel Catfish caught",
+      "title_distilled": "State record Channel Catfish caught.",
+      "description": "PITTSBURGH, ALLEGHANY COUNTY (WBRE/WYOU) \u2014 An Alleghany County man caught a 36-pound, 2-ounce Channel Catfish at the beginning of the month, setting a new record for the Commonweath. The Pennsylvania Fish and Boat Commission (PFBC) said David Taylor Jr., 44, of Munhall caught the catfish the evening of Saturday, Oct. 3 on his 18-foot fishing [...]",
+      "description_distilled": "",
+      "content": "PITTSBURGH, ALLEGHANY COUNTY (WBRE/WYOU) \u2014 An Alleghany County man caught a 36-pound, 2-ounce Channel Catfish at the beginning of the month, setting a new record for the Commonweath. The Pennsylvania Fish and Boat Commission (PFBC) said David Taylor Jr., 44, of Munhall caught the catfish the evening of Saturday, Oct. 3 on his 18-foot fishing [...]",
+      "content_distilled": "PITTSBURGH, ALLEGHANY COUNTY  \u2014 An Alleghany County man caught a 36-pound, 2-ounce Channel Catfish at the beginning of the month, setting a new record for the Commonweath.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Channel Catfish",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/channel-catfish.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Boat Commission",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/boat-commission.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "David Taylor",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/david-taylor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "The Pennsylvania",
+            "to": "David Taylor",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "Boat Commission",
+            "to": "David Taylor",
+            "type": "SAID",
+            "verb": "said"
+          },
+          {
+            "from": "Pennsylvania",
+            "to": "David Taylor",
+            "type": "SAID",
+            "verb": "said"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Channel </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Penn</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Boat Com</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">David Ta</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">SAID</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Channel Catfish": "../entities/people/channel-catfish.md",
+          "The Pennsylvania": "../entities/people/the-pennsylvania.md",
+          "Boat Commission": "../entities/people/boat-commission.md",
+          "David Taylor": "../entities/people/david-taylor.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-10-22T23:31:56",
+      "url": "https://www.2822news.com/news/state-record-channel-catfish-caught/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -1072,19 +1179,26 @@
     },
     {
       "id": "short_14",
-      "title": "Connecting students with opportunities",
-      "title_distilled": "Connecting students with opportunities.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Students at a local college got their chance to meet with employers and make valuable connections. Hundreds of Johnson College of Technology students and alumni met face-to-face with representatives of more than 80 industry partners Wednesday afternoon. Each company featured is actively hiring, with positions in fields students are studying [...]",
+      "title": "Drivers, pedestrians adjust to traffic changes",
+      "title_distilled": "Drivers, pedestrians adjust to traffic changes.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 In the few days since major traffic changes took effect in the Electric City on Oct. 19, drivers and pedestrians alike are still trying to adjust. At 13 intersections downtown, like at Vine Street and North Washington Avenue, stoplights have temporarily been replaced by stop signs. The change is part [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Students at a local college got their chance to meet with employers and make valuable connections. Hundreds of Johnson College of Technology students and alumni met face-to-face with representatives of more than 80 industry partners Wednesday afternoon. Each company featured is actively hiring, with positions in fields students are studying [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Students at a local college got their chance to meet with employers and make valuable connections.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 In the few days since major traffic changes took effect in the Electric City on Oct. 19, drivers and pedestrians alike are still trying to adjust. At 13 intersections downtown, like at Vine Street and North Washington Avenue, stoplights have temporarily been replaced by stop signs. The change is part [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 In the few days since major traffic changes took effect in the Electric City on Oct.",
       "graph": {
         "entities": [
           {
-            "name": "Johnson College",
+            "name": "Electric City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/johnson-college.md",
+            "file_path": "../entities/people/electric-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "North Washington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/north-washington.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1117,7 +1231,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Johnson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1128,7 +1242,8 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Johnson College": "../entities/people/johnson-college.md",
+          "Electric City": "../entities/people/electric-city.md",
+          "North Washington": "../entities/people/north-washington.md",
           "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
@@ -1136,8 +1251,8 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-10-21T20:39:48",
-      "url": "https://www.2822news.com/news/local-news/connecting-students-with-opportunities/",
+      "publishedAt": "2026-10-22T21:52:23",
+      "url": "https://www.2822news.com/news/local-news/drivers-pedestrians-adjust-to-traffic-changes/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
