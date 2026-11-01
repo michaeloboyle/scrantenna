@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T11:03:53.510590",
-  "source_file": "../data/daily/scranton_news_2026-10-31.json",
+  "generated_at": "2026-11-01T11:03:41.189001",
+  "source_file": "../data/daily/scranton_news_2026-11-01.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -886,26 +886,33 @@
     },
     {
       "id": "short_10",
-      "title": "North Main Avenue Bridge reopens in Scranton",
-      "title_distilled": "North Main Avenue Bridge reopens in Scranton.",
-      "description": "A ribbon-cutting was held Friday as the North Main Avenue Bridge in Scranton reopened ahead of schedule.",
+      "title": "Junken Monkeys Hauling hosts spooky party in partnership with The Recovery Bank in Scranton",
+      "title_distilled": "Junken Monkeys Hauling hosts spooky party in partnership with The Recovery Bank in Scranton.",
+      "description": "The party highlight a sober way to celebrate Halloween for children and families.",
       "description_distilled": "",
-      "content": "A ribbon-cutting was held Friday as the North Main Avenue Bridge in Scranton reopened ahead of schedule.",
-      "content_distilled": "ribbon-cutting was held Friday as the North Main Avenue Bridge in Scranton reopened ahead of schedule.",
+      "content": "The party highlight a sober way to celebrate Halloween for children and families.",
+      "content_distilled": "party highlight a sober way to celebrate Halloween for children and families.",
       "graph": {
         "entities": [
           {
-            "name": "North Main",
+            "name": "Junken Monkeys",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/north-main.md",
+            "file_path": "../entities/people/junken-monkeys.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Avenue Bridge",
+            "name": "The Recovery",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/avenue-bridge.md",
+            "file_path": "../entities/people/the-recovery.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton The",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-the.md",
             "resolution_method": "new_entity"
           },
           {
@@ -914,28 +921,16 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Main Avenue",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/north-main-avenue.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "North Main",
+            "from": "Junken Monkeys",
             "to": "Scranton",
             "type": "LOCATED_IN"
-          },
-          {
-            "from": "North Main Avenue",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Avenue B</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Junken M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Reco</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -946,15 +941,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "North Main": "../entities/people/north-main.md",
-          "Avenue Bridge": "../entities/people/avenue-bridge.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "North Main Avenue": "../entities/locations/north-main-avenue.md"
+          "Junken Monkeys": "../entities/people/junken-monkeys.md",
+          "The Recovery": "../entities/people/the-recovery.md",
+          "Scranton The": "../entities/people/scranton-the.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-30T21:38:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/north-main-avenue-bridge-reopens-in-scranton-lackawanna-county-penndot-leggetts-creek/523-2d5999a0-ceac-4d20-8e16-359b63073ccb",
+      "publishedAt": "2026-11-01T03:32:17",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/junken-monkeys-hauling-hosts-spooky-party-in-partnership-with-the-recovery-bank-in-scranton/523-8715efee-a0cd-4124-8baa-ccee3178656e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -962,19 +957,33 @@
     },
     {
       "id": "short_11",
-      "title": "Second person charged in connection with Scranton shooting",
-      "title_distilled": "Second person charged in connection with Scranton shooting.",
-      "description": "Keenan Ford faces accomplice to attempted homicide, criminal conspiracy to commit aggravated assault, criminal conspiracy to commit robbery, and other charges.",
+      "title": "Memories are made Munley's Haunted Manor in Jessup",
+      "title_distilled": "Memories are made Munley's Haunted Manor in Jessup.",
+      "description": "Munley's Haunted Manor had a donation box with all proceeds benefiting the Geno Merli Center in Scranton.",
       "description_distilled": "",
-      "content": "Keenan Ford faces accomplice to attempted homicide, criminal conspiracy to commit aggravated assault, criminal conspiracy to commit robbery, and other charges.",
-      "content_distilled": "Keenan Ford faces accomplice to attempted homicide, criminal conspiracy to commit aggravated assault, criminal conspiracy to commit robbery, and other charges.",
+      "content": "Munley's Haunted Manor had a donation box with all proceeds benefiting the Geno Merli Center in Scranton.",
+      "content_distilled": "Munley's Haunted Manor had a donation box with all proceeds benefiting the Geno Merli Center in Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Keenan Ford",
+            "name": "Haunted Manor",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/keenan-ford.md",
+            "file_path": "../entities/people/haunted-manor.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Jessup Munley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/jessup-munley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Geno Merli",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/geno-merli.md",
             "resolution_method": "new_entity"
           },
           {
@@ -985,8 +994,14 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keenan F</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Geno Merli",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Haunted </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jessup M</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Geno Mer</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -997,13 +1012,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Keenan Ford": "../entities/people/keenan-ford.md",
+          "Haunted Manor": "../entities/people/haunted-manor.md",
+          "Jessup Munley": "../entities/people/jessup-munley.md",
+          "Geno Merli": "../entities/people/geno-merli.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-30T21:10:17",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/second-person-charged-in-connection-with-scranton-shooting-roselyn-street/523-dd0650ec-64ef-4aeb-8ddd-394e8dda7b0d",
+      "publishedAt": "2026-11-01T03:16:08",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/memories-are-made-munleys-haunted-manor-in-jessup-lackawanna-county/523-88bd75fc-db71-4555-81d5-cb7440ccaf88",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -1011,24 +1028,38 @@
     },
     {
       "id": "short_12",
-      "title": "Moses Taylor Hospital receives $3M investment toward women's health services",
-      "title_distilled": "Moses Taylor Hospital receives $3M investment toward women's health services.",
-      "description": "Moses Taylor plans to use a $3 million grant to enhance breast health services.",
+      "title": "Electric City Aquarium holds annual trick-or-treat-event inside Market Place at Steamtown",
+      "title_distilled": "Electric City Aquarium holds annual trick-or-treat-event inside Market Place at Steamtown.",
+      "description": "Any adults or children dressed up got a $5 discount of admissions.",
       "description_distilled": "",
-      "content": "Moses Taylor plans to use a $3 million grant to enhance breast health services.",
-      "content_distilled": "Moses Taylor plans to use a $3 million grant to enhance breast health services.",
+      "content": "Any adults or children dressed up got a $5 discount of admissions.",
+      "content_distilled": "Any adults or children dressed up got a $5 discount of admissions.",
       "graph": {
         "entities": [
           {
-            "name": "Moses Taylor",
+            "name": "Electric City",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/moses-taylor.md",
+            "file_path": "../entities/people/electric-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Market Place",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/market-place.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Steamtown Any",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/steamtown-any.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moses Ta</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Market P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Steamtow</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1039,12 +1070,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Moses Taylor": "../entities/people/moses-taylor.md"
+          "Electric City": "../entities/people/electric-city.md",
+          "Market Place": "../entities/people/market-place.md",
+          "Steamtown Any": "../entities/people/steamtown-any.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-10-30T20:31:51",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/moses-taylor-hospital-receives-3m-investment-toward-womens-health-services-foundation-grant-breast-cancer-screenings/523-1efe260b-39d1-47e7-a775-e76a2d8be76a",
+      "publishedAt": "2026-10-31T23:31:23",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/electric-city-aquarium-holds-annual-trick-or-treat-event-inside-market-place-at-steamtown/523-bc9bec7e-9394-40b0-b2c7-3db0a44a1dec",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -1052,33 +1085,68 @@
     },
     {
       "id": "short_13",
-      "title": "Lackawanna County to collect household hazardous waste",
-      "title_distilled": "Lackawanna County to collect household hazardous waste.",
-      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Lackawanna County Department of Environmental Sustainability will host a household hazardous waste collection event Saturday, Oct. 31, for county residents. The waste will be collected from 9:00 a.m. to 2:00 p.m. at the Pavilion at Montage Mountain, and is open to all preregistered Lackawanna County residents. Residents can preregister online. [...]",
+      "title": "Beloved business burns to the ground in Old Forge",
+      "title_distilled": "Beloved business burns to the ground in Old Forge.",
+      "description": "Lease Dry Cleaners has stood in the borough since the 1920's. Though only debris sits in its place, its legacy will live on through the stories generations tell.",
       "description_distilled": "",
-      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Lackawanna County Department of Environmental Sustainability will host a household hazardous waste collection event Saturday, Oct. 31, for county residents. The waste will be collected from 9:00 a.m. to 2:00 p.m. at the Pavilion at Montage Mountain, and is open to all preregistered Lackawanna County residents. Residents can preregister online. [...]",
-      "content_distilled": "LACKAWANNA COUNTY  \u2014 The Lackawanna County Department of Environmental Sustainability will host a household hazardous waste collection event Saturday, Oct.",
+      "content": "Lease Dry Cleaners has stood in the borough since the 1920's. Though only debris sits in its place, its legacy will live on through the stories generations tell.",
+      "content_distilled": "Lease Dry Cleaners has stood in the borough since the 1920's.",
       "graph": {
         "entities": [
           {
-            "name": "The Lackawanna",
+            "name": "Old Forge",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-lackawanna.md",
+            "file_path": "../entities/people/old-forge.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Environmental Sustainability",
+            "name": "Lease Dry Cleaners",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/environmental-sustainability.md",
+            "file_path": "../entities/people/lease-dry-cleaners.md",
             "resolution_method": "new_entity"
-          },
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Old Forg</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lease Dr</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Old Forge": "../entities/people/old-forge.md",
+          "Lease Dry Cleaners": "../entities/people/lease-dry-cleaners.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-10-31T22:45:21",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/beloved-business-burns-to-the-ground-in-old-forge/523-711fc503-84fb-4ea9-b278-f27184d35070",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Lackawanna County officials host a household hazardous waste collection in Moosic",
+      "title_distilled": "Lackawanna County officials host a household hazardous waste collection in Moosic.",
+      "description": "Officials collected common household items that would be considered dangerous to help keep the community and environment safe.",
+      "description_distilled": "",
+      "content": "Officials collected common household items that would be considered dangerous to help keep the community and environment safe.",
+      "content_distilled": "Officials collected common household items that would be considered dangerous to help keep the community and environment safe.",
+      "graph": {
+        "entities": [
           {
-            "name": "Montage Mountain",
+            "name": "Moosic Officials",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/montage-mountain.md",
+            "file_path": "../entities/people/moosic-officials.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1087,37 +1155,10 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Lackawanna County Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-lackawanna-county-department.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "The Lackawanna County Department",
-            "to": "Environmental Sustainability",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Environm</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Montage </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Moosic O</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1128,154 +1169,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Lackawanna": "../entities/people/the-lackawanna.md",
-          "Environmental Sustainability": "../entities/people/environmental-sustainability.md",
-          "Montage Mountain": "../entities/people/montage-mountain.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "The Lackawanna County Department": "../entities/organizations/the-lackawanna-county-department.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Moosic Officials": "../entities/people/moosic-officials.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-10-31T01:36:37",
-      "url": "https://www.2822news.com/news/lackawanna-county-to-collect-household-hazardous-waste/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Scranton, PennDOT celebrate bridge reopening",
-      "title_distilled": "Scranton, PennDOT celebrate bridge reopening.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A bridge in Lackawanna County that's been closed all year is now back open. The Pennsylvania Department of Transportation (PennDOT) and Scranton City officials celebrated the completion of the North Main Avenue bridge project Friday afternoon with a ribbon cutting. The bridge had been closed since January as part of [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A bridge in Lackawanna County that's been closed all year is now back open. The Pennsylvania Department of Transportation (PennDOT) and Scranton City officials celebrated the completion of the North Main Avenue bridge project Friday afternoon with a ribbon cutting. The bridge had been closed since January as part of [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 A bridge in Lackawanna County that's been closed all year is now back open.",
-      "graph": {
-        "entities": [
-          {
-            "name": "The Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Main",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-main.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Pennsylvania Department",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-pennsylvania-department.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Scranton City",
-            "to": "North Main",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "The Pennsylvania Department",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Penn</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Ma</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "The Pennsylvania": "../entities/people/the-pennsylvania.md",
-          "Scranton City": "../entities/people/scranton-city.md",
-          "North Main": "../entities/people/north-main.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "The Pennsylvania Department": "../entities/organizations/the-pennsylvania-department.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-10-31T00:29:30",
-      "url": "https://www.2822news.com/traffic/scranton-penndot-celebrate-bridge-reopening/",
+      "source": "Wnep",
+      "publishedAt": "2026-10-31T22:42:32",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-officials-host-a-household-hazardous-waste-collection-in-moosic/523-f33837c8-c22f-4d3a-9ded-364acbb4ce6a",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
