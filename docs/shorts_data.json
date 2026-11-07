@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T11:05:07.740733",
-  "source_file": "../data/daily/scranton_news_2026-11-06.json",
+  "generated_at": "2026-11-07T11:04:14.524939",
+  "source_file": "../data/daily/scranton_news_2026-11-07.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -726,56 +726,24 @@
     },
     {
       "id": "short_9",
-      "title": "SAFEbuilt Expands Operations in Pennsylvania",
-      "title_distilled": "SAFEbuilt Expands Operations in Pennsylvania.",
-      "description": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania. LOVELAND, Colo., Oct. 6, 2026 /PRNewswire/ -- SAFEbuilt, a national provider of building department and community developmen\u2026",
+      "title": "New alien sculpture lands to kick off third annual Carbondalien festival",
+      "title_distilled": "New alien sculpture lands to kick off third annual Carbondalien festival.",
+      "description": "The tradition is inspired by the urban legend of the UFO that reportedly crashed in Carbondale in 1974.",
       "description_distilled": "",
-      "content": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania. LOVELAND, Colo., Oct. 6, 2026 /PRNewswire/ -- SAFEbuilt, a national provider of building department and community developmen\u2026",
-      "content_distilled": "Acquisition of Northeast Inspection Consultants strengthens SAFEbuilt's presence and local expertise across northeastern Pennsylvania.",
+      "content": "The tradition is inspired by the urban legend of the UFO that reportedly crashed in Carbondale in 1974.",
+      "content_distilled": "tradition is inspired by the urban legend of the UFO that reportedly crashed in Carbondale in 1974.",
       "graph": {
         "entities": [
           {
-            "name": "Expands Operations",
-            "type": "PERSON",
+            "name": "New alien sculpture lands to kick off third annual Carbondalien festival",
+            "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/people/expands-operations.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania Acquisition",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/pennsylvania-acquisition.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Northeast Inspection",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/northeast-inspection.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
+            "file_path": "../entities/events/new-alien-sculpture-lands-to-kick-off-third-annual-carbondalien-festival.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Expands Operations",
-            "to": "Northeast Inspection",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Expands Operations",
-            "to": "Pennsylvania",
-            "type": "LOCATED_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Expands </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New alie</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -786,22 +754,109 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Expands Operations": "../entities/people/expands-operations.md",
-          "Pennsylvania Acquisition": "../entities/people/pennsylvania-acquisition.md",
-          "Northeast Inspection": "../entities/people/northeast-inspection.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "New alien sculpture lands to kick off third annual Carbondalien festival": "../entities/events/new-alien-sculpture-lands-to-kick-off-third-annual-carbondalien-festival.md"
         }
       },
-      "source": "PRNewswire",
-      "publishedAt": "2026-10-06T10:00:00Z",
-      "url": "https://www.prnewswire.com/news-releases/safebuilt-expands-operations-in-pennsylvania-302898945.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS1171908/SAFEbuilt-Logo.jpg?id=OA2988390&p=facebook",
+      "source": "Wnep",
+      "publishedAt": "2026-11-07T03:42:52",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-alien-sculpture-lands-kick-third-annual-carbondalien-festival-carbondale-lackawanna-county/523-d6e27f73-510e-4314-9733-4c00d64aa7ff",
+      "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
       "animation_delay": 0.9
     },
     {
       "id": "short_10",
+      "title": "16 To The Rescue: Penny",
+      "title_distilled": "16 To The Rescue: Penny.",
+      "description": "In this week's 16 To The Rescue we meet a 2-year-old Siberian husky who has gotten used to her quiet foster home in Scranton.",
+      "description_distilled": "",
+      "content": "In this week's 16 To The Rescue we meet a 2-year-old Siberian husky who has gotten used to her quiet foster home in Scranton.",
+      "content_distilled": "In this week's 16 To The Rescue we meet a 2-year-old Siberian husky who has gotten used to her quiet foster home in Scranton.",
+      "graph": {
+        "entities": [
+          {
+            "name": "The Rescue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-rescue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Resc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "The Rescue": "../entities/people/the-rescue.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-11-06T22:50:27",
+      "url": "https://www.wnep.com/article/life/pets/16-to-the-rescue/16-to-the-rescue-penny-adoptable-pets-siberian-husky-scranton-friends-with-paws/523-36ab1bfa-dea2-40bc-bb3e-348d73621628",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "PennDOT gears up for winter with plow prep and practice runs in Lackawanna County",
+      "title_distilled": "PennDOT gears up for winter with plow prep and practice runs in Lackawanna County.",
+      "description": "While the first day of winter is still more than a month away, plow truck drivers are preparing in advance to tackle the NEPA snowstorms.",
+      "description_distilled": "",
+      "content": "While the first day of winter is still more than a month away, plow truck drivers are preparing in advance to tackle the NEPA snowstorms.",
+      "content_distilled": "While the first day of winter is still more than a month away, plow truck drivers are preparing in advance to tackle the NEPA snowstorms.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-11-06T20:28:57",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/penndot-gears-up-for-winter-with-plow-prep-and-practice-runs-in-lackawanna-county-snow/523-1fe09ce1-4544-4ac9-a32d-4200b6f540f8",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
       "title": "Stunt Cat and Friends step into the ring to make Christmas special",
       "title_distilled": "Stunt Cat and Friends step into the ring to make Christmas special.",
       "description": "A special Christmas wrestling event in Dunmore will raise money for local children with medical needs while honoring the memory of young wrestling fan Aiden Bartley.",
@@ -842,106 +897,8 @@
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-06T10:59:50",
+      "publishedAt": "2026-11-06T11:46:50",
       "url": "https://www.wnep.com/article/news/local/lackawanna-county/stunt-cat-and-friends-step-into-the-ring-to-make-christmas-special-nikki-krize-wrestling-dunmore/523-3015751e-ef2f-459b-a180-41ccadecf487",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Spirit of Courage Awards honors fire departments across NEPA in Bethlehem",
-      "title_distilled": "Spirit of Courage Awards honors fire departments across NEPA in Bethlehem.",
-      "description": "Fire departments across multiple counties gathered to recognize their work in their communities.",
-      "description_distilled": "",
-      "content": "Fire departments across multiple counties gathered to recognize their work in their communities.",
-      "content_distilled": "Fire departments across multiple counties gathered to recognize their work in their communities.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Courage Awards",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/courage-awards.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Bethlehem Fire",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/bethlehem-fire.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Courage </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bethlehe</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Courage Awards": "../entities/people/courage-awards.md",
-          "Bethlehem Fire": "../entities/people/bethlehem-fire.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-06T04:30:37",
-      "url": "https://www.wnep.com/article/news/local/northampton-county/spirit-courage-awards-honors-fire-departments-across-nepa-bethlehem-northampton-county/523-a0adcf8d-d7e7-4b8a-9ef8-168fdb077855",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Man sentenced to life in prison after killing his co-worker in Lackawanna County",
-      "title_distilled": "Man sentenced to life in prison after killing his co-worker in Lackawanna County.",
-      "description": "Christopher Wasnetsky was found guilty of first-degree murder back in August.",
-      "description_distilled": "",
-      "content": "Christopher Wasnetsky was found guilty of first-degree murder back in August.",
-      "content_distilled": "Christopher Wasnetsky was found guilty of first-degree murder back in August.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Christopher Wasnetsky",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/christopher-wasnetsky.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Christop</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Christopher Wasnetsky": "../entities/people/christopher-wasnetsky.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-06T00:48:35",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/man-sentenced-life-prison-after-killing-his-co-worker-lackawanna-county-scranton/523-34d7bab0-f488-4806-be24-97dcb680da5f",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -949,47 +906,150 @@
     },
     {
       "id": "short_13",
-      "title": "Mayor Paige Cognetti reflects on Congressional win, outlines priorities in Washington, D.C.",
-      "title_distilled": "Mayor Paige Cognetti reflects on Congressional win, outlines priorities in Washington, D.",
-      "description": "From City Hall to Capitol Hill, Scranton Mayor Paige Cognetti is preparing for a major change after flipping the 8th Congressional District blue.",
+      "title": "Judge Munley awarded at 2026 Spirit of Hope Celebration",
+      "title_distilled": "Judge Munley awarded at 2026 Spirit of Hope Celebration.",
+      "description": "PLAINS TWP., LUZERNE COUNTY (WBRE/WYOU) \u2014 Retired Lackawanna County Court of Common Pleas Judge Thomas Munley was named the 2026 Tribute to Courage honoree at the Spirit of Hope Celebration. The gala event was held at Mohegan Pennsylvania in Plains Township, Luzerne County. Munley is a decorated U.S. Army veteran of the Vietnam War and [...]",
       "description_distilled": "",
-      "content": "From City Hall to Capitol Hill, Scranton Mayor Paige Cognetti is preparing for a major change after flipping the 8th Congressional District blue.",
-      "content_distilled": "From City Hall to Capitol Hill, Scranton Mayor Paige Cognetti is preparing for a major change after flipping the 8th Congressional District blue.",
+      "content": "PLAINS TWP., LUZERNE COUNTY (WBRE/WYOU) \u2014 Retired Lackawanna County Court of Common Pleas Judge Thomas Munley was named the 2026 Tribute to Courage honoree at the Spirit of Hope Celebration. The gala event was held at Mohegan Pennsylvania in Plains Township, Luzerne County. Munley is a decorated U.S. Army veteran of the Vietnam War and [...]",
+      "content_distilled": "PLAINS TWP.",
       "graph": {
         "entities": [
           {
-            "name": "Mayor Paige",
+            "name": "Judge Munley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mayor-paige.md",
+            "file_path": "../entities/people/judge-munley.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Capitol Hill",
+            "name": "Hope Celebration",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/capitol-hill.md",
+            "file_path": "../entities/people/hope-celebration.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Mayor",
+            "name": "Retired Lackawanna",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-mayor.md",
+            "file_path": "../entities/people/retired-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Paige Cognetti",
+            "name": "Common Pleas",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
+            "file_path": "../entities/people/common-pleas.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Congressional District",
+            "name": "Judge Thomas",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/congressional-district.md",
+            "file_path": "../entities/people/judge-thomas.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Mohegan Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/mohegan-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Plains Township",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/plains-township.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Vietnam War",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/vietnam-war.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Munley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/munley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Thomas Munley",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/thomas-munley.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Judge Thomas",
+            "to": "Thomas Munley",
+            "type": "HAS_TITLE"
+          },
+          {
+            "from": "Retired Lackawanna",
+            "to": "Judge Thomas",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Judge Mu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hope Cel</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Retired </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Common P</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Judge Th</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mohegan </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Judge Munley": "../entities/people/judge-munley.md",
+          "Hope Celebration": "../entities/people/hope-celebration.md",
+          "Retired Lackawanna": "../entities/people/retired-lackawanna.md",
+          "Common Pleas": "../entities/people/common-pleas.md",
+          "Judge Thomas": "../entities/people/judge-thomas.md",
+          "Mohegan Pennsylvania": "../entities/people/mohegan-pennsylvania.md",
+          "Plains Township": "../entities/people/plains-township.md",
+          "Vietnam War": "../entities/people/vietnam-war.md",
+          "Munley": "../entities/people/munley.md",
+          "Thomas Munley": "../entities/people/thomas-munley.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-07T04:07:07",
+      "url": "https://www.2822news.com/news/judge-munley-awarded-at-2026-spirit-of-hope-celebration/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Residents in Scranton gather for scam awareness event",
+      "title_distilled": "Residents in Scranton gather for scam awareness event.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Community members gathered at Divine Mercy Parish in Scranton for a scam awareness and education event designed to help residents recognize fraudulent schemes and protect themselves from con artists. Lackawanna County Sheriff Mark McAndrew spoke at the event to detail common tactics used by scammers. McAndrew highlighted fraudulent communications delivered [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Community members gathered at Divine Mercy Parish in Scranton for a scam awareness and education event designed to help residents recognize fraudulent schemes and protect themselves from con artists. Lackawanna County Sheriff Mark McAndrew spoke at the event to detail common tactics used by scammers. McAndrew highlighted fraudulent communications delivered [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Community members gathered at Divine Mercy Parish in Scranton for a scam awareness and education event designed to help residents recognize fraudulent schemes and protect themselves from con artists.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Divine Mercy",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/divine-mercy.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Sheriff Mark",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sheriff-mark.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1000,26 +1060,50 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "City Hall",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/city-hall.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton Mayor",
-            "to": "Paige Cognetti",
-            "type": "HAS_TITLE"
+            "from": "Divine Mercy",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
           },
           {
-            "from": "City Hall",
+            "from": "LACKAWANNA COUNTY",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mayor Pa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Capitol </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Congress</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Divine M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sheriff </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1030,75 +1114,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Mayor Paige": "../entities/people/mayor-paige.md",
-          "Capitol Hill": "../entities/people/capitol-hill.md",
-          "Scranton Mayor": "../entities/people/scranton-mayor.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
-          "Congressional District": "../entities/people/congressional-district.md",
+          "Divine Mercy": "../entities/people/divine-mercy.md",
+          "Sheriff Mark": "../entities/people/sheriff-mark.md",
           "Scranton": "../entities/locations/scranton.md",
-          "City Hall": "../entities/locations/city-hall.md"
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-11-06T00:31:22",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/mayor-paige-cognetti-reflects-on-congressional-win-outlines-priorities-in-washington-dc-scranton-8th-district-rob-bresnahan/523-4ba9942f-58e5-489e-a5a4-2f08e226598d",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Aliens Are Invading Carbondale! Carbondalien Festival promises out-of-this-world fun",
-      "title_distilled": "Aliens Are Invading Carbondale! Carbondalien Festival promises out-of-this-world fun.",
-      "description": "Carbondale\u2019s annual Carbondalien Festival returns this weekend with UFO-themed activities, live entertainment, food, vendors, and a celebration of the city",
-      "description_distilled": "",
-      "content": "Carbondale\u2019s annual Carbondalien Festival returns this weekend with UFO-themed activities, live entertainment, food, vendors, and a celebration of the city",
-      "content_distilled": "Carbondale\u2019s annual Carbondalien Festival returns this weekend with UFO-themed activities, live entertainment, food, vendors, and a celebration of the city.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Aliens Are Invading",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/aliens-are-invading.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Carbondalien Festival",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/carbondalien-festival.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "annual Carbondalien Festival",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/annual-carbondalien-festival.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Aliens A</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">annual C</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Aliens Are Invading": "../entities/people/aliens-are-invading.md",
-          "Carbondalien Festival": "../entities/people/carbondalien-festival.md",
-          "annual Carbondalien Festival": "../entities/events/annual-carbondalien-festival.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-05T12:10:30",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/aliens-are-invading-carbondale-carbondalien-festival-promises-out-of-this-world-fun-nikki-krize/523-1ae57dcd-34a2-4093-9aff-366e9d8a73cf",
+      "source": "Wbre",
+      "publishedAt": "2026-11-07T02:10:18",
+      "url": "https://www.2822news.com/news/residents-in-scranton-gather-for-scam-awareness-event/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
