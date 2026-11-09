@@ -1,12 +1,123 @@
 {
-  "generated_at": "2026-11-07T11:04:14.524939",
-  "source_file": "../data/daily/scranton_news_2026-11-07.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2026-11-09T11:04:15.539811",
+  "source_file": "../data/daily/scranton_news_2026-11-09.json",
+  "total_shorts": 14,
+  "total_duration": 112,
   "has_svo": false,
   "shorts": [
     {
       "id": "short_0",
+      "title": "Highlanders chosen as new name for SWB baseball franchise",
+      "title_distilled": "Highlanders chosen as new name for SWB baseball franchise.",
+      "description": "MOOSIC \u2014 Tasked with establishing a new name for the Scranton/Wilkes-Barre Triple-A baseball franchise, President and General Manager Shawn Reilly knew it had to embody the pride of the region and rich tradition of the New York Yankees. During a Fall Festival\u2026",
+      "description_distilled": "",
+      "content": "MOOSIC \u2014 Tasked with establishing a new name for the Scranton/Wilkes-Barre Triple-A baseball franchise, President and General Manager Shawn Reilly knew it had to embody the pride of the region and rich tradition of the New York Yankees. During a Fall Festival\u2026",
+      "content_distilled": "MOOSIC \u2014 Tasked with establishing a new name for the Scranton/Wilkes-Barre Triple-A baseball franchise, President and General Manager Shawn Reilly knew it had to embody the pride of the region and rich tradition of the New York Yankees.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Barre Triple",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/barre-triple.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "General Manager",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/general-manager.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Shawn Reilly",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/shawn-reilly.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "New York",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/new-york.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Fall Festival",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/fall-festival.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Barre Triple",
+            "to": "New York",
+            "type": "KNEW",
+            "verb": "knew"
+          },
+          {
+            "from": "General Manager",
+            "to": "New York",
+            "type": "KNEW",
+            "verb": "knew"
+          },
+          {
+            "from": "Shawn Reilly",
+            "to": "New York",
+            "type": "KNEW",
+            "verb": "knew"
+          },
+          {
+            "from": "Scranton",
+            "to": "New York",
+            "type": "KNEW",
+            "verb": "knew"
+          },
+          {
+            "from": "General Manager",
+            "to": "New York",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Tr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">General </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Shawn Re</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New York</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Fall Fes</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">KNEW</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">KNEW</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">KNEW</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">KNEW</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Barre Triple": "../entities/people/barre-triple.md",
+          "General Manager": "../entities/people/general-manager.md",
+          "Shawn Reilly": "../entities/people/shawn-reilly.md",
+          "New York": "../entities/people/new-york.md",
+          "Fall Festival": "../entities/people/fall-festival.md",
+          "Scranton": "../entities/locations/scranton.md"
+        }
+      },
+      "source": "Thetimes-tribune.com",
+      "publishedAt": "2026-11-08T01:03:00Z",
+      "url": "https://www.thetimes-tribune.com/2026/11/07/highlanders-chosen-as-new-name-for-scranton-wilkes-barre-baseball-franchise/",
+      "urlToImage": null,
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 0.0
+    },
+    {
+      "id": "short_1",
       "title": "RailRiders fans rush to PNC Field to grab unique finds during \u2018garage sale\u2019",
       "title_distilled": "RailRiders fans rush to PNC Field to grab unique finds during \u2018garage sale\u2019.",
       "description": "MOOSIC \u2014 As the Scranton/Wilkes-Barre Triple-A baseball franchise prepares to start a new era later this week, fans \u2014 from just several miles down the road all the way to Greenfield, Massachusetts \u2014 flooded the team clubhouse Sunday afternoon to snag a piece \u2026",
@@ -51,11 +162,11 @@
       "url": "https://www.thetimes-tribune.com/2026/11/01/railriders-fans-rush-to-pnc-field-to-grab-unique-finds-during-garage-sale/",
       "urlToImage": null,
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 0.0
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 0.1
     },
     {
-      "id": "short_1",
+      "id": "short_2",
       "title": "Bresnahan, Cognetti battle in 8th Congressional District debate",
       "title_distilled": "Bresnahan, Cognetti battle in 8th Congressional District debate.",
       "description": "Incumbent Republican U.S. Rep. Rob Bresnahan and Democratic Scranton Mayor Paige Cognetti sparred Thursday over data centers, healthcare and other key issues.",
@@ -140,11 +251,11 @@
       "url": "https://slot.medianewsgroup.com/2026/10/29/bresnahan-cognetti-battle-in-8th-congressional-district-debate/",
       "urlToImage": "https://www.thetimes-tribune.com/wp-content/uploads/2026/10/10292026_Debate008.jpg?w=2000&h=1188",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 0.1
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 0.2
     },
     {
-      "id": "short_2",
+      "id": "short_3",
       "title": "Thousands prepare for Steamtown Marathon at annual expo",
       "title_distilled": "Thousands prepare for Steamtown Marathon at annual expo.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Thousands of runners are preparing to lace up their sneakers for a longtime Northeastern Pennsylvania tradition this weekend as the Steamtown Marathon returns. Participants stopped by the University of Scranton\u2019s Byro\u2026",
@@ -229,11 +340,11 @@
       "url": "https://www.2822news.com/news/local-news/thousands-prepare-for-steamtown-marathon-at-annual-expo/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/261cafae0b9a82445640b720b01a32987b89af95caee8aac8329a112be8c5fd2/lightyear_networkapi/resizefill_w900_h503%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F688a5ad799af04041c46b5ba6e51fce8.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 0.2
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 0.30000000000000004
     },
     {
-      "id": "short_3",
+      "id": "short_4",
       "title": "Running for a reason",
       "title_distilled": "Running for a reason.",
       "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The countdown to the region\u2019s biggest footrace is on, and the 29th annual Steamtown Marathon steps off in two days. This year, one dedicated runner is racing to honor one of the original founders. Downtown Scranton is\u2026",
@@ -310,11 +421,11 @@
       "url": "https://www.2822news.com/news/local-news/running-for-a-reason/",
       "urlToImage": "https://s.yimg.com/lo/mysterio/api/6aee70c3b71c2535108e4a52b751c40bf1d140e6477df8c87ef49543bae90dfe/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2F1001a5e83ae81ec4dcfd8a56647c7870.png",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 0.30000000000000004
+      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "animation_delay": 0.4
     },
     {
-      "id": "short_4",
+      "id": "short_5",
       "title": "Neglectful mother let unvaccinated seven-year-old daughter's teeth decay to the point where she could no longer eat solid food, police claim",
       "title_distilled": "Neglectful mother let unvaccinated seven-year-old daughter's teeth decay to the point where she could no longer eat solid food, police claim.",
       "description": "Maria Lopez-Paz, 39, was charged with endangering the welfare of a child after police officers responded to reports of a child not being fed and possible drug use in the Scranton home in September.",
@@ -365,108 +476,6 @@
       "publishedAt": "2026-10-08T16:37:41Z",
       "url": "https://www.dailymail.com/news/article-16193059/Pennsylvania-mother-daughters-teeth-deca.html",
       "urlToImage": "https://i.dailymail.com/1s/2026/10/08/17/111735883-0-image-m-18_1791475726002.jpg",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-      "animation_delay": 0.4
-    },
-    {
-      "id": "short_5",
-      "title": "Sports complex to open inside Scranton armory",
-      "title_distilled": "Sports complex to open inside Scranton armory.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex. While all kinds of sports are welcome, its focus is basketball. Flooring from the Orlando Magic\u2019s NBA practice\u2026",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU)\u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex. While all kinds of sports are welcome, its focus is basketball. Flooring from the Orlando Magic\u2019s NBA practice\u2026",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY \u2014 The Watres Armory in Scranton is in the process of being converted into a full-blown indoor sports complex.",
-      "graph": {
-        "entities": [
-          {
-            "name": "The Watres",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-watres.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Orlando Magic",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/orlando-magic.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "The Watres",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Watr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Orlando </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "The Watres": "../entities/people/the-watres.md",
-          "Orlando Magic": "../entities/people/orlando-magic.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "2822news.com",
-      "publishedAt": "2026-10-07T03:14:39Z",
-      "url": "https://www.2822news.com/news/sports-complex-to-open-inside-scranton-armory/",
-      "urlToImage": "https://s.yimg.com/lo/mysterio/api/0629d5c35f10bfdbd29d6449a62ffc8affcd3ca7d42c284d4698c9190c14484f/lightyear_networkapi/resizefill_w900_h506%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwbre_articles_217%2Fd1982fddbe336e6ae2fbadd8dfc0d7fc.jpg",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
       "animation_delay": 0.5
@@ -726,24 +735,31 @@
     },
     {
       "id": "short_9",
-      "title": "New alien sculpture lands to kick off third annual Carbondalien festival",
-      "title_distilled": "New alien sculpture lands to kick off third annual Carbondalien festival.",
-      "description": "The tradition is inspired by the urban legend of the UFO that reportedly crashed in Carbondale in 1974.",
+      "title": "Singing in support of man battling cancer in Lackawanna County man",
+      "title_distilled": "Singing in support of man battling cancer in Lackawanna County man.",
+      "description": "Joe Kirby was diagnosed with stage four metastatic melanoma back in August.",
       "description_distilled": "",
-      "content": "The tradition is inspired by the urban legend of the UFO that reportedly crashed in Carbondale in 1974.",
-      "content_distilled": "tradition is inspired by the urban legend of the UFO that reportedly crashed in Carbondale in 1974.",
+      "content": "Joe Kirby was diagnosed with stage four metastatic melanoma back in August.",
+      "content_distilled": "Joe Kirby was diagnosed with stage four metastatic melanoma back in August.",
       "graph": {
         "entities": [
           {
-            "name": "New alien sculpture lands to kick off third annual Carbondalien festival",
-            "type": "EVENT",
+            "name": "Joe Kirby",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/events/new-alien-sculpture-lands-to-kick-off-third-annual-carbondalien-festival.md",
+            "file_path": "../entities/people/joe-kirby.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New alie</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Joe Kirb</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -754,12 +770,13 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "New alien sculpture lands to kick off third annual Carbondalien festival": "../entities/events/new-alien-sculpture-lands-to-kick-off-third-annual-carbondalien-festival.md"
+          "Joe Kirby": "../entities/people/joe-kirby.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-07T03:42:52",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/new-alien-sculpture-lands-kick-third-annual-carbondalien-festival-carbondale-lackawanna-county/523-d6e27f73-510e-4314-9733-4c00d64aa7ff",
+      "publishedAt": "2026-11-09T03:26:09",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/community-belting-benefit-scranton-man-lackawanna-county/523-7e638bbe-e979-4e0c-83cb-64c3a8872565",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -767,19 +784,26 @@
     },
     {
       "id": "short_10",
-      "title": "16 To The Rescue: Penny",
-      "title_distilled": "16 To The Rescue: Penny.",
-      "description": "In this week's 16 To The Rescue we meet a 2-year-old Siberian husky who has gotten used to her quiet foster home in Scranton.",
+      "title": "Theater at North celebrates America250 in Scranton",
+      "title_distilled": "Theater at North celebrates America250 in Scranton.",
+      "description": "The performance was part of a larger \"Sing Democracy 250\" program.",
       "description_distilled": "",
-      "content": "In this week's 16 To The Rescue we meet a 2-year-old Siberian husky who has gotten used to her quiet foster home in Scranton.",
-      "content_distilled": "In this week's 16 To The Rescue we meet a 2-year-old Siberian husky who has gotten used to her quiet foster home in Scranton.",
+      "content": "The performance was part of a larger \"Sing Democracy 250\" program.",
+      "content_distilled": "performance was part of a larger \"Sing Democracy 250\" program.",
       "graph": {
         "entities": [
           {
-            "name": "The Rescue",
+            "name": "Scranton The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/the-rescue.md",
+            "file_path": "../entities/people/scranton-the.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Sing Democracy",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/sing-democracy.md",
             "resolution_method": "new_entity"
           },
           {
@@ -791,7 +815,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Resc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sing Dem</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -802,13 +826,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "The Rescue": "../entities/people/the-rescue.md",
+          "Scranton The": "../entities/people/scranton-the.md",
+          "Sing Democracy": "../entities/people/sing-democracy.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-06T22:50:27",
-      "url": "https://www.wnep.com/article/life/pets/16-to-the-rescue/16-to-the-rescue-penny-adoptable-pets-siberian-husky-scranton-friends-with-paws/523-36ab1bfa-dea2-40bc-bb3e-348d73621628",
+      "publishedAt": "2026-11-09T03:18:46",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/theater-north-celebrates-america250-scranton-lackawanna-county/523-1203ee24-dcab-4f9d-86dc-8d4f3bc471e3",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -816,24 +841,52 @@
     },
     {
       "id": "short_11",
-      "title": "PennDOT gears up for winter with plow prep and practice runs in Lackawanna County",
-      "title_distilled": "PennDOT gears up for winter with plow prep and practice runs in Lackawanna County.",
-      "description": "While the first day of winter is still more than a month away, plow truck drivers are preparing in advance to tackle the NEPA snowstorms.",
+      "title": "Lackawanna College and Bartari team up for a cause in Scranton",
+      "title_distilled": "Lackawanna College and Bartari team up for a cause in Scranton.",
+      "description": "The college's competitive gamers and the restaurant donated all proceeds to Geisinger Janet Weis Children's Hospital.",
       "description_distilled": "",
-      "content": "While the first day of winter is still more than a month away, plow truck drivers are preparing in advance to tackle the NEPA snowstorms.",
-      "content_distilled": "While the first day of winter is still more than a month away, plow truck drivers are preparing in advance to tackle the NEPA snowstorms.",
+      "content": "The college's competitive gamers and the restaurant donated all proceeds to Geisinger Janet Weis Children's Hospital.",
+      "content_distilled": "college's competitive gamers and the restaurant donated all proceeds to Geisinger Janet Weis Children's Hospital.",
       "graph": {
         "entities": [
           {
-            "name": "Lackawanna County",
+            "name": "Lackawanna College",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-college.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton The",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-the.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Geisinger Janet",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/geisinger-janet.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Weis Children",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/weis-children.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Geisinge</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Weis Chi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -844,12 +897,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "Lackawanna College": "../entities/people/lackawanna-college.md",
+          "Scranton The": "../entities/people/scranton-the.md",
+          "Geisinger Janet": "../entities/people/geisinger-janet.md",
+          "Weis Children": "../entities/people/weis-children.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-06T20:28:57",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/penndot-gears-up-for-winter-with-plow-prep-and-practice-runs-in-lackawanna-county-snow/523-1fe09ce1-4544-4ac9-a32d-4200b6f540f8",
+      "publishedAt": "2026-11-09T02:49:21",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-college-bartari-team-up-cause-scranton-lackawanna-county/523-c1b72d50-4444-4793-898c-b8dd919c33c8",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -857,185 +914,12 @@
     },
     {
       "id": "short_12",
-      "title": "Stunt Cat and Friends step into the ring to make Christmas special",
-      "title_distilled": "Stunt Cat and Friends step into the ring to make Christmas special.",
-      "description": "A special Christmas wrestling event in Dunmore will raise money for local children with medical needs while honoring the memory of young wrestling fan Aiden Bartley.",
+      "title": "Scranton honors veterans at annual mass",
+      "title_distilled": "Scranton honors veterans at annual mass.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Divine Mercy Parish in Scranton, Lackawanna County, held its annual Veterans Day Mass over the weekend to honor military service members. The service began with a processional featuring flags representing each branch of the military. Dozens of veterans attended the mass, alongside local community members gathered to honor those who [...]",
       "description_distilled": "",
-      "content": "A special Christmas wrestling event in Dunmore will raise money for local children with medical needs while honoring the memory of young wrestling fan Aiden Bartley.",
-      "content_distilled": "special Christmas wrestling event in Dunmore will raise money for local children with medical needs while honoring the memory of young wrestling fan Aiden Bartley.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Stunt Cat",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/stunt-cat.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Aiden Bartley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/aiden-bartley.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Stunt Ca</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Aiden Ba</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Stunt Cat": "../entities/people/stunt-cat.md",
-          "Aiden Bartley": "../entities/people/aiden-bartley.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-06T11:46:50",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/stunt-cat-and-friends-step-into-the-ring-to-make-christmas-special-nikki-krize-wrestling-dunmore/523-3015751e-ef2f-459b-a180-41ccadecf487",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Judge Munley awarded at 2026 Spirit of Hope Celebration",
-      "title_distilled": "Judge Munley awarded at 2026 Spirit of Hope Celebration.",
-      "description": "PLAINS TWP., LUZERNE COUNTY (WBRE/WYOU) \u2014 Retired Lackawanna County Court of Common Pleas Judge Thomas Munley was named the 2026 Tribute to Courage honoree at the Spirit of Hope Celebration. The gala event was held at Mohegan Pennsylvania in Plains Township, Luzerne County. Munley is a decorated U.S. Army veteran of the Vietnam War and [...]",
-      "description_distilled": "",
-      "content": "PLAINS TWP., LUZERNE COUNTY (WBRE/WYOU) \u2014 Retired Lackawanna County Court of Common Pleas Judge Thomas Munley was named the 2026 Tribute to Courage honoree at the Spirit of Hope Celebration. The gala event was held at Mohegan Pennsylvania in Plains Township, Luzerne County. Munley is a decorated U.S. Army veteran of the Vietnam War and [...]",
-      "content_distilled": "PLAINS TWP.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Judge Munley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/judge-munley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Hope Celebration",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/hope-celebration.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Retired Lackawanna",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/retired-lackawanna.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Common Pleas",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/common-pleas.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Judge Thomas",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/judge-thomas.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mohegan Pennsylvania",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mohegan-pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Plains Township",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/plains-township.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Vietnam War",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/vietnam-war.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Munley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/munley.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Thomas Munley",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/thomas-munley.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Judge Thomas",
-            "to": "Thomas Munley",
-            "type": "HAS_TITLE"
-          },
-          {
-            "from": "Retired Lackawanna",
-            "to": "Judge Thomas",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Judge Mu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Hope Cel</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Retired </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Common P</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Judge Th</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mohegan </text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Judge Munley": "../entities/people/judge-munley.md",
-          "Hope Celebration": "../entities/people/hope-celebration.md",
-          "Retired Lackawanna": "../entities/people/retired-lackawanna.md",
-          "Common Pleas": "../entities/people/common-pleas.md",
-          "Judge Thomas": "../entities/people/judge-thomas.md",
-          "Mohegan Pennsylvania": "../entities/people/mohegan-pennsylvania.md",
-          "Plains Township": "../entities/people/plains-township.md",
-          "Vietnam War": "../entities/people/vietnam-war.md",
-          "Munley": "../entities/people/munley.md",
-          "Thomas Munley": "../entities/people/thomas-munley.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-07T04:07:07",
-      "url": "https://www.2822news.com/news/judge-munley-awarded-at-2026-spirit-of-hope-celebration/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Residents in Scranton gather for scam awareness event",
-      "title_distilled": "Residents in Scranton gather for scam awareness event.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Community members gathered at Divine Mercy Parish in Scranton for a scam awareness and education event designed to help residents recognize fraudulent schemes and protect themselves from con artists. Lackawanna County Sheriff Mark McAndrew spoke at the event to detail common tactics used by scammers. McAndrew highlighted fraudulent communications delivered [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Community members gathered at Divine Mercy Parish in Scranton for a scam awareness and education event designed to help residents recognize fraudulent schemes and protect themselves from con artists. Lackawanna County Sheriff Mark McAndrew spoke at the event to detail common tactics used by scammers. McAndrew highlighted fraudulent communications delivered [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Community members gathered at Divine Mercy Parish in Scranton for a scam awareness and education event designed to help residents recognize fraudulent schemes and protect themselves from con artists.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Divine Mercy Parish in Scranton, Lackawanna County, held its annual Veterans Day Mass over the weekend to honor military service members. The service began with a processional featuring flags representing each branch of the military. Dozens of veterans attended the mass, alongside local community members gathered to honor those who [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Divine Mercy Parish in Scranton, Lackawanna County, held its annual Veterans Day Mass over the weekend to honor military service members.",
       "graph": {
         "entities": [
           {
@@ -1046,10 +930,10 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Sheriff Mark",
+            "name": "Veterans Day Mass",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/sheriff-mark.md",
+            "file_path": "../entities/people/veterans-day-mass.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1103,7 +987,7 @@
             "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Divine M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sheriff </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Divine M</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Veterans</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1115,7 +999,7 @@
         },
         "entity_files": {
           "Divine Mercy": "../entities/people/divine-mercy.md",
-          "Sheriff Mark": "../entities/people/sheriff-mark.md",
+          "Veterans Day Mass": "../entities/people/veterans-day-mass.md",
           "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
@@ -1123,11 +1007,92 @@
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-11-07T02:10:18",
-      "url": "https://www.2822news.com/news/residents-in-scranton-gather-for-scam-awareness-event/",
+      "publishedAt": "2026-11-09T04:19:48",
+      "url": "https://www.2822news.com/news/local-news/scranton-honors-veterans-at-annual-mass/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Gaming for good cause at Quarters for Kids charity event",
+      "title_distilled": "Gaming for good cause at Quarters for Kids charity event.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Bartari hosted its sixth annual \u201cQuarters for Kids\u201d charity event in Scranton, Lackawanna County, bringing gamers together to raise funds for the Geisinger Janet Weis Children's Hospital. The event raised money for pediatric care through multiple activities throughout the venue. All proceeds generated from the venue's arcade machines during the [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Bartari hosted its sixth annual \u201cQuarters for Kids\u201d charity event in Scranton, Lackawanna County, bringing gamers together to raise funds for the Geisinger Janet Weis Children's Hospital. The event raised money for pediatric care through multiple activities throughout the venue. All proceeds generated from the venue's arcade machines during the [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Bartari hosted its sixth annual \u201cQuarters for Kids\u201d charity event in Scranton, Lackawanna County, bringing gamers together to raise funds for the Geisinger Janet Weis Children's Hospital.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Geisinger Janet",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/geisinger-janet.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Weis Children",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/weis-children.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Geisinge</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Weis Chi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Geisinger Janet": "../entities/people/geisinger-janet.md",
+          "Weis Children": "../entities/people/weis-children.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-09T04:13:11",
+      "url": "https://www.2822news.com/news/local-news/gaming-for-good-cause-at-quarters-for-kids-charity-event/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
       "animation_delay": 1.0
     }
   ]
