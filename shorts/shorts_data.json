@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T11:05:06.718200",
-  "source_file": "../data/daily/scranton_news_2026-11-12.json",
+  "generated_at": "2026-11-13T11:06:00.881515",
+  "source_file": "../data/daily/scranton_news_2026-11-13.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -590,75 +590,38 @@
     },
     {
       "id": "short_7",
-      "title": "Former Lackawanna College President presented with award in Scranton",
-      "title_distilled": "Former Lackawanna College President presented with award in Scranton.",
-      "description": "Colonel Mark Volk is a double alumnus of the University of Scranton.",
+      "title": "Lower gas prices relieve customers at Duchniks Towing in Lackawanna County",
+      "title_distilled": "Lower gas prices relieve customers at Duchniks Towing in Lackawanna County.",
+      "description": "Duchniks Towing in Scott Township is trying to help customers after months of record-breaking gas prices.",
       "description_distilled": "",
-      "content": "Colonel Mark Volk is a double alumnus of the University of Scranton.",
-      "content_distilled": "Colonel Mark Volk is a double alumnus of the University of Scranton.",
+      "content": "Duchniks Towing in Scott Township is trying to help customers after months of record-breaking gas prices.",
+      "content_distilled": "Duchniks Towing in Scott Township is trying to help customers after months of record-breaking gas prices.",
       "graph": {
         "entities": [
           {
-            "name": "Former Lackawanna",
+            "name": "Duchniks Towing",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/former-lackawanna.md",
+            "file_path": "../entities/people/duchniks-towing.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "College President",
+            "name": "Scott Township",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/college-president.md",
+            "file_path": "../entities/people/scott-township.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Colonel",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-colonel.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mark Volk",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mark-volk.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Former Lackawanna College",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/former-lackawanna-college.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "College President",
-            "to": "Scranton Colonel",
-            "type": "HAS_TITLE"
-          },
-          {
-            "from": "Former Lackawanna",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Former Lackawanna College",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Former L</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">College </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mark Vol</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Former L</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"250\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Duchniks</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scott To</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -669,17 +632,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Former Lackawanna": "../entities/people/former-lackawanna.md",
-          "College President": "../entities/people/college-president.md",
-          "Scranton Colonel": "../entities/people/scranton-colonel.md",
-          "Mark Volk": "../entities/people/mark-volk.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Former Lackawanna College": "../entities/organizations/former-lackawanna-college.md"
+          "Duchniks Towing": "../entities/people/duchniks-towing.md",
+          "Scott Township": "../entities/people/scott-township.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-12T04:17:57",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/former-lackawanna-college-president-presented-award-scranton/523-9ac967f9-459c-4191-b9c7-5593852ed768",
+      "publishedAt": "2026-11-13T03:58:49",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lower-gas-prices-relieve-customers-duchniks-towing-lackawanna-county-scott-township/523-5cdeee81-bced-4e98-bc81-f9371910e960",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #ff8a80 0%, #ea80fc 100%)",
@@ -687,169 +647,40 @@
     },
     {
       "id": "short_8",
-      "title": "Carbon County residents share what change they want to see as Bob Brooks prepares to enter Congress",
-      "title_distilled": "Carbon County residents share what change they want to see as Bob Brooks prepares to enter Congress.",
-      "description": "With Bob Brooks and Scranton Mayor Paige Cognetti undergoing training to begin their terms in Congress, 7th District residents share the change they want to see.",
+      "title": "Hardware store helps residents prepare for snowfall",
+      "title_distilled": "Hardware store helps residents prepare for snowfall.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Residents in Scranton are preparing for the area's potential first snowfall of the winter season by gathering essential winter supplies. At Gerrity's Ace Hardware on Keyser Avenue in Scranton, employees are working to ensure customers have necessary equipment before snow begins to fall. The Lackawanna County business is stocked with [...]",
       "description_distilled": "",
-      "content": "With Bob Brooks and Scranton Mayor Paige Cognetti undergoing training to begin their terms in Congress, 7th District residents share the change they want to see.",
-      "content_distilled": "With Bob Brooks and Scranton Mayor Paige Cognetti undergoing training to begin their terms in Congress, 7th District residents share the change they want to see.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Residents in Scranton are preparing for the area's potential first snowfall of the winter season by gathering essential winter supplies. At Gerrity's Ace Hardware on Keyser Avenue in Scranton, employees are working to ensure customers have necessary equipment before snow begins to fall. The Lackawanna County business is stocked with [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Residents in Scranton are preparing for the area's potential first snowfall of the winter season by gathering essential winter supplies.",
       "graph": {
         "entities": [
           {
-            "name": "Bob Brooks",
+            "name": "Ace Hardware",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/bob-brooks.md",
+            "file_path": "../entities/people/ace-hardware.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Mayor",
+            "name": "Keyser Avenue",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-mayor.md",
+            "file_path": "../entities/people/keyser-avenue.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Paige Cognetti",
+            "name": "The Lackawanna",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/paige-cognetti.md",
+            "file_path": "../entities/people/the-lackawanna.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "SCRANTON",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Scranton Mayor",
-            "to": "Paige Cognetti",
-            "type": "HAS_TITLE"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Bob Broo</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Paige Co</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">HAS_TITLE</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Bob Brooks": "../entities/people/bob-brooks.md",
-          "Scranton Mayor": "../entities/people/scranton-mayor.md",
-          "Paige Cognetti": "../entities/people/paige-cognetti.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-12T03:59:04",
-      "url": "https://www.wnep.com/article/news/local/carbon-county/carbon-county-residents-share-what-change-they-want-see-bob-brooks-prepares-enter-congress/523-9fbc0d4b-5925-4ec4-bc51-11eb423af3eb",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "Scranton School Board plans to purchase former Penn Foster building for $2.2M",
-      "title_distilled": "Scranton School Board plans to purchase former Penn Foster building for $2.",
-      "description": "Newswatch 16's Jack Culkin spoke with the Scranton School Board president about the potential $2.2 million purchase.",
-      "description_distilled": "",
-      "content": "Newswatch 16's Jack Culkin spoke with the Scranton School Board president about the potential $2.2 million purchase.",
-      "content_distilled": "Newswatch 16's Jack Culkin spoke with the Scranton School Board president about the potential $2.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton School",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Penn Foster",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/penn-foster.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Jack Culkin",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/jack-culkin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Penn Fos</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Jack Cul</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton School": "../entities/people/scranton-school.md",
-          "Penn Foster": "../entities/people/penn-foster.md",
-          "Jack Culkin": "../entities/people/jack-culkin.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-11T22:14:09",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-school-board-plans-to-purchase-former-penn-foster-building-for-22m-oak-street-district-education/523-43316ee8-e67b-4194-bc5e-c7fbdc3c0426",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Raising funds, Christmas cheer with holiday display",
-      "title_distilled": "Raising funds, Christmas cheer with holiday display.",
-      "description": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A home display in Lackawanna County features nearly 700 holiday decorations on Winthrop Street in Jessup. While admission to view the display is free, visitors are encouraged to make donations to benefit the Griffin Pond Animal Shelter. The Christmas display first took shape in 2019. It has continued to expand [...]",
-      "description_distilled": "",
-      "content": "ARCHBALD, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A home display in Lackawanna County features nearly 700 holiday decorations on Winthrop Street in Jessup. While admission to view the display is free, visitors are encouraged to make donations to benefit the Griffin Pond Animal Shelter. The Christmas display first took shape in 2019. It has continued to expand [...]",
-      "content_distilled": "ARCHBALD, LACKAWANNA COUNTY  \u2014 A home display in Lackawanna County features nearly 700 holiday decorations on Winthrop Street in Jessup.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Griffin Pond",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/griffin-pond.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Animal Shelter",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/animal-shelter.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Christmas",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-christmas.md",
             "resolution_method": "new_entity"
           },
           {
@@ -874,8 +705,19 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Griffin </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Animal S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Chri</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Ace Hardware",
+            "to": "SCRANTON",
+            "type": "LOCATED_IN"
+          },
+          {
+            "from": "Ace Hardware",
+            "to": "SCRANTON",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Ace Hard</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Keyser A</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Lack</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -886,17 +728,221 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Griffin Pond": "../entities/people/griffin-pond.md",
-          "Animal Shelter": "../entities/people/animal-shelter.md",
-          "The Christmas": "../entities/people/the-christmas.md",
+          "Ace Hardware": "../entities/people/ace-hardware.md",
+          "Keyser Avenue": "../entities/people/keyser-avenue.md",
+          "The Lackawanna": "../entities/people/the-lackawanna.md",
+          "SCRANTON": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-11-12T04:21:18",
-      "url": "https://www.2822news.com/news/local-news/raising-funds-christmas-cheer-with-holiday-display/",
+      "publishedAt": "2026-11-13T04:11:23",
+      "url": "https://www.2822news.com/news/hardware-store-helps-residents-prepare-for-snowfall/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
+    },
+    {
+      "id": "short_9",
+      "title": "Police take part in challenge for good cause",
+      "title_distilled": "Police take part in challenge for good cause.",
+      "description": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 You may have heard of No Shave November, the annual fundraising tradition in which people grow their hair out for the month of November. One participating police department is using the challenge as a way to support a cause close to their hearts. Officers with the Throop Police Department have [...]",
+      "description_distilled": "",
+      "content": "THROOP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 You may have heard of No Shave November, the annual fundraising tradition in which people grow their hair out for the month of November. One participating police department is using the challenge as a way to support a cause close to their hearts. Officers with the Throop Police Department have [...]",
+      "content_distilled": "THROOP, LACKAWANNA COUNTY  \u2014 You may have heard of No Shave November, the annual fundraising tradition in which people grow their hair out for the month of November.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Shave November",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/shave-november.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Throop Police",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/throop-police.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Throop Police Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/throop-police-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Shave No</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Throop P</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Throop P</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Shave November": "../entities/people/shave-november.md",
+          "Throop Police": "../entities/people/throop-police.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Throop Police Department": "../entities/organizations/throop-police-department.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-12T23:16:32",
+      "url": "https://www.2822news.com/news/local-news/police-take-part-in-challenge-for-good-cause/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Calligraphy exhibit showcases local talent",
+      "title_distilled": "Calligraphy exhibit showcases local talent.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Local artists' works are on display at an exhibit at Marywood University. For the Love of Lettering is a calligraphy exhibit with dozens of pieces throughout the gallery. The Calligraphers' Guild of Northeastern Pennsylvania is showcasing a wide variety of script, media, materials, and expression. Each piece of elegant handwriting [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Local artists' works are on display at an exhibit at Marywood University. For the Love of Lettering is a calligraphy exhibit with dozens of pieces throughout the gallery. The Calligraphers' Guild of Northeastern Pennsylvania is showcasing a wide variety of script, media, materials, and expression. Each piece of elegant handwriting [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Local artists' works are on display at an exhibit at Marywood University.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Marywood University",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/marywood-university.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Calligraphers",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-calligraphers.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Northeastern Pennsylvania",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/northeastern-pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "SCRANTON",
+            "to": "Marywood University",
+            "type": "WORKS_FOR",
+            "verb": "works"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Marywood University",
+            "type": "WORKS_FOR",
+            "verb": "works"
+          },
+          {
+            "from": "WBRE",
+            "to": "Marywood University",
+            "type": "WORKS_FOR",
+            "verb": "works"
+          },
+          {
+            "from": "WYOU",
+            "to": "Marywood University",
+            "type": "WORKS_FOR",
+            "verb": "works"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Marywood</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Call</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Northeas</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORKS_FOR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORKS_FOR</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Marywood University": "../entities/people/marywood-university.md",
+          "The Calligraphers": "../entities/people/the-calligraphers.md",
+          "Northeastern Pennsylvania": "../entities/people/northeastern-pennsylvania.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-12T22:23:12",
+      "url": "https://www.2822news.com/news/local-news/calligraphy-exhibit-showcases-local-talent/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -904,33 +950,90 @@
     },
     {
       "id": "short_11",
-      "title": "Scranton honors veterans at annual ceremony",
-      "title_distilled": "Scranton honors veterans at annual ceremony.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Communities across our area are taking time Wednesday to recognize those who fought for our freedom. Veterans, local leaders, and community members gathered in Downtown Scranton for the city's Annual Veterans Day Observance. A day to remember, a day to reflect, and a day to say \"thank you;\" People gathered [...]",
+      "title": "Animal sanctuary's Thanksgiving twists honors birds",
+      "title_distilled": "Animal sanctuary's Thanksgiving twists honors birds.",
+      "description": "DALTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 As families prepare to celebrate Thanksgiving, a local animal sanctuary is giving children a different perspective on the holiday. The annual tradition allows children to get a hands-on experience with the site's feathered friends. It's Thanksgiving with a twist. Dozens of visitors gathered at a local animal sanctuary for an [...]",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Communities across our area are taking time Wednesday to recognize those who fought for our freedom. Veterans, local leaders, and community members gathered in Downtown Scranton for the city's Annual Veterans Day Observance. A day to remember, a day to reflect, and a day to say \"thank you;\" People gathered [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Communities across our area are taking time Wednesday to recognize those who fought for our freedom.",
+      "content": "DALTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 As families prepare to celebrate Thanksgiving, a local animal sanctuary is giving children a different perspective on the holiday. The annual tradition allows children to get a hands-on experience with the site's feathered friends. It's Thanksgiving with a twist. Dozens of visitors gathered at a local animal sanctuary for an [...]",
+      "content_distilled": "DALTON, LACKAWANNA COUNTY  \u2014 As families prepare to celebrate Thanksgiving, a local animal sanctuary is giving children a different perspective on the holiday.",
       "graph": {
         "entities": [
           {
-            "name": "Downtown Scranton",
-            "type": "PERSON",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/downtown-scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Annual Veterans",
-            "type": "PERSON",
+            "name": "WBRE",
+            "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/people/annual-veterans.md",
+            "file_path": "../entities/organizations/wbre.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Day Observance",
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-12T21:59:16",
+      "url": "https://www.2822news.com/parenting-playbook/animal-sanctuarys-thanksgiving-twists-honors-birds/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "Lackawanna County issues Code Blue for Friday night",
+      "title_distilled": "Lackawanna County issues Code Blue for Friday night.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County and the City of Scranton issued a Code Blue Frigid Weather Alert for Friday night into Saturday morning because of forecasted cold temperatures. The Code Blue was issued for expected wind chills below 20 degrees through the night. St. Anthony\u2019s Haven will be open 7 p.m. to 8 a.m., [...]",
+      "description_distilled": "",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Lackawanna County and the City of Scranton issued a Code Blue Frigid Weather Alert for Friday night into Saturday morning because of forecasted cold temperatures. The Code Blue was issued for expected wind chills below 20 degrees through the night. St. Anthony\u2019s Haven will be open 7 p.m. to 8 a.m., [...]",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 Lackawanna County and the City of Scranton issued a Code Blue Frigid Weather Alert for Friday night into Saturday morning because of forecasted cold temperatures.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Code Blue",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/day-observance.md",
+            "file_path": "../entities/people/code-blue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Frigid Weather",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/frigid-weather.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Code",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-code.md",
             "resolution_method": "new_entity"
           },
           {
@@ -940,6 +1043,180 @@
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           },
+          {
+            "name": "Lackawanna County",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Code Blue Frigid Weather Alert",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/code-blue-frigid-weather-alert.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "MEMBER_OF"
+          },
+          {
+            "from": "Code Blue",
+            "to": "Lackawanna County",
+            "type": "OCCURS_DURING"
+          },
+          {
+            "from": "Lackawanna County",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Code Blu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Frigid W</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Code</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Code Blue": "../entities/people/code-blue.md",
+          "Frigid Weather": "../entities/people/frigid-weather.md",
+          "The Code": "../entities/people/the-code.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "Code Blue Frigid Weather Alert": "../entities/events/code-blue-frigid-weather-alert.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-12T20:47:04",
+      "url": "https://www.2822news.com/weather/lackawanna-county-issues-code-blue-for-friday-night/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_13",
+      "title": "Attempted robbery investigation at Turkey Hill",
+      "title_distilled": "Attempted robbery investigation at Turkey Hill.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Police are currently investigating an attempted robbery at Turkey Hill in Scranton on Thursday. Investigators on scene confirmed with 28/22 News that an attempted robbery occurred at Turkey Hill on Mulberry Street in the morning hours on Nov. 12 Details on the incident are limited. We will update you with [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Police are currently investigating an attempted robbery at Turkey Hill in Scranton on Thursday. Investigators on scene confirmed with 28/22 News that an attempted robbery occurred at Turkey Hill on Mulberry Street in the morning hours on Nov. 12 Details on the incident are limited. We will update you with [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Police are currently investigating an attempted robbery at Turkey Hill in Scranton on Thursday.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Turkey Hill",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/turkey-hill.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Turkey Hill",
+            "to": "SCRANTON",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Turkey H</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Turkey Hill": "../entities/people/turkey-hill.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-12T15:10:35",
+      "url": "https://www.2822news.com/news/attempted-robbery-investigation-at-turkey-hill/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Multi-vehicle crash closed lanes on I-81",
+      "title_distilled": "Multi-vehicle crash closed lanes on I-81.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A multi-vehicle crash closed lanes on a portion of I-81 in Lackawanna County Thursday morning. PennDOT stated a multi-vehicle crash occurred on Interstate 81 northbound on Nov. 12 at mile marker 181.5. Two left lanes were blocked off to traffic, including the left shoulder. Details on the crash are limited at [...]",
+      "description_distilled": "",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 A multi-vehicle crash closed lanes on a portion of I-81 in Lackawanna County Thursday morning. PennDOT stated a multi-vehicle crash occurred on Interstate 81 northbound on Nov. 12 at mile marker 181.5. Two left lanes were blocked off to traffic, including the left shoulder. Details on the crash are limited at [...]",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 A multi-vehicle crash closed lanes on a portion of I-81 in Lackawanna County Thursday morning.",
+      "graph": {
+        "entities": [
           {
             "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
@@ -965,21 +1242,18 @@
         "relationships": [
           {
             "from": "LACKAWANNA COUNTY",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "to": "WBRE",
+            "type": "CLOSED",
+            "verb": "closed"
           },
           {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
+            "from": "LACKAWANNA COUNTY",
+            "to": "WYOU",
+            "type": "CLOSED",
+            "verb": "closed"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual V</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Day Obse</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">CLOSED</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -990,261 +1264,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Downtown Scranton": "../entities/people/downtown-scranton.md",
-          "Annual Veterans": "../entities/people/annual-veterans.md",
-          "Day Observance": "../entities/people/day-observance.md",
-          "Scranton": "../entities/locations/scranton.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-11-11T23:20:15",
-      "url": "https://www.2822news.com/news/local-news/scranton-honors-veterans-at-annual-ceremony/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Non-profits host donation drive to support local veterans",
-      "title_distilled": "Non-profits host donation drive to support local veterans.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Two non-profits in Lackawanna County had an opportunity to give back this Veterans Day. Scranton Tomorrow and the Scranton Rotary Club are collecting donations to give to local veterans. New men's and women's clothing, personal care items, and activities like coloring books or word searches are being accepted for this [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Two non-profits in Lackawanna County had an opportunity to give back this Veterans Day. Scranton Tomorrow and the Scranton Rotary Club are collecting donations to give to local veterans. New men's and women's clothing, personal care items, and activities like coloring books or word searches are being accepted for this [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Two non-profits in Lackawanna County had an opportunity to give back this Veterans Day.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Veterans Day. Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/veterans-day-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton Rotary",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-rotary.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "profits host donation drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/profits-host-donation-drive.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Veterans</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">profits </text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Veterans Day. Scranton": "../entities/people/veterans-day-scranton.md",
-          "Scranton Rotary": "../entities/people/scranton-rotary.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "profits host donation drive": "../entities/locations/profits-host-donation-drive.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-11T22:36:31",
-      "url": "https://www.2822news.com/news/local-news/non-profits-host-donation-drive-to-support-local-veterans/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Camp Freedom continues mission; veterans give back",
-      "title_distilled": "Camp Freedom continues mission; veterans give back.",
-      "description": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Veterans are paying it forward this Veterans Day for a non-profit that provides healing activities for disabled veterans. Watches that are inspired by the mission and made for the outdoors are for sale with a portion of the proceeds returning to the non-profit. Camp Freedom: the sprawling property built to [...]",
-      "description_distilled": "",
-      "content": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Veterans are paying it forward this Veterans Day for a non-profit that provides healing activities for disabled veterans. Watches that are inspired by the mission and made for the outdoors are for sale with a portion of the proceeds returning to the non-profit. Camp Freedom: the sprawling property built to [...]",
-      "content_distilled": "CARBONDALE, LACKAWANNA COUNTY  \u2014 Veterans are paying it forward this Veterans Day for a non-profit that provides healing activities for disabled veterans.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Camp Freedom",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/camp-freedom.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Veterans Day",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/veterans-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Camp Fre</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Veterans</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Camp Freedom": "../entities/people/camp-freedom.md",
-          "Veterans Day": "../entities/people/veterans-day.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-11T22:28:27",
-      "url": "https://www.2822news.com/news/local-news/camp-freedom-continues-mission-veterans-give-back/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Dunmore veterans honored in special ceremony",
-      "title_distilled": "Dunmore veterans honored in special ceremony.",
-      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 13 veteran residents were honored Wednesday during a special Veterans Day ceremony at the Dunmore Health Care Center in Lackawanna County. The tribute gave facility residents, staff and family members an opportunity to thank the veterans and honor their service. The event included official recognitions, gift presentations, poetry readings and [...]",
-      "description_distilled": "",
-      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 13 veteran residents were honored Wednesday during a special Veterans Day ceremony at the Dunmore Health Care Center in Lackawanna County. The tribute gave facility residents, staff and family members an opportunity to thank the veterans and honor their service. The event included official recognitions, gift presentations, poetry readings and [...]",
-      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 13 veteran residents were honored Wednesday during a special Veterans Day ceremony at the Dunmore Health Care Center in Lackawanna County.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Veterans Day",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/veterans-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Dunmore Health",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/dunmore-health.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Care Center",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/care-center.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Veterans</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Care Cen</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Veterans Day": "../entities/people/veterans-day.md",
-          "Dunmore Health": "../entities/people/dunmore-health.md",
-          "Care Center": "../entities/people/care-center.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-11T22:00:53",
-      "url": "https://www.2822news.com/news/dunmore-veterans-honored-in-special-ceremony/",
+      "publishedAt": "2026-11-12T13:47:06",
+      "url": "https://www.2822news.com/traffic/multi-vehicle-crash-closes-lanes-on-i-81/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
