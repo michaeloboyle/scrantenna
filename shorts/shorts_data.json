@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T11:04:00.753074",
-  "source_file": "../data/daily/scranton_news_2026-11-15.json",
-  "total_shorts": 12,
-  "total_duration": 96,
+  "generated_at": "2026-11-16T11:04:36.543169",
+  "source_file": "../data/daily/scranton_news_2026-11-16.json",
+  "total_shorts": 11,
+  "total_duration": 88,
   "has_svo": false,
   "shorts": [
     {
@@ -674,42 +674,49 @@
     },
     {
       "id": "short_8",
-      "title": "Scranton community rallies to donate essentials for Ukrainian veterans",
-      "title_distilled": "Scranton community rallies to donate essentials for Ukrainian veterans.",
-      "description": "Local groups in Lackawanna County united to gather coats, generators, and donations to support Ukrainian veterans.",
+      "title": "Fans from Scranton are filling the buses for GMAC",
+      "title_distilled": "Fans from Scranton are filling the buses for GMAC.",
+      "description": "Family and friends headed to New York City to cheer on the former player turned head coach of Syracuse Mens Basketball",
       "description_distilled": "",
-      "content": "Local groups in Lackawanna County united to gather coats, generators, and donations to support Ukrainian veterans.",
-      "content_distilled": "Local groups in Lackawanna County united to gather coats, generators, and donations to support Ukrainian veterans.",
+      "content": "Family and friends headed to New York City to cheer on the former player turned head coach of Syracuse Mens Basketball",
+      "content_distilled": "Family and friends headed to New York City to cheer on the former player turned head coach of Syracuse Mens Basketball.",
       "graph": {
         "entities": [
+          {
+            "name": "New York",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/new-york.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Syracuse Mens",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/syracuse-mens.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton",
-            "to": "Lackawanna County",
-            "type": "OCCURS_DURING"
+            "from": "New York",
+            "to": "Syracuse Mens",
+            "type": "MEMBER_OF"
           },
           {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Scranton",
+            "to": "New York",
+            "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New York</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Syracuse</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -720,13 +727,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md"
+          "New York": "../entities/people/new-york.md",
+          "Syracuse Mens": "../entities/people/syracuse-mens.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-15T03:32:24",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-community-rallies-to-donate-essentials-for-ukrainian-veterans/523-f9637dbb-c4d2-4650-baba-4da7c530ef33",
+      "publishedAt": "2026-11-16T03:22:54",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fans-from-scranton-are-filling-the-buses-for-gmac-lackawanna-county/523-1c30d7ee-5d8b-4812-8203-29cde52a3cfa",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -734,19 +742,26 @@
     },
     {
       "id": "short_9",
-      "title": "Lackawanna County couple aboard capsized boat in New Orleans speak for the first time since the accident",
-      "title_distilled": "Lackawanna County couple aboard capsized boat in New Orleans speak for the first time since the accident.",
-      "description": "TravelWorld out of Scranton says 24 people from the Lackawanna County area were on the river boat.",
+      "title": "Wilkes-Barre/Scranton snap three-game losing streak, defeat Lehigh Valley 5-2",
+      "title_distilled": "Wilkes-Barre/Scranton snap three-game losing streak, defeat Lehigh Valley 5-2.",
+      "description": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 After losing three consecutive games, Wilkes-Barre/Scranton defeats its rival Lehigh Valley 5-2 in the first of 12 total matchups in 2026-27. Following a quiet first period, the Penguins and Phantoms turned up the offense. Lehigh Valley started the scoring with Vincent Sevigny scoring his first goal of the season [...]",
       "description_distilled": "",
-      "content": "TravelWorld out of Scranton says 24 people from the Lackawanna County area were on the river boat.",
-      "content_distilled": "TravelWorld out of Scranton says 24 people from the Lackawanna County area were on the river boat.",
+      "content": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 After losing three consecutive games, Wilkes-Barre/Scranton defeats its rival Lehigh Valley 5-2 in the first of 12 total matchups in 2026-27. Following a quiet first period, the Penguins and Phantoms turned up the offense. Lehigh Valley started the scoring with Vincent Sevigny scoring his first goal of the season [...]",
+      "content_distilled": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY  \u2014 After losing three consecutive games, Wilkes-Barre/Scranton defeats its rival Lehigh Valley 5-2 in the first of 12 total matchups in 2026-27.",
       "graph": {
         "entities": [
           {
-            "name": "New Orleans",
+            "name": "Lehigh Valley",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/new-orleans.md",
+            "file_path": "../entities/people/lehigh-valley.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Vincent Sevigny",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/vincent-sevigny.md",
             "resolution_method": "new_entity"
           },
           {
@@ -754,177 +769,6 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lackawanna County",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "the river",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/the-river.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "New Orleans",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "New Orleans",
-            "to": "Scranton",
-            "type": "OCCURS_DURING"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          },
-          {
-            "from": "the river",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New Orle</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">the rive</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "New Orleans": "../entities/people/new-orleans.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "the river": "../entities/locations/the-river.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-15T00:50:00",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-couple-aboard-capsized-boat-in-new-orleans-speak-for-the-first-time-since-the-accident/523-d1824ef7-98ed-493e-b635-afb6e8c8cafd",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
-    },
-    {
-      "id": "short_10",
-      "title": "Flight disruptions continue at Wilkes-Barre/Scranton International Airport",
-      "title_distilled": "Flight disruptions continue at Wilkes-Barre/Scranton International Airport.",
-      "description": "The nationwide FAA ground stop had lasting impacts on travelers in Luzerne County.",
-      "description_distilled": "",
-      "content": "The nationwide FAA ground stop had lasting impacts on travelers in Luzerne County.",
-      "content_distilled": "nationwide FAA ground stop had lasting impacts on travelers in Luzerne County.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Scranton International",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/scranton-international.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Airport The",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/airport-the.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Airport </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Scranton International": "../entities/people/scranton-international.md",
-          "Airport The": "../entities/people/airport-the.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-15T00:17:41",
-      "url": "https://www.wnep.com/article/news/local/luzerne-county/flight-disruptions-continue-at-wilkes-barres-cranton-international-airport/523-a986e830-9d0c-4199-854c-63335c5b2887",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Riding for good cause in Electric City 'Cranksgiving'",
-      "title_distilled": "Riding for good cause in Electric City 'Cranksgiving'.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Bicyclists dressed in holiday costumes took to the streets of Scranton for the third annual Electric City Cranksgiving food drive. The event brought community members together to ride through Lackawanna County while collecting essential supplies for young people in need. Organized as a collaborative effort between the Anthracite Bike Coalition [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Bicyclists dressed in holiday costumes took to the streets of Scranton for the third annual Electric City Cranksgiving food drive. The event brought community members together to ride through Lackawanna County while collecting essential supplies for young people in need. Organized as a collaborative effort between the Anthracite Bike Coalition [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Bicyclists dressed in holiday costumes took to the streets of Scranton for the third annual Electric City Cranksgiving food drive.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Cranksgiving",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/cranksgiving.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Electric City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Anthracite Bike",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/anthracite-bike.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "City Cranksgiving food drive",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/city-cranksgiving-food-drive.md",
             "resolution_method": "new_entity"
           },
           {
@@ -944,12 +788,23 @@
         ],
         "relationships": [
           {
-            "from": "SCRANTON",
-            "to": "City Cranksgiving food drive",
-            "type": "OCCURS_DURING"
+            "from": "Lehigh Valley",
+            "to": "Vincent Sevigny",
+            "type": "STARTED",
+            "verb": "started"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Cranksgi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Anthraci</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">City Cra</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vincent </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARTED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -960,22 +815,122 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Cranksgiving": "../entities/works/movies/cranksgiving.md",
-          "Electric City": "../entities/people/electric-city.md",
-          "Anthracite Bike": "../entities/people/anthracite-bike.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "City Cranksgiving food drive": "../entities/locations/city-cranksgiving-food-drive.md",
+          "Lehigh Valley": "../entities/people/lehigh-valley.md",
+          "Vincent Sevigny": "../entities/people/vincent-sevigny.md",
+          "Scranton": "../entities/locations/scranton.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-11-15T00:53:01",
-      "url": "https://www.2822news.com/news/local-news/riding-for-good-cause-in-electric-city-cranksgiving/",
+      "publishedAt": "2026-11-16T02:39:56",
+      "url": "https://www.2822news.com/news/wilkes-barre-scranton-snap-three-game-losing-streak-defeat-lehigh-valley-5-2/",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
+    },
+    {
+      "id": "short_10",
+      "title": "Gobbling up miles to fight hunger at annual Turkey Trot",
+      "title_distilled": "Gobbling up miles to fight hunger at annual Turkey Trot.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 300 participants gathered in Scranton on Sunday for the 17th annual Geisinger Commonwealth School of Medicine Turkey Trot, raising funds to provide Thanksgiving meals for local families in need. The charity event offered participants the choice to run, walk, or trot through either a 5K or 10K course. [...]",
+      "description_distilled": "",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 300 participants gathered in Scranton on Sunday for the 17th annual Geisinger Commonwealth School of Medicine Turkey Trot, raising funds to provide Thanksgiving meals for local families in need. The charity event offered participants the choice to run, walk, or trot through either a 5K or 10K course. [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 More than 300 participants gathered in Scranton on Sunday for the 17th annual Geisinger Commonwealth School of Medicine Turkey Trot, raising funds to provide Thanksgiving meals for local families in need.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Turkey Trot",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/turkey-trot.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Geisinger Commonwealth",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/geisinger-commonwealth.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Medicine Turkey",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/medicine-turkey.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "SCRANTON",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Geisinger Commonwealth School",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/geisinger-commonwealth-school.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Geisinger Commonwealth",
+            "to": "Turkey Trot",
+            "type": "MEMBER_OF"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Turkey T</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Geisinge</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Medicine</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Geisinge</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Turkey Trot": "../entities/people/turkey-trot.md",
+          "Geisinger Commonwealth": "../entities/people/geisinger-commonwealth.md",
+          "Medicine Turkey": "../entities/people/medicine-turkey.md",
+          "SCRANTON": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Geisinger Commonwealth School": "../entities/organizations/geisinger-commonwealth-school.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-16T00:44:06",
+      "url": "https://www.2822news.com/news/local-news/gobbling-up-miles-to-fight-hunger-at-annual-turkey-trot/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       "animation_delay": 1.0
     }
   ]
