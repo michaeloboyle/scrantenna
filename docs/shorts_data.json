@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T11:04:36.543169",
-  "source_file": "../data/daily/scranton_news_2026-11-16.json",
-  "total_shorts": 11,
-  "total_duration": 88,
+  "generated_at": "2026-11-17T11:04:10.227994",
+  "source_file": "../data/daily/scranton_news_2026-11-17.json",
+  "total_shorts": 13,
+  "total_duration": 104,
   "has_svo": false,
   "shorts": [
     {
@@ -674,26 +674,33 @@
     },
     {
       "id": "short_8",
-      "title": "Fans from Scranton are filling the buses for GMAC",
-      "title_distilled": "Fans from Scranton are filling the buses for GMAC.",
-      "description": "Family and friends headed to New York City to cheer on the former player turned head coach of Syracuse Mens Basketball",
+      "title": "Making Spirits Bright! Santa Parade set to take over downtown Scranton",
+      "title_distilled": "Making Spirits Bright! Santa Parade set to take over downtown Scranton.",
+      "description": "Scranton kicks off the holiday season with its biggest Santa Parade yet, featuring 166 floats, 1,500 marchers and plenty of festive fun!",
       "description_distilled": "",
-      "content": "Family and friends headed to New York City to cheer on the former player turned head coach of Syracuse Mens Basketball",
-      "content_distilled": "Family and friends headed to New York City to cheer on the former player turned head coach of Syracuse Mens Basketball.",
+      "content": "Scranton kicks off the holiday season with its biggest Santa Parade yet, featuring 166 floats, 1,500 marchers and plenty of festive fun!",
+      "content_distilled": "Scranton kicks off the holiday season with its biggest Santa Parade yet, featuring 166 floats, 1,500 marchers and plenty of festive fun!.",
       "graph": {
         "entities": [
           {
-            "name": "New York",
+            "name": "Making Spirits",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/new-york.md",
+            "file_path": "../entities/people/making-spirits.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Syracuse Mens",
+            "name": "Santa Parade",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/syracuse-mens.md",
+            "file_path": "../entities/people/santa-parade.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -704,19 +711,8 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "New York",
-            "to": "Syracuse Mens",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "Scranton",
-            "to": "New York",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">New York</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Syracuse</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Making S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Pa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -727,14 +723,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "New York": "../entities/people/new-york.md",
-          "Syracuse Mens": "../entities/people/syracuse-mens.md",
+          "Making Spirits": "../entities/people/making-spirits.md",
+          "Santa Parade": "../entities/people/santa-parade.md",
+          "Scranton Scranton": "../entities/people/scranton-scranton.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-16T03:22:54",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/fans-from-scranton-are-filling-the-buses-for-gmac-lackawanna-county/523-1c30d7ee-5d8b-4812-8203-29cde52a3cfa",
+      "publishedAt": "2026-11-17T10:35:53",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/making-spirits-bright-santa-parade-set-to-take-over-downtown-scranton-nikki-krize/523-cda40d0a-feda-4ce2-a1d7-d7de5dce4f24",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -742,69 +739,38 @@
     },
     {
       "id": "short_9",
-      "title": "Wilkes-Barre/Scranton snap three-game losing streak, defeat Lehigh Valley 5-2",
-      "title_distilled": "Wilkes-Barre/Scranton snap three-game losing streak, defeat Lehigh Valley 5-2.",
-      "description": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 After losing three consecutive games, Wilkes-Barre/Scranton defeats its rival Lehigh Valley 5-2 in the first of 12 total matchups in 2026-27. Following a quiet first period, the Penguins and Phantoms turned up the offense. Lehigh Valley started the scoring with Vincent Sevigny scoring his first goal of the season [...]",
+      "title": "Dunmore School Board member resigns after community backlash",
+      "title_distilled": "Dunmore School Board member resigns after community backlash.",
+      "description": "Many community members criticized a Dunmore School Board member's comments following an October Dunmore Borough Council meeting.",
       "description_distilled": "",
-      "content": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY (WBRE/WYOU) \u2014 After losing three consecutive games, Wilkes-Barre/Scranton defeats its rival Lehigh Valley 5-2 in the first of 12 total matchups in 2026-27. Following a quiet first period, the Penguins and Phantoms turned up the offense. Lehigh Valley started the scoring with Vincent Sevigny scoring his first goal of the season [...]",
-      "content_distilled": "WILKES-BARRE TOWNSHIP, LUZERNE COUNTY  \u2014 After losing three consecutive games, Wilkes-Barre/Scranton defeats its rival Lehigh Valley 5-2 in the first of 12 total matchups in 2026-27.",
+      "content": "Many community members criticized a Dunmore School Board member's comments following an October Dunmore Borough Council meeting.",
+      "content_distilled": "Many community members criticized a Dunmore School Board member's comments following an October Dunmore Borough Council meeting.",
       "graph": {
         "entities": [
           {
-            "name": "Lehigh Valley",
+            "name": "Dunmore School",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/lehigh-valley.md",
+            "file_path": "../entities/people/dunmore-school.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Vincent Sevigny",
+            "name": "October Dunmore",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/vincent-sevigny.md",
+            "file_path": "../entities/people/october-dunmore.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Borough Council",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
+            "file_path": "../entities/people/borough-council.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Lehigh Valley",
-            "to": "Vincent Sevigny",
-            "type": "STARTED",
-            "verb": "started"
-          },
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lehigh V</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Vincent </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">STARTED</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">October </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Borough </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -815,16 +781,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Lehigh Valley": "../entities/people/lehigh-valley.md",
-          "Vincent Sevigny": "../entities/people/vincent-sevigny.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Dunmore School": "../entities/people/dunmore-school.md",
+          "October Dunmore": "../entities/people/october-dunmore.md",
+          "Borough Council": "../entities/people/borough-council.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-11-16T02:39:56",
-      "url": "https://www.2822news.com/news/wilkes-barre-scranton-snap-three-game-losing-streak-defeat-lehigh-valley-5-2/",
+      "source": "Wnep",
+      "publishedAt": "2026-11-17T04:12:10",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/dunmore-school-board-member-resigns-after-community-backlash/523-9c9f2ed7-4406-4f29-a2a6-3f30cae96e0e",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -832,79 +796,76 @@
     },
     {
       "id": "short_10",
-      "title": "Gobbling up miles to fight hunger at annual Turkey Trot",
-      "title_distilled": "Gobbling up miles to fight hunger at annual Turkey Trot.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 300 participants gathered in Scranton on Sunday for the 17th annual Geisinger Commonwealth School of Medicine Turkey Trot, raising funds to provide Thanksgiving meals for local families in need. The charity event offered participants the choice to run, walk, or trot through either a 5K or 10K course. [...]",
+      "title": "Barrett's Pub closes its doors after more than 40 years of business",
+      "title_distilled": "Barrett's Pub closes its doors after more than 40 years of business.",
+      "description": "The now former owner looks back at her career and eventual ownership of the Archbald staple",
       "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 300 participants gathered in Scranton on Sunday for the 17th annual Geisinger Commonwealth School of Medicine Turkey Trot, raising funds to provide Thanksgiving meals for local families in need. The charity event offered participants the choice to run, walk, or trot through either a 5K or 10K course. [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 More than 300 participants gathered in Scranton on Sunday for the 17th annual Geisinger Commonwealth School of Medicine Turkey Trot, raising funds to provide Thanksgiving meals for local families in need.",
+      "content": "The now former owner looks back at her career and eventual ownership of the Archbald staple",
+      "content_distilled": "now former owner looks back at her career and eventual ownership of the Archbald staple.",
+      "graph": {
+        "entities": [],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.0,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {}
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-11-16T22:45:50",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/barretts-pub-archbald-closing-lackawanna-county/523-96863c4e-f6d1-4420-b109-1cbb5198a3b3",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Career Technology Center of Lackawanna County honored with Blue Ribbon Award",
+      "title_distilled": "Career Technology Center of Lackawanna County honored with Blue Ribbon Award.",
+      "description": "The distinction from the states Department of Education is the first of it kind for a school like the CTC.",
+      "description_distilled": "",
+      "content": "The distinction from the states Department of Education is the first of it kind for a school like the CTC.",
+      "content_distilled": "distinction from the states Department of Education is the first of it kind for a school like the CTC.",
       "graph": {
         "entities": [
           {
-            "name": "Turkey Trot",
+            "name": "Career Technology",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/turkey-trot.md",
+            "file_path": "../entities/people/career-technology.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Geisinger Commonwealth",
+            "name": "Blue Ribbon",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/geisinger-commonwealth.md",
+            "file_path": "../entities/people/blue-ribbon.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Medicine Turkey",
+            "name": "Award The",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/medicine-turkey.md",
+            "file_path": "../entities/people/award-the.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Geisinger Commonwealth School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/geisinger-commonwealth-school.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Geisinger Commonwealth",
-            "to": "Turkey Trot",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Turkey T</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Geisinge</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Medicine</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Geisinge</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Career T</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blue Rib</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Award Th</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -915,22 +876,75 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Turkey Trot": "../entities/people/turkey-trot.md",
-          "Geisinger Commonwealth": "../entities/people/geisinger-commonwealth.md",
-          "Medicine Turkey": "../entities/people/medicine-turkey.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "Geisinger Commonwealth School": "../entities/organizations/geisinger-commonwealth-school.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
+          "Career Technology": "../entities/people/career-technology.md",
+          "Blue Ribbon": "../entities/people/blue-ribbon.md",
+          "Award The": "../entities/people/award-the.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
-      "source": "Wbre",
-      "publishedAt": "2026-11-16T00:44:06",
-      "url": "https://www.2822news.com/news/local-news/gobbling-up-miles-to-fight-hunger-at-annual-turkey-trot/",
+      "source": "Wnep",
+      "publishedAt": "2026-11-16T21:17:57",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-career-technology-center-of-lackawanna-county-blue-ribbon-award/523-e81e360f-fc3d-467a-881f-1f1b6032b522",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_12",
+      "title": "\u201cNormal Gets You Nowhere\u201d: Misfits returns with holiday magic, creative cocktails and enchanted surprises",
+      "title_distilled": "\u201cNormal Gets You Nowhere\u201d: Misfits returns with holiday magic, creative cocktails and enchanted surprises.",
+      "description": "Lackawanna College\u2019s student-run Misfits holiday pop-up bar returns Wednesday with festive drinks, new treats, fun photo ops and an enchanted ice passage.",
+      "description_distilled": "",
+      "content": "Lackawanna College\u2019s student-run Misfits holiday pop-up bar returns Wednesday with festive drinks, new treats, fun photo ops and an enchanted ice passage.",
+      "content_distilled": "Lackawanna College\u2019s student-run Misfits holiday pop-up bar returns Wednesday with festive drinks, new treats, fun photo ops and an enchanted ice passage.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Normal Gets",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/normal-gets.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "You Nowhere",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/you-nowhere.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lackawanna College",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/lackawanna-college.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Normal G</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">You Nowh</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Normal Gets": "../entities/people/normal-gets.md",
+          "You Nowhere": "../entities/people/you-nowhere.md",
+          "Lackawanna College": "../entities/people/lackawanna-college.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-11-16T11:26:17",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/normal-gets-you-nowhere-misfits-returns-holiday-magic-creative-cocktails-enchanted-surprises-nikki-krize-lackawanna-college-pop-up/523-68697611-892f-4ae2-b9d7-794dfa2a9e90",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
       "animation_delay": 1.0
     }
   ]
