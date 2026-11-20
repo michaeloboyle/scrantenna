@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T11:04:21.967977",
-  "source_file": "../data/daily/scranton_news_2026-11-19.json",
+  "generated_at": "2026-11-20T11:04:04.829868",
+  "source_file": "../data/daily/scranton_news_2026-11-20.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -674,51 +674,45 @@
     },
     {
       "id": "short_8",
-      "title": "Mid Valley School District votes to rescind tax abatement for land developers in Lackawanna County",
-      "title_distilled": "Mid Valley School District votes to rescind tax abatement for land developers in Lackawanna County.",
-      "description": "The original agreement was made back in 2019 to give developers the tax break.",
+      "title": "Looking back at the weather of past Santa Parades",
+      "title_distilled": "Looking back at the weather of past Santa Parades.",
+      "description": "The Scranton Santa Parade is always on the Saturday before Thanksgiving, and the parade weather always seems to be one of the coldest days of the year.",
       "description_distilled": "",
-      "content": "The original agreement was made back in 2019 to give developers the tax break.",
-      "content_distilled": "original agreement was made back in 2019 to give developers the tax break.",
+      "content": "The Scranton Santa Parade is always on the Saturday before Thanksgiving, and the parade weather always seems to be one of the coldest days of the year.",
+      "content_distilled": "Scranton Santa Parade is always on the Saturday before Thanksgiving, and the parade weather always seems to be one of the coldest days of the year.",
       "graph": {
         "entities": [
           {
-            "name": "Mid Valley",
+            "name": "Santa Parades",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mid-valley.md",
+            "file_path": "../entities/people/santa-parades.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "School District",
+            "name": "The Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/school-district.md",
+            "file_path": "../entities/people/the-scranton.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County",
+            "name": "Santa Parade",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/santa-parade.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mid Valley School",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/mid-valley-school.md",
+            "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Mid Valley",
-            "to": "Lackawanna County",
-            "type": "OCCURS_DURING"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mid Vall</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">School D</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mid Vall</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Pa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Pa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -729,15 +723,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Mid Valley": "../entities/people/mid-valley.md",
-          "School District": "../entities/people/school-district.md",
-          "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Mid Valley School": "../entities/organizations/mid-valley-school.md"
+          "Santa Parades": "../entities/people/santa-parades.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Santa Parade": "../entities/people/santa-parade.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-19T04:58:59",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/mid-valley-school-district-votes-rescind-tax-abatement-land-developers-lackawanna-county/523-4ac9e55a-cd4c-43a3-aeea-6ba3e4c1dc94",
+      "publishedAt": "2026-11-19T23:37:01",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/hold-looking-back-at-past-santa-parades-weather-downtown-scranton-holiday-tradition/523-a1e2a8b0-4da3-40ac-a25d-376c3fa728e7",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -745,14 +739,42 @@
     },
     {
       "id": "short_9",
-      "title": "Mcdonald's in Scranton participates with pies for Feed a Friend",
-      "title_distilled": "Mcdonald's in Scranton participates with pies for Feed a Friend.",
-      "description": "A portion of the proceeds from each pie sold will go toward WNEP's Feed a Friend campaign.",
+      "title": "Froggy 101's Thanks4Giving Food Drive returns to help feed veterans in need",
+      "title_distilled": "Froggy 101's Thanks4Giving Food Drive returns to help feed veterans in need.",
+      "description": "The food drive benefits Valhalla Veterans Pantry, the Wilkes-Barre VA Medical Center, and Catholic Social Services in Scranton.",
       "description_distilled": "",
-      "content": "A portion of the proceeds from each pie sold will go toward WNEP's Feed a Friend campaign.",
-      "content_distilled": "portion of the proceeds from each pie sold will go toward WNEP's Feed a Friend campaign.",
+      "content": "The food drive benefits Valhalla Veterans Pantry, the Wilkes-Barre VA Medical Center, and Catholic Social Services in Scranton.",
+      "content_distilled": "food drive benefits Valhalla Veterans Pantry, the Wilkes-Barre VA Medical Center, and Catholic Social Services in Scranton.",
       "graph": {
         "entities": [
+          {
+            "name": "Food Drive",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/food-drive.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Valhalla Veterans",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/valhalla-veterans.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Medical Center",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/medical-center.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Catholic Social",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/catholic-social.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -761,8 +783,14 @@
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Catholic Social",
+            "to": "Scranton",
+            "type": "LOCATED_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Food Dri</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Valhalla</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Medical </text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Catholic</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"150\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -773,12 +801,16 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Food Drive": "../entities/people/food-drive.md",
+          "Valhalla Veterans": "../entities/people/valhalla-veterans.md",
+          "Medical Center": "../entities/people/medical-center.md",
+          "Catholic Social": "../entities/people/catholic-social.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-19T04:34:40",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/mcdonalds-scranton-participates-pies-feed-friend-lackawanna-county/523-e84a515c-150d-49f5-ad15-e546a33aa532",
+      "publishedAt": "2026-11-19T18:59:39",
+      "url": "https://www.wnep.com/article/news/local/luzerne-county/froggy-101s-thanks4giving-food-drive-returns-to-help-feed-veterans-in-need-luzerne-county-pittston-walmart/523-f23ba1d2-493c-42dc-a3c9-11d1d015db87",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -786,18 +818,47 @@
     },
     {
       "id": "short_10",
-      "title": "Tiffany's Tap & Grill in Archbald to close its doors after over two decades in business",
-      "title_distilled": "Tiffany's Tap & Grill in Archbald to close its doors after over two decades in business.",
-      "description": "The restaurant's owners announced last week that they are approaching retirement, following two other restaurant closures in the borough.",
+      "title": "Residents gather to oppose data center development",
+      "title_distilled": "Residents gather to oppose data center development.",
+      "description": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Residents concerned about the growth of data center development in Lackawanna County gathered Thursday night in Dickson City to discuss their next steps and learn how to organize opposition efforts across the region. Many attendees wore yellow shirts and carried signs calling for an end to proposed data center projects, [...]",
       "description_distilled": "",
-      "content": "The restaurant's owners announced last week that they are approaching retirement, following two other restaurant closures in the borough.",
-      "content_distilled": "restaurant's owners announced last week that they are approaching retirement, following two other restaurant closures in the borough.",
+      "content": "DICKSON CITY, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Residents concerned about the growth of data center development in Lackawanna County gathered Thursday night in Dickson City to discuss their next steps and learn how to organize opposition efforts across the region. Many attendees wore yellow shirts and carried signs calling for an end to proposed data center projects, [...]",
+      "content_distilled": "DICKSON CITY, LACKAWANNA COUNTY  \u2014 Residents concerned about the growth of data center development in Lackawanna County gathered Thursday night in Dickson City to discuss their next steps and learn how to organize opposition efforts across the region.",
       "graph": {
-        "entities": [],
+        "entities": [
+          {
+            "name": "Dickson City",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/dickson-city.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          }
+        ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\"><text x=\"150\" y=\"100\" text-anchor=\"middle\" fill=\"white\">No entities found</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dickson </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
-        "confidence": 0.0,
+        "confidence": 0.5,
         "vault_statistics": {
           "total_entities": 0,
           "by_type": {},
@@ -805,11 +866,16 @@
           "low_confidence": 0,
           "total_relationships": 0
         },
-        "entity_files": {}
+        "entity_files": {
+          "Dickson City": "../entities/people/dickson-city.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
+        }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-11-19T04:22:57",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/tiffanys-tap-grill-archbald-close-doors-after-over-two-decades-business-lackawanna-county/523-7322688c-7e4c-4b1e-8c12-b3cea98f8f99",
+      "source": "Wbre",
+      "publishedAt": "2026-11-20T04:23:07",
+      "url": "https://www.2822news.com/news/residents-gather-to-oppose-data-center-development/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
@@ -817,51 +883,59 @@
     },
     {
       "id": "short_11",
-      "title": "Survivors of river cruise boat wreck recount journey back home",
-      "title_distilled": "Survivors of river cruise boat wreck recount journey back home.",
-      "description": "Back in Clarks Summit, the Clymer family sat down to recall the near-death experience on the Mississippi River.",
+      "title": "Sobriety checkpoints, patrols coming for Thanksgiving",
+      "title_distilled": "Sobriety checkpoints, patrols coming for Thanksgiving.",
+      "description": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Drivers traveling for the holidays can expect to encounter sobriety checkpoints throughout Lackawanna County as Pennsylvania State Police (PSP) increase patrols for Thanksgiving weekend. PSP Dunmore Troop R says it will be conducting roving patrols starting Nov. 23 until Nov. 29 for the entirety of Thanksgiving weekend. Sobriety checkpoints will also [...]",
       "description_distilled": "",
-      "content": "Back in Clarks Summit, the Clymer family sat down to recall the near-death experience on the Mississippi River.",
-      "content_distilled": "Back in Clarks Summit, the Clymer family sat down to recall the near-death experience on the Mississippi River.",
+      "content": "LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Drivers traveling for the holidays can expect to encounter sobriety checkpoints throughout Lackawanna County as Pennsylvania State Police (PSP) increase patrols for Thanksgiving weekend. PSP Dunmore Troop R says it will be conducting roving patrols starting Nov. 23 until Nov. 29 for the entirety of Thanksgiving weekend. Sobriety checkpoints will also [...]",
+      "content_distilled": "LACKAWANNA COUNTY  \u2014 Drivers traveling for the holidays can expect to encounter sobriety checkpoints throughout Lackawanna County as Pennsylvania State Police  increase patrols for Thanksgiving weekend.",
       "graph": {
         "entities": [
           {
-            "name": "Clarks Summit",
+            "name": "Pennsylvania State",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
+            "file_path": "../entities/people/pennsylvania-state.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Mississippi River",
+            "name": "Dunmore Troop",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/mississippi-river.md",
+            "file_path": "../entities/people/dunmore-troop.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "of river",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/of-river.md",
+            "file_path": "../entities/locations/pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Survivors of river cruise boat wreck recount journey back home Back in Clarks Summit",
-            "type": "EVENT",
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/events/survivors-of-river-cruise-boat-wreck-recount-journey-back-home-back-in-clarks-summit.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Survivors of river cruise boat wreck recount journey back home Back in Clarks Summit",
-            "to": "Clarks Summit",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mississi</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">of river</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Survivor</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Dunmore </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -872,15 +946,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "Mississippi River": "../entities/people/mississippi-river.md",
-          "of river": "../entities/locations/of-river.md",
-          "Survivors of river cruise boat wreck recount journey back home Back in Clarks Summit": "../entities/events/survivors-of-river-cruise-boat-wreck-recount-journey-back-home-back-in-clarks-summit.md"
+          "Pennsylvania State": "../entities/people/pennsylvania-state.md",
+          "Dunmore Troop": "../entities/people/dunmore-troop.md",
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-11-19T00:44:09",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/survivors-of-river-cruise-boat-wreck-recount-journey-back-home-lackawanna-county-clarks-summit-mississippi-wreck-tanker/523-f4eab1a1-c7ed-425f-a6aa-7a0c348a5990",
+      "source": "Wbre",
+      "publishedAt": "2026-11-20T03:00:27",
+      "url": "https://www.2822news.com/news/sobriety-checkpoints-patrols-coming-for-thanksgiving/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -888,24 +964,106 @@
     },
     {
       "id": "short_12",
-      "title": "Colleagues and listeners remember longtime radio host Sue Barre",
-      "title_distilled": "Colleagues and listeners remember longtime radio host Sue Barre.",
-      "description": "After decades on our airwaves, thousands of listeners across NEPA are remembering the voice and legacy left by longtime radio host Sue Barre.",
+      "title": "Two-way traffic coming to Scranton ahead of parade",
+      "title_distilled": "Two-way traffic coming to Scranton ahead of parade.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Drivers who know downtown Scranton by heart may need to relearn a few turns. Beginning Friday, parts of Biden Street, Linden Street, Adams Avenue and North...",
       "description_distilled": "",
-      "content": "After decades on our airwaves, thousands of listeners across NEPA are remembering the voice and legacy left by longtime radio host Sue Barre.",
-      "content_distilled": "After decades on our airwaves, thousands of listeners across NEPA are remembering the voice and legacy left by longtime radio host Sue Barre.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Drivers who know downtown Scranton by heart may need to relearn a few turns. Beginning Friday, parts of Biden Street, Linden Street, Adams Avenue and North...",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Drivers who know downtown Scranton by heart may need to relearn a few turns.",
       "graph": {
         "entities": [
           {
-            "name": "Sue Barre",
+            "name": "Beginning Friday",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/sue-barre.md",
+            "file_path": "../entities/people/beginning-friday.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Adams Avenue",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/adams-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "North Washington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/north-washington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "parts of Biden Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/parts-of-biden-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Linden Street",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/linden-street.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Sue Barr</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "parts of Biden Street",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "Linden Street",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Beginnin</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Adams Av</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">parts of</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -916,12 +1074,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Sue Barre": "../entities/people/sue-barre.md"
+          "Beginning Friday": "../entities/people/beginning-friday.md",
+          "Adams Avenue": "../entities/people/adams-avenue.md",
+          "North Washington": "../entities/people/north-washington.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "parts of Biden Street": "../entities/locations/parts-of-biden-street.md",
+          "Linden Street": "../entities/locations/linden-street.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-11-18T22:46:44",
-      "url": "https://www.wnep.com/article/news/local/luzerne-county/colleagues-and-listeners-remember-longtime-radio-host-sue-barre/523-8fc4079b-d831-4009-bb47-2654f8d2ec25",
+      "source": "Wbre",
+      "publishedAt": "2026-11-20T02:01:08",
+      "url": "https://www.2822news.com/news/two-way-traffic-coming-to-scranton-ahead-of-parade/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -929,19 +1095,33 @@
     },
     {
       "id": "short_13",
-      "title": "Lanes to reopen on I-81 North near Scranton",
-      "title_distilled": "Lanes to reopen on I-81 North near Scranton.",
-      "description": "Days after lane restrictions ended after months of construction on the southbound lanes near Scranton, barriers will be removed this week heading the other way",
+      "title": "Water main leak uncovered in Downtown Scranton",
+      "title_distilled": "Water main leak uncovered in Downtown Scranton.",
+      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Another water main leak was discovered on North Washington Avenue in downtown Scranton on Thursday, prompting scheduled repairs and potential utility disruptions. Pennsylvania American Water reported that the leak was discovered near the site of a recent water main project in Lackawanna County Thursday morning. Part of North Washington Avenue [...]",
       "description_distilled": "",
-      "content": "Days after lane restrictions ended after months of construction on the southbound lanes near Scranton, barriers will be removed this week heading the other way",
-      "content_distilled": "Days after lane restrictions ended after months of construction on the southbound lanes near Scranton, barriers will be removed this week heading the other way.",
+      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Another water main leak was discovered on North Washington Avenue in downtown Scranton on Thursday, prompting scheduled repairs and potential utility disruptions. Pennsylvania American Water reported that the leak was discovered near the site of a recent water main project in Lackawanna County Thursday morning. Part of North Washington Avenue [...]",
+      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 Another water main leak was discovered on North Washington Avenue in downtown Scranton on Thursday, prompting scheduled repairs and potential utility disruptions.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Days",
+            "name": "Downtown Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-days.md",
+            "file_path": "../entities/people/downtown-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "North Washington",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/north-washington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania American",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/pennsylvania-american.md",
             "resolution_method": "new_entity"
           },
           {
@@ -952,26 +1132,81 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton Days after lane",
+            "name": "Pennsylvania",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton-days-after-lane.md",
+            "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "of North Washington Avenue",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/of-north-washington-avenue.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [
           {
-            "from": "Scranton Days",
-            "to": "Scranton Days after lane",
-            "type": "MEMBER_OF"
+            "from": "Pennsylvania American",
+            "to": "LACKAWANNA COUNTY",
+            "type": "REPORTED",
+            "verb": "reported"
           },
           {
-            "from": "Scranton Days after lane",
+            "from": "Pennsylvania",
+            "to": "LACKAWANNA COUNTY",
+            "type": "REPORTED",
+            "verb": "reported"
+          },
+          {
+            "from": "Pennsylvania",
             "to": "Scranton",
             "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "of North Washington Avenue",
+            "to": "Scranton",
+            "type": "LOCATED_NEAR"
+          },
+          {
+            "from": "WBRE",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "WYOU",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Wa</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REPORTED</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">REPORTED</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -982,14 +1217,20 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Days": "../entities/people/scranton-days.md",
+          "Downtown Scranton": "../entities/people/downtown-scranton.md",
+          "North Washington": "../entities/people/north-washington.md",
+          "Pennsylvania American": "../entities/people/pennsylvania-american.md",
           "Scranton": "../entities/locations/scranton.md",
-          "Scranton Days after lane": "../entities/locations/scranton-days-after-lane.md"
+          "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "of North Washington Avenue": "../entities/locations/of-north-washington-avenue.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
-      "source": "Wnep",
-      "publishedAt": "2026-11-18T22:28:58",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-interstate-81-lane-closures-lifting-biden-expressway-penndot/523-9eb5fc32-1a4a-4f1c-a125-b86e536efbef",
+      "source": "Wbre",
+      "publishedAt": "2026-11-20T01:45:08",
+      "url": "https://www.2822news.com/news/water-main-leak-uncovered-in-downtown-scranton/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
@@ -997,136 +1238,45 @@
     },
     {
       "id": "short_14",
-      "title": "Wilkes bests Lycoming in come from behind men's hoops 67-53 win",
-      "title_distilled": "Wilkes bests Lycoming in come from behind men's hoops 67-53 win.",
-      "description": "WILLIAMSPORT, LYCOMING COUNTY (WBRE/WYOU) \u2014Scranton Prep and Southern Columbia graduates combined for 27 points for Wilkes University as they secure their first Landmark Conference win against Lycoming college, 67-53. The Wilkes University Colonels were on the road to take on the Lycoming College Warriors in Williamsport. Early on, Lycoming's Elisha Slabach hit a three pointer [...]",
+      "title": "Cars catch fire in Lackawanna scrapyard",
+      "title_distilled": "Cars catch fire in Lackawanna scrapyard.",
+      "description": "ELMHURST TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Flames broke out at a scrapyard on Thursday in Lackawanna County. The fire started around noon at Rudy's Wrecking on Front Street in Elmhurst Township. The flames jumped from one junked car to the next, burning four total. The owner was able to stop the fire from spreading by [...]",
       "description_distilled": "",
-      "content": "WILLIAMSPORT, LYCOMING COUNTY (WBRE/WYOU) \u2014Scranton Prep and Southern Columbia graduates combined for 27 points for Wilkes University as they secure their first Landmark Conference win against Lycoming college, 67-53. The Wilkes University Colonels were on the road to take on the Lycoming College Warriors in Williamsport. Early on, Lycoming's Elisha Slabach hit a three pointer [...]",
-      "content_distilled": "WILLIAMSPORT, LYCOMING COUNTY  \u2014Scranton Prep and Southern Columbia graduates combined for 27 points for Wilkes University as they secure their first Landmark Conference win against Lycoming college, 67-53.",
+      "content": "ELMHURST TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Flames broke out at a scrapyard on Thursday in Lackawanna County. The fire started around noon at Rudy's Wrecking on Front Street in Elmhurst Township. The flames jumped from one junked car to the next, burning four total. The owner was able to stop the fire from spreading by [...]",
+      "content_distilled": "ELMHURST TOWNSHIP, LACKAWANNA COUNTY  \u2014 Flames broke out at a scrapyard on Thursday in Lackawanna County.",
       "graph": {
         "entities": [
           {
-            "name": "Scranton Prep",
+            "name": "Elmhurst Township",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scranton-prep.md",
+            "file_path": "../entities/people/elmhurst-township.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Southern Columbia",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/southern-columbia.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Wilkes University",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/wilkes-university.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Landmark Conference",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/landmark-conference.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Wilkes",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-wilkes.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "University Colonels",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/university-colonels.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Lycoming College",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/lycoming-college.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Elisha Slabach",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/elisha-slabach.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Scranton",
+            "name": "LACKAWANNA COUNTY",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "The Wilkes University",
+            "name": "WBRE",
             "type": "ORGANIZATION",
             "confidence": 0.5,
-            "file_path": "../entities/organizations/the-wilkes-university.md",
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Scranton Prep",
-            "to": "Wilkes University",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          },
-          {
-            "from": "Scranton Prep",
-            "to": "Landmark Conference",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          },
-          {
-            "from": "Scranton Prep",
-            "to": "Lycoming College",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          },
-          {
-            "from": "Southern Columbia",
-            "to": "Wilkes University",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          },
-          {
-            "from": "Southern Columbia",
-            "to": "Landmark Conference",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          },
-          {
-            "from": "Southern Columbia",
-            "to": "Lycoming College",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          },
-          {
-            "from": "Scranton",
-            "to": "Wilkes University",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          },
-          {
-            "from": "Scranton",
-            "to": "Landmark Conference",
-            "type": "GRADUATES",
-            "verb": "graduates"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Southern</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wilkes U</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Landmark</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Wilk</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Universi</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">GRADUATES</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">GRADUATES</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">GRADUATES</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">GRADUATES</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Elmhurst</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1137,21 +1287,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scranton Prep": "../entities/people/scranton-prep.md",
-          "Southern Columbia": "../entities/people/southern-columbia.md",
-          "Wilkes University": "../entities/people/wilkes-university.md",
-          "Landmark Conference": "../entities/people/landmark-conference.md",
-          "The Wilkes": "../entities/people/the-wilkes.md",
-          "University Colonels": "../entities/people/university-colonels.md",
-          "Lycoming College": "../entities/people/lycoming-college.md",
-          "Elisha Slabach": "../entities/people/elisha-slabach.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "The Wilkes University": "../entities/organizations/the-wilkes-university.md"
+          "Elmhurst Township": "../entities/people/elmhurst-township.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-11-19T04:42:04",
-      "url": "https://www.2822news.com/news/wilkes-bests-lycoming-in-come-from-behind-mens-hoops-67-53-win/",
+      "publishedAt": "2026-11-20T01:32:51",
+      "url": "https://www.2822news.com/news/local-news/cars-catch-fire-at-scrapyard/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
