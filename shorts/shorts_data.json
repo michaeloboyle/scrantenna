@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T11:04:01.985890",
-  "source_file": "../data/daily/scranton_news_2026-11-21.json",
-  "total_shorts": 15,
-  "total_duration": 120,
+  "generated_at": "2026-11-22T11:04:05.714594",
+  "source_file": "../data/daily/scranton_news_2026-11-22.json",
+  "total_shorts": 11,
+  "total_duration": 88,
   "has_svo": false,
   "shorts": [
     {
@@ -674,77 +674,38 @@
     },
     {
       "id": "short_8",
-      "title": "Brian Baumgartner visits University of Scranton to discuss new 'Office'-inspired book",
-      "title_distilled": "Brian Baumgartner visits University of Scranton to discuss new 'Office'-inspired book.",
-      "description": "Actor Brian Baumgartner, who played 'Kevin' on the hit show 'The Office,' stopped by the University of Scranton to discuss his new book.",
+      "title": "Vintage market at Montage Mountain kickstarts holiday shopping season in Lackawanna County",
+      "title_distilled": "Vintage market at Montage Mountain kickstarts holiday shopping season in Lackawanna County.",
+      "description": "The inaugural Montage Vintage and Thrift event in Lackawanna County showcased over 25 vendors.",
       "description_distilled": "",
-      "content": "Actor Brian Baumgartner, who played 'Kevin' on the hit show 'The Office,' stopped by the University of Scranton to discuss his new book.",
-      "content_distilled": "Actor Brian Baumgartner, who played 'Kevin' on the hit show 'The Office,' stopped by the University of Scranton to discuss his new book.",
+      "content": "The inaugural Montage Vintage and Thrift event in Lackawanna County showcased over 25 vendors.",
+      "content_distilled": "inaugural Montage Vintage and Thrift event in Lackawanna County showcased over 25 vendors.",
       "graph": {
         "entities": [
           {
-            "name": "Office",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/office.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Kevin",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/kevin.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Office,",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/the-office.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Brian Baumgartner",
+            "name": "Montage Mountain",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/brian-baumgartner.md",
+            "file_path": "../entities/people/montage-mountain.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Actor Brian",
+            "name": "Montage Vintage",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/actor-brian.md",
+            "file_path": "../entities/people/montage-vintage.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
+            "name": "Lackawanna County",
             "type": "LOCATION",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Office",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/the-office.md",
+            "file_path": "../entities/locations/lackawanna-county.md",
             "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Brian Baumgartner",
-            "to": "Scranton",
-            "type": "MEMBER_OF"
-          },
-          {
-            "from": "The Office",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Office</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Kevin</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Offi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Brian Ba</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Actor Br</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Montage </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Montage </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -755,18 +716,14 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Office": "../entities/works/movies/office.md",
-          "Kevin": "../entities/works/movies/kevin.md",
-          "The Office,": "../entities/works/movies/the-office.md",
-          "Brian Baumgartner": "../entities/people/brian-baumgartner.md",
-          "Actor Brian": "../entities/people/actor-brian.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "The Office": "../entities/organizations/the-office.md"
+          "Montage Mountain": "../entities/people/montage-mountain.md",
+          "Montage Vintage": "../entities/people/montage-vintage.md",
+          "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-21T02:14:19",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/brian-baumgartner-visits-university-of-scranton-to-discuss-new-office-inspired-book-lackawanna-county-kevin-malone/523-57931f14-661b-4697-9b23-ab2be252fa5e",
+      "publishedAt": "2026-11-21T23:40:38",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/vintage-market-at-montage-mountain-kickstarts-holiday-shopping-season-lackawanna-county/523-3b1dd410-cbb3-46d7-8701-da12403479ce",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
@@ -774,19 +731,26 @@
     },
     {
       "id": "short_9",
-      "title": "Santa Parade brings festive cheer to downtown Scranton this weekend",
-      "title_distilled": "Santa Parade brings festive cheer to downtown Scranton this weekend.",
-      "description": "The parade on Saturday morning marks the start of the holiday season.",
+      "title": "Lights set up for annual WEJL Tower Lighting Celebration",
+      "title_distilled": "Lights set up for annual WEJL Tower Lighting Celebration.",
+      "description": "The tower lighting takes place downtown Scranton on November 25th.",
       "description_distilled": "",
-      "content": "The parade on Saturday morning marks the start of the holiday season.",
-      "content_distilled": "parade on Saturday morning marks the start of the holiday season.",
+      "content": "The tower lighting takes place downtown Scranton on November 25th.",
+      "content_distilled": "tower lighting takes place downtown Scranton on November 25th.",
       "graph": {
         "entities": [
           {
-            "name": "Santa Parade",
+            "name": "Tower Lighting",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/santa-parade.md",
+            "file_path": "../entities/people/tower-lighting.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Celebration The",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/celebration-the.md",
             "resolution_method": "new_entity"
           },
           {
@@ -795,10 +759,23 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
+          },
+          {
+            "name": "Lights set up for annual WEJL Tower Lighting Celebration",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/lights-set-up-for-annual-wejl-tower-lighting-celebration.md",
+            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Pa</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "relationships": [
+          {
+            "from": "Lights set up for annual WEJL Tower Lighting Celebration",
+            "to": "Tower Lighting",
+            "type": "OCCURS_DURING"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Tower Li</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Celebrat</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lights s</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -809,13 +786,15 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Santa Parade": "../entities/people/santa-parade.md",
-          "Scranton": "../entities/locations/scranton.md"
+          "Tower Lighting": "../entities/people/tower-lighting.md",
+          "Celebration The": "../entities/people/celebration-the.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Lights set up for annual WEJL Tower Lighting Celebration": "../entities/events/lights-set-up-for-annual-wejl-tower-lighting-celebration.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-21T00:10:25",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/santa-parade-brings-festive-cheer-to-downtown-scranton-this-weekend-lackawanna-county/523-94d46d85-fe29-424b-9867-5f3d381897d5",
+      "publishedAt": "2026-11-21T23:36:33",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lights-set-up-for-annual-wejl-tower-lighting-celebration-lackawanna-county-scranton/523-38fa46ac-7ab1-4ec3-970d-db8fa599c9af",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
@@ -823,26 +802,19 @@
     },
     {
       "id": "short_10",
-      "title": "Regional Hospital expanding cardiac care with new machine in Scranton",
-      "title_distilled": "Regional Hospital expanding cardiac care with new machine in Scranton.",
-      "description": "The Northeastern PA Health Care Foundation donated the money for the machine.",
+      "title": "Scranton begins converting downtown streets to two-way traffic",
+      "title_distilled": "Scranton begins converting downtown streets to two-way traffic.",
+      "description": "Phase two of Scranton's Streetscapes Project brings significant changes for travelers coming through Downtown Scranton.",
       "description_distilled": "",
-      "content": "The Northeastern PA Health Care Foundation donated the money for the machine.",
-      "content_distilled": "Northeastern PA Health Care Foundation donated the money for the machine.",
+      "content": "Phase two of Scranton's Streetscapes Project brings significant changes for travelers coming through Downtown Scranton.",
+      "content_distilled": "Phase two of Scranton's Streetscapes Project brings significant changes for travelers coming through Downtown Scranton.",
       "graph": {
         "entities": [
           {
-            "name": "Regional Hospital",
+            "name": "Downtown Scranton",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/regional-hospital.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Health Care",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/health-care.md",
+            "file_path": "../entities/people/downtown-scranton.md",
             "resolution_method": "new_entity"
           },
           {
@@ -851,28 +823,10 @@
             "confidence": 0.5,
             "file_path": "../entities/locations/scranton.md",
             "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
           }
         ],
-        "relationships": [
-          {
-            "from": "Regional Hospital",
-            "to": "Scranton",
-            "type": "LOCATED_IN"
-          },
-          {
-            "from": "Pennsylvania",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Regional</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Health C</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_IN</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "relationships": [],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -883,332 +837,16 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Regional Hospital": "../entities/people/regional-hospital.md",
-          "Health Care": "../entities/people/health-care.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md"
+          "Downtown Scranton": "../entities/people/downtown-scranton.md",
+          "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-20T23:44:34",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/regional-hospital-expanding-cardiac-care-with-new-machine-scranton/523-c0af3ac3-3411-4f2b-8fa6-2f837b33cc73",
+      "publishedAt": "2026-11-21T23:27:48",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-begins-converting-downtown-streets-to-two-way-traffic-lackawanna-county/523-d53748f3-6043-4e9a-b7e3-97f6de34067d",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_11",
-      "title": "Local survivors of \"Mississippi Miracle\" file lawsuit",
-      "title_distilled": "Local survivors of \"Mississippi Miracle\" file lawsuit.",
-      "description": "Clarks Summit couple file the second lawsuit against the owner and operator of a tanker that collied with the American Heritage",
-      "description_distilled": "",
-      "content": "Clarks Summit couple file the second lawsuit against the owner and operator of a tanker that collied with the American Heritage",
-      "content_distilled": "Clarks Summit couple file the second lawsuit against the owner and operator of a tanker that collied with the American Heritage.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Mississippi Miracle",
-            "type": "WORK",
-            "confidence": 0.5,
-            "file_path": "../entities/works/movies/mississippi-miracle.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Clarks Summit",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/clarks-summit.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "American Heritage",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/american-heritage.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "file lawsuit Clarks Summit",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/file-lawsuit-clarks-summit.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#9C27B0\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Mississi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">WORK</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Clarks S</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">American</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">file law</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Mississippi Miracle": "../entities/works/movies/mississippi-miracle.md",
-          "Clarks Summit": "../entities/people/clarks-summit.md",
-          "American Heritage": "../entities/people/american-heritage.md",
-          "file lawsuit Clarks Summit": "../entities/events/file-lawsuit-clarks-summit.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-20T20:32:31",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/lawsuit-new-orleans-riverboat-crash-filed-scranton-clarks-summit-couple/523-9c8d6b2a-0cf2-4227-a790-49fc81fac06f",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_12",
-      "title": "Iconic WEJL tower gets holiday makeover",
-      "title_distilled": "Iconic WEJL tower gets holiday makeover.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 For a few weeks each year, the WEJL radio tower becomes something much more than a transmitter. Rising 296 feet above Scranton, the tower transforms into what many consider the city's biggest Christmas tree, lighting up the skyline as a holiday tradition that dates back more than six decades. The annual [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 For a few weeks each year, the WEJL radio tower becomes something much more than a transmitter. Rising 296 feet above Scranton, the tower transforms into what many consider the city's biggest Christmas tree, lighting up the skyline as a holiday tradition that dates back more than six decades. The annual [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 For a few weeks each year, the WEJL radio tower becomes something much more than a transmitter.",
-      "graph": {
-        "entities": [
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-21T04:20:14",
-      "url": "https://www.2822news.com/news/iconic-wejl-tower-gets-holiday-makeover/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_13",
-      "title": "Trojans go back-to-back; District champs crowned across NEPA",
-      "title_distilled": "Trojans go back-to-back; District champs crowned across NEPA.",
-      "description": "DALLAS, PA (WBRE/WYOU)\u2014 The PIAA District II Class 4A Championship game headlines the first weekend of football from the PIAA State Championships. Defending 4A champs, and second seeded North Pocono challenged unbeaten, and top seed Dallas for the title. Check out the highlights from the Mountaineers and Trojans below; as well as the rest of [...]",
-      "description_distilled": "",
-      "content": "DALLAS, PA (WBRE/WYOU)\u2014 The PIAA District II Class 4A Championship game headlines the first weekend of football from the PIAA State Championships. Defending 4A champs, and second seeded North Pocono challenged unbeaten, and top seed Dallas for the title. Check out the highlights from the Mountaineers and Trojans below; as well as the rest of [...]",
-      "content_distilled": "DALLAS, PA \u2014 The PIAA District II Class 4A Championship game headlines the first weekend of football from the PIAA State Championships.",
-      "graph": {
-        "entities": [
-          {
-            "name": "State Championships",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/state-championships.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "North Pocono",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/north-pocono.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Pennsylvania",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/pennsylvania.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Championship game",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/championship-game.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "Championship game",
-            "to": "State Championships",
-            "type": "MEMBER_OF"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">State Ch</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">North Po</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Champion</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">MEMBER_OF</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "State Championships": "../entities/people/state-championships.md",
-          "North Pocono": "../entities/people/north-pocono.md",
-          "Pennsylvania": "../entities/locations/pennsylvania.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md",
-          "Championship game": "../entities/events/championship-game.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-21T02:51:14",
-      "url": "https://www.2822news.com/sports/local-sports/trojans-go-back-to-back-district-champs-crowned-across-nepa/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Annual Santa parade returns to the Electric City",
-      "title_distilled": "Annual Santa parade returns to the Electric City.",
-      "description": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Scranton Santa Parade is scheduled to step off Friday morning at 9:15 a.m. in downtown Scranton. The annual procession brings a holiday tradition back to the Electric City, spreading holiday cheer ahead of the Christmas season. The procession will feature festive floats, marching bands, dancers as well as Santa [...]",
-      "description_distilled": "",
-      "content": "SCRANTON, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Scranton Santa Parade is scheduled to step off Friday morning at 9:15 a.m. in downtown Scranton. The annual procession brings a holiday tradition back to the Electric City, spreading holiday cheer ahead of the Christmas season. The procession will feature festive floats, marching bands, dancers as well as Santa [...]",
-      "content_distilled": "SCRANTON, LACKAWANNA COUNTY  \u2014 The Scranton Santa Parade is scheduled to step off Friday morning at 9:15 a.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Annual Santa",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/annual-santa.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Electric City",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/electric-city.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Scranton",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Santa Parade",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/santa-parade.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "SCRANTON",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "LACKAWANNA COUNTY",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/lackawanna-county.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Annual S</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Electric</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Santa Pa</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">SCRANTON</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Annual Santa": "../entities/people/annual-santa.md",
-          "Electric City": "../entities/people/electric-city.md",
-          "The Scranton": "../entities/people/the-scranton.md",
-          "Santa Parade": "../entities/people/santa-parade.md",
-          "SCRANTON": "../entities/locations/scranton.md",
-          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-21T02:08:29",
-      "url": "https://www.2822news.com/news/annual-santa-parade-returns-to-the-electric-city/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
       "animation_delay": 1.0
     }
   ]
