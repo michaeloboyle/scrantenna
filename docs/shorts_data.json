@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T11:03:47.546165",
-  "source_file": "../data/daily/scranton_news_2026-11-24.json",
+  "generated_at": "2026-11-25T11:04:42.698036",
+  "source_file": "../data/daily/scranton_news_2026-11-25.json",
   "total_shorts": 15,
   "total_duration": 120,
   "has_svo": false,
@@ -674,75 +674,33 @@
     },
     {
       "id": "short_8",
-      "title": "Downtown Scranton sees several streets change from one-way to two-way",
-      "title_distilled": "Downtown Scranton sees several streets change from one-way to two-way.",
-      "description": "Residents and businesses are adjusting to the next in a series of changes that were put in place Friday evening as part of the city's Streetscape Project.",
+      "title": "A new place to build a business in Lackawanna County",
+      "title_distilled": "new place to build a business in Lackawanna County.",
+      "description": "The new Carbondale Enterprise Center will be taking over for the longstanding Carbondale Technology Transfer Center.",
       "description_distilled": "",
-      "content": "Residents and businesses are adjusting to the next in a series of changes that were put in place Friday evening as part of the city's Streetscape Project.",
-      "content_distilled": "Residents and businesses are adjusting to the next in a series of changes that were put in place Friday evening as part of the city's Streetscape Project.",
+      "content": "The new Carbondale Enterprise Center will be taking over for the longstanding Carbondale Technology Transfer Center.",
+      "content_distilled": "new Carbondale Enterprise Center will be taking over for the longstanding Carbondale Technology Transfer Center.",
       "graph": {
         "entities": [
           {
-            "name": "Downtown Scranton",
+            "name": "Carbondale Enterprise",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/downtown-scranton.md",
+            "file_path": "../entities/people/carbondale-enterprise.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Downtown</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Downtown Scranton": "../entities/people/downtown-scranton.md",
-          "Scranton": "../entities/locations/scranton.md"
-        }
-      },
-      "source": "Wnep",
-      "publishedAt": "2026-11-24T03:48:43",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/downtown-scranton-sees-several-streets-change-from-one-way-to-two-way/523-426f0f11-83a2-4d30-80ec-82b0cc53118a",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
-      "animation_delay": 0.8
-    },
-    {
-      "id": "short_9",
-      "title": "50th annual Thanksgiving Community Program expected to feed thousands in Lackawanna County",
-      "title_distilled": "50th annual Thanksgiving Community Program expected to feed thousands in Lackawanna County.",
-      "description": "Volunteers were out in droves Monday in downtown Scranton, getting ready to provide a Thanksgiving dinner for 4,000 people.",
-      "description_distilled": "",
-      "content": "Volunteers were out in droves Monday in downtown Scranton, getting ready to provide a Thanksgiving dinner for 4,000 people.",
-      "content_distilled": "Volunteers were out in droves Monday in downtown Scranton, getting ready to provide a Thanksgiving dinner for 4,000 people.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Thanksgiving Community",
+            "name": "Carbondale Technology",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/thanksgiving-community.md",
+            "file_path": "../entities/people/carbondale-technology.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
+            "name": "Transfer Center",
+            "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
+            "file_path": "../entities/people/transfer-center.md",
             "resolution_method": "new_entity"
           },
           {
@@ -755,24 +713,12 @@
         ],
         "relationships": [
           {
-            "from": "Thanksgiving Community",
-            "to": "Scranton",
-            "type": "VOLUNTEERS",
-            "verb": "volunteers"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "VOLUNTEERS",
-            "verb": "volunteers"
-          },
-          {
-            "from": "Lackawanna County",
-            "to": "Scranton",
-            "type": "LOCATED_NEAR"
+            "from": "Carbondale Enterprise",
+            "to": "Carbondale Technology",
+            "type": "OCCURS_DURING"
           }
         ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Thanksgi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VOLUNTEERS</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">VOLUNTEERS</text><line x1=\"250\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATED_NEAR</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Carbonda</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Transfer</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><line x1=\"50\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OCCURS_DURING</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -783,27 +729,28 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Thanksgiving Community": "../entities/people/thanksgiving-community.md",
-          "Scranton": "../entities/locations/scranton.md",
+          "Carbondale Enterprise": "../entities/people/carbondale-enterprise.md",
+          "Carbondale Technology": "../entities/people/carbondale-technology.md",
+          "Transfer Center": "../entities/people/transfer-center.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-23T23:44:46",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/50th-annual-thanksgiving-community-program-expected-to-feed-thousands-friends-of-the-poor-catherine-mcauley-family-to-family/523-1492b8f2-d666-4569-acfc-b536b038e9eb",
+      "publishedAt": "2026-11-24T22:41:07",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/a-new-place-to-build-a-business-in-lackawanna-county-carbondale-enterprise-center/523-1ab6e7ce-f0a3-48a7-9478-10c3f3b09e11",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
-      "animation_delay": 0.9
+      "background_gradient": "linear-gradient(135deg, #82b1ff 0%, #b388ff 100%)",
+      "animation_delay": 0.8
     },
     {
-      "id": "short_10",
-      "title": "Lackawanna County issues Code Blue Alert for Tuesday night, Wednesday morning",
-      "title_distilled": "Lackawanna County issues Code Blue Alert for Tuesday night, Wednesday morning.",
-      "description": "The Code Blue Alert will be in effect Tuesday night through Wednesday morning.",
+      "id": "short_9",
+      "title": "Lackawanna County extends Code Blue Alert",
+      "title_distilled": "Lackawanna County extends Code Blue Alert.",
+      "description": "The Code Blue Alert has been extended and will be in effect from Tuesday night through Thursday morning.",
       "description_distilled": "",
-      "content": "The Code Blue Alert will be in effect Tuesday night through Wednesday morning.",
-      "content_distilled": "Code Blue Alert will be in effect Tuesday night through Wednesday morning.",
+      "content": "The Code Blue Alert has been extended and will be in effect from Tuesday night through Thursday morning.",
+      "content_distilled": "Code Blue Alert has been extended and will be in effect from Tuesday night through Thursday morning.",
       "graph": {
         "entities": [
           {
@@ -811,13 +758,6 @@
             "type": "PERSON",
             "confidence": 0.5,
             "file_path": "../entities/people/code-blue.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "The Code",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/the-code.md",
             "resolution_method": "new_entity"
           },
           {
@@ -835,22 +775,15 @@
             "resolution_method": "new_entity"
           },
           {
-            "name": "Lackawanna County issues Code Blue Alert",
+            "name": "Lackawanna County extends Code Blue Alert The Code Blue Alert",
             "type": "EVENT",
             "confidence": 0.5,
-            "file_path": "../entities/events/lackawanna-county-issues-code-blue-alert.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Wednesday morning The Code Blue Alert",
-            "type": "EVENT",
-            "confidence": 0.5,
-            "file_path": "../entities/events/wednesday-morning-the-code-blue-alert.md",
+            "file_path": "../entities/events/lackawanna-county-extends-code-blue-alert-the-code-blue-alert.md",
             "resolution_method": "new_entity"
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Code Blu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Code</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blue Ale</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wednesda</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Code Blu</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Blue Ale</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Lackawan</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -862,31 +795,36 @@
         },
         "entity_files": {
           "Code Blue": "../entities/people/code-blue.md",
-          "The Code": "../entities/people/the-code.md",
           "Blue Alert": "../entities/people/blue-alert.md",
           "Lackawanna County": "../entities/locations/lackawanna-county.md",
-          "Lackawanna County issues Code Blue Alert": "../entities/events/lackawanna-county-issues-code-blue-alert.md",
-          "Wednesday morning The Code Blue Alert": "../entities/events/wednesday-morning-the-code-blue-alert.md"
+          "Lackawanna County extends Code Blue Alert The Code Blue Alert": "../entities/events/lackawanna-county-extends-code-blue-alert-the-code-blue-alert.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-23T22:25:36",
+      "publishedAt": "2026-11-24T15:21:53",
       "url": "https://www.wnep.com/article/news/local/lackawanna-county/lackawanna-county-issues-code-blue-alert-for-tuesday-night-wednesday-morning-wind-chill-termperatures/523-2d1859c1-6430-4ed3-9006-6ee144720e16",
       "urlToImage": "",
       "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      "animation_delay": 1.0
+      "background_gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+      "animation_delay": 0.9
     },
     {
-      "id": "short_11",
-      "title": "Repairs underway on water main break in Scranton",
-      "title_distilled": "Repairs underway on water main break in Scranton.",
-      "description": "A 16-inch main broke early Monday morning.",
+      "id": "short_10",
+      "title": "Three displaced after Scranton apartment fire days before Thanksgiving",
+      "title_distilled": "Three displaced after Scranton apartment fire days before Thanksgiving.",
+      "description": "Days before Thanksgiving, an attic fire spread through a three-unit Scranton apartment building, displacing three residents. No one was hurt; the cause is unknown.",
       "description_distilled": "",
-      "content": "A 16-inch main broke early Monday morning.",
-      "content_distilled": "16-inch main broke early Monday morning.",
+      "content": "Days before Thanksgiving, an attic fire spread through a three-unit Scranton apartment building, displacing three residents. No one was hurt; the cause is unknown.",
+      "content_distilled": "Days before Thanksgiving, an attic fire spread through a three-unit Scranton apartment building, displacing three residents.",
       "graph": {
         "entities": [
+          {
+            "name": "Thanksgiving Days",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/thanksgiving-days.md",
+            "resolution_method": "new_entity"
+          },
           {
             "name": "Scranton",
             "type": "LOCATION",
@@ -896,7 +834,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Thanksgi</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -907,12 +845,105 @@
           "total_relationships": 0
         },
         "entity_files": {
+          "Thanksgiving Days": "../entities/people/thanksgiving-days.md",
           "Scranton": "../entities/locations/scranton.md"
         }
       },
       "source": "Wnep",
-      "publishedAt": "2026-11-23T15:44:14",
-      "url": "https://www.wnep.com/article/news/local/lackawanna-county/repairs-underway-on-water-main-break-in-scranton-lackawanna-county/523-078afd72-97f5-4990-b6bd-61b02428b931",
+      "publishedAt": "2026-11-24T13:39:39",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/three-displaced-after-scranton-apartment-fire-days-before-thanksgiving/523-e3e2ac31-8817-4529-8507-a08ccbbfa86c",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_11",
+      "title": "Scranton Fire Department mourns passing of active-duty Captain Thomas McColligan",
+      "title_distilled": "Scranton Fire Department mourns passing of active-duty Captain Thomas McColligan.",
+      "description": "The Scranton Fire Department is mourning the passing of active-duty Captain Thomas McColligan, who served the city for more than 20 years before passing away.",
+      "description_distilled": "",
+      "content": "The Scranton Fire Department is mourning the passing of active-duty Captain Thomas McColligan, who served the city for more than 20 years before passing away.",
+      "content_distilled": "Scranton Fire Department is mourning the passing of active-duty Captain Thomas McColligan, who served the city for more than 20 years before passing away.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Scranton Fire",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/scranton-fire.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Captain Thomas",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/captain-thomas.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/the-scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/scranton.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Scranton Fire Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/scranton-fire-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Scranton Fire Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/the-scranton-fire-department.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "Scranton Fire Department",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          },
+          {
+            "from": "The Scranton Fire Department",
+            "to": "Scranton",
+            "type": "OPERATES_IN"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Captain </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Scra</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"250\" y1=\"110\" x2=\"50\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Scranton Fire": "../entities/people/scranton-fire.md",
+          "Captain Thomas": "../entities/people/captain-thomas.md",
+          "The Scranton": "../entities/people/the-scranton.md",
+          "Scranton": "../entities/locations/scranton.md",
+          "Scranton Fire Department": "../entities/organizations/scranton-fire-department.md",
+          "The Scranton Fire Department": "../entities/organizations/the-scranton-fire-department.md"
+        }
+      },
+      "source": "Wnep",
+      "publishedAt": "2026-11-24T11:45:23",
+      "url": "https://www.wnep.com/article/news/local/lackawanna-county/scranton-fire-department-mourns-passing-active-duty-captain-thomas-mccolligan/523-dc299121-86b8-4f04-86e2-bc071cf94b28",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
@@ -920,26 +951,33 @@
     },
     {
       "id": "short_12",
-      "title": "Community calls for regulations on warehouse development",
-      "title_distilled": "Community calls for regulations on warehouse development.",
-      "description": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scott Township residents called for tighter regulations on warehouse development during a Board of Supervisors meeting Monday night in Lackawanna County. The discussion focused on a proposed warehouse and logistics ordinance submitted to township officials by the advocacy group Protect Rural Lackawanna County. The organization submitted the measure to [...]",
+      "title": "Farm sells out of turkey, over 9K birds sold",
+      "title_distilled": "Farm sells out of turkey, over 9K birds sold.",
+      "description": "SOUTH ABINGTON TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Pallman Farms in South Abington Township, Lackawanna County, has officially sold out of fresh Thanksgiving turkeys after selling 9,000 birds. Owners of the farm reported that demand was higher than ever during an extremely busy season, leading them to close orders for the holiday. Wade Goria, a customer [...]",
       "description_distilled": "",
-      "content": "SCOTT TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Scott Township residents called for tighter regulations on warehouse development during a Board of Supervisors meeting Monday night in Lackawanna County. The discussion focused on a proposed warehouse and logistics ordinance submitted to township officials by the advocacy group Protect Rural Lackawanna County. The organization submitted the measure to [...]",
-      "content_distilled": "SCOTT TOWNSHIP, LACKAWANNA COUNTY  \u2014 Scott Township residents called for tighter regulations on warehouse development during a Board of Supervisors meeting Monday night in Lackawanna County.",
+      "content": "SOUTH ABINGTON TOWNSHIP, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 Pallman Farms in South Abington Township, Lackawanna County, has officially sold out of fresh Thanksgiving turkeys after selling 9,000 birds. Owners of the farm reported that demand was higher than ever during an extremely busy season, leading them to close orders for the holiday. Wade Goria, a customer [...]",
+      "content_distilled": "SOUTH ABINGTON TOWNSHIP, LACKAWANNA COUNTY  \u2014 Pallman Farms in South Abington Township, Lackawanna County, has officially sold out of fresh Thanksgiving turkeys after selling 9,000 birds.",
       "graph": {
         "entities": [
           {
-            "name": "Scott Township",
+            "name": "Pallman Farms",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/scott-township.md",
+            "file_path": "../entities/people/pallman-farms.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Protect Rural",
+            "name": "South Abington",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/protect-rural.md",
+            "file_path": "../entities/people/south-abington.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Wade Goria",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/wade-goria.md",
             "resolution_method": "new_entity"
           },
           {
@@ -965,7 +1003,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scott To</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Protect </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pallman </text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">South Ab</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Wade Gor</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -976,16 +1014,17 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Scott Township": "../entities/people/scott-township.md",
-          "Protect Rural": "../entities/people/protect-rural.md",
+          "Pallman Farms": "../entities/people/pallman-farms.md",
+          "South Abington": "../entities/people/south-abington.md",
+          "Wade Goria": "../entities/people/wade-goria.md",
           "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-11-24T04:27:28",
-      "url": "https://www.2822news.com/news/local-news/community-calls-for-regulations-on-warehouse-development/",
+      "publishedAt": "2026-11-25T00:57:47",
+      "url": "https://www.2822news.com/news/local-news/farm-sells-out-of-turkey-over-9k-birds-sold/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
@@ -993,145 +1032,33 @@
     },
     {
       "id": "short_13",
-      "title": "Concerns linger after system glitches ahead of holiday flights",
-      "title_distilled": "Concerns linger after system glitches ahead of holiday flights.",
-      "description": "AVOCA, LUZERNE COUNTY (WBRE/WYOU) \u2014 Flights and operations ran smoothly Monday at Wilkes-Barre Scranton International Airport as passengers began their holiday travel, despite concerns following recent system glitches that halted air traffic across the country. Many people are scheduled to travel throughout the week for the Thanksgiving holiday. The steady pace at the airport in [...]",
+      "title": "Dunmore DMV reopens after recent renovations",
+      "title_distilled": "Dunmore DMV reopens after recent renovations.",
+      "description": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Dunmore Driver's License Center in Lackawanna County has reopened for business, the Pennsylvania Department of Transportation (PennDOT) announced. The facility had been closed for nearly a month while undergoing a series of renovations ahead of the holiday travel rush. The Pennsylvania Department of Transportation reopened the facility following site [...]",
       "description_distilled": "",
-      "content": "AVOCA, LUZERNE COUNTY (WBRE/WYOU) \u2014 Flights and operations ran smoothly Monday at Wilkes-Barre Scranton International Airport as passengers began their holiday travel, despite concerns following recent system glitches that halted air traffic across the country. Many people are scheduled to travel throughout the week for the Thanksgiving holiday. The steady pace at the airport in [...]",
-      "content_distilled": "AVOCA, LUZERNE COUNTY  \u2014 Flights and operations ran smoothly Monday at Wilkes-Barre Scranton International Airport as passengers began their holiday travel, despite concerns following recent system glitches that halted air traffic across the country.",
+      "content": "DUNMORE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 The Dunmore Driver's License Center in Lackawanna County has reopened for business, the Pennsylvania Department of Transportation (PennDOT) announced. The facility had been closed for nearly a month while undergoing a series of renovations ahead of the holiday travel rush. The Pennsylvania Department of Transportation reopened the facility following site [...]",
+      "content_distilled": "DUNMORE, LACKAWANNA COUNTY  \u2014 The Dunmore Driver's License Center in Lackawanna County has reopened for business, the Pennsylvania Department of Transportation  announced.",
       "graph": {
         "entities": [
           {
-            "name": "Barre Scranton",
+            "name": "The Dunmore",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/barre-scranton.md",
+            "file_path": "../entities/people/the-dunmore.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "International Airport",
+            "name": "License Center",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/international-airport.md",
+            "file_path": "../entities/people/license-center.md",
             "resolution_method": "new_entity"
           },
           {
-            "name": "Scranton",
-            "type": "LOCATION",
-            "confidence": 0.5,
-            "file_path": "../entities/locations/scranton.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WBRE",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wbre.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "WYOU",
-            "type": "ORGANIZATION",
-            "confidence": 0.5,
-            "file_path": "../entities/organizations/wyou.md",
-            "resolution_method": "new_entity"
-          }
-        ],
-        "relationships": [
-          {
-            "from": "WBRE",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          },
-          {
-            "from": "WYOU",
-            "to": "Scranton",
-            "type": "OPERATES_IN"
-          }
-        ],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Barre Sc</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Internat</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Scranton</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">OPERATES_IN</text></svg>",
-        "method": "rule_based_with_obsidian",
-        "confidence": 0.5,
-        "vault_statistics": {
-          "total_entities": 0,
-          "by_type": {},
-          "high_confidence": 0,
-          "low_confidence": 0,
-          "total_relationships": 0
-        },
-        "entity_files": {
-          "Barre Scranton": "../entities/people/barre-scranton.md",
-          "International Airport": "../entities/people/international-airport.md",
-          "Scranton": "../entities/locations/scranton.md",
-          "WBRE": "../entities/organizations/wbre.md",
-          "WYOU": "../entities/organizations/wyou.md"
-        }
-      },
-      "source": "Wbre",
-      "publishedAt": "2026-11-24T02:26:22",
-      "url": "https://www.2822news.com/news/local-news/concerns-linger-after-system-glitches-ahead-of-holiday-flights/",
-      "urlToImage": "",
-      "duration": 10000,
-      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-      "animation_delay": 1.0
-    },
-    {
-      "id": "short_14",
-      "title": "Harang Granville: Striking the Right Note at upcoming parade",
-      "title_distilled": "Harang Granville: Striking the Right Note at upcoming parade.",
-      "description": "(WBRE/WYOU) \u2014 A Thanksgiving Day tradition for many is to watch the annual Macy's Thanksgiving Day Parade. One Northeastern Pennsylvania teenager will do much more than just watch; She is performing in it. 28/22 News Anchor Mark Hiller introduces us to this week's Here's To You, Kid! Practicing the scales on her piccolo is something [...]",
-      "description_distilled": "",
-      "content": "(WBRE/WYOU) \u2014 A Thanksgiving Day tradition for many is to watch the annual Macy's Thanksgiving Day Parade. One Northeastern Pennsylvania teenager will do much more than just watch; She is performing in it. 28/22 News Anchor Mark Hiller introduces us to this week's Here's To You, Kid! Practicing the scales on her piccolo is something [...]",
-      "content_distilled": " \u2014 A Thanksgiving Day tradition for many is to watch the annual Macy's Thanksgiving Day Parade.",
-      "graph": {
-        "entities": [
-          {
-            "name": "Harang Granville",
+            "name": "The Pennsylvania",
             "type": "PERSON",
             "confidence": 0.5,
-            "file_path": "../entities/people/harang-granville.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Right Note",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/right-note.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Thanksgiving Day",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/thanksgiving-day.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Thanksgiving Day Parade",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/thanksgiving-day-parade.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "One Northeastern",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/one-northeastern.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "News Anchor",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/news-anchor.md",
-            "resolution_method": "new_entity"
-          },
-          {
-            "name": "Mark Hiller",
-            "type": "PERSON",
-            "confidence": 0.5,
-            "file_path": "../entities/people/mark-hiller.md",
+            "file_path": "../entities/people/the-pennsylvania.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1139,6 +1066,27 @@
             "type": "LOCATION",
             "confidence": 0.5,
             "file_path": "../entities/locations/pennsylvania.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "Pennsylvania Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/pennsylvania-department.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The Pennsylvania Department",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/the-pennsylvania-department.md",
             "resolution_method": "new_entity"
           },
           {
@@ -1157,7 +1105,7 @@
           }
         ],
         "relationships": [],
-        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Harang G</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Right No</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Thanksgi</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Thanksgi</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">One Nort</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">News Anc</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text></svg>",
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Dunm</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">License </text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">The Penn</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Pennsylv</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text></svg>",
         "method": "rule_based_with_obsidian",
         "confidence": 0.5,
         "vault_statistics": {
@@ -1168,21 +1116,158 @@
           "total_relationships": 0
         },
         "entity_files": {
-          "Harang Granville": "../entities/people/harang-granville.md",
-          "Right Note": "../entities/people/right-note.md",
-          "Thanksgiving Day": "../entities/people/thanksgiving-day.md",
-          "Thanksgiving Day Parade": "../entities/people/thanksgiving-day-parade.md",
-          "One Northeastern": "../entities/people/one-northeastern.md",
-          "News Anchor": "../entities/people/news-anchor.md",
-          "Mark Hiller": "../entities/people/mark-hiller.md",
+          "The Dunmore": "../entities/people/the-dunmore.md",
+          "License Center": "../entities/people/license-center.md",
+          "The Pennsylvania": "../entities/people/the-pennsylvania.md",
           "Pennsylvania": "../entities/locations/pennsylvania.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "Pennsylvania Department": "../entities/organizations/pennsylvania-department.md",
+          "The Pennsylvania Department": "../entities/organizations/the-pennsylvania-department.md",
           "WBRE": "../entities/organizations/wbre.md",
           "WYOU": "../entities/organizations/wyou.md"
         }
       },
       "source": "Wbre",
-      "publishedAt": "2026-11-24T02:10:47",
-      "url": "https://www.2822news.com/nepas-children-first/heres-to-you-kid/harang-granville-striking-the-right-note-at-upcoming-parade/",
+      "publishedAt": "2026-11-25T00:37:17",
+      "url": "https://www.2822news.com/news/local-news/dunmore-dmv-reopens-after-recent-renovations/",
+      "urlToImage": "",
+      "duration": 10000,
+      "background_gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+      "animation_delay": 1.0
+    },
+    {
+      "id": "short_14",
+      "title": "Identifying, stopping human trafficking at regional conference",
+      "title_distilled": "Identifying, stopping human trafficking at regional conference.",
+      "description": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 220 advocates, local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference. Participants met to examine methods to identify and stop human trafficking across area communities. Attendees from 14 counties took part in the Lackawanna County event. The conference [...]",
+      "description_distilled": "",
+      "content": "CARBONDALE, LACKAWANNA COUNTY (WBRE/WYOU) \u2014 More than 220 advocates, local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference. Participants met to examine methods to identify and stop human trafficking across area communities. Attendees from 14 counties took part in the Lackawanna County event. The conference [...]",
+      "content_distilled": "CARBONDALE, LACKAWANNA COUNTY  \u2014 More than 220 advocates, local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference.",
+      "graph": {
+        "entities": [
+          {
+            "name": "Regional Human",
+            "type": "PERSON",
+            "confidence": 0.5,
+            "file_path": "../entities/people/regional-human.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "LACKAWANNA COUNTY",
+            "type": "LOCATION",
+            "confidence": 0.5,
+            "file_path": "../entities/locations/lackawanna-county.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WBRE",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wbre.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "WYOU",
+            "type": "ORGANIZATION",
+            "confidence": 0.5,
+            "file_path": "../entities/organizations/wyou.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "stopping human trafficking at regional conference",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/stopping-human-trafficking-at-regional-conference.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/local-leaders-and-law-enforcement-personnel-gathered-in-carbondale-on-tuesday-for-the-annual-regional-human-trafficking-training-conference.md",
+            "resolution_method": "new_entity"
+          },
+          {
+            "name": "The conference",
+            "type": "EVENT",
+            "confidence": 0.5,
+            "file_path": "../entities/events/the-conference.md",
+            "resolution_method": "new_entity"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "Regional Human",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          },
+          {
+            "from": "WBRE",
+            "to": "Regional Human",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          },
+          {
+            "from": "WYOU",
+            "to": "Regional Human",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          },
+          {
+            "from": "stopping human trafficking at regional conference",
+            "to": "Regional Human",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          },
+          {
+            "from": "LACKAWANNA COUNTY",
+            "to": "local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          },
+          {
+            "from": "WBRE",
+            "to": "local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          },
+          {
+            "from": "WYOU",
+            "to": "local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          },
+          {
+            "from": "stopping human trafficking at regional conference",
+            "to": "local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference",
+            "type": "ADVOCATES",
+            "verb": "advocates"
+          }
+        ],
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" class=\"graph-svg\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#FF6B6B\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">Regional</text><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">PERSON</text><circle cx=\"150\" cy=\"50\" r=\"20\" fill=\"#45B7D1\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">LACKAWAN</text><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">LOCATION</text><circle cx=\"250\" cy=\"50\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WBRE</text><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"50\" cy=\"110\" r=\"20\" fill=\"#4ECDC4\" stroke=\"white\" stroke-width=\"2\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">WYOU</text><text x=\"50\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ORGANIZATION</text><circle cx=\"150\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">stopping</text><text x=\"150\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><circle cx=\"250\" cy=\"110\" r=\"20\" fill=\"#AB47BC\" stroke=\"white\" stroke-width=\"2\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"white\" font-size=\"10\" font-weight=\"bold\">local le</text><text x=\"250\" y=\"145\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">EVENT</text><line x1=\"150\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"250\" y1=\"50\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"50\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"50\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"150\" y1=\"110\" x2=\"50\" y2=\"50\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"100\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"150\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"250\" y1=\"50\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"250\" y=\"80\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"50\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"150\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text><line x1=\"150\" y1=\"110\" x2=\"250\" y2=\"110\" stroke=\"white\" stroke-width=\"1\" opacity=\"0.7\"/><text x=\"200\" y=\"110\" text-anchor=\"middle\" fill=\"white\" font-size=\"8\">ADVOCATES</text></svg>",
+        "method": "rule_based_with_obsidian",
+        "confidence": 0.5,
+        "vault_statistics": {
+          "total_entities": 0,
+          "by_type": {},
+          "high_confidence": 0,
+          "low_confidence": 0,
+          "total_relationships": 0
+        },
+        "entity_files": {
+          "Regional Human": "../entities/people/regional-human.md",
+          "LACKAWANNA COUNTY": "../entities/locations/lackawanna-county.md",
+          "WBRE": "../entities/organizations/wbre.md",
+          "WYOU": "../entities/organizations/wyou.md",
+          "stopping human trafficking at regional conference": "../entities/events/stopping-human-trafficking-at-regional-conference.md",
+          "local leaders and law enforcement personnel gathered in Carbondale on Tuesday for the annual Regional Human trafficking training conference": "../entities/events/local-leaders-and-law-enforcement-personnel-gathered-in-carbondale-on-tuesday-for-the-annual-regional-human-trafficking-training-conference.md",
+          "The conference": "../entities/events/the-conference.md"
+        }
+      },
+      "source": "Wbre",
+      "publishedAt": "2026-11-25T00:24:03",
+      "url": "https://www.2822news.com/news/local-news/identifying-stopping-human-trafficking-at-regional-conference/",
       "urlToImage": "",
       "duration": 10000,
       "background_gradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
